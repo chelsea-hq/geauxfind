@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+  --cajun-red: #8b1a1a;
+  --bayou-gold: #d4a017;
+  --accent-moss: #4a7c59;
+  --cream-bg: #fff8f0;
+  --cast-iron: #1c1c1c;
+  --warm-gray: #6b5b4f;
+}
+
+body {
+  font-family: var(--font-body), system-ui, sans-serif;
+  background: var(--cream-bg);
+  color: var(--cast-iron);
+}
+
+h1,h2,h3,h4 {
+  font-family: var(--font-display), Georgia, serif;
+}
