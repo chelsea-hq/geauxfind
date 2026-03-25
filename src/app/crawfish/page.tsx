@@ -6,6 +6,7 @@ import { NewsletterSignup } from "@/components/sections/NewsletterSignup";
 import crawfishData from "../../../data/crawfish-season.json";
 
 type Spot = (typeof crawfishData.spots)[number];
+type ExtraSpot = Spot & { phone?: string | null };
 type CityFilter = "All" | "Lafayette" | "Broussard" | "Youngsville" | "Breaux Bridge" | "Other";
 type SortOption = "Best Price" | "Near Me" | "Drive-Thru" | "Dine-In";
 
@@ -50,8 +51,14 @@ export default function CrawfishPage() {
     return crawfishData.events.filter((event) => new Date(`${event.endDate}T23:59:59`) >= now);
   }, []);
 
+  const curatedSpots = crawfishData.spots.slice(0, 18);
+  const extraSpots: ExtraSpot[] = (crawfishData as typeof crawfishData & { extraSpots?: ExtraSpot[] }).extraSpots ?? [];
+  const lastUpdatedLabel = crawfishData.priceTracker.lastUpdated
+    ? new Date(crawfishData.priceTracker.lastUpdated).toLocaleString()
+    : null;
+
   const visibleSpots = useMemo(() => {
-    const filtered = crawfishData.spots.filter((spot) => {
+    const filtered = curatedSpots.filter((spot) => {
       if (cityFilter === "All") return true;
       if (cityFilter === "Other") {
         return !["Lafayette", "Broussard", "Youngsville", "Breaux Bridge"].includes(spot.city);
@@ -98,7 +105,7 @@ export default function CrawfishPage() {
     });
 
     return sorted;
-  }, [cityFilter, sortBy, userLocation]);
+  }, [cityFilter, sortBy, userLocation, curatedSpots]);
 
   return (
     <main className="pb-12">
@@ -122,15 +129,24 @@ export default function CrawfishPage() {
               <p className="mt-2 text-[var(--warm-gray)]">{crawfishData.priceTracker.trend}</p>
               <p className="mt-1 text-[var(--warm-gray)]">{crawfishData.priceTracker.bestDealTip}</p>
               <p className="mt-1 text-sm text-[var(--warm-gray)]">{crawfishData.priceTracker.source}</p>
+              {lastUpdatedLabel ? <p className="mt-1 text-xs text-[var(--warm-gray)]">Last updated: {lastUpdatedLabel}</p> : null}
             </div>
-            <Link
-              href={crawfishData.priceTracker.sourceLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex min-h-11 items-center justify-center rounded-full bg-[var(--bayou-gold)] px-5 py-2 font-semibold text-[var(--cast-iron)]"
-            >
-              See live prices
-            </Link>
+            <div className="flex flex-col items-start gap-2 md:items-end">
+              <Link
+                href={crawfishData.priceTracker.sourceLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex min-h-11 items-center justify-center rounded-full bg-[var(--bayou-gold)] px-5 py-2 font-semibold text-[var(--cast-iron)]"
+              >
+                See live prices
+              </Link>
+              <p className="text-xs text-[var(--warm-gray)]">
+                Prices via{" "}
+                <Link href={crawfishData.priceTracker.sourceLink} target="_blank" rel="noopener noreferrer" className="underline">
+                  The Crawfish App
+                </Link>
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -213,6 +229,26 @@ export default function CrawfishPage() {
           ))}
         </div>
       </section>
+
+      {extraSpots.length > 0 ? (
+        <section className="mx-auto mt-10 max-w-6xl px-4">
+          <div className="flex items-end justify-between gap-4">
+            <h2 className="text-3xl text-[var(--cajun-red)]">More Crawfish Spots</h2>
+            <p className="text-sm text-[var(--warm-gray)]">Additional listings from The Crawfish App</p>
+          </div>
+          <div className="mt-5 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+            {extraSpots.map((spot) => (
+              <article key={`${spot.name}-${spot.address}`} className="rounded-2xl border border-[var(--warm-gray)]/15 bg-white p-5 shadow-sm">
+                <h3 className="text-xl text-[var(--cajun-red)]">{spot.name}</h3>
+                <p className="mt-1 text-sm text-[var(--warm-gray)]">{spot.address}, {spot.city}</p>
+                <p className="mt-1 text-sm text-[var(--warm-gray)]">{spot.hours}</p>
+                <p className="mt-3 rounded-lg bg-[#FFF8F0] px-3 py-2 text-sm font-semibold text-[var(--cast-iron)]">{spot.priceSummary}</p>
+                {spot.phone ? <p className="mt-2 text-sm text-[var(--warm-gray)]">Phone: {spot.phone}</p> : null}
+              </article>
+            ))}
+          </div>
+        </section>
+      ) : null}
 
       <section className="mx-auto mt-12 max-w-6xl px-4">
         <h2 className="text-3xl text-[var(--cajun-red)]">Crawfish Season 101</h2>
