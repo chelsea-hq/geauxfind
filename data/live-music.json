@@ -3,43 +3,11 @@
   "lastUpdated": "2026-03-25",
   "venues": [
     {
-      "slug": "blue-moon-saloon",
-      "name": "Blue Moon Saloon & Guesthouse",
-      "locations": ["Lafayette"],
-      "musicNights": [
-        {
-          "day": "Thursday",
-          "dayIndex": 4,
-          "description": "Live music – various genres",
-          "hours": "8:00 PM – close",
-          "genre": "Cajun / Zydeco / Blues / Roots"
-        },
-        {
-          "day": "Friday",
-          "dayIndex": 5,
-          "description": "Live music – various genres",
-          "hours": "8:00 PM – close",
-          "genre": "Cajun / Zydeco / Blues / Roots"
-        },
-        {
-          "day": "Saturday",
-          "dayIndex": 6,
-          "description": "Live music – various genres",
-          "hours": "8:00 PM – close",
-          "genre": "Cajun / Zydeco / Blues / Roots"
-        }
-      ],
-      "genres": ["Cajun", "Zydeco", "Blues", "Roots", "Honky-tonk"],
-      "cover": "Varies by show – check website",
-      "vibe": "Historic 1900s home turned iconic music venue & boutique guesthouse. Intimate, eclectic, nationally acclaimed.",
-      "website": "https://www.bluemoonpresents.com",
-      "category": "Bar / Music Venue / Guesthouse",
-      "notes": "Voted one of the Best Bars in America by Esquire. Happy hour 5 PM with $3 Crown, $3 Jameson, $4 local beers. Check live music calendar online for full schedule."
-    },
-    {
       "slug": "artmosphere",
       "name": "Artmosphere",
-      "locations": ["Lafayette"],
+      "locations": [
+        "Lafayette"
+      ],
       "musicNights": [
         {
           "day": "Monday",
@@ -91,72 +59,328 @@
           "genre": "Various"
         }
       ],
-      "genres": ["Zydeco", "Indie", "Cajun", "Various"],
+      "genres": [
+        "Zydeco",
+        "Indie",
+        "Cajun",
+        "Various"
+      ],
       "cover": "Varies by show",
       "vibe": "Artist-focused bistro by day, lively live music venue by night. Covered in local artwork, large patio, full bar with specialty cocktails.",
       "website": "https://www.artmospherelafayette.com",
       "category": "Bar / Restaurant / Music Venue",
-      "notes": "Live music 7 days a week. One of Acadiana's top indie music venues. Located at 902 Johnston St, Lafayette. Bottomless brunch available."
+      "notes": "Live music 7 days a week. One of Acadiana's top indie music venues. Located at 902 Johnston St, Lafayette. Bottomless brunch available.",
+      "isRestaurant": true
     },
     {
-      "slug": "randols",
-      "name": "Randol's Restaurant & Cajun Dance Hall",
-      "locations": ["Lafayette"],
+      "slug": "bon-temps-grill",
+      "name": "Bon Temps Grill",
+      "locations": [
+        "Lafayette"
+      ],
       "musicNights": [
+        {
+          "day": "Monday",
+          "dayIndex": 1,
+          "description": "Live music during dinner",
+          "hours": "6:00 PM – 9:00 PM",
+          "genre": "Variety"
+        },
         {
           "day": "Tuesday",
           "dayIndex": 2,
-          "description": "Live Cajun music and dancing",
-          "hours": "6:30 PM – close",
-          "genre": "Cajun"
+          "description": "Live music during dinner",
+          "hours": "6:00 PM – 9:00 PM",
+          "genre": "Variety"
         },
         {
           "day": "Wednesday",
           "dayIndex": 3,
-          "description": "Live Cajun music and dancing",
-          "hours": "6:30 PM – close",
-          "genre": "Cajun"
+          "description": "Live music during dinner",
+          "hours": "6:00 PM – 9:00 PM",
+          "genre": "Variety"
         },
         {
           "day": "Thursday",
           "dayIndex": 4,
-          "description": "Live Cajun music and dancing",
-          "hours": "6:30 PM – close",
-          "genre": "Cajun"
+          "description": "Live music during dinner",
+          "hours": "6:00 PM – 9:00 PM",
+          "genre": "Variety"
         },
         {
           "day": "Friday",
           "dayIndex": 5,
-          "description": "Live Cajun music and dancing",
-          "hours": "6:30 PM – close",
+          "description": "Live music during dinner",
+          "hours": "6:00 PM – 9:00 PM",
+          "genre": "Variety"
+        },
+        {
+          "day": "Saturday",
+          "dayIndex": 6,
+          "description": "Live music during brunch & dinner",
+          "hours": "10:00 AM – 2:00 PM, 6:00 PM – 9:00 PM",
+          "genre": "Variety"
+        },
+        {
+          "day": "Sunday",
+          "dayIndex": 0,
+          "description": "Live music during brunch",
+          "hours": "10:00 AM – 2:00 PM",
+          "genre": "Variety"
+        }
+      ],
+      "genres": [
+        "Cajun",
+        "Blues",
+        "Jazz",
+        "Variety"
+      ],
+      "cover": "Free",
+      "vibe": "Upscale Cajun restaurant with nightly live music",
+      "website": "https://bontempsgrill.com",
+      "category": "Restaurant",
+      "notes": "Live music 7 days a week — one of the best dinner-and-music combos in Lafayette. Swamp-edge cuisine in an urban Cajun atmosphere.",
+      "isRestaurant": true
+    },
+    {
+      "slug": "buck-and-johnnys",
+      "name": "Buck & Johnny's",
+      "locations": [
+        "Breaux Bridge"
+      ],
+      "musicNights": [
+        {
+          "day": "Saturday",
+          "dayIndex": 6,
+          "description": "World-Famous Zydeco Breakfast – live zydeco music while you dine",
+          "hours": "8:00 AM – 11:30 AM",
+          "genre": "Zydeco"
+        },
+        {
+          "day": "Thursday",
+          "dayIndex": 4,
+          "description": "Evening live music",
+          "hours": "Evening",
+          "genre": "Cajun / Various"
+        },
+        {
+          "day": "Friday",
+          "dayIndex": 5,
+          "description": "Evening live music",
+          "hours": "Evening",
+          "genre": "Cajun / Various"
+        }
+      ],
+      "genres": [
+        "Zydeco",
+        "Cajun"
+      ],
+      "cover": "Free",
+      "vibe": "Cajun-Italian restaurant in a restored motor building. Famous Saturday Zydeco Breakfast with a balcony overlooking the dance floor. First come, first served.",
+      "website": "https://www.buckandjohnnys.com",
+      "category": "Restaurant / Music Venue",
+      "notes": "100 Berard St, Breaux Bridge. No reservations for Zydeco Breakfast – doors open at 8 AM. Yvette Landry and Richard Comeaux have standing residency Thu–Sat evenings.",
+      "isRestaurant": true
+    },
+    {
+      "slug": "cafe-sydnie-mae-music",
+      "name": "Cafe Sydnie Mae",
+      "locations": [
+        "Breaux Bridge"
+      ],
+      "musicNights": [
+        {
+          "day": "Saturday",
+          "dayIndex": 6,
+          "description": "Live music during brunch and evening service",
+          "hours": "11:00 AM – 2:00 PM / 5:00 PM – 9:00 PM",
+          "genre": "Cajun / Local"
+        },
+        {
+          "day": "Sunday",
+          "dayIndex": 0,
+          "description": "Live music during Sunday brunch",
+          "hours": "9:45 AM – 2:00 PM",
+          "genre": "Cajun / Local"
+        }
+      ],
+      "genres": [
+        "Cajun",
+        "Local Artists"
+      ],
+      "cover": "Free",
+      "vibe": "Charming downtown Breaux Bridge café with live local music and art. Modern Cajun cuisine. Warm, community feel.",
+      "website": "https://cafesydniemae.com",
+      "category": "Restaurant / Café",
+      "notes": "140 E Bridge St, Breaux Bridge. Live music on weekends. Also doubles as a brunch destination.",
+      "isRestaurant": true
+    },
+    {
+      "slug": "charley-gs",
+      "name": "Charley G's Seafood Grill",
+      "locations": [
+        "Lafayette"
+      ],
+      "musicNights": [
+        {
+          "day": "Wednesday",
+          "dayIndex": 3,
+          "description": "Live music during dinner",
+          "hours": "6:00 PM – 9:00 PM",
+          "genre": "Jazz"
+        },
+        {
+          "day": "Thursday",
+          "dayIndex": 4,
+          "description": "Live music during dinner",
+          "hours": "6:00 PM – 9:00 PM",
+          "genre": "Jazz"
+        },
+        {
+          "day": "Friday",
+          "dayIndex": 5,
+          "description": "Live music during dinner",
+          "hours": "6:00 PM – 9:00 PM",
+          "genre": "Jazz"
+        },
+        {
+          "day": "Saturday",
+          "dayIndex": 6,
+          "description": "Live music during dinner",
+          "hours": "6:00 PM – 9:00 PM",
+          "genre": "Jazz"
+        }
+      ],
+      "genres": [
+        "Jazz",
+        "Blues"
+      ],
+      "cover": "Free",
+      "vibe": "Upscale seafood restaurant with live jazz",
+      "website": null,
+      "category": "Restaurant",
+      "notes": "Fine dining seafood with live jazz several nights a week. Great for a date night with music.",
+      "isRestaurant": true
+    },
+    {
+      "slug": "legends-johnston",
+      "name": "Legends of Lafayette",
+      "locations": [
+        "Lafayette"
+      ],
+      "musicNights": [
+        {
+          "day": "Thursday",
+          "dayIndex": 4,
+          "description": "Live music",
+          "hours": "7:00 PM – 10:00 PM",
+          "genre": "Variety"
+        },
+        {
+          "day": "Friday",
+          "dayIndex": 5,
+          "description": "Live music",
+          "hours": "7:00 PM – 10:00 PM",
+          "genre": "Variety"
+        },
+        {
+          "day": "Saturday",
+          "dayIndex": 6,
+          "description": "Live music",
+          "hours": "7:00 PM – 10:00 PM",
+          "genre": "Variety"
+        }
+      ],
+      "genres": [
+        "Country",
+        "Rock",
+        "Variety"
+      ],
+      "cover": "Free",
+      "vibe": "Sports bar & grill with live bands on weekends",
+      "website": null,
+      "category": "Restaurant / Bar",
+      "notes": "Pub atmosphere with regular live bands. Good bar food and a lively crowd.",
+      "isRestaurant": true
+    },
+    {
+      "slug": "odarbys-pub-grill",
+      "name": "O'Darby's Pub & Grill",
+      "locations": [
+        "Carencro"
+      ],
+      "musicNights": [
+        {
+          "day": "Friday",
+          "dayIndex": 5,
+          "description": "Live music",
+          "hours": "7:00 PM – 10:00 PM",
+          "genre": "Variety"
+        },
+        {
+          "day": "Saturday",
+          "dayIndex": 6,
+          "description": "Live music",
+          "hours": "7:00 PM – 10:00 PM",
+          "genre": "Variety"
+        }
+      ],
+      "genres": [
+        "Country",
+        "Variety"
+      ],
+      "cover": "Free",
+      "vibe": "Irish-style pub & grill with weekend live music",
+      "website": null,
+      "category": "Restaurant / Pub",
+      "notes": "Neighborhood pub in Carencro with regular live music on weekends.",
+      "isRestaurant": true
+    },
+    {
+      "slug": "pont-breauxs",
+      "name": "Pont Breaux's Cajun Restaurant",
+      "locations": [
+        "Breaux Bridge"
+      ],
+      "musicNights": [
+        {
+          "day": "Friday",
+          "dayIndex": 5,
+          "description": "Live Cajun music",
+          "hours": "Evening",
           "genre": "Cajun"
         },
         {
           "day": "Saturday",
           "dayIndex": 6,
-          "description": "Live Cajun music and dancing (e.g. Maegan Benoit)",
-          "hours": "6:30 PM – close",
+          "description": "Live Cajun music",
+          "hours": "Evening",
           "genre": "Cajun"
         },
         {
           "day": "Sunday",
           "dayIndex": 0,
-          "description": "Live Cajun music and dancing",
-          "hours": "6:30 PM – close",
+          "description": "Live Cajun music",
+          "hours": "Lunch / Afternoon",
           "genre": "Cajun"
         }
       ],
-      "genres": ["Cajun", "Zydeco"],
+      "genres": [
+        "Cajun"
+      ],
       "cover": "Free",
-      "vibe": "Classic Acadiana dance hall with large dance floor. Open 40+ years. Locals and tourists two-stepping nightly. Great crawfish.",
-      "website": "https://www.randols.com",
+      "vibe": "Formerly Mulate's – the original Cajun restaurant. Authentic Cajun food and live music. Known for seafood and traditional recipes.",
+      "website": "https://pontbreauxscajunrestaurant.com",
       "category": "Restaurant / Dance Hall",
-      "notes": "Located at 2320 Kaliste Saloom Rd, Lafayette. Known for crawfish by the pound. Live music nightly; call ahead to confirm specific nights."
+      "notes": "325 W Mills Ave, Breaux Bridge. (337) 332-4648. Formerly operated as Mulate's Cajun Restaurant; same tradition of nightly live music. Call ahead to verify current schedule.",
+      "isRestaurant": true
     },
     {
       "slug": "prejeans",
       "name": "Prejean's Restaurant",
-      "locations": ["Lafayette"],
+      "locations": [
+        "Lafayette"
+      ],
       "musicNights": [
         {
           "day": "Saturday",
@@ -222,17 +446,83 @@
           "genre": "Cajun"
         }
       ],
-      "genres": ["Cajun"],
+      "genres": [
+        "Cajun"
+      ],
       "cover": "Free",
       "vibe": "Beloved Cajun restaurant with dance floor and live music every night. Home to Big Al, a 14-foot stuffed alligator. Family-friendly.",
       "website": "https://www.prejeans.com",
       "category": "Restaurant / Dance Hall",
-      "notes": "Located at 3480 NE Evangeline Thruway (I-49 N), Lafayette. Famous for gumbo, wild game, and seafood. Reservations available via OpenTable."
+      "notes": "Located at 3480 NE Evangeline Thruway (I-49 N), Lafayette. Famous for gumbo, wild game, and seafood. Reservations available via OpenTable.",
+      "isRestaurant": true
+    },
+    {
+      "slug": "randols",
+      "name": "Randol's Restaurant & Cajun Dance Hall",
+      "locations": [
+        "Lafayette"
+      ],
+      "musicNights": [
+        {
+          "day": "Tuesday",
+          "dayIndex": 2,
+          "description": "Live Cajun music and dancing",
+          "hours": "6:30 PM – close",
+          "genre": "Cajun"
+        },
+        {
+          "day": "Wednesday",
+          "dayIndex": 3,
+          "description": "Live Cajun music and dancing",
+          "hours": "6:30 PM – close",
+          "genre": "Cajun"
+        },
+        {
+          "day": "Thursday",
+          "dayIndex": 4,
+          "description": "Live Cajun music and dancing",
+          "hours": "6:30 PM – close",
+          "genre": "Cajun"
+        },
+        {
+          "day": "Friday",
+          "dayIndex": 5,
+          "description": "Live Cajun music and dancing",
+          "hours": "6:30 PM – close",
+          "genre": "Cajun"
+        },
+        {
+          "day": "Saturday",
+          "dayIndex": 6,
+          "description": "Live Cajun music and dancing (e.g. Maegan Benoit)",
+          "hours": "6:30 PM – close",
+          "genre": "Cajun"
+        },
+        {
+          "day": "Sunday",
+          "dayIndex": 0,
+          "description": "Live Cajun music and dancing",
+          "hours": "6:30 PM – close",
+          "genre": "Cajun"
+        }
+      ],
+      "genres": [
+        "Cajun",
+        "Zydeco"
+      ],
+      "cover": "Free",
+      "vibe": "Classic Acadiana dance hall with large dance floor. Open 40+ years. Locals and tourists two-stepping nightly. Great crawfish.",
+      "website": "https://www.randols.com",
+      "category": "Restaurant / Dance Hall",
+      "notes": "Located at 2320 Kaliste Saloom Rd, Lafayette. Known for crawfish by the pound. Live music nightly; call ahead to confirm specific nights.",
+      "isRestaurant": true
     },
     {
       "slug": "rock-n-bowl-lafayette",
       "name": "Rock'n'Bowl de Lafayette",
-      "locations": ["Lafayette"],
+      "locations": [
+        "Lafayette"
+      ],
       "musicNights": [
         {
           "day": "Thursday",
@@ -263,51 +553,416 @@
           "genre": "Zydeco"
         }
       ],
-      "genres": ["Zydeco", "Cajun", "Party Band", "Various"],
+      "genres": [
+        "Zydeco",
+        "Cajun",
+        "Party Band",
+        "Various"
+      ],
       "cover": "Varies by show",
       "vibe": "Unique combo of bowling alley and live music venue. Dance floor in the lanes. Restaurant and full bar. High-energy crowd.",
       "website": "https://www.rocknbowl.com/lafayette",
       "category": "Music Venue / Bowling / Restaurant",
-      "notes": "Check live music calendar on website for full schedule. Has hosted touring acts like Marc Broussard."
+      "notes": "Check live music calendar on website for full schedule. Has hosted touring acts like Marc Broussard.",
+      "isRestaurant": true
     },
     {
-      "slug": "buck-and-johnnys",
-      "name": "Buck & Johnny's",
-      "locations": ["Breaux Bridge"],
+      "slug": "shucks-abbeville",
+      "name": "SHUCKS! The Louisiana Seafood House",
+      "locations": [
+        "Abbeville"
+      ],
       "musicNights": [
         {
-          "day": "Saturday",
-          "dayIndex": 6,
-          "description": "World-Famous Zydeco Breakfast – live zydeco music while you dine",
-          "hours": "8:00 AM – 11:30 AM",
-          "genre": "Zydeco"
+          "day": "Wednesday",
+          "dayIndex": 3,
+          "description": "Live acoustic music",
+          "hours": "6:00 PM – 9:00 PM",
+          "genre": "Country"
         },
         {
           "day": "Thursday",
           "dayIndex": 4,
-          "description": "Evening live music",
-          "hours": "Evening",
+          "description": "Live music",
+          "hours": "6:00 PM – 9:00 PM",
+          "genre": "Variety"
+        },
+        {
+          "day": "Friday",
+          "dayIndex": 5,
+          "description": "Live music",
+          "hours": "6:30 PM – 9:30 PM",
+          "genre": "Variety"
+        },
+        {
+          "day": "Saturday",
+          "dayIndex": 6,
+          "description": "Live music",
+          "hours": "6:30 PM – 9:30 PM",
+          "genre": "Country"
+        }
+      ],
+      "genres": [
+        "Country",
+        "Cajun",
+        "Variety"
+      ],
+      "cover": "Free",
+      "vibe": "Casual seafood restaurant with regular live music",
+      "website": "https://shucksrestaurant.com",
+      "category": "Restaurant",
+      "notes": "Seafood house with live music 4+ nights a week. Great crawfish and boiled seafood.",
+      "isRestaurant": true
+    },
+    {
+      "slug": "social-southern-table",
+      "name": "Social Southern Table & Bar",
+      "locations": [
+        "Lafayette"
+      ],
+      "musicNights": [
+        {
+          "day": "Thursday",
+          "dayIndex": 4,
+          "description": "Live music during dinner",
+          "hours": "6:00 PM – 9:00 PM",
+          "genre": "Variety"
+        },
+        {
+          "day": "Friday",
+          "dayIndex": 5,
+          "description": "Live music during dinner",
+          "hours": "7:00 PM – 10:00 PM",
+          "genre": "Variety"
+        },
+        {
+          "day": "Saturday",
+          "dayIndex": 6,
+          "description": "Live music during dinner",
+          "hours": "7:00 PM – 10:00 PM",
+          "genre": "Variety"
+        }
+      ],
+      "genres": [
+        "Variety",
+        "Blues"
+      ],
+      "cover": "Free",
+      "vibe": "Farm-to-table restaurant with weekend live music",
+      "website": "https://www.socialsouthern.com",
+      "category": "Restaurant",
+      "notes": "Farm-to-table approach with brunch, lunch, and dinner. Live music on peak nights — busiest Thu–Sat evenings.",
+      "isRestaurant": true
+    },
+    {
+      "slug": "the-barrel-of-broussard",
+      "name": "The Barrel of Broussard",
+      "locations": [
+        "Broussard"
+      ],
+      "musicNights": [
+        {
+          "day": "Friday",
+          "dayIndex": 5,
+          "description": "Live music",
+          "hours": "7:00 PM – 10:00 PM",
+          "genre": "Variety"
+        },
+        {
+          "day": "Saturday",
+          "dayIndex": 6,
+          "description": "Live music",
+          "hours": "8:00 PM – 11:00 PM",
+          "genre": "Variety"
+        }
+      ],
+      "genres": [
+        "Country",
+        "Variety"
+      ],
+      "cover": "Free",
+      "vibe": "Neighborhood bar & grill with weekend live music",
+      "website": null,
+      "category": "Restaurant / Bar",
+      "notes": "Popular Broussard spot — live music on weekends plus karaoke on Wednesdays.",
+      "isRestaurant": true
+    },
+    {
+      "slug": "the-cajun-table",
+      "name": "The Cajun Table",
+      "locations": [
+        "Lafayette"
+      ],
+      "musicNights": [
+        {
+          "day": "Friday",
+          "dayIndex": 5,
+          "description": "Live Cajun accordion music",
+          "hours": "6:00 PM – 9:00 PM",
+          "genre": "Cajun"
+        },
+        {
+          "day": "Saturday",
+          "dayIndex": 6,
+          "description": "Live Cajun accordion music",
+          "hours": "6:00 PM – 9:00 PM",
+          "genre": "Cajun"
+        }
+      ],
+      "genres": [
+        "Cajun"
+      ],
+      "cover": "Free",
+      "vibe": "Authentic Cajun restaurant with live accordion evenings",
+      "website": "https://thecajuntablellc.com",
+      "category": "Restaurant",
+      "notes": "Cajun music plays 24/7 (recorded), with live accordion artists on weekends. Crawfish specials and signature Cajun dishes.",
+      "isRestaurant": true
+    },
+    {
+      "slug": "whiskey-and-vine",
+      "name": "Whiskey & Vine",
+      "locations": [
+        "Lafayette"
+      ],
+      "musicNights": [
+        {
+          "day": "Monday",
+          "dayIndex": 1,
+          "description": "Live jazz & blues",
+          "hours": "6:00 PM – 9:00 PM",
+          "genre": "Jazz"
+        },
+        {
+          "day": "Tuesday",
+          "dayIndex": 2,
+          "description": "Live jazz & blues",
+          "hours": "6:00 PM – 9:00 PM",
+          "genre": "Jazz"
+        },
+        {
+          "day": "Wednesday",
+          "dayIndex": 3,
+          "description": "Live jazz & blues",
+          "hours": "6:00 PM – 9:00 PM",
+          "genre": "Jazz"
+        },
+        {
+          "day": "Thursday",
+          "dayIndex": 4,
+          "description": "Live jazz & blues",
+          "hours": "6:00 PM – 9:00 PM",
+          "genre": "Jazz"
+        },
+        {
+          "day": "Friday",
+          "dayIndex": 5,
+          "description": "Live jazz & blues",
+          "hours": "7:00 PM – 10:00 PM",
+          "genre": "Jazz"
+        },
+        {
+          "day": "Saturday",
+          "dayIndex": 6,
+          "description": "Live jazz & blues",
+          "hours": "7:00 PM – 10:00 PM",
+          "genre": "Jazz"
+        },
+        {
+          "day": "Sunday",
+          "dayIndex": 0,
+          "description": "Jazz brunch",
+          "hours": "10:00 AM – 2:00 PM",
+          "genre": "Jazz"
+        }
+      ],
+      "genres": [
+        "Jazz",
+        "Blues"
+      ],
+      "cover": "Free",
+      "vibe": "New Orleans-style jazz lounge with curated cocktails and southern cuisine",
+      "website": "https://wvlounge.com",
+      "category": "Restaurant / Jazz Lounge",
+      "notes": "Sommelier-led wine and whiskey program paired with nightly live jazz. Think New Orleans jazz club, right in Lafayette.",
+      "isRestaurant": true
+    },
+    {
+      "slug": "angelles-whiskey-river-landing",
+      "name": "Angelle's Whiskey River Landing",
+      "locations": [
+        "Henderson",
+        "Breaux Bridge"
+      ],
+      "musicNights": [
+        {
+          "day": "Sunday",
+          "dayIndex": 0,
+          "description": "Live Cajun and zydeco music overlooking the Atchafalaya Basin",
+          "hours": "3:00 PM – 9:00 PM",
+          "genre": "Cajun / Zydeco"
+        }
+      ],
+      "genres": [
+        "Cajun",
+        "Zydeco"
+      ],
+      "cover": "Free",
+      "vibe": "Rustic dance hall on the banks of the Atchafalaya Basin levee. Stunning swamp views. Established 1982. Every Sunday afternoon.",
+      "website": null,
+      "category": "Dance Hall / Bar",
+      "notes": "1365 Henderson Levee Rd, Breaux Bridge area. Open every Sunday 3–9 PM. Started as a bar and boat launch. One of the most scenic music spots in Louisiana.",
+      "isRestaurant": false
+    },
+    {
+      "slug": "blue-moon-saloon",
+      "name": "Blue Moon Saloon & Guesthouse",
+      "locations": [
+        "Lafayette"
+      ],
+      "musicNights": [
+        {
+          "day": "Thursday",
+          "dayIndex": 4,
+          "description": "Live music – various genres",
+          "hours": "8:00 PM – close",
+          "genre": "Cajun / Zydeco / Blues / Roots"
+        },
+        {
+          "day": "Friday",
+          "dayIndex": 5,
+          "description": "Live music – various genres",
+          "hours": "8:00 PM – close",
+          "genre": "Cajun / Zydeco / Blues / Roots"
+        },
+        {
+          "day": "Saturday",
+          "dayIndex": 6,
+          "description": "Live music – various genres",
+          "hours": "8:00 PM – close",
+          "genre": "Cajun / Zydeco / Blues / Roots"
+        }
+      ],
+      "genres": [
+        "Cajun",
+        "Zydeco",
+        "Blues",
+        "Roots",
+        "Honky-tonk"
+      ],
+      "cover": "Varies by show – check website",
+      "vibe": "Historic 1900s home turned iconic music venue & boutique guesthouse. Intimate, eclectic, nationally acclaimed.",
+      "website": "https://www.bluemoonpresents.com",
+      "category": "Bar / Music Venue / Guesthouse",
+      "notes": "Voted one of the Best Bars in America by Esquire. Happy hour 5 PM with $3 Crown, $3 Jameson, $4 local beers. Check live music calendar online for full schedule.",
+      "isRestaurant": false
+    },
+    {
+      "slug": "el-sidos-zydeco-blues",
+      "name": "El Sido's Zydeco & Blues Club",
+      "locations": [
+        "Lafayette"
+      ],
+      "musicNights": [
+        {
+          "day": "Friday",
+          "dayIndex": 5,
+          "description": "Live zydeco and blues",
+          "hours": "Evening – check Facebook",
+          "genre": "Zydeco / Blues"
+        },
+        {
+          "day": "Saturday",
+          "dayIndex": 6,
+          "description": "Live zydeco and blues",
+          "hours": "Evening – check Facebook",
+          "genre": "Zydeco / Blues"
+        }
+      ],
+      "genres": [
+        "Zydeco",
+        "Blues"
+      ],
+      "cover": "Small cover charge",
+      "vibe": "Legendary zydeco club operating since 1984. Has hosted Clifton Chenier, Buckwheat Zydeco, Rockin' Dopsie, Nathan & the Zydeco Cha-Chas. Authentic and historic.",
+      "website": "https://www.facebook.com/ElSidos/",
+      "category": "Dance Hall / Bar",
+      "notes": "St. Antoine & Martin Luther King Dr., Lafayette. Est. 1984. Check Facebook for current schedule.",
+      "isRestaurant": false
+    },
+    {
+      "slug": "feed-n-seed",
+      "name": "Feed N Seed",
+      "locations": [
+        "Lafayette"
+      ],
+      "musicNights": [
+        {
+          "day": "Thursday",
+          "dayIndex": 4,
+          "description": "Live music – various genres",
+          "hours": "Evening – check Facebook",
           "genre": "Cajun / Various"
         },
         {
           "day": "Friday",
           "dayIndex": 5,
-          "description": "Evening live music",
+          "description": "Live music – various genres",
+          "hours": "Evening",
+          "genre": "Cajun / Various"
+        },
+        {
+          "day": "Saturday",
+          "dayIndex": 6,
+          "description": "Live music – various genres",
           "hours": "Evening",
           "genre": "Cajun / Various"
         }
       ],
-      "genres": ["Zydeco", "Cajun"],
+      "genres": [
+        "Cajun",
+        "Zydeco",
+        "Roots",
+        "Various"
+      ],
+      "cover": "Varies",
+      "vibe": "Rustic feed-store-themed venue with antique décor. Large open dance floor for fais do-do (traditional Cajun dancing). Outdoor patio.",
+      "website": "https://www.facebook.com/FeedNSeedLafayette/",
+      "category": "Music Venue / Bar",
+      "notes": "Downtown Lafayette area. Check Facebook for current schedule and events.",
+      "isRestaurant": false
+    },
+    {
+      "slug": "fred-s-lounge",
+      "name": "Fred's Lounge",
+      "locations": [
+        "Mamou"
+      ],
+      "musicNights": [
+        {
+          "day": "Saturday",
+          "dayIndex": 6,
+          "description": "Live Cajun music broadcast on local radio – beer, boudin, dancing",
+          "hours": "9:00 AM – 12:00 PM (doors at 7:00 AM)",
+          "genre": "Cajun"
+        }
+      ],
+      "genres": [
+        "Cajun"
+      ],
       "cover": "Free",
-      "vibe": "Cajun-Italian restaurant in a restored motor building. Famous Saturday Zydeco Breakfast with a balcony overlooking the dance floor. First come, first served.",
-      "website": "https://www.buckandjohnnys.com",
-      "category": "Restaurant / Music Venue",
-      "notes": "100 Berard St, Breaux Bridge. No reservations for Zydeco Breakfast – doors open at 8 AM. Yvette Landry and Richard Comeaux have standing residency Thu–Sat evenings."
+      "vibe": "World-famous Saturday morning institution. Beer and boudin at 7 AM. Live Cajun music broadcast on local radio. Legendary Acadiana experience.",
+      "website": null,
+      "category": "Bar / Dance Hall",
+      "notes": "420 6th Street, Mamou. (318) 468-5411. Doors open 7 AM Saturdays, music 9 AM–noon. One of the most unique live music experiences in the South.",
+      "isRestaurant": false
     },
     {
       "slug": "la-poussiere",
       "name": "La Poussière Cajun Dancehall",
-      "locations": ["Breaux Bridge"],
+      "locations": [
+        "Breaux Bridge"
+      ],
       "musicNights": [
         {
           "day": "Saturday",
@@ -324,37 +979,22 @@
           "genre": "Cajun"
         }
       ],
-      "genres": ["Cajun"],
+      "genres": [
+        "Cajun"
+      ],
       "cover": "Small cover charge",
       "vibe": "Authentic Cajun dancehall open since 1955. Large dance floor, welcoming locals, inexpensive beer. A true cultural experience.",
       "website": "https://lapoussiere.com",
       "category": "Dance Hall",
-      "notes": "Grand Point Hwy area, Breaux Bridge. One of the oldest and most beloved Cajun dance halls in Acadiana. Very local crowd."
-    },
-    {
-      "slug": "fred-s-lounge",
-      "name": "Fred's Lounge",
-      "locations": ["Mamou"],
-      "musicNights": [
-        {
-          "day": "Saturday",
-          "dayIndex": 6,
-          "description": "Live Cajun music broadcast on local radio – beer, boudin, dancing",
-          "hours": "9:00 AM – 12:00 PM (doors at 7:00 AM)",
-          "genre": "Cajun"
-        }
-      ],
-      "genres": ["Cajun"],
-      "cover": "Free",
-      "vibe": "World-famous Saturday morning institution. Beer and boudin at 7 AM. Live Cajun music broadcast on local radio. Legendary Acadiana experience.",
-      "website": null,
-      "category": "Bar / Dance Hall",
-      "notes": "420 6th Street, Mamou. (318) 468-5411. Doors open 7 AM Saturdays, music 9 AM–noon. One of the most unique live music experiences in the South."
+      "notes": "Grand Point Hwy area, Breaux Bridge. One of the oldest and most beloved Cajun dance halls in Acadiana. Very local crowd.",
+      "isRestaurant": false
     },
     {
       "slug": "liberty-theater",
       "name": "Liberty Theater",
-      "locations": ["Eunice"],
+      "locations": [
+        "Eunice"
+      ],
       "musicNights": [
         {
           "day": "Saturday",
@@ -364,17 +1004,48 @@
           "genre": "Cajun"
         }
       ],
-      "genres": ["Cajun"],
+      "genres": [
+        "Cajun"
+      ],
       "cover": "Small admission",
       "vibe": "Renovated 1924 vaudeville house. Weekly Cajun music radio and TV show hosted in French. Dance floor open to attendees. Cultural landmark.",
       "website": "https://www.eunice-la.com/liberty-theater",
       "category": "Theater / Music Venue",
-      "notes": "200 W Park Ave, Eunice. Part of the Eunice Louisiana prairie Cajun music trail alongside Savoy Music Center and Fred's Lounge."
+      "notes": "200 W Park Ave, Eunice. Part of the Eunice Louisiana prairie Cajun music trail alongside Savoy Music Center and Fred's Lounge.",
+      "isRestaurant": false
+    },
+    {
+      "slug": "richards-club",
+      "name": "Richard's Club",
+      "locations": [
+        "Lawtell",
+        "Opelousas"
+      ],
+      "musicNights": [
+        {
+          "day": "Saturday",
+          "dayIndex": 6,
+          "description": "Live zydeco – epic zydeco dances",
+          "hours": "Evening",
+          "genre": "Zydeco"
+        }
+      ],
+      "genres": [
+        "Zydeco"
+      ],
+      "cover": "Small cover charge",
+      "vibe": "Legendary Zydeco roadhouse on Hwy 190 between Lawtell and Opelousas. Renowned for epic zydeco dances. Authentic and local.",
+      "website": null,
+      "category": "Dance Hall / Bar",
+      "notes": "Hwy 190, 3–4 miles west of Opelousas. Proprietor Kelvin Richard. (318) 543-6596. Verify schedule before visiting.",
+      "isRestaurant": false
     },
     {
       "slug": "savoy-music-center",
       "name": "Savoy Music Center",
-      "locations": ["Eunice"],
+      "locations": [
+        "Eunice"
+      ],
       "musicNights": [
         {
           "day": "Saturday",
@@ -384,98 +1055,54 @@
           "genre": "Cajun"
         }
       ],
-      "genres": ["Cajun"],
+      "genres": [
+        "Cajun"
+      ],
       "cover": "Free (donation of boudin or cracklins welcome)",
       "vibe": "Accordion shop and cultural institution. 40+ years of Saturday morning jams. Grassroots Cajun music community experience.",
       "website": "https://www.savoymusiccenter.com",
       "category": "Music Shop / Jam Session",
-      "notes": "337-580-0899. Open Saturdays 9 AM–noon for 40+ years. Owned by accordion-maker Marc Savoy. A bucket-list Cajun music experience."
+      "notes": "337-580-0899. Open Saturdays 9 AM–noon for 40+ years. Owned by accordion-maker Marc Savoy. A bucket-list Cajun music experience.",
+      "isRestaurant": false
     },
     {
-      "slug": "el-sidos-zydeco-blues",
-      "name": "El Sido's Zydeco & Blues Club",
-      "locations": ["Lafayette"],
+      "slug": "slims-y-ki-ki",
+      "name": "Slim's Y-Ki-Ki",
+      "locations": [
+        "Opelousas"
+      ],
       "musicNights": [
         {
           "day": "Friday",
           "dayIndex": 5,
-          "description": "Live zydeco and blues",
-          "hours": "Evening – check Facebook",
-          "genre": "Zydeco / Blues"
+          "description": "Live zydeco (when open – verify before visiting)",
+          "hours": "Evening",
+          "genre": "Zydeco"
         },
         {
           "day": "Saturday",
           "dayIndex": 6,
-          "description": "Live zydeco and blues",
-          "hours": "Evening – check Facebook",
-          "genre": "Zydeco / Blues"
+          "description": "Live zydeco (when open – verify before visiting)",
+          "hours": "Evening",
+          "genre": "Zydeco"
         }
       ],
-      "genres": ["Zydeco", "Blues"],
+      "genres": [
+        "Zydeco"
+      ],
       "cover": "Small cover charge",
-      "vibe": "Legendary zydeco club operating since 1984. Has hosted Clifton Chenier, Buckwheat Zydeco, Rockin' Dopsie, Nathan & the Zydeco Cha-Chas. Authentic and historic.",
-      "website": "https://www.facebook.com/ElSidos/",
-      "category": "Dance Hall / Bar",
-      "notes": "St. Antoine & Martin Luther King Dr., Lafayette. Est. 1984. Check Facebook for current schedule."
-    },
-    {
-      "slug": "angelles-whiskey-river-landing",
-      "name": "Angelle's Whiskey River Landing",
-      "locations": ["Henderson", "Breaux Bridge"],
-      "musicNights": [
-        {
-          "day": "Sunday",
-          "dayIndex": 0,
-          "description": "Live Cajun and zydeco music overlooking the Atchafalaya Basin",
-          "hours": "3:00 PM – 9:00 PM",
-          "genre": "Cajun / Zydeco"
-        }
-      ],
-      "genres": ["Cajun", "Zydeco"],
-      "cover": "Free",
-      "vibe": "Rustic dance hall on the banks of the Atchafalaya Basin levee. Stunning swamp views. Established 1982. Every Sunday afternoon.",
+      "vibe": "Legendary historic zydeco dance hall on Hwy 182/167. Iconic venue that hosted Clifton Chenier, Rockin' Dopsie, and Boozoo Chavis. Currently undergoing restoration.",
       "website": null,
-      "category": "Dance Hall / Bar",
-      "notes": "1365 Henderson Levee Rd, Breaux Bridge area. Open every Sunday 3–9 PM. Started as a bar and boat launch. One of the most scenic music spots in Louisiana."
-    },
-    {
-      "slug": "feed-n-seed",
-      "name": "Feed N Seed",
-      "locations": ["Lafayette"],
-      "musicNights": [
-        {
-          "day": "Thursday",
-          "dayIndex": 4,
-          "description": "Live music – various genres",
-          "hours": "Evening – check Facebook",
-          "genre": "Cajun / Various"
-        },
-        {
-          "day": "Friday",
-          "dayIndex": 5,
-          "description": "Live music – various genres",
-          "hours": "Evening",
-          "genre": "Cajun / Various"
-        },
-        {
-          "day": "Saturday",
-          "dayIndex": 6,
-          "description": "Live music – various genres",
-          "hours": "Evening",
-          "genre": "Cajun / Various"
-        }
-      ],
-      "genres": ["Cajun", "Zydeco", "Roots", "Various"],
-      "cover": "Varies",
-      "vibe": "Rustic feed-store-themed venue with antique décor. Large open dance floor for fais do-do (traditional Cajun dancing). Outdoor patio.",
-      "website": "https://www.facebook.com/FeedNSeedLafayette/",
-      "category": "Music Venue / Bar",
-      "notes": "Downtown Lafayette area. Check Facebook for current schedule and events."
+      "category": "Dance Hall",
+      "notes": "Hwy 182/167, Opelousas. (318) 942-9980. NOTE: As of 2024, this venue is undergoing restoration. Call ahead or check social media to confirm current status before visiting.",
+      "isRestaurant": false
     },
     {
       "slug": "grouse-room",
       "name": "The Grouse Room",
-      "locations": ["Lafayette"],
+      "locations": [
+        "Lafayette"
+      ],
       "musicNights": [
         {
           "day": "Wednesday",
@@ -506,120 +1133,18 @@
           "genre": "Various"
         }
       ],
-      "genres": ["Rock", "Blues", "Dueling Pianos", "Various"],
+      "genres": [
+        "Rock",
+        "Blues",
+        "Dueling Pianos",
+        "Various"
+      ],
       "cover": "Varies by show",
       "vibe": "Downtown Lafayette's premier nightclub and live music venue. State-of-the-art sound and lighting, built-in stage, balcony, courtyard. Craft cocktails.",
       "website": "https://thegrouseroom.com",
       "category": "Nightclub / Bar / Music Venue",
-      "notes": "Heart of downtown Lafayette. Features local and touring artists. Bar food available. Dueling pianos events held periodically."
-    },
-    {
-      "slug": "pont-breauxs",
-      "name": "Pont Breaux's Cajun Restaurant",
-      "locations": ["Breaux Bridge"],
-      "musicNights": [
-        {
-          "day": "Friday",
-          "dayIndex": 5,
-          "description": "Live Cajun music",
-          "hours": "Evening",
-          "genre": "Cajun"
-        },
-        {
-          "day": "Saturday",
-          "dayIndex": 6,
-          "description": "Live Cajun music",
-          "hours": "Evening",
-          "genre": "Cajun"
-        },
-        {
-          "day": "Sunday",
-          "dayIndex": 0,
-          "description": "Live Cajun music",
-          "hours": "Lunch / Afternoon",
-          "genre": "Cajun"
-        }
-      ],
-      "genres": ["Cajun"],
-      "cover": "Free",
-      "vibe": "Formerly Mulate's – the original Cajun restaurant. Authentic Cajun food and live music. Known for seafood and traditional recipes.",
-      "website": "https://pontbreauxscajunrestaurant.com",
-      "category": "Restaurant / Dance Hall",
-      "notes": "325 W Mills Ave, Breaux Bridge. (337) 332-4648. Formerly operated as Mulate's Cajun Restaurant; same tradition of nightly live music. Call ahead to verify current schedule."
-    },
-    {
-      "slug": "slims-y-ki-ki",
-      "name": "Slim's Y-Ki-Ki",
-      "locations": ["Opelousas"],
-      "musicNights": [
-        {
-          "day": "Friday",
-          "dayIndex": 5,
-          "description": "Live zydeco (when open – verify before visiting)",
-          "hours": "Evening",
-          "genre": "Zydeco"
-        },
-        {
-          "day": "Saturday",
-          "dayIndex": 6,
-          "description": "Live zydeco (when open – verify before visiting)",
-          "hours": "Evening",
-          "genre": "Zydeco"
-        }
-      ],
-      "genres": ["Zydeco"],
-      "cover": "Small cover charge",
-      "vibe": "Legendary historic zydeco dance hall on Hwy 182/167. Iconic venue that hosted Clifton Chenier, Rockin' Dopsie, and Boozoo Chavis. Currently undergoing restoration.",
-      "website": null,
-      "category": "Dance Hall",
-      "notes": "Hwy 182/167, Opelousas. (318) 942-9980. NOTE: As of 2024, this venue is undergoing restoration. Call ahead or check social media to confirm current status before visiting."
-    },
-    {
-      "slug": "richards-club",
-      "name": "Richard's Club",
-      "locations": ["Lawtell", "Opelousas"],
-      "musicNights": [
-        {
-          "day": "Saturday",
-          "dayIndex": 6,
-          "description": "Live zydeco – epic zydeco dances",
-          "hours": "Evening",
-          "genre": "Zydeco"
-        }
-      ],
-      "genres": ["Zydeco"],
-      "cover": "Small cover charge",
-      "vibe": "Legendary Zydeco roadhouse on Hwy 190 between Lawtell and Opelousas. Renowned for epic zydeco dances. Authentic and local.",
-      "website": null,
-      "category": "Dance Hall / Bar",
-      "notes": "Hwy 190, 3–4 miles west of Opelousas. Proprietor Kelvin Richard. (318) 543-6596. Verify schedule before visiting."
-    },
-    {
-      "slug": "cafe-sydnie-mae-music",
-      "name": "Cafe Sydnie Mae",
-      "locations": ["Breaux Bridge"],
-      "musicNights": [
-        {
-          "day": "Saturday",
-          "dayIndex": 6,
-          "description": "Live music during brunch and evening service",
-          "hours": "11:00 AM – 2:00 PM / 5:00 PM – 9:00 PM",
-          "genre": "Cajun / Local"
-        },
-        {
-          "day": "Sunday",
-          "dayIndex": 0,
-          "description": "Live music during Sunday brunch",
-          "hours": "9:45 AM – 2:00 PM",
-          "genre": "Cajun / Local"
-        }
-      ],
-      "genres": ["Cajun", "Local Artists"],
-      "cover": "Free",
-      "vibe": "Charming downtown Breaux Bridge café with live local music and art. Modern Cajun cuisine. Warm, community feel.",
-      "website": "https://cafesydniemae.com",
-      "category": "Restaurant / Café",
-      "notes": "140 E Bridge St, Breaux Bridge. Live music on weekends. Also doubles as a brunch destination."
+      "notes": "Heart of downtown Lafayette. Features local and touring artists. Bar food available. Dueling pianos events held periodically.",
+      "isRestaurant": false
     }
   ]
 }

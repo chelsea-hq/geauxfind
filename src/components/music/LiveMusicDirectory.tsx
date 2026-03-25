@@ -22,6 +22,7 @@ type Venue = {
   website: string | null;
   category: string;
   notes: string | null;
+  isRestaurant?: boolean;
 };
 
 const DAYS = ["Everyday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
@@ -62,9 +63,16 @@ function VenueCard({ venue, activeDay }: { venue: Venue; activeDay: string }) {
             <h3 className="text-lg font-semibold leading-tight text-[var(--cast-iron)]">{venue.name}</h3>
             <p className="text-xs text-[var(--warm-gray)]">{venue.category} · {venue.vibe}</p>
           </div>
-          <span className="shrink-0 rounded-full bg-[var(--cajun-red)]/10 px-3 py-1 text-xs font-semibold text-[var(--cajun-red)]">
-            {venue.cover}
-          </span>
+          <div className="flex shrink-0 flex-col items-end gap-1">
+            {venue.isRestaurant && (
+              <span className="rounded-full bg-[var(--moss)]/10 px-2 py-0.5 text-xs font-semibold text-[var(--moss)]">
+                🍽️ Restaurant
+              </span>
+            )}
+            <span className="rounded-full bg-[var(--cajun-red)]/10 px-3 py-1 text-xs font-semibold text-[var(--cajun-red)]">
+              {venue.cover}
+            </span>
+          </div>
         </div>
 
         {/* Genre tags */}
@@ -136,6 +144,7 @@ export function LiveMusicDirectory({
   const [activeDay, setActiveDay] = useState<string>(todayName);
   const [genreFilter, setGenreFilter] = useState("All");
   const [locationFilter, setLocationFilter] = useState("All");
+  const [restaurantsOnly, setRestaurantsOnly] = useState(false);
 
   const allGenres = useMemo(() => {
     const genres = new Set<string>();
@@ -158,9 +167,10 @@ export function LiveMusicDirectory({
         genreFilter === "All" || v.genres.includes(genreFilter);
       const locMatch =
         locationFilter === "All" || v.locations.includes(locationFilter);
-      return dayMatch && genreMatch && locMatch;
+      const restMatch = !restaurantsOnly || v.isRestaurant === true;
+      return dayMatch && genreMatch && locMatch && restMatch;
     });
-  }, [venues, activeDay, genreFilter, locationFilter]);
+  }, [venues, activeDay, genreFilter, locationFilter, restaurantsOnly]);
 
   const availableDays = useMemo(() => {
     const days = new Set<string>();
@@ -223,6 +233,16 @@ export function LiveMusicDirectory({
             ))}
           </select>
         </div>
+        <button
+          onClick={() => setRestaurantsOnly((p) => !p)}
+          className={`rounded-full px-4 py-2 text-sm font-semibold transition-colors ${
+            restaurantsOnly
+              ? "bg-[var(--moss)] text-white"
+              : "border border-[var(--spanish-moss)]/30 bg-white text-[var(--cast-iron)] hover:bg-[var(--cream)]"
+          }`}
+        >
+          🍽️ Restaurants only
+        </button>
         <span className="text-xs text-[var(--warm-gray)]">{filtered.length} venue{filtered.length !== 1 ? "s" : ""}</span>
       </div>
 
