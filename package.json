@@ -28,7 +28,8 @@
     "scrape:food-signals": "node scripts/scrape-food-signals.mjs",
     "scrape:instagram-feasibility": "node scripts/scrape-instagram-feasibility.mjs",
     "scrape:facebook-events-graph": "node scripts/scrape-facebook-events-public.mjs",
-    "merge:sources": "node scripts/merge-sources.mjs"
+    "merge:sources": "node scripts/merge-sources.mjs",
+    "parse:fb-dumps": "node scripts/parse-fb-dumps.mjs"
   },
   "dependencies": {
     "cheerio": "^1.2.0",

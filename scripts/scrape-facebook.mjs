@@ -1,4 +1,17 @@
 #!/usr/bin/env node
+/**
+ * scrape-facebook.mjs
+ *
+ * STATUS: BLOCKED — Facebook's robots.txt disallows /groups/ for all user-agents,
+ * and requests consistently return robots_blocked (0 results) even when
+ * FB_IGNORE_ROBOTS=1 is set, because pages require authentication.
+ *
+ * CURRENT WORKAROUND:
+ *   Use the manual FB dump pipeline instead:
+ *     1. Export the Facebook thread text via Discord/copy-paste → data/fb-dumps/<name>-raw.txt
+ *     2. Run:  npm run parse:fb-dumps
+ *   See scripts/parse-fb-dumps.mjs for details.
+ */
 
 import fs from 'node:fs/promises';
 import path from 'node:path';

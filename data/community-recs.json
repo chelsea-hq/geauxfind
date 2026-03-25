@@ -4,58 +4,108 @@
       "slug": "best-chicken-salad-in-acadiana",
       "name": "Best Chicken Salad in Acadiana",
       "category": "Chicken Salad",
-      "businessCount": 25,
-      "totalMentions": 199,
+      "businessCount": 20,
+      "totalMentions": 175,
       "topBusinesses": [
         {
           "slug": "chops-specialty-meats",
           "name": "Chop's Specialty Meats",
-          "mentionCount": 47
+          "mentionCount": 34
         },
         {
           "slug": "champagnes-market",
           "name": "Champagne's Market",
-          "mentionCount": 29
-        },
-        {
-          "slug": "sweet-envie-llc",
-          "name": "Sweet Envie, LLC",
-          "mentionCount": 17
-        },
-        {
-          "slug": "little-verons",
-          "name": "Little Veron's",
-          "mentionCount": 14
-        },
-        {
-          "slug": "mamas-fried-chicken",
-          "name": "Mama's Fried Chicken",
-          "mentionCount": 14
-        },
-        {
-          "slug": "earls-cajun-market",
-          "name": "Earl's Cajun Market",
-          "mentionCount": 11
-        },
-        {
-          "slug": "rods-supermarket",
-          "name": "Rod's Supermarket",
-          "mentionCount": 11
-        },
-        {
-          "slug": "rouses-market",
-          "name": "Rouses Market",
-          "mentionCount": 11
+          "mentionCount": 28
         },
         {
           "slug": "nunus-fresh-market",
           "name": "NuNu's Fresh Market",
+          "mentionCount": 12
+        },
+        {
+          "slug": "mamas-fried-chicken",
+          "name": "Mama's Fried Chicken",
+          "mentionCount": 11
+        },
+        {
+          "slug": "little-verons",
+          "name": "Little Veron's",
+          "mentionCount": 11
+        },
+        {
+          "slug": "adriens-supermarket",
+          "name": "Adrien's Supermarket",
+          "mentionCount": 10
+        },
+        {
+          "slug": "rods-supermarket",
+          "name": "Rod's Supermarket",
+          "mentionCount": 10
+        },
+        {
+          "slug": "sweet-envie-llc",
+          "name": "Sweet Envie, LLC",
+          "mentionCount": 10
+        },
+        {
+          "slug": "earls-cajun-market",
+          "name": "Earl's Cajun Market",
+          "mentionCount": 9
+        },
+        {
+          "slug": "rouses-market",
+          "name": "Rouses Market",
           "mentionCount": 8
         },
         {
           "slug": "chicken-salad-chick",
           "name": "Chicken Salad Chick",
           "mentionCount": 5
+        },
+        {
+          "slug": "lydia-food-store",
+          "name": "Lydia Food Store",
+          "mentionCount": 5
+        },
+        {
+          "slug": "heberts-specialty-meats",
+          "name": "Hebert's Specialty Meats",
+          "mentionCount": 4
+        },
+        {
+          "slug": "cades-market",
+          "name": "Cade's Market",
+          "mentionCount": 4
+        },
+        {
+          "slug": "billeauds-grocery",
+          "name": "Billeaud's Grocery",
+          "mentionCount": 3
+        },
+        {
+          "slug": "la-marche",
+          "name": "La Marche",
+          "mentionCount": 3
+        },
+        {
+          "slug": "calvins-bocage-market",
+          "name": "Calvin's Bocage Market",
+          "mentionCount": 2
+        },
+        {
+          "slug": "russells-food-center",
+          "name": "Russell's Food Center",
+          "mentionCount": 2
+        },
+        {
+          "slug": "joyces-supermarket",
+          "name": "Joyce's Supermarket",
+          "mentionCount": 2
+        },
+        {
+          "slug": "harps-food-store",
+          "name": "Harp's Food Store",
+          "mentionCount": 2
         }
       ]
     },
@@ -63,23 +113,18 @@
       "slug": "best-sushi-in-lafayette",
       "name": "Best Sushi in Lafayette",
       "category": "Sushi",
-      "businessCount": 21,
-      "totalMentions": 281,
+      "businessCount": 20,
+      "totalMentions": 194,
       "topBusinesses": [
         {
           "slug": "fuji-sushi-house",
           "name": "Fuji Sushi House",
-          "mentionCount": 56
+          "mentionCount": 40
         },
         {
           "slug": "minami-sushi-bar",
           "name": "Minami Sushi Bar",
-          "mentionCount": 40
-        },
-        {
-          "slug": "ahi-sushi-japanese-cuisine-and-bar",
-          "name": "Ahi Sushi Japanese Cuisine & Bar",
-          "mentionCount": 27
+          "mentionCount": 25
         },
         {
           "slug": "rock-n-sake",
@@ -89,32 +134,87 @@
         {
           "slug": "fishbox-sushi",
           "name": "Fishbox Sushi",
-          "mentionCount": 20
+          "mentionCount": 15
+        },
+        {
+          "slug": "ahi-sushi-japanese-cuisine-and-bar",
+          "name": "Ahi Sushi Japanese Cuisine & Bar",
+          "mentionCount": 14
         },
         {
           "slug": "nhi-taste-of-asia",
           "name": "NHI Taste of Asia",
-          "mentionCount": 16
+          "mentionCount": 12
         },
         {
           "slug": "oishi-sushi",
           "name": "Oishi Sushi",
-          "mentionCount": 14
-        },
-        {
-          "slug": "osaka",
-          "name": "Osaka",
-          "mentionCount": 13
-        },
-        {
-          "slug": "rawz-bistro",
-          "name": "Rawz Bistro",
-          "mentionCount": 13
+          "mentionCount": 10
         },
         {
           "slug": "sushi-roxx",
           "name": "Sushi Roxx",
-          "mentionCount": 13
+          "mentionCount": 9
+        },
+        {
+          "slug": "osaka",
+          "name": "Osaka",
+          "mentionCount": 9
+        },
+        {
+          "slug": "saketini",
+          "name": "Saketini",
+          "mentionCount": 8
+        },
+        {
+          "slug": "rawz-bistro",
+          "name": "Rawz Bistro",
+          "mentionCount": 6
+        },
+        {
+          "slug": "samurai-sushi",
+          "name": "Samurai Sushi",
+          "mentionCount": 6
+        },
+        {
+          "slug": "sushi-masa",
+          "name": "Sushi Masa",
+          "mentionCount": 5
+        },
+        {
+          "slug": "bojangles-sushi",
+          "name": "Bojangles Sushi",
+          "mentionCount": 3
+        },
+        {
+          "slug": "tsunami-sushi",
+          "name": "Tsunami Sushi",
+          "mentionCount": 3
+        },
+        {
+          "slug": "yoka-japanese-sushi-bar-and-hibachi",
+          "name": "Yoka Japanese Sushi Bar & Hibachi",
+          "mentionCount": 2
+        },
+        {
+          "slug": "katsu-ramen-and-sushi",
+          "name": "Katsu Ramen & Sushi",
+          "mentionCount": 1
+        },
+        {
+          "slug": "shinto-japanese",
+          "name": "Shinto Japanese",
+          "mentionCount": 1
+        },
+        {
+          "slug": "la-fiesta",
+          "name": "La Fiesta",
+          "mentionCount": 1
+        },
+        {
+          "slug": "tsubaki-by-koi",
+          "name": "Tsubaki by Koi",
+          "mentionCount": 1
         }
       ]
     },
@@ -122,13 +222,13 @@
       "slug": "best-mexican-food-in-lafayette",
       "name": "Best Mexican Food in Lafayette",
       "category": "Mexican Food",
-      "businessCount": 14,
-      "totalMentions": 28,
+      "businessCount": 11,
+      "totalMentions": 20,
       "topBusinesses": [
         {
           "slug": "zarape-tacos-y-gorditas",
           "name": "Zarape Tacos y Gorditas",
-          "mentionCount": 7
+          "mentionCount": 6
         },
         {
           "slug": "taqueria-el-mexicano",
@@ -136,24 +236,39 @@
           "mentionCount": 4
         },
         {
-          "slug": "mezcal-mexican-restaurant",
-          "name": "Mezcal Mexican Restaurant",
-          "mentionCount": 3
-        },
-        {
           "slug": "all-star-bakeshop",
           "name": "All-Star Bakeshop",
           "mentionCount": 2
         },
         {
+          "slug": "mezcal-mexican-restaurant",
+          "name": "Mezcal Mexican Restaurant",
+          "mentionCount": 1
+        },
+        {
+          "slug": "pops-loca",
+          "name": "Pop's Loca",
+          "mentionCount": 1
+        },
+        {
           "slug": "la-fiesta",
           "name": "La Fiesta",
-          "mentionCount": 2
+          "mentionCount": 1
+        },
+        {
+          "slug": "little-verons",
+          "name": "Little Veron's",
+          "mentionCount": 1
         },
         {
           "slug": "la-hacienda",
           "name": "La Hacienda",
-          "mentionCount": 2
+          "mentionCount": 1
+        },
+        {
+          "slug": "las-chismosas",
+          "name": "Las Chismosas",
+          "mentionCount": 1
         },
         {
           "slug": "blanchards-bbq",
@@ -164,16 +279,6 @@
           "slug": "chow-yum-phat",
           "name": "Chow Yum Phat",
           "mentionCount": 1
-        },
-        {
-          "slug": "la-carreta",
-          "name": "La Carreta",
-          "mentionCount": 1
-        },
-        {
-          "slug": "las-chismosas",
-          "name": "Las Chismosas",
-          "mentionCount": 1
         }
       ]
     },
@@ -181,28 +286,28 @@
       "slug": "best-seafood-gumbo-in-lafayette-area",
       "name": "Best Seafood Gumbo in Lafayette Area",
       "category": "Seafood Gumbo",
-      "businessCount": 17,
-      "totalMentions": 53,
+      "businessCount": 16,
+      "totalMentions": 59,
       "topBusinesses": [
         {
           "slug": "rachels-cafe",
           "name": "Rachel's Cafe",
-          "mentionCount": 11
+          "mentionCount": 18
+        },
+        {
+          "slug": "chriss-poboys",
+          "name": "Chris's Poboys",
+          "mentionCount": 7
+        },
+        {
+          "slug": "prejeans",
+          "name": "Prejean's",
+          "mentionCount": 7
         },
         {
           "slug": "dons-seafood",
           "name": "Don's Seafood",
           "mentionCount": 7
-        },
-        {
-          "slug": "chriss-poboys",
-          "name": "Chris's Poboys",
-          "mentionCount": 6
-        },
-        {
-          "slug": "prejeans",
-          "name": "Prejean's",
-          "mentionCount": 6
         },
         {
           "slug": "bon-creole",
@@ -215,23 +320,53 @@
           "mentionCount": 4
         },
         {
-          "slug": "rascals-cajun-restaurant",
-          "name": "Rascal's Cajun Restaurant",
-          "mentionCount": 3
-        },
-        {
           "slug": "la-cuisine-de-maman",
           "name": "La Cuisine de Maman",
           "mentionCount": 2
         },
         {
+          "slug": "rascals-cajun-restaurant",
+          "name": "Rascal's Cajun Restaurant",
+          "mentionCount": 2
+        },
+        {
+          "slug": "poor-boys-riverside-inn",
+          "name": "Poor Boy's Riverside Inn",
+          "mentionCount": 1
+        },
+        {
+          "slug": "dupuys-seafood-and-steak",
+          "name": "Dupuy's Seafood and Steak",
+          "mentionCount": 1
+        },
+        {
           "slug": "pinchers-seafood-restaurant",
           "name": "Pinchers Seafood Restaurant",
-          "mentionCount": 2
+          "mentionCount": 1
         },
         {
           "slug": "charley-gs",
           "name": "Charley G's",
+          "mentionCount": 1
+        },
+        {
+          "slug": "fezzos-seafood-steakhouse-and-oyster-bar",
+          "name": "Fezzo's Seafood, Steakhouse & Oyster Bar",
+          "mentionCount": 1
+        },
+        {
+          "slug": "shucks",
+          "name": "Shucks!",
+          "mentionCount": 1
+        },
+        {
+          "slug": "monroes",
+          "name": "Monroe's",
+          "mentionCount": 1
+        },
+        {
+          "slug": "steamboat-warehouse",
+          "name": "Steamboat Warehouse",
           "mentionCount": 1
         }
       ]
@@ -306,7 +441,7 @@
       ],
       "location": "Lafayette, LA",
       "address": null,
-      "mentionCount": 56,
+      "mentionCount": 40,
       "highlights": [
         "Most-mentioned sushi spot in thread"
       ],
@@ -332,7 +467,7 @@
       ],
       "location": "Broussard, LA",
       "address": "Albertsons Parkway, Broussard",
-      "mentionCount": 47,
+      "mentionCount": 34,
       "highlights": [
         "Jalapeño version repeatedly praised and recommended",
         "Most-mentioned chicken salad recommendation"
@@ -358,7 +493,7 @@
       ],
       "location": "Lafayette, LA",
       "address": null,
-      "mentionCount": 40,
+      "mentionCount": 25,
       "highlights": [
         "Strong consensus for freshness"
       ],
@@ -383,7 +518,7 @@
       ],
       "location": "Lafayette/Erath/Abbeville, LA",
       "address": null,
-      "mentionCount": 29,
+      "mentionCount": 28,
       "highlights": [
         "Oil Center and Erath chicken salad both frequently recommended"
       ],
@@ -407,7 +542,7 @@
       ],
       "location": "Lafayette, LA",
       "address": null,
-      "mentionCount": 27,
+      "mentionCount": 14,
       "highlights": [],
       "source": "facebook-group",
       "sourceThread": "Best Sushi in Lafayette",
@@ -447,7 +582,7 @@
       ],
       "location": "Lafayette, LA",
       "address": null,
-      "mentionCount": 20,
+      "mentionCount": 15,
       "highlights": [
         "Frequently recommended for variety and by-the-piece format"
       ],
@@ -470,7 +605,7 @@
       ],
       "location": "Lafayette, LA",
       "address": "Moss St, Lafayette",
-      "mentionCount": 17,
+      "mentionCount": 10,
       "highlights": [],
       "source": "facebook-group",
       "sourceThread": "Best Chicken Salad in Acadiana",
@@ -491,7 +626,7 @@
       ],
       "location": "Lafayette, LA",
       "address": null,
-      "mentionCount": 16,
+      "mentionCount": 12,
       "highlights": [],
       "source": "facebook-group",
       "sourceThread": "Best Sushi in Lafayette",
@@ -512,7 +647,7 @@
       ],
       "location": "Lafayette, LA",
       "address": "Rena Drive, Lafayette",
-      "mentionCount": 14,
+      "mentionCount": 1,
       "highlights": [],
       "source": "facebook-group",
       "sourceThread": "Best Chicken Salad in Acadiana",
@@ -533,7 +668,7 @@
       ],
       "location": "Opelousas, LA",
       "address": null,
-      "mentionCount": 14,
+      "mentionCount": 11,
       "highlights": [],
       "source": "facebook-group",
       "sourceThread": "Best Chicken Salad in Acadiana",
@@ -553,7 +688,7 @@
       ],
       "location": "Lafayette, LA",
       "address": null,
-      "mentionCount": 14,
+      "mentionCount": 10,
       "highlights": [
         "Often noted as takeout only"
       ],
@@ -575,7 +710,7 @@
       ],
       "location": "Lafayette, LA",
       "address": null,
-      "mentionCount": 13,
+      "mentionCount": 9,
       "highlights": [],
       "source": "facebook-group",
       "sourceThread": "Best Sushi in Lafayette",
@@ -595,7 +730,7 @@
       ],
       "location": "Youngsville, LA",
       "address": null,
-      "mentionCount": 13,
+      "mentionCount": 6,
       "highlights": [],
       "source": "facebook-group",
       "sourceThread": "Best Sushi in Lafayette",
@@ -615,7 +750,7 @@
       ],
       "location": "Broussard, LA",
       "address": null,
-      "mentionCount": 13,
+      "mentionCount": 9,
       "highlights": [],
       "source": "facebook-group",
       "sourceThread": "Best Sushi in Lafayette",
@@ -636,7 +771,7 @@
       ],
       "location": "Lafayette, LA",
       "address": "Verot School Rd, Lafayette",
-      "mentionCount": 11,
+      "mentionCount": 9,
       "highlights": [
         "Smoked chicken salad repeatedly noted"
       ],
@@ -658,7 +793,7 @@
       ],
       "location": "Lafayette, LA",
       "address": "Republic Ave, Lafayette",
-      "mentionCount": 11,
+      "mentionCount": 18,
       "highlights": [
         "Clear top pick in seafood gumbo thread"
       ],
@@ -684,7 +819,7 @@
       ],
       "location": "Church Point, LA",
       "address": null,
-      "mentionCount": 11,
+      "mentionCount": 10,
       "highlights": [],
       "source": "facebook-group",
       "sourceThread": "Best Chicken Salad in Acadiana",
@@ -707,7 +842,7 @@
       ],
       "location": "Multiple Acadiana locations",
       "address": null,
-      "mentionCount": 11,
+      "mentionCount": 8,
       "highlights": [],
       "source": "facebook-group",
       "sourceThread": "Best Chicken Salad in Acadiana",
@@ -727,7 +862,7 @@
       ],
       "location": "Broussard, LA",
       "address": null,
-      "mentionCount": 9,
+      "mentionCount": 8,
       "highlights": [],
       "source": "facebook-group",
       "sourceThread": "Best Sushi in Lafayette",
@@ -748,7 +883,7 @@
       ],
       "location": "Youngsville, LA",
       "address": null,
-      "mentionCount": 8,
+      "mentionCount": 12,
       "highlights": [],
       "source": "facebook-group",
       "sourceThread": "Best Chicken Salad in Acadiana",
@@ -768,7 +903,7 @@
       ],
       "location": "Lafayette/Broussard, LA",
       "address": null,
-      "mentionCount": 8,
+      "mentionCount": 6,
       "highlights": [],
       "source": "facebook-group",
       "sourceThread": "Best Sushi in Lafayette",
@@ -788,7 +923,7 @@
       ],
       "location": "New Iberia, LA",
       "address": null,
-      "mentionCount": 7,
+      "mentionCount": 3,
       "highlights": [],
       "source": "facebook-group",
       "sourceThread": "Best Sushi in Lafayette",
@@ -829,7 +964,7 @@
       ],
       "location": "Lafayette, LA",
       "address": null,
-      "mentionCount": 7,
+      "mentionCount": 6,
       "highlights": [
         "Most-mentioned birria destination in comments"
       ],
@@ -853,7 +988,7 @@
       ],
       "location": "Lafayette, LA",
       "address": "Pinhook Rd, Lafayette",
-      "mentionCount": 6,
+      "mentionCount": 7,
       "highlights": [],
       "source": "facebook-group",
       "sourceThread": "Best Seafood Gumbo in Lafayette Area",
@@ -873,7 +1008,7 @@
       ],
       "location": "Carencro, LA",
       "address": null,
-      "mentionCount": 6,
+      "mentionCount": 7,
       "highlights": [],
       "source": "facebook-group",
       "sourceThread": "Best Seafood Gumbo in Lafayette Area",
@@ -1060,7 +1195,7 @@
       ],
       "location": "Lafayette, LA",
       "address": null,
-      "mentionCount": 4,
+      "mentionCount": 3,
       "highlights": [],
       "source": "facebook-group",
       "sourceThread": "Best Sushi in Lafayette",
@@ -1080,7 +1215,7 @@
       ],
       "location": "Youngsville, LA",
       "address": null,
-      "mentionCount": 4,
+      "mentionCount": 2,
       "highlights": [],
       "source": "facebook-group",
       "sourceThread": "Best Sushi in Lafayette",
@@ -1101,7 +1236,7 @@
       ],
       "location": "Lafayette, LA",
       "address": "Congress St, Lafayette",
-      "mentionCount": 3,
+      "mentionCount": 10,
       "highlights": [],
       "source": "facebook-group",
       "sourceThread": "Best Chicken Salad in Acadiana",
@@ -1121,7 +1256,7 @@
       ],
       "location": "Lafayette, LA",
       "address": null,
-      "mentionCount": 3,
+      "mentionCount": 1,
       "highlights": [
         "Primary restaurant in original post and heavily affirmed"
       ],
@@ -1145,7 +1280,7 @@
       ],
       "location": "Duson, LA",
       "address": null,
-      "mentionCount": 3,
+      "mentionCount": 2,
       "highlights": [],
       "source": "facebook-group",
       "sourceThread": "Best Seafood Gumbo in Lafayette Area",
@@ -1165,7 +1300,7 @@
       ],
       "location": "Lafayette, LA",
       "address": null,
-      "mentionCount": 3,
+      "mentionCount": 1,
       "highlights": [],
       "source": "facebook-group",
       "sourceThread": "Best Sushi in Lafayette",
@@ -1207,7 +1342,7 @@
       ],
       "location": "Broussard, LA",
       "address": null,
-      "mentionCount": 2,
+      "mentionCount": 3,
       "highlights": [],
       "source": "facebook-group",
       "sourceThread": "Best Chicken Salad in Acadiana",
@@ -1228,7 +1363,7 @@
       ],
       "location": "St. Martinville, LA",
       "address": null,
-      "mentionCount": 2,
+      "mentionCount": 4,
       "highlights": [
         "Locally known for in-house chicken salad and beef jerky"
       ],
@@ -1315,7 +1450,7 @@
       ],
       "location": "Broussard, LA",
       "address": null,
-      "mentionCount": 2,
+      "mentionCount": 1,
       "highlights": [],
       "source": "facebook-group",
       "sourceThread": "Best Mexican Food in Lafayette",
@@ -1335,7 +1470,7 @@
       ],
       "location": "Broussard, LA",
       "address": null,
-      "mentionCount": 2,
+      "mentionCount": 1,
       "highlights": [],
       "source": "facebook-group",
       "sourceThread": "Best Mexican Food in Lafayette",
@@ -1356,7 +1491,7 @@
       ],
       "location": "Maurice, LA",
       "address": null,
-      "mentionCount": 2,
+      "mentionCount": 3,
       "highlights": [],
       "source": "facebook-group",
       "sourceThread": "Best Chicken Salad in Acadiana",
@@ -1396,7 +1531,7 @@
       ],
       "location": "Lafayette, LA",
       "address": null,
-      "mentionCount": 2,
+      "mentionCount": 1,
       "highlights": [],
       "source": "facebook-group",
       "sourceThread": "Best Seafood Gumbo in Lafayette Area",
@@ -1723,7 +1858,7 @@
       ],
       "location": "Sunset, LA",
       "address": null,
-      "mentionCount": 1,
+      "mentionCount": 2,
       "highlights": [],
       "source": "facebook-group",
       "sourceThread": "Best Chicken Salad in Acadiana",
@@ -2109,7 +2244,7 @@
       ],
       "location": "St. Martinville, LA",
       "address": null,
-      "mentionCount": 0,
+      "mentionCount": 2,
       "highlights": [],
       "source": "facebook-group",
       "sourceThread": "Best Chicken Salad in Acadiana",
@@ -2119,9 +2254,30 @@
       "rank": 25,
       "tags": [],
       "specialNotes": null
+    },
+    {
+      "slug": "pouparts",
+      "name": "Pouparts",
+      "category": "Chicken Salad",
+      "categories": [
+        "Chicken Salad"
+      ],
+      "location": "Lafayette, LA",
+      "address": null,
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Chicken Salad in Acadiana",
+      "threads": [
+        "Best Chicken Salad in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
     }
   ],
   "lastUpdated": "2026-03-25T18:20:06.192668+00:00",
   "totalBusinesses": 87,
-  "totalMentions": 571
+  "totalMentions": 571,
+  "generatedAt": "2026-03-25T21:46:09.267Z"
 }
