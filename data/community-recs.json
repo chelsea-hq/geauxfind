@@ -1,0 +1,2127 @@
+{
+  "topics": [
+    {
+      "slug": "best-chicken-salad-in-acadiana",
+      "name": "Best Chicken Salad in Acadiana",
+      "category": "Chicken Salad",
+      "businessCount": 25,
+      "totalMentions": 199,
+      "topBusinesses": [
+        {
+          "slug": "chops-specialty-meats",
+          "name": "Chop's Specialty Meats",
+          "mentionCount": 47
+        },
+        {
+          "slug": "champagnes-market",
+          "name": "Champagne's Market",
+          "mentionCount": 29
+        },
+        {
+          "slug": "sweet-envie-llc",
+          "name": "Sweet Envie, LLC",
+          "mentionCount": 17
+        },
+        {
+          "slug": "little-verons",
+          "name": "Little Veron's",
+          "mentionCount": 14
+        },
+        {
+          "slug": "mamas-fried-chicken",
+          "name": "Mama's Fried Chicken",
+          "mentionCount": 14
+        },
+        {
+          "slug": "earls-cajun-market",
+          "name": "Earl's Cajun Market",
+          "mentionCount": 11
+        },
+        {
+          "slug": "rods-supermarket",
+          "name": "Rod's Supermarket",
+          "mentionCount": 11
+        },
+        {
+          "slug": "rouses-market",
+          "name": "Rouses Market",
+          "mentionCount": 11
+        },
+        {
+          "slug": "nunus-fresh-market",
+          "name": "NuNu's Fresh Market",
+          "mentionCount": 8
+        },
+        {
+          "slug": "chicken-salad-chick",
+          "name": "Chicken Salad Chick",
+          "mentionCount": 5
+        }
+      ]
+    },
+    {
+      "slug": "best-sushi-in-lafayette",
+      "name": "Best Sushi in Lafayette",
+      "category": "Sushi",
+      "businessCount": 21,
+      "totalMentions": 281,
+      "topBusinesses": [
+        {
+          "slug": "fuji-sushi-house",
+          "name": "Fuji Sushi House",
+          "mentionCount": 56
+        },
+        {
+          "slug": "minami-sushi-bar",
+          "name": "Minami Sushi Bar",
+          "mentionCount": 40
+        },
+        {
+          "slug": "ahi-sushi-japanese-cuisine-and-bar",
+          "name": "Ahi Sushi Japanese Cuisine & Bar",
+          "mentionCount": 27
+        },
+        {
+          "slug": "rock-n-sake",
+          "name": "Rock n Sake",
+          "mentionCount": 23
+        },
+        {
+          "slug": "fishbox-sushi",
+          "name": "Fishbox Sushi",
+          "mentionCount": 20
+        },
+        {
+          "slug": "nhi-taste-of-asia",
+          "name": "NHI Taste of Asia",
+          "mentionCount": 16
+        },
+        {
+          "slug": "oishi-sushi",
+          "name": "Oishi Sushi",
+          "mentionCount": 14
+        },
+        {
+          "slug": "osaka",
+          "name": "Osaka",
+          "mentionCount": 13
+        },
+        {
+          "slug": "rawz-bistro",
+          "name": "Rawz Bistro",
+          "mentionCount": 13
+        },
+        {
+          "slug": "sushi-roxx",
+          "name": "Sushi Roxx",
+          "mentionCount": 13
+        }
+      ]
+    },
+    {
+      "slug": "best-mexican-food-in-lafayette",
+      "name": "Best Mexican Food in Lafayette",
+      "category": "Mexican Food",
+      "businessCount": 14,
+      "totalMentions": 28,
+      "topBusinesses": [
+        {
+          "slug": "zarape-tacos-y-gorditas",
+          "name": "Zarape Tacos y Gorditas",
+          "mentionCount": 7
+        },
+        {
+          "slug": "taqueria-el-mexicano",
+          "name": "Taqueria El Mexicano",
+          "mentionCount": 4
+        },
+        {
+          "slug": "mezcal-mexican-restaurant",
+          "name": "Mezcal Mexican Restaurant",
+          "mentionCount": 3
+        },
+        {
+          "slug": "all-star-bakeshop",
+          "name": "All-Star Bakeshop",
+          "mentionCount": 2
+        },
+        {
+          "slug": "la-fiesta",
+          "name": "La Fiesta",
+          "mentionCount": 2
+        },
+        {
+          "slug": "la-hacienda",
+          "name": "La Hacienda",
+          "mentionCount": 2
+        },
+        {
+          "slug": "blanchards-bbq",
+          "name": "Blanchard's BBQ",
+          "mentionCount": 1
+        },
+        {
+          "slug": "chow-yum-phat",
+          "name": "Chow Yum Phat",
+          "mentionCount": 1
+        },
+        {
+          "slug": "la-carreta",
+          "name": "La Carreta",
+          "mentionCount": 1
+        },
+        {
+          "slug": "las-chismosas",
+          "name": "Las Chismosas",
+          "mentionCount": 1
+        }
+      ]
+    },
+    {
+      "slug": "best-seafood-gumbo-in-lafayette-area",
+      "name": "Best Seafood Gumbo in Lafayette Area",
+      "category": "Seafood Gumbo",
+      "businessCount": 17,
+      "totalMentions": 53,
+      "topBusinesses": [
+        {
+          "slug": "rachels-cafe",
+          "name": "Rachel's Cafe",
+          "mentionCount": 11
+        },
+        {
+          "slug": "dons-seafood",
+          "name": "Don's Seafood",
+          "mentionCount": 7
+        },
+        {
+          "slug": "chriss-poboys",
+          "name": "Chris's Poboys",
+          "mentionCount": 6
+        },
+        {
+          "slug": "prejeans",
+          "name": "Prejean's",
+          "mentionCount": 6
+        },
+        {
+          "slug": "bon-creole",
+          "name": "Bon Creole",
+          "mentionCount": 4
+        },
+        {
+          "slug": "chef-roys-frog-city-cafe",
+          "name": "Chef Roy's Frog City Cafe",
+          "mentionCount": 4
+        },
+        {
+          "slug": "rascals-cajun-restaurant",
+          "name": "Rascal's Cajun Restaurant",
+          "mentionCount": 3
+        },
+        {
+          "slug": "la-cuisine-de-maman",
+          "name": "La Cuisine de Maman",
+          "mentionCount": 2
+        },
+        {
+          "slug": "pinchers-seafood-restaurant",
+          "name": "Pinchers Seafood Restaurant",
+          "mentionCount": 2
+        },
+        {
+          "slug": "charley-gs",
+          "name": "Charley G's",
+          "mentionCount": 1
+        }
+      ]
+    },
+    {
+      "slug": "best-crawfish-dine-in-in-acadiana",
+      "name": "Best Crawfish Dine-In in Acadiana",
+      "category": "Crawfish",
+      "businessCount": 10,
+      "totalMentions": 10,
+      "topBusinesses": [
+        {
+          "slug": "bulldog",
+          "name": "Bulldog",
+          "mentionCount": 1
+        },
+        {
+          "slug": "cest-bon-crawfish",
+          "name": "C'est Bon Crawfish",
+          "mentionCount": 1
+        },
+        {
+          "slug": "crawfish-time",
+          "name": "Crawfish Time",
+          "mentionCount": 1
+        },
+        {
+          "slug": "crazy-bout-crawfish",
+          "name": "Crazy Bout Crawfish",
+          "mentionCount": 1
+        },
+        {
+          "slug": "dwights-restaurant",
+          "name": "Dwight's Restaurant",
+          "mentionCount": 1
+        },
+        {
+          "slug": "granddaddys",
+          "name": "Granddaddy's",
+          "mentionCount": 1
+        },
+        {
+          "slug": "hawks-restaurant",
+          "name": "Hawk's Restaurant",
+          "mentionCount": 1
+        },
+        {
+          "slug": "the-cajun-table",
+          "name": "The Cajun Table",
+          "mentionCount": 1
+        },
+        {
+          "slug": "uncle-ts",
+          "name": "Uncle T's",
+          "mentionCount": 1
+        },
+        {
+          "slug": "youngs-sports-bar-and-grill",
+          "name": "Young's Sports Bar & Grill",
+          "mentionCount": 1
+        }
+      ]
+    }
+  ],
+  "businesses": [
+    {
+      "slug": "fuji-sushi-house",
+      "name": "Fuji Sushi House",
+      "category": "Sushi",
+      "categories": [
+        "Sushi"
+      ],
+      "location": "Lafayette, LA",
+      "address": null,
+      "mentionCount": 56,
+      "highlights": [
+        "Most-mentioned sushi spot in thread"
+      ],
+      "source": "facebook-group",
+      "sourceThread": "Best Sushi in Lafayette",
+      "threads": [
+        "Best Sushi in Lafayette"
+      ],
+      "rank": 1,
+      "tags": [
+        "top-pick",
+        "local-favorite"
+      ],
+      "specialNotes": "Temporarily closed"
+    },
+    {
+      "slug": "chops-specialty-meats",
+      "name": "Chop's Specialty Meats",
+      "category": "Chicken Salad",
+      "categories": [
+        "Chicken Salad",
+        "Specialty Meats"
+      ],
+      "location": "Broussard, LA",
+      "address": "Albertsons Parkway, Broussard",
+      "mentionCount": 47,
+      "highlights": [
+        "Jalapeño version repeatedly praised and recommended",
+        "Most-mentioned chicken salad recommendation"
+      ],
+      "source": "facebook-group",
+      "sourceThread": "Best Chicken Salad in Acadiana",
+      "threads": [
+        "Best Chicken Salad in Acadiana"
+      ],
+      "rank": 1,
+      "tags": [
+        "top-pick",
+        "local-favorite"
+      ],
+      "specialNotes": null
+    },
+    {
+      "slug": "minami-sushi-bar",
+      "name": "Minami Sushi Bar",
+      "category": "Sushi",
+      "categories": [
+        "Sushi"
+      ],
+      "location": "Lafayette, LA",
+      "address": null,
+      "mentionCount": 40,
+      "highlights": [
+        "Strong consensus for freshness"
+      ],
+      "source": "facebook-group",
+      "sourceThread": "Best Sushi in Lafayette",
+      "threads": [
+        "Best Sushi in Lafayette"
+      ],
+      "rank": 2,
+      "tags": [
+        "local-favorite"
+      ],
+      "specialNotes": null
+    },
+    {
+      "slug": "champagnes-market",
+      "name": "Champagne's Market",
+      "category": "Chicken Salad",
+      "categories": [
+        "Chicken Salad",
+        "Market"
+      ],
+      "location": "Lafayette/Erath/Abbeville, LA",
+      "address": null,
+      "mentionCount": 29,
+      "highlights": [
+        "Oil Center and Erath chicken salad both frequently recommended"
+      ],
+      "source": "facebook-group",
+      "sourceThread": "Best Chicken Salad in Acadiana",
+      "threads": [
+        "Best Chicken Salad in Acadiana"
+      ],
+      "rank": 2,
+      "tags": [
+        "local-favorite"
+      ],
+      "specialNotes": null
+    },
+    {
+      "slug": "ahi-sushi-japanese-cuisine-and-bar",
+      "name": "Ahi Sushi Japanese Cuisine & Bar",
+      "category": "Sushi",
+      "categories": [
+        "Sushi"
+      ],
+      "location": "Lafayette, LA",
+      "address": null,
+      "mentionCount": 27,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Sushi in Lafayette",
+      "threads": [
+        "Best Sushi in Lafayette"
+      ],
+      "rank": 3,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "rock-n-sake",
+      "name": "Rock n Sake",
+      "category": "Sushi",
+      "categories": [
+        "Sushi"
+      ],
+      "location": "Lafayette, LA",
+      "address": "River Ranch, Lafayette",
+      "mentionCount": 23,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Sushi in Lafayette",
+      "threads": [
+        "Best Sushi in Lafayette"
+      ],
+      "rank": 4,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "fishbox-sushi",
+      "name": "Fishbox Sushi",
+      "category": "Sushi",
+      "categories": [
+        "Sushi"
+      ],
+      "location": "Lafayette, LA",
+      "address": null,
+      "mentionCount": 20,
+      "highlights": [
+        "Frequently recommended for variety and by-the-piece format"
+      ],
+      "source": "facebook-group",
+      "sourceThread": "Best Sushi in Lafayette",
+      "threads": [
+        "Best Sushi in Lafayette"
+      ],
+      "rank": 5,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "sweet-envie-llc",
+      "name": "Sweet Envie, LLC",
+      "category": "Chicken Salad",
+      "categories": [
+        "Chicken Salad",
+        "Bakery"
+      ],
+      "location": "Lafayette, LA",
+      "address": "Moss St, Lafayette",
+      "mentionCount": 17,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Chicken Salad in Acadiana",
+      "threads": [
+        "Best Chicken Salad in Acadiana"
+      ],
+      "rank": 3,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "nhi-taste-of-asia",
+      "name": "NHI Taste of Asia",
+      "category": "Sushi",
+      "categories": [
+        "Sushi",
+        "Asian"
+      ],
+      "location": "Lafayette, LA",
+      "address": null,
+      "mentionCount": 16,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Sushi in Lafayette",
+      "threads": [
+        "Best Sushi in Lafayette"
+      ],
+      "rank": 6,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "little-verons",
+      "name": "Little Veron's",
+      "category": "Chicken Salad",
+      "categories": [
+        "Chicken Salad",
+        "Deli"
+      ],
+      "location": "Lafayette, LA",
+      "address": "Rena Drive, Lafayette",
+      "mentionCount": 14,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Chicken Salad in Acadiana",
+      "threads": [
+        "Best Chicken Salad in Acadiana"
+      ],
+      "rank": 4,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "mamas-fried-chicken",
+      "name": "Mama's Fried Chicken",
+      "category": "Chicken Salad",
+      "categories": [
+        "Chicken Salad",
+        "Fried Chicken"
+      ],
+      "location": "Opelousas, LA",
+      "address": null,
+      "mentionCount": 14,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Chicken Salad in Acadiana",
+      "threads": [
+        "Best Chicken Salad in Acadiana"
+      ],
+      "rank": 5,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "oishi-sushi",
+      "name": "Oishi Sushi",
+      "category": "Sushi",
+      "categories": [
+        "Sushi"
+      ],
+      "location": "Lafayette, LA",
+      "address": null,
+      "mentionCount": 14,
+      "highlights": [
+        "Often noted as takeout only"
+      ],
+      "source": "facebook-group",
+      "sourceThread": "Best Sushi in Lafayette",
+      "threads": [
+        "Best Sushi in Lafayette"
+      ],
+      "rank": 7,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "osaka",
+      "name": "Osaka",
+      "category": "Sushi",
+      "categories": [
+        "Sushi"
+      ],
+      "location": "Lafayette, LA",
+      "address": null,
+      "mentionCount": 13,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Sushi in Lafayette",
+      "threads": [
+        "Best Sushi in Lafayette"
+      ],
+      "rank": 8,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "rawz-bistro",
+      "name": "Rawz Bistro",
+      "category": "Sushi",
+      "categories": [
+        "Sushi"
+      ],
+      "location": "Youngsville, LA",
+      "address": null,
+      "mentionCount": 13,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Sushi in Lafayette",
+      "threads": [
+        "Best Sushi in Lafayette"
+      ],
+      "rank": 9,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "sushi-roxx",
+      "name": "Sushi Roxx",
+      "category": "Sushi",
+      "categories": [
+        "Sushi"
+      ],
+      "location": "Broussard, LA",
+      "address": null,
+      "mentionCount": 13,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Sushi in Lafayette",
+      "threads": [
+        "Best Sushi in Lafayette"
+      ],
+      "rank": 10,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "earls-cajun-market",
+      "name": "Earl's Cajun Market",
+      "category": "Chicken Salad",
+      "categories": [
+        "Chicken Salad",
+        "Market"
+      ],
+      "location": "Lafayette, LA",
+      "address": "Verot School Rd, Lafayette",
+      "mentionCount": 11,
+      "highlights": [
+        "Smoked chicken salad repeatedly noted"
+      ],
+      "source": "facebook-group",
+      "sourceThread": "Best Chicken Salad in Acadiana",
+      "threads": [
+        "Best Chicken Salad in Acadiana"
+      ],
+      "rank": 6,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "rachels-cafe",
+      "name": "Rachel's Cafe",
+      "category": "Seafood Gumbo",
+      "categories": [
+        "Seafood Gumbo"
+      ],
+      "location": "Lafayette, LA",
+      "address": "Republic Ave, Lafayette",
+      "mentionCount": 11,
+      "highlights": [
+        "Clear top pick in seafood gumbo thread"
+      ],
+      "source": "facebook-group",
+      "sourceThread": "Best Seafood Gumbo in Lafayette Area",
+      "threads": [
+        "Best Seafood Gumbo in Lafayette Area"
+      ],
+      "rank": 1,
+      "tags": [
+        "top-pick",
+        "local-favorite"
+      ],
+      "specialNotes": null
+    },
+    {
+      "slug": "rods-supermarket",
+      "name": "Rod's Supermarket",
+      "category": "Chicken Salad",
+      "categories": [
+        "Chicken Salad",
+        "Grocery"
+      ],
+      "location": "Church Point, LA",
+      "address": null,
+      "mentionCount": 11,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Chicken Salad in Acadiana",
+      "threads": [
+        "Best Chicken Salad in Acadiana"
+      ],
+      "rank": 7,
+      "tags": [
+        "local-favorite"
+      ],
+      "specialNotes": null
+    },
+    {
+      "slug": "rouses-market",
+      "name": "Rouses Market",
+      "category": "Chicken Salad",
+      "categories": [
+        "Chicken Salad",
+        "Grocery"
+      ],
+      "location": "Multiple Acadiana locations",
+      "address": null,
+      "mentionCount": 11,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Chicken Salad in Acadiana",
+      "threads": [
+        "Best Chicken Salad in Acadiana"
+      ],
+      "rank": 8,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "saketini",
+      "name": "Saketini",
+      "category": "Sushi",
+      "categories": [
+        "Sushi"
+      ],
+      "location": "Broussard, LA",
+      "address": null,
+      "mentionCount": 9,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Sushi in Lafayette",
+      "threads": [
+        "Best Sushi in Lafayette"
+      ],
+      "rank": 11,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "nunus-fresh-market",
+      "name": "NuNu's Fresh Market",
+      "category": "Chicken Salad",
+      "categories": [
+        "Chicken Salad",
+        "Market"
+      ],
+      "location": "Youngsville, LA",
+      "address": null,
+      "mentionCount": 8,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Chicken Salad in Acadiana",
+      "threads": [
+        "Best Chicken Salad in Acadiana"
+      ],
+      "rank": 9,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "samurai-sushi",
+      "name": "Samurai Sushi",
+      "category": "Sushi",
+      "categories": [
+        "Sushi"
+      ],
+      "location": "Lafayette/Broussard, LA",
+      "address": null,
+      "mentionCount": 8,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Sushi in Lafayette",
+      "threads": [
+        "Best Sushi in Lafayette"
+      ],
+      "rank": 12,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "bojangles-sushi",
+      "name": "Bojangles Sushi",
+      "category": "Sushi",
+      "categories": [
+        "Sushi"
+      ],
+      "location": "New Iberia, LA",
+      "address": null,
+      "mentionCount": 7,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Sushi in Lafayette",
+      "threads": [
+        "Best Sushi in Lafayette"
+      ],
+      "rank": 13,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "dons-seafood",
+      "name": "Don's Seafood",
+      "category": "Seafood Gumbo",
+      "categories": [
+        "Seafood Gumbo"
+      ],
+      "location": "Lafayette, LA",
+      "address": null,
+      "mentionCount": 7,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Seafood Gumbo in Lafayette Area",
+      "threads": [
+        "Best Seafood Gumbo in Lafayette Area"
+      ],
+      "rank": 2,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "zarape-tacos-y-gorditas",
+      "name": "Zarape Tacos y Gorditas",
+      "category": "Mexican Food",
+      "categories": [
+        "Mexican Food",
+        "Birria Tacos"
+      ],
+      "location": "Lafayette, LA",
+      "address": null,
+      "mentionCount": 7,
+      "highlights": [
+        "Most-mentioned birria destination in comments"
+      ],
+      "source": "facebook-group",
+      "sourceThread": "Best Mexican Food in Lafayette",
+      "threads": [
+        "Best Mexican Food in Lafayette"
+      ],
+      "rank": 1,
+      "tags": [
+        "local-favorite"
+      ],
+      "specialNotes": null
+    },
+    {
+      "slug": "chriss-poboys",
+      "name": "Chris's Poboys",
+      "category": "Seafood Gumbo",
+      "categories": [
+        "Seafood Gumbo"
+      ],
+      "location": "Lafayette, LA",
+      "address": "Pinhook Rd, Lafayette",
+      "mentionCount": 6,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Seafood Gumbo in Lafayette Area",
+      "threads": [
+        "Best Seafood Gumbo in Lafayette Area"
+      ],
+      "rank": 3,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "prejeans",
+      "name": "Prejean's",
+      "category": "Seafood Gumbo",
+      "categories": [
+        "Seafood Gumbo"
+      ],
+      "location": "Carencro, LA",
+      "address": null,
+      "mentionCount": 6,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Seafood Gumbo in Lafayette Area",
+      "threads": [
+        "Best Seafood Gumbo in Lafayette Area"
+      ],
+      "rank": 4,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "chicken-salad-chick",
+      "name": "Chicken Salad Chick",
+      "category": "Chicken Salad",
+      "categories": [
+        "Chicken Salad",
+        "Restaurant"
+      ],
+      "location": "Lafayette, LA",
+      "address": null,
+      "mentionCount": 5,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Chicken Salad in Acadiana",
+      "threads": [
+        "Best Chicken Salad in Acadiana"
+      ],
+      "rank": 10,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "lydia-food-store",
+      "name": "Lydia Food Store",
+      "category": "Chicken Salad",
+      "categories": [
+        "Chicken Salad",
+        "Grocery"
+      ],
+      "location": "Lydia, LA",
+      "address": null,
+      "mentionCount": 5,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Chicken Salad in Acadiana",
+      "threads": [
+        "Best Chicken Salad in Acadiana"
+      ],
+      "rank": 11,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "sushi-masa",
+      "name": "Sushi Masa",
+      "category": "Sushi",
+      "categories": [
+        "Sushi"
+      ],
+      "location": "Lafayette, LA",
+      "address": null,
+      "mentionCount": 5,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Sushi in Lafayette",
+      "threads": [
+        "Best Sushi in Lafayette"
+      ],
+      "rank": 14,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "bon-creole",
+      "name": "Bon Creole",
+      "category": "Seafood Gumbo",
+      "categories": [
+        "Seafood Gumbo"
+      ],
+      "location": "New Iberia, LA",
+      "address": null,
+      "mentionCount": 4,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Seafood Gumbo in Lafayette Area",
+      "threads": [
+        "Best Seafood Gumbo in Lafayette Area"
+      ],
+      "rank": 5,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "chef-roys-frog-city-cafe",
+      "name": "Chef Roy's Frog City Cafe",
+      "category": "Seafood Gumbo",
+      "categories": [
+        "Seafood Gumbo"
+      ],
+      "location": "Rayne, LA",
+      "address": null,
+      "mentionCount": 4,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Seafood Gumbo in Lafayette Area",
+      "threads": [
+        "Best Seafood Gumbo in Lafayette Area"
+      ],
+      "rank": 6,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "heberts-specialty-meats",
+      "name": "Hebert's Specialty Meats",
+      "category": "Chicken Salad",
+      "categories": [
+        "Chicken Salad",
+        "Specialty Meats"
+      ],
+      "location": "Breaux Bridge, LA",
+      "address": null,
+      "mentionCount": 4,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Chicken Salad in Acadiana",
+      "threads": [
+        "Best Chicken Salad in Acadiana"
+      ],
+      "rank": 12,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "poupart-bakery",
+      "name": "Poupart Bakery",
+      "category": "Chicken Salad",
+      "categories": [
+        "Chicken Salad",
+        "Bakery"
+      ],
+      "location": "Lafayette, LA",
+      "address": null,
+      "mentionCount": 4,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Chicken Salad in Acadiana",
+      "threads": [
+        "Best Chicken Salad in Acadiana"
+      ],
+      "rank": 13,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "taqueria-el-mexicano",
+      "name": "Taqueria El Mexicano",
+      "category": "Mexican Food",
+      "categories": [
+        "Mexican Food",
+        "Birria Tacos"
+      ],
+      "location": "Lafayette, LA",
+      "address": null,
+      "mentionCount": 4,
+      "highlights": [
+        "Mentioned as best overall and birria source"
+      ],
+      "source": "facebook-group",
+      "sourceThread": "Best Mexican Food in Lafayette",
+      "threads": [
+        "Best Mexican Food in Lafayette"
+      ],
+      "rank": 2,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "tsunami-sushi",
+      "name": "Tsunami Sushi",
+      "category": "Sushi",
+      "categories": [
+        "Sushi"
+      ],
+      "location": "Lafayette, LA",
+      "address": null,
+      "mentionCount": 4,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Sushi in Lafayette",
+      "threads": [
+        "Best Sushi in Lafayette"
+      ],
+      "rank": 15,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "yoka-japanese-sushi-bar-and-hibachi",
+      "name": "Yoka Japanese Sushi Bar & Hibachi",
+      "category": "Sushi",
+      "categories": [
+        "Sushi"
+      ],
+      "location": "Youngsville, LA",
+      "address": null,
+      "mentionCount": 4,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Sushi in Lafayette",
+      "threads": [
+        "Best Sushi in Lafayette"
+      ],
+      "rank": 16,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "adriens-supermarket",
+      "name": "Adrien's Supermarket",
+      "category": "Chicken Salad",
+      "categories": [
+        "Chicken Salad",
+        "Grocery"
+      ],
+      "location": "Lafayette, LA",
+      "address": "Congress St, Lafayette",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Chicken Salad in Acadiana",
+      "threads": [
+        "Best Chicken Salad in Acadiana"
+      ],
+      "rank": 14,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "mezcal-mexican-restaurant",
+      "name": "Mezcal Mexican Restaurant",
+      "category": "Mexican Food",
+      "categories": [
+        "Mexican Food"
+      ],
+      "location": "Lafayette, LA",
+      "address": null,
+      "mentionCount": 3,
+      "highlights": [
+        "Primary restaurant in original post and heavily affirmed"
+      ],
+      "source": "facebook-group",
+      "sourceThread": "Best Mexican Food in Lafayette",
+      "threads": [
+        "Best Mexican Food in Lafayette"
+      ],
+      "rank": 3,
+      "tags": [
+        "top-pick"
+      ],
+      "specialNotes": null
+    },
+    {
+      "slug": "rascals-cajun-restaurant",
+      "name": "Rascal's Cajun Restaurant",
+      "category": "Seafood Gumbo",
+      "categories": [
+        "Seafood Gumbo"
+      ],
+      "location": "Duson, LA",
+      "address": null,
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Seafood Gumbo in Lafayette Area",
+      "threads": [
+        "Best Seafood Gumbo in Lafayette Area"
+      ],
+      "rank": 7,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "shinto-japanese",
+      "name": "Shinto Japanese",
+      "category": "Sushi",
+      "categories": [
+        "Sushi"
+      ],
+      "location": "Lafayette, LA",
+      "address": null,
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Sushi in Lafayette",
+      "threads": [
+        "Best Sushi in Lafayette"
+      ],
+      "rank": 17,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "all-star-bakeshop",
+      "name": "All-Star Bakeshop",
+      "category": "Mexican Food",
+      "categories": [
+        "Mexican Food",
+        "Birria Tacos"
+      ],
+      "location": "Lafayette, LA",
+      "address": null,
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Mexican Food in Lafayette",
+      "threads": [
+        "Best Mexican Food in Lafayette"
+      ],
+      "rank": 4,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "billeauds-grocery",
+      "name": "Billeaud's Grocery",
+      "category": "Chicken Salad",
+      "categories": [
+        "Chicken Salad",
+        "Grocery"
+      ],
+      "location": "Broussard, LA",
+      "address": null,
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Chicken Salad in Acadiana",
+      "threads": [
+        "Best Chicken Salad in Acadiana"
+      ],
+      "rank": 15,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "cades-market",
+      "name": "Cade's Market",
+      "category": "Chicken Salad",
+      "categories": [
+        "Chicken Salad",
+        "Grocery"
+      ],
+      "location": "St. Martinville, LA",
+      "address": null,
+      "mentionCount": 2,
+      "highlights": [
+        "Locally known for in-house chicken salad and beef jerky"
+      ],
+      "source": "facebook-group",
+      "sourceThread": "Best Chicken Salad in Acadiana",
+      "threads": [
+        "Best Chicken Salad in Acadiana"
+      ],
+      "rank": 16,
+      "tags": [
+        "family-business"
+      ],
+      "specialNotes": "Chelsea's family grocery store"
+    },
+    {
+      "slug": "calvins-bocage-market",
+      "name": "Calvin's Bocage Market",
+      "category": "Chicken Salad",
+      "categories": [
+        "Chicken Salad",
+        "Market"
+      ],
+      "location": "Baton Rouge, LA",
+      "address": null,
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Chicken Salad in Acadiana",
+      "threads": [
+        "Best Chicken Salad in Acadiana"
+      ],
+      "rank": 17,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "kasai",
+      "name": "Kasai",
+      "category": "Sushi",
+      "categories": [
+        "Sushi"
+      ],
+      "location": "Lafayette, LA",
+      "address": null,
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Sushi in Lafayette",
+      "threads": [
+        "Best Sushi in Lafayette"
+      ],
+      "rank": 18,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "la-cuisine-de-maman",
+      "name": "La Cuisine de Maman",
+      "category": "Seafood Gumbo",
+      "categories": [
+        "Seafood Gumbo"
+      ],
+      "location": "Lafayette, LA",
+      "address": "Vermilionville",
+      "mentionCount": 2,
+      "highlights": [
+        "Mentioned as limited day special"
+      ],
+      "source": "facebook-group",
+      "sourceThread": "Best Seafood Gumbo in Lafayette Area",
+      "threads": [
+        "Best Seafood Gumbo in Lafayette Area"
+      ],
+      "rank": 8,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "la-fiesta",
+      "name": "La Fiesta",
+      "category": "Mexican Food",
+      "categories": [
+        "Mexican Food"
+      ],
+      "location": "Broussard, LA",
+      "address": null,
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Mexican Food in Lafayette",
+      "threads": [
+        "Best Mexican Food in Lafayette"
+      ],
+      "rank": 5,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "la-hacienda",
+      "name": "La Hacienda",
+      "category": "Mexican Food",
+      "categories": [
+        "Mexican Food"
+      ],
+      "location": "Broussard, LA",
+      "address": null,
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Mexican Food in Lafayette",
+      "threads": [
+        "Best Mexican Food in Lafayette"
+      ],
+      "rank": 6,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "la-marche",
+      "name": "La Marche",
+      "category": "Chicken Salad",
+      "categories": [
+        "Chicken Salad",
+        "Country Store"
+      ],
+      "location": "Maurice, LA",
+      "address": null,
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Chicken Salad in Acadiana",
+      "threads": [
+        "Best Chicken Salad in Acadiana"
+      ],
+      "rank": 18,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "mizu-sushi",
+      "name": "Mizu Sushi",
+      "category": "Sushi",
+      "categories": [
+        "Sushi"
+      ],
+      "location": "New Iberia, LA",
+      "address": null,
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Sushi in Lafayette",
+      "threads": [
+        "Best Sushi in Lafayette"
+      ],
+      "rank": 19,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "pinchers-seafood-restaurant",
+      "name": "Pinchers Seafood Restaurant",
+      "category": "Seafood Gumbo",
+      "categories": [
+        "Seafood Gumbo"
+      ],
+      "location": "Lafayette, LA",
+      "address": null,
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Seafood Gumbo in Lafayette Area",
+      "threads": [
+        "Best Seafood Gumbo in Lafayette Area"
+      ],
+      "rank": 9,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "russells-food-center",
+      "name": "Russell's Food Center",
+      "category": "Chicken Salad",
+      "categories": [
+        "Chicken Salad",
+        "Grocery"
+      ],
+      "location": "Arnaudville, LA",
+      "address": null,
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Chicken Salad in Acadiana",
+      "threads": [
+        "Best Chicken Salad in Acadiana"
+      ],
+      "rank": 19,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "south-end-country-mart",
+      "name": "South-End Country Mart",
+      "category": "Chicken Salad",
+      "categories": [
+        "Chicken Salad",
+        "Grocery"
+      ],
+      "location": "Lafayette, LA",
+      "address": null,
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Chicken Salad in Acadiana",
+      "threads": [
+        "Best Chicken Salad in Acadiana"
+      ],
+      "rank": 20,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "antonis-italian-cafe",
+      "name": "Antoni's Italian Cafe",
+      "category": "Chicken Salad",
+      "categories": [
+        "Chicken Salad",
+        "Cafe"
+      ],
+      "location": "Lafayette, LA",
+      "address": null,
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Chicken Salad in Acadiana",
+      "threads": [
+        "Best Chicken Salad in Acadiana"
+      ],
+      "rank": 21,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "blanchards-bbq",
+      "name": "Blanchard's BBQ",
+      "category": "Mexican Food",
+      "categories": [
+        "Mexican Food",
+        "Birria Tacos"
+      ],
+      "location": "Lafayette, LA",
+      "address": null,
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Mexican Food in Lafayette",
+      "threads": [
+        "Best Mexican Food in Lafayette"
+      ],
+      "rank": 7,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "bulldog",
+      "name": "Bulldog",
+      "category": "Crawfish",
+      "categories": [
+        "Crawfish"
+      ],
+      "location": "Acadiana, LA",
+      "address": null,
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Crawfish Dine-In in Acadiana",
+      "threads": [
+        "Best Crawfish Dine-In in Acadiana"
+      ],
+      "rank": 1,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "cest-bon-crawfish",
+      "name": "C'est Bon Crawfish",
+      "category": "Crawfish",
+      "categories": [
+        "Crawfish"
+      ],
+      "location": "Youngsville, LA",
+      "address": null,
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Crawfish Dine-In in Acadiana",
+      "threads": [
+        "Best Crawfish Dine-In in Acadiana"
+      ],
+      "rank": 2,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "charley-gs",
+      "name": "Charley G's",
+      "category": "Seafood Gumbo",
+      "categories": [
+        "Seafood Gumbo"
+      ],
+      "location": "Lafayette, LA",
+      "address": null,
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Seafood Gumbo in Lafayette Area",
+      "threads": [
+        "Best Seafood Gumbo in Lafayette Area"
+      ],
+      "rank": 10,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "chow-yum-phat",
+      "name": "Chow Yum Phat",
+      "category": "Mexican Food",
+      "categories": [
+        "Mexican Food",
+        "Birria Tacos"
+      ],
+      "location": "Lafayette, LA",
+      "address": null,
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Mexican Food in Lafayette",
+      "threads": [
+        "Best Mexican Food in Lafayette"
+      ],
+      "rank": 8,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "crawfish-time",
+      "name": "Crawfish Time",
+      "category": "Crawfish",
+      "categories": [
+        "Crawfish"
+      ],
+      "location": "Lafayette, LA",
+      "address": "Ridge Rd, Lafayette",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Crawfish Dine-In in Acadiana",
+      "threads": [
+        "Best Crawfish Dine-In in Acadiana"
+      ],
+      "rank": 3,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "crazy-bout-crawfish",
+      "name": "Crazy Bout Crawfish",
+      "category": "Crawfish",
+      "categories": [
+        "Crawfish"
+      ],
+      "location": "Acadiana, LA",
+      "address": null,
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Crawfish Dine-In in Acadiana",
+      "threads": [
+        "Best Crawfish Dine-In in Acadiana"
+      ],
+      "rank": 4,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "docs-bodega",
+      "name": "Doc's Bodega",
+      "category": "Chicken Salad",
+      "categories": [
+        "Chicken Salad",
+        "Deli"
+      ],
+      "location": "Lafayette, LA",
+      "address": "Jefferson St, Lafayette",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Chicken Salad in Acadiana",
+      "threads": [
+        "Best Chicken Salad in Acadiana"
+      ],
+      "rank": 22,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "dupuys-seafood-and-steak",
+      "name": "Dupuy's Seafood and Steak",
+      "category": "Seafood Gumbo",
+      "categories": [
+        "Seafood Gumbo"
+      ],
+      "location": "Abbeville, LA",
+      "address": null,
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Seafood Gumbo in Lafayette Area",
+      "threads": [
+        "Best Seafood Gumbo in Lafayette Area"
+      ],
+      "rank": 11,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "dwights-restaurant",
+      "name": "Dwight's Restaurant",
+      "category": "Crawfish",
+      "categories": [
+        "Crawfish"
+      ],
+      "location": "Lafayette, LA",
+      "address": "Johnston St, Lafayette",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Crawfish Dine-In in Acadiana",
+      "threads": [
+        "Best Crawfish Dine-In in Acadiana"
+      ],
+      "rank": 5,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "fezzos-seafood-steakhouse-and-oyster-bar",
+      "name": "Fezzo's Seafood, Steakhouse & Oyster Bar",
+      "category": "Seafood Gumbo",
+      "categories": [
+        "Seafood Gumbo"
+      ],
+      "location": "Scott/Crowley/Broussard, LA",
+      "address": null,
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Seafood Gumbo in Lafayette Area",
+      "threads": [
+        "Best Seafood Gumbo in Lafayette Area"
+      ],
+      "rank": 12,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "granddaddys",
+      "name": "Granddaddy's",
+      "category": "Crawfish",
+      "categories": [
+        "Crawfish"
+      ],
+      "location": "Scott, LA",
+      "address": null,
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Crawfish Dine-In in Acadiana",
+      "threads": [
+        "Best Crawfish Dine-In in Acadiana"
+      ],
+      "rank": 6,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "harps-food-store",
+      "name": "Harp's Food Store",
+      "category": "Chicken Salad",
+      "categories": [
+        "Chicken Salad",
+        "Grocery"
+      ],
+      "location": "Sunset, LA",
+      "address": null,
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Chicken Salad in Acadiana",
+      "threads": [
+        "Best Chicken Salad in Acadiana"
+      ],
+      "rank": 23,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "hawks-restaurant",
+      "name": "Hawk's Restaurant",
+      "category": "Crawfish",
+      "categories": [
+        "Crawfish"
+      ],
+      "location": "Rayne, LA",
+      "address": null,
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Crawfish Dine-In in Acadiana",
+      "threads": [
+        "Best Crawfish Dine-In in Acadiana"
+      ],
+      "rank": 7,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "johnsons-boucani-re",
+      "name": "Johnson's Boucanière",
+      "category": "Chicken Salad",
+      "categories": [
+        "Chicken Salad",
+        "Restaurant"
+      ],
+      "location": "Lafayette, LA",
+      "address": null,
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Chicken Salad in Acadiana",
+      "threads": [
+        "Best Chicken Salad in Acadiana"
+      ],
+      "rank": 24,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "katsu-ramen-and-sushi",
+      "name": "Katsu Ramen & Sushi",
+      "category": "Sushi",
+      "categories": [
+        "Sushi"
+      ],
+      "location": "Lafayette, LA",
+      "address": null,
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Sushi in Lafayette",
+      "threads": [
+        "Best Sushi in Lafayette"
+      ],
+      "rank": 20,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "la-carreta",
+      "name": "La Carreta",
+      "category": "Mexican Food",
+      "categories": [
+        "Mexican Food"
+      ],
+      "location": "Lafayette, LA",
+      "address": null,
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Mexican Food in Lafayette",
+      "threads": [
+        "Best Mexican Food in Lafayette"
+      ],
+      "rank": 9,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "las-chismosas",
+      "name": "Las Chismosas",
+      "category": "Mexican Food",
+      "categories": [
+        "Mexican Food",
+        "Birria Tacos"
+      ],
+      "location": "Lafayette, LA",
+      "address": "Eraste Landry, Lafayette",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Mexican Food in Lafayette",
+      "threads": [
+        "Best Mexican Food in Lafayette"
+      ],
+      "rank": 10,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "lisas-kitchen",
+      "name": "Lisa's Kitchen",
+      "category": "Mexican Food",
+      "categories": [
+        "Mexican Food",
+        "Birria Tacos"
+      ],
+      "location": "Lafayette, LA",
+      "address": null,
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Mexican Food in Lafayette",
+      "threads": [
+        "Best Mexican Food in Lafayette"
+      ],
+      "rank": 11,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "little-hacienda",
+      "name": "Little Hacienda",
+      "category": "Mexican Food",
+      "categories": [
+        "Mexican Food"
+      ],
+      "location": "Lafayette, LA",
+      "address": "Pinhook, Lafayette",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Mexican Food in Lafayette",
+      "threads": [
+        "Best Mexican Food in Lafayette"
+      ],
+      "rank": 12,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "monroes",
+      "name": "Monroe's",
+      "category": "Seafood Gumbo",
+      "categories": [
+        "Seafood Gumbo"
+      ],
+      "location": "Lafayette, LA",
+      "address": null,
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Seafood Gumbo in Lafayette Area",
+      "threads": [
+        "Best Seafood Gumbo in Lafayette Area"
+      ],
+      "rank": 13,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "poor-boys-riverside-inn",
+      "name": "Poor Boy's Riverside Inn",
+      "category": "Seafood Gumbo",
+      "categories": [
+        "Seafood Gumbo"
+      ],
+      "location": "Lafayette, LA",
+      "address": null,
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Seafood Gumbo in Lafayette Area",
+      "threads": [
+        "Best Seafood Gumbo in Lafayette Area"
+      ],
+      "rank": 14,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "pops-loca",
+      "name": "Pop's Loca",
+      "category": "Mexican Food",
+      "categories": [
+        "Mexican Food"
+      ],
+      "location": "Lafayette, LA",
+      "address": null,
+      "mentionCount": 1,
+      "highlights": [
+        "Noted for tongue tacos"
+      ],
+      "source": "facebook-group",
+      "sourceThread": "Best Mexican Food in Lafayette",
+      "threads": [
+        "Best Mexican Food in Lafayette"
+      ],
+      "rank": 13,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "shucks",
+      "name": "Shucks!",
+      "category": "Seafood Gumbo",
+      "categories": [
+        "Seafood Gumbo"
+      ],
+      "location": "Abbeville, LA",
+      "address": null,
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Seafood Gumbo in Lafayette Area",
+      "threads": [
+        "Best Seafood Gumbo in Lafayette Area"
+      ],
+      "rank": 15,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "soileaus",
+      "name": "Soileau's",
+      "category": "Seafood Gumbo",
+      "categories": [
+        "Seafood Gumbo"
+      ],
+      "location": "Opelousas, LA",
+      "address": null,
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Seafood Gumbo in Lafayette Area",
+      "threads": [
+        "Best Seafood Gumbo in Lafayette Area"
+      ],
+      "rank": 16,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "steamboat-warehouse",
+      "name": "Steamboat Warehouse",
+      "category": "Seafood Gumbo",
+      "categories": [
+        "Seafood Gumbo"
+      ],
+      "location": "Washington, LA",
+      "address": null,
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Seafood Gumbo in Lafayette Area",
+      "threads": [
+        "Best Seafood Gumbo in Lafayette Area"
+      ],
+      "rank": 17,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "tampico-mexican-restaurant",
+      "name": "Tampico Mexican Restaurant",
+      "category": "Mexican Food",
+      "categories": [
+        "Mexican Food"
+      ],
+      "location": "Lafayette, LA",
+      "address": null,
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Mexican Food in Lafayette",
+      "threads": [
+        "Best Mexican Food in Lafayette"
+      ],
+      "rank": 14,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "the-cajun-table",
+      "name": "The Cajun Table",
+      "category": "Crawfish",
+      "categories": [
+        "Crawfish"
+      ],
+      "location": "Acadiana, LA",
+      "address": null,
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Crawfish Dine-In in Acadiana",
+      "threads": [
+        "Best Crawfish Dine-In in Acadiana"
+      ],
+      "rank": 8,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "tsubaki-by-koi",
+      "name": "Tsubaki by Koi",
+      "category": "Sushi",
+      "categories": [
+        "Sushi"
+      ],
+      "location": "Lafayette, LA",
+      "address": null,
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Sushi in Lafayette",
+      "threads": [
+        "Best Sushi in Lafayette"
+      ],
+      "rank": 21,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "uncle-ts",
+      "name": "Uncle T's",
+      "category": "Crawfish",
+      "categories": [
+        "Crawfish"
+      ],
+      "location": "Acadiana, LA",
+      "address": null,
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Crawfish Dine-In in Acadiana",
+      "threads": [
+        "Best Crawfish Dine-In in Acadiana"
+      ],
+      "rank": 9,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "youngs-sports-bar-and-grill",
+      "name": "Young's Sports Bar & Grill",
+      "category": "Crawfish",
+      "categories": [
+        "Crawfish"
+      ],
+      "location": "Acadiana, LA",
+      "address": null,
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Crawfish Dine-In in Acadiana",
+      "threads": [
+        "Best Crawfish Dine-In in Acadiana"
+      ],
+      "rank": 10,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "joyces-supermarket",
+      "name": "Joyce's Supermarket",
+      "category": "Chicken Salad",
+      "categories": [
+        "Chicken Salad",
+        "Grocery"
+      ],
+      "location": "St. Martinville, LA",
+      "address": null,
+      "mentionCount": 0,
+      "highlights": [],
+      "source": "facebook-group",
+      "sourceThread": "Best Chicken Salad in Acadiana",
+      "threads": [
+        "Best Chicken Salad in Acadiana"
+      ],
+      "rank": 25,
+      "tags": [],
+      "specialNotes": null
+    }
+  ],
+  "lastUpdated": "2026-03-25T18:20:06.192668+00:00",
+  "totalBusinesses": 87,
+  "totalMentions": 571
+}

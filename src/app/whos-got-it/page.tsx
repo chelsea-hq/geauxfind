@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import data from "../../../data/whos-got-it.json";
+import communityRecs from "../../../data/community-recs.json";
 import { places } from "@/data/mock-data";
 import { JsonLd } from "@/components/JsonLd";
 
@@ -13,6 +14,14 @@ const badgeTone: Record<string, string> = {
   "🆕 Rising Star": "bg-sky-100 text-sky-900",
   "⚔️ Split Verdict": "bg-violet-100 text-violet-900",
 };
+
+function getCommunityTopic(itemName: string) {
+  const normalized = itemName.toLowerCase();
+  if (normalized === "gumbo") {
+    return communityRecs.topics.find((t) => t.category.toLowerCase() === "seafood gumbo");
+  }
+  return communityRecs.topics.find((t) => t.category.toLowerCase() === normalized || t.name.toLowerCase().includes(normalized));
+}
 
 export default function WhosGotItPage() {
   const [search, setSearch] = useState("");
@@ -84,6 +93,23 @@ export default function WhosGotItPage() {
                 );
               })}
             </div>
+            {(() => {
+              const topic = getCommunityTopic(item.item);
+              if (!topic) return null;
+              return (
+                <div className="mt-4 rounded-xl border border-[var(--sunset-gold)]/40 bg-[linear-gradient(160deg,#fff8ef,#fff)] p-4">
+                  <p className="text-xs font-semibold tracking-wide text-[var(--cajun-red)]">COMMUNITY RANKINGS (FACEBOOK)</p>
+                  <p className="mt-1 text-sm text-[var(--warm-gray)]">{topic.name}</p>
+                  <ol className="mt-2 space-y-1 text-sm">
+                    {topic.topBusinesses.slice(0, 5).map((biz) => (
+                      <li key={biz.slug}>
+                        <span className="font-semibold">#{topic.topBusinesses.findIndex((b) => b.slug === biz.slug) + 1}</span> {biz.name} <span className="text-[var(--warm-gray)]">({biz.mentionCount} mentions)</span>
+                      </li>
+                    ))}
+                  </ol>
+                </div>
+              );
+            })()}
             {item.relatedLink ? <Link href={item.relatedLink} className="mt-3 inline-block text-sm underline">Track live crawfish prices →</Link> : null}
           </section>
         ))}
