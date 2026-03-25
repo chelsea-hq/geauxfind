@@ -31,7 +31,7 @@ function buildDiverseCandidates(prompt: string, city?: string): ReturnType<typeo
   const keywordSlugs = new Set(keywordMatches.map((p) => p.slug));
 
   // Filter by city if provided
-  let pool = city
+  const pool = city
     ? allPlaces.filter((p) => p.city.toLowerCase() === city.toLowerCase())
     : allPlaces;
 
