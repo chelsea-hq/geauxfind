@@ -1,29 +1,14 @@
 {
-  "timestamp": "2026-03-25T14:18:18.731Z",
+  "timestamp": "2026-03-25T14:23:35.319Z",
   "base": "https://geauxfind.com",
-  "totalChecks": 99,
-  "passed": 95,
-  "failed": 4,
+  "totalChecks": 98,
+  "passed": 97,
+  "failed": 1,
   "issues": [
-    {
-      "page": "seed-data.json",
-      "category": "DUPLICATES",
-      "detail": "7 duplicate entries detected"
-    },
-    {
-      "page": "seed-data.json",
-      "category": "DESCRIPTIONS",
-      "detail": "61 places with short/empty descriptions (<40 chars)"
-    },
     {
       "page": "/",
       "category": "BROKEN_IMAGES",
-      "detail": "6 broken image URLs"
-    },
-    {
-      "page": "qa-check",
-      "category": "CONSOLE",
-      "detail": "Playwright not installed; console error checks skipped"
+      "detail": "6 broken non-API image URLs"
     }
   ]
 }

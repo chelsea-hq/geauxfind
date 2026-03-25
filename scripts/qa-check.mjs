@@ -119,6 +119,9 @@ async function checkPage(route) {
   for (const src of uniqueImages) {
     const full = absoluteUrl(src);
     if (!full) continue;
+    // External CDNs that block HEAD (Eventbrite, etc.) — 403 is not truly broken
+    const knownExternalCdns = ["img.evbuc.com", "cdn.evbuc.com", "eventbrite.com"];
+    if (knownExternalCdns.some((cdn) => src.includes(cdn))) continue;
     // /api/photo requires Google API key — skip hard-fail, just warn
     if (src.includes("/api/photo")) {
       try {
