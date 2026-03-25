@@ -3,120 +3,119 @@
     {
       "slug": "cajun-nation-cajun-seasoning-company",
       "name": "Cajun Nation Cajun Seasoning Company",
-      "shortDescription": "Home of The Red Can, a Lafayette staple with bold Cajun flavor and a massive local following.",
-      "description": "Cajun Nation Cajun Seasoning Company is known across Acadiana for The Red Can and deeply rooted Louisiana flavor. Their blends are designed for weeknight meals, backyard boils, and game-day cooking with authentic Cajun character.",
+      "shortDescription": "Home of The Red Can — low salt, no salt, real Cajun flavor. Found in Walgreens, Ochsner Health trays, and kitchens across Louisiana.",
+      "description": "Cajun Nation Cajun Seasoning Company is known across Acadiana for The Red Can. Their certified Cajun blends come in low salt, no salt, and no MSG options — all gluten-free. They've partnered with Ochsner Health and LCMC for patient trays, Aetna Better Health of Louisiana for wellness initiatives, and Walgreens for pharmacy-aisle accessibility. Their mission: 'Flavoring a Healthier CommUNITY, One Red Can at a Time.'",
       "category": "Seasonings & Spices",
       "categories": ["Seasonings & Spices", "Local Products"],
-      "location": "Lafayette, LA",
-      "website": "https://www.facebook.com/",
+      "location": "Cajun Coast, Louisiana",
+      "website": "https://www.cajun-nation.com/",
       "socials": {
-        "facebook": "https://www.facebook.com/",
-        "instagram": "https://www.instagram.com/"
+        "facebook": "https://www.facebook.com/CajunNationSeasoning",
+        "instagram": "https://www.instagram.com/cajunnationseasoning"
       },
-      "logo": "/placeholder.svg",
-      "coverPhoto": "/placeholder.svg",
-      "tags": ["Louisiana Made", "Family Recipe", "Featured"],
-      "offerings": ["All-purpose Cajun seasoning", "Boil blends", "Retail and market availability"],
+      "logo": "/cajun-connection/businesses/cajun-nation-logo.png",
+      "coverPhoto": "/cajun-connection/businesses/cajun-nation-cover.png",
+      "tags": ["Louisiana Made", "No Salt", "Featured"],
+      "offerings": ["Low Sodium Cajun Seasoning", "No Salt 'Healthies' (The Red Can)", "All-Purpose Cajun Blend", "Boil Blends"],
       "featured": true,
       "createdAt": "2026-03-01T00:00:00.000Z"
     },
     {
       "slug": "jrs-cajun-seasoning",
       "name": "JR's Cajun Seasoning",
-      "shortDescription": "Chef Baron Broussard's flavor-first blend featuring a lower-sodium option.",
+      "shortDescription": "Chef Baron Broussard's flavor-first blend featuring a lower-sodium option for everyday Cajun cooking.",
       "description": "JR's Cajun Seasoning, led by Chef Baron Broussard, focuses on everyday Louisiana flavor with better-for-you options. Their low-salt blend is popular with home cooks who want big taste without heavy sodium.",
       "category": "Seasonings & Spices",
       "categories": ["Seasonings & Spices", "Specialty Ingredients"],
       "location": "Lafayette Parish, LA",
-      "website": "https://www.facebook.com/",
+      "website": "https://www.jrscajunseasoning.com/",
       "socials": {
-        "facebook": "https://www.facebook.com/",
-        "instagram": "https://www.instagram.com/"
+        "facebook": "https://www.facebook.com/jrscajunseasoning",
+        "instagram": "https://www.instagram.com/jrscajunseasoning"
       },
-      "logo": "/placeholder.svg",
-      "coverPhoto": "/placeholder.svg",
+      "logo": "/cajun-connection/businesses/jrs-cajun-logo.jpg",
+      "coverPhoto": "/cajun-connection/businesses/jrs-cajun-logo.jpg",
       "tags": ["No Salt", "Louisiana Made", "Small Batch"],
-      "offerings": ["Low-salt seasoning", "Classic Cajun blend", "Recipe inspiration"],
+      "offerings": ["Low-Salt Cajun Seasoning", "Classic Cajun Blend", "Recipe Inspiration"],
       "featured": false,
       "createdAt": "2026-03-05T00:00:00.000Z"
     },
     {
       "slug": "bourques-cajun-country-seasoning",
       "name": "Bourque's Cajun Country Seasoning",
-      "shortDescription": "The No Salt Krewe's no-sodium blends made for true Cajun kitchens.",
-      "description": "Bourque's Cajun Country Seasoning serves cooks looking for rich Louisiana flavor without sodium. Their No Salt Krewe collection has become a trusted option for healthier Cajun cooking.",
+      "shortDescription": "The No Salt Krewe — no-sodium blends made for true Cajun kitchens.",
+      "description": "Bourque's Cajun Country Seasoning serves cooks looking for rich Louisiana flavor without sodium. Their No Salt Krewe collection has become a trusted option for healthier Cajun cooking across Acadiana.",
       "category": "Seasonings & Spices",
       "categories": ["Seasonings & Spices", "Local Products"],
       "location": "Acadiana, LA",
-      "website": "https://www.facebook.com/",
+      "website": "https://www.facebook.com/BourquesCajunCountrySeasoning",
       "socials": {
-        "facebook": "https://www.facebook.com/",
-        "instagram": "https://www.instagram.com/"
+        "facebook": "https://www.facebook.com/BourquesCajunCountrySeasoning"
       },
-      "logo": "/placeholder.svg",
-      "coverPhoto": "/placeholder.svg",
+      "logo": "/cajun-connection/businesses/bourques-cover.jpg",
+      "coverPhoto": "/cajun-connection/businesses/bourques-cover.jpg",
       "tags": ["No Salt", "Louisiana Made", "Small Batch"],
-      "offerings": ["No-sodium seasoning line", "Salt-free Cajun cooking guidance", "Bundle packs"],
+      "offerings": ["No-Sodium Cajun Seasoning", "Salt-Free Cooking Blends", "Bundle Packs"],
       "featured": false,
       "createdAt": "2026-03-07T00:00:00.000Z"
     },
     {
       "slug": "babineaux-creole-cajun-seasonings",
       "name": "Babineaux Creole Cajun Seasonings",
-      "shortDescription": "Local favorite sold in Downtown Lafayette markets and pop-ups.",
-      "description": "Babineaux Creole Cajun Seasonings is a local market favorite with traditional spice profiles inspired by homegrown Louisiana recipes. You can often find them in Downtown Lafayette community markets.",
+      "shortDescription": "Chester J. Babineaux's 20+ year family recipe — a Lafayette original sold at local markets.",
+      "description": "Babineaux Creole Cajun Seasoning is a proprietary blend created by Chester J. Babineaux, a Lafayette, Louisiana native. For more than 20 years, Chester worked in his family kitchen perfecting this season-all blend of unique Cajun flavors using only the freshest ingredients.",
       "category": "Local Products",
-      "categories": ["Local Products", "Specialty Ingredients"],
-      "location": "Downtown Lafayette, LA",
-      "website": "https://www.facebook.com/",
+      "categories": ["Local Products", "Seasonings & Spices"],
+      "location": "Lafayette, LA",
+      "website": "https://www.babineauxseasonings.com/",
       "socials": {
-        "facebook": "https://www.facebook.com/"
+        "facebook": "https://www.facebook.com/BabineauxSeasonings/"
       },
-      "logo": "/placeholder.svg",
-      "coverPhoto": "/placeholder.svg",
+      "logo": "/cajun-connection/businesses/babineaux-logo.png",
+      "coverPhoto": "/cajun-connection/businesses/babineaux-cover.jpg",
       "tags": ["Family Recipe", "Small Batch", "Louisiana Made"],
-      "offerings": ["Creole and Cajun blends", "Farmer's market booths", "Gift sets"],
+      "offerings": ["Creole Cajun Season-All Blend", "Beer Can Chicken Seasoning", "Gift Sets"],
       "featured": false,
       "createdAt": "2026-03-09T00:00:00.000Z"
     },
     {
       "slug": "purely-cajun-seasoning",
       "name": "Purely Cajun Seasoning",
-      "shortDescription": "Cory LeDoux's authentic seasoning crafted with high-quality ingredients.",
-      "description": "Purely Cajun Seasoning by Cory LeDoux is focused on ingredient quality and authentic Louisiana flavor. The brand is known for balanced spice and clean flavor that works from gumbo to grilled seafood.",
+      "shortDescription": "All-natural, healthy Cajun seasoning — no MSG, no preservatives, no black pepper, no sugar.",
+      "description": "Purely Cajun Seasoning is focused on ingredient quality and authentic Louisiana flavor. All-natural with health benefits: No MSG, Non-Irradiated, No Black Pepper, No Sugar, No Preservatives, No Silicon Dioxide, and Naturally Gluten-Free. Available at Rouses Markets across Louisiana, Mississippi, and Alabama.",
       "category": "Specialty Ingredients",
       "categories": ["Specialty Ingredients", "Seasonings & Spices"],
-      "location": "Acadiana, LA",
-      "website": "https://www.instagram.com/",
+      "location": "Lafayette, LA",
+      "website": "https://purelycajun.com/",
       "socials": {
-        "instagram": "https://www.instagram.com/",
-        "facebook": "https://www.facebook.com/"
+        "instagram": "https://www.instagram.com/purelycajun",
+        "facebook": "https://www.facebook.com/purelycajun/"
       },
-      "logo": "/placeholder.svg",
-      "coverPhoto": "/placeholder.svg",
+      "logo": "/cajun-connection/businesses/purely-cajun-logo.png",
+      "coverPhoto": "/cajun-connection/businesses/purely-cajun-cover.png",
       "tags": ["Small Batch", "Louisiana Made"],
-      "offerings": ["Premium seasoning", "Recipe bundles", "Online ordering"],
+      "offerings": ["Original Cajun Seasoning", "Spicy Cajun Seasoning", "Available at 64+ Rouses Markets"],
       "featured": false,
       "createdAt": "2026-03-12T00:00:00.000Z"
     },
     {
       "slug": "captain-coby-cajun-cooking",
       "name": "Captain Coby Cajun Cooking",
-      "shortDescription": "Firehouse-inspired recipes and seasonings from Captain Coby Bailey.",
-      "description": "Captain Coby Cajun Cooking blends firehouse cooking energy with approachable Cajun recipes, spice blends, and cooking education. It's a strong crossover between local product brand and creator-led food content.",
-      "category": "Restaurants/Food Vendors",
-      "categories": ["Restaurants/Food Vendors", "Seasonings & Spices"],
+      "shortDescription": "Lafayette firefighter turned Great American Recipe WINNER (Season 4). Cajun seasoning born in the firehouse.",
+      "description": "Captain Coby Bailey, born and raised in one of the oldest Cajun settlements in Louisiana, developed his phenomenal blend of spices cooking at the Lafayette Fire Department. His Cajun roots and firefighting background inspired a unique blend that fires up creativity in the kitchen. He was named the WINNER of Season 4 of The Great American Recipe on PBS.",
+      "category": "Seasonings & Spices",
+      "categories": ["Seasonings & Spices", "Local Products"],
       "location": "Lafayette, LA",
-      "website": "https://www.youtube.com/",
+      "website": "https://captaincobys.com/",
       "socials": {
-        "youtube": "https://www.youtube.com/",
-        "facebook": "https://www.facebook.com/",
-        "instagram": "https://www.instagram.com/"
+        "youtube": "https://www.youtube.com/@CaptainCobyCajunCooking",
+        "facebook": "https://www.facebook.com/captaincobycajuncooking/",
+        "instagram": "https://www.instagram.com/captaincobycajuncooking"
       },
-      "logo": "/placeholder.svg",
-      "coverPhoto": "/placeholder.svg",
+      "logo": "/cajun-connection/businesses/captain-coby-logo.png",
+      "coverPhoto": "/cajun-connection/businesses/captain-coby-logo.png",
       "tags": ["Featured", "Louisiana Made", "Family Recipe"],
-      "offerings": ["Seasoning products", "Live cooking demos", "Recipe content"],
+      "offerings": ["Cajun Seasoning", "BBQ Rub", "Roasted Pumpkin Seeds", "Live Cooking Demos"],
       "featured": true,
       "createdAt": "2026-03-15T00:00:00.000Z"
     }
@@ -125,19 +124,19 @@
     {
       "slug": "the-cajun-ninja",
       "name": "The Cajun Ninja",
-      "bio": "One of Louisiana's biggest Cajun food creators with massive reach and highly shareable recipe content.",
+      "bio": "Jason Derouen, Houma native and one of Louisiana's biggest food creators. Known for his viral 'Pi-YAHHHHH!' and approachable Cajun recipes that bring families together. Author of PI-YAHHHHH!! cookbook. Featured in Louisiana Cookin' magazine.",
       "specialty": "Cajun Recipes",
       "specialtyTags": ["Cajun Recipes", "Family Meals", "Cooking Shows"],
-      "location": "Louisiana",
-      "profilePhoto": "/placeholder.svg",
+      "location": "Houma, Louisiana",
+      "profilePhoto": "/cajun-connection/fluencers/cajun-ninja.jpg",
       "featuredContent": [
-        { "title": "Classic Chicken & Sausage Gumbo", "url": "https://www.youtube.com/" },
-        { "title": "Cajun Ninja Sunday Supper", "url": "https://www.facebook.com/" }
+        { "title": "Classic Chicken & Sausage Gumbo", "url": "https://www.youtube.com/@TheCajunNinja" },
+        { "title": "Cajun Ninja Products — Seasonings & More", "url": "https://thecajunninja.com/" }
       ],
       "socials": {
-        "facebook": { "url": "https://www.facebook.com/", "followers": 1200000 },
-        "youtube": { "url": "https://www.youtube.com/", "followers": 350000 },
-        "instagram": { "url": "https://www.instagram.com/", "followers": 180000 }
+        "facebook": { "url": "https://www.facebook.com/TheCajunNinja", "followers": 1200000 },
+        "youtube": { "url": "https://www.youtube.com/@TheCajunNinja", "followers": 350000 },
+        "instagram": { "url": "https://www.instagram.com/thecajunninja", "followers": 180000 }
       },
       "validation": {
         "followersOver1k": true,
@@ -151,19 +150,19 @@
     {
       "slug": "brits-cookin",
       "name": "Brit's Cookin'",
-      "bio": "Popular Cajun recipe creator sharing approachable Louisiana cooking for busy families.",
+      "bio": "Britney Landry, Acadiana native and stay-at-home-mom-turned-social-media-chef. Shares simple yet delicious recipes with a southern flair, rooted in her Louisiana Cajun heritage. Now has her own Britscookin Cajun Seasoning sold in all 64 Rouses Markets across Louisiana, Mississippi, and Alabama.",
       "specialty": "Home Cajun Cooking",
       "specialtyTags": ["Recipes", "Seasonings", "Weeknight Cajun"],
       "location": "Acadiana, LA",
-      "profilePhoto": "/placeholder.svg",
+      "profilePhoto": "/cajun-connection/fluencers/brits-cookin.jpg",
       "featuredContent": [
-        { "title": "Quick Cajun Etouffee", "url": "https://www.instagram.com/" },
-        { "title": "Sunday Pot Roast, Cajun Style", "url": "https://www.tiktok.com/" }
+        { "title": "Britscookin Cajun Seasoning — Available at Rouses", "url": "https://britscookin.com/" },
+        { "title": "Quick Cajun Recipes for Busy Families", "url": "https://www.instagram.com/britscookin" }
       ],
       "socials": {
-        "instagram": { "url": "https://www.instagram.com/", "followers": 42000 },
-        "tiktok": { "url": "https://www.tiktok.com/", "followers": 65000 },
-        "facebook": { "url": "https://www.facebook.com/", "followers": 12000 }
+        "instagram": { "url": "https://www.instagram.com/britscookin", "followers": 42000 },
+        "tiktok": { "url": "https://www.tiktok.com/@britscookin", "followers": 65000 },
+        "facebook": { "url": "https://www.facebook.com/britscookin", "followers": 12000 }
       },
       "validation": {
         "followersOver1k": true,
@@ -177,18 +176,18 @@
     {
       "slug": "lejeunes-best",
       "name": "LeJeune's Best",
-      "bio": "Louisiana seasoning brand + creator focused on bold Cajun flavor and product-led content.",
+      "bio": "Nicholas LeJeune, proud ULL and LSU grad from Lafayette, created LeJeune's Best Cajun Seasoning by mixing 'Cajun Culture with just a pinch of Cincinnati' — born from a football fan community that traded care packages between Louisiana and Ohio. Packs the heat with just the right amount of sweet.",
       "specialty": "Seasonings",
-      "specialtyTags": ["Seasonings", "Product Demos", "Louisiana Food"],
-      "location": "Louisiana",
-      "profilePhoto": "/placeholder.svg",
+      "specialtyTags": ["Seasonings", "Product Demos", "Louisiana Food", "Grilling"],
+      "location": "Lafayette, Louisiana",
+      "profilePhoto": "/cajun-connection/businesses/lejeunes-best-logo.png",
       "featuredContent": [
-        { "title": "LeJeune's Best Seafood Boil Blend", "url": "https://www.facebook.com/" },
-        { "title": "How to Season Like South Louisiana", "url": "https://www.instagram.com/" }
+        { "title": "LeJeune's Best — Our Story", "url": "https://lejeunesbest.com/" },
+        { "title": "Nicholas LeJeune on Developing Lafayette", "url": "https://developinglafayette.com/wp/nicholas-lejeune-founder-of-lejeunes-best-seasoning/" }
       ],
       "socials": {
-        "facebook": { "url": "https://www.facebook.com/", "followers": 18000 },
-        "instagram": { "url": "https://www.instagram.com/", "followers": 9200 }
+        "facebook": { "url": "https://www.facebook.com/lejeunesbest/", "followers": 18000 },
+        "instagram": { "url": "https://www.instagram.com/lejeunesbest", "followers": 9200 }
       },
       "validation": {
         "followersOver1k": true,
