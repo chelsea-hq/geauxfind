@@ -30,7 +30,7 @@ export function SearchBar() {
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         autoComplete="off"
-        className="h-12 flex-1 bg-transparent px-2 text-[15px] outline-none"
+        className="h-12 flex-1 bg-transparent px-2 text-[15px] text-gray-900 placeholder:text-gray-400 outline-none"
       />
       <button
         type="submit"
