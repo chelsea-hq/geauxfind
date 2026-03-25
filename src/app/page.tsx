@@ -168,6 +168,16 @@ export default function Home() {
             <h2 className="mt-2 text-3xl text-[var(--cajun-red)] md:text-4xl">Kids Eat Free 🍽️</h2>
             <p className="mt-2 text-[var(--cast-iron)]/80">Where the little ones eat free or cheap in Lafayette, Broussard, and Acadiana — organized by day of the week.</p>
           </Link>
+          <Link href="/live-music" className="block rounded-[12px] border border-[var(--spanish-moss)]/30 bg-white p-6 card-lift">
+            <p className="text-xs tracking-[0.18em] text-[var(--moss)]">TONIGHT</p>
+            <h2 className="mt-2 text-3xl text-[var(--cajun-red)] md:text-4xl">Live Music 🎵</h2>
+            <p className="mt-2 text-[var(--cast-iron)]/80">Cajun, zydeco, blues, and beyond — find live music across Acadiana every night of the week.</p>
+          </Link>
+          <Link href="/weekend-brunch" className="block rounded-[12px] border border-[var(--spanish-moss)]/30 bg-white p-6 card-lift">
+            <p className="text-xs tracking-[0.18em] text-[var(--moss)]">WEEKENDS</p>
+            <h2 className="mt-2 text-3xl text-[var(--cajun-red)] md:text-4xl">Weekend Brunch 🥂</h2>
+            <p className="mt-2 text-[var(--cast-iron)]/80">The best Saturday and Sunday brunch across Acadiana — from bottomless mimosas to Cajun Benedict.</p>
+          </Link>
         </div>
       </section>
 

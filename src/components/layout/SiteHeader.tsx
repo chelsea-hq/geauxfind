@@ -14,6 +14,8 @@ const links = [
   ["/community", "Community"],
   ["/cajun-connection", "Cajun Connection"],
   ["/kids-eat-free", "Kids Eat Free 🍽️"],
+  ["/live-music", "Live Music 🎵"],
+  ["/weekend-brunch", "Brunch 🥂"],
   ["/crawfish", "Crawfish 🦞"],
 ] as const;
 

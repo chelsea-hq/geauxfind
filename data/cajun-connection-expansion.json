@@ -1,0 +1,900 @@
+{
+  "_meta": {
+    "generated": "2026-03-25",
+    "source": "Research agent — web_search + 008 Magazine sourcing",
+    "note": "Does NOT include already-existing entries: Cajun Nation, JR's Cajun Seasoning, Bourque's Cajun Country, Babineaux Creole Cajun, Purely Cajun, Captain Coby Cajun Cooking, The Cajun Ninja, Brit's Cookin', LeJeune's Best"
+  },
+  "newBusinesses": [
+    {
+      "slug": "farm-to-fire-louisiana",
+      "name": "Farm To Fire Louisiana",
+      "shortDescription": "Award-winning BOUX-YAH seasoning blend from Franklinton, LA — gather, harvest, connect.",
+      "description": "Farm To Fire Louisiana is a Franklinton-based digital creator and seasoning brand known for their BOUX-YAH Original Seasoning Blend and award-winning BIRRIA Street Blend. With 110k+ Facebook followers, they've built a passionate community around Louisiana outdoor cooking culture. Their motto — Gather, Harvest, Connect — captures the spirit of Louisiana's hunting-and-cooking heritage.",
+      "category": "Seasonings & Spices",
+      "categories": ["Seasonings & Spices", "Cajun Culture"],
+      "location": "Franklinton, LA",
+      "website": "https://farmtofirelouisiana.com",
+      "socials": {
+        "facebook": "https://www.facebook.com/p/Farm-To-Fire-Louisiana-61552933463443/",
+        "instagram": "https://www.instagram.com/farm_to_fire_louisiana/"
+      },
+      "tags": ["seasoning", "outdoor-cooking", "hunt-fish-cook", "award-winning", "boux-yah", "franklinton"],
+      "offerings": ["BOUX-YAH Original Seasoning Blend", "BIRRIA Street Blend", "Cajun spice blends"],
+      "featured": true
+    },
+    {
+      "slug": "billys-boudin-and-cracklins",
+      "name": "Billy's Boudin & Cracklins",
+      "shortDescription": "Legendary Cajun meat market in the Boudin Capital of the World, Scott, LA.",
+      "description": "Billy's Boudin & Cracklins started as a small convenience store and grew into one of Acadiana's most beloved meat markets after multiple first-place wins at the Port Barre Cracklin Festival. With locations in Scott, Lafayette, Krotz Springs, and Opelousas, they now ship nationwide. Famous for hot boudin, two prize-winning recipes, smoked sausage, cracklins, and crawfish boudin.",
+      "category": "Boudin & Cracklins",
+      "categories": ["Boudin & Cracklins", "Specialty Meats", "Cajun Markets"],
+      "location": "Scott, LA (multiple locations)",
+      "website": "https://www.billysboudin.com",
+      "socials": {
+        "facebook": "https://www.facebook.com/billysboudin/"
+      },
+      "tags": ["boudin", "cracklins", "smoked-sausage", "cajun-market", "scott-la", "ships-nationwide"],
+      "offerings": ["Hot Boudin", "Smoked Boudin", "Cracklins", "Smoked Sausage", "Crawfish Boudin"],
+      "featured": true
+    },
+    {
+      "slug": "the-best-stop-supermarket",
+      "name": "The Best Stop Supermarket",
+      "shortDescription": "Acadiana's iconic boudin stop since 1986 — 18-time 'Best of Acadiana' winner.",
+      "description": "The Best Stop Supermarket has been Acadiana's go-to for boudin, cracklins, and fried boudin balls since opening in Scott, LA on November 1, 1986. Named a 'Best of Acadiana' favorite 18 times by Times of Acadiana readers, they ship nationwide via beststopinscott.com. Their wholesale sister company supplies restaurants and retailers throughout the region.",
+      "category": "Boudin & Cracklins",
+      "categories": ["Boudin & Cracklins", "Cajun Markets", "Specialty Meats"],
+      "location": "Scott, LA",
+      "website": "https://www.beststopinscott.com",
+      "socials": {
+        "facebook": "https://www.facebook.com/thebeststop/"
+      },
+      "tags": ["boudin", "cracklins", "cajun-market", "scott-la", "ships-nationwide", "iconic"],
+      "offerings": ["Boudin", "Cracklins", "Fried Boudin Balls", "Smoked Sausage", "Andouille", "Tasso"],
+      "featured": true
+    },
+    {
+      "slug": "johnsons-boucaniere",
+      "name": "Johnson's Boucanière",
+      "shortDescription": "Downtown Lafayette's beloved boucherie restaurant keeping Eunice's Johnson's Grocery legacy alive.",
+      "description": "Johnson's Boucanière carries on the Johnson family tradition from the world-famous Johnson's Grocery in Eunice (est. 1937), now in Downtown Lafayette. They make their own smoked sausage, tasso, boudin, and seasoning in-house, alongside brisket, pulled pork sandwiches, and daily plate lunches. A Sunday BBQ & Boudin special runs 10am–2pm each week.",
+      "category": "Restaurants & Food Vendors",
+      "categories": ["Restaurants & Food Vendors", "Boudin & Cracklins", "Specialty Meats"],
+      "location": "Lafayette, LA",
+      "website": "https://www.johnsonsboucaniere.com",
+      "socials": {
+        "facebook": "https://www.facebook.com/johnsons.boucaniere/"
+      },
+      "tags": ["boudin", "boucherie", "smoked-meats", "downtown-lafayette", "plate-lunch", "tasso"],
+      "offerings": ["Boudin", "Smoked Sausage", "Tasso", "Brisket", "Pulled Pork", "Fried Boudin Balls", "Plate Lunches"],
+      "featured": false
+    },
+    {
+      "slug": "dons-specialty-meats",
+      "name": "Don's Specialty Meats",
+      "shortDescription": "Internationally known for cracklins, homemade boudin, and epic po'boys in Scott, LA.",
+      "description": "Don's Specialty Meats in Scott, LA is renowned by Food Network and food lovers worldwide for having some of South Louisiana's finest cracklins and homemade boudin. Their deli menu also features homemade hamburgers, po'boys, stuffed bread, and a variety of specialty boudin including jalapeño and pepper jack varieties. They've been a staple of the Scott boudin scene for decades.",
+      "category": "Boudin & Cracklins",
+      "categories": ["Boudin & Cracklins", "Cajun Markets", "Restaurants & Food Vendors"],
+      "location": "Scott, LA",
+      "website": "https://donsspecialtymeats.com",
+      "socials": {},
+      "tags": ["boudin", "cracklins", "po-boy", "cajun-market", "food-network-featured", "scott-la"],
+      "offerings": ["Boudin", "Cracklins", "Seafood Boudin Balls", "Po'boys", "Stuffed Bread", "Specialty Meats"],
+      "featured": false
+    },
+    {
+      "slug": "slap-ya-mama",
+      "name": "Slap Ya Mama",
+      "shortDescription": "Authentic Cajun seasoning from Ville Platte, LA — bold flavor without heavy salt.",
+      "description": "Founded in 1996 by the Walker family in Ville Platte, Louisiana — the self-proclaimed smoked meats capital of the world — Slap Ya Mama set out to create an authentic Cajun seasoning without the heavy salt content of national brands. Today, they offer their Original Blend, White Pepper Blend, Hot Blend, and Low Sodium Blend, trusted by home cooks and chefs worldwide.",
+      "category": "Seasonings & Spices",
+      "categories": ["Seasonings & Spices", "Hot Sauce & Condiments"],
+      "location": "Ville Platte, LA",
+      "website": "https://slapyamama.com",
+      "socials": {
+        "facebook": "https://www.facebook.com/SlapYaMama/",
+        "instagram": "https://www.instagram.com/slapyamama/"
+      },
+      "tags": ["seasoning", "cajun-spice", "ville-platte", "low-sodium", "family-owned"],
+      "offerings": ["Original Blend", "White Pepper Blend", "Hot Blend", "Low Sodium Blend"],
+      "featured": false
+    },
+    {
+      "slug": "tabasco-mcilhenny",
+      "name": "TABASCO® / McIlhenny Company",
+      "shortDescription": "The world's most iconic hot sauce, made on Avery Island, LA since 1868.",
+      "description": "McIlhenny Company has made TABASCO® Sauce on Avery Island, Louisiana for over 5 generations since Edmund McIlhenny perfected his recipe in 1868. A Louisiana cultural landmark, Avery Island is also a natural wildlife sanctuary and tourist destination. TABASCO now offers over a dozen flavors beyond the original red pepper sauce.",
+      "category": "Hot Sauce & Condiments",
+      "categories": ["Hot Sauce & Condiments", "Cajun Culture & Tourism"],
+      "location": "Avery Island, LA",
+      "website": "https://www.tabasco.com",
+      "socials": {
+        "facebook": "https://www.facebook.com/TabascoSauce/",
+        "instagram": "https://www.instagram.com/tabascohotsauce/"
+      },
+      "tags": ["hot-sauce", "avery-island", "iconic", "louisiana-heritage", "tourist-attraction"],
+      "offerings": ["Original Red Pepper Sauce", "Green Jalapeño Sauce", "Chipotle Sauce", "Habanero Sauce", "Sweet & Spicy Sauce", "Avery Island Tours"],
+      "featured": true
+    },
+    {
+      "slug": "crystal-hot-sauce",
+      "name": "Crystal Hot Sauce",
+      "shortDescription": "Pure Louisiana hot sauce from New Orleans since 1923 — three ingredients, endless flavor.",
+      "description": "Crystal Hot Sauce has been a Louisiana institution since 1923, crafted from just three ingredients: aged red cayenne peppers, vinegar, and salt. Originally produced in New Orleans by the Baumer family, Crystal ships 3 million gallons annually to 75 countries. Known for its lighter heat and bright flavor, it's the go-to hot sauce for gumbo, eggs, and everything Cajun.",
+      "category": "Hot Sauce & Condiments",
+      "categories": ["Hot Sauce & Condiments"],
+      "location": "Metairie, LA",
+      "website": "https://crystalhotsauce.com",
+      "socials": {
+        "facebook": "https://www.facebook.com/CrystalHotSauce/"
+      },
+      "tags": ["hot-sauce", "new-orleans", "three-ingredients", "louisiana-classic"],
+      "offerings": ["Original Louisiana Hot Sauce", "Extra Hot Sauce", "Wing Sauce"],
+      "featured": false
+    },
+    {
+      "slug": "louisiana-brand-hot-sauce",
+      "name": "The Original Louisiana Brand Hot Sauce",
+      "shortDescription": "The original Louisiana cayenne pepper sauce from New Iberia since 1928.",
+      "description": "The Original Louisiana Brand Hot Sauce has been made in New Iberia, Louisiana since 1928, earning an 80-year reputation for quality with aged cayenne peppers. Originally produced by Bruce Foods, now manufactured by Summit Hill Foods, it remains a staple condiment in Cajun and Creole kitchens and restaurants across the country.",
+      "category": "Hot Sauce & Condiments",
+      "categories": ["Hot Sauce & Condiments"],
+      "location": "New Iberia, LA",
+      "website": "https://louisianahotsauce.com",
+      "socials": {},
+      "tags": ["hot-sauce", "new-iberia", "cajun-classic", "cayenne"],
+      "offerings": ["Original Hot Sauce", "Extra Hot Sauce", "Buffalo Sauce"],
+      "featured": false
+    },
+    {
+      "slug": "louisiana-fish-fry-products",
+      "name": "Louisiana Fish Fry Products",
+      "shortDescription": "Baton Rouge's authentic Cajun batters, seasonings, and crawfish boil products.",
+      "description": "Louisiana Fish Fry Products brings authentic Louisiana flavors to kitchens nationwide with their legendary fish fry coating, crawfish boil liquid, Cajun seasonings, and a full line of Southern cooking products. Based in Baton Rouge, they're the trusted brand for Friday fish fries and backyard crawfish boils across Acadiana.",
+      "category": "Seasonings & Spices",
+      "categories": ["Seasonings & Spices", "Specialty Foods"],
+      "location": "Baton Rouge, LA",
+      "website": "https://louisianafishfry.com",
+      "socials": {
+        "facebook": "https://www.facebook.com/louisianafishfry/",
+        "instagram": "https://www.instagram.com/louisianafishfry/"
+      },
+      "tags": ["fish-fry", "crawfish-boil", "cajun-seasoning", "batter", "baton-rouge"],
+      "offerings": ["Seasoned Fish Fry", "Cajun Seasoning", "Crawfish/Shrimp/Crab Boil", "Hush Puppy Mix", "Tartar Sauce"],
+      "featured": false
+    },
+    {
+      "slug": "zatarain-s",
+      "name": "Zatarain's",
+      "shortDescription": "New Orleans' iconic Cajun and Creole cooking brand since 1889.",
+      "description": "Founded in 1889 in New Orleans, Zatarain's is a beloved institution in Cajun and Creole cooking with over 200 products including rice mixes, seasonings, breadings, and crab boil. From Jambalaya mix to Dirty Rice, Zatarain's makes authentic Louisiana flavors accessible nationwide. Now owned by McCormick, the brand preserves New Orleans' culinary heritage.",
+      "category": "Specialty Foods",
+      "categories": ["Specialty Foods", "Seasonings & Spices"],
+      "location": "New Orleans, LA",
+      "website": "https://www.mccormick.com/zatarains",
+      "socials": {
+        "facebook": "https://www.facebook.com/Zatarains/",
+        "instagram": "https://www.instagram.com/zatarains/"
+      },
+      "tags": ["rice-mixes", "cajun-seasoning", "crab-boil", "new-orleans", "jambalaya", "dirty-rice"],
+      "offerings": ["Jambalaya Mix", "Dirty Rice Mix", "Crab Boil", "Red Beans & Rice Mix", "Fish Fry", "Creole Mustard"],
+      "featured": false
+    },
+    {
+      "slug": "comeaux-s-inc",
+      "name": "Comeaux's Inc.",
+      "shortDescription": "Family-owned authentic Cajun products maker in Breaux Bridge since 1967.",
+      "description": "Comeaux's Inc. has been crafting authentic Cajun products in Breaux Bridge, Louisiana since 1967. Known for their boudin, smoked sausage, pork & alligator sausage, and specialty meats, they ship nationwide through their online store. A true Cajun country institution, Comeaux's continues a tradition of handcrafted smoked meats using time-honored recipes.",
+      "category": "Boudin & Cracklins",
+      "categories": ["Boudin & Cracklins", "Specialty Meats"],
+      "location": "Breaux Bridge, LA",
+      "website": "https://www.comeaux.com",
+      "socials": {
+        "facebook": "https://www.facebook.com/Comeauxs.Inc/"
+      },
+      "tags": ["boudin", "smoked-sausage", "alligator-sausage", "breaux-bridge", "ships-nationwide"],
+      "offerings": ["Boudin", "Smoked Sausage", "Pork & Alligator Sausage", "Tasso", "Specialty Meats"],
+      "featured": false
+    },
+    {
+      "slug": "bourgeois-meat-market",
+      "name": "Bourgeois Meat Market",
+      "shortDescription": "135-year-old Cajun smoked meat tradition from Thibodaux — famous beef jerky and boudin.",
+      "description": "Bourgeois Meat Market has been serving Cajun smoked meats in Thibodaux, Louisiana since 1891, carrying on 135 years of handcrafted tradition. Known for their famous Beef Styx beef jerky, boudin, andouille, and summer sausage, they ship nationwide. A staple for hunters, outdoor enthusiasts, and Cajun food lovers seeking authentic South Louisiana flavors.",
+      "category": "Specialty Meats",
+      "categories": ["Specialty Meats", "Boudin & Cracklins"],
+      "location": "Thibodaux, LA",
+      "website": "https://bourgeoismeatmarket.com",
+      "socials": {
+        "facebook": "https://www.facebook.com/bourgeoismeatmarket/"
+      },
+      "tags": ["beef-jerky", "boudin", "andouille", "smoked-meats", "thibodaux", "ships-nationwide", "135-years"],
+      "offerings": ["Beef Styx Beef Jerky", "Boudin", "Andouille", "Summer Sausage", "Smoked Sausage"],
+      "featured": false
+    },
+    {
+      "slug": "camellia-brand",
+      "name": "Camellia Brand",
+      "shortDescription": "New Orleans' finest red beans and legumes since 1923 — the cornerstone of Red Beans & Rice.",
+      "description": "Founded in 1923 in New Orleans, Camellia Brand is the preferred provider of red kidney beans in Louisiana and the Gulf Coast region. Their beans are US-grown, harvested fresh, cleaned 6 times, and exceed the top USDA grade — making them the gold standard for Red Beans & Rice in Cajun and Creole cooking. They now package 18 varieties of beans, peas, and lentils.",
+      "category": "Specialty Foods",
+      "categories": ["Specialty Foods"],
+      "location": "New Orleans, LA",
+      "website": "https://www.camelliabrand.com",
+      "socials": {
+        "facebook": "https://www.facebook.com/CamelliaBrand/",
+        "instagram": "https://www.instagram.com/camelliabrand/"
+      },
+      "tags": ["red-beans", "cajun-staple", "new-orleans", "dried-beans", "rice-and-beans"],
+      "offerings": ["Red Kidney Beans", "Black-Eyed Peas", "Navy Beans", "Lentils", "Crowder Peas"],
+      "featured": false
+    },
+    {
+      "slug": "konriko-conrad-rice-mill",
+      "name": "Konriko / Conrad Rice Mill",
+      "shortDescription": "America's oldest independently owned rice mill, operating in New Iberia since 1912.",
+      "description": "The Conrad Rice Mill in New Iberia, Louisiana is America's oldest independently owned and operated rice mill, established in 1912 and listed on the National Register of Historic Places. Their Konriko brand rice varieties are a staple in Cajun kitchens, and the historic mill is both a working operation and a popular tourist destination along the Bayou Teche.",
+      "category": "Specialty Foods",
+      "categories": ["Specialty Foods", "Cajun Culture & Tourism"],
+      "location": "New Iberia, LA",
+      "website": "https://www.conradrice.com",
+      "socials": {},
+      "tags": ["rice", "new-iberia", "historic", "national-register", "bayou-teche", "tourist-attraction"],
+      "offerings": ["Konriko Brown Rice", "Konriko Wild Pecan Rice", "Konriko White Rice", "Cajun Seasonings"],
+      "featured": false
+    },
+    {
+      "slug": "aunt-sallys-pralines",
+      "name": "Aunt Sally's Pralines",
+      "shortDescription": "Handmade New Orleans pralines since 1935 — the world's best praline.",
+      "description": "Aunt Sally's has been making the finest handmade pralines daily in New Orleans since 1935. This locally family-owned company crafts authentic Southern-style Creole pralines using the best Louisiana ingredients, along with premium gourmet foods, king cakes, and authentic New Orleans souvenirs. A must-stop on St. Charles Avenue.",
+      "category": "Bakeries & Sweets",
+      "categories": ["Bakeries & Sweets"],
+      "location": "New Orleans, LA",
+      "website": "https://auntsallys.com",
+      "socials": {
+        "facebook": "https://www.facebook.com/AuntSallysPralines/",
+        "instagram": "https://www.instagram.com/auntsallyspra/"
+      },
+      "tags": ["pralines", "king-cake", "new-orleans", "handmade", "sweets", "louisiana-candy"],
+      "offerings": ["Original Creole Pralines", "Pecan Log Roll", "King Cake", "New Orleans Gourmet Foods"],
+      "featured": false
+    },
+    {
+      "slug": "rouses-markets",
+      "name": "Rouses Markets",
+      "shortDescription": "Louisiana's beloved family-owned grocery chain — the go-to for Cajun staples and king cake.",
+      "description": "Founded in 1960 by Anthony J. Rouse, Sr., Rouses Markets is a family-owned chain with 66 grocery stores across Louisiana, Mississippi, and Alabama. Rouses is the destination for Cajun staples like andouille, gumbo base, tasso ham, beignet mix, and Camellia red beans. Their seasonal king cakes and signature Gentilly cakes have earned a devoted following.",
+      "category": "Cajun Markets",
+      "categories": ["Cajun Markets", "Specialty Foods"],
+      "location": "Thibodaux, LA (HQ, stores statewide)",
+      "website": "https://www.rouses.com",
+      "socials": {
+        "facebook": "https://www.facebook.com/rouses/",
+        "instagram": "https://www.instagram.com/rousesmarkets/"
+      },
+      "tags": ["grocery", "cajun-market", "king-cake", "andouille", "louisiana-chain"],
+      "offerings": ["Andouille Sausage", "Tasso Ham", "Gumbo Base", "King Cake", "Boudin", "Cajun Seasonings"],
+      "featured": false
+    },
+    {
+      "slug": "cajun-grocer",
+      "name": "CajunGrocer.com",
+      "shortDescription": "Online Cajun grocery with 3,000+ authentic Louisiana food products shipped nationwide.",
+      "description": "CajunGrocer.com is your one-stop online source for authentic Cajun and Creole foods, groceries, and seafood. With over 3,000 products including turduckens, tasso ham, alligator meat, stuffed chickens, and every seasoning you can think of, they make it easy to bring Louisiana flavors anywhere in the country. A vital resource for Cajun food lovers outside Louisiana.",
+      "category": "Cajun Markets",
+      "categories": ["Cajun Markets", "Specialty Foods"],
+      "location": "Louisiana (online)",
+      "website": "https://www.cajungrocer.com",
+      "socials": {},
+      "tags": ["online-cajun-store", "ships-nationwide", "turducken", "cajun-groceries"],
+      "offerings": ["Cajun Seasonings", "Turduckens", "Stuffed Chickens", "Tasso", "Alligator Meat", "King Cakes"],
+      "featured": false
+    },
+    {
+      "slug": "louisiana-crawfish-company",
+      "name": "Louisiana Crawfish Company",
+      "shortDescription": "#1 shipper of live crawfish since 1985 — straight from their Natchitoches farm to your door.",
+      "description": "Louisiana Crawfish Company started shipping live crawfish from their Louisiana family farm in 1985, making them the oldest crawfish shipper in the country. Based in Natchitoches, they guarantee live delivery and have expanded to include boiled crawfish, seafood, Cajun foods, and turduckens. With 572k Instagram followers and 1.2M TikTok followers, they're also a major social media presence.",
+      "category": "Seafood Markets",
+      "categories": ["Seafood Markets", "Cajun Markets"],
+      "location": "Natchitoches, LA",
+      "website": "https://www.lacrawfish.com",
+      "socials": {
+        "instagram": "https://www.instagram.com/lacrawfishco/",
+        "facebook": "https://www.facebook.com/louisianacrawfishcompany/",
+        "tiktok": "https://www.tiktok.com/@louisianacrawfishco"
+      },
+      "tags": ["crawfish", "live-crawfish", "ships-nationwide", "seafood", "family-farm", "natchitoches"],
+      "offerings": ["Live Crawfish", "Boiled Crawfish", "Shrimp", "Turducken", "Alligator Meat"],
+      "featured": true
+    },
+    {
+      "slug": "chez-francois-seafood",
+      "name": "Chez Francois Seafood",
+      "shortDescription": "Lafayette's premier fresh seafood market, just 35 miles from the Gulf since 1976.",
+      "description": "Chez Francois Seafood has been a trusted source for high-quality fresh seafood in Lafayette, Louisiana since 1976. Located 35 miles from the Gulf of Mexico, they offer shrimp, crabs, oysters, fish, Louisiana catfish, frog legs, and even alligator — all straight from local waters. A cornerstone of Lafayette's fresh seafood scene.",
+      "category": "Seafood Markets",
+      "categories": ["Seafood Markets"],
+      "location": "Lafayette, LA",
+      "website": "https://www.cfseafood.com",
+      "socials": {
+        "facebook": "https://www.facebook.com/chezfrancoisseafood/"
+      },
+      "tags": ["seafood-market", "fresh-crawfish", "shrimp", "crabs", "alligator", "lafayette", "since-1976"],
+      "offerings": ["Fresh Crawfish", "Gulf Shrimp", "Blue Crabs", "Gulf Oysters", "Frog Legs", "Alligator Meat", "Fresh Fish"],
+      "featured": false
+    },
+    {
+      "slug": "cajun-crawfish-farm",
+      "name": "Cajun Crawfish (cajuncrawfish.com)",
+      "shortDescription": "Farm-direct live crawfish from Branch, Louisiana — grown and shipped by true Cajun farmers.",
+      "description": "Cajun Crawfish is the real deal: they actually grow their crawfish at their farm in Branch, Louisiana, rather than just reselling. This farm-direct model ensures freshness at the source. They sell live crawfish for backyard boils and ship anywhere in the country, offering an authentic farm-to-table crawfish experience.",
+      "category": "Seafood Markets",
+      "categories": ["Seafood Markets"],
+      "location": "Branch, LA",
+      "website": "https://cajuncrawfish.com",
+      "socials": {},
+      "tags": ["crawfish", "live-crawfish", "farm-direct", "ships-nationwide"],
+      "offerings": ["Live Crawfish", "Boiled Crawfish"],
+      "featured": false
+    },
+    {
+      "slug": "reve-coffee-roasters",
+      "name": "Rêve Coffee Roasters",
+      "shortDescription": "Downtown Lafayette's premier locally owned micro-coffee roaster inspired by Cajun culture.",
+      "description": "Rêve Coffee Roasters is Lafayette's premiere specialty coffee roastery, roasting small batches in downtown Lafayette and inspired by the spirit of Cajun culture. They even created an exclusive Boucanière Blend for Johnson's Boucanière — full body medium roast with notes of honey citrus, smoky vanilla bean, and licorice. A beloved gathering spot for Lafayette's community.",
+      "category": "Restaurants & Food Vendors",
+      "categories": ["Restaurants & Food Vendors", "Specialty Foods"],
+      "location": "Lafayette, LA",
+      "website": "https://revecoffee.com",
+      "socials": {
+        "facebook": "https://www.facebook.com/ReveCoffeeRoasters/",
+        "instagram": "https://www.instagram.com/revecoffeeroasters/"
+      },
+      "tags": ["coffee", "local-roaster", "downtown-lafayette", "cajun-culture", "specialty-coffee"],
+      "offerings": ["Single Origin Coffees", "House Blends", "Espresso Drinks", "Boucanière Blend"],
+      "featured": false
+    },
+    {
+      "slug": "prejeans-restaurant",
+      "name": "Prejean's Restaurant",
+      "shortDescription": "Authentic Cajun dining in Lafayette — home of Big Al the 14-foot stuffed alligator.",
+      "description": "Prejean's is one of Lafayette's most iconic Cajun restaurants, welcoming guests with Big Al, a 14-foot stuffed alligator at the entrance. Conveniently located on I-49, Prejean's sources the best local ingredients and cooks them 'as Cajuns do,' featuring fresh seafood, wild game, world-famous gumbos, and live Cajun bands performing nightly. A true Cajun country dining institution.",
+      "category": "Restaurants & Food Vendors",
+      "categories": ["Restaurants & Food Vendors", "Cajun Culture & Tourism"],
+      "location": "Carencro (Lafayette), LA",
+      "website": "https://www.prejeans.com",
+      "socials": {
+        "facebook": "https://www.facebook.com/prejeansrestaurant/",
+        "instagram": "https://www.instagram.com/prejeans_carencro/"
+      },
+      "tags": ["cajun-restaurant", "live-music", "gumbo", "seafood", "wild-game", "lafayette"],
+      "offerings": ["Gumbo", "Étouffée", "Fried Seafood Platters", "Wild Game Dishes", "Steaks", "Live Cajun Music"],
+      "featured": false
+    },
+    {
+      "slug": "cafe-des-amis",
+      "name": "Café Des Amis",
+      "shortDescription": "The essence of French Louisiana in Breaux Bridge — legendary Saturday Zydeco Breakfast.",
+      "description": "Since 1992, Café Des Amis has been the heart of downtown Breaux Bridge, celebrated as 'The essence of French Louisiana.' Famous for their Saturday Zydeco Breakfast with live music and dancing, they serve authentic Cajun and Creole cuisine including boudin sausage, turtle soup, BBQ shrimp, and coush-coush. A featured property in the Southern Foodways Alliance.",
+      "category": "Restaurants & Food Vendors",
+      "categories": ["Restaurants & Food Vendors", "Cajun Culture & Tourism"],
+      "location": "Breaux Bridge, LA",
+      "website": "https://breauxbridgela.com/business-directory/cafe-des-amis",
+      "socials": {},
+      "tags": ["zydeco-breakfast", "cajun-restaurant", "breaux-bridge", "saturday-dancing", "crawfish-capital"],
+      "offerings": ["Saturday Zydeco Breakfast", "Boudin", "Turtle Soup", "BBQ Shrimp", "Coush-Coush"],
+      "featured": false
+    },
+    {
+      "slug": "randols-restaurant",
+      "name": "Randol's Restaurant",
+      "shortDescription": "Cajun music, dancing, and fresh Gulf seafood in a classic South Louisiana atmosphere.",
+      "description": "Randol's honors Cajun culture with fresh, locally-sourced food, lively Cajun music, and joyful dancing. Now operating from Breaux Bridge, Randol's delivers daily fresh produce and Gulf seafood, crawfish étouffée, and traditional Cajun plates — all with a Cajun band playing and folks dancing. A timeless celebration of joie de vivre.",
+      "category": "Restaurants & Food Vendors",
+      "categories": ["Restaurants & Food Vendors", "Cajun Culture & Tourism"],
+      "location": "Breaux Bridge, LA",
+      "website": "https://www.randols.com",
+      "socials": {
+        "facebook": "https://www.facebook.com/RandolsRestaurant/"
+      },
+      "tags": ["cajun-restaurant", "live-music", "dancing", "crawfish-etouffee", "seafood"],
+      "offerings": ["Crawfish Étouffée", "Fried Seafood Platters", "Live Cajun Music & Dancing"],
+      "featured": false
+    },
+    {
+      "slug": "deanos-pizza-lafayette",
+      "name": "Dean-O's Pizza",
+      "shortDescription": "Italian pizza with a Cajun twist — a Lafayette institution.",
+      "description": "Dean-O's Pizza in Lafayette is a beloved local institution known for blending Italian pizza traditions with Cajun flair. With over 22,000 Facebook followers and consistently high ratings, Dean-O's has become a community favorite for its creative toppings and casual atmosphere. Multiple Lafayette locations make it easily accessible.",
+      "category": "Restaurants & Food Vendors",
+      "categories": ["Restaurants & Food Vendors"],
+      "location": "Lafayette, LA",
+      "website": "https://www.deanospizza.com",
+      "socials": {
+        "facebook": "https://www.facebook.com/deanospizzabertrand/"
+      },
+      "tags": ["pizza", "cajun-twist", "lafayette", "local-favorite"],
+      "offerings": ["Build-Your-Own Pizza", "Cajun-Style Pizzas", "Pasta", "Calzones"],
+      "featured": false
+    },
+    {
+      "slug": "bayou-teche-brewing",
+      "name": "Bayou Teche Brewing",
+      "shortDescription": "Arnaudville craft brewery with Cajun-inspired beers, wood-fired pizza, and Sunday Cajun Jams.",
+      "description": "Bayou Teche Brewing in Arnaudville, Louisiana crafts beers designed to complement Cajun cuisine, with their flagship LA 31 can named after the state highway following Bayou Teche. Their taproom features craft beers, exotic cocktails, wine, and wood-fired Neapolitan pizza, with live Cajun music on Saturdays and a Cajun Jam every Sunday afternoon. Distributed throughout Louisiana and Texas.",
+      "category": "Cajun Culture & Tourism",
+      "categories": ["Cajun Culture & Tourism", "Restaurants & Food Vendors"],
+      "location": "Arnaudville, LA",
+      "website": "https://bayoutechebrewing.com",
+      "socials": {
+        "facebook": "https://www.facebook.com/BayouTecheBrewing/",
+        "instagram": "https://www.instagram.com/bayoutechebrewing/"
+      },
+      "tags": ["craft-beer", "cajun-inspired", "live-music", "zydeco-brunch", "arnaudville", "la31"],
+      "offerings": ["LA 31 Pale Ale", "Bière Pale Ale", "Craft Beers", "Wood-Fired Pizza", "Sunday Cajun Jam"],
+      "featured": false
+    },
+    {
+      "slug": "blue-moon-saloon",
+      "name": "Blue Moon Saloon & Guesthouse",
+      "shortDescription": "Downtown Lafayette's legendary honky tonk — America's premier venue for Louisiana roots music.",
+      "description": "The Blue Moon Saloon is a historic downtown Lafayette music venue and boutique guesthouse offering live Louisiana music nightly. One of America's premier venues for roots music, it hosts Cajun, Zydeco, Blues, Funk, and rock bands Thursday through Saturday, with a Cajun jam on Wednesdays. A true community gathering place where locals, travelers, and artists share a love of music.",
+      "category": "Cajun Culture & Tourism",
+      "categories": ["Cajun Culture & Tourism"],
+      "location": "Lafayette, LA",
+      "website": "https://www.bluemoonpresents.com",
+      "socials": {
+        "facebook": "https://www.facebook.com/BlueMoonSaloonLafayette/"
+      },
+      "tags": ["music-venue", "cajun-music", "zydeco", "dance-hall", "downtown-lafayette", "guesthouse"],
+      "offerings": ["Live Cajun Music", "Live Zydeco", "Cajun Jam", "Boutique Guesthouse"],
+      "featured": false
+    },
+    {
+      "slug": "whiskey-river-landing",
+      "name": "Angelle's Whiskey River Landing",
+      "shortDescription": "Iconic Cajun/Zydeco dance hall on the Atchafalaya Basin levee — every Sunday since 1982.",
+      "description": "Angelle's Whiskey River Landing is a legendary live music and dance hall perched on the Henderson Levee overlooking the Atchafalaya Basin. Open every Sunday from 3–9pm since 1982, it's famous for authentic Cajun and Zydeco music with stunning swamp views. Originally a bar and boat launch, it's evolved into one of Louisiana's most beloved cultural experiences.",
+      "category": "Cajun Culture & Tourism",
+      "categories": ["Cajun Culture & Tourism"],
+      "location": "Henderson, LA",
+      "website": "https://whiskeyriverlanding.net",
+      "socials": {},
+      "tags": ["dance-hall", "cajun-music", "zydeco", "atchafalaya-basin", "henderson", "sunday-dancing"],
+      "offerings": ["Live Cajun Music", "Live Zydeco", "Sunday Afternoon Dances", "Basin Views"],
+      "featured": false
+    },
+    {
+      "slug": "vermilionville",
+      "name": "Vermilionville Historic Village",
+      "shortDescription": "23-acre living history museum celebrating Cajun, Creole, and Native American culture in Lafayette.",
+      "description": "Vermilionville is a 23-acre historic and folklife park along Bayou Vermilion in Lafayette, depicting Acadian, Creole, and Native American cultures from 1765–1890. As a living history museum, it features restored historic structures, traditional crafts, costumed interpreters, Cajun cooking demonstrations, and weekly music performances. A cornerstone of Cajun cultural preservation.",
+      "category": "Cajun Culture & Tourism",
+      "categories": ["Cajun Culture & Tourism"],
+      "location": "Lafayette, LA",
+      "website": "https://bayouvermiliondistrict.org",
+      "socials": {},
+      "tags": ["living-history", "cajun-culture", "acadian-heritage", "museum", "bayou-vermilion", "lafayette"],
+      "offerings": ["Cultural Tours", "Living History Exhibits", "Cooking Demonstrations", "Music Performances", "Craft Workshops"],
+      "featured": false
+    },
+    {
+      "slug": "acadian-museum-erath",
+      "name": "Acadian Museum of Erath",
+      "shortDescription": "The most comprehensive collection of Cajun artifacts and Acadian heritage in the world.",
+      "description": "The Acadian Museum in Erath, Louisiana houses the most comprehensive collection of Cajun artifacts and Acadian heritage materials anywhere. Featuring four rooms of exhibits including rare 17th-century Acadian artifacts, an exhibit on Joseph Beausoleil Broussard, and extensive genealogy materials, the museum is free and open to the public. Erath is known as 'the most Cajun place on Earth.'",
+      "category": "Cajun Culture & Tourism",
+      "categories": ["Cajun Culture & Tourism"],
+      "location": "Erath, LA",
+      "website": "https://www.acadianmuseum.com",
+      "socials": {},
+      "tags": ["museum", "cajun-heritage", "acadian-history", "erath", "genealogy", "free-admission"],
+      "offerings": ["Heritage Exhibits", "Genealogy Research", "Acadian Artifact Collection", "Educational Programs"],
+      "featured": false
+    },
+    {
+      "slug": "cajun-food-tours",
+      "name": "Cajun Food Tours",
+      "shortDescription": "Lafayette's #1-rated food tour — bus and walking tours to the best Cajun eateries in Acadiana.",
+      "description": "Cajun Food Tours is ranked #1 on TripAdvisor in Lafayette, offering bus tours, walking tours, and an All Day Cajun Experience that includes swamp tours. Guests visit 5 of Lafayette's favorite restaurants per tour from a rotating list of 30+, sampling gumbo, boudin, étouffée, king cake, and more. A passionate guide brings Acadiana's culinary culture to life on every tour.",
+      "category": "Cajun Culture & Tourism",
+      "categories": ["Cajun Culture & Tourism"],
+      "location": "Lafayette, LA",
+      "website": "https://www.cajunfoodtours.com",
+      "socials": {
+        "facebook": "https://www.facebook.com/cajunfoodtours/",
+        "instagram": "https://www.instagram.com/cajunfoodtours/"
+      },
+      "tags": ["food-tour", "lafayette", "tripadvisor-1", "swamp-tour", "cajun-culture-tourism"],
+      "offerings": ["Original Cajun Food Tour", "Breaux Bridge Walking Tour", "All Day Cajun Experience", "Swamp Tours"],
+      "featured": true
+    },
+    {
+      "slug": "mcgees-swamp-tours",
+      "name": "McGee's Louisiana Swamp & Airboat Tours",
+      "shortDescription": "Eco-sensitive Atchafalaya Basin swamp and airboat tours near Henderson, LA.",
+      "description": "McGee's Swamp Tours immerses guests in the Atchafalaya Basin with eco-sensitive swamp tours and airboat tours that are entertaining, educational, and unforgettable. Located near Henderson, Louisiana, guests encounter alligators, wild hogs, migratory birds, and diverse wildlife in North America's largest river swamp. A must-do Cajun country experience.",
+      "category": "Cajun Culture & Tourism",
+      "categories": ["Cajun Culture & Tourism"],
+      "location": "Henderson, LA",
+      "website": "https://www.mcgeesswamptours.com",
+      "socials": {},
+      "tags": ["swamp-tour", "airboat", "atchafalaya", "alligators", "eco-tourism", "henderson"],
+      "offerings": ["Swamp Tours", "Airboat Tours", "Wildlife Viewing", "Private Tours"],
+      "featured": false
+    },
+    {
+      "slug": "acadian-swamp-tours",
+      "name": "Acadian Swamp Tours",
+      "shortDescription": "Baton Rouge's premier swamp tour experience — bayous, alligators, and wild hogs.",
+      "description": "Acadian Swamp Tours offers authentic Louisiana swamp tours from Baton Rouge, taking guests deep into the bayous to encounter alligators, wild hogs, and diverse wildlife. Their experienced guides bring Louisiana's unique wetlands ecosystem to life, making every tour an adventure. A popular attraction for visitors and locals alike.",
+      "category": "Cajun Culture & Tourism",
+      "categories": ["Cajun Culture & Tourism"],
+      "location": "Baton Rouge, LA",
+      "website": "https://www.acadianswamptours.com",
+      "socials": {},
+      "tags": ["swamp-tour", "bayou", "alligators", "baton-rouge", "wildlife"],
+      "offerings": ["Swamp Tours", "Airboat Rides", "Wildlife Tours"],
+      "featured": false
+    },
+    {
+      "slug": "008-magazine",
+      "name": "008 Magazine",
+      "shortDescription": "Acadiana's #1 lifestyle publication for 20+ years — travel, events, nightlife, and community.",
+      "description": "008 Magazine has been Lafayette and Acadiana's #1 local informative and entertaining publication for over 20 years. Published 8 times yearly with 30,000+ copies per issue, it covers travel, nightlife, community events, sports, arts, fashion, and local business spotlights. Their motto: 'Your concierge to Acadiana.' A vital hub for discovering what's happening across the region.",
+      "category": "Cajun Culture & Tourism",
+      "categories": ["Cajun Culture & Tourism", "Community"],
+      "location": "Lafayette, LA",
+      "website": "https://008magazine.com",
+      "socials": {
+        "facebook": "https://www.facebook.com/008magazine/",
+        "instagram": "https://www.instagram.com/008magazine/"
+      },
+      "tags": ["lifestyle-magazine", "acadiana", "events", "community", "local-publication", "nightlife"],
+      "offerings": ["Print Magazine", "Digital Content", "Event Coverage", "Business Spotlights", "Community Guides"],
+      "featured": true
+    },
+    {
+      "slug": "earl-s-cajun-market",
+      "name": "Earl's Cajun Market",
+      "shortDescription": "Lafayette's fresh Cajun market with boudin, gumbo, specialty meats, and daily hot plate lunches.",
+      "description": "Earl's Cajun Market is a freshly remodeled Lafayette institution with deep roots in the Comeaux family tradition. Serving fresh food daily including boudin, gumbo, specialty meats, hog-head cheese, stuffed baked potatoes, and more, Earl's is the go-to for busy families who want authentic Cajun cooking without the fuss. Pre-cooked meals make weeknight Cajun dinner effortless.",
+      "category": "Cajun Markets",
+      "categories": ["Cajun Markets", "Boudin & Cracklins"],
+      "location": "Lafayette, LA",
+      "website": "https://earlscajunmarket.com",
+      "socials": {},
+      "tags": ["cajun-market", "plate-lunch", "boudin", "gumbo", "lafayette", "hog-head-cheese"],
+      "offerings": ["Boudin", "Gumbo", "Hog-Head Cheese", "Specialty Meats", "Stuffed Baked Potatoes", "Plate Lunches"],
+      "featured": false
+    }
+  ],
+  "newFluencers": [
+    {
+      "slug": "the-cajun-ninja",
+      "name": "The Cajun Ninja (Jason Derouen)",
+      "bio": "Jason Derouen, aka The Cajun Ninja, is a Houma, Louisiana native who went viral with a cooking video that launched a worldwide following. Known for his energetic 'Pi-YAHHHHH!' catchphrase and step-by-step Cajun recipes, he has built one of the largest Cajun cooking followings online. He's a published cookbook author (PI-YAHHHHH!!) and contributor to Louisiana Cookin' magazine.",
+      "specialty": "Traditional Cajun Home Cooking",
+      "specialtyTags": ["cajun-cooking", "traditional-recipes", "gumbo", "jambalaya", "etouffee"],
+      "location": "Houma, Louisiana",
+      "featuredContent": [
+        { "title": "Chicken and Sausage Gumbo", "url": "https://www.facebook.com/thecajunninja/" },
+        { "title": "Crawfish Étouffée", "url": "https://www.youtube.com/@TheCajunNinja" }
+      ],
+      "socials": {
+        "facebook": { "url": "https://www.facebook.com/thecajunninja/", "followers": 1200000 },
+        "youtube": { "url": "https://www.youtube.com/@TheCajunNinja", "followers": 181000 },
+        "instagram": { "url": "https://www.instagram.com/thecajunninja/", "followers": 50000 }
+      }
+    },
+    {
+      "slug": "hal-the-cajun-lady",
+      "name": "Hal The Cajun Lady Accent",
+      "bio": "Hal is a beloved Louisiana TikTok and social media creator known for her unmistakable thick Cajun accent and authentic South Louisiana recipes. From cow tongue rice and gravy to crawfish étouffée and boudin, she shares deeply traditional Cajun cooking with warmth and humor that resonates with both locals and outsiders curious about the culture.",
+      "specialty": "Authentic Cajun Home Cooking with Cultural Commentary",
+      "specialtyTags": ["cajun-cooking", "tiktok", "cajun-accent", "traditional-recipes", "rice-n-gravy"],
+      "location": "Lafayette area, Louisiana",
+      "featuredContent": [
+        { "title": "Crawfish Étouffée", "url": "https://www.tiktok.com/@HalTheCajunLadyAccent" },
+        { "title": "Cow Tongue Rice and Gravy", "url": "https://www.tiktok.com/@HalTheCajunLadyAccent" }
+      ],
+      "socials": {
+        "tiktok": { "url": "https://www.tiktok.com/@HalTheCajunLadyAccent", "followers": 200000 }
+      }
+    },
+    {
+      "slug": "louisiana-crawfish-co-social",
+      "name": "Louisiana Crawfish Co. (@lacrawfishco)",
+      "bio": "Louisiana Crawfish Company runs one of the most powerful Cajun food social media accounts in the country, sharing crawfish boil content, Cajun food culture, and seasonal updates from their Natchitoches farm. Their vibrant content showcasing live crawfish, boils, and Louisiana cooking has earned them a massive following and made them as much an influencer as a business.",
+      "specialty": "Crawfish & Louisiana Seafood Content",
+      "specialtyTags": ["crawfish", "seafood", "cajun-food", "crawfish-boil", "live-crawfish"],
+      "location": "Natchitoches, Louisiana",
+      "featuredContent": [
+        { "title": "Live Crawfish Boil Videos", "url": "https://www.tiktok.com/@louisianacrawfishco" },
+        { "title": "Cajun Food Reels", "url": "https://www.instagram.com/lacrawfishco/" }
+      ],
+      "socials": {
+        "tiktok": { "url": "https://www.tiktok.com/@louisianacrawfishco", "followers": 1200000 },
+        "instagram": { "url": "https://www.instagram.com/lacrawfishco/", "followers": 572000 },
+        "facebook": { "url": "https://www.facebook.com/louisianacrawfishcompany/", "followers": 100000 }
+      }
+    },
+    {
+      "slug": "acadiana-table-george-graham",
+      "name": "Acadiana Table (George Graham)",
+      "bio": "George Graham is a South Louisiana native and award-winning food blogger whose Acadiana Table website preserves and promotes Cajun and Creole cooking culture through stories and recipes. A finalist for Saveur magazine's Best Food Blog: Regional Cuisine, he's also a published cookbook author. His deep cultural knowledge makes him a respected voice in Louisiana culinary heritage.",
+      "specialty": "Cajun & Creole Food Writing and Recipe Preservation",
+      "specialtyTags": ["cajun-cooking", "creole-cooking", "food-blog", "recipes", "louisiana-culture"],
+      "location": "South Louisiana",
+      "featuredContent": [
+        { "title": "Crawfish Étouffée (Old-Fashioned)", "url": "https://acadianatable.com/2023/02/20/crawfish-etouffee/" },
+        { "title": "Acadiana Table Cookbook", "url": "https://acadianatable.com/the-cookbook/" }
+      ],
+      "socials": {
+        "website": { "url": "https://acadianatable.com", "followers": 0 },
+        "facebook": { "url": "https://www.facebook.com/acadianatable/", "followers": 50000 }
+      }
+    },
+    {
+      "slug": "foodies-of-lafayette-heidi",
+      "name": "Foodies of Lafayette (Heidi McDonald)",
+      "bio": "Heidi McDonald founded Foodies of Lafayette in December 2019 as a small Facebook group to spotlight local eateries flying under the radar. By 2025, it had grown to 100,000+ members and evolved into a full media platform with a podcast, Culinary Excellence Awards, and the Lafayette Community Fridge program. A community institution and the definitive voice of Lafayette's food scene.",
+      "specialty": "Lafayette Food Community Building & Local Food Discovery",
+      "specialtyTags": ["lafayette-food", "restaurant-discovery", "community", "cajun-food", "local-eateries"],
+      "location": "Lafayette, Louisiana",
+      "featuredContent": [
+        { "title": "Foodies of Lafayette Podcast", "url": "https://foodiesoflafayette.com/pages/foodies-of-lafayette-podcasts" },
+        { "title": "Culinary Excellence Awards", "url": "https://foodiesoflafayette.com" }
+      ],
+      "socials": {
+        "website": { "url": "https://foodiesoflafayette.com", "followers": 0 },
+        "facebook": { "url": "https://www.facebook.com/foodiesoflafayette/", "followers": 100000 }
+      }
+    },
+    {
+      "slug": "discover-lafayette-podcast",
+      "name": "Discover Lafayette",
+      "bio": "Discover Lafayette is a podcast and media outlet produced in Lafayette, Louisiana, featuring in-depth conversations with local entrepreneurs, chefs, musicians, and culture-bearers. Episodes dive into the stories behind Lafayette's food scene, Cajun music traditions, and community initiatives — making it an essential resource for understanding what makes Acadiana tick.",
+      "specialty": "Acadiana Culture, Food & Community Storytelling",
+      "specialtyTags": ["podcast", "lafayette", "cajun-culture", "local-stories", "food-business"],
+      "location": "Lafayette, Louisiana",
+      "featuredContent": [
+        { "title": "Frank Randol of Randol's Restaurant", "url": "https://discoverlafayette.net/podcast/frank-randol-randols" },
+        { "title": "Discover Lafayette Podcast Archive", "url": "https://discoverlafayette.net/category/podcast/" }
+      ],
+      "socials": {
+        "website": { "url": "https://discoverlafayette.net", "followers": 0 },
+        "apple-podcasts": { "url": "https://podcasts.apple.com/us/podcast/discover-lafayette/id1256056033", "followers": 0 }
+      }
+    },
+    {
+      "slug": "louisiana-cookin-magazine",
+      "name": "Louisiana Cookin' Magazine",
+      "bio": "Louisiana Cookin' is the only national magazine dedicated to Louisiana's unique culture, cuisine, and travel destinations. Published six times yearly, it features authentic Cajun and Creole recipes, chef profiles, and travel guides across the bayou state — from crawfish season coverage to king cake features. A definitive authority on Louisiana food culture.",
+      "specialty": "Louisiana Food, Culture & Travel Publication",
+      "specialtyTags": ["cajun-cooking", "creole-cooking", "magazine", "recipes", "louisiana-travel"],
+      "location": "National (Louisiana-focused)",
+      "featuredContent": [
+        { "title": "Crawfish Season Issue", "url": "https://louisianacookin.com" },
+        { "title": "The Cajun Ninja Feature", "url": "https://louisianacookin.com/the-cajun-ninja/" }
+      ],
+      "socials": {
+        "website": { "url": "https://louisianacookin.com", "followers": 0 },
+        "facebook": { "url": "https://www.facebook.com/LouisianaCookin/", "followers": 200000 }
+      }
+    },
+    {
+      "slug": "cajunmamacookin-blog",
+      "name": "Cajun Mama Cookin' Blog",
+      "bio": "Cajun Mama Cookin' is a food blog focused on authentic Cajun recipes, family favorites, and low-carb Cajun-friendly adaptations. Based in North Louisiana, the blogger brings the warmth of a real Cajun kitchen to her readers, celebrating the food traditions passed down through generations of Louisiana families.",
+      "specialty": "Cajun Home Cooking & Low-Carb Adaptations",
+      "specialtyTags": ["cajun-cooking", "food-blog", "keto-cajun", "family-recipes"],
+      "location": "North Louisiana",
+      "featuredContent": [
+        { "title": "Cajun Recipes Blog", "url": "https://cajunmamacookinblog.com" }
+      ],
+      "socials": {
+        "website": { "url": "https://cajunmamacookinblog.com", "followers": 0 }
+      }
+    },
+    {
+      "slug": "louisiana-woman-blog",
+      "name": "Louisiana Woman Blog",
+      "bio": "Louisiana Woman Blog celebrates the vibrant flavors and stories of South Louisiana, bringing to life the cherished dishes that Cajun mawmaws and mamas once made. The blog shares authentic Cajun and Creole recipes rooted in family tradition, with a warm storytelling approach that honors the culture of Acadiana.",
+      "specialty": "Traditional Cajun & Creole Family Recipes",
+      "specialtyTags": ["cajun-cooking", "creole-cooking", "food-blog", "family-recipes", "south-louisiana"],
+      "location": "South Louisiana",
+      "featuredContent": [
+        { "title": "Classic Cajun Recipes", "url": "https://louisianawomanblog.com" }
+      ],
+      "socials": {
+        "website": { "url": "https://louisianawomanblog.com", "followers": 0 }
+      }
+    },
+    {
+      "slug": "farm-to-fire-la-creator",
+      "name": "Farm To Fire Louisiana (Creator/Influencer)",
+      "bio": "Farm To Fire Louisiana is both a seasoning brand and a digital creator community from Franklinton, LA, built around the ethos of Gather, Harvest, Connect. With 110,000+ Facebook followers and a growing Instagram presence, they share outdoor cooking content, hunt-and-cook videos, and Louisiana food culture — centered on their award-winning BOUX-YAH seasoning.",
+      "specialty": "Outdoor Cooking, Hunt-and-Cook, Louisiana Seasoning Culture",
+      "specialtyTags": ["outdoor-cooking", "hunt-fish-cook", "louisiana-seasoning", "gather-harvest", "franklinton"],
+      "location": "Franklinton, Louisiana",
+      "featuredContent": [
+        { "title": "BOUX-YAH Seasoning Content", "url": "https://farmtofirelouisiana.com" },
+        { "title": "Farm To Fire Facebook", "url": "https://www.facebook.com/p/Farm-To-Fire-Louisiana-61552933463443/" }
+      ],
+      "socials": {
+        "facebook": { "url": "https://www.facebook.com/p/Farm-To-Fire-Louisiana-61552933463443/", "followers": 110000 },
+        "instagram": { "url": "https://www.instagram.com/farm_to_fire_louisiana/", "followers": 10000 },
+        "website": { "url": "https://farmtofirelouisiana.com", "followers": 0 }
+      }
+    }
+  ],
+  "communityGroups": [
+    {
+      "slug": "festivals-acadiens-et-creoles",
+      "name": "Festivals Acadiens et Créoles",
+      "description": "The world's largest Cajun and Creole festival, held annually in October at Girard Park in Lafayette. A cooperative of independent festivals that began in 1977, featuring three days of music, food, crafts, and cultural workshops celebrating Cajun and Creole heritage. Started in 1974 as a way to honor Acadiana's culture and traditional music.",
+      "type": "festival",
+      "location": "Lafayette, LA (Girard Park)",
+      "url": "https://festivalsacadiens.com",
+      "memberCount": 0,
+      "tags": ["cajun-music", "creole-culture", "festival", "annual", "october", "girard-park"]
+    },
+    {
+      "slug": "breaux-bridge-crawfish-festival",
+      "name": "Breaux Bridge Crawfish Festival",
+      "description": "World-famous festival celebrating the crawfish industry in Breaux Bridge, the Crawfish Capital of the World (designated by Louisiana Legislature in 1959). Running since 1960 with live music, crawfish eating contests, and family entertainment every first weekend of May. Organized by the Breaux Bridge Crawfish Festival Association, a volunteer nonprofit.",
+      "type": "festival",
+      "location": "Breaux Bridge, LA",
+      "url": "https://bbcrawfest.com",
+      "memberCount": 0,
+      "tags": ["crawfish", "festival", "breaux-bridge", "crawfish-capital", "annual", "may"]
+    },
+    {
+      "slug": "scott-boudin-festival",
+      "name": "Scott Boudin Festival",
+      "description": "Annual three-day festival celebrating boudin in Scott, LA — the Boudin Capital of the World. Organized by the Scott Boudin Festival Association, Inc., the event features local vendors serving various boudin styles, live Cajun/country/rock music, dancing, and family activities. Held each April, drawing tens of thousands of boudin enthusiasts.",
+      "type": "festival",
+      "location": "Scott, LA",
+      "url": "https://scottboudinfestival.com",
+      "memberCount": 0,
+      "tags": ["boudin", "festival", "scott-la", "boudin-capital", "annual", "april"]
+    },
+    {
+      "slug": "codofil",
+      "name": "CODOFIL – Council for the Development of French in Louisiana",
+      "description": "Louisiana's official state Agency of Francophone Affairs, CODOFIL advances the French language through education, tourism, economic development, cultural preservation, and international relations. They lead French immersion programs, community engagement, and cultural initiatives to keep Louisiana French alive as a living heritage language.",
+      "type": "organization",
+      "location": "Lafayette, LA (statewide)",
+      "url": "https://codofil.org",
+      "memberCount": 0,
+      "tags": ["french-language", "cajun-french", "state-agency", "cultural-preservation", "education"]
+    },
+    {
+      "slug": "cajun-french-music-association",
+      "name": "Cajun French Music Association (CFMA)",
+      "description": "A nonprofit organization dedicated to the promotion and preservation of Cajun music, language, and culture, with chapters in Lafayette, Lake Charles, Baton Rouge, and beyond. The CFMA operates the Cajun French Music Hall of Fame & Museum in Eunice, hosts concerts and dances, and connects generations of Cajun musicians. Free admission to the museum.",
+      "type": "organization",
+      "location": "Lafayette, LA (multiple chapters statewide)",
+      "url": "https://www.cfmalakecharles.com",
+      "memberCount": 0,
+      "tags": ["cajun-music", "preservation", "hall-of-fame", "nonprofit", "music-community"]
+    },
+    {
+      "slug": "foodies-of-lafayette-group",
+      "name": "Foodies of Lafayette (Facebook Group)",
+      "description": "Started in December 2019 by Heidi McDonald as a small Facebook group to discover hidden-gem local eateries, Foodies of Lafayette has exploded to 100,000+ members who share restaurant reviews, recipes, food photos, and Cajun food culture across Acadiana. They also host the Culinary Excellence Awards and the Lafayette Community Fridge program.",
+      "type": "facebook-group",
+      "location": "Lafayette, LA",
+      "url": "https://foodiesoflafayette.com",
+      "memberCount": 100000,
+      "tags": ["food-community", "lafayette", "restaurant-discovery", "cajun-food", "100k-members"]
+    },
+    {
+      "slug": "r-acadiana-reddit",
+      "name": "r/Acadiana (Reddit Community)",
+      "description": "An active Reddit community for posts about the Acadiana region of Louisiana, covering local food recommendations, festivals, culture, news, and life in Cajun Country. A great resource for both locals and visitors seeking authentic perspectives on the best Cajun food, restaurants, and experiences in the area.",
+      "type": "club",
+      "location": "Acadiana, Louisiana",
+      "url": "https://www.reddit.com/r/Acadiana/",
+      "memberCount": 15000,
+      "tags": ["reddit", "community", "cajun-food", "acadiana", "local-recommendations"]
+    },
+    {
+      "slug": "acadiana-eats-festival",
+      "name": "Acadiana Eats Festival",
+      "description": "A growing food festival organized by Social Entertainment that provides unmatched exposure for local restaurants, food trucks, bakers, specialty food makers, and artisan brands. Aimed at celebrating Acadiana's diverse food scene, the festival offers high-energy crowds and a platform for the region's culinary talent.",
+      "type": "festival",
+      "location": "Lafayette/Acadiana, LA",
+      "url": "https://www.socialentertainment.net/acadianaeatsfestival",
+      "memberCount": 0,
+      "tags": ["food-festival", "acadiana", "restaurants", "food-trucks", "artisan-food"]
+    },
+    {
+      "slug": "jean-lafitte-acadian-cultural-center",
+      "name": "Jean Lafitte National Historical Park – Acadian Cultural Center",
+      "description": "A National Park Service facility in Lafayette telling the stories of Acadian (Cajun) origins, migration, settlement, and contemporary culture through ranger programs, films, and exhibits. Part of the Jean Lafitte National Historical Park & Preserve, the center offers free programming and is a vital educational hub for understanding Cajun heritage.",
+      "type": "organization",
+      "location": "Lafayette, LA",
+      "url": "https://www.nps.gov/jela/planyourvisit/new-acadian-cultural-center.htm",
+      "memberCount": 0,
+      "tags": ["national-park", "acadian-heritage", "cajun-culture", "free", "educational", "museum"]
+    },
+    {
+      "slug": "vermilionville-cultural-org",
+      "name": "Vermilionville Living History Museum",
+      "description": "Both a cultural attraction and community organization, Vermilionville preserves Cajun, Creole, and Native American cultures along Bayou Vermilion. They host regular cultural programming, live Cajun music on weekends, cooking demonstrations, and traditional craft workshops throughout the year.",
+      "type": "organization",
+      "location": "Lafayette, LA",
+      "url": "https://bayouvermiliondistrict.org",
+      "memberCount": 0,
+      "tags": ["living-history", "cajun-culture", "creole-culture", "museum", "cultural-events"]
+    },
+    {
+      "slug": "cfma-baton-rouge",
+      "name": "Cajun French Music Association – Baton Rouge Chapter",
+      "description": "The Baton Rouge chapter of the CFMA promotes and preserves Cajun French language and culture through music, food, and traditions in the Greater Baton Rouge area. They host monthly dances, festivals, and events that keep Cajun music traditions alive outside of Acadiana.",
+      "type": "organization",
+      "location": "Baton Rouge, LA",
+      "url": "https://batonrougecajundance.com",
+      "memberCount": 0,
+      "tags": ["cajun-music", "cajun-dance", "preservation", "baton-rouge", "nonprofit"]
+    },
+    {
+      "slug": "realcajunrecipes-community",
+      "name": "Real Cajun Recipes (RealCajunRecipes.com)",
+      "description": "An online community and recipe resource dedicated to authentic Cajun cooking traditions. Featuring recipes for jambalaya, boudin, crawfish boils, gumbo, and more, with content rooted in the real cooking traditions of South Louisiana families.",
+      "type": "club",
+      "location": "South Louisiana (online)",
+      "url": "https://www.realcajunrecipes.com",
+      "memberCount": 0,
+      "tags": ["cajun-recipes", "online-community", "cooking", "food-culture"]
+    },
+    {
+      "slug": "discover-lafayette-community",
+      "name": "Discover Lafayette (discoverlafayette.net)",
+      "description": "Discover Lafayette is a multi-platform media community sharing stories of Lafayette businesses, culture, food, and community through their podcast, website, and social media. They've interviewed hundreds of local business owners, chefs, artists, and cultural figures, serving as a comprehensive archive of Acadiana's living history.",
+      "type": "club",
+      "location": "Lafayette, LA",
+      "url": "https://discoverlafayette.net",
+      "memberCount": 0,
+      "tags": ["podcast", "community-media", "lafayette", "local-business", "cajun-culture"]
+    },
+    {
+      "slug": "breaux-bridge-community",
+      "name": "City of Breaux Bridge Official Community",
+      "description": "The city of Breaux Bridge, the 'Crawfish Capital of the World,' maintains an official community hub with event listings, business directory, and festival information including the legendary Breaux Bridge Crawfish Festival. A key node in the Cajun tourism network.",
+      "type": "organization",
+      "location": "Breaux Bridge, LA",
+      "url": "https://breauxbridgela.net",
+      "memberCount": 0,
+      "tags": ["crawfish-capital", "breaux-bridge", "festivals", "community", "tourism"]
+    },
+    {
+      "slug": "visit-lafayette-louisiana",
+      "name": "Lafayette Convention & Visitors Commission (lafayettetravel.com)",
+      "description": "The official tourism organization for Lafayette, Louisiana — the heart of Cajun & Creole Country. Lafayette Travel provides comprehensive guides to restaurants, festivals, events, music venues, cultural attractions, and accommodation, promoting Lafayette as 'the Happiest City in America' with a genuine Cajun experience.",
+      "type": "organization",
+      "location": "Lafayette, LA",
+      "url": "https://www.lafayettetravel.com",
+      "memberCount": 0,
+      "tags": ["tourism", "lafayette", "cajun-country", "official", "travel-guide", "festivals"]
+    }
+  ],
+  "newCategories": [
+    "Boudin & Cracklins",
+    "Hot Sauce & Condiments",
+    "Specialty Meats",
+    "Seafood Markets",
+    "Cajun Markets",
+    "Bakeries & Sweets",
+    "Cajun Culture & Tourism",
+    "Craft Beverages",
+    "Online Cajun Stores",
+    "Cajun Media & Publications"
+  ]
+}
