@@ -14,7 +14,14 @@ import type { WhatsNewItem } from "@/types";
 export default function Home() {
   const [whatsNewItems, setWhatsNewItems] = useState<WhatsNewItem[]>([]);
 
-  const featuredPlaces = useMemo(() => places.filter((p) => p.featured).slice(0, 5), []);
+  const featuredPlaces = useMemo(() => {
+    const seen = new Set<string>();
+    return places.filter((p) => {
+      if (!p.featured || seen.has(p.name)) return false;
+      seen.add(p.name);
+      return true;
+    }).slice(0, 5);
+  }, []);
   const weekendEvents = events.slice(0, 3);
   const aiPicks = places.slice(2, 10);
   const featuredRecipe = recipes[0];
@@ -113,10 +120,10 @@ export default function Home() {
           </div>
           <Link href="/explore" className="gf-link text-sm text-[var(--cast-iron)]">See all spots</Link>
         </div>
-        <div className="grid gap-6 lg:grid-cols-[1.4fr_1fr]">
+        <div className="grid gap-6 lg:grid-cols-[1.3fr_1fr]">
           {featuredPlaces[0] ? <PlaceCard place={featuredPlaces[0]} featured /> : null}
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-1">
-            {featuredPlaces.slice(1).map((place) => (
+          <div className="grid grid-cols-2 gap-4">
+            {featuredPlaces.slice(1, 5).map((place) => (
               <PlaceCard key={place.slug} place={place} compact />
             ))}
           </div>
