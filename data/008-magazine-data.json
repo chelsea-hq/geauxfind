@@ -1,0 +1,517 @@
+{
+  "source": "008 Magazine / The Independent",
+  "sourceUrls": {
+    "008Magazine": "https://008magazine.com",
+    "TheIndependent": "https://theind.com"
+  },
+  "lastUpdated": "2026-03-25",
+  "notes": "Data compiled from web research on 008 Magazine (008magazine.com) — Acadiana's #1 Lifestyle Publication covering travel, events, football, nightlife — and The Independent (theind.com), the alt-weekly covering local news, arts, and culture. Both cover Lafayette/Acadiana. 008 Magazine has 300+ distribution points, 30,000 copies per issue, published every 6 weeks. The Independent covers news, arts, dining, and community events.",
+  "festivals": [
+    {
+      "name": "Festival International de Louisiane",
+      "description": "One of the largest free outdoor international music and arts festivals in the US, celebrating Francophone culture with music, dance, visual arts, food, and crafts. Over 100,000 attendees annually.",
+      "location": "Downtown Lafayette, Louisiana",
+      "season": "Spring",
+      "dates": "Late April (typically last full weekend of April, Wednesday–Sunday)",
+      "website": "https://www.festivalinternational.org",
+      "tags": ["music", "international", "francophone", "free", "outdoor", "arts", "food", "downtown lafayette", "annual", "flagship"]
+    },
+    {
+      "name": "Festivals Acadiens et Créoles",
+      "description": "Celebration of Cajun and Creole music, food, and crafts. One of the premier Cajun music festivals in the world, held in Girard Park.",
+      "location": "Girard Park, Lafayette, Louisiana",
+      "season": "Fall",
+      "dates": "Second weekend of October",
+      "website": "https://www.festivalsacadiens.com",
+      "tags": ["cajun", "creole", "music", "food", "crafts", "free", "outdoor", "cultural", "annual"]
+    },
+    {
+      "name": "Downtown Alive!",
+      "description": "Free outdoor concert series in the heart of downtown Lafayette featuring local and regional musicians, food vendors, and a lively street party atmosphere. A beloved Friday evening tradition.",
+      "location": "Parc Sans Souci / Downtown Lafayette",
+      "season": "Spring and Fall",
+      "dates": "Friday evenings, Spring (March–May) and Fall (September–November) seasons",
+      "website": "https://www.downtownlafayette.org",
+      "tags": ["music", "free", "outdoor", "friday", "weekly", "local music", "food vendors", "downtown lafayette", "recurring"]
+    },
+    {
+      "name": "Breaux Bridge Crawfish Festival",
+      "description": "Annual festival celebrating the crawfish capital of the world, featuring Cajun music, dancing, crawfish eating contests, and authentic Louisiana cuisine.",
+      "location": "Breaux Bridge, Louisiana",
+      "season": "Spring",
+      "dates": "First weekend of May",
+      "website": "https://www.bbcrawfest.com",
+      "tags": ["crawfish", "cajun", "music", "food", "family", "annual", "breaux bridge", "cultural"]
+    },
+    {
+      "name": "Boudin Festival / World Championship Boudin Cook-Off",
+      "description": "Festival celebrating boudin, the iconic Cajun sausage, with cook-offs, tastings, live music, and family activities. Part of the Scott Boudin Festival.",
+      "location": "Scott, Louisiana",
+      "season": "Spring",
+      "dates": "Last weekend of March / Early April",
+      "website": "https://www.scottboudinfestival.com",
+      "tags": ["boudin", "food", "cajun", "cook-off", "music", "family", "scott", "annual"]
+    },
+    {
+      "name": "Courir de Mardi Gras",
+      "description": "Traditional Cajun Mardi Gras run through the countryside, where masked and costumed riders on horseback travel from farm to farm begging for ingredients to make a communal gumbo. Authentic rural Cajun tradition.",
+      "location": "Eunice, Church Point, Mamou, and surrounding areas",
+      "season": "Winter",
+      "dates": "Mardi Gras day (Fat Tuesday, February or early March)",
+      "website": "https://www.eunice-la.com",
+      "tags": ["mardi gras", "cajun", "traditional", "rural", "courir", "cultural", "eunice", "church point", "mamou", "annual"]
+    },
+    {
+      "name": "Mardi Gras Lafayette",
+      "description": "Lafayette's Mardi Gras celebration featuring parades, krewe balls, street parties, and family events throughout the city.",
+      "location": "Lafayette, Louisiana",
+      "season": "Winter",
+      "dates": "February (2–3 weeks before Fat Tuesday)",
+      "website": "https://www.lafayettetravel.com/mardi-gras",
+      "tags": ["mardi gras", "parade", "music", "family", "annual", "lafayette"]
+    },
+    {
+      "name": "Rhythms on the River",
+      "description": "Live music festival along the Vermilion River corridor in downtown Lafayette, celebrating local and regional artists with food and arts vendors.",
+      "location": "Vermilionville / Riverside area, Lafayette",
+      "season": "Fall",
+      "dates": "October (varies by year)",
+      "website": "https://www.lafayettetravel.com",
+      "tags": ["music", "river", "arts", "food", "outdoor", "lafayette", "annual"]
+    },
+    {
+      "name": "Festival de Musique Acadienne",
+      "description": "Part of Festivals Acadiens et Créoles weekend, dedicated specifically to Cajun music on multiple stages.",
+      "location": "Girard Park, Lafayette, Louisiana",
+      "season": "Fall",
+      "dates": "Second weekend of October (same as Festivals Acadiens)",
+      "website": "https://www.festivalsacadiens.com",
+      "tags": ["cajun", "music", "acadien", "free", "outdoor", "annual"]
+    },
+    {
+      "name": "Rayne Frog Festival",
+      "description": "Annual festival in the Frog Capital of the World celebrating with frog racing, live Cajun music, food, and family fun.",
+      "location": "Rayne, Louisiana",
+      "season": "Spring/Summer",
+      "dates": "May or June (varies)",
+      "website": "https://www.raynefrogfestival.com",
+      "tags": ["family", "cajun", "food", "music", "quirky", "annual", "rayne"]
+    },
+    {
+      "name": "Opelousas Spice & Music Festival",
+      "description": "Celebrating the cultural heritage of Opelousas and Zydeco music, the genre's hometown.",
+      "location": "Opelousas, Louisiana",
+      "season": "Fall",
+      "dates": "October (varies)",
+      "website": "",
+      "tags": ["zydeco", "music", "creole", "food", "opelousas", "annual"]
+    },
+    {
+      "name": "Zydeco Music Festival",
+      "description": "Annual festival celebrating Zydeco music in its birthplace with legendary performers and authentic Creole food.",
+      "location": "Opelousas / Plaisance, Louisiana",
+      "season": "Fall",
+      "dates": "September",
+      "website": "",
+      "tags": ["zydeco", "music", "creole", "cultural", "annual", "opelousas"]
+    },
+    {
+      "name": "New Iberia Sugar Cane Festival",
+      "description": "Celebrating the sugarcane harvest with a parade, queen coronation, carnival rides, live music, and traditional Louisiana food.",
+      "location": "New Iberia, Louisiana",
+      "season": "Fall",
+      "dates": "Last weekend of September",
+      "website": "https://www.sugarcanefestival.com",
+      "tags": ["sugarcane", "harvest", "parade", "family", "food", "music", "annual", "new iberia"]
+    },
+    {
+      "name": "Acadiana Food & Wine Festival",
+      "description": "Showcase of Louisiana's culinary scene featuring local chefs, restaurants, wineries, and craft beverage producers.",
+      "location": "Lafayette, Louisiana",
+      "season": "Spring",
+      "dates": "March–April (varies)",
+      "website": "",
+      "tags": ["food", "wine", "culinary", "local chefs", "lafayette", "annual"]
+    },
+    {
+      "name": "Carencro Pepper Festival",
+      "description": "Festival celebrating the hot pepper and Cajun spice culture with cook-offs, music, and local food.",
+      "location": "Carencro, Louisiana",
+      "season": "Summer",
+      "dates": "July (varies)",
+      "website": "",
+      "tags": ["food", "pepper", "cajun", "cook-off", "carencro", "annual"]
+    }
+  ],
+  "recurringEvents": [
+    {
+      "name": "Downtown Alive! Concert Series",
+      "description": "Free Friday evening outdoor concerts in downtown Lafayette. Features local and regional bands, food vendors, and a festive atmosphere. Lafayette's signature recurring music event.",
+      "location": "Parc Sans Souci, Downtown Lafayette",
+      "schedule": "Friday evenings, 5:30–8:30 PM, Spring (March–May) and Fall (September–November)",
+      "category": "Live Music",
+      "tags": ["free", "music", "outdoor", "friday", "downtown lafayette", "local bands", "food vendors"]
+    },
+    {
+      "name": "Acadiana Farmers Market",
+      "description": "Fresh local produce, meats, seafood, baked goods, plants, and artisan crafts from Acadiana farmers and makers.",
+      "location": "Moncus Park / various Lafayette locations",
+      "schedule": "Saturday mornings, year-round",
+      "category": "Farmers Market",
+      "tags": ["farmers market", "local food", "produce", "artisan", "saturday", "family", "outdoor"]
+    },
+    {
+      "name": "River Ranch Saturday Farmers Market",
+      "description": "Popular farmers market in the upscale River Ranch development featuring local vendors, food, and community gathering.",
+      "location": "River Ranch, Lafayette",
+      "schedule": "Saturday mornings",
+      "category": "Farmers Market",
+      "tags": ["farmers market", "river ranch", "saturday", "local food", "community"]
+    },
+    {
+      "name": "Third Thursday Art Walk",
+      "description": "Monthly art walk through downtown Lafayette's galleries, studios, and creative spaces with openings, receptions, and live demonstrations.",
+      "location": "Downtown Lafayette arts district",
+      "schedule": "Third Thursday of each month, evenings",
+      "category": "Art Walk",
+      "tags": ["art", "galleries", "monthly", "downtown lafayette", "evening", "cultural", "third thursday"]
+    },
+    {
+      "name": "Vermilionville Living History Museum Events",
+      "description": "Regular programming at the living history museum on the banks of the Vermilion River, including Cajun music jams, cooking demonstrations, and cultural events.",
+      "location": "Vermilionville, 300 Fisher Rd, Lafayette",
+      "schedule": "Weekly programming, check schedule",
+      "category": "Cultural / Living History",
+      "tags": ["cultural", "cajun", "history", "vermilionville", "music", "cooking", "family"]
+    },
+    {
+      "name": "Warehouse District Live Music",
+      "description": "Recurring live music nights at venues throughout Lafayette's Warehouse District including Blue Moon Saloon, Artmosphere, and others.",
+      "location": "Warehouse District, Downtown Lafayette",
+      "schedule": "Thursday–Saturday nights",
+      "category": "Live Music",
+      "tags": ["music", "bars", "warehouse district", "downtown lafayette", "nightlife", "cajun", "zydeco"]
+    },
+    {
+      "name": "Cajun Music Jam Sessions",
+      "description": "Informal weekly Cajun music jam sessions open to all skill levels at various venues across Acadiana, a beloved cultural tradition.",
+      "location": "Various venues: Randol's, Prejean's, Grant Street Dancehall, Lafayette",
+      "schedule": "Weekly (varies by venue)",
+      "category": "Live Music / Cultural",
+      "tags": ["cajun", "music", "jam", "weekly", "cultural", "dance", "local tradition"]
+    },
+    {
+      "name": "Food Truck Fridays",
+      "description": "Rotating food truck gathering featuring diverse local food trucks, live music, and family-friendly atmosphere.",
+      "location": "Various locations including Moncus Park and Oil Center area, Lafayette",
+      "schedule": "Friday evenings (varies by season)",
+      "category": "Food Trucks",
+      "tags": ["food trucks", "friday", "family", "outdoor", "live music", "community"]
+    },
+    {
+      "name": "Trivia Nights (Acadiana)",
+      "description": "Weekly trivia nights at various bars and restaurants across Lafayette and Acadiana, popular with locals.",
+      "location": "Various: Pamplona Tapas Bar, Tsunami, Walk-Ons, and others",
+      "schedule": "Various nights (Tuesday–Thursday most common)",
+      "category": "Bar Events / Trivia",
+      "tags": ["trivia", "bars", "weekly", "nightlife", "social", "lafayette"]
+    },
+    {
+      "name": "Sunday Zydeco Brunch",
+      "description": "Live Zydeco music during Sunday brunch at select Acadiana restaurants, a beloved local tradition.",
+      "location": "Various restaurants, Lafayette area",
+      "schedule": "Sunday mornings/afternoons",
+      "category": "Live Music / Brunch",
+      "tags": ["zydeco", "brunch", "sunday", "music", "cajun", "cultural", "family"]
+    },
+    {
+      "name": "Moncus Park Events",
+      "description": "Regular programming at Moncus Park including yoga in the park, dog events, movie nights, and community gatherings.",
+      "location": "Moncus Park, Johnston Street, Lafayette",
+      "schedule": "Various, year-round",
+      "category": "Community Events",
+      "tags": ["park", "family", "outdoor", "community", "moncus park", "fitness", "movies"]
+    },
+    {
+      "name": "Oil Center Arts & Gallery Events",
+      "description": "Monthly gallery openings and art events in the Oil Center district, home to several independent galleries and studios.",
+      "location": "Oil Center, Lafayette",
+      "schedule": "Monthly, varies",
+      "category": "Art / Gallery",
+      "tags": ["art", "galleries", "oil center", "monthly", "cultural", "lafayette"]
+    },
+    {
+      "name": "Blue Moon Saloon Concerts",
+      "description": "Intimate live music venue hosting Cajun, Zydeco, blues, Americana, and roots music. One of Lafayette's most beloved music venues.",
+      "location": "Blue Moon Saloon, 215 E Convent St, Lafayette",
+      "schedule": "Thursday–Saturday nights",
+      "category": "Live Music",
+      "tags": ["music", "cajun", "zydeco", "blues", "venue", "intimate", "downtown lafayette", "weekly"]
+    }
+  ],
+  "featuredBusinesses": [
+    {
+      "name": "Blue Moon Saloon",
+      "description": "Legendary Lafayette music venue and guest house featuring live Cajun, Zydeco, and roots music. A must-visit for authentic Acadiana culture.",
+      "category": "Music Venue / Bar",
+      "area": "Downtown Lafayette",
+      "address": "215 E Convent St, Lafayette, LA 70501",
+      "website": "https://www.bluemoonpresents.com",
+      "tags": ["music venue", "cajun", "zydeco", "bar", "live music", "iconic", "downtown lafayette"]
+    },
+    {
+      "name": "Prejean's Restaurant",
+      "description": "Classic Lafayette restaurant serving authentic Cajun cuisine in a setting featuring live Cajun music, dancing, and a mounted alligator. A Lafayette institution since 1980.",
+      "category": "Restaurant / Cajun",
+      "area": "North Lafayette",
+      "address": "3480 US-167, Lafayette, LA 70507",
+      "website": "https://www.prejeans.com",
+      "tags": ["restaurant", "cajun", "live music", "dancing", "institution", "seafood", "family"]
+    },
+    {
+      "name": "Randol's Seafood & Restaurant",
+      "description": "Beloved Lafayette restaurant and Cajun dance hall serving fresh seafood, crawfish, and authentic Cajun plates with live Cajun music and dancing nightly.",
+      "category": "Restaurant / Dance Hall",
+      "area": "Lafayette",
+      "address": "2320 Kaliste Saloom Rd, Lafayette, LA 70508",
+      "website": "https://www.randols.com",
+      "tags": ["restaurant", "cajun", "seafood", "dance hall", "live music", "crawfish", "institution"]
+    },
+    {
+      "name": "Artmosphere Bistro",
+      "description": "Eclectic bistro in downtown Lafayette blending art, live music, and creative cuisine. Gallery walls rotate local artists; hosts regular live performances.",
+      "category": "Restaurant / Bar / Gallery",
+      "area": "Downtown Lafayette",
+      "address": "902 Johnston St, Lafayette, LA 70501",
+      "website": "https://www.artmospherebistro.com",
+      "tags": ["restaurant", "art", "gallery", "live music", "bar", "eclectic", "downtown lafayette", "local artists"]
+    },
+    {
+      "name": "Pamplona Tapas Bar",
+      "description": "Spanish-inspired tapas bar in downtown Lafayette known for creative cocktails, extensive wine list, trivia nights, and lively atmosphere.",
+      "category": "Bar / Tapas Restaurant",
+      "area": "Downtown Lafayette",
+      "address": "631 Jefferson St, Lafayette, LA 70501",
+      "website": "",
+      "tags": ["bar", "tapas", "wine", "cocktails", "trivia", "downtown lafayette", "social"]
+    },
+    {
+      "name": "Grant Street Dancehall",
+      "description": "Historic Lafayette concert venue and dancehall hosting national touring acts, local bands, Cajun and Zydeco music nights.",
+      "category": "Music Venue",
+      "area": "Downtown Lafayette",
+      "address": "113 W Grant St, Lafayette, LA 70501",
+      "website": "https://www.grantstreetdancehall.com",
+      "tags": ["music venue", "dancehall", "cajun", "zydeco", "concerts", "historic", "downtown lafayette"]
+    },
+    {
+      "name": "The Filling Station",
+      "description": "Popular Lafayette bar and live music venue known for local acts, craft beers, and a laid-back Acadiana atmosphere.",
+      "category": "Bar / Music Venue",
+      "area": "Lafayette",
+      "address": "110 Vermilion St, Lafayette, LA",
+      "website": "",
+      "tags": ["bar", "live music", "craft beer", "local", "lafayette"]
+    },
+    {
+      "name": "Tsunami Sushi",
+      "description": "Lafayette staple for sushi and Asian fusion, known for creative rolls, lively bar scene, and regular events including trivia nights.",
+      "category": "Restaurant / Sushi",
+      "area": "Lafayette / River Ranch",
+      "address": "412 Jefferson St, Lafayette, LA",
+      "website": "https://www.tsunamisushi.com",
+      "tags": ["sushi", "restaurant", "bar", "asian fusion", "trivia", "lafayette"]
+    },
+    {
+      "name": "Café des Amis",
+      "description": "Iconic Breaux Bridge restaurant famous for its Saturday Zydeco breakfast with live music and dancing, Cajun and Creole cuisine.",
+      "category": "Restaurant / Cultural",
+      "area": "Breaux Bridge",
+      "address": "140 E Bridge St, Breaux Bridge, LA 70517",
+      "website": "https://www.cafedesamis.com",
+      "tags": ["restaurant", "cajun", "creole", "zydeco", "breakfast", "brunch", "iconic", "breaux bridge", "dancing"]
+    },
+    {
+      "name": "Vermilionville",
+      "description": "Living history museum and folklife park on the banks of the Vermilion River, showcasing Cajun, Creole, and Native American cultures through restored historic buildings, music, and crafts.",
+      "category": "Museum / Cultural Attraction",
+      "area": "Downtown Lafayette",
+      "address": "300 Fisher Rd, Lafayette, LA 70508",
+      "website": "https://www.vermilionville.org",
+      "tags": ["museum", "history", "cajun", "creole", "cultural", "family", "vermilion river", "living history"]
+    },
+    {
+      "name": "Acadiana Center for the Arts",
+      "description": "Primary arts center for the Acadiana region, hosting visual arts exhibitions, performing arts, education programs, and community events.",
+      "category": "Arts Center / Gallery",
+      "area": "Downtown Lafayette",
+      "address": "101 W Vermilion St, Lafayette, LA 70501",
+      "website": "https://www.acadianacenterforthearts.org",
+      "tags": ["arts", "gallery", "performing arts", "cultural", "education", "downtown lafayette", "exhibitions"]
+    },
+    {
+      "name": "Lafayette Science Museum",
+      "description": "Science and natural history museum with hands-on exhibits, planetarium, and educational programming for all ages.",
+      "category": "Museum",
+      "area": "Downtown Lafayette",
+      "address": "433 Jefferson St, Lafayette, LA 70501",
+      "website": "https://www.lafayettesciencemuseum.org",
+      "tags": ["museum", "science", "family", "education", "planetarium", "downtown lafayette"]
+    },
+    {
+      "name": "Mulate's Cajun Restaurant",
+      "description": "Casual Cajun restaurant and dancehall in Breaux Bridge, one of the original Cajun dancehalls still serving authentic food and live music.",
+      "category": "Restaurant / Dancehall",
+      "area": "Breaux Bridge",
+      "address": "325 Mills Ave, Breaux Bridge, LA",
+      "website": "https://www.mulates.com",
+      "tags": ["restaurant", "cajun", "dancehall", "live music", "breaux bridge", "authentic", "institution"]
+    },
+    {
+      "name": "Borden's Ice Cream",
+      "description": "Lafayette's beloved ice cream shop, a family institution serving scoops since 1940. A nostalgic local landmark.",
+      "category": "Ice Cream / Dessert",
+      "area": "Lafayette",
+      "address": "1103 Jefferson Blvd, Lafayette, LA 70506",
+      "website": "",
+      "tags": ["ice cream", "dessert", "family", "local institution", "nostalgic", "lafayette"]
+    },
+    {
+      "name": "Johnson's Boucanière",
+      "description": "Old-school Cajun smokehouse and deli serving boudin, smoked meats, and andouille. A Lafayette favorite for authentic Cajun charcuterie.",
+      "category": "Restaurant / Butcher",
+      "area": "Lafayette",
+      "address": "111 St John St, Lafayette, LA 70506",
+      "website": "",
+      "tags": ["boudin", "smoked meats", "cajun", "deli", "andouille", "local", "lafayette", "authentic"]
+    },
+    {
+      "name": "The Independent (theind.com / 008 Magazine)",
+      "description": "Acadiana's alternative weekly newspaper covering local news, arts, culture, food, music, and community events. Essential guide to Lafayette and Acadiana life.",
+      "category": "Media / Publication",
+      "area": "Lafayette",
+      "address": "1819 W Pinhook Rd, Lafayette, LA 70508",
+      "website": "https://www.theind.com",
+      "tags": ["media", "publication", "alt-weekly", "events", "arts", "culture", "food guide", "lafayette", "acadiana"]
+    },
+    {
+      "name": "Billy's Boudin & Cracklins",
+      "description": "Iconic Cajun butcher shop and deli known for some of the best boudin and cracklins in all of Acadiana. A must-stop for visitors and locals alike.",
+      "category": "Butcher / Deli / Cajun Food",
+      "area": "Scott / Opelousas area",
+      "address": "Scott, LA",
+      "website": "",
+      "tags": ["boudin", "cracklins", "cajun food", "butcher", "deli", "local institution", "acadiana", "top rated"]
+    },
+    {
+      "name": "Rêve Coffee Lab",
+      "description": "Specialty coffee roaster and café in downtown Lafayette known for high-quality single-origin coffees, pour-overs, and a creative atmosphere.",
+      "category": "Coffee Shop",
+      "area": "Downtown Lafayette",
+      "address": "200 Travis St, Lafayette, LA 70503",
+      "website": "https://www.revecoffee.com",
+      "tags": ["coffee", "specialty", "roaster", "cafe", "downtown lafayette", "local", "artisan"]
+    },
+    {
+      "name": "Social Southern Table & Bar",
+      "description": "Upscale casual restaurant in Lafayette featuring Southern-inspired cuisine, craft cocktails, and a vibrant social atmosphere.",
+      "category": "Restaurant / Bar",
+      "area": "Lafayette / Oil Center",
+      "address": "2024 W Pinhook Rd, Lafayette, LA",
+      "website": "https://www.sociallafayette.com",
+      "tags": ["restaurant", "bar", "southern", "cocktails", "upscale casual", "lafayette"]
+    },
+    {
+      "name": "The Feed & Seed",
+      "description": "Eclectic bar and entertainment venue in Lafayette's Freetown neighborhood hosting live music, comedy, art shows, and community events.",
+      "category": "Bar / Venue",
+      "area": "Freetown, Lafayette",
+      "address": "Freetown, Lafayette, LA",
+      "website": "",
+      "tags": ["bar", "live music", "comedy", "art", "freetown", "community", "eclectic", "lafayette"]
+    },
+    {
+      "name": "Deuxième Mardi Gras Krewe Events",
+      "description": "Various Mardi Gras krewe events, balls, and parades throughout Lafayette's Mardi Gras season.",
+      "category": "Event / Cultural",
+      "area": "Lafayette",
+      "address": "Various locations",
+      "website": "",
+      "tags": ["mardi gras", "krewe", "parade", "ball", "cultural", "seasonal", "lafayette"]
+    }
+  ],
+  "neighborhoods": [
+    {
+      "name": "Downtown Lafayette",
+      "description": "The vibrant cultural and entertainment heart of Lafayette, home to Parc Sans Souci, the Acadiana Center for the Arts, Lafayette Science Museum, boutique restaurants, bars, music venues, and the weekly Downtown Alive! concert series.",
+      "highlights": ["Parc Sans Souci", "Acadiana Center for the Arts", "Blue Moon Saloon", "Grant Street Dancehall", "Downtown Alive! concerts", "Lafayette Science Museum", "Artmosphere Bistro", "Rêve Coffee", "Third Thursday Art Walk", "Warehouse District", "Parc International"],
+      "tags": ["entertainment", "arts", "music", "dining", "culture", "walkable", "historic", "nightlife"]
+    },
+    {
+      "name": "Freetown",
+      "description": "One of Lafayette's historically African American neighborhoods, now an emerging arts and culture district with deep roots in Zydeco music, soul food, and community heritage. Home to creative spaces and local venues.",
+      "highlights": ["Historic Zydeco venues", "Community arts spaces", "Soul food restaurants", "Local music scene", "Cultural heritage sites"],
+      "tags": ["historic", "african american heritage", "zydeco", "arts", "culture", "community", "emerging", "music"]
+    },
+    {
+      "name": "Oil Center",
+      "description": "Lafayette's first planned commercial district, developed during the oil boom era. Now home to upscale restaurants, professional offices, boutique shops, galleries, and a mature tree-lined ambiance.",
+      "highlights": ["Upscale dining", "Art galleries", "Boutique shops", "Professional offices", "Mature landscaping", "Social Southern Table"],
+      "tags": ["upscale", "dining", "galleries", "shopping", "professional", "oil center", "historic commercial"]
+    },
+    {
+      "name": "River Ranch",
+      "description": "Planned upscale residential and retail community along the Vermilion River with luxury townhomes, fine dining, boutique shops, a popular farmers market, and scenic waterfront.",
+      "highlights": ["Waterfront dining", "Saturday Farmers Market", "Boutique shopping", "Tsunami Sushi", "Luxury residential", "Scenic river views", "Urban walkability"],
+      "tags": ["upscale", "waterfront", "dining", "shopping", "farmers market", "residential", "vermilion river"]
+    },
+    {
+      "name": "Johnston Street Corridor",
+      "description": "Lafayette's major commercial corridor stretching from downtown toward the university area, lined with restaurants, shops, entertainment venues, and Moncus Park.",
+      "highlights": ["Moncus Park", "Diverse dining options", "Local shops", "Artmosphere", "Entertainment", "UL Lafayette proximity"],
+      "tags": ["commercial", "dining", "entertainment", "parks", "university area", "corridor"]
+    },
+    {
+      "name": "Breaux Bridge",
+      "description": "Small town on the Bayou Teche just east of Lafayette, known as the Crawfish Capital of the World. Famous for Café des Amis Zydeco breakfast, Mulate's dancehall, antique shops, and the annual Crawfish Festival.",
+      "highlights": ["Café des Amis", "Mulate's", "Breaux Bridge Crawfish Festival", "Bayou Teche", "Antique shops", "Historic downtown", "Crawfish Capital of the World"],
+      "tags": ["cajun", "crawfish", "zydeco", "bayou", "small town", "historic", "antiques", "dining", "festivals"]
+    },
+    {
+      "name": "Scott",
+      "description": "Town just west of Lafayette known as a hub for authentic boudin and Cajun cuisine, home to the annual Scott Boudin Festival and numerous boudin shops.",
+      "highlights": ["Scott Boudin Festival", "Multiple boudin shops", "Don's Specialty Meats", "Authentic Cajun food", "Small town charm"],
+      "tags": ["boudin", "cajun food", "small town", "festivals", "authentic", "food hub"]
+    },
+    {
+      "name": "Youngsville",
+      "description": "Rapidly growing suburban city south of Lafayette, known for family-friendly neighborhoods, Sugar Mill Pond development, new restaurants, and outdoor recreation.",
+      "highlights": ["Sugar Mill Pond", "Family neighborhoods", "New dining options", "Outdoor recreation", "Fast growth", "Suburban amenities"],
+      "tags": ["suburban", "family", "growing", "outdoor", "sugar mill pond", "new development", "south lafayette"]
+    },
+    {
+      "name": "Broussard",
+      "description": "Growing community south of Lafayette with a mix of residential neighborhoods, local restaurants, and community events. Home to a strong Cajun community.",
+      "highlights": ["Local restaurants", "Community events", "Cajun culture", "Growing residential area", "Proximity to Lafayette"],
+      "tags": ["suburban", "cajun", "community", "residential", "growing", "south lafayette"]
+    },
+    {
+      "name": "Eunice",
+      "description": "Prairie Cajun town in St. Landry Parish known as a center for Cajun music and Courir de Mardi Gras. Home to the Cajun Music Hall of Fame, Liberty Theater, and authentic rural Cajun culture.",
+      "highlights": ["Liberty Theater Saturday broadcasts", "Cajun Music Hall of Fame", "Courir de Mardi Gras", "Prairie Cajun culture", "Eunice Depot Museum", "Authentic rural Cajun heritage"],
+      "tags": ["cajun", "music", "mardi gras", "cultural heritage", "rural", "prairie cajun", "historic", "liberty theater"]
+    },
+    {
+      "name": "Opelousas",
+      "description": "Parish seat of St. Landry Parish, considered the Zydeco music capital of the world and birthplace of the genre. Rich in African American Creole culture, music history, and antebellum architecture.",
+      "highlights": ["Zydeco birthplace", "Jim Bowie Museum", "Antebellum architecture", "Zydeco music clubs", "Creole cuisine", "Historic downtown", "Slim's Y-Ki-Ki Club"],
+      "tags": ["zydeco", "creole", "african american heritage", "music history", "historic", "antebellum", "cultural capital"]
+    },
+    {
+      "name": "St. Martinville",
+      "description": "Historic town on the Bayou Teche, deeply tied to Cajun and Acadian heritage. Home of the Evangeline Oak, the Longfellow-Evangeline State Historic Site, and a beautifully preserved historic downtown.",
+      "highlights": ["Evangeline Oak", "Longfellow-Evangeline State Historic Site", "Bayou Teche", "Historic St. Martin de Tours Church", "Petit Paris Museum", "Acadian heritage", "Scenic waterfront"],
+      "tags": ["historic", "acadian", "cajun", "bayou", "heritage", "evangeline", "cultural", "scenic", "st. martinville"]
+    }
+  ]
+}

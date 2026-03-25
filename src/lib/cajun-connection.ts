@@ -6,6 +6,16 @@ export const cajunCategories = [
   "Specialty Ingredients",
   "Local Products",
   "Restaurants/Food Vendors",
+  "Boudin & Cracklins",
+  "Hot Sauce & Condiments",
+  "Specialty Meats",
+  "Seafood Markets",
+  "Cajun Markets",
+  "Bakeries & Sweets",
+  "Cajun Culture & Tourism",
+  "Craft Beverages",
+  "Online Cajun Stores",
+  "Cajun Media & Publications",
 ] as const;
 
 export type CajunCategory = (typeof cajunCategories)[number];
