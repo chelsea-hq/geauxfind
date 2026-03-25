@@ -1,0 +1,32 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1F2937"/>
+      <stop offset="0.5" stop-color="#0F766E"/>
+      <stop offset="1" stop-color="#A16207"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 360) rotate(90) scale(340 520)">
+      <stop stop-color="#FDE68A" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#FDE68A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <rect width="1200" height="800" fill="url(#glow)"/>
+
+  <g opacity="0.2" stroke="#F8FAFC" stroke-width="2">
+    <path d="M0 640H1200"/>
+    <path d="M0 520H1200"/>
+    <path d="M0 700H1200"/>
+  </g>
+
+  <g transform="translate(600 355)">
+    <path d="M0 -165L26 -66L124 -40L47 18L62 118L0 62L-62 118L-47 18L-124 -40L-26 -66L0 -165Z" fill="#FDE68A"/>
+    <path d="M0 -138L18 -71L84 -48L33 2L43 71L0 33L-43 71L-33 2L-84 -48L-18 -71L0 -138Z" fill="#F59E0B"/>
+  </g>
+
+  <g fill="#E5E7EB" font-family="Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif" text-anchor="middle">
+    <text x="600" y="610" font-size="44" font-weight="700">GeauxFind</text>
+    <text x="600" y="652" font-size="30" opacity="0.9">Acadiana spot photo coming soon</text>
+  </g>
+</svg>
