@@ -58,6 +58,69 @@
         { "placeName": "Keller's Bakery", "slug": "keller-s-bakery", "badge": "👑 Crowd Favorite", "caseFor": "Classic style done right with pillowy dough and clean cinnamon flavor.", "rating": 4.7 },
         { "placeName": "Aunt Angie's Cakery", "slug": "aunt-angie-s-cakery-new-iberia", "badge": "🆕 Rising Star", "caseFor": "Creative spins and fun fillings that still respect tradition.", "rating": 4.2 }
       ]
+    },
+    {
+      "item": "Chicken Salad",
+      "type": "deli",
+      "description": "Creamy vs chunky, grape or no grape — this gets surprisingly competitive.",
+      "contenders": [
+        { "placeName": "Poupart Bakery", "slug": "poupart-bakery", "badge": "👑 Crowd Favorite", "caseFor": "Fresh, balanced, and perfect on flaky croissants.", "rating": 4.5 },
+        { "placeName": "Rouse's Market", "slug": "rouses-market", "badge": "⚔️ Split Verdict", "caseFor": "Dependable and crowd-pleasing for quick lunch runs.", "rating": 4.2 }
+      ]
+    },
+    {
+      "item": "Beef Jerky",
+      "type": "snack",
+      "description": "Peppered strips and smoky chew — glovebox essentials for every road trip.",
+      "contenders": [
+        { "placeName": "Kartchner's Specialty Meats", "slug": "kartchner-s-specialty-meats", "badge": "🏆 Luna's Pick", "caseFor": "Robust seasoning and serious smoke depth.", "rating": 4.6 },
+        { "placeName": "Don's Specialty Meats", "slug": "dons-specialty-meats", "badge": "👑 Crowd Favorite", "caseFor": "Classic texture with just enough heat.", "rating": 4.6 }
+      ]
+    },
+    {
+      "item": "Fresh Sausage",
+      "type": "sausage",
+      "description": "From backyard pits to game day grills, this is the hero link.",
+      "contenders": [
+        { "placeName": "Best Stop Supermarket", "slug": "best-stop-supermarket", "badge": "👑 Crowd Favorite", "caseFor": "Excellent snap and seasoning that holds up on the grill.", "rating": 4.8 },
+        { "placeName": "Billy's Boudin & Cracklin", "slug": "billy-s-boudin-cracklin", "badge": "🌶️ Spicy Take", "caseFor": "A bolder blend for folks who want more kick.", "rating": 4.7 }
+      ]
+    },
+    {
+      "item": "Gumbo",
+      "type": "stew",
+      "description": "Dark roux loyalty runs deep — this debate can last all winter.",
+      "contenders": [
+        { "placeName": "Bon Temps Grill", "slug": "bon-temps-grill", "badge": "👑 Crowd Favorite", "caseFor": "Rich roux and deep Cajun flavor in every spoon.", "rating": 4.7 },
+        { "placeName": "Fezzo's Seafood, Steakhouse & Oyster Bar", "slug": "fezzo-s-seafood-steakhouse-oyster-bar", "badge": "🏆 Luna's Pick", "caseFor": "Hearty portions with a soulful, old-school finish.", "rating": 4.6 }
+      ]
+    },
+    {
+      "item": "Étouffée",
+      "type": "stew",
+      "description": "Silky gravy, rice ratio, and spice balance — judged hard by locals.",
+      "contenders": [
+        { "placeName": "Prejean's", "slug": "prejeans", "badge": "👑 Crowd Favorite", "caseFor": "Classic crawfish flavor and smooth texture that never misses.", "rating": 4.6 },
+        { "placeName": "Bon Temps Grill", "slug": "bon-temps-grill", "badge": "⚔️ Split Verdict", "caseFor": "Some call it the best in town, others prefer thicker gravy — so the argument lives on.", "rating": 4.7 }
+      ]
+    },
+    {
+      "item": "Fried Chicken",
+      "type": "comfort",
+      "description": "Crunch factor, juiciness, and seasoning in the crust — no room for mediocrity.",
+      "contenders": [
+        { "placeName": "Broaddus Burgers", "slug": "broaddus-burgers", "badge": "🌶️ Spicy Take", "caseFor": "Unexpected sleeper pick with serious crisp and flavor.", "rating": 4.3 },
+        { "placeName": "Raising Cane's", "slug": "raising-canes-lafayette", "badge": "⚔️ Split Verdict", "caseFor": "Beloved by many, questioned by purists — exactly the kind of debate fuel we need.", "rating": 4.0 }
+      ]
+    },
+    {
+      "item": "Plate Lunch",
+      "type": "comfort",
+      "description": "Rice, gravy, and two sides that hug your soul.",
+      "contenders": [
+        { "placeName": "Laura's II", "slug": "lauras-ii", "badge": "👑 Crowd Favorite", "caseFor": "Portions are huge and every tray feels like a Sunday kitchen special.", "rating": 4.5 },
+        { "placeName": "Olde Tyme Grocery", "slug": "olde-tyme-grocery", "badge": "🆕 Rising Star", "caseFor": "Reliable comfort classics and neighborhood charm.", "rating": 4.4 }
+      ]
     }
   ]
 }
