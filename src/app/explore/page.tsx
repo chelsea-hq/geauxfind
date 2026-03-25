@@ -2,24 +2,30 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Suspense, useMemo } from "react";
+import { Suspense, useMemo, useState } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { PlaceCard } from "@/components/cards/PlaceCard";
 import { FilterBar } from "@/components/FilterBar";
-import { Pagination } from "@/components/Pagination";
 import { SearchBar } from "@/components/SearchBar";
 import { VibeFilter, VibeKey, applyVibeFilter } from "@/components/VibeFilter";
 import { places } from "@/data/mock-data";
 
-const PAGE_SIZE = 24;
-const categoryMap = [["all", "All"],["food", "Food & Drink"],["music", "Music & Nightlife"],["events", "Events"],["finds", "Shopping"],["outdoors", "Outdoors"]] as const;
+const PAGE_SIZE = 12;
+const categoryMap = [
+  ["all", "✨ All"],
+  ["food", "🍽 Food & Drink"],
+  ["music", "🎵 Music & Nightlife"],
+  ["events", "🎪 Events"],
+  ["finds", "🛍 Shopping"],
+  ["outdoors", "🌿 Outdoors"],
+] as const;
 
 function ExploreContent() {
   const pathname = usePathname();
   const params = useSearchParams();
   const router = useRouter();
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
 
-  const page = Number(params.get("page") ?? "1");
   const category = params.get("category") ?? "all";
   const city = params.get("city") ?? "all";
   const rating = Number(params.get("rating") ?? "0");
@@ -31,8 +37,8 @@ function ExploreContent() {
   const setParam = (key: string, value?: string) => {
     const next = new URLSearchParams(params.toString());
     if (!value || value === "all" || value === "0") next.delete(key); else next.set(key, value);
-    if (key !== "page") next.set("page", "1");
     router.push(`${pathname}?${next.toString()}`);
+    setVisibleCount(PAGE_SIZE);
   };
 
   const cities = useMemo(() => Array.from(new Set(places.map((p) => p.city))).sort(), []);
@@ -52,20 +58,60 @@ function ExploreContent() {
     return list;
   }, [category, vibe, city, selectedPrices, rating, tag, sort]);
 
-  const start = (Math.max(1, page) - 1) * PAGE_SIZE;
-  const results = filtered.slice(start, start + PAGE_SIZE);
+  const results = filtered.slice(0, visibleCount);
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-10">
-      <h1 className="text-balance font-serif text-4xl text-[var(--cajun-red)]">Explore Acadiana</h1>
-      <p className="mt-2 text-[var(--warm-gray)]">Find food, music, and hidden gems across Cajun Country.</p>
-      <div className="mt-5"><SearchBar /></div>
-      <div className="sticky top-16 z-20 mt-6 rounded-xl border bg-[var(--cream-bg)]/95 p-3 backdrop-blur"><div className="flex flex-wrap gap-2">{categoryMap.map(([key, label]) => <Link key={key} href={`/explore?${new URLSearchParams({ ...Object.fromEntries(params.entries()), category: key, page: "1" }).toString()}`} className={`min-h-11 rounded-full border px-4 py-2 text-sm ${category === key ? "bg-[var(--cajun-red)] text-white" : "bg-white hover:bg-[var(--cream-bg)]"}`}>{label}</Link>)}</div></div>
-      <div className="mt-4"><FilterBar cities={cities} city={city} setCity={(v) => setParam("city", v)} prices={["$", "$$", "$$$"]} selectedPrices={selectedPrices} togglePrice={(p) => { const next = selectedPrices.includes(p) ? selectedPrices.filter((x) => x !== p) : [...selectedPrices, p]; setParam("price", next.join(",")); }} rating={rating} setRating={(v) => setParam("rating", String(v))} tags={tags} selectedTag={tag} setSelectedTag={(v) => setParam("tag", v)} clear={() => router.push("/explore?page=1")} /></div>
+      <section className="rounded-[12px] bg-[linear-gradient(120deg,#1a3a2a,#4a7c59)] p-8 text-white">
+        <h1 className="text-4xl md:text-5xl">Explore Acadiana</h1>
+        <p className="mt-2 text-white/85">Filter by vibe, city, and flavor to uncover your next local favorite.</p>
+        <div className="mt-5"><SearchBar /></div>
+      </section>
+
+      <section className="mt-6 overflow-x-auto pb-2">
+        <div className="flex min-w-max gap-2">
+          {categoryMap.map(([key, label]) => (
+            <Link key={key} href={`/explore?${new URLSearchParams({ ...Object.fromEntries(params.entries()), category: key }).toString()}`} className={`min-h-11 rounded-[10px] border px-4 py-2 text-sm ${category === key ? "border-[var(--cajun-red)] bg-[var(--cajun-red)] text-white" : "border-[var(--spanish-moss)]/40 bg-white hover:bg-[var(--cream-bg)]"}`}>
+              {label}
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      <div className="mt-4"><FilterBar cities={cities} city={city} setCity={(v) => setParam("city", v)} prices={["$", "$$", "$$$"]} selectedPrices={selectedPrices} togglePrice={(p) => { const next = selectedPrices.includes(p) ? selectedPrices.filter((x) => x !== p) : [...selectedPrices, p]; setParam("price", next.join(",")); }} rating={rating} setRating={(v) => setParam("rating", String(v))} tags={tags} selectedTag={tag} setSelectedTag={(v) => setParam("tag", v)} clear={() => { router.push("/explore"); setVisibleCount(PAGE_SIZE); }} /></div>
       <div className="mt-4"><VibeFilter selected={vibe} onChange={(v) => setParam("vibe", v)} /></div>
-      <div className="mt-5 flex items-center justify-between gap-4"><p className="text-sm text-[var(--warm-gray)]">Showing {filtered.length ? start + 1 : 0}-{Math.min(start + PAGE_SIZE, filtered.length)} of {filtered.length} places</p><select value={sort} onChange={(e) => setParam("sort", e.target.value)} className="min-h-11 rounded-lg border px-3 text-sm"><option value="rated">Highest Rated</option><option value="reviews">Most Reviewed</option><option value="az">A-Z</option></select></div>
-      {results.length === 0 ? <div className="mt-8 rounded-xl border bg-white p-8 text-center text-[var(--warm-gray)]"><Image src="/mascot/gator-search.svg" alt="Geaux searching" width={140} height={140} className="mx-auto mb-3 h-28 w-28" /><p className="font-semibold text-[var(--cast-iron)]">Looking for something? Geaux has you covered!</p><p className="mt-1">No places match your filters yet. Try broadening your search.</p></div> : <section className="mt-4 grid gap-6 md:grid-cols-2 lg:grid-cols-3">{results.map((place) => <PlaceCard key={place.slug} place={place} />)}</section>}
-      <Pagination page={Math.max(1, page)} pageSize={PAGE_SIZE} total={filtered.length} pathname={pathname} params={new URLSearchParams(params.toString())} />
+
+      <div className="mt-5 flex items-center justify-between gap-4">
+        <p className="text-sm text-[var(--warm-gray)]">Showing {results.length} of {filtered.length} places</p>
+        <div className="relative">
+          <label htmlFor="explore-sort" className="sr-only">Sort places</label>
+          <select id="explore-sort" value={sort} onChange={(e) => setParam("sort", e.target.value)} className="min-h-11 appearance-none rounded-[10px] border border-[var(--spanish-moss)]/40 bg-white px-3 pr-9 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--sunset-gold)]">
+            <option value="rated">Highest Rated</option>
+            <option value="reviews">Most Reviewed</option>
+            <option value="az">A–Z</option>
+          </select>
+          <span className="pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-xs text-[var(--warm-gray)]">▾</span>
+        </div>
+      </div>
+
+      {results.length === 0 ? (
+        <div className="mt-8 rounded-[12px] border bg-white p-8 text-center text-[var(--warm-gray)]">
+          <Image src="/mascot/gator-search.svg" alt="Geaux searching" width={140} height={140} className="mx-auto mb-3 h-28 w-28" />
+          <p className="text-lg text-[var(--cast-iron)]">No spots match this exact combo… yet.</p>
+        </div>
+      ) : (
+        <section className="mt-5 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          {results.map((place) => <PlaceCard key={place.slug} place={place} />)}
+        </section>
+      )}
+
+      {filtered.length > results.length ? (
+        <div className="mt-8 text-center">
+          <button type="button" onClick={() => setVisibleCount((c) => c + PAGE_SIZE)} className="min-h-11 rounded-[10px] bg-[var(--cast-iron)] px-5 py-2 text-sm font-semibold text-white transition-transform hover:-translate-y-0.5 active:scale-[0.98] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--sunset-gold)]">
+            Load More
+          </button>
+        </div>
+      ) : null}
     </main>
   );
 }
