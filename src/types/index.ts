@@ -79,3 +79,47 @@ export interface WhatsNewItem {
   tags: string[];
   city?: string;
 }
+
+export type ClaimRole = "owner" | "manager" | "marketing";
+
+export interface BusinessClaim {
+  id: string;
+  placeSlug: string;
+  businessName: string;
+  claimantName: string;
+  email: string;
+  phone: string;
+  role: ClaimRole;
+  status: "pending";
+  createdAt: string;
+}
+
+export interface BusinessProfile {
+  slug: string;
+  description: string;
+  phone: string;
+  website: string;
+  hours: string[];
+  specials: { id: string; text: string; createdAt: string }[];
+  updatedAt: string;
+}
+
+export interface AlertSubscription {
+  id: string;
+  email: string;
+  types: string[];
+  createdAt: string;
+}
+
+export interface CommunitySubmission {
+  id: string;
+  type: "Food tip" | "Hidden gem" | "Event" | "Review" | "Photo";
+  placeSlug?: string;
+  placeName: string;
+  text: string;
+  authorName: string;
+  photoUrl?: string;
+  moderation: "approved" | "queued" | "rejected";
+  moderationReason?: string;
+  createdAt: string;
+}
