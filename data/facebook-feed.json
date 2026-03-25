@@ -1,15 +1,41 @@
 {
-  "lastUpdated": "2026-03-25T05:08:50.605Z",
-  "sources": {
-    "pages": [
-      "Developing Lafayette",
-      "Downtown Lafayette",
-      "Lafayette Travel",
-      "Acadiana Advocate"
-    ],
-    "groups": [
-      "Lafayette Foodies Group"
-    ]
-  },
+  "lastScraped": "2026-03-25T06:31:44.741Z",
+  "groups": [
+    {
+      "name": "Foodies of Lafayette",
+      "id": "437445600497753",
+      "url": "https://www.facebook.com/groups/437445600497753/",
+      "postCount": 0,
+      "status": "robots_blocked"
+    },
+    {
+      "name": "Whatz Goin On in Acadiana",
+      "id": "607423613041078",
+      "url": "https://www.facebook.com/groups/607423613041078/",
+      "postCount": 0,
+      "status": "robots_blocked"
+    },
+    {
+      "name": "Lafayette Memories",
+      "id": "LafayetteMemories",
+      "url": "https://www.facebook.com/groups/LafayetteMemories/",
+      "postCount": 0,
+      "status": "robots_blocked"
+    },
+    {
+      "name": "Louisiana Soul Food",
+      "id": "1103265880462154",
+      "url": "https://www.facebook.com/groups/1103265880462154/",
+      "postCount": 0,
+      "status": "robots_blocked"
+    },
+    {
+      "name": "Lafayette EDM Scene",
+      "id": "360751904363123",
+      "url": "https://www.facebook.com/groups/360751904363123/",
+      "postCount": 0,
+      "status": "robots_blocked"
+    }
+  ],
   "items": []
 }
