@@ -48,9 +48,10 @@ export type CajunFluencer = {
   verified: boolean;
 };
 
-export const cajunConnectionData = data as {
-  businesses: CajunBusiness[];
-  influencers: CajunFluencer[];
+const raw = data as { businesses: CajunBusiness[]; fluencers: CajunFluencer[] };
+export const cajunConnectionData = {
+  businesses: raw.businesses,
+  influencers: raw.fluencers,
 };
 
 export const platformLabels = {
