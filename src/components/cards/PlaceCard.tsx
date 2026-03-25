@@ -27,8 +27,18 @@ const placeholderByCategory: Record<string, string> = {
 
 function getImageSrc(place: Place) {
   const image = place.image?.trim();
-  const isMissing = !image || image === "/placeholder.svg" || image.endsWith("/placeholder.svg");
-  if (isMissing) return placeholderByCategory[place.category] ?? "/placeholders/default.svg";
+  const isPlaceholder =
+    !image ||
+    image === "/placeholder.svg" ||
+    image.endsWith("/placeholder.svg") ||
+    image.startsWith("/placeholders/");
+
+  // Use first gallery photo (Google Places) when main image is a placeholder
+  if (isPlaceholder && place.gallery?.length) {
+    return place.gallery[0];
+  }
+
+  if (isPlaceholder) return placeholderByCategory[place.category] ?? "/placeholders/default.svg";
   return image;
 }
 
