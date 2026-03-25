@@ -27,7 +27,7 @@ export function EventCard({ event }: { event: Event }) {
         </div>
       </Link>
       <div className="space-y-3 p-4">
-        <div className="flex gap-3">
+        <div className="flex flex-col gap-3 sm:flex-row">
           <div className="flex h-14 w-14 flex-col items-center justify-center rounded-[10px] border border-[var(--sunset-gold)]/50 bg-[var(--cream)] text-[var(--cast-iron)]">
             <span className="text-[10px] tracking-[0.1em] text-[var(--warm-gray)]">{month}</span>
             <span className="text-lg leading-none">{day}</span>
