@@ -8,7 +8,6 @@ import { CategoryNav } from "@/components/CategoryNav";
 import { EventCard } from "@/components/cards/EventCard";
 import { PlaceCard } from "@/components/cards/PlaceCard";
 import { NewsletterSignup } from "@/components/sections/NewsletterSignup";
-import { AIPicks } from "@/components/AIPicks";
 import { events, places } from "@/data/mock-data";
 import type { WhatsNewItem } from "@/types";
 
@@ -55,8 +54,6 @@ export default function Home() {
       </section>
 
       <section className="mx-auto mt-10 max-w-6xl px-4"><CategoryNav /></section>
-
-      <AIPicks />
 
       <section className="mx-auto mt-16 max-w-6xl px-4">
         <div className="mb-4 flex items-center justify-between"><h2 className="font-serif text-3xl text-[var(--cajun-red)]">What&apos;s New in Acadiana</h2><Link href="/whats-new" className="text-sm underline">See full feed</Link></div>

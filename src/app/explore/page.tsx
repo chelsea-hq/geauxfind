@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { Suspense, useMemo } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
@@ -63,7 +64,7 @@ function ExploreContent() {
       <div className="mt-4"><FilterBar cities={cities} city={city} setCity={(v) => setParam("city", v)} prices={["$", "$$", "$$$"]} selectedPrices={selectedPrices} togglePrice={(p) => { const next = selectedPrices.includes(p) ? selectedPrices.filter((x) => x !== p) : [...selectedPrices, p]; setParam("price", next.join(",")); }} rating={rating} setRating={(v) => setParam("rating", String(v))} tags={tags} selectedTag={tag} setSelectedTag={(v) => setParam("tag", v)} clear={() => router.push("/explore?page=1")} /></div>
       <div className="mt-4"><VibeFilter selected={vibe} onChange={(v) => setParam("vibe", v)} /></div>
       <div className="mt-5 flex items-center justify-between gap-4"><p className="text-sm text-[var(--warm-gray)]">Showing {filtered.length ? start + 1 : 0}-{Math.min(start + PAGE_SIZE, filtered.length)} of {filtered.length} places</p><select value={sort} onChange={(e) => setParam("sort", e.target.value)} className="min-h-11 rounded-lg border px-3 text-sm"><option value="rated">Highest Rated</option><option value="reviews">Most Reviewed</option><option value="az">A-Z</option></select></div>
-      {results.length === 0 ? <div className="mt-8 rounded-xl border bg-white p-8 text-center text-[var(--warm-gray)]">No places match your filters. Try broadening your search.</div> : <section className="mt-4 grid gap-6 md:grid-cols-2 lg:grid-cols-3">{results.map((place) => <PlaceCard key={place.slug} place={place} />)}</section>}
+      {results.length === 0 ? <div className="mt-8 rounded-xl border bg-white p-8 text-center text-[var(--warm-gray)]"><Image src="/mascot/gator-search.svg" alt="Geaux searching" width={140} height={140} className="mx-auto mb-3 h-28 w-28" /><p className="font-semibold text-[var(--cast-iron)]">Looking for something? Geaux has you covered!</p><p className="mt-1">No places match your filters yet. Try broadening your search.</p></div> : <section className="mt-4 grid gap-6 md:grid-cols-2 lg:grid-cols-3">{results.map((place) => <PlaceCard key={place.slug} place={place} />)}</section>}
       <Pagination page={Math.max(1, page)} pageSize={PAGE_SIZE} total={filtered.length} pathname={pathname} params={new URLSearchParams(params.toString())} />
     </main>
   );

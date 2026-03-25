@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { NewsletterSignup } from "@/components/sections/NewsletterSignup";
@@ -110,12 +111,17 @@ export default function CrawfishPage() {
   return (
     <main className="pb-12">
       <section className="bg-[linear-gradient(135deg,#8B1A1A,#bf5a24)] px-4 py-14 text-white">
-        <div className="mx-auto max-w-6xl">
-          <p className="mb-3 inline-flex rounded-full bg-white/20 px-4 py-1 text-sm font-semibold">{crawfishData.hero.status}</p>
-          <h1 className="text-4xl md:text-6xl">{crawfishData.hero.headline}</h1>
-          <p className="mt-3 text-lg text-white/90 md:text-2xl">{crawfishData.hero.subtitle}</p>
-          <div className="mt-6 inline-flex rounded-2xl border border-white/30 bg-white/10 px-4 py-3 text-base font-semibold md:text-lg">
-            {crawfishData.hero.quickStats}
+        <div className="mx-auto grid max-w-6xl items-center gap-6 md:grid-cols-[1.1fr_0.9fr]">
+          <div>
+            <p className="mb-3 inline-flex rounded-full bg-white/20 px-4 py-1 text-sm font-semibold">{crawfishData.hero.status}</p>
+            <h1 className="text-4xl md:text-6xl">{crawfishData.hero.headline}</h1>
+            <p className="mt-3 text-lg text-white/90 md:text-2xl">{crawfishData.hero.subtitle}</p>
+            <div className="mt-6 inline-flex rounded-2xl border border-white/30 bg-white/10 px-4 py-3 text-base font-semibold md:text-lg">
+              {crawfishData.hero.quickStats}
+            </div>
+          </div>
+          <div className="mx-auto w-full max-w-[220px] md:max-w-[260px]">
+            <Image src="/mascot/gator-crawfish.svg" alt="Geaux holding a crawfish" width={260} height={260} className="h-auto w-full" />
           </div>
         </div>
       </section>

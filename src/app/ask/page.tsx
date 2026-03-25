@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { FormEvent, useMemo, useState } from "react";
 import { useLocation } from "@/hooks/useLocation";
 
@@ -21,7 +22,7 @@ export default function AskPage() {
     {
       role: "assistant",
       content:
-        "Hey y'all 👋 Ask me anything about Acadiana food, events, places, and local culture, and I’ll point you to the good stuff.",
+        "Hey y'all 👋 I'm Geaux the Gator. Ask me anything about Acadiana food, events, places, and local culture, and I’ll point you to the good stuff.",
     },
   ]);
   const [input, setInput] = useState("");
@@ -161,7 +162,16 @@ export default function AskPage() {
       <section className="mt-4 flex-1 overflow-hidden rounded-2xl border border-[var(--warm-gray)]/20 bg-white shadow-sm">
         <div className="h-[52vh] space-y-3 overflow-y-auto p-4 md:h-[58vh] md:p-5">
           {messages.map((message, idx) => (
-            <div key={`${message.role}-${idx}`} className={`flex ${message.role === "user" ? "justify-end" : "justify-start"}`}>
+            <div key={`${message.role}-${idx}`} className={`flex items-start gap-2 ${message.role === "user" ? "justify-end" : "justify-start"}`}>
+              {message.role === "assistant" ? (
+                <Image
+                  src={isLoading && idx === messages.length - 1 && !message.content ? "/mascot/gator-think.svg" : "/mascot/gator-chat.svg"}
+                  alt="Geaux the Gator"
+                  width={34}
+                  height={34}
+                  className="mt-1 h-8 w-8 shrink-0"
+                />
+              ) : null}
               <div
                 className={`max-w-[90%] rounded-2xl px-4 py-3 text-sm md:max-w-[80%] md:text-base ${
                   message.role === "user"
@@ -169,7 +179,7 @@ export default function AskPage() {
                     : "bg-[var(--cream-bg)] text-[var(--cast-iron)] border border-[var(--bayou-gold)]/30"
                 }`}
               >
-                <p className="whitespace-pre-wrap leading-relaxed">{message.content || (isLoading && idx === messages.length - 1 ? "Thinking..." : "")}</p>
+                <p className="whitespace-pre-wrap leading-relaxed">{message.content || (isLoading && idx === messages.length - 1 ? "Geaux is thinking..." : "")}</p>
               </div>
             </div>
           ))}

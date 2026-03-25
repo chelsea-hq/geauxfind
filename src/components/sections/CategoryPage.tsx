@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useMemo } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { EventCard } from "@/components/cards/EventCard";
@@ -72,6 +73,12 @@ export function CategoryPage({ type, title }: { type: CategoryType; title: strin
     <main className="mx-auto max-w-6xl px-4 py-10">
       <h1 className="text-balance font-serif text-4xl text-[var(--cajun-red)]">{title}</h1>
       <p className="mt-2 text-sm text-[var(--warm-gray)]">Showing {activeList.length ? start + 1 : 0}-{Math.min(start + PAGE_SIZE, activeList.length)} of {activeList.length} {type}</p>
+      {type === "food" ? (
+        <div className="mt-4 inline-flex items-center gap-3 rounded-2xl border border-[var(--bayou-gold)]/40 bg-[var(--cream-bg)] px-4 py-3">
+          <Image src="/mascot/gator-chef.svg" alt="Geaux the chef" width={64} height={64} className="h-14 w-14" />
+          <p className="text-sm text-[var(--cast-iron)]">Geaux says: pull up hungry — these are the local favorites.</p>
+        </div>
+      ) : null}
 
       <div className="mt-5 flex items-center justify-between gap-3">
         <select value={sort} onChange={(e) => setParam("sort", e.target.value)} className="min-h-11 rounded-lg border bg-white px-3 text-sm">

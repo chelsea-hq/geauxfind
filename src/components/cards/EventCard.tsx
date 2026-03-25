@@ -8,7 +8,11 @@ export function EventCard({ event }: { event: Event }) {
     <article className="overflow-hidden rounded-xl border border-[var(--warm-gray)]/20 bg-white shadow-sm transition-shadow hover:shadow-md">
       <Link href={`/event/${event.slug}`} className="block">
         <div className="relative aspect-[16/10] w-full bg-[var(--cream-bg)]">
-          <Image src={event.image || "/placeholder.svg"} alt={event.name} fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover" />
+          {(event.image || "").startsWith("http") ? (
+            <img src={event.image} alt={event.name} className="h-full w-full object-cover" loading="lazy" referrerPolicy="no-referrer" />
+          ) : (
+            <Image src={event.image || "/placeholder.svg"} alt={event.name} fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover" />
+          )}
         </div>
       </Link>
       <div className="space-y-2 p-4">
