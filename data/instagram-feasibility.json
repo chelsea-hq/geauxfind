@@ -1,0 +1,10 @@
+{
+  "generatedAt": "2026-03-25T13:58:59.495Z",
+  "ok": false,
+  "reason": "No broad public hashtag scrape path via official API without app review + business account scopes.",
+  "recommended": [
+    "Use creator/business account and Graph API hashtag search endpoints",
+    "Cache approved hashtags (#lafayette #acadiana #cajunfood)",
+    "Fallback to curated creator list from manual onboarding"
+  ]
+}
