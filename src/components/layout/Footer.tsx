@@ -32,14 +32,14 @@ export function Footer() {
           <div>
             <p className="text-sm tracking-[0.18em] text-[var(--sunset-gold)]">THE WEEKLY GEAUX</p>
             <label htmlFor="footer-newsletter" className="mt-3 block text-sm text-white/75">Get local picks in your inbox</label>
-            <div className="mt-2 flex gap-2">
+            <div className="mt-2 flex flex-col gap-2 sm:flex-row">
               <input id="footer-newsletter" type="email" placeholder="you@example.com" className="min-h-11 w-full rounded-[10px] border border-white/20 bg-white/10 px-3 text-sm text-white placeholder:text-white/60 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--sunset-gold)]" />
-              <button type="button" className="min-h-11 rounded-[10px] bg-[var(--cajun-red)] px-4 text-sm font-semibold transition-transform hover:-translate-y-0.5 active:scale-[0.98]">Join</button>
+              <button type="button" className="min-h-11 w-full rounded-[10px] bg-[var(--cajun-red)] px-4 text-sm font-semibold transition-transform hover:-translate-y-0.5 active:scale-[0.98] sm:w-auto">Join</button>
             </div>
-            <div className="mt-4 flex gap-3 text-sm text-white/80">
-              <a href="https://instagram.com" target="_blank" rel="noreferrer" className="gf-link">Instagram</a>
-              <a href="https://facebook.com" target="_blank" rel="noreferrer" className="gf-link">Facebook</a>
-              <a href="https://tiktok.com" target="_blank" rel="noreferrer" className="gf-link">TikTok</a>
+            <div className="mt-4 flex flex-wrap gap-2 text-sm text-white/80">
+              <a href="https://instagram.com" target="_blank" rel="noreferrer" className="inline-flex min-h-11 min-w-11 items-center justify-center rounded-[10px] px-3">Instagram</a>
+              <a href="https://facebook.com" target="_blank" rel="noreferrer" className="inline-flex min-h-11 min-w-11 items-center justify-center rounded-[10px] px-3">Facebook</a>
+              <a href="https://tiktok.com" target="_blank" rel="noreferrer" className="inline-flex min-h-11 min-w-11 items-center justify-center rounded-[10px] px-3">TikTok</a>
             </div>
           </div>
         </div>

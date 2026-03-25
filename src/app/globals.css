@@ -29,7 +29,9 @@ body {
   font-family: var(--font-body), "DM Sans", sans-serif;
   background: var(--cream);
   color: var(--cast-iron);
+  font-size: 14px;
   font-variant-numeric: tabular-nums;
+  overflow-x: hidden;
 }
 
 h1,
@@ -75,6 +77,9 @@ a.gf-link:focus-visible::after,
 .gf-link:focus-visible::after {
   width: 100%;
 }
+
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
 
 .fade-up {
   opacity: 0;
