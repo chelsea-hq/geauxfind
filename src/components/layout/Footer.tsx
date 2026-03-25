@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { NewsletterSignup } from "@/components/sections/NewsletterSignup";
 
 export function Footer() {
   return (
@@ -17,7 +16,11 @@ export function Footer() {
           <br />
           <Link href="/ask" className="hover:text-[var(--bayou-gold)]">Ask Acadiana</Link>
         </div>
-        <NewsletterSignup />
+        <div className="text-sm text-white/75">
+          <p className="font-semibold text-white">The Weekly Geaux</p>
+          <p className="mt-2">Your Friday hit of Acadiana food, music, events, and local gems.</p>
+          <p className="mt-4 text-xs text-white/50">© {new Date().getFullYear()} GeauxFind. All rights reserved.</p>
+        </div>
       </div>
     </footer>
   );

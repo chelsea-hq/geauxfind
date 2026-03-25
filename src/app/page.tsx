@@ -7,6 +7,7 @@ import { CategoryNav } from "@/components/CategoryNav";
 import { EventCard } from "@/components/cards/EventCard";
 import { PlaceCard } from "@/components/cards/PlaceCard";
 import { applyVibeFilter, VibeFilter, VibeKey } from "@/components/VibeFilter";
+import { NewsletterSignup } from "@/components/sections/NewsletterSignup";
 import { events, places } from "@/data/mock-data";
 
 export default function Home() {
