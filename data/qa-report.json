@@ -1,14 +1,8 @@
 {
-  "timestamp": "2026-03-25T14:23:35.319Z",
+  "timestamp": "2026-03-25T14:25:03.410Z",
   "base": "https://geauxfind.com",
   "totalChecks": 98,
-  "passed": 97,
-  "failed": 1,
-  "issues": [
-    {
-      "page": "/",
-      "category": "BROKEN_IMAGES",
-      "detail": "6 broken non-API image URLs"
-    }
-  ]
+  "passed": 98,
+  "failed": 0,
+  "issues": []
 }
