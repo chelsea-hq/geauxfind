@@ -1,0 +1,16 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GeauxFind placeholder illustration">
+  <rect width="400" height="300" rx="24" fill="#faf7f2"/>
+  <circle cx="78" cy="70" r="46" fill="#1a3a2a" fill-opacity="0.12"/>
+  <circle cx="324" cy="74" r="42" fill="#e8a838" fill-opacity="0.24"/>
+
+  <path d="M40 236C94 178 155 154 226 170C278 181 324 209 360 236" stroke="#1a3a2a" stroke-width="7" stroke-linecap="round"/>
+
+  <circle cx="200" cy="154" r="70" fill="#1a3a2a"/>
+  <circle cx="200" cy="154" r="52" fill="#faf7f2"/>
+
+  <path d="M200 118L208 136L228 136L212 148L218 168L200 156L182 168L188 148L172 136L192 136L200 118Z" fill="#e8a838"/>
+  <path d="M200 130L205 140L216 140L207 147L211 158L200 151L189 158L193 147L184 140L195 140L200 130Z" fill="#c41e3a"/>
+
+  <rect x="130" y="220" width="140" height="28" rx="14" fill="#1a3a2a"/>
+  <text x="200" y="239" text-anchor="middle" fill="#faf7f2" font-size="16" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-weight="700">GeauxFind</text>
+</svg>

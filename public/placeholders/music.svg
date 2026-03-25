@@ -1,0 +1,19 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Music placeholder illustration">
+  <rect width="400" height="300" rx="24" fill="#faf7f2"/>
+  <circle cx="70" cy="68" r="44" fill="#c41e3a" fill-opacity="0.2"/>
+  <circle cx="340" cy="70" r="48" fill="#e8a838" fill-opacity="0.25"/>
+  <path d="M30 220C97 172 171 152 236 168C294 182 335 206 370 236" stroke="#1a3a2a" stroke-width="7" stroke-linecap="round"/>
+
+  <path d="M120 206C120 176 146 152 178 152C188 152 197 154 206 159V112C206 100 215 90 227 90C239 90 248 100 248 112V192C248 222 223 246 192 246C162 246 138 224 138 197C138 190 140 184 143 178" stroke="#1a3a2a" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <ellipse cx="192" cy="236" rx="34" ry="20" fill="#c41e3a"/>
+  <ellipse cx="112" cy="230" rx="24" ry="16" fill="#e8a838"/>
+
+  <path d="M288 94V176" stroke="#c41e3a" stroke-width="10" stroke-linecap="round"/>
+  <path d="M288 98L334 112" stroke="#c41e3a" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="288" cy="186" r="14" fill="#c41e3a"/>
+  <circle cx="334" cy="124" r="11" fill="#c41e3a"/>
+
+  <path d="M80 130C92 118 111 118 124 130" stroke="#e8a838" stroke-width="8" stroke-linecap="round"/>
+  <path d="M88 146C96 138 109 138 117 146" stroke="#e8a838" stroke-width="7" stroke-linecap="round"/>
+</svg>

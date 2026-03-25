@@ -1,0 +1,17 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hidden finds placeholder illustration">
+  <rect width="400" height="300" rx="24" fill="#faf7f2"/>
+  <circle cx="68" cy="78" r="50" fill="#e8a838" fill-opacity="0.24"/>
+  <circle cx="332" cy="60" r="36" fill="#1a3a2a" fill-opacity="0.15"/>
+
+  <path d="M44 236C95 185 155 165 223 175C278 183 325 208 360 238" stroke="#1a3a2a" stroke-width="7" stroke-linecap="round"/>
+
+  <circle cx="174" cy="146" r="62" fill="#1a3a2a"/>
+  <circle cx="174" cy="146" r="46" fill="#faf7f2"/>
+  <rect x="212" y="183" width="90" height="18" rx="9" transform="rotate(42 212 183)" fill="#c41e3a"/>
+
+  <path d="M174 117L181 133L198 133L185 143L190 159L174 149L158 159L163 143L150 133L167 133L174 117Z" fill="#e8a838"/>
+  <path d="M174 128L178 137H188L180 143L183 152L174 146L165 152L168 143L160 137H170L174 128Z" fill="#c41e3a"/>
+
+  <path d="M309 90L313 99L323 100L316 107L318 117L309 112L300 117L302 107L295 100L305 99L309 90Z" fill="#e8a838"/>
+  <path d="M282 136L285 143L293 144L287 149L289 157L282 153L275 157L277 149L271 144L279 143L282 136Z" fill="#c41e3a"/>
+</svg>

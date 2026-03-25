@@ -1,0 +1,16 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Shopping placeholder illustration">
+  <rect width="400" height="300" rx="24" fill="#faf7f2"/>
+  <circle cx="76" cy="70" r="42" fill="#e8a838" fill-opacity="0.3"/>
+  <circle cx="330" cy="70" r="42" fill="#c41e3a" fill-opacity="0.16"/>
+
+  <path d="M92 236H308L292 114H108L92 236Z" fill="#1a3a2a"/>
+  <path d="M112 226H288L275 126H125L112 226Z" fill="#faf7f2"/>
+
+  <path d="M150 126V110C150 82 171 62 200 62C229 62 250 82 250 110V126" stroke="#c41e3a" stroke-width="12" stroke-linecap="round"/>
+
+  <path d="M200 152L207 168L224 168L210 178L216 194L200 184L184 194L190 178L176 168L193 168L200 152Z" fill="#e8a838"/>
+  <path d="M200 163L204 171L213 171L206 176L209 184L200 180L191 184L194 176L187 171L196 171L200 163Z" fill="#c41e3a"/>
+
+  <path d="M136 194C152 182 171 176 189 176" stroke="#1a3a2a" stroke-opacity="0.25" stroke-width="6" stroke-linecap="round"/>
+  <path d="M211 176C230 176 249 182 264 194" stroke="#1a3a2a" stroke-opacity="0.25" stroke-width="6" stroke-linecap="round"/>
+</svg>

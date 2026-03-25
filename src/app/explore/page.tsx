@@ -13,11 +13,12 @@ import { places } from "@/data/mock-data";
 const PAGE_SIZE = 12;
 const categoryMap = [
   ["all", "✨ All"],
-  ["food", "🍽 Food & Drink"],
+  ["food", "🍴 Food & Drink"],
   ["music", "🎵 Music & Nightlife"],
-  ["events", "🎪 Events"],
-  ["finds", "🛍 Shopping"],
+  ["events", "🎉 Events"],
+  ["shopping", "🛍️ Shopping"],
   ["outdoors", "🌿 Outdoors"],
+  ["finds", "💎 Hidden Finds"],
 ] as const;
 
 function ExploreContent() {
@@ -44,19 +45,30 @@ function ExploreContent() {
   const cities = useMemo(() => Array.from(new Set(places.map((p) => p.city))).sort(), []);
   const tags = useMemo(() => Array.from(new Set(places.flatMap((p) => p.smartTags ?? []))).sort().slice(0, 18), []);
 
-  const filtered = useMemo(() => {
+  const baseFiltered = useMemo(() => {
     let list = [...places];
-    if (category !== "all" && category !== "events" && category !== "outdoors") list = list.filter((p) => p.category === category);
     list = applyVibeFilter(list, vibe);
     list = list.filter((p) => (city === "all" ? true : p.city === city));
     list = list.filter((p) => (selectedPrices.length ? selectedPrices.includes(p.price) : true));
     list = list.filter((p) => (rating > 0 ? p.rating >= rating : true));
     list = list.filter((p) => (tag === "all" ? true : (p.smartTags ?? []).includes(tag)));
+    return list;
+  }, [vibe, city, selectedPrices, rating, tag]);
+
+  const categoryCounts = useMemo(() => {
+    const counts: Record<string, number> = { all: baseFiltered.length };
+    for (const p of baseFiltered) counts[p.category] = (counts[p.category] ?? 0) + 1;
+    return counts;
+  }, [baseFiltered]);
+
+  const filtered = useMemo(() => {
+    let list = [...baseFiltered];
+    if (category !== "all") list = list.filter((p) => p.category === category);
     if (sort === "reviews") list.sort((a, b) => (b.reviews?.length ?? 0) - (a.reviews?.length ?? 0));
     else if (sort === "az") list.sort((a, b) => a.name.localeCompare(b.name));
     else list.sort((a, b) => b.rating - a.rating);
     return list;
-  }, [category, vibe, city, selectedPrices, rating, tag, sort]);
+  }, [baseFiltered, category, sort]);
 
   const results = filtered.slice(0, visibleCount);
 
@@ -70,11 +82,20 @@ function ExploreContent() {
 
       <section className="mt-6 overflow-x-auto pb-2">
         <div className="flex min-w-max gap-2">
-          {categoryMap.map(([key, label]) => (
-            <Link key={key} href={`/explore?${new URLSearchParams({ ...Object.fromEntries(params.entries()), category: key }).toString()}`} className={`min-h-11 rounded-[10px] border px-4 py-2 text-sm ${category === key ? "border-[var(--cajun-red)] bg-[var(--cajun-red)] text-white" : "border-[var(--spanish-moss)]/40 bg-white hover:bg-[var(--cream-bg)]"}`}>
-              {label}
-            </Link>
-          ))}
+          {categoryMap.map(([key, label]) => {
+            const active = category === key;
+            const count = categoryCounts[key] ?? 0;
+            return (
+              <Link
+                key={key}
+                href={`/explore?${new URLSearchParams({ ...Object.fromEntries(params.entries()), category: key }).toString()}`}
+                className={`min-h-11 rounded-[12px] border px-4 py-2 text-sm font-medium transition-transform duration-150 active:scale-95 hover:-translate-y-0.5 ${active ? "border-[var(--cajun-red)] bg-[var(--cajun-red)] text-white shadow-sm" : "border-[var(--spanish-moss)]/40 bg-white hover:bg-[var(--cream-bg)]"}`}
+              >
+                <span>{label}</span>
+                {active ? <span className="ml-2 rounded-full bg-black/20 px-2 py-0.5 text-xs">{count} places</span> : null}
+              </Link>
+            );
+          })}
         </div>
       </section>
 
@@ -96,8 +117,8 @@ function ExploreContent() {
 
       {results.length === 0 ? (
         <div className="mt-8 rounded-[12px] border bg-white p-8 text-center text-[var(--warm-gray)]">
-          <Image src="/mascot/gator-search.svg" alt="Geaux searching" width={140} height={140} className="mx-auto mb-3 h-28 w-28" />
-          <p className="text-lg text-[var(--cast-iron)]">No spots match this exact combo… yet.</p>
+          <Image src="/mascot/gator-think.svg" alt="Confused Geaux gator" width={160} height={160} className="mx-auto mb-3 h-32 w-32" />
+          <p className="text-lg font-semibold text-[var(--cast-iron)]">Hmm, nothing matches... Try loosening those filters!</p>
         </div>
       ) : (
         <section className="mt-5 grid gap-6 md:grid-cols-2 lg:grid-cols-3">

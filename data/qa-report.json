@@ -1,0 +1,14 @@
+{
+  "timestamp": "2026-03-25T06:03:15.172Z",
+  "url": "https://geauxfind.com",
+  "totalChecks": 149,
+  "passed": 148,
+  "failed": 1,
+  "issues": [
+    {
+      "page": "/api/search?q=cajun",
+      "category": "API",
+      "detail": "Status 404"
+    }
+  ]
+}

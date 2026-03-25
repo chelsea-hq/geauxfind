@@ -1,0 +1,19 @@
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Events placeholder illustration">
+  <rect width="400" height="300" rx="24" fill="#faf7f2"/>
+  <circle cx="76" cy="66" r="46" fill="#c41e3a" fill-opacity="0.18"/>
+  <circle cx="336" cy="72" r="44" fill="#e8a838" fill-opacity="0.24"/>
+
+  <rect x="92" y="74" width="216" height="154" rx="22" fill="#1a3a2a"/>
+  <rect x="108" y="102" width="184" height="108" rx="14" fill="#faf7f2"/>
+  <rect x="126" y="122" width="38" height="24" rx="7" fill="#e8a838"/>
+  <rect x="176" y="122" width="38" height="24" rx="7" fill="#c41e3a" fill-opacity="0.8"/>
+  <rect x="226" y="122" width="38" height="24" rx="7" fill="#e8a838"/>
+  <rect x="126" y="154" width="138" height="14" rx="7" fill="#1a3a2a" fill-opacity="0.2"/>
+  <rect x="126" y="174" width="96" height="12" rx="6" fill="#1a3a2a" fill-opacity="0.2"/>
+
+  <rect x="128" y="56" width="16" height="30" rx="8" fill="#c41e3a"/>
+  <rect x="256" y="56" width="16" height="30" rx="8" fill="#c41e3a"/>
+
+  <path d="M56 232L64 216L72 232L88 236L76 246L78 262L64 254L50 262L52 246L40 236L56 232Z" fill="#e8a838"/>
+  <path d="M332 214L338 202L344 214L357 217L347 226L349 239L338 233L327 239L329 226L319 217L332 214Z" fill="#c41e3a"/>
+</svg>

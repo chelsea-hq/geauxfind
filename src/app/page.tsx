@@ -120,7 +120,7 @@ export default function Home() {
           </div>
           <Link href="/explore" className="gf-link text-sm text-[var(--cast-iron)]">See all spots</Link>
         </div>
-        <div className="grid gap-6 lg:grid-cols-[1.3fr_1fr]">
+        <div className="grid items-start gap-6 lg:grid-cols-[1.3fr_1fr]">
           {featuredPlaces[0] ? <PlaceCard place={featuredPlaces[0]} featured /> : null}
           <div className="grid grid-cols-2 gap-4">
             {featuredPlaces.slice(1, 5).map((place) => (

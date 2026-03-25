@@ -1,4 +1,4 @@
-export type CategoryType = "food" | "events" | "music" | "recipes" | "finds";
+export type CategoryType = "food" | "events" | "music" | "recipes" | "finds" | "outdoors" | "shopping";
 
 export interface Review {
   id: string;
@@ -11,7 +11,7 @@ export interface Review {
 export interface Place {
   slug: string;
   name: string;
-  category: "food" | "music" | "finds";
+  category: "food" | "music" | "finds" | "events" | "outdoors" | "shopping";
   cuisine?: string;
   city: string;
   rating: number;

@@ -6,19 +6,38 @@ import { RatingStars } from "@/components/RatingStars";
 
 const badgeColor: Record<string, string> = {
   food: "bg-[#fbe8d6] text-[#7d3f1f]",
-  music: "bg-[#e8ecff] text-[#28327a]",
+  music: "bg-[#f0e8ff] text-[#4c2a7a]",
   finds: "bg-[#e8f3ea] text-[#1f5f33]",
+  events: "bg-[#ffe8ee] text-[#8f1f3c]",
+  outdoors: "bg-[#e3f2ec] text-[#1a3a2a]",
+  shopping: "bg-[#fff0de] text-[#8a4e14]",
 };
+
+const placeholderByCategory: Record<string, string> = {
+  food: "/placeholders/food.svg",
+  music: "/placeholders/music.svg",
+  finds: "/placeholders/finds.svg",
+  events: "/placeholders/events.svg",
+  outdoors: "/placeholders/outdoors.svg",
+  shopping: "/placeholders/shopping.svg",
+};
+
+function getImageSrc(place: Place) {
+  const image = place.image?.trim();
+  const isMissing = !image || image === "/placeholder.svg" || image.endsWith("/placeholder.svg");
+  if (isMissing) return placeholderByCategory[place.category] ?? "/placeholders/default.svg";
+  return image;
+}
 
 export function PlaceCard({ place, featured = false, compact = false }: { place: Place; featured?: boolean; compact?: boolean }) {
   const smart = place.smartTags ?? [];
   const specialTag = smart.find((t) => /late|night/i.test(t)) ? "Late Night" : smart.length > 2 ? "Hidden Gem" : null;
 
   return (
-    <article className={`card-lift overflow-hidden rounded-[12px] border border-[var(--spanish-moss)]/30 bg-white shadow-sm ${featured ? "h-full" : ""}`}>
+    <article className="card-lift overflow-hidden rounded-[12px] border border-[var(--spanish-moss)]/30 bg-white shadow-sm">
       <Link href={`/place/${place.slug}`} className="block">
         <div className={`card-image-zoom relative w-full bg-[var(--cream-bg)] ${featured ? "aspect-[16/10]" : compact ? "aspect-[18/10]" : "aspect-[16/10]"}`}>
-          <Image src={place.image || "/placeholder.svg"} alt={place.name} fill sizes="(max-width: 1024px) 100vw, 33vw" className="object-cover" />
+          <Image src={getImageSrc(place)} alt={place.name} fill sizes="(max-width: 1024px) 100vw, 33vw" className="object-cover" />
           <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/55 to-transparent" />
           <div className="absolute bottom-3 left-3 flex flex-wrap gap-2">
             <span className={`rounded-[10px] px-2 py-1 text-xs font-semibold ${badgeColor[place.category] ?? "bg-stone-100 text-stone-900"}`}>{place.category}</span>
