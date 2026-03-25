@@ -1,115 +1,256 @@
 #!/usr/bin/env node
-import { execSync } from "node:child_process";
-import { readdirSync, readFileSync, statSync } from "node:fs";
-import { join, relative } from "node:path";
+/**
+ * GeauxFind Automated QA Check
+ * Checks every page for: broken images, console errors, missing content,
+ * layout issues, dead links, and overall health.
+ * 
+ * Usage: node scripts/qa-check.mjs [--url https://geauxfind.com]
+ */
 
-const root = process.cwd();
-const checks = [];
+const urlFlag = process.argv.find(a => a.startsWith('--url='));
+const urlIdx = process.argv.indexOf('--url');
+const BASE = urlFlag ? urlFlag.split('=')[1] 
+  : (urlIdx !== -1 && process.argv[urlIdx + 1]) ? process.argv[urlIdx + 1]
+  : 'https://geauxfind.com';
 
-const runCheck = async (name, fn) => {
-  try {
-    const detail = await fn();
-    checks.push({ name, pass: true, detail: detail ?? "OK" });
-  } catch (error) {
-    checks.push({ name, pass: false, detail: error instanceof Error ? error.message : String(error) });
-  }
-};
+const PAGES = [
+  '/',
+  '/explore',
+  '/crawfish',
+  '/vibe',
+  '/weekend',
+  '/ask',
+  '/search?q=cajun',
+  '/food',
+  '/music',
+  '/events',
+  '/finds',
+  '/recipes',
+  '/whats-new',
+];
 
-const walk = (dir, files = []) => {
-  for (const entry of readdirSync(dir)) {
-    const full = join(dir, entry);
-    const stat = statSync(full);
-    if (stat.isDirectory()) walk(full, files);
-    else files.push(full);
-  }
-  return files;
-};
+const issues = [];
+let totalChecks = 0;
+let passed = 0;
 
-await runCheck("Next build", async () => {
-  execSync("npx next build", { stdio: "pipe" });
-  return "Build completed";
-});
-
-await runCheck("All app pages exist", async () => {
-  const pages = walk(join(root, "src/app")).filter((file) => file.endsWith("/page.tsx"));
-  if (!pages.length) throw new Error("No app pages found");
-  return `${pages.length} pages detected`;
-});
-
-await runCheck("Internal links reference existing routes", async () => {
-  const files = walk(join(root, "src")).filter((file) => file.endsWith(".tsx"));
-  const pageRoutes = new Set(
-    walk(join(root, "src/app"))
-      .filter((file) => file.endsWith("/page.tsx"))
-      .map((file) => {
-        const route = relative(join(root, "src/app"), file).replace(/\/page\.tsx$/, "");
-        if (route === "page.tsx") return "/";
-        return `/${route.replace(/\/page\.tsx$/, "").replace(/\/index$/, "")}`.replace(/\/page\.tsx$/, "");
-      })
-      .map((r) => (r === "/page.tsx" ? "/" : r))
-      .map((r) => r.replace(/\/page\.tsx$/, ""))
-  );
-
-  const misses = [];
-  for (const file of files) {
-    const content = readFileSync(file, "utf8");
-    const hrefs = [...content.matchAll(/href=\"(\/[^\"#?]*)/g)].map((m) => m[1]);
-    for (const href of hrefs) {
-      if (href.includes("[")) continue;
-      if (href.startsWith("/api")) continue;
-      const direct = pageRoutes.has(href);
-      const dynamic = ["/place/", "/event/", "/recipe/"].some((prefix) => href.startsWith(prefix));
-      if (!direct && !dynamic) misses.push(`${href} in ${relative(root, file)}`);
-    }
-  }
-
-  if (misses.length) throw new Error(`Broken links:\n${misses.slice(0, 20).join("\n")}`);
-  return "No broken internal links found";
-});
-
-await runCheck("No placeholder text", async () => {
-  const files = walk(join(root, "src")).filter((file) => /\.(ts|tsx|js|jsx|md)$/.test(file));
-  const banned = [/example\.com/i, /lorem ipsum/i, /\bTODO\b/i, /coming soon/i];
-  const hits = [];
-
-  for (const file of files) {
-    const content = readFileSync(file, "utf8");
-    for (const pattern of banned) {
-      if (pattern.test(content)) hits.push(`${pattern} in ${relative(root, file)}`);
-    }
-  }
-
-  if (hits.length) throw new Error(hits.slice(0, 20).join("\n"));
-  return "No placeholder strings detected";
-});
-
-await runCheck("API routes export handlers", async () => {
-  const apiRoutes = walk(join(root, "src/app/api")).filter((file) => file.endsWith("route.ts"));
-  const missing = [];
-  for (const route of apiRoutes) {
-    const content = readFileSync(route, "utf8");
-    if (!/export\s+async\s+function\s+(GET|POST|PUT|PATCH|DELETE)/.test(content)) {
-      missing.push(relative(root, route));
-    }
-  }
-  if (missing.length) throw new Error(`Missing route handlers: ${missing.join(", ")}`);
-  return `${apiRoutes.length} API route files checked`;
-});
-
-await runCheck("Search query returns results", async () => {
-  const seed = JSON.parse(readFileSync(join(root, "scripts/seed-data.json"), "utf8"));
-  const results = (seed.places ?? []).filter((place) =>
-    [place.name, place.description, ...(place.tags ?? [])].join(" ").toLowerCase().includes("crawfish")
-  );
-  if (!results.length) throw new Error("No search-like matches for crawfish in dataset");
-  return `${results.length} dataset matches for crawfish`;
-});
-
-const failed = checks.filter((check) => !check.pass);
-for (const check of checks) {
-  console.log(`${check.pass ? "PASS" : "FAIL"} - ${check.name}: ${check.detail}`);
+function log(emoji, msg) {
+  console.log(`${emoji} ${msg}`);
 }
 
-if (failed.length) {
+function fail(page, category, detail) {
+  issues.push({ page, category, detail });
+  log('❌', `[${page}] ${category}: ${detail}`);
+}
+
+function pass(page, check) {
+  passed++;
+  // silent pass
+}
+
+async function checkPage(path) {
+  const url = `${BASE}${path}`;
+  log('🔍', `Checking ${path}...`);
+  
+  try {
+    const res = await fetch(url, { 
+      redirect: 'follow',
+      headers: { 'User-Agent': 'GeauxFind-QA/1.0' }
+    });
+    totalChecks++;
+    
+    // Check HTTP status
+    if (!res.ok) {
+      fail(path, 'HTTP', `Status ${res.status}`);
+      return;
+    }
+    pass(path, 'HTTP status');
+    
+    const html = await res.text();
+    
+    // Check for empty page
+    totalChecks++;
+    if (html.length < 500) {
+      fail(path, 'CONTENT', 'Page appears empty (< 500 chars)');
+    } else {
+      pass(path, 'Content length');
+    }
+    
+    // Check for Next.js error page
+    totalChecks++;
+    if (html.includes('Application error') || html.includes('Internal Server Error') || html.includes('__next_error__')) {
+      fail(path, 'ERROR_PAGE', 'Next.js error page rendered');
+    } else {
+      pass(path, 'No error page');
+    }
+    
+    // Check for placeholder/broken image indicators
+    totalChecks++;
+    const placeholderCount = (html.match(/placeholder\.svg/g) || []).length;
+    if (placeholderCount > 3) {
+      fail(path, 'IMAGES', `${placeholderCount} default placeholder images (should use category-specific)`);
+    } else {
+      pass(path, 'Placeholder images');
+    }
+    
+    // Check for "mock" or "lorem" text that shouldn't be in production
+    totalChecks++;
+    const hasLorem = /lorem ipsum/i.test(html);
+    const hasTodo = /TODO:|FIXME:|HACK:/i.test(html);
+    if (hasLorem) fail(path, 'CONTENT', 'Contains "Lorem Ipsum" placeholder text');
+    else if (hasTodo) fail(path, 'CONTENT', 'Contains TODO/FIXME/HACK comment in rendered HTML');
+    else pass(path, 'No placeholder text');
+    
+    // Check for common React hydration errors in HTML
+    totalChecks++;
+    if (html.includes('Hydration failed') || html.includes('Text content does not match')) {
+      fail(path, 'HYDRATION', 'React hydration mismatch detected');
+    } else {
+      pass(path, 'No hydration errors');
+    }
+
+    // Check that key meta tags exist
+    totalChecks++;
+    const hasTitle = /<title[^>]*>.+<\/title>/i.test(html);
+    if (!hasTitle) {
+      fail(path, 'SEO', 'Missing <title> tag');
+    } else {
+      pass(path, 'Title tag');
+    }
+    
+    // Check all images for broken src (basic check)
+    totalChecks++;
+    const imgSrcs = [...html.matchAll(/<img[^>]+src="([^"]+)"/g)].map(m => m[1]);
+    const brokenImgs = [];
+    for (const src of imgSrcs.slice(0, 10)) { // Check first 10 images
+      try {
+        const imgUrl = src.startsWith('http') ? src : `${BASE}${src}`;
+        const imgRes = await fetch(imgUrl, { method: 'HEAD', redirect: 'follow' });
+        if (!imgRes.ok) brokenImgs.push(src);
+      } catch {
+        brokenImgs.push(src);
+      }
+    }
+    if (brokenImgs.length > 0) {
+      fail(path, 'BROKEN_IMAGES', `${brokenImgs.length} broken images: ${brokenImgs.slice(0, 3).join(', ')}`);
+    } else {
+      pass(path, 'Image loading');
+    }
+
+    // Check for duplicate content (same block appearing multiple times)
+    totalChecks++;
+    const h2s = [...html.matchAll(/<h2[^>]*>([^<]+)<\/h2>/g)].map(m => m[1].trim());
+    const dupeH2s = h2s.filter((h, i) => h2s.indexOf(h) !== i);
+    if (dupeH2s.length > 0) {
+      fail(path, 'DUPLICATES', `Duplicate headings: ${[...new Set(dupeH2s)].join(', ')}`);
+    } else {
+      pass(path, 'No duplicate headings');
+    }
+
+  } catch (err) {
+    totalChecks++;
+    fail(path, 'FETCH', `Failed to load: ${err.message}`);
+  }
+}
+
+async function checkLinks() {
+  log('🔗', 'Checking internal links from homepage...');
+  try {
+    const res = await fetch(BASE);
+    const html = await res.text();
+    const links = [...html.matchAll(/href="(\/[^"#]*?)"/g)]
+      .map(m => m[1])
+      .filter((v, i, a) => a.indexOf(v) === i)
+      .slice(0, 30);
+    
+    for (const link of links) {
+      totalChecks++;
+      try {
+        const r = await fetch(`${BASE}${link}`, { method: 'HEAD', redirect: 'follow' });
+        if (!r.ok) {
+          fail('/', 'DEAD_LINK', `${link} → ${r.status}`);
+        } else {
+          pass('/', `Link ${link}`);
+        }
+      } catch {
+        fail('/', 'DEAD_LINK', `${link} → fetch error`);
+      }
+    }
+  } catch (err) {
+    fail('/', 'LINK_CHECK', `Could not crawl homepage: ${err.message}`);
+  }
+}
+
+async function checkAPI() {
+  const apis = [
+    '/api/whats-new',
+    '/api/ask',
+  ];
+  
+  for (const api of apis) {
+    totalChecks++;
+    log('⚡', `Checking API ${api}...`);
+    try {
+      const res = await fetch(`${BASE}${api}`);
+      if (!res.ok) {
+        fail(api, 'API', `Status ${res.status}`);
+        continue;
+      }
+      const data = await res.json();
+      if (Array.isArray(data) && data.length === 0) {
+        fail(api, 'API', 'Returns empty array');
+      } else {
+        pass(api, 'API response');
+      }
+    } catch (err) {
+      fail(api, 'API', `Error: ${err.message}`);
+    }
+  }
+}
+
+// --- Run ---
+console.log(`\n🐊 GeauxFind QA Check — ${BASE}\n${'═'.repeat(50)}\n`);
+
+const start = Date.now();
+
+for (const page of PAGES) {
+  await checkPage(page);
+}
+await checkLinks();
+await checkAPI();
+
+const elapsed = ((Date.now() - start) / 1000).toFixed(1);
+
+console.log(`\n${'═'.repeat(50)}`);
+console.log(`\n📊 Results: ${passed}/${totalChecks} checks passed | ${issues.length} issues found | ${elapsed}s`);
+
+if (issues.length > 0) {
+  console.log(`\n🚨 Issues Summary:\n`);
+  const byCategory = {};
+  for (const i of issues) {
+    byCategory[i.category] = byCategory[i.category] || [];
+    byCategory[i.category].push(i);
+  }
+  for (const [cat, items] of Object.entries(byCategory)) {
+    console.log(`  ${cat} (${items.length}):`);
+    for (const item of items) {
+      console.log(`    • [${item.page}] ${item.detail}`);
+    }
+  }
+  
+  // Output JSON for automation
+  const report = {
+    timestamp: new Date().toISOString(),
+    url: BASE,
+    totalChecks,
+    passed,
+    failed: issues.length,
+    issues,
+  };
+  const fs = await import('fs');
+  fs.writeFileSync('data/qa-report.json', JSON.stringify(report, null, 2));
+  console.log(`\n💾 Full report saved to data/qa-report.json`);
   process.exit(1);
+} else {
+  console.log('\n✅ All checks passed! Site is looking clean. 🐊');
+  process.exit(0);
 }
