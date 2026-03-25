@@ -11,9 +11,13 @@ type ChatMessage = {
   content: string;
 };
 
-function formatPrompt(question: string) {
+function formatPrompt(question: string, location?: { lat?: number; lng?: number; city?: string }) {
   const summary = buildDatasetSummary();
-  const relevantPlaces = buildSearchContext(question, 50);
+  const relevantPlaces = buildSearchContext(question, {
+    limit: 50,
+    userLat: location?.lat,
+    userLng: location?.lng,
+  });
   const events = getCurrentEvents().slice(0, 8);
   const recipes = getFeaturedRecipes().slice(0, 6);
 
@@ -75,6 +79,8 @@ ${recipeContext}
 
 Most relevant places for this user question:
 ${placeContext}
+
+${location?.city ? `User location context: The user is currently near ${location.city}. Prioritize places close to them. When multiple options exist, mention the nearest ones first.` : ""}
 `;
 
   return systemPrompt;
@@ -82,9 +88,10 @@ ${placeContext}
 
 export async function POST(request: NextRequest) {
   try {
-    const { question, history } = (await request.json()) as {
+    const { question, history, location } = (await request.json()) as {
       question?: string;
       history?: ChatMessage[];
+      location?: { lat?: number; lng?: number; city?: string };
     };
 
     if (!question || !question.trim()) {
@@ -96,7 +103,7 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "Missing VENICE_API_KEY." }, { status: 500 });
     }
 
-    const systemPrompt = formatPrompt(question);
+    const systemPrompt = formatPrompt(question, location);
 
     const cleanedHistory: ChatMessage[] = Array.isArray(history)
       ? history

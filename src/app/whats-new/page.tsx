@@ -4,13 +4,13 @@ import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import type { WhatsNewItem } from "@/types";
 
-type FeedFilter = "All" | "New Restaurants" | "Coming Soon" | "Events" | "Food News";
+type FeedFilter = "All" | "New Restaurants" | "Opening Radar" | "Events" | "Food News";
 
-const filters: FeedFilter[] = ["All", "New Restaurants", "Coming Soon", "Events", "Food News"];
+const filters: FeedFilter[] = ["All", "New Restaurants", "Opening Radar", "Events", "Food News"];
 
 const categoryMap: Record<Exclude<FeedFilter, "All">, string[]> = {
   "New Restaurants": ["New Restaurant"],
-  "Coming Soon": ["Coming Soon", "Business Opening"],
+  "Opening Radar": ["Business Opening"],
   Events: ["Event"],
   "Food News": ["Food News", "Food Review"]
 };
@@ -41,6 +41,9 @@ export default function WhatsNewPage() {
   const filtered = useMemo(() => {
     if (!items) return [];
     if (active === "All") return items;
+    if (active === "Opening Radar") {
+      return items.filter((item) => item.category === "Business Opening" || item.category.toLowerCase().includes("soon"));
+    }
     const allowed = new Set(categoryMap[active]);
     return items.filter((item) => allowed.has(item.category));
   }, [active, items]);

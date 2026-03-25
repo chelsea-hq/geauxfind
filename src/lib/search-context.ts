@@ -1,9 +1,16 @@
 import seedData from "../../scripts/seed-data.json";
 import { events, recipes } from "@/data/mock-data";
+import { getCityCoordinates, haversineMiles } from "@/lib/distance";
 import { Event, Place, Recipe } from "@/types";
 
 type SeedData = {
   places: Place[];
+};
+
+type SearchOptions = {
+  limit?: number;
+  userLat?: number;
+  userLng?: number;
 };
 
 const places = (seedData as SeedData).places;
@@ -29,7 +36,19 @@ const searchableText = (place: Place): string => {
     .toLowerCase();
 };
 
-export function buildSearchContext(query: string, limit = 50): Place[] {
+const getLocationBoost = (place: Place, userLat?: number, userLng?: number) => {
+  if (typeof userLat !== "number" || typeof userLng !== "number") return 0;
+  const cityCoords = getCityCoordinates(place.city);
+  if (!cityCoords) return 0;
+
+  const distance = haversineMiles({ lat: userLat, lng: userLng }, cityCoords);
+  return Math.max(0, 10 - distance / 6);
+};
+
+export function buildSearchContext(query: string, options: number | SearchOptions = 50): Place[] {
+  const normalized = typeof options === "number" ? { limit: options } : options;
+  const limit = normalized.limit ?? 50;
+
   const queryTokens = tokenize(query);
 
   if (!queryTokens.length) {
@@ -56,8 +75,8 @@ export function buildSearchContext(query: string, limit = 50): Place[] {
         score += Math.min(matches, 4);
       }
 
-      // Slight boost for high-rated places so recommendations feel quality-first
       score += place.rating * 0.35;
+      score += getLocationBoost(place, normalized.userLat, normalized.userLng);
 
       return { place, score };
     })

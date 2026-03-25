@@ -59,6 +59,12 @@ export default function Home() {
 
       <section className="mx-auto max-w-6xl px-4 py-8">
         <VibeFilter selected={vibe} onChange={setVibe} />
+        <div className="mt-3 flex flex-wrap gap-2 text-sm">
+          <Link href="/food?vibe=foodie" className="rounded-full border bg-white px-3 py-1.5">🍳 Foodie</Link>
+          <Link href="/finds?vibe=family" className="rounded-full border bg-white px-3 py-1.5">👨‍👩‍👧 Family</Link>
+          <Link href="/music?vibe=night-out" className="rounded-full border bg-white px-3 py-1.5">🌙 Night Out</Link>
+          <Link href="/explore?vibe=live-music" className="rounded-full border bg-white px-3 py-1.5">🎵 Live Music</Link>
+        </div>
       </section>
 
       <section className="mx-auto max-w-6xl px-4 py-2">
@@ -139,7 +145,7 @@ export default function Home() {
         <div className="rounded-3xl bg-[var(--cast-iron)] p-8 text-white">
           <p className="text-sm uppercase tracking-widest text-[var(--bayou-gold)]">Ask Acadiana</p>
           <h3 className="mt-2 font-serif text-3xl">Where can I find live zydeco and late-night boudin?</h3>
-          <p className="mt-2 text-white/80">Ask in plain language. AI answers coming soon — community flavor included.</p>
+          <p className="mt-2 text-white/80">Ask in plain language for local recommendations — community flavor included.</p>
           <Link href="/ask" className="mt-4 inline-block rounded-full bg-[var(--bayou-gold)] px-5 py-2 font-semibold text-[var(--cast-iron)] transition hover:-translate-y-0.5 hover:shadow-lg">
             Try Ask Acadiana
           </Link>

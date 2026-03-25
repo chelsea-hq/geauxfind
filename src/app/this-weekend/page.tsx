@@ -22,7 +22,7 @@ export default function ThisWeekend() {
         <div className="rounded-2xl border border-[var(--warm-gray)]/20 bg-white p-4">
           <h2 className="font-semibold">Weather Outlook</h2>
           <p className="mt-2 text-sm text-[var(--warm-gray)]">{weekendHighlights.weather}</p>
-          <p className="mt-2 text-xs text-[var(--warm-gray)]/80">Forecast placeholder — live weather integration coming soon.</p>
+          <p className="mt-2 text-xs text-[var(--warm-gray)]/80">Forecast snapshot for now — live weather integration planned next phase.</p>
         </div>
         <div className="rounded-2xl border border-[var(--warm-gray)]/20 bg-white p-4 md:col-span-2">
           <h2 className="font-semibold">Food Specials</h2>

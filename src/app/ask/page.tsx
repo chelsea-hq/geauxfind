@@ -1,6 +1,7 @@
 "use client";
 
 import { FormEvent, useMemo, useState } from "react";
+import { useLocation } from "@/hooks/useLocation";
 
 type ChatMessage = {
   role: "user" | "assistant";
@@ -25,6 +26,7 @@ export default function AskPage() {
   ]);
   const [input, setInput] = useState("");
   const [isLoading, setIsLoading] = useState(false);
+  const { lat, lng, city, loading: locating, requestLocation } = useLocation();
 
   const canSend = useMemo(() => !!input.trim() && !isLoading, [input, isLoading]);
 
@@ -44,6 +46,7 @@ export default function AskPage() {
         body: JSON.stringify({
           question,
           history: messages.filter((m) => m.content.trim().length > 0),
+          location: { lat, lng, city },
         }),
       });
 
@@ -129,6 +132,17 @@ export default function AskPage() {
       <p className="mt-2 text-sm text-[var(--warm-gray)] md:text-base">
         Your local AI guide for food, music, festivals, and hidden gems across South Louisiana.
       </p>
+      <div className="mt-3 flex items-center gap-3 text-xs text-[var(--warm-gray)] md:text-sm">
+        <span>Current area: {city}</span>
+        <button
+          type="button"
+          onClick={requestLocation}
+          disabled={locating}
+          className="rounded-full border border-[var(--warm-gray)]/30 bg-white px-3 py-1 transition hover:bg-[var(--cream-bg)] disabled:opacity-50"
+        >
+          {locating ? "Locating..." : "Use my exact location"}
+        </button>
+      </div>
 
       <div className="mt-5 flex flex-wrap gap-2">
         {suggestions.map((suggestion) => (
