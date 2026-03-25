@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { MapPlaceholder } from "@/components/MapPlaceholder";
+import { MapWrapper } from "@/components/MapWrapper";
 import { ReviewCard } from "@/components/ReviewCard";
 import { PlaceCard } from "@/components/cards/PlaceCard";
 import { PlaceImage } from "@/components/PlaceImage";
@@ -9,11 +9,26 @@ import { RatingStars } from "@/components/RatingStars";
 import { ReviewSummaryCard } from "@/components/ReviewSummaryCard";
 import { readJsonFile } from "@/lib/community-data";
 import type { BusinessClaim } from "@/types";
+import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/seo";
+import { JsonLd } from "@/components/JsonLd";
+import { RelatedLinks } from "@/components/RelatedLinks";
 
 export const dynamic = "force-dynamic";
 
 export async function generateStaticParams() {
   return places.map((p) => ({ slug: p.slug }));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const place = places.find((p) => p.slug === slug);
+  if (!place) return buildMetadata({ title: "Place | GeauxFind", description: "Discover local spots in Acadiana.", path: `/place/${slug}` });
+  return buildMetadata({
+    title: `${place.name} — ${place.category} in ${place.city} | GeauxFind`,
+    description: place.description,
+    path: `/place/${place.slug}`,
+  });
 }
 
 type PhotoRecord = { id: string; slug: string; url: string; caption?: string; createdAt: string };
@@ -33,9 +48,33 @@ export default async function PlaceDetail({ params }: { params: Promise<{ slug: 
 
   const mainImage = submittedPhotos[0]?.url || place.image;
   const gallery = [...submittedPhotos.map((p) => p.url), ...place.gallery];
+  const schemaType = place.category === "food" ? "Restaurant" : "LocalBusiness";
+  const localBusinessSchema = {
+    "@context": "https://schema.org",
+    "@type": schemaType,
+    name: place.name,
+    description: place.description,
+    image: mainImage,
+    telephone: place.phone,
+    url: place.website || `https://geauxfind.vercel.app/place/${place.slug}`,
+    servesCuisine: place.cuisine,
+    priceRange: place.price,
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: place.address,
+      addressLocality: place.city,
+      addressRegion: "LA",
+    },
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: String(place.rating),
+      reviewCount: String(place.reviews.length),
+    },
+  };
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-10">
+      <JsonLd data={localBusinessSchema} />
       <div className="h-80 overflow-hidden rounded-3xl">
         <PlaceImage src={mainImage} alt={place.name} category={place.category} className="h-full w-full object-cover" />
       </div>
@@ -44,7 +83,7 @@ export default async function PlaceDetail({ params }: { params: Promise<{ slug: 
           <h1 className="font-serif text-4xl text-[var(--cajun-red)]">{place.name} {verified ? <span className="text-xl">✅ Verified</span> : null}</h1>
           <p className="mt-2 text-[var(--warm-gray)]">{place.cuisine} · {place.price} · {place.address}</p>
           <RatingStars rating={place.rating} />
-          <div className="mt-6"><MapPlaceholder /></div>
+          <div className="mt-6"><MapWrapper places={[place]} /></div>
           <ReviewSummaryCard slug={place.slug} />
           <h2 className="mb-3 mt-8 font-serif text-2xl">Community Reviews</h2>
           <div className="space-y-3">{place.reviews.map((r) => <ReviewCard key={r.id} review={r} />)}</div>
@@ -83,6 +122,14 @@ export default async function PlaceDetail({ params }: { params: Promise<{ slug: 
 
       <h2 className="mb-4 mt-10 font-serif text-2xl">Similar Places</h2>
       <div className="grid gap-4 md:grid-cols-2">{similar.map((p) => <PlaceCard key={p.slug} place={p} />)}</div>
+
+      <RelatedLinks
+        title="More spots you might like"
+        links={places
+          .filter((p) => p.slug !== slug && (p.city === place.city || p.category === place.category))
+          .slice(0, 6)
+          .map((p) => ({ href: `/place/${p.slug}`, label: p.name, description: `${p.city} • ${p.category}` }))}
+      />
     </main>
   );
 }

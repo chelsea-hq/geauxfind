@@ -9,16 +9,10 @@ import { usePathname } from "next/navigation";
 const links = [
   ["/", "Home"],
   ["/explore", "Explore"],
-  ["/community", "Drop a Geaux"],
-  ["/claim", "Claim Biz"],
-  ["/alerts", "Alerts"],
-  ["/crawfish", "Crawfish 🦞"],
-  ["/vibe", "Vibe Match"],
-  ["/weekend", "Weekend Planner"],
-  ["/plan", "Plan My Day"],
-  ["/trending", "Trending"],
+  ["/plan", "Plan"],
   ["/whos-got-it", "Who's Got It"],
-  ["/ask", "Ask Geaux 🐊"],
+  ["/community", "Community"],
+  ["/crawfish", "Crawfish 🦞"],
 ] as const;
 
 export function SiteHeader() {

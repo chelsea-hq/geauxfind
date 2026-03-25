@@ -9,6 +9,8 @@ import { EventCard } from "@/components/cards/EventCard";
 import { PlaceCard } from "@/components/cards/PlaceCard";
 import { NewsletterSignup } from "@/components/sections/NewsletterSignup";
 import { events, places, recipes } from "@/data/mock-data";
+import { JsonLd } from "@/components/JsonLd";
+import { FaqSection } from "@/components/FaqSection";
 import type { WhatsNewItem } from "@/types";
 
 export default function Home() {
@@ -70,8 +72,22 @@ export default function Home() {
     return () => observer.disconnect();
   }, []);
 
+  const websiteSchema = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "GeauxFind",
+    url: "https://geauxfind.vercel.app",
+    description: "AI-curated local discovery for Acadiana, Louisiana",
+    potentialAction: {
+      "@type": "SearchAction",
+      target: "https://geauxfind.vercel.app/search?q={search_term_string}",
+      "query-input": "required name=search_term_string",
+    },
+  };
+
   return (
     <main className="pb-16">
+      <JsonLd data={websiteSchema} />
       {/* Hero — compact, Cajun-inspired illustrated background */}
       <section className="cajun-hero relative overflow-hidden px-4 pb-10 pt-24 md:pb-14 md:pt-28">
         {/* Decorative SVG elements */}
@@ -118,8 +134,7 @@ export default function Home() {
               <Link href="/explore" className="inline-flex min-h-11 shrink-0 items-center rounded-full border border-white/20 px-3 py-1.5 transition-colors duration-200 hover:border-white/50 hover:text-white">🍴 Restaurants</Link>
               <Link href="/crawfish" className="inline-flex min-h-11 shrink-0 items-center rounded-full border border-white/20 px-3 py-1.5 transition-colors duration-200 hover:border-white/50 hover:text-white">🦞 Crawfish</Link>
               <Link href="/events" className="inline-flex min-h-11 shrink-0 items-center rounded-full border border-white/20 px-3 py-1.5 transition-colors duration-200 hover:border-white/50 hover:text-white">🎶 Events</Link>
-              <Link href="/vibe" className="inline-flex min-h-11 shrink-0 items-center rounded-full border border-white/20 px-3 py-1.5 transition-colors duration-200 hover:border-white/50 hover:text-white">✨ Vibe Match</Link>
-              <Link href="/plan" className="inline-flex min-h-11 shrink-0 items-center rounded-full border border-white/20 px-3 py-1.5 transition-colors duration-200 hover:border-white/50 hover:text-white">🗺️ Plan My Day</Link>
+              <Link href="/plan" className="inline-flex min-h-11 shrink-0 items-center rounded-full border border-white/20 px-3 py-1.5 transition-colors duration-200 hover:border-white/50 hover:text-white">🗺️ Plan Your Day</Link>
               <Link href="/whos-got-it" className="inline-flex min-h-11 shrink-0 items-center rounded-full border border-white/20 px-3 py-1.5 transition-colors duration-200 hover:border-white/50 hover:text-white">⚔️ Who&apos;s Got It?</Link>
               <Link href="/ask" className="inline-flex min-h-11 shrink-0 items-center rounded-full border border-white/20 px-3 py-1.5 transition-colors duration-200 hover:border-white/50 hover:text-white">🐊 Ask Geaux</Link>
             </div>
@@ -231,6 +246,26 @@ export default function Home() {
       ) : null}
 
       <section className="mx-auto mt-16 max-w-6xl px-4 reveal"><NewsletterSignup /></section>
+
+      <section className="mx-auto max-w-6xl px-4">
+        <FaqSection
+          title="Acadiana Quick Answers"
+          items={[
+            {
+              question: "What is Acadiana?",
+              answer: "Acadiana is the culturally rich south Louisiana region known for Cajun and Creole food, music, festivals, and warm community traditions.",
+            },
+            {
+              question: "Best restaurants in Lafayette LA?",
+              answer: "Top Lafayette picks often include local Cajun seafood spots, boudin favorites, and brunch destinations — GeauxFind helps you filter by vibe, city, and budget.",
+            },
+            {
+              question: "Things to do in Cajun Country?",
+              answer: "In Cajun Country you can catch live zydeco, explore food trails, attend festivals, discover hidden local finds, and plan weekend adventures across Acadiana.",
+            },
+          ]}
+        />
+      </section>
     </main>
   );
 }

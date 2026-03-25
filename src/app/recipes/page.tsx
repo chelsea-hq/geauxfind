@@ -1,6 +1,13 @@
 import Link from "next/link";
 import { Suspense } from "react";
 import { CategoryPage } from "@/components/sections/CategoryPage";
+import { buildMetadata } from "@/lib/seo";
+
+export const metadata = buildMetadata({
+  title: "Cajun Recipes from Acadiana Kitchens | GeauxFind",
+  description: "Cook authentic Cajun-inspired recipes with step-by-step guidance from the GeauxFind community cookbook.",
+  path: "/recipes",
+});
 
 export default function Page() {
   return (

@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { NewsletterSignup } from "@/components/sections/NewsletterSignup";
+import { FaqSection } from "@/components/FaqSection";
 import crawfishData from "../../../data/crawfish-season.json";
 
 type Spot = (typeof crawfishData.spots)[number];
@@ -307,6 +308,14 @@ export default function CrawfishPage() {
       </section>
 
       <section className="mx-auto mt-12 max-w-6xl px-4">
+        <FaqSection
+          title="Crawfish Season FAQ"
+          items={[
+            { question: "When is crawfish season?", answer: "Crawfish season usually runs from late winter through early summer, with March through May often considered peak season in Acadiana." },
+            { question: "Where to find cheapest crawfish in Lafayette?", answer: "Check the GeauxFind crawfish tracker regularly — it highlights current price ranges and local boil spots around Lafayette and nearby cities." },
+            { question: "What's the best time to buy crawfish?", answer: "You’ll usually get better pricing during peak spring production and by shopping weekday boils before weekend demand spikes." },
+          ]}
+        />
         <div className="rounded-3xl border border-[var(--bayou-gold)]/30 bg-[var(--cream-bg)] p-6 md:p-8">
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-[var(--cajun-red)]">Weekly Crawfish Intel</p>
           <h3 className="mt-2 text-3xl">Get weekly crawfish price updates</h3>

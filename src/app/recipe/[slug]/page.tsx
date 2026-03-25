@@ -2,9 +2,25 @@ import { notFound } from "next/navigation";
 import { recipes } from "@/data/mock-data";
 import { RatingStars } from "@/components/RatingStars";
 import { RecipeChecklist } from "@/components/RecipeChecklist";
+import type { Metadata } from "next";
+import { buildMetadata } from "@/lib/seo";
+import { JsonLd } from "@/components/JsonLd";
+import { RelatedLinks } from "@/components/RelatedLinks";
+import { places } from "@/data/mock-data";
 
 export async function generateStaticParams() {
   return recipes.map((r) => ({ slug: r.slug }));
+}
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  const recipe = recipes.find((r) => r.slug === slug);
+  if (!recipe) return buildMetadata({ title: "Recipe | GeauxFind", description: "Discover Cajun recipes.", path: `/recipe/${slug}` });
+  return buildMetadata({
+    title: `${recipe.title} Recipe — Cajun Cooking | GeauxFind`,
+    description: `Learn how to make ${recipe.title} with prep tips, ingredients, and step-by-step Cajun cooking instructions.`,
+    path: `/recipe/${recipe.slug}`,
+  });
 }
 
 export default async function RecipeDetail({ params }: { params: Promise<{ slug: string }> }) {
@@ -12,8 +28,21 @@ export default async function RecipeDetail({ params }: { params: Promise<{ slug:
   const recipe = recipes.find((r) => r.slug === slug);
   if (!recipe) return notFound();
 
+  const recipeSchema = {
+    "@context": "https://schema.org",
+    "@type": "Recipe",
+    name: recipe.title,
+    prepTime: recipe.prepTime,
+    cookTime: recipe.cookTime,
+    recipeYield: `${recipe.servings} servings`,
+    recipeIngredient: recipe.ingredients,
+    recipeInstructions: recipe.steps,
+    image: recipe.image,
+  };
+
   return (
     <main className="mx-auto max-w-5xl px-4 py-10">
+      <JsonLd data={recipeSchema} />
       <div className="h-80 overflow-hidden rounded-3xl">
         <img src={recipe.image} alt={recipe.title} className="h-full w-full object-cover" />
       </div>
@@ -40,6 +69,14 @@ export default async function RecipeDetail({ params }: { params: Promise<{ slug:
         </section>
       </div>
       <p className="mt-6 text-sm text-[var(--warm-gray)]">Inspired by {recipe.inspiredBy}</p>
+
+      <RelatedLinks
+        title="Taste it around town"
+        links={places
+          .filter((p) => p.category === "food" && (p.cuisine?.toLowerCase().includes("cajun") || p.tags.some((t) => recipe.title.toLowerCase().includes(t.toLowerCase()))))
+          .slice(0, 6)
+          .map((p) => ({ href: `/place/${p.slug}`, label: p.name, description: `${p.city} • ${p.cuisine || "Local cuisine"}` }))}
+      />
     </main>
   );
 }

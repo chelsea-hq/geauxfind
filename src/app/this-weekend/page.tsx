@@ -1,5 +1,12 @@
 import { events, weekendHighlights } from "@/data/mock-data";
 import { EventCard } from "@/components/cards/EventCard";
+import { buildMetadata } from "@/lib/seo";
+
+export const metadata = buildMetadata({
+  title: "This Weekend in Acadiana — Events, Eats & Plans | GeauxFind",
+  description: "See your weekend roundup for Acadiana with local events, food specials, music, and weather highlights.",
+  path: "/this-weekend",
+});
 
 export default function ThisWeekend() {
   const now = new Date();

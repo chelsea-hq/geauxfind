@@ -1,4 +1,11 @@
 import { getSeasonalSignals, getTrending } from "@/lib/trends";
+import { buildMetadata } from "@/lib/seo";
+
+export const metadata = buildMetadata({
+  title: "Trending Searches in Acadiana | GeauxFind",
+  description: "Track what people are searching for right now across Acadiana, including seasonal local trends.",
+  path: "/trending",
+});
 
 function Sparkline({ values }: { values: number[] }) {
   const max = Math.max(...values, 1);

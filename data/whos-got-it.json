@@ -15,7 +15,7 @@
       "description": "Smoked, steamed, spicy, or classic — every parish swears theirs is best.",
       "contenders": [
         { "placeName": "Billy's Boudin & Cracklin", "slug": "billy-s-boudin-cracklin", "badge": "👑 Crowd Favorite", "caseFor": "Consistent links with rich seasoning and that perfect snap. It's the benchmark people compare everyone else to.", "rating": 4.7 },
-        { "placeName": "Best Stop Supermarket", "slug": "best-stop-supermarket", "badge": "🏆 Luna's Pick", "caseFor": "Balanced spice, juicy texture, and cracklins that hit every time. A road-trip stop that's worth the detour.", "rating": 4.8 },
+        { "placeName": "Best Stop Supermarket", "slug": "best-stop-supermarket", "badge": "🏆 Geaux's Pick", "caseFor": "Balanced spice, juicy texture, and cracklins that hit every time. A road-trip stop that's worth the detour.", "rating": 4.8 },
         { "placeName": "Kartchner's Specialty Meats", "slug": "kartchner-s-specialty-meats", "badge": "🌶️ Spicy Take", "caseFor": "Flavor-forward and a little bolder than average. If you like your boudin with attitude, this is your move.", "rating": 4.6 },
         { "placeName": "Boudin & Cracklins", "slug": "boudin-and-cracklins-rayne", "badge": "🆕 Rising Star", "caseFor": "Underrated and climbing fast with locals. Great value and a no-frills vibe that feels old-school Cajun.", "rating": 4.4 }
       ]
@@ -36,7 +36,7 @@
       "description": "Spice level, peel quality, and price per pound — this one can start a family feud.",
       "contenders": [
         { "placeName": "Crawfish Time", "slug": "crawfish-time", "badge": "👑 Crowd Favorite", "caseFor": "Strong boil flavor and steady quality through peak season. A go-to when you don't want to gamble.", "rating": 4.5 },
-        { "placeName": "Hawk's Restaurant", "slug": "hawks-restaurant", "badge": "🏆 Luna's Pick", "caseFor": "Legendary local reputation and serious flavor depth. This is where crawfish memories get made.", "rating": 4.8 },
+        { "placeName": "Hawk's Restaurant", "slug": "hawks-restaurant", "badge": "🏆 Geaux's Pick", "caseFor": "Legendary local reputation and serious flavor depth. This is where crawfish memories get made.", "rating": 4.8 },
         { "placeName": "Dwight's Restaurant", "slug": "dwights-restaurant", "badge": "🆕 Rising Star", "caseFor": "Big portions, solid heat, and improving every season. The buzz keeps growing.", "rating": 4.4 }
       ],
       "relatedLink": "/crawfish"
@@ -47,7 +47,7 @@
       "description": "Warm, boozy sauce or classic sweet cream? The spoon battles are real.",
       "contenders": [
         { "placeName": "Fezzo's Seafood, Steakhouse & Oyster Bar", "slug": "fezzo-s-seafood-steakhouse-oyster-bar", "badge": "👑 Crowd Favorite", "caseFor": "Rich custard body with a sauce that'll make you scrape the bowl.", "rating": 4.6 },
-        { "placeName": "Bon Temps Grill", "slug": "bon-temps-grill", "badge": "🏆 Luna's Pick", "caseFor": "Decadent but balanced — sweet without going overboard.", "rating": 4.7 }
+        { "placeName": "Bon Temps Grill", "slug": "bon-temps-grill", "badge": "🏆 Geaux's Pick", "caseFor": "Decadent but balanced — sweet without going overboard.", "rating": 4.7 }
       ]
     },
     {
@@ -73,7 +73,7 @@
       "type": "snack",
       "description": "Peppered strips and smoky chew — glovebox essentials for every road trip.",
       "contenders": [
-        { "placeName": "Kartchner's Specialty Meats", "slug": "kartchner-s-specialty-meats", "badge": "🏆 Luna's Pick", "caseFor": "Robust seasoning and serious smoke depth.", "rating": 4.6 },
+        { "placeName": "Kartchner's Specialty Meats", "slug": "kartchner-s-specialty-meats", "badge": "🏆 Geaux's Pick", "caseFor": "Robust seasoning and serious smoke depth.", "rating": 4.6 },
         { "placeName": "Don's Specialty Meats", "slug": "dons-specialty-meats", "badge": "👑 Crowd Favorite", "caseFor": "Classic texture with just enough heat.", "rating": 4.6 }
       ]
     },
@@ -92,7 +92,7 @@
       "description": "Dark roux loyalty runs deep — this debate can last all winter.",
       "contenders": [
         { "placeName": "Bon Temps Grill", "slug": "bon-temps-grill", "badge": "👑 Crowd Favorite", "caseFor": "Rich roux and deep Cajun flavor in every spoon.", "rating": 4.7 },
-        { "placeName": "Fezzo's Seafood, Steakhouse & Oyster Bar", "slug": "fezzo-s-seafood-steakhouse-oyster-bar", "badge": "🏆 Luna's Pick", "caseFor": "Hearty portions with a soulful, old-school finish.", "rating": 4.6 }
+        { "placeName": "Fezzo's Seafood, Steakhouse & Oyster Bar", "slug": "fezzo-s-seafood-steakhouse-oyster-bar", "badge": "🏆 Geaux's Pick", "caseFor": "Hearty portions with a soulful, old-school finish.", "rating": 4.6 }
       ]
     },
     {

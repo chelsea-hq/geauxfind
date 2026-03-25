@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { FormEvent, useMemo, useState } from "react";
 import { useLocation } from "@/hooks/useLocation";
+import { FaqSection } from "@/components/FaqSection";
 
 type ChatMessage = {
   role: "user" | "assistant";
@@ -149,6 +150,14 @@ export default function AskPage() {
           </div>
         </form>
       </section>
+
+      <FaqSection
+        items={[
+          { question: "What is GeauxFind?", answer: "GeauxFind is an AI-powered local discovery platform focused on Acadiana food, events, music, and hidden gems." },
+          { question: "How does Ask Geaux work?", answer: "Ask Geaux combines your question, local context, and GeauxFind data to recommend places, experiences, and plans around Cajun Country." },
+          { question: "Is GeauxFind free?", answer: "Yes, GeauxFind is free for locals and visitors who want better recommendations across Acadiana." },
+        ]}
+      />
     </main>
   );
 }

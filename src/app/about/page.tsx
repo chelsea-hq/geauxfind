@@ -1,3 +1,11 @@
+import { buildMetadata } from "@/lib/seo";
+
+export const metadata = buildMetadata({
+  title: "About GeauxFind — Acadiana's AI Local Discovery Hub",
+  description: "Learn how GeauxFind helps locals and visitors discover the best food, events, and culture across Acadiana.",
+  path: "/about",
+});
+
 export default function AboutPage() {
   return (
     <main className="mx-auto max-w-4xl px-4 py-10">

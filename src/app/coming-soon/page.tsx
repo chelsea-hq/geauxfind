@@ -1,3 +1,11 @@
+import { buildMetadata } from "@/lib/seo";
+
+export const metadata = buildMetadata({
+  title: "Coming Soon | GeauxFind",
+  description: "This GeauxFind feature is coming soon. Stay tuned, cher.",
+  path: "/coming-soon",
+});
+
 export default function ComingSoonPage() {
   return (
     <main className="mx-auto max-w-3xl px-4 py-16 text-center">

@@ -8,7 +8,9 @@ import { PlaceCard } from "@/components/cards/PlaceCard";
 import { FilterBar } from "@/components/FilterBar";
 import { SearchBar } from "@/components/SearchBar";
 import { VibeFilter, VibeKey, applyVibeFilter } from "@/components/VibeFilter";
+import { MapWrapper } from "@/components/MapWrapper";
 import { places } from "@/data/mock-data";
+import { JsonLd } from "@/components/JsonLd";
 
 const PAGE_SIZE = 12;
 const categoryMap = [
@@ -71,12 +73,24 @@ function ExploreContent() {
   }, [baseFiltered, category, sort]);
 
   const results = filtered.slice(0, visibleCount);
+  const itemListSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Top places to explore in Acadiana",
+    itemListElement: places.slice(0, 10).map((place, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: place.name,
+      url: `https://geauxfind.vercel.app/place/${place.slug}`,
+    })),
+  };
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-10">
+      <JsonLd data={itemListSchema} />
       <section className="rounded-[12px] bg-[linear-gradient(120deg,#1a3a2a,#4a7c59)] p-8 text-white">
         <h1 className="text-4xl md:text-5xl">Explore Acadiana</h1>
-        <p className="mt-2 text-white/85">Filter by vibe, city, and flavor to uncover your next local favorite.</p>
+        <p className="mt-2 text-white/85">From Lafayette classics to hidden backroad gems, explore the best of Acadiana by vibe, city, cuisine, and local flavor.</p>
         <div className="mt-5"><SearchBar /></div>
       </section>
 
@@ -101,6 +115,8 @@ function ExploreContent() {
 
       <div className="mt-4"><FilterBar cities={cities} city={city} setCity={(v) => setParam("city", v)} prices={["$", "$$", "$$$"]} selectedPrices={selectedPrices} togglePrice={(p) => { const next = selectedPrices.includes(p) ? selectedPrices.filter((x) => x !== p) : [...selectedPrices, p]; setParam("price", next.join(",")); }} rating={rating} setRating={(v) => setParam("rating", String(v))} tags={tags} selectedTag={tag} setSelectedTag={(v) => setParam("tag", v)} clear={() => { router.push("/explore"); setVisibleCount(PAGE_SIZE); }} /></div>
       <div className="mt-4"><VibeFilter selected={vibe} onChange={(v) => setParam("vibe", v)} /></div>
+
+      <MapWrapper places={filtered.slice(0, 50)} className="mt-6" />
 
       <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
         <p className="text-sm text-[var(--warm-gray)]">Showing {results.length} of {filtered.length} places</p>
