@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Playfair_Display, Inter } from "next/font/google";
 import "./globals.css";
-import Link from "next/link";
 import { Footer } from "@/components/layout/Footer";
 import { MobileBottomNav } from "@/components/layout/MobileBottomNav";
+import { SiteHeader } from "@/components/layout/SiteHeader";
 
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-display" });
 const inter = Inter({ subsets: ["latin"], variable: "--font-body" });
@@ -34,12 +34,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="en">
       <body className={`${playfair.variable} ${inter.variable} bg-[var(--cream-bg)] pb-20 text-[var(--cast-iron)] md:pb-0`}>
-        <header className="sticky top-0 z-30 border-b border-[var(--warm-gray)]/15 bg-[var(--cream-bg)]/95 backdrop-blur">
-          <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
-            <Link href="/" className="font-serif text-2xl text-[var(--cajun-red)]">GeauxFind ⚜️</Link>
-            <nav className="hidden gap-5 text-sm md:flex"><Link href="/food">Food</Link><Link href="/events">Events</Link><Link href="/music">Music</Link><Link href="/recipes">Recipes</Link><Link href="/ask">Ask Acadiana</Link></nav>
-          </div>
-        </header>
+        <SiteHeader />
         {children}
         <Footer />
         <MobileBottomNav />

@@ -29,6 +29,9 @@ export interface Place {
   google_maps_url?: string;
   photo_references?: string[];
   price_level?: string;
+  smartTags?: string[];
+  featured?: boolean;
+  featuredReason?: string;
 }
 
 export interface Event {

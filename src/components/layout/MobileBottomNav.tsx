@@ -1,9 +1,9 @@
 import Link from "next/link";
-import { House, Search, MessageCircleQuestion, Calendar, UtensilsCrossed } from "lucide-react";
+import { House, Sparkles, MessageCircleQuestion, Calendar, UtensilsCrossed } from "lucide-react";
 
 const items = [
   { href: "/", icon: House, label: "Home" },
-  { href: "/search", icon: Search, label: "Search" },
+  { href: "/whats-new", icon: Sparkles, label: "New" },
   { href: "/this-weekend", icon: Calendar, label: "Weekend" },
   { href: "/food", icon: UtensilsCrossed, label: "Food" },
   { href: "/ask", icon: MessageCircleQuestion, label: "Ask" }
