@@ -1,0 +1,207 @@
+import { NextRequest, NextResponse } from "next/server";
+import {
+  buildDatasetSummary,
+  buildSearchContext,
+  getCurrentEvents,
+  getFeaturedRecipes,
+} from "@/lib/search-context";
+
+type ChatMessage = {
+  role: "user" | "assistant" | "system";
+  content: string;
+};
+
+function formatPrompt(question: string) {
+  const summary = buildDatasetSummary();
+  const relevantPlaces = buildSearchContext(question, 50);
+  const events = getCurrentEvents().slice(0, 8);
+  const recipes = getFeaturedRecipes().slice(0, 6);
+
+  const topByCategory = summary.topRatedByCategory
+    .map(
+      ({ category, picks }) =>
+        `- ${category}: ${picks
+          .map((p) => `${p.name} (${p.rating.toFixed(1)}, ${p.city}) [/${p.slug}]`)
+          .join("; ")}`
+    )
+    .join("\n");
+
+  const placeContext = relevantPlaces
+    .map(
+      (place) =>
+        `- ${place.name} | slug: ${place.slug} | rating: ${place.rating.toFixed(1)} | city: ${place.city} | category: ${place.category} | tags: ${place.tags.join(", "
+        )} | description: ${place.description}`
+    )
+    .join("\n");
+
+  const eventContext = events
+    .map(
+      (event) =>
+        `- ${event.name} (${event.date} ${event.time}) in ${event.city} at ${event.venue}. Price: ${event.price}. ${event.description}`
+    )
+    .join("\n");
+
+  const recipeContext = recipes
+    .map(
+      (recipe) =>
+        `- ${recipe.title} (rating ${recipe.rating.toFixed(1)}, difficulty ${recipe.difficulty}) inspired by ${recipe.inspiredBy}`
+    )
+    .join("\n");
+
+  const systemPrompt = `You are Ask Acadiana, a warm, casual, cajun-flavored local guide for South Louisiana.
+
+HARD RULES:
+1) Answer ONLY questions related to Acadiana / South Louisiana culture, food, events, and places.
+2) Use the provided database context as your primary source of truth.
+3) When mentioning a place, ALWAYS format it as [Place Name](/place/slug).
+4) Include ratings when recommending places.
+5) If the answer is uncertain or missing in context, say so honestly and suggest nearby alternatives.
+6) Keep responses concise, friendly, and useful.
+7) Try to suggest related ideas: "If you like X, also check out Y."
+
+DATABASE OVERVIEW:
+- Total places: ${summary.totalPlaces}
+- Categories: ${summary.categories.join(", ")}
+- Cities: ${summary.cities.join(", ")}
+
+Top-rated by category:
+${topByCategory}
+
+Current events:
+${eventContext}
+
+Featured recipes:
+${recipeContext}
+
+Most relevant places for this user question:
+${placeContext}
+`;
+
+  return systemPrompt;
+}
+
+export async function POST(request: NextRequest) {
+  try {
+    const { question, history } = (await request.json()) as {
+      question?: string;
+      history?: ChatMessage[];
+    };
+
+    if (!question || !question.trim()) {
+      return NextResponse.json({ error: "Question is required." }, { status: 400 });
+    }
+
+    const apiKey = process.env.VENICE_API_KEY;
+    if (!apiKey) {
+      return NextResponse.json({ error: "Missing VENICE_API_KEY." }, { status: 500 });
+    }
+
+    const systemPrompt = formatPrompt(question);
+
+    const cleanedHistory: ChatMessage[] = Array.isArray(history)
+      ? history
+          .filter(
+            (m): m is ChatMessage =>
+              !!m &&
+              typeof m.content === "string" &&
+              (m.role === "user" || m.role === "assistant")
+          )
+          .slice(-10)
+      : [];
+
+    const messages: ChatMessage[] = [
+      { role: "system", content: systemPrompt },
+      ...cleanedHistory,
+      { role: "user", content: question.trim() },
+    ];
+
+    const veniceResponse = await fetch("https://api.venice.ai/api/v1/chat/completions", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${apiKey}`,
+      },
+      body: JSON.stringify({
+        model: "qwen3-4b",
+        stream: true,
+        temperature: 0.7,
+        messages,
+      }),
+    });
+
+    if (!veniceResponse.ok || !veniceResponse.body) {
+      const errorText = await veniceResponse.text().catch(() => "Unable to read error from Venice API");
+      return NextResponse.json(
+        { error: `Venice API error: ${veniceResponse.status} ${errorText}` },
+        { status: 502 }
+      );
+    }
+
+    const encoder = new TextEncoder();
+    const decoder = new TextDecoder();
+
+    const stream = new ReadableStream({
+      async start(controller) {
+        const reader = veniceResponse.body!.getReader();
+        let buffer = "";
+
+        try {
+          while (true) {
+            const { value, done } = await reader.read();
+            if (done) break;
+
+            buffer += decoder.decode(value, { stream: true });
+            const lines = buffer.split("\n");
+            buffer = lines.pop() ?? "";
+
+            for (const line of lines) {
+              const trimmed = line.trim();
+              if (!trimmed.startsWith("data:")) continue;
+
+              const payload = trimmed.replace(/^data:\s*/, "");
+              if (!payload || payload === "[DONE]") {
+                controller.enqueue(encoder.encode(`data: ${JSON.stringify({ done: true })}\n\n`));
+                continue;
+              }
+
+              try {
+                const json = JSON.parse(payload) as {
+                  choices?: Array<{ delta?: { content?: string } }>;
+                };
+
+                const token = json.choices?.[0]?.delta?.content ?? "";
+                if (token) {
+                  controller.enqueue(encoder.encode(`data: ${JSON.stringify({ token })}\n\n`));
+                }
+              } catch {
+                // Ignore malformed payload chunks and continue streaming.
+              }
+            }
+          }
+
+          controller.enqueue(encoder.encode(`data: ${JSON.stringify({ done: true })}\n\n`));
+          controller.close();
+        } catch {
+          controller.enqueue(
+            encoder.encode(
+              `data: ${JSON.stringify({ error: "I'm having trouble thinking right now." })}\n\n`
+            )
+          );
+          controller.close();
+        } finally {
+          reader.releaseLock();
+        }
+      },
+    });
+
+    return new Response(stream, {
+      headers: {
+        "Content-Type": "text/event-stream",
+        "Cache-Control": "no-cache, no-transform",
+        Connection: "keep-alive",
+      },
+    });
+  } catch {
+    return NextResponse.json({ error: "I'm having trouble thinking right now." }, { status: 500 });
+  }
+}
