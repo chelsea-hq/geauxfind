@@ -1,12 +1,12 @@
 {
   "name": "GeauxFind",
   "short_name": "GeauxFind",
-  "description": "Cajun-themed local discovery for Acadiana",
+  "description": "Discover the best of Acadiana",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#FFF8F0",
+  "background_color": "#FAF7F2",
   "theme_color": "#8B1A1A",
   "icons": [
-    {"src": "/next.svg", "sizes": "any", "type": "image/svg+xml"}
+    { "src": "/icon.png", "sizes": "192x192", "type": "image/png" }
   ]
 }
