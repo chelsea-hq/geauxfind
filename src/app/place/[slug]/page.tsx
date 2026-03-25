@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { MapPlaceholder } from "@/components/MapPlaceholder";
 import { ReviewCard } from "@/components/ReviewCard";
 import { PlaceCard } from "@/components/cards/PlaceCard";
+import { PlaceImage } from "@/components/PlaceImage";
 import { places } from "@/data/mock-data";
 import { RatingStars } from "@/components/RatingStars";
 import { ReviewSummaryCard } from "@/components/ReviewSummaryCard";
@@ -36,7 +37,7 @@ export default async function PlaceDetail({ params }: { params: Promise<{ slug: 
   return (
     <main className="mx-auto max-w-6xl px-4 py-10">
       <div className="h-80 overflow-hidden rounded-3xl">
-        <img src={mainImage} alt={place.name} className="h-full w-full object-cover" />
+        <PlaceImage src={mainImage} alt={place.name} category={place.category} className="h-full w-full object-cover" />
       </div>
       <section className="mt-6 grid gap-6 lg:grid-cols-[1fr,320px]">
         <div>
