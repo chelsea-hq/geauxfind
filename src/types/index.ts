@@ -61,3 +61,17 @@ export interface Recipe {
   ingredients: string[];
   steps: string[];
 }
+
+export interface WhatsNewItem {
+  id: string;
+  title: string;
+  source: string;
+  sourceUrl: string;
+  url: string;
+  excerpt: string;
+  date: string;
+  imageUrl?: string;
+  category: string;
+  tags: string[];
+  city?: string;
+}

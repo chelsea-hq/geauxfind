@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { SearchBar } from "@/components/SearchBar";
 import { CategoryNav } from "@/components/CategoryNav";
 import { EventCard } from "@/components/cards/EventCard";
@@ -9,9 +9,11 @@ import { PlaceCard } from "@/components/cards/PlaceCard";
 import { applyVibeFilter, VibeFilter, VibeKey } from "@/components/VibeFilter";
 import { NewsletterSignup } from "@/components/sections/NewsletterSignup";
 import { events, places } from "@/data/mock-data";
+import type { WhatsNewItem } from "@/types";
 
 export default function Home() {
   const [vibe, setVibe] = useState<VibeKey>("all");
+  const [whatsNewItems, setWhatsNewItems] = useState<WhatsNewItem[]>([]);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -22,9 +24,23 @@ export default function Home() {
   };
 
   const featuredPlaces = useMemo(() => places.filter((p) => p.featured), []);
-  const newestItems = useMemo(() => places.slice(-4).reverse(), []);
+  const newestItems = useMemo(() => whatsNewItems.slice(0, 4), [whatsNewItems]);
   const weekendEvents = events.slice(0, 3);
   const vibeBest = useMemo(() => applyVibeFilter(places, vibe).slice(0, 6), [vibe]);
+
+  useEffect(() => {
+    const loadWhatsNew = async () => {
+      try {
+        const res = await fetch("/api/whats-new", { cache: "no-store" });
+        const data = (await res.json()) as WhatsNewItem[];
+        setWhatsNewItems(Array.isArray(data) ? data : []);
+      } catch {
+        setWhatsNewItems([]);
+      }
+    };
+
+    loadWhatsNew();
+  }, []);
 
   return (
     <main>
@@ -56,15 +72,21 @@ export default function Home() {
           <Link href="/whats-new" className="text-sm underline">See full feed</Link>
         </div>
         <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
-          {newestItems.map((p) => (
-            <article key={p.slug} className="overflow-hidden rounded-2xl border border-[var(--warm-gray)]/20 bg-white">
-              <img src={p.image} alt={p.name} className="h-36 w-full object-cover" />
+          {newestItems.map((item) => (
+            <a
+              key={`${item.source}-${item.id}`}
+              href={item.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="overflow-hidden rounded-2xl border border-[var(--warm-gray)]/20 bg-white"
+            >
+              {item.imageUrl ? <img src={item.imageUrl} alt={item.title} className="h-36 w-full object-cover" /> : <div className="h-36 w-full bg-[var(--cream-bg)]" />}
               <div className="p-4">
-                <p className="text-xs uppercase tracking-wide text-[var(--bayou-green)]">Recently Discovered</p>
-                <h3 className="font-serif text-xl">{p.name}</h3>
-                <p className="text-xs text-[var(--warm-gray)]">{p.city}</p>
+                <p className="text-xs uppercase tracking-wide text-[var(--bayou-green)]">{item.source}</p>
+                <h3 className="font-serif text-xl">{item.title}</h3>
+                <p className="text-xs text-[var(--warm-gray)]">{item.city ?? item.category}</p>
               </div>
-            </article>
+            </a>
           ))}
         </div>
       </section>
