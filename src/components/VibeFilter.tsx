@@ -6,11 +6,11 @@ export type VibeKey = "all" | "foodie" | "family" | "night-out" | "budget" | "ne
 
 const vibeOptions: { key: VibeKey; label: string }[] = [
   { key: "all", label: "✨ All Vibes" },
-  { key: "foodie", label: "🍳 Foodie" },
+  { key: "foodie", label: "🍽️ Foodie" },
   { key: "family", label: "👨‍👩‍👧 Family" },
   { key: "night-out", label: "🌙 Night Out" },
   { key: "budget", label: "💰 Budget" },
-  { key: "new-here", label: "🆕 New Here" },
+  { key: "new-here", label: "✨ New Here" },
   { key: "live-music", label: "🎵 Live Music" }
 ];
 
@@ -54,7 +54,7 @@ export function VibeFilter({ selected, onChange }: { selected: VibeKey; onChange
               key={option.key}
               type="button"
               onClick={() => onChange(option.key)}
-              className={`whitespace-nowrap rounded-full border px-4 py-2 text-sm font-medium transition ${
+              className={`whitespace-nowrap rounded-full border px-4 py-2 text-sm font-medium transition-transform duration-150 active:scale-95 ${
                 active
                   ? "border-[var(--cajun-red)] bg-[var(--cajun-red)] text-white"
                   : "border-[var(--warm-gray)]/25 bg-white text-[var(--cast-iron)] hover:border-[var(--bayou-gold)]/50 hover:bg-[var(--cream-bg)]"
