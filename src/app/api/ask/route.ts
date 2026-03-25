@@ -1,3 +1,5 @@
+import { promises as fs } from "node:fs";
+import path from "node:path";
 import { NextRequest, NextResponse } from "next/server";
 import {
   buildDatasetSummary,
@@ -11,7 +13,35 @@ type ChatMessage = {
   content: string;
 };
 
-function formatPrompt(question: string, location?: { lat?: number; lng?: number; city?: string }) {
+type FacebookContextItem = {
+  title?: string;
+  summary?: string;
+  source?: string;
+  date?: string;
+  type?: string;
+  tags?: string[];
+};
+
+async function getFacebookContext() {
+  try {
+    const filePath = path.join(process.cwd(), "data", "facebook-feed.json");
+    const raw = await fs.readFile(filePath, "utf-8");
+    const parsed = JSON.parse(raw) as { items?: FacebookContextItem[] };
+
+    return (parsed.items || [])
+      .sort((a, b) => new Date(b.date || 0).getTime() - new Date(a.date || 0).getTime())
+      .slice(0, 12)
+      .map(
+        (item) =>
+          `- ${item.title || "Community update"} | type: ${item.type || "general"} | source: ${item.source || "Facebook"} | date: ${item.date || "unknown"} | summary: ${item.summary || "n/a"} | tags: ${(item.tags || []).join(", ")}`
+      )
+      .join("\n");
+  } catch {
+    return "";
+  }
+}
+
+async function formatPrompt(question: string, location?: { lat?: number; lng?: number; city?: string }) {
   const summary = buildDatasetSummary();
   const relevantPlaces = buildSearchContext(question, {
     limit: 50,
@@ -20,6 +50,7 @@ function formatPrompt(question: string, location?: { lat?: number; lng?: number;
   });
   const events = getCurrentEvents().slice(0, 8);
   const recipes = getFeaturedRecipes().slice(0, 6);
+  const facebookContext = await getFacebookContext();
 
   const topByCategory = summary.topRatedByCategory
     .map(
@@ -80,6 +111,9 @@ ${recipeContext}
 Most relevant places for this user question:
 ${placeContext}
 
+Recent Facebook community/news context (paraphrased):
+${facebookContext || "- No recent Facebook context available."}
+
 ${location?.city ? `User location context: The user is currently near ${location.city}. Prioritize places close to them. When multiple options exist, mention the nearest ones first.` : ""}
 `;
 
@@ -103,7 +137,7 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "Missing VENICE_API_KEY." }, { status: 500 });
     }
 
-    const systemPrompt = formatPrompt(question, location);
+    const systemPrompt = await formatPrompt(question, location);
 
     const cleanedHistory: ChatMessage[] = Array.isArray(history)
       ? history

@@ -9,7 +9,8 @@
     "lint": "eslint",
     "qa": "node scripts/qa-check.mjs",
     "seed:places": "node scripts/seed-places.js",
-    "scrape:whats-new": "node scripts/scrape-whats-new.mjs"
+    "scrape:whats-new": "node scripts/scrape-whats-new.mjs",
+    "scrape:facebook": "node scripts/apify-facebook-pipeline.mjs"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",

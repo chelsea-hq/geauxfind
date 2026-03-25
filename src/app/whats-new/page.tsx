@@ -2,18 +2,25 @@
 
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
-import type { WhatsNewItem } from "@/types";
 
-type FeedFilter = "All" | "New Restaurants" | "Opening Radar" | "Events" | "Food News";
-
-const filters: FeedFilter[] = ["All", "New Restaurants", "Opening Radar", "Events", "Food News"];
-
-const categoryMap: Record<Exclude<FeedFilter, "All">, string[]> = {
-  "New Restaurants": ["New Restaurant"],
-  "Opening Radar": ["Business Opening"],
-  Events: ["Event"],
-  "Food News": ["Food News", "Food Review"]
+type UnifiedItem = {
+  id: string;
+  title: string;
+  summary: string;
+  source: string;
+  sourceBadge: string;
+  sourceUrl: string;
+  url: string;
+  date: string;
+  category: string;
+  stream: "news" | "community";
+  engagement?: { likes: number; comments: number };
+  imageUrl?: string;
 };
+
+type FeedFilter = "All" | "News" | "Community" | "Events";
+
+const filters: FeedFilter[] = ["All", "News", "Community", "Events"];
 
 function formatDate(iso: string) {
   const d = new Date(iso);
@@ -21,15 +28,19 @@ function formatDate(iso: string) {
   return d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
 }
 
+function isEventItem(item: UnifiedItem) {
+  return /event|festival/i.test(item.category);
+}
+
 export default function WhatsNewPage() {
   const [active, setActive] = useState<FeedFilter>("All");
-  const [items, setItems] = useState<WhatsNewItem[] | null>(null);
+  const [items, setItems] = useState<UnifiedItem[] | null>(null);
 
   useEffect(() => {
     const load = async () => {
       try {
         const res = await fetch("/api/whats-new", { cache: "no-store" });
-        const data = (await res.json()) as WhatsNewItem[];
+        const data = (await res.json()) as UnifiedItem[];
         setItems(Array.isArray(data) ? data : []);
       } catch {
         setItems([]);
@@ -41,11 +52,9 @@ export default function WhatsNewPage() {
   const filtered = useMemo(() => {
     if (!items) return [];
     if (active === "All") return items;
-    if (active === "Opening Radar") {
-      return items.filter((item) => item.category === "Business Opening" || item.category.toLowerCase().includes("soon"));
-    }
-    const allowed = new Set(categoryMap[active]);
-    return items.filter((item) => allowed.has(item.category));
+    if (active === "News") return items.filter((item) => item.stream === "news" && !isEventItem(item));
+    if (active === "Community") return items.filter((item) => item.stream === "community" && !isEventItem(item));
+    return items.filter(isEventItem);
   }, [active, items]);
 
   if (items === null) {
@@ -62,7 +71,9 @@ export default function WhatsNewPage() {
       <div className="mb-6">
         <p className="text-xs uppercase tracking-[0.2em] text-[var(--bayou-green)]">Fresh from local sources</p>
         <h1 className="font-serif text-4xl text-[var(--cajun-red)]">What&apos;s New in Acadiana</h1>
-        <p className="mt-2 text-[var(--warm-gray)]">Openings, food news, and events from trusted Acadiana publications.</p>
+        <p className="mt-2 text-[var(--warm-gray)]">
+          Openings, food news, events, and community signals from trusted local media and public Facebook sources.
+        </p>
       </div>
 
       <div className="mb-6 flex gap-2 overflow-x-auto pb-2">
@@ -85,7 +96,7 @@ export default function WhatsNewPage() {
       <div className="space-y-4">
         {filtered.map((item) => (
           <a
-            key={`${item.source}-${item.id}`}
+            key={`${item.stream}-${item.source}-${item.id}`}
             href={item.url}
             target="_blank"
             rel="noopener noreferrer"
@@ -99,16 +110,23 @@ export default function WhatsNewPage() {
               )}
               <div className="flex-1 p-5">
                 <div className="mb-2 flex flex-wrap items-center gap-2">
-                  <span className="rounded-full bg-[var(--bayou-green)]/10 px-3 py-1 text-xs font-semibold text-[var(--bayou-green)]">{item.source}</span>
+                  <span className="rounded-full bg-[var(--bayou-green)]/10 px-3 py-1 text-xs font-semibold text-[var(--bayou-green)]">
+                    {item.sourceBadge}
+                  </span>
                   <span className="rounded-full bg-[var(--cream-bg)] px-3 py-1 text-xs text-[var(--cajun-red)]">{item.category}</span>
-                  {item.city ? <span className="rounded-full bg-[var(--cast-iron)]/10 px-3 py-1 text-xs text-[var(--cast-iron)]">{item.city}</span> : null}
                 </div>
                 <h2 className="font-serif text-2xl text-[var(--cast-iron)]">{item.title}</h2>
-                <p className="mt-2 line-clamp-2 text-sm text-[var(--cast-iron)]/85">{item.excerpt}</p>
+                <p className="mt-2 line-clamp-2 text-sm text-[var(--cast-iron)]/85">{item.summary}</p>
                 <div className="mt-3 flex flex-wrap items-center gap-3 text-xs text-[var(--warm-gray)]">
                   <span>{formatDate(item.date)}</span>
                   <span>•</span>
                   <span>Source: {item.source}</span>
+                  {item.engagement ? (
+                    <>
+                      <span>•</span>
+                      <span>👍 {item.engagement.likes} · 💬 {item.engagement.comments}</span>
+                    </>
+                  ) : null}
                 </div>
               </div>
             </article>
@@ -124,7 +142,7 @@ export default function WhatsNewPage() {
         <Link href="/" className="text-sm underline">
           Back to home
         </Link>
-        <p className="text-xs text-[var(--warm-gray)]">Powered by local journalism</p>
+        <p className="text-xs text-[var(--warm-gray)]">Powered by local journalism + community insights</p>
       </div>
     </main>
   );
