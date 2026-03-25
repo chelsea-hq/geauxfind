@@ -127,7 +127,7 @@ export default function WhosGotItPage() {
                 <ul className="mt-3 space-y-2 text-sm">
                   {item.allSpots.map((spot) => {
                     const place = places.find((p) => p.slug === spot.slug) || places.find((p) => p.name.toLowerCase().includes(spot.placeName.toLowerCase()));
-                    const familyBusiness = isLocalFamilyBusiness(spot.placeName) || spot.specialTag === "Local Family Business";
+                    const familyBusiness = isLocalFamilyBusiness(spot.placeName) || ('specialTag' in spot && spot.specialTag === "Local Family Business");
                     return (
                       <li key={`${item.item}-${spot.slug}`} className="rounded-lg border border-[var(--spanish-moss)]/15 bg-white p-2">
                         <div className="flex flex-wrap items-center gap-2">
