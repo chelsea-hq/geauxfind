@@ -25,7 +25,10 @@ export function Footer() {
             <div className="mt-3 space-y-2 text-sm">
               <Link href="/crawfish" className="gf-link">Crawfish Guide</Link><br />
               <Link href="/vibe" className="gf-link">Vibe Match</Link><br />
-              <Link href="/weekend" className="gf-link">Weekend Planner</Link>
+              <Link href="/weekend" className="gf-link">Weekend Planner</Link><br />
+              <Link href="/plan" className="gf-link">Plan My Day</Link><br />
+              <Link href="/trending" className="gf-link">Trending</Link><br />
+              <Link href="/whos-got-it" className="gf-link">Who&apos;s Got It</Link>
             </div>
           </div>
 

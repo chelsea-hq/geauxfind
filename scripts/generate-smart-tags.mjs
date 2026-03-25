@@ -73,14 +73,13 @@ function buildSmartTags(place) {
 async function run() {
   const raw = await fs.readFile(seedPath, "utf8");
   const data = JSON.parse(raw);
-
-  data.places = data.places.map((place) => ({
+  const places = (Array.isArray(data) ? data : (data.places ?? [])).map((place) => ({
     ...place,
     smartTags: buildSmartTags(place)
   }));
 
-  await fs.writeFile(seedPath, `${JSON.stringify(data, null, 2)}\n`, "utf8");
-  console.log(`Updated ${data.places.length} places with smartTags.`);
+  await fs.writeFile(seedPath, `${JSON.stringify(places, null, 2)}\n`, "utf8");
+  console.log(`Updated ${places.length} places with smartTags.`);
 }
 
 run().catch((error) => {

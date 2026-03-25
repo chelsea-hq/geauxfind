@@ -45,7 +45,7 @@ async function readJson(filePath, fallback) {
 
 async function main() {
   const [seed, mockDataSource, featuredHistory] = await Promise.all([
-    readJson(seedPath, { places: [] }),
+    readJson(seedPath, []),
     fs.readFile(mockDataPath, "utf8"),
     readJson(featuredHistoryPath, []),
   ]);
@@ -53,7 +53,7 @@ async function main() {
   const events = extractExportArray(mockDataSource, "events");
   const recipes = extractExportArray(mockDataSource, "recipes");
 
-  const places = Array.isArray(seed.places) ? seed.places : [];
+  const places = Array.isArray(seed) ? seed : (Array.isArray(seed?.places) ? seed.places : []);
   const featuredSet = new Set(Array.isArray(featuredHistory) ? featuredHistory : []);
 
   const highlights = [...places]

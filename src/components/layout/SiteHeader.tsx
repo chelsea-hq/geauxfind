@@ -15,6 +15,9 @@ const links = [
   ["/crawfish", "Crawfish 🦞"],
   ["/vibe", "Vibe Match"],
   ["/weekend", "Weekend Planner"],
+  ["/plan", "Plan My Day"],
+  ["/trending", "Trending"],
+  ["/whos-got-it", "Who's Got It"],
   ["/ask", "Ask Geaux 🐊"],
 ] as const;
 

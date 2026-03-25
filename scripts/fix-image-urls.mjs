@@ -4,6 +4,7 @@ import path from 'node:path';
 const seedPath = path.resolve('scripts/seed-data.json');
 const raw = fs.readFileSync(seedPath, 'utf8');
 const data = JSON.parse(raw);
+const places = Array.isArray(data) ? data : (data.places ?? []);
 
 const GOOGLE_PHOTO_REGEX = /\/v1\/(places\/[^/]+\/photos\/[^/?]+)\/media/i;
 
@@ -20,7 +21,7 @@ let replacedGoogleGallery = 0;
 let replacedGlobes = 0;
 let unresolved = 0;
 
-for (const place of data.places ?? []) {
+for (const place of places) {
   const image = place.image ?? '';
   const firstPhotoRef = place.photo_references?.[0] || extractPhotoRef(image);
 

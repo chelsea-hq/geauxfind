@@ -333,8 +333,8 @@ async function main() {
   await fs.mkdir(DATA_DIR, { recursive: true });
 
   const seedRaw = await fs.readFile(SEED_FILE, 'utf8').catch(() => '{}');
-  const seedData = safeJsonParse(seedRaw) || {};
-  const seedPlaces = Array.isArray(seedData.places) ? seedData.places : [];
+  const seedData = safeJsonParse(seedRaw) || [];
+  const seedPlaces = Array.isArray(seedData) ? seedData : (Array.isArray(seedData.places) ? seedData.places : []);
 
   const scrapedGroups = [];
   const allItems = [];

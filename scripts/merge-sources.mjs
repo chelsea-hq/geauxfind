@@ -47,7 +47,8 @@ async function main() {
   const gPath = path.resolve(__dirname, "../data/google-places-enrichment.json");
 
   const seed = await readJson(seedPath);
-  if (!seed?.places?.length) throw new Error("Missing scripts/seed-data.json places array");
+  const seedPlaces = Array.isArray(seed) ? seed : (seed?.places || []);
+  if (!seedPlaces.length) throw new Error("Missing scripts/seed-data.json places array");
 
   const yelp = (await readJson(yelpPath))?.records || [];
   const fsq = (await readJson(fsqPath))?.records || [];
@@ -58,7 +59,7 @@ async function main() {
   const gIndex = new Map(google.map((r) => [keyFor(r), r]));
 
   const conflicts = [];
-  const mergedPlaces = seed.places.map((p) => {
+  const mergedPlaces = seedPlaces.map((p) => {
     const key = keyFor(p);
     let out = { ...p };
     out = mergeOne(out, "yelp", yIndex.get(key), conflicts);
@@ -92,19 +93,15 @@ async function main() {
     }
   }
 
-  const final = {
-    generatedAt: new Date().toISOString(),
-    total: mergedPlaces.length + newFromExternal.length,
-    places: [...mergedPlaces, ...newFromExternal],
-    mergeReport: {
-      matched: mergedPlaces.length,
-      addedNew: newFromExternal.length,
-      conflicts: conflicts.slice(0, 500)
-    }
+  const finalPlaces = [...mergedPlaces, ...newFromExternal];
+  const mergeReport = {
+    matched: mergedPlaces.length,
+    addedNew: newFromExternal.length,
+    conflicts: conflicts.slice(0, 500)
   };
 
-  await writeFile(seedPath, `${JSON.stringify(final, null, 2)}\n`);
-  await writeFile(path.resolve(__dirname, "../data/merge-report.json"), `${JSON.stringify(final.mergeReport, null, 2)}\n`);
+  await writeFile(seedPath, `${JSON.stringify(finalPlaces, null, 2)}\n`);
+  await writeFile(path.resolve(__dirname, "../data/merge-report.json"), `${JSON.stringify(mergeReport, null, 2)}\n`);
   console.log(`Merged. Existing: ${mergedPlaces.length}, added: ${newFromExternal.length}, conflicts: ${conflicts.length}`);
 }
 

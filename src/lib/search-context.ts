@@ -3,9 +3,7 @@ import { events, recipes } from "@/data/mock-data";
 import { getCityCoordinates, haversineMiles } from "@/lib/distance";
 import { Event, Place, Recipe } from "@/types";
 
-type SeedData = {
-  places: Place[];
-};
+type SeedData = Place[] | { places?: Place[] };
 
 type SearchOptions = {
   limit?: number;
@@ -13,7 +11,8 @@ type SearchOptions = {
   userLng?: number;
 };
 
-const places = (seedData as SeedData).places;
+const normalizedSeed = seedData as SeedData;
+const places: Place[] = Array.isArray(normalizedSeed) ? normalizedSeed : (normalizedSeed.places ?? []);
 
 const tokenize = (input: string): string[] =>
   input

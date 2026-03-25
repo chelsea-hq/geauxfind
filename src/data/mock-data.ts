@@ -2,7 +2,9 @@ import seedData from "../../scripts/seed-data.json";
 import eventsData from "../../data/events.json";
 import { Event, Place, Recipe } from "@/types";
 
-export const places: Place[] = seedData.places as Place[];
+type SeedData = Place[] | { places?: Place[] };
+const normalizedSeed = seedData as SeedData;
+export const places: Place[] = Array.isArray(normalizedSeed) ? normalizedSeed : (normalizedSeed.places ?? []);
 
 export const events: Event[] = eventsData as Event[];
 

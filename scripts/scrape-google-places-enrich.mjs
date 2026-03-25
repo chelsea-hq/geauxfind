@@ -91,7 +91,7 @@ async function main() {
   try {
     const seedRaw = await readFile(new URL("./seed-data.json", import.meta.url), "utf8");
     const seed = JSON.parse(seedRaw);
-    seedCount = seed?.places?.length || 0;
+    seedCount = Array.isArray(seed) ? seed.length : (seed?.places?.length || 0);
   } catch {}
 
   await writeJson("data/google-places-enrichment.json", { generatedAt: new Date().toISOString(), ok: true, discovered: records.length, seedReferenceCount: seedCount, records });

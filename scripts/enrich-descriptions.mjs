@@ -4,6 +4,7 @@ import path from "node:path";
 const filePath = path.resolve(process.cwd(), "scripts/seed-data.json");
 const raw = fs.readFileSync(filePath, "utf8");
 const data = JSON.parse(raw);
+const places = Array.isArray(data) ? data : (data.places ?? []);
 
 const categoryRules = [
   { category: "food", keywords: ["restaurant", "grill", "seafood", "café", "cafe", "bakery", "diner", "kitchen", "bbq"] },
@@ -83,7 +84,7 @@ let recategorized = 0;
 let descriptionsUpdated = 0;
 let ratingsUpdated = 0;
 
-for (const place of data.places) {
+for (const place of places) {
   const nextCategory = pickCategory(place);
   if (place.category !== nextCategory) {
     place.category = nextCategory;

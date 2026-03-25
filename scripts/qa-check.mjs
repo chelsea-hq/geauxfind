@@ -1,256 +1,194 @@
 #!/usr/bin/env node
 /**
- * GeauxFind Automated QA Check
- * Checks every page for: broken images, console errors, missing content,
- * layout issues, dead links, and overall health.
- * 
- * Usage: node scripts/qa-check.mjs [--url https://geauxfind.com]
+ * GeauxFind QA Check (upgraded)
+ * - Page health + broken images + dead links
+ * - seed-data schema/quality checks
+ * - nav completeness checks
+ * - console error checks (Playwright when available)
  */
 
-const urlFlag = process.argv.find(a => a.startsWith('--url='));
-const urlIdx = process.argv.indexOf('--url');
-const BASE = urlFlag ? urlFlag.split('=')[1] 
-  : (urlIdx !== -1 && process.argv[urlIdx + 1]) ? process.argv[urlIdx + 1]
-  : 'https://geauxfind.com';
+import fs from "node:fs/promises";
+import path from "node:path";
 
-const PAGES = [
-  '/',
-  '/explore',
-  '/crawfish',
-  '/vibe',
-  '/weekend',
-  '/ask',
-  '/search?q=cajun',
-  '/food',
-  '/music',
-  '/events',
-  '/finds',
-  '/recipes',
-  '/whats-new',
-];
+const arg = (name, fallback = null) => {
+  const eq = process.argv.find((a) => a.startsWith(`--${name}=`));
+  if (eq) return eq.split("=")[1];
+  const idx = process.argv.indexOf(`--${name}`);
+  if (idx !== -1 && process.argv[idx + 1]) return process.argv[idx + 1];
+  return fallback;
+};
+
+const BASE = arg("url", "https://geauxfind.com");
+const ROOT = process.cwd();
+const PAGES = ["/", "/explore", "/crawfish", "/vibe", "/weekend", "/plan", "/whos-got-it", "/trending", "/ask", "/food", "/music", "/events", "/finds", "/recipes", "/whats-new"];
+const REQUIRED_NAV_ROUTES = ["/plan", "/whos-got-it", "/trending"];
 
 const issues = [];
 let totalChecks = 0;
 let passed = 0;
 
-function log(emoji, msg) {
-  console.log(`${emoji} ${msg}`);
-}
-
-function fail(page, category, detail) {
+const fail = (page, category, detail) => {
   issues.push({ page, category, detail });
-  log('❌', `[${page}] ${category}: ${detail}`);
-}
+  console.log(`❌ [${page}] ${category}: ${detail}`);
+};
+const pass = () => { passed += 1; };
+const check = (ok, page, category, detail) => {
+  totalChecks += 1;
+  if (!ok) fail(page, category, detail); else pass();
+};
 
-function pass(page, check) {
-  passed++;
-  // silent pass
-}
+const absoluteUrl = (src) => {
+  if (!src) return null;
+  if (src.startsWith("http://") || src.startsWith("https://")) return src;
+  if (src.startsWith("//")) return `https:${src}`;
+  if (src.startsWith("data:") || src.startsWith("blob:")) return null;
+  if (src.startsWith("/")) return `${BASE}${src}`;
+  return `${BASE}/${src}`;
+};
 
-async function checkPage(path) {
-  const url = `${BASE}${path}`;
-  log('🔍', `Checking ${path}...`);
-  
+async function headOrGet(url) {
   try {
-    const res = await fetch(url, { 
-      redirect: 'follow',
-      headers: { 'User-Agent': 'GeauxFind-QA/1.0' }
-    });
-    totalChecks++;
-    
-    // Check HTTP status
-    if (!res.ok) {
-      fail(path, 'HTTP', `Status ${res.status}`);
-      return;
-    }
-    pass(path, 'HTTP status');
-    
-    const html = await res.text();
-    
-    // Check for empty page
-    totalChecks++;
-    if (html.length < 500) {
-      fail(path, 'CONTENT', 'Page appears empty (< 500 chars)');
-    } else {
-      pass(path, 'Content length');
-    }
-    
-    // Check for Next.js error page
-    totalChecks++;
-    if (html.includes('Application error') || html.includes('Internal Server Error') || html.includes('__next_error__')) {
-      fail(path, 'ERROR_PAGE', 'Next.js error page rendered');
-    } else {
-      pass(path, 'No error page');
-    }
-    
-    // Check for placeholder/broken image indicators
-    totalChecks++;
-    const placeholderCount = (html.match(/placeholder\.svg/g) || []).length;
-    if (placeholderCount > 3) {
-      fail(path, 'IMAGES', `${placeholderCount} default placeholder images (should use category-specific)`);
-    } else {
-      pass(path, 'Placeholder images');
-    }
-    
-    // Check for "mock" or "lorem" text that shouldn't be in production
-    totalChecks++;
-    const hasLorem = /lorem ipsum/i.test(html);
-    const hasTodo = /TODO:|FIXME:|HACK:/i.test(html);
-    if (hasLorem) fail(path, 'CONTENT', 'Contains "Lorem Ipsum" placeholder text');
-    else if (hasTodo) fail(path, 'CONTENT', 'Contains TODO/FIXME/HACK comment in rendered HTML');
-    else pass(path, 'No placeholder text');
-    
-    // Check for common React hydration errors in HTML
-    totalChecks++;
-    if (html.includes('Hydration failed') || html.includes('Text content does not match')) {
-      fail(path, 'HYDRATION', 'React hydration mismatch detected');
-    } else {
-      pass(path, 'No hydration errors');
-    }
-
-    // Check that key meta tags exist
-    totalChecks++;
-    const hasTitle = /<title[^>]*>.+<\/title>/i.test(html);
-    if (!hasTitle) {
-      fail(path, 'SEO', 'Missing <title> tag');
-    } else {
-      pass(path, 'Title tag');
-    }
-    
-    // Check all images for broken src (basic check)
-    totalChecks++;
-    const imgSrcs = [...html.matchAll(/<img[^>]+src="([^"]+)"/g)].map(m => m[1]);
-    const brokenImgs = [];
-    for (const src of imgSrcs.slice(0, 10)) { // Check first 10 images
-      try {
-        const imgUrl = src.startsWith('http') ? src : `${BASE}${src}`;
-        const imgRes = await fetch(imgUrl, { method: 'HEAD', redirect: 'follow' });
-        if (!imgRes.ok) brokenImgs.push(src);
-      } catch {
-        brokenImgs.push(src);
-      }
-    }
-    if (brokenImgs.length > 0) {
-      fail(path, 'BROKEN_IMAGES', `${brokenImgs.length} broken images: ${brokenImgs.slice(0, 3).join(', ')}`);
-    } else {
-      pass(path, 'Image loading');
-    }
-
-    // Check for duplicate content (same block appearing multiple times)
-    totalChecks++;
-    const h2s = [...html.matchAll(/<h2[^>]*>([^<]+)<\/h2>/g)].map(m => m[1].trim());
-    const dupeH2s = h2s.filter((h, i) => h2s.indexOf(h) !== i);
-    if (dupeH2s.length > 0) {
-      fail(path, 'DUPLICATES', `Duplicate headings: ${[...new Set(dupeH2s)].join(', ')}`);
-    } else {
-      pass(path, 'No duplicate headings');
-    }
-
-  } catch (err) {
-    totalChecks++;
-    fail(path, 'FETCH', `Failed to load: ${err.message}`);
+    const head = await fetch(url, { method: "HEAD", redirect: "follow" });
+    if (head.ok || head.status === 405) return head.ok ? head : await fetch(url, { method: "GET", redirect: "follow" });
+    return head;
+  } catch {
+    return fetch(url, { method: "GET", redirect: "follow" });
   }
 }
 
-async function checkLinks() {
-  log('🔗', 'Checking internal links from homepage...');
-  try {
-    const res = await fetch(BASE);
-    const html = await res.text();
-    const links = [...html.matchAll(/href="(\/[^"#]*?)"/g)]
-      .map(m => m[1])
-      .filter((v, i, a) => a.indexOf(v) === i)
-      .slice(0, 30);
-    
-    for (const link of links) {
-      totalChecks++;
-      try {
-        const r = await fetch(`${BASE}${link}`, { method: 'HEAD', redirect: 'follow' });
-        if (!r.ok) {
-          fail('/', 'DEAD_LINK', `${link} → ${r.status}`);
-        } else {
-          pass('/', `Link ${link}`);
-        }
-      } catch {
-        fail('/', 'DEAD_LINK', `${link} → fetch error`);
-      }
-    }
-  } catch (err) {
-    fail('/', 'LINK_CHECK', `Could not crawl homepage: ${err.message}`);
+async function checkDataFile() {
+  const seedPath = path.join(ROOT, "scripts", "seed-data.json");
+  const raw = await fs.readFile(seedPath, "utf8");
+  const data = JSON.parse(raw);
+
+  check(Array.isArray(data), "seed-data.json", "DATA_SCHEMA", "seed-data.json must be a flat JSON array");
+  const places = Array.isArray(data) ? data : (Array.isArray(data?.places) ? data.places : []);
+  check(places.length > 0, "seed-data.json", "DATA_CONTENT", "No places found");
+
+  const slugSeen = new Set();
+  const nameCitySeen = new Set();
+  let dupes = 0;
+  let missingImage = 0;
+  let shortDescription = 0;
+
+  for (const p of places) {
+    const slug = String(p?.slug || "").trim();
+    const nameCity = `${String(p?.name || "").trim().toLowerCase()}|${String(p?.city || "").trim().toLowerCase()}`;
+    if (!slug || slugSeen.has(slug) || nameCitySeen.has(nameCity)) dupes += 1;
+    slugSeen.add(slug);
+    nameCitySeen.add(nameCity);
+
+    const image = String(p?.image || "").trim();
+    if (!image) missingImage += 1;
+
+    const desc = String(p?.description || "").trim();
+    if (desc.length < 40) shortDescription += 1;
   }
+
+  check(dupes === 0, "seed-data.json", "DUPLICATES", `${dupes} duplicate entries detected`);
+  check(missingImage === 0, "seed-data.json", "MISSING_IMAGES", `${missingImage} places with missing images`);
+  check(shortDescription === 0, "seed-data.json", "DESCRIPTIONS", `${shortDescription} places with short/empty descriptions (<40 chars)`);
 }
 
-async function checkAPI() {
-  const apis = [
-    '/api/whats-new',
-    '/api/ask',
-  ];
-  
-  for (const api of apis) {
-    totalChecks++;
-    log('⚡', `Checking API ${api}...`);
+async function checkPage(route) {
+  const url = `${BASE}${route}`;
+  console.log(`🔍 ${route}`);
+  let html = "";
+  try {
+    const res = await fetch(url, { redirect: "follow", headers: { "User-Agent": "GeauxFind-QA/2.0" } });
+    check(res.ok, route, "HTTP", `Status ${res.status}`);
+    if (!res.ok) return;
+    html = await res.text();
+  } catch (e) {
+    check(false, route, "FETCH", e.message);
+    return;
+  }
+
+  check(html.length > 500, route, "CONTENT", "Page appears too small (<500 chars)");
+  check(!/Application error|Internal Server Error|__next_error__/i.test(html), route, "ERROR_PAGE", "Runtime error markers detected");
+  check(!/Hydration failed|Text content does not match/i.test(html), route, "HYDRATION", "Hydration mismatch markers detected");
+
+  const imageRefs = [
+    ...[...html.matchAll(/<img[^>]+src=["']([^"']+)["']/gi)].map((m) => m[1]),
+    ...[...html.matchAll(/"(?:src|srcSet)":"(.*?)"/g)].map((m) => m[1].replace(/\\u0026/g, "&")),
+  ].filter(Boolean);
+
+  const uniqueImages = [...new Set(imageRefs)].slice(0, 25);
+  let broken = 0;
+  for (const src of uniqueImages) {
+    const full = absoluteUrl(src);
+    if (!full) continue;
     try {
-      const res = await fetch(`${BASE}${api}`);
-      if (!res.ok) {
-        fail(api, 'API', `Status ${res.status}`);
-        continue;
-      }
-      const data = await res.json();
-      if (Array.isArray(data) && data.length === 0) {
-        fail(api, 'API', 'Returns empty array');
-      } else {
-        pass(api, 'API response');
-      }
-    } catch (err) {
-      fail(api, 'API', `Error: ${err.message}`);
+      const r = await headOrGet(full);
+      if (!r.ok) broken += 1;
+    } catch { broken += 1; }
+  }
+  check(broken === 0, route, "BROKEN_IMAGES", `${broken} broken image URLs`);
+
+  const links = [...html.matchAll(/href="(\/[^"#?]*)/g)].map((m) => m[1]);
+  const uniqueLinks = [...new Set(links)].slice(0, 40);
+  let deadLinks = 0;
+  for (const href of uniqueLinks) {
+    try {
+      const r = await headOrGet(`${BASE}${href}`);
+      if (!r.ok) deadLinks += 1;
+    } catch { deadLinks += 1; }
+  }
+  check(deadLinks === 0, route, "DEAD_LINKS", `${deadLinks} internal links not reachable`);
+}
+
+async function checkNavCompleteness() {
+  const res = await fetch(`${BASE}/`, { redirect: "follow" });
+  const html = await res.text();
+  for (const route of REQUIRED_NAV_ROUTES) {
+    check(html.includes(`href="${route}"`), "/", "NAV", `${route} is not reachable from homepage nav/quick links/footer`);
+  }
+}
+
+async function checkConsoleErrorsWithPlaywright() {
+  let chromium;
+  try {
+    ({ chromium } = await import("playwright"));
+  } catch {
+    check(false, "qa-check", "CONSOLE", "Playwright not installed; console error checks skipped");
+    return;
+  }
+
+  const browser = await chromium.launch({ headless: true });
+  try {
+    for (const route of PAGES) {
+      const page = await browser.newPage();
+      const errors = [];
+      page.on("console", (msg) => {
+        if (msg.type() === "error") errors.push(msg.text());
+      });
+      page.on("pageerror", (err) => errors.push(err.message));
+      await page.goto(`${BASE}${route}`, { waitUntil: "networkidle" });
+      check(errors.length === 0, route, "CONSOLE", `${errors.length} console/page errors`);
+      await page.close();
     }
+  } finally {
+    await browser.close();
   }
 }
 
-// --- Run ---
-console.log(`\n🐊 GeauxFind QA Check — ${BASE}\n${'═'.repeat(50)}\n`);
+(async () => {
+  console.log(`\n🐊 GeauxFind QA Check v2 — ${BASE}\n${"═".repeat(56)}\n`);
+  const start = Date.now();
 
-const start = Date.now();
+  await checkDataFile();
+  for (const route of PAGES) await checkPage(route);
+  await checkNavCompleteness();
+  await checkConsoleErrorsWithPlaywright();
 
-for (const page of PAGES) {
-  await checkPage(page);
-}
-await checkLinks();
-await checkAPI();
+  const elapsed = ((Date.now() - start) / 1000).toFixed(1);
+  console.log(`\n${"═".repeat(56)}`);
+  console.log(`📊 ${passed}/${totalChecks} checks passed | ${issues.length} issues | ${elapsed}s`);
 
-const elapsed = ((Date.now() - start) / 1000).toFixed(1);
+  const report = { timestamp: new Date().toISOString(), base: BASE, totalChecks, passed, failed: issues.length, issues };
+  await fs.mkdir(path.join(ROOT, "data"), { recursive: true });
+  await fs.writeFile(path.join(ROOT, "data", "qa-report.json"), JSON.stringify(report, null, 2));
+  console.log("💾 Report: data/qa-report.json");
 
-console.log(`\n${'═'.repeat(50)}`);
-console.log(`\n📊 Results: ${passed}/${totalChecks} checks passed | ${issues.length} issues found | ${elapsed}s`);
-
-if (issues.length > 0) {
-  console.log(`\n🚨 Issues Summary:\n`);
-  const byCategory = {};
-  for (const i of issues) {
-    byCategory[i.category] = byCategory[i.category] || [];
-    byCategory[i.category].push(i);
-  }
-  for (const [cat, items] of Object.entries(byCategory)) {
-    console.log(`  ${cat} (${items.length}):`);
-    for (const item of items) {
-      console.log(`    • [${item.page}] ${item.detail}`);
-    }
-  }
-  
-  // Output JSON for automation
-  const report = {
-    timestamp: new Date().toISOString(),
-    url: BASE,
-    totalChecks,
-    passed,
-    failed: issues.length,
-    issues,
-  };
-  const fs = await import('fs');
-  fs.writeFileSync('data/qa-report.json', JSON.stringify(report, null, 2));
-  console.log(`\n💾 Full report saved to data/qa-report.json`);
-  process.exit(1);
-} else {
-  console.log('\n✅ All checks passed! Site is looking clean. 🐊');
-  process.exit(0);
-}
+  process.exit(issues.length ? 1 : 0);
+})();

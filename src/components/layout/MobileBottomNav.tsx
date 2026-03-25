@@ -1,10 +1,10 @@
 import Link from "next/link";
-import { House, Sparkles, MessageCircleQuestion, Calendar, UtensilsCrossed } from "lucide-react";
+import { House, Trophy, MessageCircleQuestion, Calendar, UtensilsCrossed } from "lucide-react";
 
 const items = [
   { href: "/", icon: House, label: "Home" },
-  { href: "/whats-new", icon: Sparkles, label: "New" },
-  { href: "/this-weekend", icon: Calendar, label: "Weekend" },
+  { href: "/whos-got-it", icon: Trophy, label: "Got It" },
+  { href: "/plan", icon: Calendar, label: "Plan" },
   { href: "/food", icon: UtensilsCrossed, label: "Food" },
   { href: "/ask", icon: MessageCircleQuestion, label: "Ask" }
 ];
