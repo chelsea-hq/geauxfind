@@ -15,8 +15,24 @@ export function SearchBar() {
     return PLACE_NAMES.filter((name) => name.toLowerCase().includes(q)).slice(0, 6);
   }, [query]);
 
+  const trackSearch = (value: string) => {
+    const query = value.trim();
+    if (!query) return;
+    fetch("/api/track-search", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ query }),
+      keepalive: true,
+    }).catch(() => null);
+  };
+
   return (
-    <form action="/search" method="GET" className="relative mx-auto flex max-w-3xl items-center gap-2 rounded-[10px] bg-white/85 p-2 shadow-xl backdrop-blur-md ring-1 ring-black/5">
+    <form
+      action="/search"
+      method="GET"
+      onSubmit={() => trackSearch(query)}
+      className="relative mx-auto flex max-w-3xl items-center gap-2 rounded-[10px] bg-white/85 p-2 shadow-xl backdrop-blur-md ring-1 ring-black/5"
+    >
       <Search className="ml-2 h-5 w-5 text-[var(--warm-gray)]" />
       <label htmlFor="home-search" className="sr-only">Search Acadiana</label>
       <input
@@ -36,7 +52,7 @@ export function SearchBar() {
       {suggestions.length > 0 && (
         <div className="absolute left-0 right-0 top-[calc(100%+0.5rem)] z-20 mx-auto w-[95%] rounded-[10px] border border-[var(--spanish-moss)]/30 bg-white p-2 shadow-lg">
           {suggestions.map((suggestion) => (
-            <button key={suggestion} type="submit" name="q" value={suggestion} className="block min-h-11 w-full rounded-[8px] px-3 py-2 text-left text-sm text-[var(--cast-iron)] transition-colors hover:bg-[var(--cream-bg)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--sunset-gold)]">
+            <button key={suggestion} type="submit" name="q" value={suggestion} onClick={() => trackSearch(suggestion)} className="block min-h-11 w-full rounded-[8px] px-3 py-2 text-left text-sm text-[var(--cast-iron)] transition-colors hover:bg-[var(--cream-bg)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--sunset-gold)]">
               {suggestion}
             </button>
           ))}

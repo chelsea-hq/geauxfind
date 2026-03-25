@@ -1,0 +1,63 @@
+{
+  "debateOfTheWeek": {
+    "item": "Boudin",
+    "hook": "Rice, pork, and pure South Louisiana pride — who really owns the crown this week?"
+  },
+  "seasonalRotation": [
+    { "item": "King Cake", "season": "Jan-Feb", "note": "Mardi Gras madness mode." },
+    { "item": "Crawfish", "season": "Mar-Jun", "note": "Boil weather and backyard arguments." },
+    { "item": "Snowballs", "season": "Jun-Sep", "note": "When the heat hits, the flavor wars start." }
+  ],
+  "items": [
+    {
+      "item": "Boudin",
+      "type": "sausage",
+      "description": "Smoked, steamed, spicy, or classic — every parish swears theirs is best.",
+      "contenders": [
+        { "placeName": "Billy's Boudin & Cracklin", "slug": "billy-s-boudin-cracklin", "badge": "👑 Crowd Favorite", "caseFor": "Consistent links with rich seasoning and that perfect snap. It's the benchmark people compare everyone else to.", "rating": 4.7 },
+        { "placeName": "Best Stop Supermarket", "slug": "best-stop-supermarket", "badge": "🏆 Luna's Pick", "caseFor": "Balanced spice, juicy texture, and cracklins that hit every time. A road-trip stop that's worth the detour.", "rating": 4.8 },
+        { "placeName": "Kartchner's Specialty Meats", "slug": "kartchner-s-specialty-meats", "badge": "🌶️ Spicy Take", "caseFor": "Flavor-forward and a little bolder than average. If you like your boudin with attitude, this is your move.", "rating": 4.6 },
+        { "placeName": "Boudin & Cracklins", "slug": "boudin-and-cracklins-rayne", "badge": "🆕 Rising Star", "caseFor": "Underrated and climbing fast with locals. Great value and a no-frills vibe that feels old-school Cajun.", "rating": 4.4 }
+      ]
+    },
+    {
+      "item": "Cracklins",
+      "type": "snack",
+      "description": "Crunchy outside, melt-in-the-middle fat, and the eternal question: salty or pepper-hot?",
+      "contenders": [
+        { "placeName": "Don's Specialty Meats", "slug": "dons-specialty-meats", "badge": "👑 Crowd Favorite", "caseFor": "Golden crunch and reliable seasoning. People grab an extra bag before they even leave the parking lot.", "rating": 4.6 },
+        { "placeName": "Best Stop Supermarket", "slug": "best-stop-supermarket", "badge": "⚔️ Split Verdict", "caseFor": "Some call it unbeatable, others say too rich — which is exactly why this debate gets loud at every boil.", "rating": 4.8 },
+        { "placeName": "Billy's Boudin & Cracklin", "slug": "billy-s-boudin-cracklin", "badge": "🌶️ Spicy Take", "caseFor": "Peppery and intense in the best way. Not for the timid, but pure joy for heat lovers.", "rating": 4.7 }
+      ]
+    },
+    {
+      "item": "Crawfish",
+      "type": "seafood",
+      "description": "Spice level, peel quality, and price per pound — this one can start a family feud.",
+      "contenders": [
+        { "placeName": "Crawfish Time", "slug": "crawfish-time", "badge": "👑 Crowd Favorite", "caseFor": "Strong boil flavor and steady quality through peak season. A go-to when you don't want to gamble.", "rating": 4.5 },
+        { "placeName": "Hawk's Restaurant", "slug": "hawks-restaurant", "badge": "🏆 Luna's Pick", "caseFor": "Legendary local reputation and serious flavor depth. This is where crawfish memories get made.", "rating": 4.8 },
+        { "placeName": "Dwight's Restaurant", "slug": "dwights-restaurant", "badge": "🆕 Rising Star", "caseFor": "Big portions, solid heat, and improving every season. The buzz keeps growing.", "rating": 4.4 }
+      ],
+      "relatedLink": "/crawfish"
+    },
+    {
+      "item": "Bread Pudding",
+      "type": "dessert",
+      "description": "Warm, boozy sauce or classic sweet cream? The spoon battles are real.",
+      "contenders": [
+        { "placeName": "Fezzo's Seafood, Steakhouse & Oyster Bar", "slug": "fezzo-s-seafood-steakhouse-oyster-bar", "badge": "👑 Crowd Favorite", "caseFor": "Rich custard body with a sauce that'll make you scrape the bowl.", "rating": 4.6 },
+        { "placeName": "Bon Temps Grill", "slug": "bon-temps-grill", "badge": "🏆 Luna's Pick", "caseFor": "Decadent but balanced — sweet without going overboard.", "rating": 4.7 }
+      ]
+    },
+    {
+      "item": "King Cake",
+      "type": "dessert",
+      "description": "Icing ratio, filling style, and who gets the baby — Acadiana takes this personally.",
+      "contenders": [
+        { "placeName": "Keller's Bakery", "slug": "keller-s-bakery", "badge": "👑 Crowd Favorite", "caseFor": "Classic style done right with pillowy dough and clean cinnamon flavor.", "rating": 4.7 },
+        { "placeName": "Aunt Angie's Cakery", "slug": "aunt-angie-s-cakery-new-iberia", "badge": "🆕 Rising Star", "caseFor": "Creative spins and fun fillings that still respect tradition.", "rating": 4.2 }
+      ]
+    }
+  ]
+}

@@ -35,6 +35,16 @@ function SearchContent() {
   const nlMode = isNaturalLanguageQuery(q);
 
   useEffect(() => {
+    if (!q) return;
+    fetch("/api/track-search", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ query: q }),
+      keepalive: true,
+    }).catch(() => null);
+  }, [q]);
+
+  useEffect(() => {
     if (!q || !nlMode) {
       setSmartResults(null);
       setParsedIntent("");

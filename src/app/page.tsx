@@ -13,6 +13,7 @@ import type { WhatsNewItem } from "@/types";
 
 export default function Home() {
   const [whatsNewItems, setWhatsNewItems] = useState<WhatsNewItem[]>([]);
+  const [trending, setTrending] = useState<Array<{ query: string; count: number; spark: Array<{ label: string; count: number }> }>>([]);
 
   const featuredPlaces = useMemo(() => {
     const seen = new Set<string>();
@@ -50,6 +51,11 @@ export default function Home() {
       .then((res) => res.json())
       .then((data) => setWhatsNewItems(Array.isArray(data) ? data : []))
       .catch(() => setWhatsNewItems([]));
+
+    fetch("/api/trending?limit=10", { cache: "no-store" })
+      .then((res) => res.json())
+      .then((data) => setTrending(Array.isArray(data?.items) ? data.items : []))
+      .catch(() => setTrending([]));
 
     const targets = Array.from(document.querySelectorAll(".reveal"));
     const observer = new IntersectionObserver(
@@ -113,6 +119,8 @@ export default function Home() {
               <Link href="/crawfish" className="inline-flex min-h-11 shrink-0 items-center rounded-full border border-white/20 px-3 py-1.5 transition-colors duration-200 hover:border-white/50 hover:text-white">🦞 Crawfish</Link>
               <Link href="/events" className="inline-flex min-h-11 shrink-0 items-center rounded-full border border-white/20 px-3 py-1.5 transition-colors duration-200 hover:border-white/50 hover:text-white">🎶 Events</Link>
               <Link href="/vibe" className="inline-flex min-h-11 shrink-0 items-center rounded-full border border-white/20 px-3 py-1.5 transition-colors duration-200 hover:border-white/50 hover:text-white">✨ Vibe Match</Link>
+              <Link href="/plan" className="inline-flex min-h-11 shrink-0 items-center rounded-full border border-white/20 px-3 py-1.5 transition-colors duration-200 hover:border-white/50 hover:text-white">🗺️ Plan My Day</Link>
+              <Link href="/whos-got-it" className="inline-flex min-h-11 shrink-0 items-center rounded-full border border-white/20 px-3 py-1.5 transition-colors duration-200 hover:border-white/50 hover:text-white">⚔️ Who&apos;s Got It?</Link>
               <Link href="/ask" className="inline-flex min-h-11 shrink-0 items-center rounded-full border border-white/20 px-3 py-1.5 transition-colors duration-200 hover:border-white/50 hover:text-white">🐊 Ask Geaux</Link>
             </div>
           </div>
@@ -188,6 +196,18 @@ export default function Home() {
               </div>
               <div className="self-start rounded-[8px] bg-[var(--cream)] px-2 py-1 text-xs text-[var(--warm-gray)]">Latest</div>
             </a>
+          ))}
+        </div>
+      </section>
+
+      <section className="mx-auto mt-16 max-w-6xl px-4 reveal">
+        <div className="mb-4 flex items-center justify-between"><h2 className="text-3xl text-[var(--cajun-red)]">Trending in Acadiana</h2><Link href="/trending" className="gf-link text-sm">View trends</Link></div>
+        <div className="grid gap-3 rounded-[12px] border border-[var(--spanish-moss)]/30 bg-white p-4 md:p-6">
+          {trending.length === 0 ? Array.from({ length: 5 }).map((_, i) => <div key={i} className="h-12 rounded-[10px] bg-[var(--spanish-moss)]/20 shimmer" />) : trending.slice(0, 10).map((t, idx) => (
+            <div key={t.query} className="flex items-center justify-between rounded-[10px] bg-[var(--cream)] px-3 py-2">
+              <p className="text-sm"><span className="font-semibold">#{idx + 1}</span> {t.query} {t.count >= 3 ? "🔥" : ""}</p>
+              <div className="flex items-end gap-1">{t.spark.slice(-7).map((p, i) => <span key={i} className="w-1.5 rounded-sm bg-[var(--cajun-red)]/70" style={{ height: `${Math.max(6, p.count * 6)}px` }} />)}</div>
+            </div>
           ))}
         </div>
       </section>
