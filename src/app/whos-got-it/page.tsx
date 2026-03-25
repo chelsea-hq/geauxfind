@@ -23,6 +23,9 @@ function getCommunityTopic(itemName: string) {
   return communityRecs.topics.find((t) => t.category.toLowerCase() === normalized || t.name.toLowerCase().includes(normalized));
 }
 
+const isLocalFamilyBusiness = (name?: string) =>
+  !!name && name.toLowerCase().includes("cade's market");
+
 export default function WhosGotItPage() {
   const [search, setSearch] = useState("");
   const [votes, setVotes] = useState<Record<string, number>>(() => {
@@ -82,9 +85,13 @@ export default function WhosGotItPage() {
               {item.contenders.map((c) => {
                 const place = places.find((p) => p.slug === c.slug) || places.find((p) => p.name.toLowerCase().includes(c.placeName.toLowerCase()));
                 const key = `${item.item}-${c.slug}`;
+                const familyBusiness = isLocalFamilyBusiness(c.placeName);
                 return (
                   <article key={key} className="rounded-xl border border-[var(--spanish-moss)]/20 bg-[var(--cream)] p-3">
-                    <div className={`mb-1 inline-flex rounded-full px-2 py-1 text-xs font-semibold ${badgeTone[c.badge] || "bg-gray-100"}`}>{c.badge}</div>
+                    <div className="mb-1 flex flex-wrap items-center gap-2">
+                      <span className={`inline-flex rounded-full px-2 py-1 text-xs font-semibold ${badgeTone[c.badge] || "bg-gray-100"}`}>{c.badge}</span>
+                      {familyBusiness ? <span className="inline-flex rounded-full bg-emerald-100 px-2 py-1 text-xs font-semibold text-emerald-900">Local Family Business</span> : null}
+                    </div>
                     <h3 className="text-lg">{place ? <Link className="underline" href={`/place/${place.slug}`}>{c.placeName}</Link> : c.placeName}</h3>
                     <p className="text-sm text-[var(--cast-iron)]/85">The Case For: {c.caseFor}</p>
                     <p className="mt-1 text-xs text-[var(--warm-gray)]">Rating: {c.rating.toFixed(1)}</p>
@@ -93,6 +100,7 @@ export default function WhosGotItPage() {
                 );
               })}
             </div>
+
             {(() => {
               const topic = getCommunityTopic(item.item);
               if (!topic) return null;
@@ -101,15 +109,41 @@ export default function WhosGotItPage() {
                   <p className="text-xs font-semibold tracking-wide text-[var(--cajun-red)]">COMMUNITY RANKINGS (FACEBOOK)</p>
                   <p className="mt-1 text-sm text-[var(--warm-gray)]">{topic.name}</p>
                   <ol className="mt-2 space-y-1 text-sm">
-                    {topic.topBusinesses.slice(0, 5).map((biz) => (
+                    {topic.topBusinesses.slice(0, 5).map((biz, index) => (
                       <li key={biz.slug}>
-                        <span className="font-semibold">#{topic.topBusinesses.findIndex((b) => b.slug === biz.slug) + 1}</span> {biz.name} <span className="text-[var(--warm-gray)]">({biz.mentionCount} mentions)</span>
+                        <span className="font-semibold">#{index + 1}</span> {biz.name} <span className="text-[var(--warm-gray)]">({biz.mentionCount} mentions)</span>
                       </li>
                     ))}
                   </ol>
                 </div>
               );
             })()}
+
+            {item.allSpots && item.allSpots.length > 0 ? (
+              <details className="mt-4 rounded-xl border border-[var(--spanish-moss)]/20 bg-[var(--cream)]/55 p-3">
+                <summary className="cursor-pointer text-sm font-semibold text-[var(--cajun-red)]">
+                  See all {item.allSpots.length} spots
+                </summary>
+                <ul className="mt-3 space-y-2 text-sm">
+                  {item.allSpots.map((spot) => {
+                    const place = places.find((p) => p.slug === spot.slug) || places.find((p) => p.name.toLowerCase().includes(spot.placeName.toLowerCase()));
+                    const familyBusiness = isLocalFamilyBusiness(spot.placeName) || spot.specialTag === "Local Family Business";
+                    return (
+                      <li key={`${item.item}-${spot.slug}`} className="rounded-lg border border-[var(--spanish-moss)]/15 bg-white p-2">
+                        <div className="flex flex-wrap items-center gap-2">
+                          <span className="font-semibold">
+                            {place ? <Link className="underline" href={`/place/${place.slug}`}>{spot.placeName}</Link> : spot.placeName}
+                          </span>
+                          {familyBusiness ? <span className="inline-flex rounded-full bg-emerald-100 px-2 py-0.5 text-xs font-semibold text-emerald-900">Local Family Business</span> : null}
+                        </div>
+                        {spot.note ? <p className="mt-1 text-xs text-[var(--warm-gray)]">{spot.note}</p> : null}
+                      </li>
+                    );
+                  })}
+                </ul>
+              </details>
+            ) : null}
+
             {item.relatedLink ? <Link href={item.relatedLink} className="mt-3 inline-block text-sm underline">Track live crawfish prices →</Link> : null}
           </section>
         ))}
