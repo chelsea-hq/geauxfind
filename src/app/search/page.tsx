@@ -54,7 +54,7 @@ function SearchContent() {
   }, [q, nlMode]);
 
   const placeResults = useMemo(() => places.filter((p) => `${p.name} ${p.description} ${p.tags.join(" ")} ${p.city}`.toLowerCase().includes(q.toLowerCase())), [q]);
-  const eventResults = useMemo(() => events.filter((e) => `${e.name} ${e.description} ${e.tags.join(" ")} ${e.city}`.toLowerCase().includes(q.toLowerCase())), [q]);
+  const eventResults = useMemo(() => events.filter((e) => `${e.title} ${e.description} ${e.category} ${e.venue} ${e.city} ${e.source}`.toLowerCase().includes(q.toLowerCase())), [q]);
   const recipeResults = useMemo(() => recipes.filter((r) => `${r.title} ${r.ingredients.join(" ")} ${r.inspiredBy}`.toLowerCase().includes(q.toLowerCase())), [q]);
 
   const effectivePlaceResults = smartResults ?? placeResults;

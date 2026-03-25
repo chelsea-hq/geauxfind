@@ -36,16 +36,20 @@ export interface Place {
 
 export interface Event {
   slug: string;
-  name: string;
+  title: string;
   date: string;
+  endDate: string;
   time: string;
-  city: string;
   venue: string;
-  price: string;
+  address: string | null;
+  city: string;
   description: string;
-  image: string;
-  ticketLink: string;
-  tags: string[];
+  category: "music" | "food" | "festival" | "community" | "arts" | "sports" | "nightlife" | "family";
+  image: string | null;
+  link: string | null;
+  source: "do337" | "lafayettetravel" | "eventbrite" | "facebook" | "developinglafayette" | "theadvertiser";
+  free: boolean;
+  price: string | null;
 }
 
 export interface Recipe {

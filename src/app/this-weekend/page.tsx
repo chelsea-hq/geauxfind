@@ -2,14 +2,31 @@ import { events, weekendHighlights } from "@/data/mock-data";
 import { EventCard } from "@/components/cards/EventCard";
 
 export default function ThisWeekend() {
-  const grouped = events.reduce<Record<string, typeof events>>((acc, event) => {
-    const day = new Date(`${event.date}T12:00:00`).toLocaleDateString("en-US", {
+  const now = new Date();
+  const day = now.getDay();
+  const daysToFriday = (5 - day + 7) % 7;
+  const friday = new Date(now);
+  friday.setDate(now.getDate() + daysToFriday);
+  friday.setHours(0, 0, 0, 0);
+  const sunday = new Date(friday);
+  sunday.setDate(friday.getDate() + 2);
+  sunday.setHours(23, 59, 59, 999);
+
+  const weekendEvents = events
+    .filter((event) => {
+      const date = new Date(`${event.date}T12:00:00`);
+      return date >= friday && date <= sunday;
+    })
+    .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
+
+  const grouped = weekendEvents.reduce<Record<string, typeof events>>((acc, event) => {
+    const label = new Date(`${event.date}T12:00:00`).toLocaleDateString("en-US", {
       weekday: "long",
       month: "short",
       day: "numeric"
     });
-    if (!acc[day]) acc[day] = [];
-    acc[day].push(event);
+    if (!acc[label]) acc[label] = [];
+    acc[label].push(event);
     return acc;
   }, {});
 

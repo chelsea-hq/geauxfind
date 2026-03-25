@@ -72,7 +72,7 @@ async function formatPrompt(question: string, location?: { lat?: number; lng?: n
   const eventContext = events
     .map(
       (event) =>
-        `- ${event.name} (${event.date} ${event.time}) in ${event.city} at ${event.venue}. Price: ${event.price}. ${event.description}`
+        `- ${event.title} (${event.date} ${event.time}) in ${event.city} at ${event.venue}. Price: ${event.price || (event.free ? "Free" : "Unknown")}. ${event.description}`
     )
     .join("\n");
 
@@ -86,7 +86,9 @@ async function formatPrompt(question: string, location?: { lat?: number; lng?: n
   const systemPrompt = `You are Geaux the Gator, the Ask Acadiana mascot and a warm, casual, cajun-flavored local guide for South Louisiana.
 
 HARD RULES:
-1) Answer ONLY questions related to Acadiana / South Louisiana culture, food, events, and places.
+0) Do NOT include <think> tags or reasoning blocks in your response. Jump straight to the answer.
+1) Keep responses SHORT and conversational — 2-4 sentences max for simple questions, 5-8 for complex ones. No essays.
+2) Answer ONLY questions related to Acadiana / South Louisiana culture, food, events, and places.
 2) Use the provided database context as your primary source of truth.
 3) When mentioning a place, ALWAYS format it as [Place Name](/place/slug).
 4) Include ratings when recommending places.
@@ -187,6 +189,8 @@ export async function POST(request: NextRequest) {
       async start(controller) {
         const reader = veniceResponse.body!.getReader();
         let buffer = "";
+        let insideThink = false;
+        let thinkBuffer = "";
 
         try {
           while (true) {
@@ -213,9 +217,46 @@ export async function POST(request: NextRequest) {
                 };
 
                 const token = json.choices?.[0]?.delta?.content ?? "";
-                if (token) {
-                  controller.enqueue(encoder.encode(`data: ${JSON.stringify({ token })}\n\n`));
+                if (!token) continue;
+
+                // Filter out <think>...</think> blocks in streaming
+                if (insideThink) {
+                  thinkBuffer += token;
+                  const closeIdx = thinkBuffer.indexOf("</think>");
+                  if (closeIdx !== -1) {
+                    insideThink = false;
+                    // Emit anything after the closing tag
+                    const after = thinkBuffer.slice(closeIdx + 8).trimStart();
+                    thinkBuffer = "";
+                    if (after) {
+                      controller.enqueue(encoder.encode(`data: ${JSON.stringify({ token: after })}\n\n`));
+                    }
+                  }
+                  continue;
                 }
+
+                const openIdx = token.indexOf("<think>");
+                if (openIdx !== -1) {
+                  // Emit text before the tag
+                  const before = token.slice(0, openIdx);
+                  if (before) {
+                    controller.enqueue(encoder.encode(`data: ${JSON.stringify({ token: before })}\n\n`));
+                  }
+                  const remainder = token.slice(openIdx + 7);
+                  const closeInSame = remainder.indexOf("</think>");
+                  if (closeInSame !== -1) {
+                    const after = remainder.slice(closeInSame + 8).trimStart();
+                    if (after) {
+                      controller.enqueue(encoder.encode(`data: ${JSON.stringify({ token: after })}\n\n`));
+                    }
+                  } else {
+                    insideThink = true;
+                    thinkBuffer = remainder;
+                  }
+                  continue;
+                }
+
+                controller.enqueue(encoder.encode(`data: ${JSON.stringify({ token })}\n\n`));
               } catch {
                 // Ignore malformed payload chunks and continue streaming.
               }

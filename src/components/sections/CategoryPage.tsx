@@ -50,9 +50,10 @@ export function CategoryPage({ type, title }: { type: CategoryType; title: strin
   }, [placeBase, city, selectedPrices, rating, tag, sort]);
 
   const eventFiltered = useMemo(() => {
-    let list = [...events];
+    let list = [...events].filter((e) => new Date(`${e.endDate || e.date}T23:59:59`).getTime() >= Date.now());
     if (city !== "all") list = list.filter((e) => e.city === city);
-    if (sort === "az") list.sort((a, b) => a.name.localeCompare(b.name));
+    if (sort === "az") list.sort((a, b) => a.title.localeCompare(b.title));
+    else list.sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
     return list;
   }, [city, sort]);
 

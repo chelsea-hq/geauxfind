@@ -52,7 +52,7 @@ export function SiteHeader() {
             {links.map(([href, label]) => {
               const isActive = href === "/" ? pathname === "/" : pathname.startsWith(href);
               return (
-                <Link key={href} href={href} onClick={() => setOpen(false)} className={`min-h-11 rounded-[10px] px-3 py-2 ${isActive ? "bg-[var(--cajun-red)] text-white" : "bg-white text-[var(--cast-iron)]"}`}>
+                <Link key={href} href={href} onClick={() => setOpen(false)} className={`inline-flex min-h-11 items-center rounded-[10px] px-3 py-2 ${isActive ? "bg-[var(--cajun-red)] text-white" : "bg-white text-[var(--cast-iron)]"}`}>
                   {label}
                 </Link>
               );

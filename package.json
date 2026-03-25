@@ -10,9 +10,11 @@
     "qa": "node scripts/qa-check.mjs",
     "seed:places": "node scripts/seed-places.js",
     "scrape:whats-new": "node scripts/scrape-whats-new.mjs",
-    "scrape:facebook": "node scripts/apify-facebook-pipeline.mjs"
+    "scrape:facebook": "node scripts/apify-facebook-pipeline.mjs",
+    "scrape:events": "node scripts/scrape-events.mjs"
   },
   "dependencies": {
+    "cheerio": "^1.2.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^1.6.0",

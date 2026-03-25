@@ -37,6 +37,7 @@ export default function CrawfishPage() {
   const [cityFilter, setCityFilter] = useState<CityFilter>("All");
   const [sortBy, setSortBy] = useState<SortOption>("Best Price");
   const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null);
+  const [showTipsMobile, setShowTipsMobile] = useState(false);
 
   useEffect(() => {
     if (sortBy !== "Near Me" || typeof navigator === "undefined" || !navigator.geolocation) return;
@@ -183,32 +184,36 @@ export default function CrawfishPage() {
         <div className="flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
           <h2 className="text-3xl text-[var(--cajun-red)]">Where to Get Crawfish</h2>
           <div className="flex flex-col gap-3 md:items-end">
-            <div className="flex flex-wrap gap-2">
-              {(["All", "Lafayette", "Broussard", "Youngsville", "Breaux Bridge", "Other"] as CityFilter[]).map((city) => (
-                <button
-                  key={city}
-                  onClick={() => setCityFilter(city)}
-                  className={`rounded-full px-4 py-2 text-sm font-semibold ${cityFilter === city ? "bg-[var(--cajun-red)] text-white" : "bg-white text-[var(--cast-iron)] border border-[var(--warm-gray)]/20"}`}
-                >
-                  {city}
-                </button>
-              ))}
+            <div className="w-full overflow-x-auto pb-2 scrollbar-hide md:w-auto">
+              <div className="flex min-w-max flex-nowrap gap-2">
+                {(["All", "Lafayette", "Broussard", "Youngsville", "Breaux Bridge", "Other"] as CityFilter[]).map((city) => (
+                  <button
+                    key={city}
+                    onClick={() => setCityFilter(city)}
+                    className={`min-h-11 shrink-0 rounded-full px-4 py-2 text-sm font-semibold ${cityFilter === city ? "bg-[var(--cajun-red)] text-white" : "border border-[var(--warm-gray)]/20 bg-white text-[var(--cast-iron)]"}`}
+                  >
+                    {city}
+                  </button>
+                ))}
+              </div>
             </div>
-            <div className="flex flex-wrap gap-2">
-              {(["Best Price", "Near Me", "Drive-Thru", "Dine-In"] as SortOption[]).map((option) => (
-                <button
-                  key={option}
-                  onClick={() => setSortBy(option)}
-                  className={`rounded-full px-4 py-2 text-sm font-semibold ${sortBy === option ? "bg-[var(--bayou-gold)] text-[var(--cast-iron)]" : "bg-white text-[var(--cast-iron)] border border-[var(--warm-gray)]/20"}`}
-                >
-                  {option}
-                </button>
-              ))}
+            <div className="w-full overflow-x-auto pb-2 scrollbar-hide md:w-auto">
+              <div className="flex min-w-max flex-nowrap gap-2">
+                {(["Best Price", "Near Me", "Drive-Thru", "Dine-In"] as SortOption[]).map((option) => (
+                  <button
+                    key={option}
+                    onClick={() => setSortBy(option)}
+                    className={`min-h-11 shrink-0 rounded-full px-4 py-2 text-sm font-semibold ${sortBy === option ? "bg-[var(--bayou-gold)] text-[var(--cast-iron)]" : "border border-[var(--warm-gray)]/20 bg-white text-[var(--cast-iron)]"}`}
+                  >
+                    {option}
+                  </button>
+                ))}
+              </div>
             </div>
           </div>
         </div>
 
-        <div className="mt-5 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-5 grid gap-4 md:grid-cols-2">
           {visibleSpots.map((spot: Spot) => (
             <article key={`${spot.name}-${spot.address}`} className="rounded-2xl border border-[var(--warm-gray)]/15 bg-white p-5 shadow-sm">
               <h3 className="text-2xl text-[var(--cajun-red)]">
@@ -242,7 +247,7 @@ export default function CrawfishPage() {
             <h2 className="text-3xl text-[var(--cajun-red)]">More Crawfish Spots</h2>
             <p className="text-sm text-[var(--warm-gray)]">Additional listings from The Crawfish App</p>
           </div>
-          <div className="mt-5 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-5 grid gap-4 md:grid-cols-2">
             {extraSpots.map((spot) => (
               <article key={`${spot.name}-${spot.address}`} className="rounded-2xl border border-[var(--warm-gray)]/15 bg-white p-5 shadow-sm">
                 <h3 className="text-xl text-[var(--cajun-red)]">{spot.name}</h3>
@@ -257,8 +262,19 @@ export default function CrawfishPage() {
       ) : null}
 
       <section className="mx-auto mt-12 max-w-6xl px-4">
-        <h2 className="text-3xl text-[var(--cajun-red)]">Crawfish Season 101</h2>
-        <div className="mt-4 space-y-3">
+        <div className="flex items-center justify-between gap-3">
+          <h2 className="text-3xl text-[var(--cajun-red)]">Crawfish Season 101</h2>
+          <button
+            type="button"
+            onClick={() => setShowTipsMobile((v) => !v)}
+            className="inline-flex min-h-11 items-center rounded-[10px] border border-[var(--warm-gray)]/25 bg-white px-3 text-sm font-semibold md:hidden"
+            aria-expanded={showTipsMobile}
+            aria-controls="crawfish-tips"
+          >
+            {showTipsMobile ? "Hide tips" : "Show tips"}
+          </button>
+        </div>
+        <div id="crawfish-tips" className={`mt-4 space-y-3 ${showTipsMobile ? "block" : "hidden"} md:block`}>
           <details className="rounded-xl border border-[var(--warm-gray)]/20 bg-white p-4">
             <summary className="cursor-pointer font-semibold">When is peak season?</summary>
             <p className="mt-2 text-sm text-[var(--warm-gray)]">Peak season is March through May, when farm production is highest and pricing is usually best.</p>

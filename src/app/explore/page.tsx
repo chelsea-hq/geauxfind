@@ -80,8 +80,8 @@ function ExploreContent() {
         <div className="mt-5"><SearchBar /></div>
       </section>
 
-      <section className="mt-6 overflow-x-auto pb-2">
-        <div className="flex min-w-max gap-2">
+      <section className="mt-6 overflow-x-auto pb-2 scrollbar-hide">
+        <div className="flex min-w-max flex-nowrap gap-2">
           {categoryMap.map(([key, label]) => {
             const active = category === key;
             const count = categoryCounts[key] ?? 0;
@@ -102,11 +102,11 @@ function ExploreContent() {
       <div className="mt-4"><FilterBar cities={cities} city={city} setCity={(v) => setParam("city", v)} prices={["$", "$$", "$$$"]} selectedPrices={selectedPrices} togglePrice={(p) => { const next = selectedPrices.includes(p) ? selectedPrices.filter((x) => x !== p) : [...selectedPrices, p]; setParam("price", next.join(",")); }} rating={rating} setRating={(v) => setParam("rating", String(v))} tags={tags} selectedTag={tag} setSelectedTag={(v) => setParam("tag", v)} clear={() => { router.push("/explore"); setVisibleCount(PAGE_SIZE); }} /></div>
       <div className="mt-4"><VibeFilter selected={vibe} onChange={(v) => setParam("vibe", v)} /></div>
 
-      <div className="mt-5 flex items-center justify-between gap-4">
+      <div className="mt-5 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
         <p className="text-sm text-[var(--warm-gray)]">Showing {results.length} of {filtered.length} places</p>
-        <div className="relative">
+        <div className="relative w-full sm:w-auto">
           <label htmlFor="explore-sort" className="sr-only">Sort places</label>
-          <select id="explore-sort" value={sort} onChange={(e) => setParam("sort", e.target.value)} className="min-h-11 appearance-none rounded-[10px] border border-[var(--spanish-moss)]/40 bg-white px-3 pr-9 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--sunset-gold)]">
+          <select id="explore-sort" value={sort} onChange={(e) => setParam("sort", e.target.value)} className="min-h-11 w-full appearance-none rounded-[10px] border border-[var(--spanish-moss)]/40 bg-white px-3 pr-9 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--sunset-gold)] sm:w-auto">
             <option value="rated">Highest Rated</option>
             <option value="reviews">Most Reviewed</option>
             <option value="az">A–Z</option>
@@ -121,7 +121,7 @@ function ExploreContent() {
           <p className="text-lg font-semibold text-[var(--cast-iron)]">Hmm, nothing matches... Try loosening those filters!</p>
         </div>
       ) : (
-        <section className="mt-5 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <section className="mt-5 grid gap-6 md:grid-cols-2">
           {results.map((place) => <PlaceCard key={place.slug} place={place} />)}
         </section>
       )}

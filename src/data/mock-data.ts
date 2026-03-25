@@ -1,75 +1,10 @@
 import seedData from "../../scripts/seed-data.json";
+import eventsData from "../../data/events.json";
 import { Event, Place, Recipe } from "@/types";
 
 export const places: Place[] = seedData.places as Place[];
 
-export const events: Event[] = [
-  {
-    slug: "boudin-cook-off-scott",
-    name: "Scott Boudin Festival",
-    date: "2026-03-27",
-    time: "6:00 PM",
-    city: "Scott",
-    venue: "Scott City Park",
-    price: "$20",
-    description: "Local pitmasters and boudin makers compete for Acadiana boudin bragging rights in Scott, the Boudin Capital of the World.",
-    image: "https://scottboudinfestival.com/files/2024/12/0K6A8873.jpg",
-    ticketLink: "https://scottboudinfestival.com",
-    tags: ["food", "competition", "boudin"]
-  },
-  {
-    slug: "downtown-alive-lafayette",
-    name: "Downtown Alive!",
-    date: "2026-03-27",
-    time: "7:30 PM",
-    city: "Lafayette",
-    venue: "Parc Sans Souci",
-    price: "Free",
-    description: "A First Friday outdoor concert series presented by Evangeline Maid that brings downtown Lafayette to life with local and national acts.",
-    image: "https://images.squarespace-cdn.com/content/v1/697a3b0daca38f0f7443529d/44f6f0d0-e402-458a-a7dc-3d11dc6a4479/2025-Lafayette-Blue-Moon-Saloon-5122.jpg?format=1500w",
-    ticketLink: "https://www.downtownlafayette.org/downtown-alive",
-    tags: ["music", "downtown", "community"]
-  },
-  {
-    slug: "zydeco-breakfast-cafe-des-amis",
-    name: "Zydeco Breakfast at Café des Amis",
-    date: "2026-03-28",
-    time: "8:30 AM",
-    city: "Breaux Bridge",
-    venue: "Café des Amis, 140 E Bridge St",
-    price: "$18",
-    description: "Saturday morning zydeco dancing, coffee, and Creole breakfast plates at the legendary Café des Amis on Bridge Street.",
-    image: "https://fezzos.com/wp-content/uploads/2021/01/cajuntrio.jpg",
-    ticketLink: "https://www.cafedesamis.com",
-    tags: ["zydeco", "breakfast", "dance"]
-  },
-  {
-    slug: "sugar-cane-stroll-youngsville",
-    name: "Sugar Cane Stroll Night Market",
-    date: "2026-03-28",
-    time: "5:00 PM",
-    city: "Youngsville",
-    venue: "Sugar Mill Pond",
-    price: "Free",
-    description: "Open-air makers market with food trucks, live acoustic sets, and local art on the beautiful Sugar Mill Pond waterfront.",
-    image: "https://marketatmoncuspark.com/wp-content/uploads/2023/03/Cajun-Jam-2023.jpg",
-    ticketLink: "https://www.youngsville-la.gov",
-    tags: ["market", "family", "outdoors"]
-  },
-  {
-    slug: "bayou-sunset-jam-lake-martin",
-    name: "Bayou Sunset Jam",
-    date: "2026-03-29",
-    time: "6:30 PM",
-    city: "Breaux Bridge",
-    venue: "Lake Martin Landing",
-    price: "$10",
-    description: "Sunday evening unplugged jam sessions with local Cajun and roots musicians overlooking the cypress-lined Lake Martin.",
-    image: "https://images.squarespace-cdn.com/content/v1/697a3b0daca38f0f7443529d/a1f70278-7c5f-4a4e-9006-49d26d475d9a/bl1.jpg?format=1500w",
-    ticketLink: "https://www.cajuncountry.org",
-    tags: ["music", "bayou", "sunset"]
-  }
-];
+export const events: Event[] = eventsData as Event[];
 
 export const recipes: Recipe[] = [
   {

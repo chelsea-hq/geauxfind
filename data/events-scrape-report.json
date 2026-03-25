@@ -1,0 +1,40 @@
+{
+  "generatedAt": "2026-03-25T06:17:40.383Z",
+  "totals": {
+    "raw": 72,
+    "final": 30
+  },
+  "sources": [
+    {
+      "source": "developinglafayette",
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 404"
+    },
+    {
+      "source": "lafayettetravel",
+      "ok": true,
+      "count": 0,
+      "error": null
+    },
+    {
+      "source": "do337",
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed"
+    },
+    {
+      "source": "eventbrite",
+      "ok": true,
+      "count": 72,
+      "error": null
+    },
+    {
+      "source": "theadvertiser",
+      "ok": true,
+      "count": 0,
+      "error": null
+    }
+  ],
+  "facebookCount": 0
+}

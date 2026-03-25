@@ -20,9 +20,9 @@ export function EventCard({ event }: { event: Event }) {
       <Link href={`/event/${event.slug}`} className="block">
         <div className="card-image-zoom relative aspect-[16/10] w-full bg-[var(--cream-bg)]">
           {(event.image || "").startsWith("http") ? (
-            <img src={event.image} alt={event.name} className="h-full w-full object-cover" loading="lazy" referrerPolicy="no-referrer" />
+            <img src={event.image || "/placeholder.svg"} alt={event.title} className="h-full w-full object-cover" loading="lazy" referrerPolicy="no-referrer" />
           ) : (
-            <Image src={event.image || "/placeholder.svg"} alt={event.name} fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover" />
+            <Image src={event.image || "/placeholder.svg"} alt={event.title} fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover" />
           )}
         </div>
       </Link>
@@ -33,11 +33,14 @@ export function EventCard({ event }: { event: Event }) {
             <span className="text-lg leading-none">{day}</span>
           </div>
           <div>
-            <Link href={`/event/${event.slug}`} className="text-xl leading-tight hover:text-[var(--cajun-red)]">{event.name}</Link>
-            <p className="mt-1 text-sm text-[var(--warm-gray)]">{event.time}</p>
+            <Link href={`/event/${event.slug}`} className="text-xl leading-tight hover:text-[var(--cajun-red)]">{event.title}</Link>
+            <p className="mt-1 text-sm text-[var(--warm-gray)]">{event.time} {event.price ? `· ${event.price}` : event.free ? "· Free" : ""}</p>
           </div>
         </div>
-        <p className="inline-flex items-center rounded-[10px] bg-[var(--cream)] px-2 py-1 text-xs text-[var(--cast-iron)]"><MapPin className="mr-1 h-3.5 w-3.5" />{event.venue}, {event.city}</p>
+        <div className="flex items-center justify-between gap-2">
+          <p className="inline-flex items-center rounded-[10px] bg-[var(--cream)] px-2 py-1 text-xs text-[var(--cast-iron)]"><MapPin className="mr-1 h-3.5 w-3.5" />{event.venue}, {event.city}</p>
+          <span className="rounded-full bg-[var(--spanish-moss)]/20 px-2 py-1 text-[10px] uppercase tracking-wide text-[var(--warm-gray)]">{event.source}</span>
+        </div>
       </div>
     </article>
   );

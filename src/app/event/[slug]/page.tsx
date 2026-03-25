@@ -15,19 +15,19 @@ export default async function EventDetail({ params }: { params: Promise<{ slug: 
   return (
     <main className="mx-auto max-w-6xl px-4 py-10">
       <div className="h-80 overflow-hidden rounded-3xl">
-        <img src={event.image} alt={event.name} className="h-full w-full object-cover" />
+        <img src={event.image || "/placeholder.svg"} alt={event.title} className="h-full w-full object-cover" />
       </div>
-      <h1 className="mt-6 font-serif text-4xl text-[var(--cajun-red)]">{event.name}</h1>
+      <h1 className="mt-6 font-serif text-4xl text-[var(--cajun-red)]">{event.title}</h1>
       <p className="text-lg font-semibold">
         {event.date} · {event.time}
       </p>
       <p className="mt-3 text-[var(--warm-gray)]">{event.description}</p>
       <p className="mt-2">
-        📍 {event.venue}, {event.city} · 🎟️ {event.price}
+        📍 {event.venue}, {event.city} · 🎟️ {event.price || (event.free ? "Free" : "See listing")}
       </p>
-      <a href={event.ticketLink} className="mt-4 inline-block rounded-full bg-[var(--cajun-red)] px-5 py-2 text-white">
-        Ticket Info
-      </a>
+      {event.link ? <a href={event.link} className="mt-4 inline-block rounded-full bg-[var(--cajun-red)] px-5 py-2 text-white">
+        Event Details
+      </a> : null}
       <div className="mt-6">
         <MapPlaceholder />
       </div>

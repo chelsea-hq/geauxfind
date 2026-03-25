@@ -43,7 +43,13 @@ export async function callVeniceChat({
     choices?: Array<{ message?: { content?: string } }>;
   };
 
-  return payload.choices?.[0]?.message?.content?.trim() ?? "";
+  const raw = payload.choices?.[0]?.message?.content?.trim() ?? "";
+  return stripThinkTags(raw);
+}
+
+/** Strip <think>...</think> reasoning blocks that qwen3 models emit */
+export function stripThinkTags(text: string): string {
+  return text.replace(/<think>[\s\S]*?<\/think>\s*/gi, "").trim();
 }
 
 export function extractJson<T>(input: string): T {

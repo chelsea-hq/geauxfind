@@ -22,7 +22,26 @@ export default function Home() {
       return true;
     }).slice(0, 5);
   }, []);
-  const weekendEvents = events.slice(0, 3);
+  const weekendEvents = useMemo(() => {
+    const now = new Date();
+    const day = now.getDay();
+    const daysToFriday = (5 - day + 7) % 7;
+    const friday = new Date(now);
+    friday.setDate(now.getDate() + daysToFriday);
+    friday.setHours(0, 0, 0, 0);
+
+    const sunday = new Date(friday);
+    sunday.setDate(friday.getDate() + 2);
+    sunday.setHours(23, 59, 59, 999);
+
+    return events
+      .filter((e) => {
+        const d = new Date(`${e.date}T12:00:00`);
+        return d >= friday && d <= sunday;
+      })
+      .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
+      .slice(0, 6);
+  }, []);
   const aiPicks = places.slice(2, 10);
   const featuredRecipe = recipes[0];
 
@@ -88,12 +107,14 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="fade-up stagger-4 mt-5 flex flex-wrap items-center justify-center gap-3 text-sm text-white/75">
-            <Link href="/explore" className="rounded-full border border-white/20 px-3 py-1.5 transition-colors duration-200 hover:border-white/50 hover:text-white">🍴 Restaurants</Link>
-            <Link href="/crawfish" className="rounded-full border border-white/20 px-3 py-1.5 transition-colors duration-200 hover:border-white/50 hover:text-white">🦞 Crawfish</Link>
-            <Link href="/events" className="rounded-full border border-white/20 px-3 py-1.5 transition-colors duration-200 hover:border-white/50 hover:text-white">🎶 Events</Link>
-            <Link href="/vibe" className="rounded-full border border-white/20 px-3 py-1.5 transition-colors duration-200 hover:border-white/50 hover:text-white">✨ Vibe Match</Link>
-            <Link href="/ask" className="rounded-full border border-white/20 px-3 py-1.5 transition-colors duration-200 hover:border-white/50 hover:text-white">🐊 Ask Geaux</Link>
+          <div className="fade-up stagger-4 mt-5 w-full overflow-x-auto pb-2 text-sm text-white/75 scrollbar-hide">
+            <div className="flex flex-nowrap items-center justify-start gap-2 sm:flex-wrap sm:justify-center sm:gap-3">
+              <Link href="/explore" className="inline-flex min-h-11 shrink-0 items-center rounded-full border border-white/20 px-3 py-1.5 transition-colors duration-200 hover:border-white/50 hover:text-white">🍴 Restaurants</Link>
+              <Link href="/crawfish" className="inline-flex min-h-11 shrink-0 items-center rounded-full border border-white/20 px-3 py-1.5 transition-colors duration-200 hover:border-white/50 hover:text-white">🦞 Crawfish</Link>
+              <Link href="/events" className="inline-flex min-h-11 shrink-0 items-center rounded-full border border-white/20 px-3 py-1.5 transition-colors duration-200 hover:border-white/50 hover:text-white">🎶 Events</Link>
+              <Link href="/vibe" className="inline-flex min-h-11 shrink-0 items-center rounded-full border border-white/20 px-3 py-1.5 transition-colors duration-200 hover:border-white/50 hover:text-white">✨ Vibe Match</Link>
+              <Link href="/ask" className="inline-flex min-h-11 shrink-0 items-center rounded-full border border-white/20 px-3 py-1.5 transition-colors duration-200 hover:border-white/50 hover:text-white">🐊 Ask Geaux</Link>
+            </div>
           </div>
 
           {/* Small gator accent */}
@@ -122,7 +143,7 @@ export default function Home() {
         </div>
         <div className="grid items-start gap-6 lg:grid-cols-[1.3fr_1fr]">
           {featuredPlaces[0] ? <PlaceCard place={featuredPlaces[0]} featured /> : null}
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
             {featuredPlaces.slice(1, 5).map((place) => (
               <PlaceCard key={place.slug} place={place} compact />
             ))}
@@ -138,9 +159,9 @@ export default function Home() {
         <div className="relative">
           <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-10 bg-gradient-to-r from-[var(--cream)] to-transparent" />
           <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-10 bg-gradient-to-l from-[var(--cream)] to-transparent" />
-          <div className="flex snap-x snap-mandatory gap-4 overflow-x-auto pb-2">
+          <div className="flex snap-x snap-mandatory gap-4 overflow-x-auto pb-2 scrollbar-hide">
             {aiPicks.map((pick) => (
-              <div key={pick.slug} className="min-w-[290px] snap-start">
+              <div key={pick.slug} className="min-w-[280px] snap-start">
                 <PlaceCard place={pick} />
               </div>
             ))}
