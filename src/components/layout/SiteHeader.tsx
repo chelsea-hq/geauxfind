@@ -12,6 +12,7 @@ const links = [
   ["/plan", "Plan"],
   ["/whos-got-it", "Who's Got It"],
   ["/community", "Community"],
+  ["/cajun-connection", "Cajun Connection"],
   ["/crawfish", "Crawfish 🦞"],
 ] as const;
 

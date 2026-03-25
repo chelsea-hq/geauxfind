@@ -156,6 +156,14 @@ export default function Home() {
         </Link>
       </section>
 
+      <section className="mx-auto mt-8 max-w-6xl px-4 reveal">
+        <Link href="/cajun-connection" className="block rounded-[12px] border border-[var(--spanish-moss)]/30 bg-white p-6 card-lift">
+          <p className="text-xs tracking-[0.18em] text-[var(--moss)]">NEW DIRECTORY</p>
+          <h2 className="mt-2 text-3xl text-[var(--cajun-red)] md:text-4xl">Cajun Connection ⚜</h2>
+          <p className="mt-2 max-w-2xl text-[var(--cast-iron)]/80">Discover Louisiana-made seasonings, food vendors, and featured Cajun fluencers across Acadiana.</p>
+        </Link>
+      </section>
+
       <section id="geaux-best" className="mx-auto mt-16 max-w-6xl px-4 reveal">
         <div className="mb-7 flex items-end justify-between">
           <div>

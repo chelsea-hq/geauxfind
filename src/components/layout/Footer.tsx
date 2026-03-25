@@ -28,7 +28,8 @@ export function Footer() {
               <Link href="/weekend" className="gf-link">Weekend Planner</Link><br />
               <Link href="/plan" className="gf-link">Plan My Day</Link><br />
               <Link href="/trending" className="gf-link">Trending</Link><br />
-              <Link href="/whos-got-it" className="gf-link">Who&apos;s Got It</Link>
+              <Link href="/whos-got-it" className="gf-link">Who&apos;s Got It</Link><br />
+              <Link href="/cajun-connection" className="gf-link">Cajun Connection</Link>
             </div>
           </div>
 
