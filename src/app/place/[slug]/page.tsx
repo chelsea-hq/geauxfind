@@ -4,6 +4,7 @@ import { ReviewCard } from "@/components/ReviewCard";
 import { PlaceCard } from "@/components/cards/PlaceCard";
 import { places } from "@/data/mock-data";
 import { RatingStars } from "@/components/RatingStars";
+import { ReviewSummaryCard } from "@/components/ReviewSummaryCard";
 
 export async function generateStaticParams() {
   return places.map((p) => ({ slug: p.slug }));
@@ -30,6 +31,7 @@ export default async function PlaceDetail({ params }: { params: Promise<{ slug: 
           <div className="mt-6">
             <MapPlaceholder />
           </div>
+          <ReviewSummaryCard slug={place.slug} />
           <h2 className="mb-3 mt-8 font-serif text-2xl">Community Reviews</h2>
           <div className="space-y-3">{place.reviews.map((r) => <ReviewCard key={r.id} review={r} />)}</div>
 

@@ -14,6 +14,8 @@ const links = [
   ["/whats-new", "What’s New"],
   ["/recipes", "Recipes"],
   ["/explore", "Explore"],
+  ["/vibe", "Vibe Match"],
+  ["/weekend", "Weekend Planner"],
   ["/ask", "Ask Acadiana"],
 ] as const;
 

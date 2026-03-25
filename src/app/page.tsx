@@ -8,6 +8,7 @@ import { CategoryNav } from "@/components/CategoryNav";
 import { EventCard } from "@/components/cards/EventCard";
 import { PlaceCard } from "@/components/cards/PlaceCard";
 import { NewsletterSignup } from "@/components/sections/NewsletterSignup";
+import { AIPicks } from "@/components/AIPicks";
 import { events, places } from "@/data/mock-data";
 import type { WhatsNewItem } from "@/types";
 
@@ -32,10 +33,15 @@ export default function Home() {
   return (
     <main className="pb-10">
       <section className="relative overflow-hidden bg-[linear-gradient(120deg,rgba(139,26,26,0.94),rgba(74,124,89,0.8)),url('https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&fit=crop&w=1800&q=80')] bg-cover bg-center px-4 py-20 text-white">
-        <div className="mx-auto max-w-5xl text-center">
-          <h1 className="text-balance font-serif text-5xl">Find your next favorite in Cajun Country</h1>
-          <p className="mx-auto mt-3 max-w-2xl text-white/90">From crawfish boils to festival weekends, GeauxFind curates the heart of South Louisiana.</p>
-          <div className="mt-7"><SearchBar /></div>
+        <div className="mx-auto grid max-w-5xl items-center gap-8 text-center md:grid-cols-[1.15fr_0.85fr] md:text-left">
+          <div>
+            <h1 className="text-balance font-serif text-5xl">Find your next favorite in Cajun Country</h1>
+            <p className="mx-auto mt-3 max-w-2xl text-white/90 md:mx-0">From crawfish boils to festival weekends, GeauxFind curates the heart of South Louisiana.</p>
+            <div className="mt-7"><SearchBar /></div>
+          </div>
+          <div className="mx-auto w-full max-w-[240px] md:max-w-[280px]">
+            <Image src="/mascot/gator-wave.svg" alt="Geaux the Gator waving hello" width={280} height={280} className="h-auto w-full" priority />
+          </div>
         </div>
       </section>
 
@@ -49,6 +55,8 @@ export default function Home() {
       </section>
 
       <section className="mx-auto mt-10 max-w-6xl px-4"><CategoryNav /></section>
+
+      <AIPicks />
 
       <section className="mx-auto mt-16 max-w-6xl px-4">
         <div className="mb-4 flex items-center justify-between"><h2 className="font-serif text-3xl text-[var(--cajun-red)]">What&apos;s New in Acadiana</h2><Link href="/whats-new" className="text-sm underline">See full feed</Link></div>
