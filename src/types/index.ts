@@ -25,6 +25,10 @@ export interface Place {
   gallery: string[];
   tags: string[];
   reviews: Review[];
+  google_place_id?: string;
+  google_maps_url?: string;
+  photo_references?: string[];
+  price_level?: string;
 }
 
 export interface Event {
