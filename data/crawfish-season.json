@@ -1,0 +1,256 @@
+{
+  "hero": {
+    "headline": "🦞 Crawfish Season 2026",
+    "subtitle": "Your Guide to the Best Mudbugs in Acadiana",
+    "status": "🔥 PEAK SEASON — Prices Dropping!",
+    "quickStats": "18 Spots • $5-10/lb • March-May Peak"
+  },
+  "priceTracker": {
+    "currentRange": "$5.49 - $8.99/lb boiled",
+    "trend": "Prices are dropping! Down from $10+ in January",
+    "bestDealTip": "Best deals: Buy direct from farm drive-thrus",
+    "proTip": "Most places don't start boiling until 4-5pm — call ahead for lunch",
+    "source": "Data from The Crawfish App & local reporting",
+    "sourceLink": "https://thecrawfishapp.com",
+    "seasonTrend": "Started at $9-13/lb in January, now dropping as farms hit full production",
+    "peakValueWindow": "March-May ($3-6/lb range expected)",
+    "bestDealSpots": [
+      "Crawfish Acadiana",
+      "Crawfish Time"
+    ]
+  },
+  "seasonOutlook": [
+    "2026 season is \"looking good\" per LSU AgCenter (Todd Fontenot, crawfish extension agent)",
+    "Much better than 2024 drought conditions",
+    "Prices expected to keep dropping through April",
+    "Apple snails still an issue south of I-10",
+    "Largest crawfish and best value comes in April/May"
+  ],
+  "events": [
+    {
+      "name": "Broussard Crawfish & Concert Night",
+      "date": "2026-03-27",
+      "endDate": "2026-03-27",
+      "time": "5:00 PM - 11:00 PM",
+      "location": "Broussard City Hall (E Madison St), Broussard",
+      "price": "Free admission (concert cover $10)",
+      "description": "Boiled crawfish by LT's Seafood and Fezzo's (market price, 5-8pm). Kid Zone 5-7:30pm with bubble station, photo booth, and face painting. Live music by Geno Delafose 8-11pm at Broussard Event Center.",
+      "notes": [
+        "No ice chests",
+        "Phone: 337-330-2230"
+      ],
+      "featured": true
+    },
+    {
+      "name": "Breaux Bridge Crawfish Festival",
+      "date": "2026-05-01",
+      "endDate": "2026-05-03",
+      "time": "All weekend",
+      "location": "Parc Hardy, Breaux Bridge",
+      "price": "Friday $10 • Saturday $15 • Sunday $5 • Weekend Pass $25",
+      "description": "The \"Crawfish Capital of the World\" festival running since 1960 with live Cajun, Zydeco, and Swamp Pop music. 2026 lineup announced.",
+      "notes": [],
+      "featured": false
+    }
+  ],
+  "spots": [
+    {
+      "name": "Crawfish Time",
+      "address": "320 Ridge Rd & 3401 Moss St",
+      "city": "Lafayette",
+      "hours": "Mon-Sun 4:30-9pm",
+      "priceSummary": "3lb $26.99 • 5lb $43.99 (with 2 potatoes)",
+      "pricePerLbEstimate": 8.8,
+      "description": "Family-farmed crawfish with two Lafayette locations. Drive-thru available with $1 less at Ridge Rd drive-thru.",
+      "tags": ["Drive-Thru", "Farm-Fresh", "Family-Owned"],
+      "website": "https://facebook.com/Crawfish-Time-on-Ridge-270468627637"
+    },
+    {
+      "name": "Crawfish Acadiana",
+      "address": "7400 Johnston St",
+      "city": "Lafayette",
+      "hours": "Daily 4:30-8:30pm",
+      "priceSummary": "Call for daily market price",
+      "pricePerLbEstimate": null,
+      "description": "Farm-to-table spot from family-owned farms, known as the Home of the Hot Box.",
+      "tags": ["Farm-Fresh", "Family-Owned", "Drive-Thru"],
+      "website": "https://facebook.com/CrawfishAcadiana"
+    },
+    {
+      "name": "The Cajun Table",
+      "address": "4510 Ambassador Caffery Pkwy Suite D",
+      "city": "Lafayette",
+      "hours": "Mon-Thu 11am-9pm • Fri-Sat 11am-10pm • Sun 11am-8pm",
+      "priceSummary": "3lb $33 (2 potatoes) • 5lb $52 (2 potatoes + corn)",
+      "pricePerLbEstimate": 10.4,
+      "description": "Dine-in only with full-service Cajun meals and boiled crawfish plates.",
+      "tags": ["Dine-In"],
+      "website": "https://thecajuntablellc.com"
+    },
+    {
+      "name": "Coastal Fire & Ice",
+      "address": "6412 Ambassador Caffery Pkwy",
+      "city": "Broussard",
+      "hours": "Sun-Wed 4:30-8pm • Thu-Sat 4:30-8:30pm",
+      "priceSummary": "3lb $23.99 • 5lb $39.99 • 10lb $79.99",
+      "pricePerLbEstimate": 8,
+      "description": "Crawfish plus snoballs and ice cream. Catering available for events.",
+      "tags": ["Catering", "Dine-In"],
+      "website": "https://facebook.com/coastalfireandicellc"
+    },
+    {
+      "name": "Louisiana Crawfish Time",
+      "address": "2019 Verot School Road",
+      "city": "Lafayette",
+      "hours": "Mon-Thu 5-9pm • Fri-Sat 4:30-10pm • Sun 4-9pm",
+      "priceSummary": "3lb $27.99 • 5lb $44.99 • 10lb $88.99 (drive-thru only)",
+      "pricePerLbEstimate": 8.9,
+      "description": "Cajun camp atmosphere with strong evening crowd and drive-thru 10lb option.",
+      "tags": ["Drive-Thru", "Dine-In"],
+      "website": "https://lacrawfishtime.com"
+    },
+    {
+      "name": "The Bulldog",
+      "address": "109 Gen. Mouton Ave",
+      "city": "Lafayette",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "3lb $21.99 • 5lb $34.99 • 10lb $69.99",
+      "pricePerLbEstimate": 7,
+      "description": "Known for cheap beer + crawfish combo. Cash only for crawfish orders.",
+      "tags": ["Dine-In", "Cash Only"],
+      "website": null
+    },
+    {
+      "name": "JJ's Boiling Shack",
+      "address": "405 Duhon Road",
+      "city": "Lafayette",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "1lb $15.99 • 3lb $27 • 4lb $36 • 5lb $45 • 10lb special $85",
+      "pricePerLbEstimate": 8.5,
+      "description": "Potatoes included with most orders and 10lb family special includes corn.",
+      "tags": ["Dine-In"],
+      "website": null
+    },
+    {
+      "name": "Bucks Crawfish Company",
+      "address": "2011 E Main St",
+      "city": "Broussard",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Call for daily market price",
+      "pricePerLbEstimate": null,
+      "description": "Family-owned drive-thru serving crawfish straight from their ponds.",
+      "tags": ["Drive-Thru", "Family-Owned", "Farm-Fresh"],
+      "website": "https://facebook.com/buckscrawfish"
+    },
+    {
+      "name": "C'est Bon Crawfish",
+      "address": "3301 Chemin Metairie Pkwy",
+      "city": "Youngsville",
+      "hours": "Mon-Thu 4:30-9pm • Fri-Sat 4-9pm • Sun 4-7:30pm",
+      "priceSummary": "Call for daily market price",
+      "pricePerLbEstimate": null,
+      "description": "Family-owned for 20+ years with a loyal local following.",
+      "tags": ["Family-Owned"],
+      "website": "https://facebook.com/cestboncrawfish"
+    },
+    {
+      "name": "Hawks Crawfish Restaurant",
+      "address": "416 Hawks Rd",
+      "city": "Rayne",
+      "hours": "Wed-Thu 5-9pm • Fri-Sat 5-10pm • Sun 5-9pm",
+      "priceSummary": "Call for daily market price",
+      "pricePerLbEstimate": null,
+      "description": "Best kept secret since 1983, nestled deep in the woods.",
+      "tags": ["Dine-In"],
+      "website": "https://facebook.com/HawksCrawfish"
+    },
+    {
+      "name": "Dwight's Restaurant",
+      "address": "4800 Johnston St",
+      "city": "Lafayette",
+      "hours": "Mon-Fri lunch 10:30am-2pm • Mon-Wed dinner 5-8:30pm • Fri 5-9pm • Sat 4:30-9pm • Sun 11am-2pm",
+      "priceSummary": "Call for daily market price",
+      "pricePerLbEstimate": null,
+      "description": "Over 20 years serving Acadiana with classic local seafood dishes.",
+      "tags": ["Dine-In"],
+      "website": "https://dwights.us"
+    },
+    {
+      "name": "L.T.'s Seafood",
+      "address": "636 Albertson's Pkwy",
+      "city": "Broussard",
+      "hours": "Mon-Fri 11am-2pm lunch • Mon-Sat 5-9pm dinner",
+      "priceSummary": "Call for daily market price",
+      "pricePerLbEstimate": null,
+      "description": "Open since 2002 with both dine-in and drive-thru options.",
+      "tags": ["Dine-In", "Drive-Thru"],
+      "website": "https://ltsseafoodandsteakhouse.com"
+    },
+    {
+      "name": "Lagneaux's",
+      "address": "445 Ridge Rd",
+      "city": "Lafayette",
+      "hours": "Lunch Mon-Fri 11-1:30pm • Dinner Tue-Thu 5-8:30pm • Fri-Sat 5-9:30pm",
+      "priceSummary": "Call for buffet/market pricing",
+      "pricePerLbEstimate": null,
+      "description": "Large Cajun seafood buffet and market with crawfish, crab, and catfish.",
+      "tags": ["Dine-In"],
+      "website": "https://facebook.com/lagneauxskingofseafood"
+    },
+    {
+      "name": "Stelly's Boiling Spot",
+      "address": "1120 Veterans Memorial Dr",
+      "city": "Abbeville",
+      "hours": "Tue/Wed/Fri/Sat 4-9pm",
+      "priceSummary": "Call for daily market price",
+      "pricePerLbEstimate": null,
+      "description": "Family-owned, fresh crawfish from their own ponds.",
+      "tags": ["Family-Owned", "Farm-Fresh"],
+      "website": "https://facebook.com/stellysboilingspot"
+    },
+    {
+      "name": "Crawfish Jake",
+      "address": "106 Roselawn Blvd",
+      "city": "Lafayette",
+      "hours": "Wed-Sat 5-9pm",
+      "priceSummary": "Call for daily market price",
+      "pricePerLbEstimate": null,
+      "description": "Catering available and drive-through opening for the season.",
+      "tags": ["Catering", "Drive-Thru"],
+      "website": "https://crawfishjake.com"
+    },
+    {
+      "name": "Edward's Seafood Haus",
+      "address": "208 S Main St",
+      "city": "Church Point",
+      "hours": "Mon-Sat 5-9pm • Sun 5-8pm",
+      "priceSummary": "Call for daily market price",
+      "pricePerLbEstimate": null,
+      "description": "Classic drive-in seafood house serving evening crawfish.",
+      "tags": ["Drive-Thru", "Dine-In"],
+      "website": "https://facebook.com/EdwardsSeafoodHaus"
+    },
+    {
+      "name": "Big Red's Crawfish",
+      "address": "438 E Pont de Mouton Rd",
+      "city": "Lafayette",
+      "hours": "Daily 4:30-9pm",
+      "priceSummary": "Call for daily market price",
+      "pricePerLbEstimate": null,
+      "description": "New this season with farm-raised crawfish sold boiled or live.",
+      "tags": ["Farm-Fresh"],
+      "website": "https://facebook.com/profile.php?id=61584914696154"
+    },
+    {
+      "name": "The Boiling Spot",
+      "address": "Breaux Bridge",
+      "city": "Breaux Bridge",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Call for daily market price",
+      "pricePerLbEstimate": null,
+      "description": "Community favorite with online ordering and drive-thru pickup.",
+      "tags": ["Drive-Thru"],
+      "website": null
+    }
+  ]
+}
