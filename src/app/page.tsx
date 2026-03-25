@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { ChevronDown, Sparkles } from "lucide-react";
+import { Sparkles } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 import { SearchBar } from "@/components/SearchBar";
 import { EventCard } from "@/components/cards/EventCard";
@@ -10,8 +10,6 @@ import { PlaceCard } from "@/components/cards/PlaceCard";
 import { NewsletterSignup } from "@/components/sections/NewsletterSignup";
 import { events, places, recipes } from "@/data/mock-data";
 import type { WhatsNewItem } from "@/types";
-
-const HERO_IMAGE = "https://images.unsplash.com/photo-1548690312-e3b507d8c110?w=1920&q=80";
 
 export default function Home() {
   const [whatsNewItems, setWhatsNewItems] = useState<WhatsNewItem[]>([]);
@@ -42,28 +40,60 @@ export default function Home() {
 
   return (
     <main className="pb-16">
-      <section className="relative flex min-h-[92vh] items-center overflow-hidden px-4 py-16 text-white">
-        <Image src={HERO_IMAGE} alt="Louisiana bayou sunset at golden hour" fill priority className="object-cover" sizes="100vw" />
-        <div className="absolute inset-0 bg-[linear-gradient(135deg,rgba(26,58,42,0.68),rgba(45,41,38,0.42))]" />
+      {/* Hero — compact, Cajun-inspired illustrated background */}
+      <section className="cajun-hero relative overflow-hidden px-4 pb-10 pt-24 md:pb-14 md:pt-28">
+        {/* Decorative SVG elements */}
+        <svg className="cajun-hero-deco cajun-hero-deco--fleur" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M60 10C60 10 70 30 60 50C50 30 60 10 60 10Z" fill="currentColor" opacity="0.12"/>
+          <path d="M60 50C60 50 80 40 90 55C75 55 60 50 60 50Z" fill="currentColor" opacity="0.10"/>
+          <path d="M60 50C60 50 40 40 30 55C45 55 60 50 60 50Z" fill="currentColor" opacity="0.10"/>
+          <path d="M60 50C60 50 70 70 60 90C50 70 60 50 60 50Z" fill="currentColor" opacity="0.08"/>
+          <circle cx="60" cy="50" r="6" fill="currentColor" opacity="0.15"/>
+        </svg>
+        <svg className="cajun-hero-deco cajun-hero-deco--fleur2" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M60 10C60 10 70 30 60 50C50 30 60 10 60 10Z" fill="currentColor" opacity="0.08"/>
+          <path d="M60 50C60 50 80 40 90 55C75 55 60 50 60 50Z" fill="currentColor" opacity="0.06"/>
+          <path d="M60 50C60 50 40 40 30 55C45 55 60 50 60 50Z" fill="currentColor" opacity="0.06"/>
+          <circle cx="60" cy="50" r="6" fill="currentColor" opacity="0.10"/>
+        </svg>
+        {/* Crawfish decorative accents */}
+        <div className="cajun-hero-deco cajun-hero-deco--crawfish" aria-hidden="true">🦞</div>
+        <div className="cajun-hero-deco cajun-hero-deco--pepper" aria-hidden="true">🌶️</div>
 
-        <div className="relative z-10 mx-auto grid w-full max-w-6xl items-center gap-10 md:grid-cols-[1.1fr_0.9fr]">
-          <div>
-            <p className="fade-up text-sm tracking-[0.22em] text-white/85">LOCAL • CURATED • ACADIANA</p>
-            <h1 className="fade-up stagger-1 mt-3 text-5xl leading-tight md:text-7xl">Discover Acadiana</h1>
-            <p className="fade-up stagger-2 mt-4 max-w-xl text-lg text-white/92 md:text-xl">Your AI-powered guide to the best of Lafayette & Cajun Country.</p>
-            <div className="fade-up stagger-3 mt-8 rounded-[12px] border border-white/35 bg-white/20 p-2 shadow-2xl backdrop-blur-md">
+        <div className="relative z-10 mx-auto flex max-w-5xl flex-col items-center text-center">
+          <div className="fade-up mb-2 flex items-center gap-2">
+            <span className="inline-block h-px w-8 bg-[var(--sunset-gold)]"></span>
+            <p className="text-xs font-semibold tracking-[0.25em] text-[var(--sunset-gold)]">LOCAL • CURATED • AI-POWERED</p>
+            <span className="inline-block h-px w-8 bg-[var(--sunset-gold)]"></span>
+          </div>
+
+          <h1 className="fade-up stagger-1 mt-2 text-4xl leading-tight text-white md:text-6xl" style={{ textWrap: "balance" as never }}>
+            Discover the Heart of <span className="text-[var(--sunset-gold)]">Acadiana</span>
+          </h1>
+
+          <p className="fade-up stagger-2 mx-auto mt-3 max-w-2xl text-base text-white/85 md:text-lg">
+            Your AI-powered guide to restaurants, events, hidden gems & everything Cajun Country has to offer.
+          </p>
+
+          <div className="fade-up stagger-3 mx-auto mt-6 w-full max-w-2xl">
+            <div className="rounded-[14px] border border-white/25 bg-white/15 p-1.5 shadow-2xl backdrop-blur-md">
               <SearchBar />
             </div>
           </div>
 
-          <div className="fade-up stagger-4 relative mx-auto w-full max-w-[240px] md:max-w-[300px]">
-            <Image src="/mascot/gator-wave.svg" alt="Geaux the gator mascot waving" width={300} height={300} className="h-auto w-full drop-shadow-[0_16px_26px_rgba(0,0,0,0.35)]" />
+          <div className="fade-up stagger-4 mt-5 flex flex-wrap items-center justify-center gap-3 text-sm text-white/75">
+            <Link href="/explore" className="rounded-full border border-white/20 px-3 py-1.5 transition-colors duration-200 hover:border-white/50 hover:text-white">🍴 Restaurants</Link>
+            <Link href="/crawfish" className="rounded-full border border-white/20 px-3 py-1.5 transition-colors duration-200 hover:border-white/50 hover:text-white">🦞 Crawfish</Link>
+            <Link href="/events" className="rounded-full border border-white/20 px-3 py-1.5 transition-colors duration-200 hover:border-white/50 hover:text-white">🎶 Events</Link>
+            <Link href="/vibe" className="rounded-full border border-white/20 px-3 py-1.5 transition-colors duration-200 hover:border-white/50 hover:text-white">✨ Vibe Match</Link>
+            <Link href="/ask" className="rounded-full border border-white/20 px-3 py-1.5 transition-colors duration-200 hover:border-white/50 hover:text-white">🐊 Ask Geaux</Link>
+          </div>
+
+          {/* Small gator accent */}
+          <div className="fade-up stagger-4 mt-4 md:absolute md:-right-4 md:bottom-0 md:mt-0">
+            <Image src="/mascot/gator-wave.svg" alt="Geaux the gator" width={100} height={100} className="h-auto w-16 opacity-80 drop-shadow-lg md:w-24" />
           </div>
         </div>
-
-        <a href="#geaux-best" className="chevron-bounce absolute bottom-6 left-1/2 z-10 -translate-x-1/2 rounded-full border border-white/45 bg-black/20 p-2 text-white" aria-label="Scroll to featured places">
-          <ChevronDown className="h-5 w-5" />
-        </a>
       </section>
 
       <section className="mx-auto mt-10 max-w-6xl px-4 reveal">

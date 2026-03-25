@@ -158,6 +158,87 @@ a.gf-link:focus-visible::after,
   50% { transform: translateY(-6px); opacity: 1; }
 }
 
+/* ========================================
+   Cajun Hero — illustrated background
+   ======================================== */
+
+.cajun-hero {
+  background:
+    radial-gradient(ellipse 120% 80% at 50% 20%, rgba(74,124,89,0.25) 0%, transparent 60%),
+    radial-gradient(ellipse 80% 60% at 80% 80%, rgba(232,168,56,0.15) 0%, transparent 50%),
+    radial-gradient(ellipse 60% 50% at 15% 70%, rgba(196,30,58,0.12) 0%, transparent 50%),
+    linear-gradient(165deg, #1a3a2a 0%, #1f3328 25%, #243525 45%, #2d3526 60%, #3a2e22 80%, #2d2926 100%);
+  position: relative;
+}
+
+/* Subtle texture overlay */
+.cajun-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Bottom edge — warm bayou curve */
+.cajun-hero::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 48px;
+  background: var(--cream);
+  clip-path: ellipse(55% 100% at 50% 100%);
+  z-index: 2;
+}
+
+/* Decorative floating fleur-de-lis */
+.cajun-hero-deco {
+  position: absolute;
+  pointer-events: none;
+  z-index: 1;
+  color: white;
+}
+
+.cajun-hero-deco--fleur {
+  width: 140px;
+  height: 140px;
+  top: 12%;
+  right: 6%;
+  animation: floatSlow 6s ease-in-out infinite;
+}
+
+.cajun-hero-deco--fleur2 {
+  width: 100px;
+  height: 100px;
+  bottom: 18%;
+  left: 4%;
+  animation: floatSlow 7s ease-in-out infinite reverse;
+}
+
+.cajun-hero-deco--crawfish {
+  font-size: 32px;
+  top: 20%;
+  left: 8%;
+  opacity: 0.15;
+  animation: floatSlow 5s ease-in-out infinite;
+}
+
+.cajun-hero-deco--pepper {
+  font-size: 24px;
+  bottom: 25%;
+  right: 10%;
+  opacity: 0.12;
+  animation: floatSlow 8s ease-in-out infinite reverse;
+}
+
+@keyframes floatSlow {
+  0%, 100% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-10px) rotate(3deg); }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after {
