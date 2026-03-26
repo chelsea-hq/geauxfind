@@ -113,19 +113,20 @@ async function crawfishSignals(): Promise<HotSignal[]> {
 }
 
 async function communitySignals(): Promise<HotSignal[]> {
+  // rec-submissions.json is created by /api/recs POST handler
   const subs = await readJson<
-    { id: string; placeName: string; text: string; authorName: string; createdAt: string; moderation: string }[]
-  >("community-submissions.json", []);
+    { id: string; placeName: string; recommendation: string; submittedBy: string; createdAt: string; status: string }[]
+  >("rec-submissions.json", []);
 
   const cutoff = Date.now() - 48 * 60 * 60 * 1000;
   return subs
-    .filter((s) => s.moderation === "approved" && new Date(s.createdAt).getTime() > cutoff)
+    .filter((s) => s.status === "approved" && new Date(s.createdAt).getTime() > cutoff)
     .slice(0, 4)
     .map((s) => ({
       id: `community-${s.id}`,
       type: "community" as SignalSource,
       title: `New rec: ${s.placeName}`,
-      description: s.text.slice(0, 120) + (s.text.length > 120 ? "…" : ""),
+      description: s.recommendation.slice(0, 120) + (s.recommendation.length > 120 ? "…" : ""),
       timestamp: s.createdAt,
       source: "Community",
       sourceUrl: "/community",
