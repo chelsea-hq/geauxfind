@@ -1,0 +1,103 @@
+name: Daily Scrapers
+
+# Runs every day at 6am CT (11:00 UTC winter / 12:00 UTC summer).
+# Scrapes fast-changing data: events, crawfish prices, social feeds.
+# Each step uses continue-on-error so one failure never blocks the rest.
+# Secrets required (set in repo Settings → Secrets → Actions):
+#   TICKETMASTER_API_KEY    - Ticketmaster Discovery API v2
+#   PREDICTHQ_API_TOKEN     - PredictHQ Bearer token
+#   FACEBOOK_GRAPH_TOKEN    - Facebook Graph API v20.0 token
+
+on:
+  schedule:
+    - cron: '0 11 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    name: Run Daily Scrapers
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      # ── No-key scrapers ────────────────────────────────────────────────────
+
+      - name: Crawfish prices
+        run: node scripts/scrape-crawfish-prices.mjs
+        continue-on-error: true
+
+      - name: DO337 events
+        run: node scripts/scrape-do337.mjs
+        continue-on-error: true
+
+      - name: Lafayette Travel events
+        run: node scripts/scrape-lafayette-travel-events.mjs
+        continue-on-error: true
+
+      - name: Developing Lafayette events
+        run: node scripts/scrape-developing-lafayette-events.mjs
+        continue-on-error: true
+
+      - name: Reddit (Acadiana + Lafayette)
+        run: node scripts/scrape-reddit.mjs
+        continue-on-error: true
+
+      - name: What's New (local blogs/news)
+        run: node scripts/scrape-whats-new.mjs
+        continue-on-error: true
+
+      - name: Google Trends
+        run: node scripts/scrape-google-trends.mjs
+        continue-on-error: true
+
+      # ── API-key scrapers ───────────────────────────────────────────────────
+
+      - name: Ticketmaster events
+        run: node scripts/scrape-ticketmaster.mjs
+        continue-on-error: true
+        env:
+          TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
+
+      - name: PredictHQ events
+        run: node scripts/scrape-predicthq.mjs
+        continue-on-error: true
+        env:
+          PREDICTHQ_API_TOKEN: ${{ secrets.PREDICTHQ_API_TOKEN }}
+
+      - name: Facebook events (Graph API)
+        run: node scripts/scrape-facebook-events-public.mjs
+        continue-on-error: true
+        env:
+          FACEBOOK_GRAPH_TOKEN: ${{ secrets.FACEBOOK_GRAPH_TOKEN }}
+
+      # ── Commit updated data ────────────────────────────────────────────────
+
+      - name: Commit and push updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No data changes — nothing to commit."
+          else
+            git commit -m "chore(data): daily scrape $(date -u +'%Y-%m-%d')"
+            git pull --rebase origin main
+            git push origin main
+          fi

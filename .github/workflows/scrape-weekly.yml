@@ -1,0 +1,111 @@
+name: Weekly Scrapers
+
+# Runs every Monday at 8am CT (13:00 UTC winter / 14:00 UTC summer).
+# Scrapes slower-changing data: venues, restaurants, enrichment, blogs.
+# Each step uses continue-on-error so one failure never blocks the rest.
+# Secrets required (set in repo Settings → Secrets → Actions):
+#   YELP_API_KEY              - Yelp Fusion API key
+#   FOURSQUARE_API_KEY        - Foursquare Places API v3 key
+#   GOOGLE_PLACES_API_KEY     - Google Places API (New) key
+#   APIFY_API_KEY             - Apify platform API key (Facebook pipeline)
+#   TRIPADVISOR_API_KEY       - TripAdvisor Content API key (optional — falls back to public scraping)
+
+on:
+  schedule:
+    - cron: '0 13 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    name: Run Weekly Scrapers
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      # ── No-key scrapers ────────────────────────────────────────────────────
+
+      - name: Local blogs
+        run: node scripts/scrape-local-blogs.mjs
+        continue-on-error: true
+
+      - name: Food signals
+        run: node scripts/scrape-food-signals.mjs
+        continue-on-error: true
+
+      - name: Facebook public groups
+        run: node scripts/scrape-facebook.mjs
+        continue-on-error: true
+
+      # ── API-key scrapers ───────────────────────────────────────────────────
+
+      - name: Yelp venues
+        run: node scripts/scrape-yelp.mjs
+        continue-on-error: true
+        env:
+          YELP_API_KEY: ${{ secrets.YELP_API_KEY }}
+
+      - name: Foursquare places
+        run: node scripts/scrape-foursquare.mjs
+        continue-on-error: true
+        env:
+          FOURSQUARE_API_KEY: ${{ secrets.FOURSQUARE_API_KEY }}
+
+      - name: Google Places enrichment
+        run: node scripts/scrape-google-places-enrich.mjs
+        continue-on-error: true
+        env:
+          GOOGLE_PLACES_API_KEY: ${{ secrets.GOOGLE_PLACES_API_KEY }}
+
+      - name: TripAdvisor attractions
+        run: node scripts/scrape-tripadvisor.mjs
+        continue-on-error: true
+        env:
+          TRIPADVISOR_API_KEY: ${{ secrets.TRIPADVISOR_API_KEY }}
+
+      - name: Apify Facebook pipeline
+        run: node scripts/apify-facebook-pipeline.mjs
+        continue-on-error: true
+        env:
+          APIFY_API_KEY: ${{ secrets.APIFY_API_KEY }}
+
+      # ── Post-scrape processing ─────────────────────────────────────────────
+
+      - name: Merge sources
+        run: node scripts/merge-sources.mjs
+        continue-on-error: true
+
+      - name: Generate smart tags
+        run: node scripts/generate-smart-tags.mjs
+        continue-on-error: true
+
+      # ── Commit updated data ────────────────────────────────────────────────
+
+      - name: Commit and push updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ scripts/seed-data.json
+          if git diff --staged --quiet; then
+            echo "No data changes — nothing to commit."
+          else
+            git commit -m "chore(data): weekly scrape $(date -u +'%Y-%m-%d')"
+            git pull --rebase origin main
+            git push origin main
+          fi

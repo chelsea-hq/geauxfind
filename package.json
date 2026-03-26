@@ -28,6 +28,13 @@
     "scrape:food-signals": "node scripts/scrape-food-signals.mjs",
     "scrape:instagram-feasibility": "node scripts/scrape-instagram-feasibility.mjs",
     "scrape:facebook-events-graph": "node scripts/scrape-facebook-events-public.mjs",
+    "scrape:crawfish-prices": "node scripts/scrape-crawfish-prices.mjs",
+    "scrape:facebook-pipeline": "node scripts/apify-facebook-pipeline.mjs",
+    "generate:smart-tags": "node scripts/generate-smart-tags.mjs",
+    "generate:newsletter": "node scripts/generate-newsletter.mjs",
+    "generate:branding": "node scripts/generate-branding-assets.mjs",
+    "enrich:descriptions": "node scripts/enrich-descriptions.mjs",
+    "fix:image-urls": "node scripts/fix-image-urls.mjs",
     "merge:sources": "node scripts/merge-sources.mjs",
     "seed:supabase": "node scripts/seed-supabase.mjs",
     "seed:supabase:places": "node scripts/seed-supabase.mjs --only places",
@@ -35,7 +42,8 @@
     "seed:supabase:crawfish": "node scripts/seed-supabase.mjs --only crawfish",
     "seed:supabase:music": "node scripts/seed-supabase.mjs --only music",
     "seed:supabase:best_of": "node scripts/seed-supabase.mjs --only best_of",
-    "parse:fb-dumps": "node scripts/parse-fb-dumps.mjs"
+    "parse:fb-dumps": "node scripts/parse-fb-dumps.mjs",
+    "scrape:all": "bash scripts/run-all-scrapers.sh"
   },
   "dependencies": {
     "@supabase/ssr": "^0.9.0",
