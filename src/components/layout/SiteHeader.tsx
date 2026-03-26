@@ -15,6 +15,8 @@ const coreLinks = [
 
 const exploreLinks = [
   ["/explore", "Explore"],
+  ["/trending", "What's Hot"],
+  ["/deals", "Deals & Offers"],
   ["/whos-got-it", "Who's Got It"],
   ["/kids-eat-free", "Kids Eat Free"],
   ["/live-music", "Live Music"],
@@ -25,6 +27,8 @@ const exploreLinks = [
 const mobileLinks = [
   ["/", "Home"],
   ["/explore", "Explore"],
+  ["/trending", "What's Hot"],
+  ["/deals", "Deals & Offers"],
   ["/plan", "Plan"],
   ["/whos-got-it", "Who's Got It"],
   ["/community", "Community"],
