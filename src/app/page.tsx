@@ -182,16 +182,36 @@ export default function Home() {
       </section>
 
       <section className="mx-auto mt-8 max-w-6xl px-4 reveal">
-        <div className="mb-4 flex items-center justify-between">
-          <h2 className="text-3xl text-[var(--cajun-red)]">Food & Drink Guides</h2>
-          <Link href="/deals" className="gf-link text-sm">See all offers</Link>
-        </div>
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
-          <Link href="/happy-hours" className="rounded-[12px] border border-[var(--spanish-moss)]/30 bg-white p-4 card-lift"><p className="text-xs text-[var(--moss)]">AFTER WORK</p><h3 className="mt-1 text-lg text-[var(--cajun-red)]">Happy Hours</h3></Link>
-          <Link href="/daily-specials" className="rounded-[12px] border border-[var(--spanish-moss)]/30 bg-white p-4 card-lift"><p className="text-xs text-[var(--moss)]">PLATE LUNCH</p><h3 className="mt-1 text-lg text-[var(--cajun-red)]">Daily Specials</h3></Link>
-          <Link href="/late-night" className="rounded-[12px] border border-[var(--spanish-moss)]/30 bg-white p-4 card-lift"><p className="text-xs text-[var(--moss)]">OPEN LATE</p><h3 className="mt-1 text-lg text-[var(--cajun-red)]">Late Night Eats</h3></Link>
-          <Link href="/food-trucks" className="rounded-[12px] border border-[var(--spanish-moss)]/30 bg-white p-4 card-lift"><p className="text-xs text-[var(--moss)]">MOBILE FOOD</p><h3 className="mt-1 text-lg text-[var(--cajun-red)]">Food Trucks</h3></Link>
-          <Link href="/date-night" className="rounded-[12px] border border-[var(--spanish-moss)]/30 bg-white p-4 card-lift"><p className="text-xs text-[var(--moss)]">COUPLES</p><h3 className="mt-1 text-lg text-[var(--cajun-red)]">Date Night</h3></Link>
+        <div className="grid gap-8 lg:grid-cols-2">
+          <div>
+            <div className="mb-4 flex items-center justify-between">
+              <h2 className="text-3xl text-[var(--cajun-red)]">Food & Drink Guides</h2>
+              <Link href="/deals" className="gf-link text-sm">See all offers</Link>
+            </div>
+            <div className="grid gap-4 sm:grid-cols-2">
+              <Link href="/happy-hours" className="rounded-[12px] border border-[var(--spanish-moss)]/30 bg-white p-4 card-lift"><p className="text-xs text-[var(--moss)]">AFTER WORK</p><h3 className="mt-1 text-lg text-[var(--cajun-red)]">Happy Hours</h3></Link>
+              <Link href="/daily-specials" className="rounded-[12px] border border-[var(--spanish-moss)]/30 bg-white p-4 card-lift"><p className="text-xs text-[var(--moss)]">PLATE LUNCH</p><h3 className="mt-1 text-lg text-[var(--cajun-red)]">Daily Specials</h3></Link>
+              <Link href="/late-night" className="rounded-[12px] border border-[var(--spanish-moss)]/30 bg-white p-4 card-lift"><p className="text-xs text-[var(--moss)]">OPEN LATE</p><h3 className="mt-1 text-lg text-[var(--cajun-red)]">Late Night Eats</h3></Link>
+              <Link href="/coffee" className="rounded-[12px] border border-[var(--spanish-moss)]/30 bg-white p-4 card-lift"><p className="text-xs text-[var(--moss)]">CAFFEINE FIX</p><h3 className="mt-1 text-lg text-[var(--cajun-red)]">Coffee Shops</h3></Link>
+              <Link href="/breweries" className="rounded-[12px] border border-[var(--spanish-moss)]/30 bg-white p-4 card-lift"><p className="text-xs text-[var(--moss)]">CRAFT TRAIL</p><h3 className="mt-1 text-lg text-[var(--cajun-red)]">Breweries</h3></Link>
+              <Link href="/food-trucks" className="rounded-[12px] border border-[var(--spanish-moss)]/30 bg-white p-4 card-lift"><p className="text-xs text-[var(--moss)]">MOBILE FOOD</p><h3 className="mt-1 text-lg text-[var(--cajun-red)]">Food Trucks</h3></Link>
+            </div>
+          </div>
+
+          <div>
+            <div className="mb-4 flex items-center justify-between">
+              <h2 className="text-3xl text-[var(--cajun-red)]">Things to Do</h2>
+              <Link href="/festivals" className="gf-link text-sm">Full calendar</Link>
+            </div>
+            <div className="grid gap-4 sm:grid-cols-2">
+              <Link href="/live-music" className="rounded-[12px] border border-[var(--spanish-moss)]/30 bg-white p-4 card-lift"><p className="text-xs text-[var(--moss)]">TONIGHT</p><h3 className="mt-1 text-lg text-[var(--cajun-red)]">Live Music</h3></Link>
+              <Link href="/dance-halls" className="rounded-[12px] border border-[var(--spanish-moss)]/30 bg-white p-4 card-lift"><p className="text-xs text-[var(--moss)]">CULTURE CORE</p><h3 className="mt-1 text-lg text-[var(--cajun-red)]">Dance Halls</h3></Link>
+              <Link href="/festivals" className="rounded-[12px] border border-[var(--spanish-moss)]/30 bg-white p-4 card-lift"><p className="text-xs text-[var(--moss)]">YEAR-ROUND</p><h3 className="mt-1 text-lg text-[var(--cajun-red)]">Festivals</h3></Link>
+              <Link href="/outdoor" className="rounded-[12px] border border-[var(--spanish-moss)]/30 bg-white p-4 card-lift"><p className="text-xs text-[var(--moss)]">BAYOU AIR</p><h3 className="mt-1 text-lg text-[var(--cajun-red)]">Outdoor Adventures</h3></Link>
+              <Link href="/photo-spots" className="rounded-[12px] border border-[var(--spanish-moss)]/30 bg-white p-4 card-lift"><p className="text-xs text-[var(--moss)]">CAMERA READY</p><h3 className="mt-1 text-lg text-[var(--cajun-red)]">Photo Spots</h3></Link>
+              <Link href="/date-night" className="rounded-[12px] border border-[var(--spanish-moss)]/30 bg-white p-4 card-lift"><p className="text-xs text-[var(--moss)]">COUPLES</p><h3 className="mt-1 text-lg text-[var(--cajun-red)]">Date Night</h3></Link>
+            </div>
+          </div>
         </div>
       </section>
 

@@ -1,6 +1,6 @@
 # GeauxFind — Project State
 *Luna: READ THIS EVERY SESSION before touching GeauxFind. No exceptions.*
-*Last updated: 2026-03-26 5:28 PM CT*
+*Last updated: 2026-03-26 5:39 PM CT*
 
 ## Live Site
 - **URL:** https://geauxfind.com
@@ -24,21 +24,16 @@
   - `data/date-night.json` (24 ideas)
 
 ### ✅ Just Shipped (2026-03-26)
-- New pages:
-  - `/happy-hours`
-  - `/daily-specials`
-  - `/late-night`
-  - `/food-trucks`
-  - `/date-night`
-- New APIs:
-  - `/api/happy-hours`
-  - `/api/daily-specials`
-  - `/api/late-night`
-  - `/api/food-trucks`
-  - `/api/date-night`
+- Wave 1 food/drink guides:
+  - Pages: `/happy-hours`, `/daily-specials`, `/late-night`, `/food-trucks`, `/date-night`
+  - APIs: `/api/happy-hours`, `/api/daily-specials`, `/api/late-night`, `/api/food-trucks`, `/api/date-night`
+- Wave 2 expansion guides:
+  - Pages: `/breweries`, `/coffee`, `/farmers-markets`, `/festivals`, `/outdoor`, `/dance-halls`, `/photo-spots`
+  - APIs: `/api/breweries`, `/api/coffee`, `/api/farmers-markets`, `/api/festivals`, `/api/outdoor`, `/api/dance-halls`, `/api/photo-spots`
+  - Data files: `breweries.json` (18), `coffee-shops.json` (20), `farmers-markets.json` (10), `festivals.json` (37), `outdoor.json` (18), `dance-halls.json` (12), `photo-spots.json` (16)
 - Expanded `data/deals.json` community deals from 0 → 18 approved deals
-- Header/nav updated with the new Food & Drink links (desktop + mobile)
-- Homepage now includes dedicated "Food & Drink Guides" discovery section
+- Header/nav reorganized into dropdowns: "Food & Drink" + "Things to Do"; top-level keeps Who's Got It, Crawfish, Deals, Community
+- Homepage now includes side-by-side "Food & Drink Guides" and "Things to Do" discovery blocks
 - Build passes (`npm run build`) with existing pre-existing `<img>` warnings only
 
 ### 🔧 In Progress
@@ -84,6 +79,8 @@ DO NOT just reply in the channel without saving data.
 | /explore | aggregates multiple sources | ✅ |
 
 ## Header (Updated 2026-03-26)
-- 5 top-level items: Home, Explore (dropdown), Plan, Community, Cajun Connection
-- Explore dropdown now includes: Explore, What's Hot, Deals & Offers, Who's Got It, Happy Hours, Daily Specials, Late Night, Food Trucks, Date Night, Kids Eat Free, Live Music, Brunch, Crawfish
-- Mobile nav includes matching new links
+- Desktop nav now uses grouped discovery dropdowns:
+  - Food & Drink: Happy Hours, Daily Specials, Late Night, Coffee, Breweries, Food Trucks, Brunch, Kids Eat Free
+  - Things to Do: Live Music, Dance Halls, Festivals, Outdoor, Photo Spots, Date Night
+- Top-level keeps: Who's Got It, Crawfish, Deals, Community (plus Home + Ask Geaux CTA)
+- Mobile nav mirrors the same grouped sections

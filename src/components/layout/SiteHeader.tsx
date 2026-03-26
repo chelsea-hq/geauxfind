@@ -6,60 +6,53 @@ import { ChevronDown, Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 
-const coreLinks = [
-  ["/", "Home"],
-  ["/plan", "Plan"],
+const topLinks = [
+  ["/whos-got-it", "Who's Got It"],
+  ["/crawfish", "Crawfish"],
+  ["/deals", "Deals"],
   ["/community", "Community"],
-  ["/cajun-connection", "Cajun Connection"],
 ] as const;
 
-const exploreLinks = [
-  ["/explore", "Explore"],
-  ["/trending", "What's Hot"],
-  ["/deals", "Deals & Offers"],
-  ["/whos-got-it", "Who's Got It"],
+const foodDrinkLinks = [
   ["/happy-hours", "Happy Hours"],
   ["/daily-specials", "Daily Specials"],
   ["/late-night", "Late Night"],
+  ["/coffee", "Coffee"],
+  ["/breweries", "Breweries"],
   ["/food-trucks", "Food Trucks"],
-  ["/date-night", "Date Night"],
-  ["/kids-eat-free", "Kids Eat Free"],
-  ["/live-music", "Live Music"],
   ["/weekend-brunch", "Brunch"],
-  ["/crawfish", "Crawfish"],
+  ["/kids-eat-free", "Kids Eat Free"],
 ] as const;
 
-const mobileLinks = [
-  ["/", "Home"],
-  ["/explore", "Explore"],
-  ["/trending", "What's Hot"],
-  ["/deals", "Deals & Offers"],
-  ["/happy-hours", "Happy Hours"],
-  ["/daily-specials", "Daily Specials"],
-  ["/late-night", "Late Night"],
-  ["/food-trucks", "Food Trucks"],
-  ["/date-night", "Date Night"],
-  ["/plan", "Plan"],
-  ["/whos-got-it", "Who's Got It"],
-  ["/community", "Community"],
-  ["/cajun-connection", "Cajun Connection"],
-  ["/kids-eat-free", "Kids Eat Free"],
+const thingsToDoLinks = [
   ["/live-music", "Live Music"],
-  ["/weekend-brunch", "Brunch"],
-  ["/crawfish", "Crawfish"],
+  ["/dance-halls", "Dance Halls"],
+  ["/festivals", "Festivals"],
+  ["/outdoor", "Outdoor"],
+  ["/photo-spots", "Photo Spots"],
+  ["/date-night", "Date Night"],
+] as const;
+
+const mobileSections = [
+  { title: "Top Links", links: topLinks },
+  { title: "Food & Drink", links: foodDrinkLinks },
+  { title: "Things to Do", links: thingsToDoLinks },
 ] as const;
 
 export function SiteHeader() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
-  const [exploreOpen, setExploreOpen] = useState(false);
+  const [foodOpen, setFoodOpen] = useState(false);
+  const [thingsOpen, setThingsOpen] = useState(false);
 
   useEffect(() => {
     setOpen(false);
-    setExploreOpen(false);
+    setFoodOpen(false);
+    setThingsOpen(false);
   }, [pathname]);
 
-  const isExploreActive = exploreLinks.some(([href]) => pathname.startsWith(href));
+  const isFoodActive = foodDrinkLinks.some(([href]) => pathname.startsWith(href));
+  const isThingsActive = thingsToDoLinks.some(([href]) => pathname.startsWith(href));
 
   return (
     <header className="sticky top-0 z-40 border-b border-[var(--spanish-moss)]/25 bg-[rgba(250,247,242,0.76)] backdrop-blur-md">
@@ -69,50 +62,51 @@ export function SiteHeader() {
         </Link>
 
         <nav className="hidden items-center gap-5 text-sm md:flex">
-          <Link
-            href="/"
-            className={`gf-link py-2 ${pathname === "/" ? "text-[var(--cajun-red)]" : "text-[var(--cast-iron)] hover:text-[var(--cajun-red)]"}`}
-          >
+          <Link href="/" className={`gf-link py-2 ${pathname === "/" ? "text-[var(--cajun-red)]" : "text-[var(--cast-iron)] hover:text-[var(--cajun-red)]"}`}>
             Home
           </Link>
 
-          <div className="relative" onMouseEnter={() => setExploreOpen(true)} onMouseLeave={() => setExploreOpen(false)}>
+          <div className="relative" onMouseEnter={() => setFoodOpen(true)} onMouseLeave={() => setFoodOpen(false)}>
             <button
               type="button"
-              onClick={() => setExploreOpen((v) => !v)}
-              className={`gf-link inline-flex items-center gap-1 py-2 ${isExploreActive ? "text-[var(--cajun-red)]" : "text-[var(--cast-iron)] hover:text-[var(--cajun-red)]"}`}
-              aria-expanded={exploreOpen}
-              aria-haspopup="menu"
+              onClick={() => setFoodOpen((v) => !v)}
+              className={`gf-link inline-flex items-center gap-1 py-2 ${isFoodActive ? "text-[var(--cajun-red)]" : "text-[var(--cast-iron)] hover:text-[var(--cajun-red)]"}`}
             >
-              Explore
-              <ChevronDown className={`h-4 w-4 transition-transform ${exploreOpen ? "rotate-180" : ""}`} />
+              Food & Drink
+              <ChevronDown className={`h-4 w-4 transition-transform ${foodOpen ? "rotate-180" : ""}`} />
             </button>
-
-            {exploreOpen ? (
-              <div className="absolute left-0 top-full z-50 mt-2 min-w-52 rounded-[10px] border border-[var(--spanish-moss)]/35 bg-white p-2 shadow-lg" role="menu">
-                {exploreLinks.map(([href, label]) => {
+            {foodOpen ? (
+              <div className="absolute left-0 top-full z-50 mt-2 min-w-56 rounded-[10px] border border-[var(--spanish-moss)]/35 bg-white p-2 shadow-lg">
+                {foodDrinkLinks.map(([href, label]) => {
                   const isActive = pathname.startsWith(href);
-                  return (
-                    <Link
-                      key={href}
-                      href={href}
-                      className={`block rounded-[8px] px-3 py-2 text-sm ${isActive ? "bg-[var(--cajun-red)] text-white" : "text-[var(--cast-iron)] hover:bg-[var(--sunset-gold)]/20"}`}
-                    >
-                      {label}
-                    </Link>
-                  );
+                  return <Link key={href} href={href} className={`block rounded-[8px] px-3 py-2 text-sm ${isActive ? "bg-[var(--cajun-red)] text-white" : "text-[var(--cast-iron)] hover:bg-[var(--sunset-gold)]/20"}`}>{label}</Link>;
                 })}
               </div>
             ) : null}
           </div>
 
-          {coreLinks.slice(1).map(([href, label]) => {
+          <div className="relative" onMouseEnter={() => setThingsOpen(true)} onMouseLeave={() => setThingsOpen(false)}>
+            <button
+              type="button"
+              onClick={() => setThingsOpen((v) => !v)}
+              className={`gf-link inline-flex items-center gap-1 py-2 ${isThingsActive ? "text-[var(--cajun-red)]" : "text-[var(--cast-iron)] hover:text-[var(--cajun-red)]"}`}
+            >
+              Things to Do
+              <ChevronDown className={`h-4 w-4 transition-transform ${thingsOpen ? "rotate-180" : ""}`} />
+            </button>
+            {thingsOpen ? (
+              <div className="absolute left-0 top-full z-50 mt-2 min-w-56 rounded-[10px] border border-[var(--spanish-moss)]/35 bg-white p-2 shadow-lg">
+                {thingsToDoLinks.map(([href, label]) => {
+                  const isActive = pathname.startsWith(href);
+                  return <Link key={href} href={href} className={`block rounded-[8px] px-3 py-2 text-sm ${isActive ? "bg-[var(--cajun-red)] text-white" : "text-[var(--cast-iron)] hover:bg-[var(--sunset-gold)]/20"}`}>{label}</Link>;
+                })}
+              </div>
+            ) : null}
+          </div>
+
+          {topLinks.map(([href, label]) => {
             const isActive = pathname.startsWith(href);
-            return (
-              <Link key={href} href={href} className={`gf-link py-2 ${isActive ? "text-[var(--cajun-red)]" : "text-[var(--cast-iron)] hover:text-[var(--cajun-red)]"}`}>
-                {label}
-              </Link>
-            );
+            return <Link key={href} href={href} className={`gf-link py-2 ${isActive ? "text-[var(--cajun-red)]" : "text-[var(--cast-iron)] hover:text-[var(--cajun-red)]"}`}>{label}</Link>;
           })}
         </nav>
 
@@ -127,15 +121,18 @@ export function SiteHeader() {
 
       <div className={`md:hidden ${open ? "pointer-events-auto" : "pointer-events-none"}`}>
         <div className={`absolute inset-x-0 top-full border-b border-[var(--spanish-moss)]/25 bg-[rgba(250,247,242,0.98)] px-4 py-4 backdrop-blur-md transition-transform duration-300 ${open ? "translate-y-0" : "-translate-y-3 opacity-0"}`}>
-          <nav className="grid gap-2">
-            {mobileLinks.map(([href, label]) => {
-              const isActive = href === "/" ? pathname === "/" : pathname.startsWith(href);
-              return (
-                <Link key={href} href={href} onClick={() => setOpen(false)} className={`inline-flex min-h-11 items-center rounded-[10px] px-3 py-2 ${isActive ? "bg-[var(--cajun-red)] text-white" : "bg-white text-[var(--cast-iron)]"}`}>
-                  {label}
-                </Link>
-              );
-            })}
+          <nav className="grid gap-4">
+            {mobileSections.map((section) => (
+              <div key={section.title}>
+                <p className="mb-2 text-xs font-semibold uppercase tracking-[0.16em] text-[var(--moss)]">{section.title}</p>
+                <div className="grid gap-2">
+                  {section.links.map(([href, label]) => {
+                    const isActive = pathname.startsWith(href);
+                    return <Link key={href} href={href} onClick={() => setOpen(false)} className={`inline-flex min-h-11 items-center rounded-[10px] px-3 py-2 ${isActive ? "bg-[var(--cajun-red)] text-white" : "bg-white text-[var(--cast-iron)]"}`}>{label}</Link>;
+                  })}
+                </div>
+              </div>
+            ))}
           </nav>
         </div>
       </div>
