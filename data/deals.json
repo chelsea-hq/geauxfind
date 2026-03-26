@@ -1,0 +1,34 @@
+{
+  "dealOfTheDay": {
+    "id": "dotd-parish-tins-spring",
+    "title": "Parish Tins Spring Gift — $250 in Acadiana Gift Cards for $25",
+    "description": "Each tin contains 25 coasters worth $10 each at different local restaurants — that's $250 in dining value for $25. Perfect for visitors, gift-giving, or treating yourself.",
+    "partner": "Parish Tins",
+    "partnerUrl": "https://parishtins.com",
+    "badge": "Featured Partner",
+    "validThrough": "2026-06-30",
+    "highlight": "Limited spring run — order before they sell out"
+  },
+  "featuredPartners": [
+    {
+      "id": "parish-tins",
+      "name": "Parish Tins",
+      "tagline": "25 restaurants. 25 coasters. One $25 tin.",
+      "description": "Parish Tins are beautiful gift tins packed with 25 gift card coasters — each worth $10 at a different Acadiana restaurant. Pay $25, unlock $250 in local dining. It's the best deal in the parish.",
+      "url": "https://parishtins.com",
+      "logo": "/partners/parish-tins-logo.png",
+      "valueProp": "$250 in dining value for $25",
+      "category": "Gift Cards",
+      "featured": true,
+      "highlights": [
+        "25 unique local restaurants included",
+        "Each coaster = $10 gift card value",
+        "$250 total dining value in one tin",
+        "Ships across Louisiana",
+        "Great for visitors & gift-giving"
+      ]
+    }
+  ],
+  "categories": ["Gift Cards", "Happy Hour", "Daily Special", "New Opening", "Seasonal"],
+  "communityDeals": []
+}
