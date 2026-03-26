@@ -17,9 +17,13 @@
 - `data/crawfish-prices.json` — crawfish pricing
 - `data/kids-eat-free.json`, `data/live-music.json`, `data/weekend-brunch.json`
 
+### ✅ Just Shipped (2026-03-25)
+- `data/community-recs.json` — 87 businesses, 571 mentions, 5 topics from FB dumps
+- Who's Got It page now shows Community Rankings panel per topic
+- Topics: Chicken Salad (25), Sushi (21), Mexican (14), Seafood Gumbo (17), Crawfish Dine-In (10)
+
 ### 🔧 In Progress
-- `data/community-recs.json` — FB dump integration (Codex building 2026-03-25)
-- FB dumps → site pipeline (need to auto-process #gf-dumps channel)
+- FB dumps → site auto-pipeline (need to auto-process new #gf-dumps posts)
 
 ### ❌ Not Working
 - `data/facebook-feed.json` — 0 items, all groups return `robots_blocked`
@@ -34,11 +38,11 @@ DO NOT just reply in the channel without saving data.
 ### Dumps Received So Far
 | Date | Topic | Raw File | Integrated? |
 |------|-------|----------|-------------|
-| 2026-03-25 | Chicken Salad | `data/fb-dumps/chicken-salad-raw.txt` | 🔧 building |
-| 2026-03-25 | Sushi | `data/fb-dumps/sushi-raw.txt` | 🔧 building |
-| 2026-03-25 | Mexican Food + Birria | `data/fb-dumps/mexican-food-raw.txt` | 🔧 building |
-| 2026-03-25 | Seafood Gumbo | `data/fb-dumps/seafood-gumbo-raw.txt` | 🔧 building |
-| 2026-03-25 | Crawfish Dine-In | (pasted in channel, no file) | 🔧 building |
+| 2026-03-25 | Chicken Salad | `data/fb-dumps/chicken-salad-raw.txt` | ✅ live |
+| 2026-03-25 | Sushi | `data/fb-dumps/sushi-raw.txt` | ✅ live |
+| 2026-03-25 | Mexican Food + Birria | `data/fb-dumps/mexican-food-raw.txt` | ✅ live |
+| 2026-03-25 | Seafood Gumbo | `data/fb-dumps/seafood-gumbo-raw.txt` | ✅ live |
+| 2026-03-25 | Crawfish Dine-In | (from Discord, in community-recs.json) | ✅ live |
 
 ### Key Business Notes
 - **Cade's Market (St. Martinville)** = Chelsea's family store. Always feature prominently.

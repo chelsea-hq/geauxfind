@@ -1,4 +1,31 @@
 #!/usr/bin/env node
+/**
+ * apify-facebook-pipeline.mjs
+ *
+ * STATUS: BLOCKED — as of early 2026 the Apify actors listed below
+ * (apify~facebook-pages-scraper, apify~facebook-groups-scraper) consistently
+ * return robots_blocked and produce 0 results. Facebook's anti-scraping
+ * infrastructure actively blocks all known Apify actors for group/page feeds.
+ *
+ * CURRENT WORKAROUND:
+ *   Chelsea manually exports Facebook group threads via Discord, drops them in
+ *   data/fb-dumps/ as *.txt files, then runs:
+ *
+ *     npm run parse:fb-dumps
+ *
+ *   See scripts/parse-fb-dumps.mjs for the parser that processes those dumps.
+ *
+ * POSSIBLE FUTURE ALTERNATIVES (as of 2026):
+ *   - apify/facebook-scraper (unofficial, community-maintained)
+ *   - brightdata-facebook-scraper (paid, residential proxy rotation)
+ *   - ScrapeCreators (targets FB public pages via mobile API quirks)
+ *   - Facebook Content Library API (requires Academic Research qualification)
+ *   - Meta Content Library + CrowdTangle replacement program
+ *   Before enabling any actor, verify current reviews on Apify Store for
+ *   robots_blocked / login_required failure rates.
+ *
+ * REQUIRES: APIFY_API_KEY in .env.local or .secrets.env
+ */
 
 import { createHash } from "node:crypto";
 import { mkdir, readFile, writeFile } from "node:fs/promises";

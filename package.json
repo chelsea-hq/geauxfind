@@ -34,7 +34,8 @@
     "seed:supabase:events": "node scripts/seed-supabase.mjs --only events",
     "seed:supabase:crawfish": "node scripts/seed-supabase.mjs --only crawfish",
     "seed:supabase:music": "node scripts/seed-supabase.mjs --only music",
-    "seed:supabase:best_of": "node scripts/seed-supabase.mjs --only best_of"
+    "seed:supabase:best_of": "node scripts/seed-supabase.mjs --only best_of",
+    "parse:fb-dumps": "node scripts/parse-fb-dumps.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.9.0",
