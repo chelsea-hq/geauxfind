@@ -1,6 +1,6 @@
 # GeauxFind — Project State
 *Luna: READ THIS EVERY SESSION before touching GeauxFind. No exceptions.*
-*Last updated: 2026-03-25 1:17 PM CT*
+*Last updated: 2026-03-26 5:28 PM CT*
 
 ## Live Site
 - **URL:** https://geauxfind.com
@@ -16,11 +16,30 @@
 - `data/whos-got-it.json` — 12 items (original seed data)
 - `data/crawfish-prices.json` — crawfish pricing
 - `data/kids-eat-free.json`, `data/live-music.json`, `data/weekend-brunch.json`
+- NEW food/drink guides shipped 2026-03-26:
+  - `data/happy-hours.json` (30 venues)
+  - `data/daily-specials.json` (24 restaurants)
+  - `data/late-night.json` (18 spots)
+  - `data/food-trucks.json` (18 trucks)
+  - `data/date-night.json` (24 ideas)
 
-### ✅ Just Shipped (2026-03-25)
-- `data/community-recs.json` — 87 businesses, 571 mentions, 5 topics from FB dumps
-- Who's Got It page now shows Community Rankings panel per topic
-- Topics: Chicken Salad (25), Sushi (21), Mexican (14), Seafood Gumbo (17), Crawfish Dine-In (10)
+### ✅ Just Shipped (2026-03-26)
+- New pages:
+  - `/happy-hours`
+  - `/daily-specials`
+  - `/late-night`
+  - `/food-trucks`
+  - `/date-night`
+- New APIs:
+  - `/api/happy-hours`
+  - `/api/daily-specials`
+  - `/api/late-night`
+  - `/api/food-trucks`
+  - `/api/date-night`
+- Expanded `data/deals.json` community deals from 0 → 18 approved deals
+- Header/nav updated with the new Food & Drink links (desktop + mobile)
+- Homepage now includes dedicated "Food & Drink Guides" discovery section
+- Build passes (`npm run build`) with existing pre-existing `<img>` warnings only
 
 ### 🔧 In Progress
 - FB dumps → site auto-pipeline (need to auto-process new #gf-dumps posts)
@@ -57,10 +76,14 @@ DO NOT just reply in the channel without saving data.
 | /kids-eat-free | `data/kids-eat-free.json` | ✅ |
 | /live-music | `data/live-music.json` | ✅ |
 | /weekend-brunch | `data/weekend-brunch.json` | ✅ |
+| /happy-hours | `data/happy-hours.json` | ✅ |
+| /daily-specials | `data/daily-specials.json` | ✅ |
+| /late-night | `data/late-night.json` | ✅ |
+| /food-trucks | `data/food-trucks.json` | ✅ |
+| /date-night | `data/date-night.json` | ✅ |
 | /explore | aggregates multiple sources | ✅ |
 
-## Header (Updated 2026-03-25)
+## Header (Updated 2026-03-26)
 - 5 top-level items: Home, Explore (dropdown), Plan, Community, Cajun Connection
-- Explore dropdown: Explore, Who's Got It, Kids Eat Free, Live Music, Brunch, Crawfish
-- No emoji in nav labels
-- Mobile: full 10-item vertical list
+- Explore dropdown now includes: Explore, What's Hot, Deals & Offers, Who's Got It, Happy Hours, Daily Specials, Late Night, Food Trucks, Date Night, Kids Eat Free, Live Music, Brunch, Crawfish
+- Mobile nav includes matching new links

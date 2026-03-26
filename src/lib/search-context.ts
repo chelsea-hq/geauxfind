@@ -9,6 +9,7 @@ type SearchOptions = {
   limit?: number;
   userLat?: number;
   userLng?: number;
+  sourcePlaces?: Place[];
 };
 
 const normalizedSeed = seedData as SeedData;
@@ -48,15 +49,16 @@ export function buildSearchContext(query: string, options: number | SearchOption
   const normalized = typeof options === "number" ? { limit: options } : options;
   const limit = normalized.limit ?? 50;
 
+  const sourcePlaces = normalized.sourcePlaces ?? places;
   const queryTokens = tokenize(query);
 
   if (!queryTokens.length) {
-    return [...places]
+    return [...sourcePlaces]
       .sort((a, b) => b.rating - a.rating)
       .slice(0, limit);
   }
 
-  const scored = places
+  const scored = sourcePlaces
     .map((place) => {
       const text = searchableText(place);
       let score = 0;
@@ -91,7 +93,7 @@ export function buildSearchContext(query: string, options: number | SearchOption
     return scored;
   }
 
-  const topRatedFallback = [...places]
+  const topRatedFallback = [...sourcePlaces]
     .sort((a, b) => b.rating - a.rating)
     .slice(0, limit - scored.length);
 

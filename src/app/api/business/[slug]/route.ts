@@ -1,12 +1,12 @@
 import { NextRequest, NextResponse } from "next/server";
 import { BusinessProfile } from "@/types";
 import { readJsonFile, writeJsonFile } from "@/lib/community-data";
-import { places } from "@/data/mock-data";
+import { getPlaceBySlug } from "@/lib/supabase-data";
 
 const FILE = "business-profiles.json";
 
-function defaultProfile(slug: string): BusinessProfile {
-  const place = places.find((p) => p.slug === slug);
+async function defaultProfile(slug: string): Promise<BusinessProfile> {
+  const place = await getPlaceBySlug(slug);
   return {
     slug,
     description: place?.description || "",
@@ -21,7 +21,7 @@ function defaultProfile(slug: string): BusinessProfile {
 export async function GET(_: NextRequest, { params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const profiles = await readJsonFile<BusinessProfile[]>(FILE, []);
-  const profile = profiles.find((p) => p.slug === slug) || defaultProfile(slug);
+  const profile = profiles.find((p) => p.slug === slug) || (await defaultProfile(slug));
   return NextResponse.json(profile);
 }
 
@@ -31,7 +31,7 @@ export async function POST(request: NextRequest, { params }: { params: Promise<{
     const body = await request.json();
     const profiles = await readJsonFile<BusinessProfile[]>(FILE, []);
     const idx = profiles.findIndex((p) => p.slug === slug);
-    const existing = idx >= 0 ? profiles[idx] : defaultProfile(slug);
+    const existing = idx >= 0 ? profiles[idx] : await defaultProfile(slug);
 
     const next: BusinessProfile = {
       ...existing,

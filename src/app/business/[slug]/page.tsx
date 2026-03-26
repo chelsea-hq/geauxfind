@@ -3,13 +3,13 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useParams } from "next/navigation";
-import { places } from "@/data/mock-data";
 import type { BusinessProfile } from "@/types";
+import { usePlace } from "@/hooks/use-place";
 
 export default function BusinessDashboardPage() {
   const params = useParams<{ slug: string }>();
   const slug = params.slug;
-  const place = places.find((p) => p.slug === slug);
+  const { place, loading: placeLoading } = usePlace(slug);
   const [profile, setProfile] = useState<BusinessProfile | null>(null);
   const [specialText, setSpecialText] = useState("");
   const [status, setStatus] = useState("");
@@ -18,8 +18,8 @@ export default function BusinessDashboardPage() {
     fetch(`/api/business/${slug}`).then((r) => r.json()).then(setProfile).catch(() => setProfile(null));
   }, [slug]);
 
+  if (placeLoading || !profile) return <main className="mx-auto max-w-4xl p-8">Loading dashboard...</main>;
   if (!place) return <main className="mx-auto max-w-4xl p-8">Business not found.</main>;
-  if (!profile) return <main className="mx-auto max-w-4xl p-8">Loading dashboard...</main>;
 
   async function save() {
     const res = await fetch(`/api/business/${slug}`, {

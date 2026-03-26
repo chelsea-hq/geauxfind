@@ -1,10 +1,13 @@
+import { getPlaces } from "@/lib/supabase-data";
 import { Place } from "@/types";
-import { places } from "@/data/mock-data";
 
-export const allPlaces = places;
+export async function allPlaces() {
+  return getPlaces();
+}
 
-export function placeBySlugMap() {
-  return new Map(allPlaces.map((place) => [place.slug, place]));
+export async function placeBySlugMap() {
+  const places = await allPlaces();
+  return new Map(places.map((place) => [place.slug, place]));
 }
 
 export function timeOfDayLabel(input?: string) {
@@ -18,8 +21,9 @@ export function timeOfDayLabel(input?: string) {
   return "latenight";
 }
 
-export function fallbackPicks(limit = 6): Place[] {
-  return [...allPlaces]
+export async function fallbackPicks(limit = 6): Promise<Place[]> {
+  const places = await allPlaces();
+  return [...places]
     .filter((p) => p.featured)
     .sort((a, b) => b.rating - a.rating)
     .slice(0, limit);

@@ -23,7 +23,8 @@ export async function POST(request: NextRequest) {
     const budget = body.budget || "$$";
     const interests = Array.isArray(body.interests) ? body.interests : [];
 
-    const candidates = [...allPlaces]
+    const places = await allPlaces();
+    const candidates = [...places]
       .filter((place) => budget === "$$$" || place.price !== "$$$")
       .sort((a, b) => b.rating - a.rating)
       .slice(0, 140)
@@ -42,7 +43,7 @@ export async function POST(request: NextRequest) {
     });
 
     const parsed = extractJson<PlanResponse>(content);
-    const map = placeBySlugMap();
+    const map = await placeBySlugMap();
 
     const hydrate = (stops: Stop[]) =>
       stops
@@ -60,7 +61,7 @@ export async function POST(request: NextRequest) {
 
     return NextResponse.json({ overview: parsed.overview || "Your ideal Acadiana weekend.", saturday, sunday });
   } catch {
-    const top = [...allPlaces].sort((a, b) => b.rating - a.rating).slice(0, 10);
+    const top = (await allPlaces()).sort((a, b) => b.rating - a.rating).slice(0, 10);
     const saturday = fallbackSlots.map((slot, index) => ({ slot, plan: "Enjoy a local favorite.", place: top[index % top.length], slug: top[index % top.length].slug }));
     const sunday = fallbackSlots.map((slot, index) => ({ slot, plan: "Keep the weekend rolling with a community staple.", place: top[(index + 5) % top.length], slug: top[(index + 5) % top.length].slug }));
     return NextResponse.json({ overview: "Fallback weekend plan with top-rated places.", saturday, sunday });

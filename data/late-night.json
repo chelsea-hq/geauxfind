@@ -1,0 +1,24 @@
+{
+  "disclaimer": "Late-night hours can shift seasonally or during holidays. Verify hours before making the drive.",
+  "lastUpdated": "2026-03-26",
+  "spots": [
+    {"slug":"waffle-house-ambassador","name":"Waffle House (Ambassador)","location":"Lafayette","openUntil":"24 hours","knownFor":"All-night breakfast, hashbrowns, and post-bar eats","website":"https://www.wafflehouse.com"},
+    {"slug":"waffle-house-pinhook","name":"Waffle House (Pinhook)","location":"Lafayette","openUntil":"24 hours","knownFor":"Quick late-night breakfast plates","website":"https://www.wafflehouse.com"},
+    {"slug":"ihop-lafayette","name":"IHOP","location":"Lafayette","openUntil":"24 hours (most nights)","knownFor":"Pancakes, omelets, and late-night comfort meals","website":"https://restaurants.ihop.com/en-us/la/lafayette"},
+    {"slug":"whataburger-ambassador","name":"Whataburger","location":"Lafayette","openUntil":"24 hours (select locations)","knownFor":"Burgers and honey butter chicken biscuit late runs","website":"https://locations.whataburger.com/la/lafayette"},
+    {"slug":"taco-bell-ambassador","name":"Taco Bell (Ambassador)","location":"Lafayette","openUntil":"Midnight-2:00 AM (varies)","knownFor":"Cravings menu and drive-thru","website":"https://locations.tacobell.com/la/lafayette.html"},
+    {"slug":"mcdonalds-university","name":"McDonald's (University)","location":"Lafayette","openUntil":"24 hours (select locations)","knownFor":"Drive-thru and late-night fries","website":"https://www.mcdonalds.com/us/en-us/location/la/lafayette.html"},
+    {"slug":"raising-canes-kaliste","name":"Raising Cane's (Kaliste Saloom)","location":"Lafayette","openUntil":"Midnight-1:00 AM (weekends later)","knownFor":"Chicken fingers and Texas toast","website":"https://locations.raisingcanes.com/la/lafayette"},
+    {"slug":"fat-pats-lafayette","name":"Fat Pat's Bar & Grill","location":"Lafayette","openUntil":"Midnight (kitchen often late)","knownFor":"Burgers, poboys, and sports bar food","website":"https://www.fatpatsbarandgrill.com"},
+    {"slug":"legends-downtown","name":"Legends Downtown","location":"Lafayette","openUntil":"2:00 AM","knownFor":"Late drinks with bar snacks downtown","website":"https://www.facebook.com/LegendsLafayette"},
+    {"slug":"green-room-lafayette","name":"The Green Room","location":"Lafayette","openUntil":"2:00 AM","knownFor":"Late-night downtown bar and food popups","website":"https://www.facebook.com/thegreenroomlafayette"},
+    {"slug":"the-loft-lafayette","name":"The Loft at Parc Village","location":"Lafayette","openUntil":"Late nights on event days","knownFor":"Late cocktails and occasional kitchen service","website":"https://www.facebook.com/theloftlafayette"},
+    {"slug":"twin-peaks-lafayette","name":"Twin Peaks","location":"Lafayette","openUntil":"Midnight-1:00 AM","knownFor":"Late-night wings, burgers, and sports viewing","website":"https://www.twinpeaksrestaurant.com/locations/lafayette-la"},
+    {"slug":"walk-ons-lafayette","name":"Walk-On's Sports Bistreaux","location":"Lafayette","openUntil":"11:00 PM-Midnight","knownFor":"Late Cajun-American bar food","website":"https://walk-ons.com"},
+    {"slug":"carls-jr-i10","name":"Carl's Jr.","location":"Lafayette","openUntil":"Midnight (varies)","knownFor":"Late-night drive-thru burgers","website":"https://www.carlsjr.com"},
+    {"slug":"sonic-pinhook","name":"Sonic Drive-In","location":"Lafayette","openUntil":"Midnight (varies)","knownFor":"Slushes, tots, and drive-in snacks","website":"https://www.sonicdrivein.com/locations/us/la/lafayette"},
+    {"slug":"taco-sisters-downtown","name":"Taco Sisters Downtown","location":"Lafayette","openUntil":"Extended evening hours on select days","knownFor":"Tacos and burritos after events","website":"https://www.tacosisters.com"},
+    {"slug":"pizza-village","name":"Pizza Village","location":"Lafayette","openUntil":"11:00 PM","knownFor":"Late pizza and thin-crust local favorite","website":"https://www.pizzavillageinc.com"},
+    {"slug":"deanos-johnston","name":"Deano's Pizza (Johnston)","location":"Lafayette","openUntil":"11:00 PM-Midnight","knownFor":"Late pizza, wings, and shareable appetizers","website":"https://deanospizza.com"}
+  ]
+}

@@ -25,23 +25,23 @@ function shuffle<T>(arr: T[]): T[] {
  * - Some from less-common categories
  * This prevents the AI from always picking the same popular spots.
  */
-function buildDiverseCandidates(prompt: string, city?: string): ReturnType<typeof compactPlace>[] {
+function buildDiverseCandidates(places: Awaited<ReturnType<typeof allPlaces>>, prompt: string, city?: string): ReturnType<typeof compactPlace>[] {
   // Get keyword matches (max 40)
-  const keywordMatches = buildSearchContext(prompt, 40);
+  const keywordMatches = buildSearchContext(prompt, { limit: 40, sourcePlaces: places });
   const keywordSlugs = new Set(keywordMatches.map((p) => p.slug));
 
   // Filter by city if provided
   const pool = city
-    ? allPlaces.filter((p) => p.city.toLowerCase() === city.toLowerCase())
-    : allPlaces;
+    ? places.filter((p) => p.city.toLowerCase() === city.toLowerCase())
+    : places;
 
   // Get random places NOT in keyword matches for diversity
   const remaining = pool.filter((p) => !keywordSlugs.has(p.slug));
   const randomPicks = shuffle(remaining).slice(0, 40);
 
   // Get some from underrepresented categories
-  const categories = [...new Set(allPlaces.map((p) => p.category))];
-  const categoryPicks: typeof allPlaces = [];
+  const categories = [...new Set(places.map((p) => p.category))];
+  const categoryPicks: typeof places = [];
   for (const cat of categories) {
     const catPlaces = remaining.filter((p) => p.category === cat);
     if (catPlaces.length > 0) {
@@ -51,7 +51,7 @@ function buildDiverseCandidates(prompt: string, city?: string): ReturnType<typeo
 
   // Combine and dedupe
   const seen = new Set<string>();
-  const combined: typeof allPlaces = [];
+  const combined: typeof places = [];
   for (const place of [...keywordMatches, ...categoryPicks, ...randomPicks]) {
     if (!seen.has(place.slug)) {
       seen.add(place.slug);
@@ -70,7 +70,8 @@ export async function POST(request: NextRequest) {
 
     if (!prompt) return NextResponse.json({ error: "Prompt is required" }, { status: 400 });
 
-    const candidates = buildDiverseCandidates(prompt, city);
+    const places = await allPlaces();
+    const candidates = buildDiverseCandidates(places, prompt, city);
     const cityInstruction = city
       ? `The user is in ${city} — strongly prefer places in or very near ${city}. `
       : "";
@@ -99,7 +100,7 @@ export async function POST(request: NextRequest) {
     });
 
     const parsed = extractJson<VibeResponse>(content);
-    const map = placeBySlugMap();
+    const map = await placeBySlugMap();
     const results = (parsed.results || [])
       .map((item) => {
         const place = map.get(item.slug);
@@ -114,7 +115,8 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ summary: parsed.summary || "Your curated vibe match.", results });
   } catch {
     // Fallback: random diverse picks instead of always the same featured places
-    const randomFallback = shuffle(allPlaces.filter((p) => p.rating >= 4.0)).slice(0, 6);
+    const places = await allPlaces();
+    const randomFallback = shuffle(places.filter((p) => p.rating >= 4.0)).slice(0, 6);
     const results = randomFallback.map((place) => ({
       ...place,
       why: "A local favorite worth checking out.",

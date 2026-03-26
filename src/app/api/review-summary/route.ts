@@ -6,7 +6,8 @@ export async function GET(request: NextRequest) {
   const placeParam = request.nextUrl.searchParams.get("place")?.trim();
   if (!placeParam) return NextResponse.json({ error: "place is required" }, { status: 400 });
 
-  const place = allPlaces.find((item) => item.slug === placeParam || item.name.toLowerCase() === placeParam.toLowerCase());
+  const places = await allPlaces();
+  const place = places.find((item) => item.slug === placeParam || item.name.toLowerCase() === placeParam.toLowerCase());
   if (!place) return NextResponse.json({ error: "Place not found" }, { status: 404 });
 
   try {

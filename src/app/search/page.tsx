@@ -8,8 +8,8 @@ import { EventCard } from "@/components/cards/EventCard";
 import { PlaceCard } from "@/components/cards/PlaceCard";
 import { RecipeCard } from "@/components/cards/RecipeCard";
 import { SearchBar } from "@/components/SearchBar";
-import { events, places, recipes } from "@/data/mock-data";
-import { Place } from "@/types";
+import { recipes } from "@/data/mock-data";
+import { Event, Place } from "@/types";
 
 const MAX_PER_SECTION = 20;
 
@@ -31,6 +31,20 @@ function SearchContent() {
 
   const [smartResults, setSmartResults] = useState<SmartResult[] | null>(null);
   const [parsedIntent, setParsedIntent] = useState("");
+  const [places, setPlaces] = useState<Place[]>([]);
+  const [events, setEvents] = useState<Event[]>([]);
+
+  useEffect(() => {
+    fetch("/api/places?limit=800", { cache: "no-store" })
+      .then((r) => r.json())
+      .then((data) => setPlaces(Array.isArray(data?.places) ? data.places : []))
+      .catch(() => setPlaces([]));
+
+    fetch("/api/events?limit=200", { cache: "no-store" })
+      .then((r) => r.json())
+      .then((data) => setEvents(Array.isArray(data?.events) ? data.events : []))
+      .catch(() => setEvents([]));
+  }, []);
 
   const nlMode = isNaturalLanguageQuery(q);
 
@@ -63,8 +77,8 @@ function SearchContent() {
       });
   }, [q, nlMode]);
 
-  const placeResults = useMemo(() => places.filter((p) => `${p.name} ${p.description} ${p.tags.join(" ")} ${p.city}`.toLowerCase().includes(q.toLowerCase())), [q]);
-  const eventResults = useMemo(() => events.filter((e) => `${e.title} ${e.description} ${e.category} ${e.venue} ${e.city} ${e.source}`.toLowerCase().includes(q.toLowerCase())), [q]);
+  const placeResults = useMemo(() => places.filter((p) => `${p.name} ${p.description} ${p.tags.join(" ")} ${p.city}`.toLowerCase().includes(q.toLowerCase())), [places, q]);
+  const eventResults = useMemo(() => events.filter((e) => `${e.title} ${e.description} ${e.category} ${e.venue} ${e.city} ${e.source}`.toLowerCase().includes(q.toLowerCase())), [events, q]);
   const recipeResults = useMemo(() => recipes.filter((r) => `${r.title} ${r.ingredients.join(" ")} ${r.inspiredBy}`.toLowerCase().includes(q.toLowerCase())), [q]);
 
   const effectivePlaceResults = smartResults ?? placeResults;

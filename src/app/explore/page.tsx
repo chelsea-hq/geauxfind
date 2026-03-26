@@ -2,15 +2,15 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Suspense, useMemo, useState } from "react";
+import { Suspense, useEffect, useMemo, useState } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { PlaceCard } from "@/components/cards/PlaceCard";
 import { FilterBar } from "@/components/FilterBar";
 import { SearchBar } from "@/components/SearchBar";
 import { VibeFilter, VibeKey, applyVibeFilter } from "@/components/VibeFilter";
 import { MapWrapper } from "@/components/MapWrapper";
-import { places } from "@/data/mock-data";
 import { JsonLd } from "@/components/JsonLd";
+import type { Place } from "@/types";
 
 const PAGE_SIZE = 12;
 const categoryMap = [
@@ -28,6 +28,14 @@ function ExploreContent() {
   const params = useSearchParams();
   const router = useRouter();
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+  const [places, setPlaces] = useState<Place[]>([]);
+
+  useEffect(() => {
+    fetch("/api/places?limit=800", { cache: "no-store" })
+      .then((r) => r.json())
+      .then((data) => setPlaces(Array.isArray(data?.places) ? data.places : []))
+      .catch(() => setPlaces([]));
+  }, []);
 
   const category = params.get("category") ?? "all";
   const city = params.get("city") ?? "all";
@@ -44,8 +52,8 @@ function ExploreContent() {
     setVisibleCount(PAGE_SIZE);
   };
 
-  const cities = useMemo(() => Array.from(new Set(places.map((p) => p.city))).sort(), []);
-  const tags = useMemo(() => Array.from(new Set(places.flatMap((p) => p.smartTags ?? []))).sort().slice(0, 18), []);
+  const cities = useMemo(() => Array.from(new Set(places.map((p) => p.city))).sort(), [places]);
+  const tags = useMemo(() => Array.from(new Set(places.flatMap((p) => p.smartTags ?? []))).sort().slice(0, 18), [places]);
 
   const baseFiltered = useMemo(() => {
     let list = [...places];
@@ -55,7 +63,7 @@ function ExploreContent() {
     list = list.filter((p) => (rating > 0 ? p.rating >= rating : true));
     list = list.filter((p) => (tag === "all" ? true : (p.smartTags ?? []).includes(tag)));
     return list;
-  }, [vibe, city, selectedPrices, rating, tag]);
+  }, [places, vibe, city, selectedPrices, rating, tag]);
 
   const categoryCounts = useMemo(() => {
     const counts: Record<string, number> = { all: baseFiltered.length };

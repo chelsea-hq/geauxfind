@@ -2,11 +2,11 @@ import { promises as fs } from "node:fs";
 import path from "node:path";
 import { NextRequest, NextResponse } from "next/server";
 import {
-  buildDatasetSummary,
   buildSearchContext,
   getCurrentEvents,
   getFeaturedRecipes,
 } from "@/lib/search-context";
+import { allPlaces } from "@/lib/ai-places";
 
 type ChatMessage = {
   role: "user" | "assistant" | "system";
@@ -42,11 +42,25 @@ async function getFacebookContext() {
 }
 
 async function formatPrompt(question: string, location?: { lat?: number; lng?: number; city?: string }) {
-  const summary = buildDatasetSummary();
+  const places = await allPlaces();
+  const categories = Array.from(new Set(places.map((p) => p.category))).sort();
+  const cities = Array.from(new Set(places.map((p) => p.city))).sort();
+  const topRatedByCategory = categories.map((category) => ({
+    category,
+    picks: places
+      .filter((place) => place.category === category)
+      .sort((a, b) => b.rating - a.rating)
+      .slice(0, 5)
+      .map((p) => ({ name: p.name, rating: p.rating, slug: p.slug, city: p.city })),
+  }));
+
+  const summary = { totalPlaces: places.length, categories, cities, topRatedByCategory };
+
   const relevantPlaces = buildSearchContext(question, {
     limit: 50,
     userLat: location?.lat,
     userLng: location?.lng,
+    sourcePlaces: places,
   });
   const events = getCurrentEvents().slice(0, 8);
   const recipes = getFeaturedRecipes().slice(0, 6);

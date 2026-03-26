@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { buildSearchContext } from "@/lib/search-context";
-import { compactPlace, placeBySlugMap } from "@/lib/ai-places";
+import { allPlaces, compactPlace, placeBySlugMap } from "@/lib/ai-places";
 import { callVeniceChat, extractJson } from "@/lib/venice";
 
 type SmartResponse = {
@@ -13,7 +13,8 @@ export async function GET(request: NextRequest) {
   if (!query) return NextResponse.json({ error: "Query is required" }, { status: 400 });
 
   try {
-    const candidates = buildSearchContext(query, 120).map(compactPlace);
+    const places = await allPlaces();
+    const candidates = buildSearchContext(query, { limit: 120, sourcePlaces: places }).map(compactPlace);
     const content = await callVeniceChat({
       maxTokens: 500,
       temperature: 0.4,
@@ -27,7 +28,7 @@ export async function GET(request: NextRequest) {
     });
 
     const parsed = extractJson<SmartResponse>(content);
-    const map = placeBySlugMap();
+    const map = await placeBySlugMap();
     const results = (parsed.results || [])
       .map((item) => {
         const place = map.get(item.slug);
@@ -41,7 +42,8 @@ export async function GET(request: NextRequest) {
 
     return NextResponse.json({ parsedIntent: parsed.parsedIntent || query, results });
   } catch {
-    const fallback = buildSearchContext(query, 12).map((place) => ({ ...place, why: "Keyword relevance match." }));
+    const places = await allPlaces();
+    const fallback = buildSearchContext(query, { limit: 12, sourcePlaces: places }).map((place) => ({ ...place, why: "Keyword relevance match." }));
     return NextResponse.json({ parsedIntent: query, results: fallback });
   }
 }

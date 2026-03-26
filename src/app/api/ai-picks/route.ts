@@ -9,7 +9,8 @@ export async function GET(request: NextRequest) {
   const cuisine = request.nextUrl.searchParams.get("cuisine")?.trim();
   const time = timeOfDayLabel(request.nextUrl.searchParams.get("time") || undefined);
 
-  const candidates = [...allPlaces]
+  const places = await allPlaces();
+  const candidates = [...places]
     .filter((place) => (!cuisine ? true : `${place.cuisine} ${place.tags.join(" ")}`.toLowerCase().includes(cuisine.toLowerCase())))
     .sort((a, b) => b.rating - a.rating)
     .slice(0, 100)
@@ -32,7 +33,7 @@ export async function GET(request: NextRequest) {
     });
 
     const parsed = extractJson<AiPicksResponse>(content);
-    const map = placeBySlugMap();
+    const map = await placeBySlugMap();
     const picks = (parsed.picks || [])
       .map((item) => {
         const place = map.get(item.slug);
@@ -49,7 +50,7 @@ export async function GET(request: NextRequest) {
       vibe: parsed.vibe || `Top ${time} picks across Acadiana`,
     });
   } catch {
-    const picks = fallbackPicks(6).map((place) => ({ ...place, why: "Top-rated local favorite with proven community love." }));
+    const picks = (await fallbackPicks(6)).map((place) => ({ ...place, why: "Top-rated local favorite with proven community love." }));
     return NextResponse.json({ picks, vibe: `Editor's choice for ${time}` });
   }
 }

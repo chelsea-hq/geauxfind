@@ -1,6 +1,9 @@
-import { events, weekendHighlights } from "@/data/mock-data";
+import { weekendHighlights } from "@/data/mock-data";
 import { EventCard } from "@/components/cards/EventCard";
 import { buildMetadata } from "@/lib/seo";
+import { getEvents } from "@/lib/supabase-data";
+
+export const dynamic = "force-dynamic";
 
 export const metadata = buildMetadata({
   title: "This Weekend in Acadiana — Events, Eats & Plans | GeauxFind",
@@ -8,7 +11,8 @@ export const metadata = buildMetadata({
   path: "/this-weekend",
 });
 
-export default function ThisWeekend() {
+export default async function ThisWeekend() {
+  const events = await getEvents();
   const now = new Date();
   const day = now.getDay();
   const daysToFriday = (5 - day + 7) % 7;

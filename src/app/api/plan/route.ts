@@ -41,8 +41,9 @@ export async function POST(request: NextRequest) {
 
     const targetStops = duration === "half-day" ? 4 : duration === "weekend" ? 9 : 6;
 
-    const cityPool = allPlaces.filter((p) => p.city.toLowerCase() === city.toLowerCase());
-    const basePool = (cityPool.length > 20 ? cityPool : allPlaces)
+    const places = await allPlaces();
+    const cityPool = places.filter((p) => p.city.toLowerCase() === city.toLowerCase());
+    const basePool = (cityPool.length > 20 ? cityPool : places)
       .sort((a, b) => b.rating - a.rating)
       .slice(0, 180)
       .map(compactPlace);
@@ -67,7 +68,7 @@ export async function POST(request: NextRequest) {
     });
 
     const parsed = extractJson<PlanResponse>(content);
-    const map = placeBySlugMap();
+    const map = await placeBySlugMap();
 
     const hydrated = (parsed.stops || [])
       .map((stop) => {
@@ -95,7 +96,8 @@ export async function POST(request: NextRequest) {
       stops: withDrives,
     });
   } catch {
-    const fallback = allPlaces
+    const places = await allPlaces();
+    const fallback = places
       .filter((p) => p.city.toLowerCase() === "lafayette")
       .sort((a, b) => b.rating - a.rating)
       .slice(0, 6)

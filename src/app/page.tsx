@@ -181,6 +181,20 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="mx-auto mt-8 max-w-6xl px-4 reveal">
+        <div className="mb-4 flex items-center justify-between">
+          <h2 className="text-3xl text-[var(--cajun-red)]">Food & Drink Guides</h2>
+          <Link href="/deals" className="gf-link text-sm">See all offers</Link>
+        </div>
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
+          <Link href="/happy-hours" className="rounded-[12px] border border-[var(--spanish-moss)]/30 bg-white p-4 card-lift"><p className="text-xs text-[var(--moss)]">AFTER WORK</p><h3 className="mt-1 text-lg text-[var(--cajun-red)]">Happy Hours</h3></Link>
+          <Link href="/daily-specials" className="rounded-[12px] border border-[var(--spanish-moss)]/30 bg-white p-4 card-lift"><p className="text-xs text-[var(--moss)]">PLATE LUNCH</p><h3 className="mt-1 text-lg text-[var(--cajun-red)]">Daily Specials</h3></Link>
+          <Link href="/late-night" className="rounded-[12px] border border-[var(--spanish-moss)]/30 bg-white p-4 card-lift"><p className="text-xs text-[var(--moss)]">OPEN LATE</p><h3 className="mt-1 text-lg text-[var(--cajun-red)]">Late Night Eats</h3></Link>
+          <Link href="/food-trucks" className="rounded-[12px] border border-[var(--spanish-moss)]/30 bg-white p-4 card-lift"><p className="text-xs text-[var(--moss)]">MOBILE FOOD</p><h3 className="mt-1 text-lg text-[var(--cajun-red)]">Food Trucks</h3></Link>
+          <Link href="/date-night" className="rounded-[12px] border border-[var(--spanish-moss)]/30 bg-white p-4 card-lift"><p className="text-xs text-[var(--moss)]">COUPLES</p><h3 className="mt-1 text-lg text-[var(--cajun-red)]">Date Night</h3></Link>
+        </div>
+      </section>
+
       <section id="geaux-best" className="mx-auto mt-16 max-w-6xl px-4 reveal">
         <div className="mb-7 flex items-end justify-between">
           <div>
