@@ -13,6 +13,20 @@ const priceMap: Record<number, "$" | "$$" | "$$$"> = {
   4: "$$$",
 };
 
+function isPlaceholder(url: string | null | undefined): boolean {
+  if (!url) return true;
+  return url.includes("placeholder") || url.endsWith(".svg");
+}
+
+function getPlaceImage(coverPhoto: string | null, photos: string[] | null): string {
+  // Use cover_photo if it's a real image (not a placeholder)
+  if (coverPhoto && !isPlaceholder(coverPhoto)) return coverPhoto;
+  // Fall back to first photo from Google Places gallery
+  if (photos && photos.length > 0) return photos[0];
+  // Last resort placeholder
+  return "/images/placeholders/place.svg";
+}
+
 function normalizeHours(hours: unknown): string[] {
   if (Array.isArray(hours)) return hours.map(String);
   if (hours && typeof hours === "object") {
@@ -35,7 +49,7 @@ export function mapPlaceRow(row: PlaceRow): Place {
     website: row.website || "",
     hours: normalizeHours(row.hours),
     description: row.description || row.short_description || "",
-    image: row.cover_photo || "/images/placeholders/place.svg",
+    image: getPlaceImage(row.cover_photo, row.photos),
     gallery: row.photos || [],
     tags: row.tags || [],
     reviews: [],
