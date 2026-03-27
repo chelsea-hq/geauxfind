@@ -24,6 +24,114 @@ type Guide = {
   meta?: Record<string, unknown>;
 };
 
+function MetaDetails({ meta, category }: { meta: Record<string, unknown>; category: string }) {
+  // Filter out internal fields
+  const skip = new Set(["source", "lastUpdated", "category", "dayIndex"]);
+  const entries = Object.entries(meta).filter(([k]) => !skip.has(k));
+  if (entries.length === 0) return null;
+
+  return (
+    <div className="mt-3 space-y-2 rounded-[10px] bg-[var(--cream)] p-3">
+      {entries.map(([key, value]) => (
+        <MetaField key={key} label={key} value={value} category={category} />
+      ))}
+    </div>
+  );
+}
+
+function MetaField({ label, value }: { label: string; value: unknown; category: string }) {
+  const prettyLabel = label
+    .replace(/([A-Z])/g, " $1")
+    .replace(/^./, (s) => s.toUpperCase())
+    .trim();
+
+  // Arrays of strings → pill tags
+  if (Array.isArray(value) && value.length > 0 && typeof value[0] === "string") {
+    return (
+      <div>
+        <span className="text-xs font-semibold text-[var(--cajun-red)]">{prettyLabel}</span>
+        <div className="mt-1 flex flex-wrap gap-1">
+          {(value as string[]).map((v) => (
+            <span key={v} className="rounded-full bg-white px-2 py-0.5 text-xs text-[var(--cast-iron)]">{v}</span>
+          ))}
+        </div>
+      </div>
+    );
+  }
+
+  // Arrays of objects (specials, happyHours, musicNights, danceNights, contenders, etc.)
+  if (Array.isArray(value) && value.length > 0 && typeof value[0] === "object") {
+    return (
+      <div>
+        <span className="text-xs font-semibold text-[var(--cajun-red)]">{prettyLabel}</span>
+        <div className="mt-1 space-y-2">
+          {(value as Record<string, unknown>[]).map((obj, i) => (
+            <div key={i} className="rounded-lg bg-white p-2 text-xs text-[var(--cast-iron)]">
+              {Object.entries(obj).map(([k, v]) => {
+                const fieldLabel = k.replace(/([A-Z])/g, " $1").replace(/^./, (s) => s.toUpperCase()).trim();
+                if (Array.isArray(v)) return <p key={k}><strong>{fieldLabel}:</strong> {(v as string[]).join(", ")}</p>;
+                if (typeof v === "object" && v !== null) return <p key={k}><strong>{fieldLabel}:</strong> {JSON.stringify(v)}</p>;
+                return <p key={k}><strong>{fieldLabel}:</strong> {String(v)}</p>;
+              })}
+            </div>
+          ))}
+        </div>
+      </div>
+    );
+  }
+
+  // Booleans
+  if (typeof value === "boolean") {
+    return (
+      <div className="flex items-center gap-2 text-xs">
+        <span className="font-semibold text-[var(--cajun-red)]">{prettyLabel}</span>
+        <span>{value ? "✅ Yes" : "❌ No"}</span>
+      </div>
+    );
+  }
+
+  // Simple strings/numbers
+  if (typeof value === "string" || typeof value === "number") {
+    // URLs get linked
+    if (typeof value === "string" && value.startsWith("http")) {
+      return (
+        <div className="text-xs">
+          <span className="font-semibold text-[var(--cajun-red)]">{prettyLabel}: </span>
+          <a href={value} target="_blank" rel="noreferrer" className="text-[var(--cajun-red)] underline">{value}</a>
+        </div>
+      );
+    }
+    return (
+      <div className="text-xs">
+        <span className="font-semibold text-[var(--cajun-red)]">{prettyLabel}: </span>
+        <span className="text-[var(--cast-iron)]">{String(value)}</span>
+      </div>
+    );
+  }
+
+  // Objects (socials, etc.)
+  if (typeof value === "object" && value !== null && !Array.isArray(value)) {
+    return (
+      <div>
+        <span className="text-xs font-semibold text-[var(--cajun-red)]">{prettyLabel}</span>
+        <div className="mt-1 flex flex-wrap gap-2">
+          {Object.entries(value as Record<string, unknown>).map(([k, v]) => (
+            <span key={k} className="rounded-full bg-white px-2 py-0.5 text-xs text-[var(--cast-iron)]">
+              {typeof v === "string" && v.startsWith("http") ? (
+                <a href={v} target="_blank" rel="noreferrer" className="text-[var(--cajun-red)] underline">{k}</a>
+              ) : (
+                <>{k}: {String(v)}</>
+              )}
+            </span>
+          ))}
+        </div>
+      </div>
+    );
+  }
+
+  return null;
+}
+
 export function GuideDirectory({
   category,
   title,
@@ -166,14 +274,7 @@ export function GuideDirectory({
                 </div>
               ) : null}
 
-              {item.meta ? (
-                <details className="mt-3 rounded-[10px] bg-[var(--cream)] p-3">
-                  <summary className="cursor-pointer text-xs font-semibold text-[var(--cajun-red)]">More details</summary>
-                  <pre className="mt-2 overflow-x-auto whitespace-pre-wrap text-xs text-[var(--warm-gray)]">
-                    {JSON.stringify(item.meta, null, 2)}
-                  </pre>
-                </details>
-              ) : null}
+              {item.meta ? <MetaDetails meta={item.meta} category={item.category} /> : null}
             </article>
           ))}
         </div>
