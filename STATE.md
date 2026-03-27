@@ -1,6 +1,49 @@
 # GeauxFind — Project State
 *Luna: READ THIS EVERY SESSION before touching GeauxFind. No exceptions.*
-*Last updated: 2026-03-26 7:33 PM CT*
+*Last updated: 2026-03-26 8:05 PM CT*
+
+## Business Claim Portal (2026-03-26)
+
+### ✅ New claim pages shipped
+- `/claim` rebuilt as business-claim search portal using **all 742 places** from `scripts/seed-data.json`
+  - Hero copy: “Own a business in Acadiana? Claim your free listing.”
+  - Live search/filter by name/city/cuisine/address
+  - Results render business cards + **Claim This Business** CTA to `/claim/[slug]`
+  - “Don’t see your business? Add it!” CTA to `/claim/new`
+- `/claim/[slug]` added as a 4-step claim flow:
+  1) verification,
+  2) listing updates (logo/cover upload fields, description, hours, website, social links),
+  3) first deal/special,
+  4) plan choice (Free vs Premium $29/mo preview)
+- `/claim/[slug]/confirmation` added with “We’ll review your claim within 24 hours” message
+- `/claim/new` added full new-business submission form
+- `/claim/premium` added pricing preview page:
+  - Free ($0), Premium ($29/mo), Featured ($99/mo)
+  - premium/featured cards show **Coming Soon** badges
+  - includes waitlist email capture UI
+
+### ✅ New API routes shipped
+- `POST /api/claims`
+  - validates required claim fields
+  - prevents duplicate pending claims for same slug
+  - saves to `data/claims.json`
+- `GET /api/claims/check?slug=xxx`
+  - returns `{ slug, claimed }` based on pending claims
+- `POST /api/submissions`
+  - saves new-business submissions to `data/submissions.json`
+
+### ✅ Data files initialized
+- `data/claims.json` (empty array seed)
+- `data/submissions.json` (empty array seed)
+
+### ✅ Navigation / business-page updates
+- Footer now includes **Claim Your Business** link to `/claim`
+- Added subtle CTA banner on `/business/[slug]`:
+  - “Is this your business? Claim it free” linking to `/claim/[slug]`
+
+### Build status
+- `npm run build` passes with 0 TypeScript errors
+- Existing pre-existing `<img>` lint warnings remain in unrelated files
 
 ## Live Site
 - **URL:** https://geauxfind.com

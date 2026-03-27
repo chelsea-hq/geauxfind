@@ -40,6 +40,9 @@ export default function BusinessDashboardPage() {
     <main className="mx-auto max-w-5xl px-4 py-10">
       <h1 className="text-4xl text-[var(--cajun-red)]">{place.name} Business Dashboard</h1>
       <p className="mt-2 text-[var(--warm-gray)]">Mock analytics: <strong>{Math.floor(Math.random() * 800) + 220}</strong> views this week</p>
+      <div className="mt-4 rounded-[12px] border border-[var(--spanish-moss)]/30 bg-[var(--cream)] px-4 py-3 text-sm text-[var(--cast-iron)]">
+        Is this your business? <Link href={`/claim/${slug}`} className="font-semibold text-[var(--cajun-red)] underline">Claim it free</Link>
+      </div>
 
       <section className="mt-6 grid gap-3 rounded-2xl border border-[var(--spanish-moss)]/30 bg-white p-5">
         <textarea className="rounded-lg border p-2" value={profile.description} onChange={(e) => setProfile({ ...profile, description: e.target.value })} />

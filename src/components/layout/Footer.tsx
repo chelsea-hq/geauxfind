@@ -32,7 +32,8 @@ export function Footer() {
               <Link href="/cajun-connection" className="gf-link">Cajun Connection</Link><br />
               <Link href="/kids-eat-free" className="gf-link">Kids Eat Free</Link><br />
               <Link href="/live-music" className="gf-link">Live Music</Link><br />
-              <Link href="/weekend-brunch" className="gf-link">Weekend Brunch</Link>
+              <Link href="/weekend-brunch" className="gf-link">Weekend Brunch</Link><br />
+              <Link href="/claim" className="gf-link">Claim Your Business</Link>
             </div>
           </div>
 
