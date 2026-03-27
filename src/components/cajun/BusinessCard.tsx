@@ -1,13 +1,17 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { Globe, MapPin } from "lucide-react";
+import { useState } from "react";
 import type { CajunBusiness } from "@/lib/cajun-connection";
 
 export function BusinessCard({ business }: { business: CajunBusiness }) {
+  const [imgSrc, setImgSrc] = useState(business.coverPhoto || business.logo || "/placeholder.svg");
   return (
     <article className="card-lift overflow-hidden rounded-[12px] border border-[var(--spanish-moss)]/30 bg-white shadow-sm">
-      <div className="relative aspect-[16/9]">
-        <Image src={business.logo || "/placeholder.svg"} alt={business.name} fill className="object-cover" />
+      <div className="relative aspect-[4/3] bg-[var(--cream)]">
+        <Image src={imgSrc} alt={business.name} fill className="object-contain p-2" onError={() => setImgSrc("/placeholder.svg")} />
         <div className="absolute left-3 top-3 rounded-full bg-[var(--cajun-red)] px-3 py-1 text-xs font-semibold text-white">{business.category}</div>
       </div>
       <div className="space-y-3 p-4">
