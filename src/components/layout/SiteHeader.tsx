@@ -5,6 +5,7 @@ import Link from "next/link";
 import { ChevronDown, Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
+import { GUIDE_CATEGORIES } from "@/lib/guide-config";
 
 const topLinks = [
   ["/whos-got-it", "Who's Got It"],
@@ -13,30 +14,13 @@ const topLinks = [
   ["/community", "Community"],
 ] as const;
 
-const foodDrinkLinks = [
-  ["/happy-hours", "Happy Hours"],
-  ["/daily-specials", "Daily Specials"],
-  ["/late-night", "Late Night"],
-  ["/coffee", "Coffee"],
-  ["/breweries", "Breweries"],
-  ["/food-trucks", "Food Trucks"],
-  ["/weekend-brunch", "Brunch"],
-  ["/kids-eat-free", "Kids Eat Free"],
-] as const;
-
-const thingsToDoLinks = [
-  ["/live-music", "Live Music"],
-  ["/dance-halls", "Dance Halls"],
-  ["/festivals", "Festivals"],
-  ["/outdoor", "Outdoor"],
-  ["/photo-spots", "Photo Spots"],
-  ["/date-night", "Date Night"],
-] as const;
+const foodDrinkLinks = GUIDE_CATEGORIES["food-drink"].items.map((item) => [item.path, item.label] as const);
+const thingsToDoLinks = GUIDE_CATEGORIES["things-to-do"].items.map((item) => [item.path, item.label] as const);
 
 const mobileSections = [
   { title: "Top Links", links: topLinks },
-  { title: "Food & Drink", links: foodDrinkLinks },
-  { title: "Things to Do", links: thingsToDoLinks },
+  { title: GUIDE_CATEGORIES["food-drink"].label, links: foodDrinkLinks },
+  { title: GUIDE_CATEGORIES["things-to-do"].label, links: thingsToDoLinks },
 ] as const;
 
 export function SiteHeader() {

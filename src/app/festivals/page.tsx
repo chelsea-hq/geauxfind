@@ -1,28 +1,15 @@
 import { buildMetadata } from "@/lib/seo";
-import data from "../../../data/festivals.json";
-import { FestivalsCalendar } from "@/components/food-guides/FestivalsCalendar";
+import { GUIDE_BY_CATEGORY } from "@/lib/guide-config";
+import { GuidePage } from "@/components/guides/GuidePage";
+
+const config = GUIDE_BY_CATEGORY["festival"];
 
 export const metadata = buildMetadata({
-  title: "Festival Calendar for Lafayette & Acadiana | GeauxFind",
-  description: "A month-by-month festival calendar for Acadiana, from Festival International to Cajun and zydeco staples.",
-  path: "/festivals",
+  title: `${config.title} in Acadiana | GeauxFind`,
+  description: config.description,
+  path: config.path,
 });
 
-export default function FestivalsPage() {
-  return (
-    <main className="mx-auto max-w-5xl space-y-6 px-4 pb-16 pt-10">
-      <div className="space-y-2">
-        <div className="flex items-center gap-2">
-          <span className="text-3xl">🎉</span>
-          <h1 className="text-4xl text-[var(--cajun-red)]">Festival Calendar</h1>
-        </div>
-        <p className="text-lg text-[var(--warm-gray)]">The most complete month-by-month festival guide in Acadiana.</p>
-      </div>
-      <div className="flex gap-3 rounded-[12px] border border-amber-200 bg-amber-50 p-4 text-sm text-amber-800">
-        <span className="mt-0.5 shrink-0 text-base">⚠️</span>
-        <p><strong>Heads up:</strong> {data.disclaimer}</p>
-      </div>
-      <FestivalsCalendar />
-    </main>
-  );
+export default function Page() {
+  return <GuidePage config={config} />;
 }

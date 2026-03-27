@@ -1,12 +1,44 @@
 # GeauxFind — Project State
 *Luna: READ THIS EVERY SESSION before touching GeauxFind. No exceptions.*
-*Last updated: 2026-03-26 5:39 PM CT*
+*Last updated: 2026-03-26 7:33 PM CT*
 
 ## Live Site
 - **URL:** https://geauxfind.com
 - **Deploy:** `cd /Users/luna/.openclaw/workspace/geauxfind && npx vercel --prod --yes`
 - **Vercel account:** Separate free account (NOT Chelsea's Pro)
 - **Git push does NOT auto-deploy.** Must run Vercel CLI manually.
+
+## Consolidated Guides Refactor (2026-03-26)
+
+### ✅ Unified architecture shipped
+- Added `data/guides.json` with **324 normalized entries** across 16 guide categories:
+  - happy-hour, daily-special, late-night, food-truck, date-night
+  - brewery, coffee, farmers-market, festival, outdoor, dance-hall, photo-spot
+  - kids-eat-free, weekend-brunch, live-music, whos-got-it
+- Added `src/components/guides/GuideDirectory.tsx` reusable directory UI (search + grouping + cards + empty states)
+- Added `src/components/guides/GuidePage.tsx` shared page wrapper
+- Added `src/lib/guide-config.ts` as the config source of truth for categories, paths, nav labels/icons, and grouping behavior
+- Added dynamic API endpoint: `src/app/api/guides/route.ts`
+  - supports `?category=<slug>` and/or `?group=food-drink|things-to-do`
+- Replaced **16 guide pages** with thin wrappers using config + shared directory:
+  - `/happy-hours`, `/daily-specials`, `/late-night`, `/food-trucks`, `/date-night`
+  - `/breweries`, `/coffee`, `/farmers-markets`, `/festivals`, `/outdoor`, `/dance-halls`, `/photo-spots`
+  - `/kids-eat-free`, `/weekend-brunch`, `/live-music`, `/whos-got-it`
+- Updated `SiteHeader.tsx` to use guide config for Food & Drink + Things to Do nav sections (no hardcoded guide arrays)
+
+### ✅ Deprecated/removed
+- Removed legacy per-guide directory components in `src/components/food-guides/*`
+- Removed old specialized guide components:
+  - `src/components/music/LiveMusicDirectory.tsx`
+  - `src/components/kids/KidsEatFreeDirectory.tsx`
+  - `src/components/brunch/WeekendBrunchDirectory.tsx`
+- Removed old per-guide API routes:
+  - `/api/happy-hours`, `/api/daily-specials`, `/api/late-night`, `/api/food-trucks`, `/api/date-night`
+  - `/api/breweries`, `/api/coffee`, `/api/farmers-markets`, `/api/festivals`, `/api/outdoor`, `/api/dance-halls`, `/api/photo-spots`
+- Kept all original JSON data files as backups and added migration note: `data/README.md`
+
+### Build status
+- `npm run build` passes (0 errors). Existing unrelated `<img>` lint warnings remain in non-guide files.
 
 ## Data Pipeline Status
 
@@ -77,6 +109,17 @@ DO NOT just reply in the channel without saving data.
 | /food-trucks | `data/food-trucks.json` | ✅ |
 | /date-night | `data/date-night.json` | ✅ |
 | /explore | aggregates multiple sources | ✅ |
+
+## Luna Dashboard Analytics Panel (2026-03-26)
+- **Page:** `/geauxfind` route in luna-dashboard at http://localhost:3003
+- **File:** `luna-dashboard/src/pages/GeauxFindPage.tsx`
+- **API endpoint:** `GET /api/geauxfind/analytics` (added to `luna-dashboard/server/index.js`)
+- **Shows:** Total places (742), events (31), Cajun Connection (100), deals (24), section entries (246)
+- **Category breakdown:** animated bar chart (food 320, outdoors 131, finds 107, music 98, shopping 54, events 32)
+- **New sections grid:** 12 section cards with counts
+- **Supabase status:** shows connected (Pro plan env vars present)
+- **Quick links:** geauxfind.com, GitHub, Vercel, Supabase console
+- **Nav:** "🦐 GeauxFind" added to sidebar BUSINESSES group
 
 ## Header (Updated 2026-03-26)
 - Desktop nav now uses grouped discovery dropdowns:
