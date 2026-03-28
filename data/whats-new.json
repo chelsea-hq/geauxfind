@@ -6,7 +6,7 @@
     "sourceUrl": "https://kpel965.com/",
     "url": "https://kpel965.com/ixp/33/p/louisiana-spring-weather-alerts/",
     "excerpt": "Local update from Looks Can Be Deceiving - Louisiana's Dangerous Weekend Weather.",
-    "date": "2026-03-28T23:00:15.571Z",
+    "date": "2026-03-28T23:00:48.724Z",
     "imageUrl": "https://townsquare.media/site/33/files/2026/03/attachment-smoke-sunset-bernd-dittrich-via-unsplash.JPG?w=980&q=75",
     "category": "Event",
     "tags": [
@@ -21,28 +21,12 @@
     "sourceUrl": "https://973thedawg.com/categories/lafayette-news/",
     "url": "https://973thedawg.com/ixp/29/p/carencro-food-pantry/",
     "excerpt": "Local update from Charitable Organization in Louisiana Elects to Close Food Pantry.",
-    "date": "2026-03-28T23:00:15.281Z",
+    "date": "2026-03-28T23:00:48.586Z",
     "imageUrl": "https://townsquare.media/site/29/files/2026/03/attachment-jacob-mcgowin-rf_zwox76sm-unsplash.jpg?w=980&q=75",
     "category": "Food News",
     "tags": [
       "food news"
     ]
-  },
-  {
-    "id": "tractor-supply-4th-lafayette-store-coming-soon-to-broussard-la",
-    "title": "Tractor Supply, 4th Lafayette Store, Coming Soon to Broussard, LA",
-    "source": "Developing Lafayette",
-    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
-    "url": "https://developinglafayette.com/wp/tractor-supply-4th-lafayette-store-coming-soon-to-broussard-la/",
-    "excerpt": "Local update from Tractor Supply, 4th Lafayette Store, Coming Soon to Broussard, LA.",
-    "date": "2026-03-28T23:00:12.072Z",
-    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/03/6aa04bd3-4973-4e31-8c04-5ec25bbb869c-360x220.jpg",
-    "category": "Coming Soon",
-    "tags": [
-      "coming soon",
-      "lafayette"
-    ],
-    "city": "Lafayette"
   },
   {
     "id": "the-tea-podcasts-marie-ducote-owner-of-cajun-food-tours-we-are-talking-with-mari",
@@ -51,7 +35,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/marie-ducote-owner-of-cajun-food-tours/",
     "excerpt": "As part of its $100 million Advancing Acadiana initiative, FMOL Health | Our Lady of Lourdes Women’s & Children’s...",
-    "date": "2026-03-28T23:00:12.071Z",
+    "date": "2026-03-28T23:00:47.422Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/03/65a73af5-07e2-45c4-960a-63e8f8f155c1-2000x1200.jpg",
     "category": "Business Opening",
     "tags": [
@@ -61,13 +45,59 @@
     ]
   },
   {
+    "id": "tractor-supply-4th-lafayette-store-coming-soon-to-broussard-la",
+    "title": "Tractor Supply, 4th Lafayette Store, Coming Soon to Broussard, LA",
+    "source": "Developing Lafayette",
+    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
+    "url": "https://developinglafayette.com/wp/tractor-supply-4th-lafayette-store-coming-soon-to-broussard-la/",
+    "excerpt": "Local update from Tractor Supply, 4th Lafayette Store, Coming Soon to Broussard, LA.",
+    "date": "2026-03-28T23:00:47.422Z",
+    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/03/6aa04bd3-4973-4e31-8c04-5ec25bbb869c-360x220.jpg",
+    "category": "Coming Soon",
+    "tags": [
+      "coming soon",
+      "lafayette"
+    ],
+    "city": "Lafayette"
+  },
+  {
+    "id": "new-harvest-community-church-campus-planned-for-former-grocery-store-site-on-sim",
+    "title": "New Harvest Community Church Campus Planned for Former Grocery Store Site on Simcoe Street",
+    "source": "Developing Lafayette",
+    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
+    "url": "https://developinglafayette.com/wp/new-harvest-community-church-campus-planned-for-former-piggly-wiggly-site-on-simcoe-street/",
+    "excerpt": "Local update from New Harvest Community Church Campus Planned for Former Grocery Store Site on Simcoe Street.",
+    "date": "2026-03-28T23:00:47.330Z",
+    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/03/c5be19c9-6441-4364-bea5-dddf3401d77e-2000x1200.jpg",
+    "category": "Business Opening",
+    "tags": [
+      "business opening",
+      "new"
+    ]
+  },
+  {
+    "id": "former-bakers-choice-reopens-as-a-bakers-paradise-under-new-ownership",
+    "title": "Former Baker’s Choice Reopens as A Baker’s Paradise Under New Ownership",
+    "source": "Developing Lafayette",
+    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
+    "url": "https://developinglafayette.com/wp/former-bakers-choice-reopens-as-a-bakers-paradise-under-new-ownership/",
+    "excerpt": "Local update from Former Baker’s Choice Reopens as A Baker’s Paradise Under New Ownership.",
+    "date": "2026-03-28T23:00:47.330Z",
+    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/03/aa3ca931-c420-41fb-9ac4-51be820fa4af-2000x1200.jpg",
+    "category": "Food News",
+    "tags": [
+      "food news",
+      "new"
+    ]
+  },
+  {
     "id": "sojourn-tea-shop-bringing-loose-leaf-teas-mercantile-concept-to-downtown-lafayet",
     "title": "Sojourn Tea Shop Bringing Loose Leaf Teas, Mercantile Concept To Downtown Lafayette",
     "source": "Developing Lafayette",
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/sojourn-tea-shop-bringing-loose-leaf-teas-mercantile-concept-to-downtown-lafayette/",
     "excerpt": "Local update from Sojourn Tea Shop Bringing Loose Leaf Teas, Mercantile Concept To Downtown Lafayette.",
-    "date": "2026-03-28T23:00:12.017Z",
+    "date": "2026-03-28T23:00:47.330Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/02/68f2fcb4-786a-42b2-ad1a-9d0a07a92a5c-2000x1200.jpg",
     "category": "Business Opening",
     "tags": [
@@ -84,7 +114,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/freedom-homes-of-carencro-grand-reopening-march-28th/",
     "excerpt": "Freedom Homes of Carencro Grand Reopening, March 28th Freedom Homes of Carencro has officially reopened at 4027 NW Evangeline Thruway (I-49) following a full redevelopment of its longtime",
-    "date": "2026-03-28T23:00:12.016Z",
+    "date": "2026-03-28T23:00:47.329Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/03/366baff9-6335-4a85-b1c0-57864ed0420f-2000x1200.jpg",
     "category": "Business Opening",
     "tags": [
@@ -94,34 +124,21 @@
     "city": "Carencro"
   },
   {
-    "id": "new-harvest-community-church-campus-planned-for-former-grocery-store-site-on-sim",
-    "title": "New Harvest Community Church Campus Planned for Former Grocery Store Site on Simcoe Street",
+    "id": "inside-the-new-smash-pickleball-restaurant-opening-this-week-in-youngsville-la",
+    "title": "Inside the New Smash Pickleball Restaurant Opening This Week in Youngsville, LA",
     "source": "Developing Lafayette",
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
-    "url": "https://developinglafayette.com/wp/new-harvest-community-church-campus-planned-for-former-piggly-wiggly-site-on-simcoe-street/",
-    "excerpt": "Local update from New Harvest Community Church Campus Planned for Former Grocery Store Site on Simcoe Street.",
-    "date": "2026-03-28T23:00:12.016Z",
-    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/03/c5be19c9-6441-4364-bea5-dddf3401d77e-2000x1200.jpg",
-    "category": "Business Opening",
+    "url": "https://developinglafayette.com/wp/inside-the-new-smash-pickleball-restaurant-opening-this-week-in-youngsville-la/",
+    "excerpt": "Local update from Inside the New Smash Pickleball Restaurant Opening This Week in Youngsville, LA.",
+    "date": "2026-03-28T23:00:47.109Z",
+    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/03/1a804e35-b9ac-4c18-a940-f14063d20987-2000x1200.jpg",
+    "category": "New Restaurant",
     "tags": [
-      "business opening",
-      "new"
-    ]
-  },
-  {
-    "id": "former-bakers-choice-reopens-as-a-bakers-paradise-under-new-ownership",
-    "title": "Former Baker’s Choice Reopens as A Baker’s Paradise Under New Ownership",
-    "source": "Developing Lafayette",
-    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
-    "url": "https://developinglafayette.com/wp/former-bakers-choice-reopens-as-a-bakers-paradise-under-new-ownership/",
-    "excerpt": "Local update from Former Baker’s Choice Reopens as A Baker’s Paradise Under New Ownership.",
-    "date": "2026-03-28T23:00:12.016Z",
-    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/03/aa3ca931-c420-41fb-9ac4-51be820fa4af-2000x1200.jpg",
-    "category": "Food News",
-    "tags": [
-      "food news",
-      "new"
-    ]
+      "new restaurant",
+      "new",
+      "opening"
+    ],
+    "city": "Youngsville"
   },
   {
     "id": "empire-wingz-baton-rouge-based-wing-brand-coming-soon-to-lafayettela",
@@ -130,7 +147,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/empire-wingz-baton-rouge-based-wing-brand-coming-soon-to-lafayettela/",
     "excerpt": "Local update from Empire Wingz, Baton Rouge-Based Wing Brand, Coming Soon to Lafayette,LA.",
-    "date": "2026-03-28T23:00:10.843Z",
+    "date": "2026-03-28T23:00:47.109Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/03/img_2109-2000x1200.jpg",
     "category": "Coming Soon",
     "tags": [
@@ -146,7 +163,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/insomnia-cookies-coming-soon-to-downtown-lafayette/",
     "excerpt": "Local update from Insomnia Cookies Coming Soon to Downtown Lafayette.",
-    "date": "2026-03-28T23:00:10.843Z",
+    "date": "2026-03-28T23:00:47.109Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/02/img_7981-1-2000x1200.jpg",
     "category": "Coming Soon",
     "tags": [
@@ -163,7 +180,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/dunkin-signage-up-in-lafayette-la-opening-soon/",
     "excerpt": "Local update from Dunkin’ Signage Up in Lafayette, LA, Opening Soon.",
-    "date": "2026-03-28T23:00:10.843Z",
+    "date": "2026-03-28T23:00:47.109Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/02/75dbb87f-92cd-4394-8505-f03faef83489-1-2000x1200.jpg",
     "category": "Coming Soon",
     "tags": [
@@ -180,7 +197,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/tropical-smoothie-cafe-coming-soon-to-broussard-in-former-taco-bell-space/",
     "excerpt": "Local update from Tropical Smoothie Cafe Coming Soon to Broussard in Former Taco Bell Space.",
-    "date": "2026-03-28T23:00:10.843Z",
+    "date": "2026-03-28T23:00:47.109Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/01/a032b8e5-3fbc-415d-af6f-e710042bf1af-2000x1200.jpg",
     "category": "Coming Soon",
     "tags": [
@@ -195,7 +212,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/new-rooftop-bar-restaurant-pickleball-concept-coming-soon-to-former-lafayette-health-club-site/",
     "excerpt": "Local update from SMASH: A New Rooftop Bar, Restaurant & Pickleball Concept Coming Soon to Former Lafayette Health Club Site.",
-    "date": "2026-03-28T23:00:10.843Z",
+    "date": "2026-03-28T23:00:47.109Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/01/restaurant-corner-1.jpg",
     "category": "Coming Soon",
     "tags": [
@@ -212,7 +229,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/pats-downtown-closing-new-plate-lunch-concept-gravy-coming-soon-to-downtown-lafayette/",
     "excerpt": "Local update from Pat’s Downtown Closing; New Plate Lunch Concept, Gravy, Coming Soon to Downtown Lafayette.",
-    "date": "2026-03-28T23:00:10.843Z",
+    "date": "2026-03-28T23:00:47.109Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/01/8147e760-cd4f-4f4b-8284-b2486bad7251-2000x1200.jpg",
     "category": "Coming Soon",
     "tags": [
@@ -230,7 +247,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/large-retail-restaurant-development-under-construction-in-scott-la-at-destination-pointe/",
     "excerpt": "Local update from Large Retail/Restaurant Development Under Construction in Scott, LA at Destination Pointe.",
-    "date": "2026-03-28T23:00:10.842Z",
+    "date": "2026-03-28T23:00:47.108Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/03/35471aaf-e264-479c-be34-c7684db3ffe3-2000x1200.jpg",
     "category": "New Restaurant",
     "tags": [
@@ -239,30 +256,13 @@
     "city": "Scott"
   },
   {
-    "id": "inside-the-new-smash-pickleball-restaurant-opening-this-week-in-youngsville-la",
-    "title": "Inside the New Smash Pickleball Restaurant Opening This Week in Youngsville, LA",
-    "source": "Developing Lafayette",
-    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
-    "url": "https://developinglafayette.com/wp/inside-the-new-smash-pickleball-restaurant-opening-this-week-in-youngsville-la/",
-    "excerpt": "Local update from Inside the New Smash Pickleball Restaurant Opening This Week in Youngsville, LA.",
-    "date": "2026-03-28T23:00:10.842Z",
-    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/03/1a804e35-b9ac-4c18-a940-f14063d20987-2000x1200.jpg",
-    "category": "New Restaurant",
-    "tags": [
-      "new restaurant",
-      "new",
-      "opening"
-    ],
-    "city": "Youngsville"
-  },
-  {
     "id": "empire-wingz-in-lafayette-la-opening-saturday-march-28th",
     "title": "Empire Wingz in Lafayette, LA Opening Saturday, March 28th",
     "source": "Developing Lafayette",
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/empire-wingz-opening-saturday-march-28th/",
     "excerpt": "Empire Wingz in Lafayette, LA Opening Saturday, March 28th Empire Wingz will officially open its new Lafayette location on Saturday, March 28, at 12 PM at 1521 Ambassador Caffery",
-    "date": "2026-03-28T23:00:10.839Z",
+    "date": "2026-03-28T23:00:47.105Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/03/91883576-b8ab-4f83-8295-b613b5655a4c-2000x1200.jpg",
     "category": "Business Opening",
     "tags": [
