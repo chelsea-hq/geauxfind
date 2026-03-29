@@ -6,7 +6,7 @@
     "quickStats": "18 Spots • $5-10/lb • March-May Peak"
   },
   "priceTracker": {
-    "currentRange": "$1.99 - $10.00/lb boiled",
+    "currentRange": "$4.45 - $10.00/lb boiled",
     "trend": "Prices are dropping! Down from $10+ in January",
     "bestDealTip": "Best deals: Buy direct from farm drive-thrus",
     "proTip": "Most places don't start boiling until 4-5pm — call ahead for lunch",
@@ -18,7 +18,7 @@
       "Crawfish Acadiana",
       "Crawfish Time"
     ],
-    "lastUpdated": "2026-03-28T11:24:33.630Z"
+    "lastUpdated": "2026-03-29T11:25:00.318Z"
   },
   "seasonOutlook": [
     "2026 season is \"looking good\" per LSU AgCenter (Todd Fontenot, crawfish extension agent)",
@@ -149,8 +149,8 @@
       "address": "405 Duhon Road",
       "city": "Lafayette",
       "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $7.00/lb • Live $3.75/lb • Boiled size: Large • Live size: Large • Rating: 5/5",
-      "pricePerLbEstimate": 7,
+      "priceSummary": "Boiled $6.50/lb • Live $3.75/lb • Boiled size: Large • Live size: Large • Rating: 5/5",
+      "pricePerLbEstimate": 6.5,
       "description": "Potatoes included with most orders and 10lb family special includes corn.",
       "tags": [
         "Dine-In"
@@ -317,5 +317,846 @@
       "website": null
     }
   ],
-  "extraSpots": []
+  "extraSpots": [
+    {
+      "name": "Gilbert's Crawfish Tub",
+      "address": "8200 E Whitney St.",
+      "city": "Crowley",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $4.45/lb • Boiled size: Large • Live size: Medium • Rating: 0/5",
+      "pricePerLbEstimate": 4.45,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-783-6608",
+      "rating": 0
+    },
+    {
+      "name": "Crawfish Corner",
+      "address": "529 South Union St.",
+      "city": "Opelousas",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $4.50/lb • Live $3.00/lb • Boiled size: Medium • Rating: 5/5",
+      "pricePerLbEstimate": 4.5,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-407-2529",
+      "rating": 5
+    },
+    {
+      "name": "Bonanza Boilers",
+      "address": "4916 I49 Frontage Rd.",
+      "city": "Opelousas",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $4.99/lb • Live $3.50/lb • Boiled size: Medium • Live size: Medium • Rating: 5/5",
+      "pricePerLbEstimate": 4.99,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-692-2242",
+      "rating": 5
+    },
+    {
+      "name": "Pogie’s Boil House",
+      "address": "226 St Nazaire Rd.",
+      "city": "Broussard",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $4.99/lb • Boiled size: Medium • Rating: 0/5",
+      "pricePerLbEstimate": 4.99,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-236-0662",
+      "rating": 0
+    },
+    {
+      "name": "Rouses Market #23",
+      "address": "2900 E. Milton Ave.",
+      "city": "Youngsville",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $4.99/lb • Live $3.19/lb • Boiled size: Large • Live size: Large • Rating: 1/5",
+      "pricePerLbEstimate": 4.99,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-362-2814",
+      "rating": 1
+    },
+    {
+      "name": "Rouses Market #45",
+      "address": "601 Bertrand Drive",
+      "city": "Lafayette",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $4.99/lb • Live $3.19/lb • Boiled size: Large • Live size: Large • Rating: 5/5",
+      "pricePerLbEstimate": 4.99,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-889-0045",
+      "rating": 5
+    },
+    {
+      "name": "Rouses Market #48",
+      "address": "6136 Johnston St.",
+      "city": "Lafayette",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $4.99/lb • Live $3.19/lb • Boiled size: Large • Live size: Large • Rating: 0/5",
+      "pricePerLbEstimate": 4.99,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-889-0040",
+      "rating": 0
+    },
+    {
+      "name": "Rouses Market #74",
+      "address": "900 East Admiral Doyle Dr.",
+      "city": "New Iberia",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $4.99/lb • Live $3.19/lb • Boiled size: Large • Live size: Large • Rating: 5/5",
+      "pricePerLbEstimate": 4.99,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-551-5002",
+      "rating": 5
+    },
+    {
+      "name": "Rouses Market #84",
+      "address": "1810 Camellia Blvd.",
+      "city": "Lafayette",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $4.99/lb • Live $3.19/lb • Boiled size: Large • Live size: Large • Rating: 4/5",
+      "pricePerLbEstimate": 4.99,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-889-0015",
+      "rating": 4
+    },
+    {
+      "name": "Sack Daddy's Crawfish",
+      "address": "210 North Saint Valerie St.",
+      "city": "Abbeville",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $5.29/lb • Live $2.75/lb • Boiled size: Large • Live size: Large • Rating: 4/5",
+      "pricePerLbEstimate": 5.29,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-422-6500",
+      "rating": 4
+    },
+    {
+      "name": "Crawfish Spot",
+      "address": "1899 W Pinhook Rd.",
+      "city": "Lafayette",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $5.33/lb • Live $4.00/lb • Boiled size: Medium • Rating: 5/5",
+      "pricePerLbEstimate": 5.33,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-237-8533",
+      "rating": 5
+    },
+    {
+      "name": "Jo Mama’s Crawfish",
+      "address": "1902 W Summers Dr.",
+      "city": "Abbeville",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $5.33/lb • Boiled size: Large • Live size: Large • Rating: 5/5",
+      "pricePerLbEstimate": 5.33,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-892-7033",
+      "rating": 5
+    },
+    {
+      "name": "Mikey’s Seafood & Specialty Meats Crowley",
+      "address": "165 Oddfellows Rd.",
+      "city": "Crowley",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $5.49/lb • Boiled size: Medium • Live size: Medium • Rating: 0/5",
+      "pricePerLbEstimate": 5.49,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-717-1963",
+      "rating": 0
+    },
+    {
+      "name": "Coastal Fire And Ice",
+      "address": "6412 Ambassador Caffery Pkwy.",
+      "city": "Youngsville",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $5.50/lb • Boiled size: Medium • Live size: Medium • Rating: 4/5",
+      "pricePerLbEstimate": 5.5,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-573-8669",
+      "rating": 4
+    },
+    {
+      "name": "Meche's crawfish",
+      "address": "2308 Abbeville Hwy.",
+      "city": "Rayne",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $5.50/lb • Rating: 0/5",
+      "pricePerLbEstimate": 5.5,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-514-3231",
+      "rating": 0
+    },
+    {
+      "name": "The Boozy & Boiling Barn",
+      "address": "6830 Ambassador Caffery Pkwy.",
+      "city": "Lafayette",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $5.50/lb • Boiled size: Small • Live size: Small • Rating: 3/5",
+      "pricePerLbEstimate": 5.5,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-330-4200",
+      "rating": 3
+    },
+    {
+      "name": "D&T Crawfish",
+      "address": "3140 Veterans Memorial Dr.",
+      "city": "Abbeville",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $5.65/lb • Live $2.75/lb • Boiled size: Medium • Live size: Medium • Rating: 5/5",
+      "pricePerLbEstimate": 5.65,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-893-5436",
+      "rating": 5
+    },
+    {
+      "name": "Maxi-Mart",
+      "address": "3146 Veterans Memorial Dr.",
+      "city": "Abbeville",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $5.65/lb • Live $3.25/lb • Boiled size: Medium • Live size: Small • Rating: 5/5",
+      "pricePerLbEstimate": 5.65,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-893-6761",
+      "rating": 5
+    },
+    {
+      "name": "Crawfish Point",
+      "address": "616 W. Canal St.",
+      "city": "Church Point",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $5.75/lb • Boiled size: Medium • Live size: Large • Rating: 5/5",
+      "pricePerLbEstimate": 5.75,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-227-8009",
+      "rating": 5
+    },
+    {
+      "name": "Fremin's Magic Dust Crawfish Express",
+      "address": "603 W Admiral Doyle Dr.",
+      "city": "New Iberia",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $5.79/lb • Live $4.00/lb • Boiled size: Large • Live size: Large • Rating: 5/5",
+      "pricePerLbEstimate": 5.79,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-365-6657",
+      "rating": 5
+    },
+    {
+      "name": "Jett’s Crawfish Drive-Thru",
+      "address": "1421 The Boulevard.",
+      "city": "Rayne",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $5.83/lb • Live $3.16/lb • Boiled size: Medium • Live size: Medium • Rating: 5/5",
+      "pricePerLbEstimate": 5.83,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-458-8066",
+      "rating": 5
+    },
+    {
+      "name": "Boulet's Boil-N-Go Rayne",
+      "address": "205 E Jeff Davis Ave.",
+      "city": "Rayne",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $5.99/lb • Live $3.00/lb • Boiled size: Large • Live size: Large • Rating: 5/5",
+      "pricePerLbEstimate": 5.99,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-427-5014",
+      "rating": 5
+    },
+    {
+      "name": "Cajun Claws",
+      "address": "2272 Rees St. Ext.",
+      "city": "Breaux Bridge",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $5.99/lb • Live $3.00/lb • Boiled size: Large • Live size: Medium • Rating: 5/5",
+      "pricePerLbEstimate": 5.99,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-332-2439",
+      "rating": 5
+    },
+    {
+      "name": "The Crawfish Nest & Market",
+      "address": "805 W 2nd St.",
+      "city": "Crowley",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $5.99/lb • Boiled size: Medium • Live size: Medium • Rating: 0/5",
+      "pricePerLbEstimate": 5.99,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-783-9900",
+      "rating": 0
+    },
+    {
+      "name": "Cooney’s Crawfish",
+      "address": "4535 Moss Street",
+      "city": "Lafayette",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $6.00/lb • Live $3.00/lb • Boiled size: Medium • Live size: Medium • Rating: 0/5",
+      "pricePerLbEstimate": 6,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-261-1515",
+      "rating": 0
+    },
+    {
+      "name": "Crawfish House and Grill",
+      "address": "1214 S Union St.",
+      "city": "Opelousas",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $6.17/lb • Boiled size: Large • Live size: Large • Rating: 0/5",
+      "pricePerLbEstimate": 6.17,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-948-0049",
+      "rating": 0
+    },
+    {
+      "name": "Crawfish House",
+      "address": "2004 West Landry St.",
+      "city": "Opelousas",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $6.49/lb • Boiled size: Medium • Live size: Medium • Rating: 2/5",
+      "pricePerLbEstimate": 6.49,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-942-1175",
+      "rating": 2
+    },
+    {
+      "name": "Cody’s Crawfish Shop",
+      "address": "505 Apollo Rd.",
+      "city": "Scott",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $6.60/lb • Live $3.69/lb • Boiled size: Large • Live size: Large • Rating: 3/5",
+      "pricePerLbEstimate": 6.6,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-456-3003",
+      "rating": 3
+    },
+    {
+      "name": "The Crawfish Pot",
+      "address": "817 Foreman Drive",
+      "city": "Lafayette",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $6.67/lb • Live $3.99/lb • Boiled size: Medium • Live size: Medium • Rating: 5/5",
+      "pricePerLbEstimate": 6.67,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-981-1114",
+      "rating": 5
+    },
+    {
+      "name": "S & S Crawfish",
+      "address": "2856 Crowley Rayne Hwy.",
+      "city": "Crowley",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $6.95/lb • Boiled size: Large • Live size: Large • Rating: 5/5",
+      "pricePerLbEstimate": 6.95,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-458-1257",
+      "rating": 5
+    },
+    {
+      "name": "Duos Cajun Corner",
+      "address": "840 US-167",
+      "city": "Opelousas",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $6.99/lb • Live $3.00/lb • Boiled size: Large • Live size: Medium • Rating: 5/5",
+      "pricePerLbEstimate": 6.99,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-628-0123",
+      "rating": 5
+    },
+    {
+      "name": "Randol's",
+      "address": "325 West Mills Ave.",
+      "city": "Breaux Bridge",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $6.99/lb • Boiled size: Medium • Live size: Medium • Rating: 5/5",
+      "pricePerLbEstimate": 6.99,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-332-4648",
+      "rating": 5
+    },
+    {
+      "name": "T-Bob's",
+      "address": "302 S St. Antoine St.",
+      "city": "Lafayette",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $6.99/lb • Boiled size: Medium • Live size: Medium • Rating: 0/5",
+      "pricePerLbEstimate": 6.99,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-233-9302",
+      "rating": 0
+    },
+    {
+      "name": "Morvants Bar & Grill",
+      "address": "200 Lafayette St.",
+      "city": "Youngsville",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $7.00/lb • Boiled size: Large • Live size: Medium • Rating: 4/5",
+      "pricePerLbEstimate": 7,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-856-7469",
+      "rating": 4
+    },
+    {
+      "name": "The Boil Spot",
+      "address": "8385 Church Point Hwy.",
+      "city": "Church Point",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $7.25/lb • Rating: 0/5",
+      "pricePerLbEstimate": 7.25,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-227-8101",
+      "rating": 0
+    },
+    {
+      "name": "Crawfish Time",
+      "address": "320 Ridge Rd.",
+      "city": "Lafayette",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $7.33/lb • Live $2.35/lb • Boiled size: Medium • Live size: Medium • Rating: 4/5",
+      "pricePerLbEstimate": 7.33,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-216-9955",
+      "rating": 4
+    },
+    {
+      "name": "Seafood Connection",
+      "address": "999 Parkview Dr.",
+      "city": "New Iberia",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $7.50/lb • Rating: 0/5",
+      "pricePerLbEstimate": 7.5,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-365-2454",
+      "rating": 0
+    },
+    {
+      "name": "Granddaddy's Crawfish",
+      "address": "2725 West Willow St.",
+      "city": "Scott",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $7.66/lb • Boiled size: Large • Live size: Medium • Rating: 5/5",
+      "pricePerLbEstimate": 7.66,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-265-3770",
+      "rating": 5
+    },
+    {
+      "name": "Young's Sports Grill",
+      "address": "305 E Main Street",
+      "city": "Broussard",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $7.66/lb • Boiled size: Medium • Live size: Large • Rating: 5/5",
+      "pricePerLbEstimate": 7.66,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-330-2900",
+      "rating": 5
+    },
+    {
+      "name": "Crawfish Man",
+      "address": "158 W Martin Luther King Jr. Dr.",
+      "city": "Opelousas",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $7.99/lb • Rating: 5/5",
+      "pricePerLbEstimate": 7.99,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-678-0946",
+      "rating": 5
+    },
+    {
+      "name": "Jane's Seafood",
+      "address": "1201 Jane St.",
+      "city": "New Iberia",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $7.99/lb • Boiled size: Medium • Live size: Small • Rating: 5/5",
+      "pricePerLbEstimate": 7.99,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-365-5412",
+      "rating": 5
+    },
+    {
+      "name": "Crazy Bout Crawfish",
+      "address": "1905 Rees St.",
+      "city": "Breaux Bridge",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $8.00/lb • Live $5.50/lb • Boiled size: Medium • Live size: Large • Rating: 5/5",
+      "pricePerLbEstimate": 8,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-332-3071",
+      "rating": 5
+    },
+    {
+      "name": "Richard's Seafood Patio",
+      "address": "1516 S Henry St.",
+      "city": "Abbeville",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $8.98/lb • Boiled size: Large • Rating: 5/5",
+      "pricePerLbEstimate": 8.98,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-893-1693",
+      "rating": 5
+    },
+    {
+      "name": "R&M Boiling Point",
+      "address": "7413 Hwy. 90 W",
+      "city": "New Iberia",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $8.99/lb • Boiled size: Small • Rating: 0/5",
+      "pricePerLbEstimate": 8.99,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-365-7596",
+      "rating": 0
+    },
+    {
+      "name": "Pat's Fishermans Wharf",
+      "address": "1008 Henderson Levee Rd.",
+      "city": "Henderson",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $9.00/lb • Rating: 5/5",
+      "pricePerLbEstimate": 9,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-228-7512",
+      "rating": 5
+    },
+    {
+      "name": "Clements Heberts Boiling Pot",
+      "address": "7630 West LA Hwy. 338",
+      "city": "Abbeville",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $10.00/lb • Boiled size: Large • Live size: Large • Rating: 5/5",
+      "pricePerLbEstimate": 10,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-652-8520",
+      "rating": 5
+    },
+    {
+      "name": "Boil & Geaux LLC",
+      "address": "226 St. Nazaire Rd.",
+      "city": "Broussard",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled size: Large • Live size: Medium • Rating: 0/5",
+      "pricePerLbEstimate": null,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-832-8905",
+      "rating": 0
+    },
+    {
+      "name": "Broussard’s Boiling Pot",
+      "address": "158 Heritage Pkwy.",
+      "city": "Broussard",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled size: Medium • Live size: Medium • Rating: 5/5",
+      "pricePerLbEstimate": null,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-573-4179",
+      "rating": 5
+    },
+    {
+      "name": "C&J Farms",
+      "address": "251 Sarver Cove Rd.",
+      "city": "Crowley",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Live $3.00/lb • Boiled size: Medium • Live size: Medium • Rating: 5/5",
+      "pricePerLbEstimate": null,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-581-4729",
+      "rating": 5
+    },
+    {
+      "name": "Carencro Seafood Corner",
+      "address": "3200 Mills Street",
+      "city": "Carencro",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Live $3.25/lb • Live size: Large • Rating: 5/5",
+      "pricePerLbEstimate": null,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-349-5579",
+      "rating": 5
+    },
+    {
+      "name": "Dat's Good Crawfish & More",
+      "address": "940 Young St.",
+      "city": "Broussard",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Rating: 0/5",
+      "pricePerLbEstimate": null,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-804-2309",
+      "rating": 0
+    },
+    {
+      "name": "Don's Seafood",
+      "address": "4309 Johnston St.",
+      "city": "Lafayette",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled size: Medium • Live size: Medium • Rating: 0/5",
+      "pricePerLbEstimate": null,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-981-1141",
+      "rating": 0
+    },
+    {
+      "name": "Fatboyz Crawfish Company",
+      "address": "1536 South Hospital Rd.",
+      "city": "Abbeville",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Live $3.00/lb • Boiled size: Large • Live size: Large • Rating: 4/5",
+      "pricePerLbEstimate": null,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-893-9029",
+      "rating": 4
+    },
+    {
+      "name": "Korky's Food Mart",
+      "address": "1122 N Western Ave.",
+      "city": "Crowley",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled size: Large • Live size: Large • Rating: 5/5",
+      "pricePerLbEstimate": null,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-788-1600",
+      "rating": 5
+    },
+    {
+      "name": "Lil EZ Farms",
+      "address": "1005 Golden Grain Rd.",
+      "city": "Rayne",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Live $3.00/lb • Live size: Medium • Rating: 5/5",
+      "pricePerLbEstimate": null,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-873-3619",
+      "rating": 5
+    },
+    {
+      "name": "TaD's of Youngsville",
+      "address": "2600 Bonin Rd.",
+      "city": "Youngsville",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled size: Large • Rating: 0/5",
+      "pricePerLbEstimate": null,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-451-4272",
+      "rating": 0
+    }
+  ]
 }
