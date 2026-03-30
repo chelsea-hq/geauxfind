@@ -1,4 +1,4 @@
-export type ClaimPlan = "free" | "premium";
+export type ClaimPlan = "free";
 
 export type BusinessClaimSubmission = {
   id: string;

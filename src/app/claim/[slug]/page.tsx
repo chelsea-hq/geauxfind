@@ -5,13 +5,7 @@ import { useParams, useRouter } from "next/navigation";
 import { useMemo, useState } from "react";
 import seedPlaces from "../../../../scripts/seed-data.json";
 import type { Place } from "@/types";
-import type { ClaimPlan } from "@/lib/claim-types";
-
 const places = seedPlaces as Place[];
-const plans = [
-  { id: "free", name: "Free", price: "$0", note: "Claimed badge, basic updates, 1 deal/month" },
-  { id: "premium", name: "Premium", price: "$29/mo", note: "Featured placement, unlimited deals, analytics preview" },
-] as const;
 
 export default function ClaimFlowPage() {
   const router = useRouter();
@@ -39,7 +33,7 @@ export default function ClaimFlowPage() {
     dealTitle: "",
     dealDetails: "",
     dealExpiresOn: "",
-    plan: "free" as ClaimPlan,
+    plan: "free",
   });
 
   if (!place) {
@@ -90,7 +84,7 @@ export default function ClaimFlowPage() {
           details: form.dealDetails,
           expiresOn: form.dealExpiresOn,
         },
-        plan: form.plan,
+        plan: "free",
       }),
     });
 
@@ -110,7 +104,7 @@ export default function ClaimFlowPage() {
       <div className="rounded-[12px] border border-[var(--spanish-moss)]/30 bg-white p-6">
         <p className="text-xs tracking-[0.18em] text-[var(--moss)]">CLAIM LISTING</p>
         <h1 className="mt-2 font-serif text-3xl text-[var(--cajun-red)]">{place.name}</h1>
-        <p className="mt-1 text-sm text-[var(--warm-gray)]">Step {step} of 4</p>
+        <p className="mt-1 text-sm text-[var(--warm-gray)]">Step {step} of 3</p>
 
         {step === 1 ? (
           <div className="mt-5 grid gap-3 md:grid-cols-2">
@@ -149,25 +143,12 @@ export default function ClaimFlowPage() {
           </div>
         ) : null}
 
-        {step === 4 ? (
-          <div className="mt-5 grid gap-3 md:grid-cols-2">
-            {plans.map((plan) => (
-              <button key={plan.id} type="button" onClick={() => setForm((s) => ({ ...s, plan: plan.id }))} className={`rounded-[12px] border p-4 text-left ${form.plan === plan.id ? "border-[var(--cajun-red)] bg-[#fff4f0]" : "border-[var(--spanish-moss)]/30"}`}>
-                <p className="font-serif text-xl text-[var(--cast-iron)]">{plan.name}</p>
-                <p className="text-lg font-semibold text-[var(--cajun-red)]">{plan.price}</p>
-                <p className="mt-2 text-sm text-[var(--warm-gray)]">{plan.note}</p>
-              </button>
-            ))}
-            <Link href="/claim/premium" className="md:col-span-2 text-sm text-[var(--cajun-red)] underline">See full Premium + Featured comparison</Link>
-          </div>
-        ) : null}
-
         {error ? <p className="mt-4 text-sm text-[var(--cajun-red)]">{error}</p> : null}
 
         <div className="mt-6 flex flex-wrap gap-2">
           <button type="button" onClick={() => setStep((s) => Math.max(1, s - 1))} className="min-h-11 rounded-[10px] border border-[var(--spanish-moss)]/40 px-4 py-2 text-sm" disabled={step === 1}>Back</button>
-          {step < 4 ? (
-            <button type="button" onClick={() => setStep((s) => Math.min(4, s + 1))} className="min-h-11 rounded-[10px] bg-[var(--cajun-red)] px-4 py-2 text-sm font-semibold text-white">Continue</button>
+          {step < 3 ? (
+            <button type="button" onClick={() => setStep((s) => Math.min(3, s + 1))} className="min-h-11 rounded-[10px] bg-[var(--cajun-red)] px-4 py-2 text-sm font-semibold text-white">Continue</button>
           ) : (
             <button type="button" onClick={submitClaim} disabled={submitting} className="min-h-11 rounded-[10px] bg-[var(--cajun-red)] px-4 py-2 text-sm font-semibold text-white disabled:opacity-60">{submitting ? "Submitting..." : "Submit Claim"}</button>
           )}

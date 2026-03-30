@@ -9,13 +9,17 @@ import { EventCard } from "@/components/cards/EventCard";
 import { PlaceCard } from "@/components/cards/PlaceCard";
 import { NewsletterSignup } from "@/components/sections/NewsletterSignup";
 import { events, places, recipes } from "@/data/mock-data";
+import seedPlaces from "../../scripts/seed-data.json";
 import { JsonLd } from "@/components/JsonLd";
 import { FaqSection } from "@/components/FaqSection";
-import type { WhatsNewItem } from "@/types";
+import type { Place, WhatsNewItem } from "@/types";
 
 export default function Home() {
   const [whatsNewItems, setWhatsNewItems] = useState<WhatsNewItem[]>([]);
   const [trending, setTrending] = useState<Array<{ query: string; count: number; spark: Array<{ label: string; count: number }> }>>([]);
+  const [businessQuery, setBusinessQuery] = useState("");
+
+  const claimablePlaces = useMemo(() => (seedPlaces as Place[]), []);
 
   const featuredPlaces = useMemo(() => {
     const seen = new Set<string>();
@@ -45,6 +49,21 @@ export default function Home() {
       .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
       .slice(0, 6);
   }, []);
+
+  const todaysEvents = useMemo(() => {
+    const today = new Date().toDateString();
+    return events.filter((event) => new Date(`${event.date}T12:00:00`).toDateString() === today);
+  }, []);
+
+  const claimMatches = useMemo(() => {
+    const query = businessQuery.trim().toLowerCase();
+    if (!query) return [];
+
+    return claimablePlaces
+      .filter((place) => place.name.toLowerCase().includes(query))
+      .slice(0, 3);
+  }, [businessQuery, claimablePlaces]);
+
   const aiPicks = places.slice(2, 10);
   const featuredRecipe = recipes[0];
 
@@ -147,6 +166,16 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="w-full bg-[var(--cast-iron)] px-4 py-3 text-white reveal">
+        <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-2 text-sm md:text-base">
+          <p className="font-medium">🎶 What&apos;s happening tonight in Acadiana</p>
+          <div className="flex items-center gap-3">
+            <p className="text-white/85">{todaysEvents.length > 0 ? `${todaysEvents.length} events happening today` : `This weekend: ${weekendEvents.length} events`}</p>
+            <Link href="/events" className="font-semibold text-[var(--sunset-gold)] hover:text-white">→ See Events</Link>
+          </div>
+        </div>
+      </section>
+
       <section className="mx-auto mt-10 max-w-6xl px-4 reveal">
         <Link href="/crawfish" className="block rounded-[12px] bg-[linear-gradient(120deg,#bf1f34,#d46a2a,#e59d39)] p-6 text-white shadow-lg card-lift">
           <p className="text-xs tracking-[0.18em] text-white/80">SEASONAL SPOTLIGHT</p>
@@ -178,6 +207,46 @@ export default function Home() {
             <h2 className="mt-2 text-3xl text-[var(--cajun-red)] md:text-4xl">Weekend Brunch 🥂</h2>
             <p className="mt-2 text-[var(--cast-iron)]/80">The best Saturday and Sunday brunch across Acadiana — from bottomless mimosas to Cajun Benedict.</p>
           </Link>
+        </div>
+      </section>
+
+      <section className="mx-auto mt-8 max-w-6xl px-4 reveal">
+        <div className="rounded-[12px] border border-[var(--spanish-moss)]/35 bg-white p-6 md:p-8">
+          <p className="text-xs tracking-[0.18em] text-[var(--moss)]">FOR BUSINESS OWNERS</p>
+          <h2 className="mt-2 text-3xl text-[var(--cajun-red)] md:text-4xl">Own a business in Acadiana?</h2>
+          <p className="mt-2 max-w-3xl text-[var(--cast-iron)]/85">Over 2,300 local businesses are already on GeauxFind. Claim yours — it&apos;s free, always.</p>
+
+          <div className="mt-4">
+            <input
+              type="text"
+              value={businessQuery}
+              onChange={(e) => setBusinessQuery(e.target.value)}
+              placeholder="Search your business name..."
+              className="min-h-11 w-full rounded-[10px] border border-[var(--spanish-moss)]/40 bg-[var(--cream)] px-4 text-[var(--cast-iron)] placeholder:text-[var(--warm-gray)]"
+            />
+          </div>
+
+          {!businessQuery.trim() ? (
+            <p className="mt-3 text-sm text-[var(--warm-gray)]">Search your business name...</p>
+          ) : null}
+
+          {businessQuery.trim() && claimMatches.length > 0 ? (
+            <div className="mt-4 grid gap-3 md:grid-cols-3">
+              {claimMatches.map((match) => (
+                <div key={match.slug} className="rounded-[10px] border border-[var(--spanish-moss)]/35 bg-[var(--cream-bg)] p-3">
+                  <p className="font-medium text-[var(--cast-iron)]">{match.name}</p>
+                  <p className="mt-1 text-xs text-[var(--warm-gray)]">{match.city} • {match.category}</p>
+                  <Link href={`/claim/${match.slug}`} className="mt-3 inline-flex min-h-11 items-center rounded-[10px] bg-[var(--cajun-red)] px-3 py-2 text-sm font-semibold text-white">Claim</Link>
+                </div>
+              ))}
+            </div>
+          ) : null}
+
+          {businessQuery.trim() && claimMatches.length === 0 ? (
+            <p className="mt-4 text-sm text-[var(--warm-gray)]">No exact matches yet — try another spelling, or add your listing below.</p>
+          ) : null}
+
+          <p className="mt-5 text-sm text-[var(--cast-iron)]/80">Don&apos;t see yours? <Link href="/claim/new" className="font-semibold text-[var(--cajun-red)] underline">Add it!</Link></p>
         </div>
       </section>
 

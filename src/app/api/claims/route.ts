@@ -51,7 +51,7 @@ export async function POST(request: Request) {
         details: String(body?.firstDeal?.details || "").trim(),
         expiresOn: body?.firstDeal?.expiresOn ? String(body.firstDeal.expiresOn) : undefined,
       } : undefined,
-      plan: body?.plan === "premium" ? "premium" : "free",
+      plan: "free",
       status: "pending",
       createdAt: new Date().toISOString(),
     };
