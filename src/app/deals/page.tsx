@@ -130,7 +130,7 @@ export default async function DealsPage() {
               <article key={deal.id} className="rounded-xl border border-[var(--sunset-gold)]/30 bg-white p-4">
                 <p className="font-bold text-[var(--cast-iron)]">{deal.restaurant}</p>
                 <p className="mt-1 text-sm text-[var(--cast-iron)]">{deal.deal}</p>
-                <p className="mt-2 text-xs text-[var(--warm-gray)]">Submitted by {deal.submittedBy || "Anonymous"}</p>
+                <p className="mt-2 text-xs text-[var(--warm-gray)]">Added by {deal.submittedBy || "GeauxFind"}</p>
               </article>
             ))}
           </div>

@@ -76,7 +76,7 @@ export function DealGrid({ deals, categories }: DealGridProps) {
             <p className="mt-3 text-sm leading-relaxed text-[var(--cast-iron)]">{deal.deal}</p>
 
             <div className="mt-4 flex items-center justify-between text-xs text-[var(--warm-gray)]">
-              <p>Submitted by {deal.submittedBy || "Anonymous"}</p>
+              <p>Added by {deal.submittedBy || "GeauxFind"}</p>
               <p className="font-semibold text-[var(--cajun-red)]">🔥 {deal.upvotes}</p>
             </div>
           </article>
