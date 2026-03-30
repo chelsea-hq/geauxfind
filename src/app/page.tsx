@@ -16,9 +16,22 @@ import type { Place, WhatsNewItem } from "@/types";
 
 type AiPick = Place & { why?: string };
 
+const SEASONAL_ITEMS: Array<{ months: number[]; emoji: string; title: string; desc: string; link: string }> = [
+  { months: [1, 2], emoji: "👑", title: "King Cake Season", desc: "Find the best king cakes across Acadiana", link: "/search?q=king+cake" },
+  { months: [2, 3], emoji: "🎭", title: "Mardi Gras", desc: "Parades, balls, and Cajun Mardi Gras runs", link: "/events" },
+  { months: [3, 4, 5], emoji: "🦞", title: "Crawfish Season", desc: "Live prices, boils, and where to get your sack", link: "/crawfish" },
+  { months: [4, 5], emoji: "🎶", title: "Festival Season", desc: "Festival International, Breaux Bridge, and more", link: "/festivals" },
+  { months: [6, 7, 8], emoji: "🍧", title: "Snowball Season", desc: "Beat the heat with Acadiana's best snowball stands", link: "/search?q=snowball" },
+  { months: [6, 7, 8], emoji: "☀️", title: "Summer Eats", desc: "Patios, frozen drinks, and cool spots to hang", link: "/outdoor" },
+  { months: [9, 10], emoji: "🏈", title: "Tailgate Season", desc: "Game day grub and watch parties across Cajun Country", link: "/search?q=sports+bar" },
+  { months: [10, 11], emoji: "🎃", title: "Fall Festivals", desc: "Harvest fairs, Halloween events, and hayrides", link: "/events" },
+  { months: [11, 12], emoji: "🎄", title: "Holiday Season", desc: "Christmas lights, holiday markets, and festive dining", link: "/events" },
+  { months: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], emoji: "🍴", title: "Plate Lunch", desc: "The Cajun lunch tradition — meat, rice, and two sides", link: "/daily-specials" },
+  { months: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], emoji: "🎵", title: "Live Music", desc: "Cajun, zydeco, and blues every night of the week", link: "/live-music" },
+];
+
 export default function Home() {
   const [whatsNewItems, setWhatsNewItems] = useState<WhatsNewItem[]>([]);
-  const [trending, setTrending] = useState<Array<{ query: string; count: number; spark: Array<{ label: string; count: number }> }>>([]);
   const [businessQuery, setBusinessQuery] = useState("");
   const [aiPicks, setAiPicks] = useState<AiPick[]>([]);
   const [aiVibe, setAiVibe] = useState("");
@@ -68,6 +81,11 @@ export default function Home() {
       .slice(0, 3);
   }, [businessQuery, claimablePlaces]);
 
+  const seasonalNow = useMemo(() => {
+    const month = new Date().getMonth() + 1;
+    return SEASONAL_ITEMS.filter((item) => item.months.includes(month)).slice(0, 6);
+  }, []);
+
   const featuredRecipe = recipes[0];
 
   useEffect(() => {
@@ -75,11 +93,6 @@ export default function Home() {
       .then((res) => res.json())
       .then((data) => setWhatsNewItems(Array.isArray(data) ? data : []))
       .catch(() => setWhatsNewItems([]));
-
-    fetch("/api/trending?limit=10", { cache: "no-store" })
-      .then((res) => res.json())
-      .then((data) => setTrending(Array.isArray(data?.items) ? data.items : []))
-      .catch(() => setTrending([]));
 
     fetch("/api/ai-picks", { cache: "no-store" })
       .then((res) => (res.ok ? res.json() : Promise.reject(new Error("ai-picks request failed"))))
@@ -368,13 +381,21 @@ export default function Home() {
       </section>
 
       <section className="mx-auto mt-16 max-w-6xl px-4 reveal">
-        <div className="mb-4 flex items-center justify-between"><h2 className="text-3xl text-[var(--cajun-red)]">Trending in Acadiana</h2><Link href="/trending" className="gf-link text-sm">View trends</Link></div>
-        <div className="grid gap-3 rounded-[12px] border border-[var(--spanish-moss)]/30 bg-white p-4 md:p-6">
-          {trending.length === 0 ? Array.from({ length: 5 }).map((_, i) => <div key={i} className="h-12 rounded-[10px] bg-[var(--spanish-moss)]/20 shimmer" />) : trending.slice(0, 10).map((t, idx) => (
-            <div key={t.query} className="flex items-center justify-between rounded-[10px] bg-[var(--cream)] px-3 py-2">
-              <p className="text-sm"><span className="font-semibold">#{idx + 1}</span> {t.query} {t.count >= 3 ? "🔥" : ""}</p>
-              <div className="flex items-end gap-1">{t.spark.slice(-7).map((p, i) => <span key={i} className="w-1.5 rounded-sm bg-[var(--cajun-red)]/70" style={{ height: `${Math.max(6, p.count * 6)}px` }} />)}</div>
-            </div>
+        <div className="mb-4 flex items-center justify-between">
+          <div>
+            <h2 className="text-3xl text-[var(--cajun-red)]">Seasonal in Acadiana</h2>
+            <p className="mt-1 text-sm text-[var(--warm-gray)]">What&apos;s in season right now in Cajun Country</p>
+          </div>
+          <Link href="/events" className="gf-link text-sm">See events</Link>
+        </div>
+        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+          {seasonalNow.map((item) => (
+            <Link key={`${item.title}-${item.link}`} href={item.link} className="rounded-[12px] border border-[var(--spanish-moss)]/30 bg-white p-4 transition-transform hover:-translate-y-0.5 card-lift">
+              <p className="text-2xl" aria-hidden="true">{item.emoji}</p>
+              <h3 className="mt-2 text-lg text-[var(--cast-iron)]">{item.title}</h3>
+              <p className="mt-1 text-sm text-[var(--warm-gray)]">{item.desc}</p>
+              <p className="mt-3 text-sm font-semibold text-[var(--cajun-red)]">Explore →</p>
+            </Link>
           ))}
         </div>
       </section>
