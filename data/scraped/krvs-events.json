@@ -1,0 +1,8 @@
+{
+  "scraped_at": "2026-03-30T05:47:06.707179+00:00",
+  "source_urls": [
+    "https://www.krvs.org/community-calendar"
+  ],
+  "status": "blocked_or_unstructured",
+  "notes": "Readable event details not exposed by web_fetch."
+}

@@ -1,0 +1,67 @@
+{
+  "scraped_at": "2026-03-30T05:47:06.707179+00:00",
+  "source_urls": [
+    "https://www.yelp.com/search?find_desc=Restaurants&find_loc=Lafayette,+LA"
+  ],
+  "status": "partial_due_yelp_anti_bot",
+  "restaurants": [
+    {
+      "name": "The Cajun Table",
+      "rating": null,
+      "review_count": 232,
+      "categories": [
+        "Cajun/Creole"
+      ],
+      "price_range": null,
+      "address": "4510 Ambassador Caffery, Lafayette, LA 70508",
+      "source_url": "https://www.yelp.com/biz/the-cajun-table-lafayette"
+    },
+    {
+      "name": "Superior Grill",
+      "rating": null,
+      "review_count": 70,
+      "categories": [
+        "Mexican"
+      ],
+      "price_range": null,
+      "address": "2320 Kaliste Saloom Rd, Lafayette, LA 70508",
+      "source_url": "https://www.yelp.com/biz/superior-grill-lafayette"
+    },
+    {
+      "name": "Ruth's Chris Steak House",
+      "rating": null,
+      "review_count": 91,
+      "categories": [
+        "Steakhouse"
+      ],
+      "price_range": null,
+      "address": "620 W Pinhook Rd, Lafayette, LA",
+      "source_url": "https://www.yelp.com/biz/ruths-chris-steak-house-lafayette"
+    },
+    {
+      "name": "Lafayette's Restaurant (closed)",
+      "rating": 3.7,
+      "review_count": 6,
+      "categories": [
+        "Restaurant"
+      ],
+      "price_range": "$$",
+      "address": "1025 Kaliste Saloom Rd, Lafayette, LA 70508",
+      "source_url": "https://www.yelp.com/biz/lafayettes-restaurant-lafayette"
+    }
+  ],
+  "other_food_sources": [
+    {
+      "source": "Daily Advertiser best restaurants",
+      "url": "https://eu.theadvertiser.com/story/news/local/acadiana/2025/02/14/lafayette-best-restaurants-2025-local-food-spots-you-should-try/78525394007/"
+    },
+    {
+      "source": "EatLafayette local eateries list",
+      "url": "https://www.theadvertiser.com/story/news/2020/07/14/eatlafayette-2020-restaurant-list-has-over-200-local-eateries/5428030002/"
+    },
+    {
+      "source": "Lafayette Travel food guide",
+      "url": "https://www.lafayettetravel.com/food-drink/"
+    }
+  ]
+}

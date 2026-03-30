@@ -1,0 +1,17 @@
+{
+  "scraped_at": "2026-03-30T05:47:06.707179+00:00",
+  "source_urls": [
+    "https://calendar.louisiana.edu/"
+  ],
+  "status": "limited_extraction",
+  "events": [
+    {
+      "name": "Jazz Combos 2 and 3",
+      "url": "https://calendar.louisiana.edu/music/event/20860-jazz-combos-2-and-3"
+    },
+    {
+      "name": "Jazz Combo 1 and Guitar Combo",
+      "url": "https://calendar.louisiana.edu/music/event/20861-jazz-combo-1-and-guitar-combo"
+    }
+  ]
+}

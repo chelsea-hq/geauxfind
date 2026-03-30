@@ -1,0 +1,25 @@
+{
+  "scraped_at": "2026-03-30T05:47:06.707179+00:00",
+  "items": [
+    {
+      "name": "Lafayette Travel happy hour guide",
+      "type": "aggregated article",
+      "url": "https://www.lafayettetravel.com/blog/stories/post/best-happy-hours-and-affordable-eats-in-lafayette/"
+    },
+    {
+      "name": "Whiskey and Vine",
+      "type": "reddit recommendation",
+      "url": "https://www.reddit.com/r/Acadiana/comments/1ehu3td/best_bars_for_age_35_in_lafayette/"
+    },
+    {
+      "name": "Yard Goat",
+      "type": "reddit recommendation",
+      "url": "https://www.reddit.com/r/Acadiana/comments/1ehu3td/best_bars_for_age_35_in_lafayette/"
+    },
+    {
+      "name": "Carpe Diem / Adopted Dog / Whisper Room",
+      "type": "reddit recommendation",
+      "url": "https://www.reddit.com/r/Acadiana/comments/1dm4jir/bars_where_i_can_hang_out_with_a_drink_and_read/"
+    }
+  ]
+}

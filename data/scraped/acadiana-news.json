@@ -1,0 +1,40 @@
+{
+  "scraped_at": "2026-03-30T05:47:06.707179+00:00",
+  "headlines": [
+    {
+      "source": "KATC",
+      "title": "Scott hosts annual Easter celebration",
+      "url": "https://www.katc.com/lafayette-parish/scott-kicks-off-holy-week-with-annual-easter-celebration",
+      "date": "2026-03",
+      "excerpt": "Lafayette Parish local event coverage."
+    },
+    {
+      "source": "KATC",
+      "title": "Lafayette house fire ignites nearby apartment building, church",
+      "url": "https://www.katc.com/lafayette-parish/lafayette-house-fire-ignites-nearby-apartment-building-church",
+      "date": "2026-03",
+      "excerpt": "Local breaking/public safety."
+    },
+    {
+      "source": "KATC",
+      "title": "Groundbreaking held for major I-49 upgrades",
+      "url": "https://www.katc.com/lafayette-parish/groundbreaking-held-for-major-i-49-upgrades-in-lafayette-st-landry-parishes",
+      "date": "2026-03",
+      "excerpt": "Infrastructure project headline."
+    },
+    {
+      "source": "The Advocate",
+      "title": "Acadiana page reachable with limited extraction",
+      "url": "https://www.theadvocate.com/acadiana/",
+      "date": null,
+      "excerpt": "Paywall/rendering limitations in web_fetch."
+    },
+    {
+      "source": "KLFY",
+      "title": "KLFY Lafayette Parish page discovered",
+      "url": "https://www.klfy.com/lafayette-parish/",
+      "date": null,
+      "excerpt": "Extraction inconsistent in web_fetch."
+    }
+  ]
+}

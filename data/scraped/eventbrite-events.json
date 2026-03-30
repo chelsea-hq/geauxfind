@@ -1,0 +1,64 @@
+{
+  "scraped_at": "2026-03-30T05:47:06.707179+00:00",
+  "source": "Eventbrite Lafayette events listing",
+  "source_urls": [
+    "https://www.eventbrite.com/d/la--lafayette/events/"
+  ],
+  "events": [
+    {
+      "name": "Noches Latinas: QueerX Collective",
+      "date": "2026-04-10",
+      "time": "9:00 PM",
+      "venue": "Artmosphere",
+      "address": "Lafayette, LA",
+      "description": "Nightlife event listed on Eventbrite Lafayette.",
+      "url": "https://www.eventbrite.com/e/noches-latinas-queerx-collective-tickets-1985113087683",
+      "category": "Nightlife",
+      "price": "Check ticket price on event"
+    },
+    {
+      "name": "Defcon Acadiana Cybersecurity Meetup: Cyber Resilience & Data Recovery",
+      "date": "2026-04-15",
+      "time": "5:30 PM",
+      "venue": "Walk-On's Sports Bistreaux - Lafayette Restaurant",
+      "address": "Lafayette, LA",
+      "description": "Acadiana cybersecurity meetup.",
+      "url": "https://www.eventbrite.com/e/defcon-acadiana-cybersecurity-meetup-cyber-resilience-data-recovery-tickets-1985884529085",
+      "category": "Professional / Tech",
+      "price": "Check ticket price on event"
+    },
+    {
+      "name": "Global Bites - International Street Food Festival",
+      "date": "2026-04-21",
+      "time": "6:00 PM",
+      "venue": "Parc Sans Souci",
+      "address": "Lafayette, LA",
+      "description": "International street food festival.",
+      "url": "https://www.eventbrite.com/e/global-bites-international-street-food-festival-tickets-1985284483332",
+      "category": "Food & Drink",
+      "price": "Check ticket price on event"
+    },
+    {
+      "name": "PIA of Acadiana Crawfish Boil",
+      "date": "2026-04-23",
+      "time": "6:00 PM",
+      "venue": "Warehouse 535",
+      "address": "Lafayette, LA",
+      "description": "Community crawfish boil event.",
+      "url": "https://www.eventbrite.com/e/pia-of-acadiana-crawfish-boil-tickets-1981759437826",
+      "category": "Community",
+      "price": "Check ticket price on event"
+    },
+    {
+      "name": "Mother's Day Brunch & Bubbly at Dream Castle",
+      "date": "2026-05-10",
+      "time": "11:00 AM",
+      "venue": "Dream Castle Event Venue",
+      "address": "Lafayette, LA",
+      "description": "Mother's Day brunch event.",
+      "url": "https://www.eventbrite.com/e/mothers-day-brunch-bubbly-at-dream-castle-tickets-1984239845793",
+      "category": "Food & Drink",
+      "price": "From $0.00"
+    }
+  ]
+}

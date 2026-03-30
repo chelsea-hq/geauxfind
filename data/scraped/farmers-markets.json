@@ -1,0 +1,25 @@
+{
+  "scraped_at": "2026-03-30T05:47:06.707179+00:00",
+  "markets": [
+    {
+      "name": "Lafayette Farmers & Artisans Market",
+      "schedule": "Every Saturday 8AM-Noon",
+      "location": "Moncus Park, Lafayette, LA",
+      "url": "https://marketatmoncuspark.com/",
+      "vendors_sample": [
+        "Acadiana Growers Alliance Farmer Cooperative",
+        "Anding Honey Farm",
+        "Delcambre Direct Seafood",
+        "Leger's Country Market",
+        "Stelly Organic Farm",
+        "Tuts Bakery"
+      ]
+    },
+    {
+      "name": "Breaux Bridge Farmers Market",
+      "schedule": "Saturday mornings (directory sources)",
+      "location": "800 Rees St., Breaux Bridge, LA",
+      "url": "https://farmersmarket.country/market/breaux-bridge-louisiana-farmers-market/"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "scraped_at": "2026-03-30T05:47:06.707179+00:00",
+  "source_urls": [
+    "https://www.lafayettetravel.com/events/",
+    "https://www.lafayettetravel.com/events/annual-events-festivals/"
+  ],
+  "events": [
+    {
+      "name": "Festival International de Louisiane",
+      "date": "annual (spring)",
+      "time": null,
+      "venue": "Downtown Lafayette",
+      "address": "Lafayette, LA",
+      "description": "Largest non-ticketed outdoor Francophone festival in the U.S.",
+      "url": "https://www.lafayettetravel.com/events/annual-events-festivals/festival-international/",
+      "category": "Festival",
+      "price": "Free (per listing description)"
+    },
+    {
+      "name": "Festivals Acadiens et Créoles",
+      "date": "annual (2nd full weekend of October)",
+      "time": null,
+      "venue": "Lafayette",
+      "address": "Lafayette, LA",
+      "description": "Food, music, and culture festival.",
+      "url": "https://www.lafayettetravel.com/events/annual-events-festivals/festivals-acadiens/",
+      "category": "Festival",
+      "price": null
+    },
+    {
+      "name": "Mardi Gras in Lafayette",
+      "date": "annual (seasonal)",
+      "time": null,
+      "venue": "Multiple locations",
+      "address": "Lafayette, LA",
+      "description": "Parades and seasonal events.",
+      "url": "https://www.lafayettetravel.com/events/annual-events-festivals/mardi-gras/",
+      "category": "Festival",
+      "price": "Mixed"
+    }
+  ]
+}

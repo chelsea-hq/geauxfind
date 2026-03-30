@@ -1,0 +1,33 @@
+{
+  "scraped_at": "2026-03-30T05:47:06.707179+00:00",
+  "threads": [
+    "https://www.reddit.com/r/Acadiana/comments/1arpzb5/best_restaurants_in_lafayette/",
+    "https://www.reddit.com/r/Acadiana/comments/1e12v26/best_things_to_do_inaround_lafayette_that_are_off/",
+    "https://www.reddit.com/r/Acadiana/comments/1prueb4/things_to_do_in_and_around_lafayette_with_friends/",
+    "https://www.reddit.com/r/Acadiana/comments/1ehu3td/best_bars_for_age_35_in_lafayette/"
+  ],
+  "compiled": {
+    "restaurants": [
+      "Bangkok Thai",
+      "Ruffino's",
+      "Marcello's",
+      "Pamplona",
+      "Rock n Sake",
+      "Judice Inn"
+    ],
+    "things_to_do": [
+      "Acadiana Park disc golf",
+      "Wanderlust kayaks along Bayou Vermilion",
+      "Lake Martin kayaking/swamp tours",
+      "Vermilionville",
+      "Moncus Park Saturday market"
+    ],
+    "bars": [
+      "Whiskey and Vine",
+      "Yard Goat",
+      "Carpe Diem",
+      "Adopted Dog",
+      "Whisper Room"
+    ]
+  }
+}

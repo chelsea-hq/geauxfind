@@ -1,0 +1,42 @@
+{
+  "scraped_at": "2026-03-30T05:47:06.707179+00:00",
+  "places": [
+    {
+      "name": "Acadiana Park",
+      "location": "1005 E. Alexander St, Lafayette, LA 70501",
+      "details": [
+        "117 acres",
+        "Nature trail and nature station",
+        "Disc golf and bike trails"
+      ],
+      "url": "https://www.lafayettela.gov/ParksRecreation/parks/acadiana-park"
+    },
+    {
+      "name": "Vermilionville",
+      "location": "Lafayette, LA",
+      "details": [
+        "Tue-Sun 10am-4pm",
+        "Living history site"
+      ],
+      "url": "https://bayouvermiliondistrict.org/visit/"
+    },
+    {
+      "name": "Pack & Paddle Lake Martin Tours",
+      "location": "601 E. Pinhook Rd, Lafayette (meeting point)",
+      "details": [
+        "$69 per person",
+        "2-hour kayak tours"
+      ],
+      "url": "https://packpaddle.com/lake-martin-swamp-tours-by-kayak-offered-daily/"
+    },
+    {
+      "name": "Champagne's Swamp Tours",
+      "location": "1151 Rookery Rd, Breaux Bridge, LA",
+      "details": [
+        "From $25/seat",
+        "Daily operation"
+      ],
+      "url": "https://champagnesswamptours.com/"
+    }
+  ]
+}

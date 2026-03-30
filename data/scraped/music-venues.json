@@ -1,0 +1,41 @@
+{
+  "scraped_at": "2026-03-30T05:47:06.707179+00:00",
+  "venues": [
+    {
+      "name": "Blue Moon Saloon & Guest House",
+      "city": "Lafayette",
+      "schedule_hint": "Live music calendar and Cajun jam/happy hour mentions",
+      "url": "https://www.bluemoonpresents.com/live-music"
+    },
+    {
+      "name": "Artmosphere",
+      "city": "Lafayette",
+      "schedule_hint": "Live music, open mic, and frequent events",
+      "url": "https://www.artmospherelafayette.com/"
+    },
+    {
+      "name": "The Wurst Biergarten",
+      "city": "Lafayette",
+      "schedule_hint": "Live music, comedy, trivia, special events",
+      "url": "https://wurstbiergarten.com/"
+    },
+    {
+      "name": "Rock'n'Bowl de Lafayette",
+      "city": "Lafayette",
+      "schedule_hint": "Recurring Zydeco and party bands on calendar",
+      "url": "https://www.rocknbowl.com/lafayette-calendar"
+    },
+    {
+      "name": "La Poussiere Cajun Dancehall",
+      "city": "Breaux Bridge",
+      "schedule_hint": "Historic Cajun dancehall with schedule page",
+      "url": "https://lapoussiere.com/schedule"
+    },
+    {
+      "name": "Randol's",
+      "city": "Lafayette",
+      "schedule_hint": "Legacy listings describe recurring Cajun dance nights",
+      "url": "https://www.randols.com/"
+    }
+  ]
+}
