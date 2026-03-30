@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-03-30T04:09:33.776Z",
-  "totalResults": 20,
+  "updatedAt": "2026-03-30T04:41:56.626Z",
+  "totalResults": 742,
   "summary": {
-    "total": 20,
-    "OPERATIONAL": 17,
+    "total": 742,
+    "OPERATIONAL": 731,
     "CLOSED_PERMANENTLY": 0,
-    "CLOSED_TEMPORARILY": 3,
+    "CLOSED_TEMPORARILY": 11,
     "NOT_FOUND": 0
   }
 }
