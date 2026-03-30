@@ -1,5 +1,20 @@
 # GeauxFind State
 
+## ✅ Just Shipped (2026-03-30)
+- Rebuilt `/whos-got-it` with a custom debate-style UI:
+  - New client component: `src/app/whos-got-it/WhosGotItPage.tsx`
+  - Replaced generic `GuidePage` usage in `src/app/whos-got-it/page.tsx`
+  - Added hero, season spotlight auto-detection, category pill filters, and debate cards
+  - Cards now include top contenders, badges, ratings, “The Case For”, expandable “Also Worth Trying”, and hot-take CTA
+- Expanded `data/whos-got-it.json` from 16 to 24 items (merged Chicken Salad + Grilled Chicken Salad; removed Birria Tacos; added 10 new debates incl. Po’boys, Wings, Daiquiris, Snowballs, BBQ, Tacos, Seafood Platter)
+- Updated `debateOfTheWeek` to **Crawfish**
+- Updated `seasonalRotation` to full-year coverage: Jan-Feb King Cake, Mar-Jun Crawfish, Jun-Sep Snowballs, Oct-Dec Gumbo
+- Normalized contender/allSpots slugs against `scripts/seed-data.json` where available; left missing entries blank per spec
+- Build passes (`npm run build`)
+- Deployed to production:
+  - Deployment URL: `https://geauxfind-2tqtzwrw4-chelseas-projects-0c4481d6.vercel.app`
+  - Alias: `https://geauxfind.com`
+
 ## ✅ Just Shipped (2026-03-29)
 - Built full business verification & discovery toolchain:
   - `scripts/verify-businesses.mjs`
