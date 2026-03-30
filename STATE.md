@@ -1,6 +1,82 @@
 # GeauxFind — Project State
 *Luna: READ THIS EVERY SESSION before touching GeauxFind. No exceptions.*
-*Last updated: 2026-03-26 8:05 PM CT*
+*Last updated: 2026-03-28 11:59 PM CT*
+
+## Supabase Schema + Seed + API Migration (2026-03-28)
+
+### ✅ Schema migration rebuilt
+- Replaced `supabase/migrations/001_initial_schema.sql` with full schema for all typed tables:
+  - `profiles`, `places`, `events`, `recipes`, `reviews`, `best_of_lists`, `questions`, `answers`, `intake_dumps`, `crawfish_prices`, `live_music_venues`
+- Added new `newsletter_subscribers` table.
+- Added slug/email/date/place_id indexes and a GIN full-text index using generated `places.fts` tsvector.
+- Added `updated_at` trigger function + triggers for mutable tables.
+- Enabled RLS on all tables with policies for:
+  - anon read (`places`, `events`, `recipes`, `crawfish_prices`, `live_music_venues`, `best_of_lists`)
+  - authenticated community flow (`reviews`, `questions`, `answers`)
+  - `service_role` full access on all tables
+- Converted `supabase/migrations/002_rls_policies.sql` to a no-op because RLS is now consolidated in 001.
+
+### ✅ Seeder rebuilt (`scripts/seed-supabase.mjs`)
+- Rewrote seeder to use `@supabase/supabase-js` + service role env vars.
+- Reads and maps:
+  - `data/places/*.json` (with fallback to `scripts/seed-data.json`)
+  - `data/events.json` and `data/events/*.json`
+  - `data/recipes.json` (if present)
+  - `data/crawfish-prices.json`
+  - `data/community-recs.json` → `best_of_lists`
+  - `data/live-music.json` → `live_music_venues`
+- Uses idempotent `upsert(..., { onConflict: 'slug' })`.
+- Added `--only <target>` support matching package scripts.
+- Final log format: `Seeded X places, Y events, ...`.
+
+### ✅ API updates
+- `src/app/api/newsletter/route.ts`
+  - now writes to Supabase `newsletter_subscribers`
+  - keeps JSON fallback (`data/newsletter-subscribers.json`) if Supabase write fails
+- `src/app/api/community/ingest/route.ts`
+  - still writes `data/community-recs.json`
+  - now also inserts into `intake_dumps` (best effort, logs on failure)
+
+### ✅ Build status
+- `npm run build` passes clean after updates.
+
+## Discord Dump Auto-Ingest Pipeline (2026-03-28)
+
+### ✅ Shared parser extracted
+- Added `src/lib/dump-parser.ts` as the single parsing engine used by both API and scripts.
+- Moved FB dump parsing + mention counting logic into shared exports (`topicFromInput`, `topicFromDumpFilename`, `upsertTopicFromContent`, etc.).
+- Parser now explicitly handles edge cases:
+  - empty content (returns zero segments / zero matches)
+  - no known business matches
+  - duplicate topic upserts (topic is updated by slug, not duplicated)
+
+### ✅ New ingest API route
+- Added `POST /api/community/ingest` at `src/app/api/community/ingest/route.ts`
+- Request body: `{ topic, content, source? }`
+- Requires `x-api-key` header matching `GEAUXFIND_INGEST_KEY`
+- Reads/writes `data/community-recs.json` and returns:
+  - `{ success: true, topic, placesFound, newMentions }`
+
+### ✅ Script compatibility preserved
+- Refactored `scripts/parse-fb-dumps.mjs` to consume `src/lib/dump-parser.ts`
+- Existing CLI flags still work: `--dry-run`, `--file`, `--verbose`
+- Existing output structure in `data/community-recs.json` remains compatible
+
+### ✅ New Discord watcher script
+- Added `scripts/discord-dump-watcher.mjs`
+- Usage:
+  - `node scripts/discord-dump-watcher.mjs --topic "best boudin" --text "..."`
+- Calls ingest endpoint (`GEAUXFIND_INGEST_URL` or `http://localhost:3000/api/community/ingest`)
+- Uses `GEAUXFIND_INGEST_KEY` (or `--api-key`) for auth
+
+### ✅ Env placeholder added
+- Added `.env.local.example` with:
+  - `GEAUXFIND_INGEST_KEY`
+  - optional `GEAUXFIND_INGEST_URL`
+
+### Build status
+- `npm run build` passes (TypeScript clean)
+- Existing unrelated `<img>` lint warnings remain unchanged
 
 ## Business Claim Portal (2026-03-26)
 

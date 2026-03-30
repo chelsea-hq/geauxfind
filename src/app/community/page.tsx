@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { places } from "@/data/mock-data";
@@ -278,7 +279,17 @@ export default function CommunityPage() {
                   <p className="mt-2 text-xs uppercase tracking-wider text-[var(--moss)]">{item.type}</p>
                   <p className="mt-1">{item.text}</p>
                   <p className="mt-2 text-sm text-[var(--warm-gray)]">at {item.placeSlug ? <Link className="text-[var(--cajun-red)] underline" href={`/place/${item.placeSlug}`}>{item.placeName}</Link> : item.placeName}</p>
-                  {item.photoUrl ? <img src={item.photoUrl} alt={item.placeName} className="mt-3 h-48 w-full rounded-lg object-cover" /> : null}
+                  {item.photoUrl ? (
+                    <div className="relative mt-3 h-48 w-full overflow-hidden rounded-lg">
+                      <Image
+                        src={item.photoUrl}
+                        alt={item.placeName}
+                        fill
+                        sizes="(max-width: 768px) 100vw, 768px"
+                        className="object-cover"
+                      />
+                    </div>
+                  ) : null}
                   <button onClick={() => upvote(item.id)} className="mt-3 rounded-lg border px-3 py-1 text-sm">⬆️ Upvote ({votes[item.id] || 0})</button>
                 </article>
               );

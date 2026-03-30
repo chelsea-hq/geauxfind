@@ -19,11 +19,14 @@ export function EventCard({ event }: { event: Event }) {
     <article className="card-lift overflow-hidden rounded-[12px] border border-[var(--spanish-moss)]/30 bg-white shadow-sm">
       <Link href={`/event/${event.slug}`} className="block">
         <div className="card-image-zoom relative aspect-[16/10] w-full bg-[var(--cream-bg)]">
-          {(event.image || "").startsWith("http") ? (
-            <img src={event.image || "/placeholder.svg"} alt={event.title} className="h-full w-full object-cover" loading="lazy" referrerPolicy="no-referrer" />
-          ) : (
-            <Image src={event.image || "/placeholder.svg"} alt={event.title} fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover" />
-          )}
+          <Image
+            src={event.image || "/placeholder.svg"}
+            alt={event.title}
+            fill
+            sizes="(max-width: 768px) 100vw, 33vw"
+            className="object-cover"
+            referrerPolicy="no-referrer"
+          />
         </div>
       </Link>
       <div className="space-y-3 p-4">

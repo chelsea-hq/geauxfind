@@ -254,6 +254,18 @@ export interface Database {
         Insert: Omit<Database['public']['Tables']['live_music_venues']['Row'], 'id' | 'created_at' | 'updated_at'> & Partial<Pick<Database['public']['Tables']['live_music_venues']['Row'], 'id' | 'created_at' | 'updated_at'>>
         Update: Partial<Database['public']['Tables']['live_music_venues']['Row']>
       }
+      newsletter_subscribers: {
+        Row: {
+          id: string
+          email: string
+          name: string | null
+          source: string
+          subscribed_at: string
+          unsubscribed_at: string | null
+        }
+        Insert: Omit<Database['public']['Tables']['newsletter_subscribers']['Row'], 'id' | 'source' | 'subscribed_at'> & Partial<Pick<Database['public']['Tables']['newsletter_subscribers']['Row'], 'id' | 'source' | 'subscribed_at'>>
+        Update: Partial<Database['public']['Tables']['newsletter_subscribers']['Row']>
+      }
     }
     Views: Record<string, never>
     Functions: Record<string, never>

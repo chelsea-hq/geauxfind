@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
@@ -41,7 +42,13 @@ export function AIPicks() {
           <article key={pick.slug} className="w-[86%] shrink-0 snap-start overflow-hidden rounded-2xl border bg-white shadow-sm sm:w-[340px]">
             <Link href={`/place/${pick.slug}`} className="block">
               <div className="relative h-44 w-full bg-[var(--cream-bg)]">
-                <img src={pick.image || "/placeholder.svg"} alt={pick.name} className="h-full w-full object-cover" loading="lazy" />
+                <Image
+                  src={pick.image || "/placeholder.svg"}
+                  alt={pick.name}
+                  fill
+                  sizes="(max-width: 640px) 86vw, 340px"
+                  className="object-cover"
+                />
               </div>
               <div className="space-y-2 p-4">
                 <h3 className="font-serif text-xl">{pick.name}</h3>

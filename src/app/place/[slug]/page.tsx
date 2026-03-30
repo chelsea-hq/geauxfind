@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { MapWrapper } from "@/components/MapWrapper";
@@ -10,7 +11,7 @@ import { ReviewSummaryCard } from "@/components/ReviewSummaryCard";
 import { readJsonFile } from "@/lib/community-data";
 import type { BusinessClaim } from "@/types";
 import type { Metadata } from "next";
-import { buildMetadata } from "@/lib/seo";
+import { absoluteUrl, buildMetadata } from "@/lib/seo";
 import { JsonLd } from "@/components/JsonLd";
 import { RelatedLinks } from "@/components/RelatedLinks";
 
@@ -28,6 +29,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: `${place.name} — ${place.category} in ${place.city} | GeauxFind`,
     description: place.description,
     path: `/place/${place.slug}`,
+    images: [place.image || "/og-image.png"],
   });
 }
 
@@ -49,14 +51,27 @@ export default async function PlaceDetail({ params }: { params: Promise<{ slug: 
   const mainImage = submittedPhotos[0]?.url || place.image;
   const gallery = [...submittedPhotos.map((p) => p.url), ...place.gallery];
   const schemaType = place.category === "food" ? "Restaurant" : "LocalBusiness";
+  const placeWithGeo = place as typeof place & {
+    google_rating?: number;
+    google_rating_count?: number;
+    latitude?: number;
+    longitude?: number;
+    lat?: number;
+    lng?: number;
+  };
+  const latitude = placeWithGeo.latitude ?? placeWithGeo.lat;
+  const longitude = placeWithGeo.longitude ?? placeWithGeo.lng;
+  const ratingValue = placeWithGeo.google_rating ?? place.rating;
+  const reviewCount = placeWithGeo.google_rating_count ?? place.reviews.length;
+
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": schemaType,
     name: place.name,
     description: place.description,
-    image: mainImage,
-    telephone: place.phone,
-    url: place.website || `https://geauxfind.vercel.app/place/${place.slug}`,
+    image: [mainImage],
+    telephone: place.phone || undefined,
+    url: place.website || absoluteUrl(`/place/${place.slug}`),
     servesCuisine: place.cuisine,
     priceRange: place.price,
     address: {
@@ -64,12 +79,19 @@ export default async function PlaceDetail({ params }: { params: Promise<{ slug: 
       streetAddress: place.address,
       addressLocality: place.city,
       addressRegion: "LA",
+      addressCountry: "US",
     },
-    aggregateRating: {
+    aggregateRating: ratingValue ? {
       "@type": "AggregateRating",
-      ratingValue: String(place.rating),
-      reviewCount: String(place.reviews.length),
-    },
+      ratingValue: String(ratingValue),
+      reviewCount: String(reviewCount || 1),
+    } : undefined,
+    geo: latitude && longitude ? {
+      "@type": "GeoCoordinates",
+      latitude,
+      longitude,
+    } : undefined,
+    openingHours: place.hours.length > 0 ? place.hours : undefined,
   };
 
   return (
@@ -102,7 +124,15 @@ export default async function PlaceDetail({ params }: { params: Promise<{ slug: 
           <h2 className="mb-3 mt-8 font-serif text-2xl">Photo Gallery</h2>
           <div className="grid grid-cols-2 gap-3 md:grid-cols-3">
             {gallery.length > 0 ? gallery.map((src, idx) => (
-              <div key={`${src}-${idx}`} className="h-32 overflow-hidden rounded-xl"><img src={src} alt={`${place.name} gallery ${idx + 1}`} className="h-full w-full object-cover" loading="lazy" /></div>
+              <div key={`${src}-${idx}`} className="relative h-32 overflow-hidden rounded-xl">
+                <Image
+                  src={src}
+                  alt={`${place.name} gallery ${idx + 1}`}
+                  fill
+                  sizes="(max-width: 768px) 50vw, 33vw"
+                  className="object-cover"
+                />
+              </div>
             )) : <p className="col-span-full text-sm text-[var(--warm-gray)]">No gallery photos yet — be the first to share one.</p>}
           </div>
 

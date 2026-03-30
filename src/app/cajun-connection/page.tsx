@@ -1,8 +1,17 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { Search } from "lucide-react";
 import { BusinessCard } from "@/components/cajun/BusinessCard";
 import { FluencerCard } from "@/components/cajun/FluencerCard";
 import { cajunCategories, cajunConnectionData } from "@/lib/cajun-connection";
+import { buildMetadata } from "@/lib/seo";
+
+export const metadata: Metadata = buildMetadata({
+  title: "Cajun Connection — Louisiana Businesses & Food Creators | GeauxFind",
+  description: "Discover Cajun-owned businesses, local food vendors, and Louisiana creators across Acadiana in one curated directory.",
+  path: "/cajun-connection",
+  images: ["/og-image.png"],
+});
 
 const groups = [
   { name: "Where Acadiana Eats", url: "https://www.facebook.com/" },

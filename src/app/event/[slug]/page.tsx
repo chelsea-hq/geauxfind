@@ -1,9 +1,10 @@
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { EventCard } from "@/components/cards/EventCard";
 import { MapWrapper } from "@/components/MapWrapper";
 import { events, places } from "@/data/mock-data";
 import type { Metadata } from "next";
-import { buildMetadata } from "@/lib/seo";
+import { absoluteUrl, buildMetadata } from "@/lib/seo";
 import { JsonLd } from "@/components/JsonLd";
 import { RelatedLinks } from "@/components/RelatedLinks";
 
@@ -19,6 +20,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: `${event.title} — ${event.date} at ${event.venue} | GeauxFind`,
     description: event.description,
     path: `/event/${event.slug}`,
+    images: [event.image || "/og-image.png"],
   });
 }
 
@@ -36,18 +38,30 @@ export default async function EventDetail({ params }: { params: Promise<{ slug: 
     location: {
       "@type": "Place",
       name: event.venue,
-      address: event.address || `${event.city}, Louisiana`,
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: event.address || null,
+        addressLocality: event.city,
+        addressRegion: "LA",
+        addressCountry: "US",
+      },
     },
     description: event.description,
-    image: event.image || undefined,
-    url: `https://geauxfind.vercel.app/event/${event.slug}`,
+    image: event.image ? [event.image] : [absoluteUrl("/og-image.png")],
+    url: absoluteUrl(`/event/${event.slug}`),
   };
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-10">
       <JsonLd data={eventSchema} />
-      <div className="h-80 overflow-hidden rounded-3xl">
-        <img src={event.image || "/placeholder.svg"} alt={event.title} className="h-full w-full object-cover" />
+      <div className="relative h-80 overflow-hidden rounded-3xl">
+        <Image
+          src={event.image || "/placeholder.svg"}
+          alt={event.title}
+          fill
+          sizes="(max-width: 1024px) 100vw, 1024px"
+          className="object-cover"
+        />
       </div>
       <h1 className="mt-6 font-serif text-4xl text-[var(--cajun-red)]">{event.title}</h1>
       <p className="text-lg font-semibold">

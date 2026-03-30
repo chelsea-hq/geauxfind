@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 
@@ -104,7 +105,15 @@ export default function WhatsNewPage() {
           >
             <article className="md:flex">
               {item.imageUrl ? (
-                <img src={item.imageUrl} alt={item.title} className="h-44 w-full object-cover md:h-auto md:w-56" />
+                <div className="relative h-44 w-full md:h-auto md:w-56">
+                  <Image
+                    src={item.imageUrl}
+                    alt={item.title}
+                    fill
+                    sizes="(max-width: 768px) 100vw, 224px"
+                    className="object-cover"
+                  />
+                </div>
               ) : (
                 <div className="h-24 w-full bg-[var(--cream-bg)] md:h-auto md:w-56" />
               )}

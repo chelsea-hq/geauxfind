@@ -14,19 +14,35 @@ export async function callVeniceChat({
   temperature?: number;
   model?: "qwen3-4b" | "qwen-2.5-coder-32b";
 }) {
-  const apiKey = process.env.VENICE_API_KEY;
-  if (!apiKey) {
-    throw new Error("Missing VENICE_API_KEY");
+  // Prefer OpenRouter (cheaper, sustainable for real traffic)
+  // Fall back to Venice if OpenRouter key not set
+  const openRouterKey = process.env.OPENROUTER_API_KEY;
+  const veniceKey = process.env.VENICE_API_KEY;
+
+  if (!openRouterKey && !veniceKey) {
+    throw new Error("Missing OPENROUTER_API_KEY or VENICE_API_KEY");
   }
 
-  const response = await fetch("https://api.venice.ai/api/v1/chat/completions", {
+  const useOpenRouter = !!openRouterKey;
+  const apiUrl = useOpenRouter
+    ? "https://openrouter.ai/api/v1/chat/completions"
+    : "https://api.venice.ai/api/v1/chat/completions";
+  const apiKey = useOpenRouter ? openRouterKey : veniceKey;
+
+  // Map Venice models to cheap OpenRouter equivalents
+  const openRouterModel = model === "qwen-2.5-coder-32b"
+    ? "qwen/qwen-2.5-coder-32b-instruct"
+    : "meta-llama/llama-4-scout";
+
+  const response = await fetch(apiUrl, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
       Authorization: `Bearer ${apiKey}`,
+      ...(useOpenRouter ? { "HTTP-Referer": "https://geauxfind.com", "X-Title": "GeauxFind" } : {}),
     },
     body: JSON.stringify({
-      model,
+      model: useOpenRouter ? openRouterModel : model,
       stream: false,
       temperature,
       max_tokens: maxTokens,
@@ -35,8 +51,8 @@ export async function callVeniceChat({
   });
 
   if (!response.ok) {
-    const text = await response.text().catch(() => "Unknown Venice error");
-    throw new Error(`Venice API error: ${response.status} ${text}`);
+    const text = await response.text().catch(() => "Unknown API error");
+    throw new Error(`${useOpenRouter ? "OpenRouter" : "Venice"} API error: ${response.status} ${text}`);
   }
 
   const payload = (await response.json()) as {

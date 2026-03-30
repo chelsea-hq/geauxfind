@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { recipes } from "@/data/mock-data";
 import { RatingStars } from "@/components/RatingStars";
@@ -43,8 +44,14 @@ export default async function RecipeDetail({ params }: { params: Promise<{ slug:
   return (
     <main className="mx-auto max-w-5xl px-4 py-10">
       <JsonLd data={recipeSchema} />
-      <div className="h-80 overflow-hidden rounded-3xl">
-        <img src={recipe.image} alt={recipe.title} className="h-full w-full object-cover" />
+      <div className="relative h-80 overflow-hidden rounded-3xl">
+        <Image
+          src={recipe.image}
+          alt={recipe.title}
+          fill
+          sizes="(max-width: 1024px) 100vw, 1024px"
+          className="object-cover"
+        />
       </div>
       <h1 className="mt-6 font-serif text-4xl text-[var(--cajun-red)]">{recipe.title}</h1>
       <div className="mt-2 flex flex-wrap gap-3 text-sm">
