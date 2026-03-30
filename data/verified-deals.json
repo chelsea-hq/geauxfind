@@ -1,0 +1,667 @@
+{
+  "generatedAt": "2026-03-30T04:04:37.146Z",
+  "deals": [
+    {
+      "id": "deal-001",
+      "restaurant": "Social Southern Table & Bar",
+      "deal": "Weekday happy hour drink + bar bite specials (3–6 PM)",
+      "category": "Happy Hour",
+      "sourceDealStatus": "approved",
+      "matchedSeedPlace": {
+        "slug": "social-southern-table-and-bar-lafayette",
+        "name": "Social Southern Table & Bar",
+        "address": "3901 Johnston St, Lafayette, LA 70503, USA"
+      },
+      "verified": true,
+      "verificationScore": 4,
+      "checkedAt": "2026-03-30T04:04:03.857Z",
+      "evidence": [
+        {
+          "title": "HAPPY HOUR - Social Southern Table & Bar",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.socialsouthern.com%2Fhappy%2Dhour&rut=42e7a8e1ccb835e42042c99236db47502fc6001b125d122831b588cda4e02a8f",
+          "snippet": "Social Southern Table & Bar Donation Request Form Catering Inquiry Form Contact 3901 Johnston St. Lafayette, Louisiana 70503 INFO@SOCIALSOUTHERN.COM 337-456-3274 Interested in a job? Apply Here Website Designed By: BearPaw Design Co."
+        },
+        {
+          "title": "Social Southern Table & Bar - Lafayette, LA - Yelp",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fsocial%2Dsouthern%2Dtable%2Dand%2Dbar%2Dlafayette&rut=30be87fa92d3e2b5d42b3656fe35a5b5d8d29c4299d2bcd728c5a7be8851f98e",
+          "snippet": "Specialties: delectable cuisine inspired by local flavors, hand crafted cocktails, an airy venue with rustic accents, outdoor dining area when weather allows. Established in 2013. Be real. Eat good. It's all about being true to who you are: sharing with friends and family and enjoying each other's company over a good meal. The ingredients are always fresh and that is the cornerstone of our ..."
+        },
+        {
+          "title": "Social Southern Table and Bar - Lafayette, LA on OpenTable",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.opentable.com%2Fsocial%2Dsouthern%2Dtable%2Dand%2Dbar&rut=8e6b5dd185efaccb8bce857016bc833d9e9dfb27f3323abf580ad99262f5d6dd",
+          "snippet": "Book now at Social Southern Table and Bar in Lafayette, LA. Explore menu, see photos and read 905 reviews: \"Always a great experience, amazing food and service. Never disappointed\"."
+        },
+        {
+          "title": "TOP 10 BEST Happy Hour in Lafayette, LA - Updated 2026 - Yelp",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.yelp.com%2Fsearch%3Ffind_desc%3Dhappy%2Bhour%26find_loc%3DLafayette%252C%2BLA&rut=af4d166af8cd3f68cbe0dab61a36e5811c6c4f4772fc9c3a37108d5bd67b171a",
+          "snippet": "Top 10 Best HAPPY HOUR in Lafayette, LA - Last Updated March 2026 - Yelp - Social Southern Table & Bar, Whiskey & Vine, Rhum Room, The Flats, Ruffino's On The River, Superior Grill, Bon Temps Grill, Pamplona Tapas Bar, Bonefish Grill, Zea Rotisserie & Bar"
+        },
+        {
+          "title": "Social Southern Table and Bar - Lafayette, LA on OpenTable",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.opentable.co.uk%2Fsocial%2Dsouthern%2Dtable%2Dand%2Dbar%3Fp%3D2%26sd%3D2024%2D10%2D01T21%253A00%253A00&rut=11efeceec26036084e9a79ac32a4ef4d9a982f42cee7e20c0f0264f7be57d96a",
+          "snippet": "Book now at Social Southern Table and Bar in Lafayette, LA. Explore menu, see photos and read 825 reviews: \"Excellent server, good food, nice atmosphere, drinks were spot on.\"."
+        },
+        {
+          "title": "HAPPY HOUR - Social Southern Table & Bar",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.socialsouthern.com%2Fhappy%2Dhour&rut=42e7a8e1ccb835e42042c99236db47502fc6001b125d122831b588cda4e02a8f",
+          "snippet": "Social Southern Table & Bar Donation Request Form Catering Inquiry Form Contact 3901 Johnston St. Lafayette, Louisiana 70503 INFO@SOCIALSOUTHERN.COM 337-456-3274 Interested in a job? Apply Here Website Designed By: BearPaw Design Co."
+        },
+        {
+          "title": "Social Southern Table & Bar - Lafayette, LA - Yelp",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fsocial%2Dsouthern%2Dtable%2Dand%2Dbar%2Dlafayette&rut=30be87fa92d3e2b5d42b3656fe35a5b5d8d29c4299d2bcd728c5a7be8851f98e",
+          "snippet": "Specialties: delectable cuisine inspired by local flavors, hand crafted cocktails, an airy venue with rustic accents, outdoor dining area when weather allows. Established in 2013. Be real. Eat good. It's all about being true to who you are: sharing with friends and family and enjoying each other's company over a good meal. The ingredients are always fresh and that is the cornerstone of our ..."
+        },
+        {
+          "title": "Social Southern Table and Bar - Lafayette, LA on OpenTable",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.opentable.com%2Fsocial%2Dsouthern%2Dtable%2Dand%2Dbar&rut=8e6b5dd185efaccb8bce857016bc833d9e9dfb27f3323abf580ad99262f5d6dd",
+          "snippet": "Book now at Social Southern Table and Bar in Lafayette, LA. Explore menu, see photos and read 905 reviews: \"Always a great experience, amazing food and service. Never disappointed\"."
+        }
+      ]
+    },
+    {
+      "id": "deal-002",
+      "restaurant": "Tsunami Sushi Lafayette",
+      "deal": "Afternoon sushi and cocktail happy hour menu",
+      "category": "Happy Hour",
+      "sourceDealStatus": "approved",
+      "matchedSeedPlace": null,
+      "verified": true,
+      "verificationScore": 4,
+      "checkedAt": "2026-03-30T04:04:05.692Z",
+      "evidence": [
+        {
+          "title": "Tsunami Lafayette - all specials",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Flafayette.servingsushi.com%2Flafayette%2Dtsunami%2Dlafayette%2Dspecials&rut=13d0b7377a892bf539647fa96d28baaf2142272c724a23fb5b13818deda567dd",
+          "snippet": "Happy Hour** $6 Martini's: House Martini, Lemondrop, Cosmo, & Apple-Tini $5 House Wine, Select Draft Beers & House Sake (Cold or hot) $4 Single Well Liquors & Domestics Bottles 25% off all rolls $10 & under **Tsunami Sushi reserves the option to rescind or modify our Happy Hour offerings, including but not limited to National Holidays, State ..."
+        },
+        {
+          "title": "Tsunami Sushi Lafayette | Lafayette LA - Facebook",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.facebook.com%2FTsunami.Sushi.Lafayette%2F&rut=82a48a74e9e06393a5d5ec17f2c32f5c79cde3502a8a33a9474d4df9809f8ff2",
+          "snippet": "Tsunami Sushi Lafayette, Lafayette. 12,662 likes · 37 talking about this · 44,113 were here. fresh fish feeding frenzy"
+        },
+        {
+          "title": "TSUNAMI SUSHI LAFAYETTE - Updated March 2026 - Yelp",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Ftsunami%2Dsushi%2Dlafayette%2D2&rut=137c5c25ef424d35e2204cf9c744fdf9e6843a5a93ed484cf596eaa0bbf9234b",
+          "snippet": "Tsunami Sushi Lafayette offers a delightful sushi dining experience with a variety of fresh and flavorful options in Lafayette."
+        },
+        {
+          "title": "Tsunami Sushi Lafayette in Lafayette, LA 70501 - (337) 2...",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.chamberofcommerce.com%2Fbusiness%2Ddirectory%2Flouisiana%2Flafayette%2Fsushi%2Drestaurant%2F9736015%2Dtsunami%2Dsushi%2Dlafayette&rut=ad607d4d468894a974d70b0f14ad9490f621d2f6f4f7d44ead6a1b4b5235fd46",
+          "snippet": "Tsunami Sushi Lafayette located at 412 Jefferson St, Lafayette, LA 70501 - reviews, ratings, hours, phone number, directions, and more."
+        },
+        {
+          "title": "Tsunami - Lafayette Restaurant - Lafayette, LA | OpenTable",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.opentable.com%2Fr%2Ftsunami%2Dlafayette&rut=9c9e50bb861f9f8613af02847f5f8f8d220a6cdc753468e211a51baa3844f450",
+          "snippet": "Tsunami - Lafayette, Casual Elegant Sushi cuisine. Read reviews and book now."
+        },
+        {
+          "title": "Tsunami Lafayette - all specials",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Flafayette.servingsushi.com%2Flafayette%2Dtsunami%2Dlafayette%2Dspecials&rut=13d0b7377a892bf539647fa96d28baaf2142272c724a23fb5b13818deda567dd",
+          "snippet": "Happy Hour** $6 Martini's: House Martini, Lemondrop, Cosmo, & Apple-Tini $5 House Wine, Select Draft Beers & House Sake (Cold or hot) $4 Single Well Liquors & Domestics Bottles 25% off all rolls $10 & under **Tsunami Sushi reserves the option to rescind or modify our Happy Hour offerings, including but not limited to National Holidays, State ..."
+        },
+        {
+          "title": "Tsunami Sushi Lafayette | Lafayette LA - Facebook",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.facebook.com%2FTsunami.Sushi.Lafayette%2F&rut=82a48a74e9e06393a5d5ec17f2c32f5c79cde3502a8a33a9474d4df9809f8ff2",
+          "snippet": "Tsunami Sushi Lafayette, Lafayette. 12,662 likes · 37 talking about this · 44,113 were here. fresh fish feeding frenzy"
+        },
+        {
+          "title": "Tsunami Sushi Lafayette Menu - Updated August 2025",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.checkle.com%2Fbiz%2Ftsunami%2Dsushi%2Dlafayette%2Dlafayette%2Fmenu&rut=4ee44a432b0481415e9c195f71362187c287cf8931ce07edb3d8a8ac8809451e",
+          "snippet": "View up-to-date menus for Tsunami Sushi Lafayette located at 412 Jefferson St in Lafayette, LA 70501. Two years of design and development went into Tsunami before Michele Ezell and her partners, opened its doors in December of 1999. Since then, Michele, her husband Sean, and partners Fred Nonato & Toon Nguyen have positioned Tsunami as a sometimes funky sometimes fancy always flavorful sushi ..."
+        }
+      ]
+    },
+    {
+      "id": "deal-003",
+      "restaurant": "Charley G's",
+      "deal": "Bar happy hour specials on select cocktails and wine",
+      "category": "Happy Hour",
+      "sourceDealStatus": "approved",
+      "matchedSeedPlace": null,
+      "verified": true,
+      "verificationScore": 5,
+      "checkedAt": "2026-03-30T04:04:07.363Z",
+      "evidence": [
+        {
+          "title": "Charley G's | Discover Louisiana Flavors Today",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.charleygs.com%2F&rut=dbcb714dff5c3903ab21fcb94aac2cff3d47354f2f5215b530eea1b8de9d442d",
+          "snippet": "Experience authentic Louisiana cuisine at Charley G's in Lafayette. Enjoy locally sourced seafood, steaks, and Southern hospitality in a welcoming setting."
+        },
+        {
+          "title": "Charley G's Seafood Grill - Lafayette, LA on OpenTable",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.opentable.com%2Fcharley%2Dgs%2Dseafood%2Dgrill&rut=e8f1de4d4f0e5555f52a34656895aa1546e340ac450f0fa1c7e95dd397c41cbe",
+          "snippet": "Book now at Charley G's Seafood Grill in Lafayette, LA. Explore menu, see photos and read 1370 reviews: \"I recommend this restaurant to anyone who looking for a place to celebrate anniversary or etc. Very good atmosphere.\"."
+        },
+        {
+          "title": "Charley G's Seafood Grill | Explore Louisiana",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.explorelouisiana.com%2Frestaurants%2Fcharley%2Dgs%2Dseafood%2Dgrill&rut=9aa70a8b307b437f14464c63daf714cdc621fe4c6dd807671aec2af6157239dc",
+          "snippet": "The food at Charley G's is driven by Southern inspiration and the menu changes seasonally with the local seafood and produce. Charley G's is known for grilling aged beef and seafood over southern hardwoods. The casually upscale atmosphere has a bar area with live piano music Thursday through Saturday and happy hour Monday through Friday 4-7pm."
+        },
+        {
+          "title": "Charley Gs | Lafayette LA - Facebook",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.facebook.com%2Fcharleygs%2F&rut=58dab5784bea1a3e50aeb530a86f2ba81aebfc4c787792a3a7c3601d20d4330f",
+          "snippet": "Charley Gs, Lafayette. 9,620 likes · 131 talking about this · 12,500 were here. a Lafayette favorite known for grilling aged beef & fresh Louisiana seafood over southern hardwoods in a casual yet..."
+        },
+        {
+          "title": "Charley Gs, 3809 Ambassador Caffery Pkwy, Lafayette, LA (2026)",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.findglocal.com%2FUS%2FLafayette%2F266495864184%2FCharley%2DGs&rut=76465550f17095c8746898efe2aca1169ee6a06b8c453332d770e5cb9e27be21",
+          "snippet": "12/24/2025 Merry Christmas from all of us at Charley G's! As we reflect on this year and celebrate 40 wonderful years of serving Lafayette, we're truly grateful to do what we love. Sharing our passion for hospitality with friends and family and watching our guests enjoy great meals and meaningful moments together is what it's all about."
+        },
+        {
+          "title": "Discover Exclusive Restaurant Specials - Charley G's",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.charleygs.com%2Fspecials&rut=1f4f5fee0e7c77dd6850ef907b4aa63568cdfdbcd14b336a0d1294780aee7f5d",
+          "snippet": "Explore weekly specials, unique cocktails, and event info at Charley G's in Lafayette. Enjoy great deals on food and drinks and stay updated on upcoming events."
+        },
+        {
+          "title": "Charley Gs | Lafayette LA - Facebook",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.facebook.com%2Fcharleygs%2F&rut=58dab5784bea1a3e50aeb530a86f2ba81aebfc4c787792a3a7c3601d20d4330f",
+          "snippet": "Charley Gs, Lafayette. 9,620 likes · 131 talking about this · 12,500 were here. a Lafayette favorite known for grilling aged beef & fresh Louisiana seafood over southern hardwoods in a casual yet..."
+        },
+        {
+          "title": "Charley Gs Menu (Full Menu Update 2026) - charley-gs.res-menu.net",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fcharley%2Dgs.res%2Dmenu.net%2Fmenu&rut=bd46d9138e77b2da5acc34f611ecf8090d68a3a9258f1dafafad39a14503fcaf",
+          "snippet": "Explore Charley Gs exquisite menu featuring premium steaks, fresh seafood, and signature dishes. Experience exceptional service and ambiance perfect for any special occasion."
+        }
+      ]
+    },
+    {
+      "id": "deal-004",
+      "restaurant": "Dwyer's Cafe",
+      "deal": "Weekday plate lunch specials downtown",
+      "category": "Daily Special",
+      "sourceDealStatus": "approved",
+      "matchedSeedPlace": null,
+      "verified": false,
+      "verificationScore": 0,
+      "checkedAt": "2026-03-30T04:04:07.870Z",
+      "evidence": []
+    },
+    {
+      "id": "deal-005",
+      "restaurant": "Laura's II",
+      "deal": "Rotating soul-food lunch plates until sold out",
+      "category": "Daily Special",
+      "sourceDealStatus": "approved",
+      "matchedSeedPlace": null,
+      "verified": false,
+      "verificationScore": 0,
+      "checkedAt": "2026-03-30T04:04:08.366Z",
+      "evidence": []
+    },
+    {
+      "id": "deal-006",
+      "restaurant": "T-Coon's",
+      "deal": "Breakfast and lunch daily Cajun specials",
+      "category": "Daily Special",
+      "sourceDealStatus": "approved",
+      "matchedSeedPlace": null,
+      "verified": false,
+      "verificationScore": 0,
+      "checkedAt": "2026-03-30T04:04:08.893Z",
+      "evidence": []
+    },
+    {
+      "id": "deal-007",
+      "restaurant": "Old Tyme Grocery",
+      "deal": "Lunch combo po-boy specials weekdays",
+      "category": "Daily Special",
+      "sourceDealStatus": "approved",
+      "matchedSeedPlace": null,
+      "verified": false,
+      "verificationScore": 0,
+      "checkedAt": "2026-03-30T04:04:09.471Z",
+      "evidence": []
+    },
+    {
+      "id": "deal-008",
+      "restaurant": "BJ's Restaurant & Brewhouse",
+      "deal": "Weekday happy hour with appetizer discounts",
+      "category": "Happy Hour",
+      "sourceDealStatus": "approved",
+      "matchedSeedPlace": null,
+      "verified": false,
+      "verificationScore": 0,
+      "checkedAt": "2026-03-30T04:04:09.907Z",
+      "evidence": []
+    },
+    {
+      "id": "deal-009",
+      "restaurant": "Bonefish Grill",
+      "deal": "Bar bite and handcrafted cocktail happy hour",
+      "category": "Happy Hour",
+      "sourceDealStatus": "approved",
+      "matchedSeedPlace": null,
+      "verified": false,
+      "verificationScore": 0,
+      "checkedAt": "2026-03-30T04:04:10.433Z",
+      "evidence": []
+    },
+    {
+      "id": "deal-010",
+      "restaurant": "Walk-On's",
+      "deal": "After-work happy hour drink menu",
+      "category": "Happy Hour",
+      "sourceDealStatus": "approved",
+      "matchedSeedPlace": {
+        "slug": "walk-on-s-sports-bistreaux-lafayette-restaurant-lafayette",
+        "name": "Walk-On's Sports Bistreaux - Lafayette Restaurant",
+        "address": "2336 Kaliste Saloom Rd, Lafayette, LA 70508, USA"
+      },
+      "verified": false,
+      "verificationScore": 0,
+      "checkedAt": "2026-03-30T04:04:10.941Z",
+      "evidence": []
+    },
+    {
+      "id": "deal-011",
+      "restaurant": "Deano's Pizza",
+      "deal": "Weekday bar and pizza lunch specials",
+      "category": "Daily Special",
+      "sourceDealStatus": "approved",
+      "matchedSeedPlace": null,
+      "verified": false,
+      "verificationScore": 0,
+      "checkedAt": "2026-03-30T04:04:11.498Z",
+      "evidence": []
+    },
+    {
+      "id": "deal-012",
+      "restaurant": "Zea Rotisserie & Bar",
+      "deal": "Lunch feature menu + weekday happy hour",
+      "category": "Daily Special",
+      "sourceDealStatus": "approved",
+      "matchedSeedPlace": {
+        "slug": "zea-rotisserie-and-bar-lafayette",
+        "name": "Zea Rotisserie & Bar",
+        "address": "235 Doucet Rd, Lafayette, LA 70503, USA"
+      },
+      "verified": false,
+      "verificationScore": 0,
+      "checkedAt": "2026-03-30T04:04:12.054Z",
+      "evidence": []
+    },
+    {
+      "id": "deal-013",
+      "restaurant": "Parish Brewing Co.",
+      "deal": "Taproom release specials and select pints",
+      "category": "Seasonal",
+      "sourceDealStatus": "approved",
+      "matchedSeedPlace": null,
+      "verified": false,
+      "verificationScore": 0,
+      "checkedAt": "2026-03-30T04:04:12.595Z",
+      "evidence": []
+    },
+    {
+      "id": "deal-014",
+      "restaurant": "Bayou Teche Brewing",
+      "deal": "Friday pint specials with pizza pairings",
+      "category": "Seasonal",
+      "sourceDealStatus": "approved",
+      "matchedSeedPlace": null,
+      "verified": false,
+      "verificationScore": 0,
+      "checkedAt": "2026-03-30T04:04:13.115Z",
+      "evidence": []
+    },
+    {
+      "id": "deal-015",
+      "restaurant": "Fezzo's (Scott)",
+      "deal": "Weekday oyster bar happy hour and seafood specials",
+      "category": "Happy Hour",
+      "sourceDealStatus": "approved",
+      "matchedSeedPlace": null,
+      "verified": false,
+      "verificationScore": 0,
+      "checkedAt": "2026-03-30T04:04:14.172Z",
+      "evidence": []
+    },
+    {
+      "id": "deal-016",
+      "restaurant": "Buck & Johnny's",
+      "deal": "Live music nights with drink and pizza specials",
+      "category": "Seasonal",
+      "sourceDealStatus": "approved",
+      "matchedSeedPlace": {
+        "slug": "buck-and-johnny-s-eclectic-italian-with-a-cajun-flair-breaux-bridge",
+        "name": "Buck & Johnny's: Eclectic Italian with a Cajun Flair",
+        "address": "100 Berard St, Breaux Bridge, LA 70517, USA"
+      },
+      "verified": false,
+      "verificationScore": 0,
+      "checkedAt": "2026-03-30T04:04:15.733Z",
+      "evidence": []
+    },
+    {
+      "id": "deal-017",
+      "restaurant": "Parc de Oaks events",
+      "deal": "Local market pop-ups featuring food truck meal deals",
+      "category": "New Opening",
+      "sourceDealStatus": "approved",
+      "matchedSeedPlace": null,
+      "verified": false,
+      "verificationScore": 0,
+      "checkedAt": "2026-03-30T04:04:17.326Z",
+      "evidence": []
+    },
+    {
+      "id": "deal-018",
+      "restaurant": "Rock'n'Bowl de Lafayette",
+      "deal": "Select nights bundle bowling + drinks specials",
+      "category": "Seasonal",
+      "sourceDealStatus": "approved",
+      "matchedSeedPlace": {
+        "slug": "rock-n-bowl-de-lafayette-lafayette",
+        "name": "Rock'n'Bowl® de Lafayette",
+        "address": "905 Jefferson St, Lafayette, LA 70501, USA"
+      },
+      "verified": false,
+      "verificationScore": 0,
+      "checkedAt": "2026-03-30T04:04:18.855Z",
+      "evidence": []
+    },
+    {
+      "id": "deal-019",
+      "restaurant": "Prejean's",
+      "deal": "Cajun combo plates with rotating weekday pricing after 4 PM",
+      "category": "Daily Special",
+      "sourceDealStatus": "approved",
+      "matchedSeedPlace": {
+        "slug": "prejean-s-carencro",
+        "name": "Prejean's",
+        "address": "3480 NE Evangeline Thruway, Lafayette, LA 70507, USA"
+      },
+      "verified": false,
+      "verificationScore": 0,
+      "checkedAt": "2026-03-30T04:04:20.404Z",
+      "evidence": []
+    },
+    {
+      "id": "deal-020",
+      "restaurant": "Don's Seafood",
+      "deal": "Two-course lunch special weekdays until 2 PM",
+      "category": "Daily Special",
+      "sourceDealStatus": "approved",
+      "matchedSeedPlace": null,
+      "verified": false,
+      "verificationScore": 0,
+      "checkedAt": "2026-03-30T04:04:21.933Z",
+      "evidence": []
+    },
+    {
+      "id": "deal-021",
+      "restaurant": "Café Vermilionville",
+      "deal": "Weekday prix-fixe lunch featuring seasonal dishes",
+      "category": "Daily Special",
+      "sourceDealStatus": "approved",
+      "matchedSeedPlace": null,
+      "verified": false,
+      "verificationScore": 0,
+      "checkedAt": "2026-03-30T04:04:23.459Z",
+      "evidence": []
+    },
+    {
+      "id": "deal-022",
+      "restaurant": "Poupart's Bakery",
+      "deal": "Morning pastry + coffee bundle before 10 AM",
+      "category": "Daily Special",
+      "sourceDealStatus": "approved",
+      "matchedSeedPlace": null,
+      "verified": false,
+      "verificationScore": 0,
+      "checkedAt": "2026-03-30T04:04:24.962Z",
+      "evidence": []
+    },
+    {
+      "id": "deal-023",
+      "restaurant": "The Wurst Biergarten",
+      "deal": "Craft beer flight specials during weekday happy hour (4–6 PM)",
+      "category": "Happy Hour",
+      "sourceDealStatus": "approved",
+      "matchedSeedPlace": null,
+      "verified": false,
+      "verificationScore": 0,
+      "checkedAt": "2026-03-30T04:04:26.648Z",
+      "evidence": []
+    },
+    {
+      "id": "deal-024",
+      "restaurant": "Pop's Poboys",
+      "deal": "Lunch combo: half po-boy + cup of gumbo + drink",
+      "category": "Daily Special",
+      "sourceDealStatus": "approved",
+      "matchedSeedPlace": null,
+      "verified": false,
+      "verificationScore": 0,
+      "checkedAt": "2026-03-30T04:04:28.272Z",
+      "evidence": []
+    },
+    {
+      "id": "deal-026",
+      "restaurant": "Blue Dog Café",
+      "deal": "Happy hour cocktails and small plates at the bar (3–6 PM)",
+      "category": "Happy Hour",
+      "sourceDealStatus": "approved",
+      "matchedSeedPlace": null,
+      "verified": false,
+      "verificationScore": 0,
+      "checkedAt": "2026-03-30T04:04:29.766Z",
+      "evidence": []
+    },
+    {
+      "id": "deal-027",
+      "restaurant": "Agave Mexican Grill",
+      "deal": "Taco Tuesday: discounted tacos and house margaritas",
+      "category": "Daily Special",
+      "sourceDealStatus": "approved",
+      "matchedSeedPlace": {
+        "slug": "agave-mexican-grill-and-cantina-youngsville",
+        "name": "Agave Mexican Grill & Cantina",
+        "address": "2810 E Milton Ave #101, Youngsville, LA 70592, USA"
+      },
+      "verified": true,
+      "verificationScore": 3,
+      "checkedAt": "2026-03-30T04:04:31.734Z",
+      "evidence": [
+        {
+          "title": "Agave Mexican Cantina & Grill - Lafayette, LA - Yelp",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fagave%2Dmexican%2Dcantina%2Dand%2Dgrill%2Dlafayette&rut=d4dbf85758e38525ed099d131958634baed33d7cd1fe4ebcddc32662aa0a479a",
+          "snippet": "Agave Mexican Cantina and Grill offers authentic Mexican cuisine in Lafayette with a vibrant atmosphere and diverse menu options."
+        },
+        {
+          "title": "Agave Mexican Grill & Cantina - Lafayette, LA - Yelp",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fagave%2Dmexican%2Dgrill%2Dand%2Dcantina%2Dlafayette%2D2&rut=d19cc0205982dbc7637858d593b8bd830f82578986782bf80b3cf4bb79dcaaf2",
+          "snippet": "Specialties: Agave specializes in Tex- Mex cuisine with a Louisiana Flare and inciting Margarita's. Agave features the largest outdoor dinning area in Acadiana with live music nightly. Established in 2011. Agave began in 2007, in the heart of downtown Lafayette. Agave on Bertrand Drive opened as the second location."
+        },
+        {
+          "title": "Agave Mexican Cantina & Grill - Lafayette, LA - Yelp",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fagave%2Dmexican%2Dcantina%2Dand%2Dgrill%2Dlafayette%2D2&rut=5360f9e3e50522f3f10f38969b096b38eb44df451cd13ddb06cf511604eaae3f",
+          "snippet": "Yelp users haven't asked any questions yet about Agave Mexican Cantina & Grill."
+        },
+        {
+          "title": "AGAVE - 401 N Sterling St, Lafayette, Louisiana - Mexican - Restaurant ...",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fagave%2Dlafayette%2D2&rut=0fbc5f14b9524b098a07d66a036a624c2ec8d225ef42bb8d08ce39424f88d028",
+          "snippet": "Agave in Lafayette, reviews by real people. Yelp is a fun and easy way to find, recommend and talk about what's great and not so great in Lafayette and beyond."
+        },
+        {
+          "title": "AGAVE CANTINA - Updated March 2026 - 200 E Vermillion St, Lafayette ...",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fagave%2Dcantina%2Dlafayette&rut=f5294721224c84129f7446486777d915ee6dd8216c45fb2ab259beb7b83d0a62",
+          "snippet": "2.4 (5 reviews) Claimed Mexican Open 11:00 AM - 9:00 PM See hours Verified 1 month ago"
+        },
+        {
+          "title": "Google Maps",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fmaps.google.com%2Fmaps%2F%3Fentry%3Dwc&rut=f2a397260c7c19e1f07a8269b4d52d16351110d130a61b86e841aee4882d2a46",
+          "snippet": "Find local businesses, view maps and get driving directions in Google Maps."
+        },
+        {
+          "title": "google maps",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.google.com%2Fmaps%2Fplace&rut=0741a2fcd9c9756220e6ba824f1e5d1e7e18c82606b897da2f46e14f8bc87b2c",
+          "snippet": "We would like to show you a description here but the site won't allow us."
+        },
+        {
+          "title": "Google Maps",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.google.com%2Fmaps%2Fsearch%2F%2B%2B%2B&rut=5636807c5592a44bc05c715bdcfcc40c7379b30d273d409e38d961875615441c",
+          "snippet": "Find locations and directions easily with Google Maps."
+        }
+      ]
+    },
+    {
+      "id": "deal-028",
+      "restaurant": "Pamplona Tapas Bar",
+      "deal": "Wine Wednesday glass specials + chef tapas pairings",
+      "category": "Happy Hour",
+      "sourceDealStatus": "approved",
+      "matchedSeedPlace": null,
+      "verified": true,
+      "verificationScore": 4,
+      "checkedAt": "2026-03-30T04:04:33.569Z",
+      "evidence": [
+        {
+          "title": "Pamplona Tapas Bar Happy Hour - Lafayette, LA - Happy Hour Finder",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fthehappyhourfinder.com%2Fus_la%2Flafayette%2Fpamplona%2Dtapas%2Dbar%2F&rut=f9c5dda537834bdfdcd2086505a719bab972f726b9d9adc218fdb79d9833c260",
+          "snippet": "Happy hours at Pamplona Tapas Bar Tuesday 2:00pm - 7:00pm: 1/2 off draft beers, domestic beers, glasses of sangria and wine"
+        },
+        {
+          "title": "Pamplona Tapas Bar - Lafayette, LA",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fpamplona%2Dtapas%2Dbar%2Dlafayette&rut=35b8c3d52ffb1790bd4d6dadea22063b162a88dac2009947ea78d083e01a4cb6",
+          "snippet": "Specialties: Happy Hour daily from 4-6 pm with $4 house wine (red, white or sparkling), $4 sangria (red or white), single well cocktails and domestic beer. PAMPLONA Tapas Bar and Restaurant is located in downtown Lafayette, Louisiana, a thriving culinary mecca centered in the heart of traditional Cajun Country. We reel in, sauté and perfectly plate earthy-yet-refined flavors reminiscent of ..."
+        },
+        {
+          "title": "Home - Pamplona Tapas Bar & Restaurant",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.pamplonatapas.com%2F&rut=48e4ed4587c4011dd0ccd1beb370ba7b02c73900eaffbaa35bdda4517d885744",
+          "snippet": "Pamplona Tapas in Lafayette, LA. PAMPLONA Tapas Bar and Restaurant is located in downtown Lafayette, Louisiana, a thriving culinary mecca centered in the heart of traditional Cajun Country. With flavors reminiscent of Hemingway's precious retreat of Pamplona, Spain, the Basque city in the north famous the world over for its bullfighting. By marrying chic urban elegance with rustic Spanish ..."
+        },
+        {
+          "title": "Pamplona Tapas Bar | United Tribes",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Funitedtribes.com%2Fbusiness%2Fpamplona%2Dtapas%2Dbar%2D32229&rut=fbf4594670bef0b510b94034f0d1d0e9ba81e5a9246d02f3fa02df22c3b27b20",
+          "snippet": "About Specialties: Happy Hour daily from 4-6 pm with $4 house wine (red, white or sparkling), $4 sangria (red or white), single well cocktails and domestic beer. PAMPLONA Tapas Bar and Restaurant is located in downtown Lafayette, Louisiana, a thriving culinary mecca centered in the heart of traditional Cajun Country. We reel in, sauté and perfectly plate earthy-yet-refined flavors reminiscent ..."
+        },
+        {
+          "title": "Pamplona Tapas Bar, Lafayette - Menu, Reviews (360), Photos (37 ...",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.restaurantji.com%2Fla%2Flafayette%2Fpamplona%2Dtapas%2Dbar%2D%2F&rut=c2676cc2a8668a17e6e9efe7fac79ef247b278dc3d8c1c32ea74f2eb737c39c5",
+          "snippet": "Latest reviews, photos and ratings for Pamplona Tapas Bar at 631 Jefferson St in Lafayette - view the menu, hours, phone number, address and map."
+        },
+        {
+          "title": "Home - Pamplona Tapas Bar & Restaurant",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.pamplonatapas.com%2F&rut=48e4ed4587c4011dd0ccd1beb370ba7b02c73900eaffbaa35bdda4517d885744",
+          "snippet": "Pamplona Tapas in Lafayette, LA. PAMPLONA Tapas Bar and Restaurant is located in downtown Lafayette, Louisiana, a thriving culinary mecca centered in the heart of traditional Cajun Country. With flavors reminiscent of Hemingway's precious retreat of Pamplona, Spain, the Basque city in the north famous the world over for its bullfighting. By marrying chic urban elegance with rustic Spanish ..."
+        },
+        {
+          "title": "Pamplona Tapas Bar - Lafayette, LA",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fpamplona%2Dtapas%2Dbar%2Dlafayette&rut=35b8c3d52ffb1790bd4d6dadea22063b162a88dac2009947ea78d083e01a4cb6",
+          "snippet": "Specialties: Happy Hour daily from 4-6 pm with $4 house wine (red, white or sparkling), $4 sangria (red or white), single well cocktails and domestic beer. PAMPLONA Tapas Bar and Restaurant is located in downtown Lafayette, Louisiana, a thriving culinary mecca centered in the heart of traditional Cajun Country. We reel in, sauté and perfectly plate earthy-yet-refined flavors reminiscent of ..."
+        },
+        {
+          "title": "Best Happy Hours & Cheap Eats in Lafayette Under $10",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.lafayettetravel.com%2Fblog%2Fstories%2Fpost%2Fbest%2Dhappy%2Dhours%2Dand%2Daffordable%2Deats%2Din%2Dlafayette%2F&rut=b177d5f4ed8014f7d45990ddb2fbe6fc93bb0ffbb1925328f5d4e633eaaa7ddb",
+          "snippet": "However, there are a few notable places that offer specials on certain days. On Tuesdays, Pamplona Tapas Bar features half-off chargrilled oysters from 5 to 9 PM—a delicious midweek indulgence. Wednesdays belong to The Tap Room, where ladies get half-off the entire menu, including craft flatbreads, beer, and cocktails."
+        }
+      ]
+    },
+    {
+      "id": "deal-029",
+      "restaurant": "The French Press",
+      "deal": "Brunch board special with rotating pastry and coffee add-on",
+      "category": "Seasonal",
+      "sourceDealStatus": "approved",
+      "matchedSeedPlace": null,
+      "verified": true,
+      "verificationScore": 3,
+      "checkedAt": "2026-03-30T04:04:35.318Z",
+      "evidence": [
+        {
+          "title": "The French Press - 70503, Lafayette, LA",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fthefrenchpressla.com%2F&rut=625e1feaa237be827b278ed39bce580ff800b6dae2136be34c311869b18569dc",
+          "snippet": "The French Press, a breakfast-brunch-lunch restaurant holding the distinctions of being hailed as one of SAVEUR Magazine's Top 100 Inspiring Places and Things to Eat (Jan/Feb 2013) and rated as one of Urban Spoon's Top Breakfast Restaurants in the country (2013), is located in Lafayette, LA - the heart of Cajun country. The restaurant serves inventive versions of traditional Cajun and American ..."
+        },
+        {
+          "title": "The French Press | Lafayette LA - Facebook",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.facebook.com%2Ffrenchpresslaf%2F&rut=e2b00d51305ce6e9111b82dad61fa90d46232c0ad65ad7ccf3914acd61a39978",
+          "snippet": "The French Press, Lafayette. 15,591 likes · 16 talking about this · 23,701 were here. Expect the Unexpected. www.thefrenchpressla.com"
+        },
+        {
+          "title": "The French Press - Lafayette, LA",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.yelp.com%2Fbiz%2Fthe%2Dfrench%2Dpress%2Dlafayette%2D2&rut=deb1b59d0a2d887d672867774f5e3fe94d3d2f99e50cb2295fb6a1b76dda33dd",
+          "snippet": "Location & Hours Suggest an edit 3822 Ambassador Caffery Pkwy Lafayette, LA 70503 Get directions ... Estimated Health Score Offers take-out"
+        },
+        {
+          "title": "THE FRENCH PRESS, Lafayette - Tripadvisor",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.tripadvisor.com%2FRestaurant_Review%2Dg40261%2Dd1637568%2DReviews%2DThe_French_Press%2DLafayette_Lafayette_Parish_Louisiana.html&rut=ff1c0c30872cc650943ebb6c9dc9b1d41ba9ef0982f6708c86ec9a1e02d92f03",
+          "snippet": "The French Press, Lafayette: See 396 unbiased reviews of The French Press, rated 4.3 of 5 on Tripadvisor and ranked #12 of 365 restaurants in Lafayette."
+        },
+        {
+          "title": "The French Press - Ambassador, Lafayette - Restaurantji",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.restaurantji.com%2Fla%2Flafayette%2Fthe%2Dfrench%2Dpress%2Dambassador%2D%2F&rut=8ad261f2d39ae537610005c2b900051564cf2fa9bb5a8b3d5375a79ac2c66af1",
+          "snippet": "Latest reviews, photos and ratings for The French Press - Ambassador at 3822 Ambassador Caffery Pkwy in Lafayette - view the menu, hours, phone number, address and map."
+        },
+        {
+          "title": "The French Press - 70503, Lafayette, LA",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fthefrenchpressla.com%2F&rut=625e1feaa237be827b278ed39bce580ff800b6dae2136be34c311869b18569dc",
+          "snippet": "The French Press, a breakfast-brunch-lunch restaurant holding the distinctions of being hailed as one of SAVEUR Magazine's Top 100 Inspiring Places and Things to Eat (Jan/Feb 2013) and rated as one of Urban Spoon's Top Breakfast Restaurants in the country (2013), is located in Lafayette, LA - the heart of Cajun country. The restaurant serves inventive versions of traditional Cajun and American ..."
+        },
+        {
+          "title": "The French Press | Lafayette LA - Facebook",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.facebook.com%2Ffrenchpresslaf%2F&rut=e2b00d51305ce6e9111b82dad61fa90d46232c0ad65ad7ccf3914acd61a39978",
+          "snippet": "The French Press, Lafayette. 15,591 likes · 16 talking about this · 23,701 were here. Expect the Unexpected. www.thefrenchpressla.com"
+        },
+        {
+          "title": "The French Press Menu - Updated November 2025",
+          "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.checkle.com%2Fbiz%2Fthe%2Dfrench%2Dpress%2Dlafayette%2Fmenu&rut=03200671d121fc18554133cf98a0c307512e96c50c1e96e9d409125b7179fd67",
+          "snippet": "View up-to-date menus for The French Press located at 3822 Ambassador Caffery Pkwy in Lafayette, LA 70501. A chef-driven, casual dining brunch spot in downtown Lafayette. Join us for one-of-a-kind Cajun-inspired creations!"
+        }
+      ]
+    },
+    {
+      "id": "deal-030",
+      "restaurant": "Bread & Circus Provisions",
+      "deal": "Neighborhood pizza night: discounted pies on Thursdays",
+      "category": "Daily Special",
+      "sourceDealStatus": "approved",
+      "matchedSeedPlace": null,
+      "verified": false,
+      "verificationScore": 0,
+      "checkedAt": "2026-03-30T04:04:35.794Z",
+      "evidence": []
+    },
+    {
+      "id": "deal-031",
+      "restaurant": "Dat Dog",
+      "deal": "Specialty dog + local draft combo on weekday evenings",
+      "category": "Daily Special",
+      "sourceDealStatus": "approved",
+      "matchedSeedPlace": null,
+      "verified": false,
+      "verificationScore": 0,
+      "checkedAt": "2026-03-30T04:04:36.252Z",
+      "evidence": []
+    },
+    {
+      "id": "deal-032",
+      "restaurant": "Central Pizza",
+      "deal": "Downtown lunch special: personal pie + fountain drink",
+      "category": "Daily Special",
+      "sourceDealStatus": "approved",
+      "matchedSeedPlace": {
+        "slug": "central-pizza-bar-lafayette-lafayette",
+        "name": "CENTRAL Pizza + Bar Lafayette",
+        "address": "423 Jefferson St, Lafayette, LA 70501, USA"
+      },
+      "verified": false,
+      "verificationScore": 0,
+      "checkedAt": "2026-03-30T04:04:36.696Z",
+      "evidence": []
+    },
+    {
+      "id": "deal-033",
+      "restaurant": "Scratch Farm Kitchen",
+      "deal": "Grand opening week: 15% off lunch bowls and wraps",
+      "category": "New Opening",
+      "sourceDealStatus": "approved",
+      "matchedSeedPlace": null,
+      "verified": false,
+      "verificationScore": 0,
+      "checkedAt": "2026-03-30T04:04:37.146Z",
+      "evidence": []
+    }
+  ]
+}

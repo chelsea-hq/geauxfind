@@ -1,6 +1,64 @@
 # GeauxFind — Project State
 *Luna: READ THIS EVERY SESSION before touching GeauxFind. No exceptions.*
-*Last updated: 2026-03-28 11:59 PM CT*
+*Last updated: 2026-03-29 11:10 PM CT*
+
+## Real Data Pipelines Upgrade (2026-03-29)
+
+### ✅ New weekend events aggregator
+- Added `scripts/scrape-weekend-events.js` to collect real events from free/public sources:
+  - Eventbrite API (uses `EVENTBRITE_API_TOKEN` if provided)
+  - Facebook public pages/events (cached HTML scrape)
+  - Do337 public listing scrape
+  - KRVS public site scrape
+- Writes normalized output to `data/weekend-events.json` with schema:
+  - `{ events: [{ title, date, venue, address, description, source, url, category }] }`
+- Includes date-window filtering for this weekend + next 7 days and title-similarity dedupe.
+- Added script command: `npm run scrape:weekend-events`
+
+### ✅ Real weather API route
+- Added `src/app/api/weather/route.ts`
+- Uses Open-Meteo Lafayette endpoint (no key): 3-day daily max/min/precip forecast
+- Returns formatted weather payload for Lafayette, LA
+- 1-hour in-memory cache + Next fetch revalidation
+
+### ✅ Real local specials verification pipeline
+- Added `scripts/scrape-specials.js`
+- Reads restaurants from `scripts/seed-data.json` and deals from `data/deals.json`
+- Performs web search evidence checks (Brave API when key exists; DuckDuckGo fallback)
+- Verifies specials with scoring and writes to `data/verified-deals.json`
+- Unverified items are explicitly marked `"verified": false`
+- Added script command: `npm run scrape:specials`
+
+### ✅ Real Reddit local API route
+- Added `src/app/api/reddit-local/route.ts`
+- Pulls hot posts from:
+  - `r/Acadiana`
+  - `r/lafayette`
+- Filters to food/restaurants/events/things-to-do relevance keywords
+- Returns top ranked relevant posts
+- Adds 30-minute in-memory cache + Next fetch revalidation
+
+### ✅ Neighborhood assignment pipeline
+- Added `scripts/assign-neighborhoods.js`
+- Uses zip (primary) + street/city heuristics (secondary) to assign neighborhood labels:
+  - Downtown Lafayette, River Ranch, Youngsville, Broussard, Scott, Breaux Bridge, Carencro, North Lafayette, Oil Center, Freetown/Port Rico, Other / Unassigned
+- Script was executed and `scripts/seed-data.json` now includes `neighborhood` on all records (742 places)
+- Added script command: `npm run assign:neighborhoods`
+
+### ✅ Open-now utility library
+- Added `src/lib/open-now.ts`
+- Exports:
+  - `isOpenNow(hours)`
+  - `getNextOpenTime(hours)`
+- Handles common/edge formats:
+  - standard day/time ranges
+  - 24-hour entries
+  - closed days
+  - missing hours
+  - overnight ranges crossing midnight
+
+### ✅ Build verification
+- `npx next build` passes with new routes/scripts in place.
 
 ## Supabase Schema + Seed + API Migration (2026-03-28)
 
