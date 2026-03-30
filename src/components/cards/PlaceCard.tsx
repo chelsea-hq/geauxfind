@@ -42,7 +42,17 @@ function getImageSrc(place: Place) {
   return image;
 }
 
-export function PlaceCard({ place, featured = false, compact = false }: { place: Place; featured?: boolean; compact?: boolean }) {
+export function PlaceCard({
+  place,
+  featured = false,
+  compact = false,
+  blurb,
+}: {
+  place: Place;
+  featured?: boolean;
+  compact?: boolean;
+  blurb?: string;
+}) {
   const smart = place.smartTags ?? [];
   const specialTag = smart.find((t) => /late|night/i.test(t)) ? "Late Night" : smart.length > 2 ? "Hidden Gem" : null;
   const fallbackSrc = placeholderByCategory[place.category] ?? "/placeholders/default.svg";
@@ -69,7 +79,7 @@ export function PlaceCard({ place, featured = false, compact = false }: { place:
           <span className="shrink-0 text-xs text-[var(--warm-gray)]">{place.reviews?.length ?? 0} reviews</span>
         </div>
         <p className="flex items-center text-sm text-[var(--warm-gray)]"><MapPin className="mr-1 h-4 w-4" />{place.city}</p>
-        {!compact ? <p className="line-clamp-2 text-sm text-[var(--cast-iron)]/85">{place.description}</p> : null}
+        {!compact ? <p className="line-clamp-2 text-sm text-[var(--cast-iron)]/85">{blurb ?? place.description}</p> : null}
       </div>
     </article>
   );

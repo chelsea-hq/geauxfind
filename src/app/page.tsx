@@ -14,10 +14,14 @@ import { JsonLd } from "@/components/JsonLd";
 import { FaqSection } from "@/components/FaqSection";
 import type { Place, WhatsNewItem } from "@/types";
 
+type AiPick = Place & { why?: string };
+
 export default function Home() {
   const [whatsNewItems, setWhatsNewItems] = useState<WhatsNewItem[]>([]);
   const [trending, setTrending] = useState<Array<{ query: string; count: number; spark: Array<{ label: string; count: number }> }>>([]);
   const [businessQuery, setBusinessQuery] = useState("");
+  const [aiPicks, setAiPicks] = useState<AiPick[]>([]);
+  const [aiVibe, setAiVibe] = useState("");
 
   const claimablePlaces = useMemo(() => (seedPlaces as Place[]), []);
 
@@ -64,7 +68,6 @@ export default function Home() {
       .slice(0, 3);
   }, [businessQuery, claimablePlaces]);
 
-  const aiPicks = places.slice(2, 10);
   const featuredRecipe = recipes[0];
 
   useEffect(() => {
@@ -77,6 +80,26 @@ export default function Home() {
       .then((res) => res.json())
       .then((data) => setTrending(Array.isArray(data?.items) ? data.items : []))
       .catch(() => setTrending([]));
+
+    fetch("/api/ai-picks", { cache: "no-store" })
+      .then((res) => (res.ok ? res.json() : Promise.reject(new Error("ai-picks request failed"))))
+      .then((data) => {
+        const picks = Array.isArray(data?.picks) ? data.picks : [];
+        if (picks.length > 0) {
+          setAiPicks(picks);
+          setAiVibe(typeof data?.vibe === "string" ? data.vibe : "");
+          return;
+        }
+
+        const fallback = places.filter((p) => p.featured).slice(0, 6);
+        setAiPicks(fallback);
+        setAiVibe("Handpicked featured spots from around Acadiana.");
+      })
+      .catch(() => {
+        const fallback = places.filter((p) => p.featured).slice(0, 6);
+        setAiPicks(fallback);
+        setAiVibe("Handpicked featured spots from around Acadiana.");
+      });
 
     const targets = Array.from(document.querySelectorAll(".reveal"));
     const observer = new IntersectionObserver(
@@ -307,13 +330,14 @@ export default function Home() {
           <h2 className="text-3xl text-[var(--cajun-red)]">AI Picks For You</h2>
           <Sparkles className="h-5 w-5 text-[var(--sunset-gold)]" />
         </div>
+        {aiVibe ? <p className="mb-4 text-sm text-[var(--warm-gray)]">{aiVibe}</p> : null}
         <div className="relative">
           <div className="pointer-events-none absolute inset-y-0 left-0 z-10 w-10 bg-gradient-to-r from-[var(--cream)] to-transparent" />
           <div className="pointer-events-none absolute inset-y-0 right-0 z-10 w-10 bg-gradient-to-l from-[var(--cream)] to-transparent" />
           <div className="flex snap-x snap-mandatory gap-4 overflow-x-auto pb-2 scrollbar-hide">
-            {aiPicks.map((pick) => (
-              <div key={pick.slug} className="min-w-[280px] snap-start">
-                <PlaceCard place={pick} />
+            {aiPicks.map((pick, idx) => (
+              <div key={pick.slug ?? `${pick.name}-${idx}`} className="min-w-[280px] snap-start">
+                <PlaceCard place={pick} blurb={pick.why} />
               </div>
             ))}
           </div>
