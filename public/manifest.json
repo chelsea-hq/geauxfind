@@ -1,12 +1,13 @@
 {
-  "name": "GeauxFind",
+  "name": "GeauxFind — Discover Acadiana",
   "short_name": "GeauxFind",
-  "description": "Discover the best of Acadiana",
+  "description": "AI-curated local discovery for Acadiana, Louisiana — 4,000+ restaurants, bars, music venues & hidden gems.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#FAF7F2",
-  "theme_color": "#8B1A1A",
+  "theme_color": "#BE1E2D",
   "icons": [
-    { "src": "/icon.png", "sizes": "192x192", "type": "image/png" }
+    { "src": "/icon.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
   ]
 }
