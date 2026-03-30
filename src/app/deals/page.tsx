@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { readJsonFile } from "@/lib/community-data";
 import { buildMetadata } from "@/lib/seo";
 import { DealSubmitForm } from "./DealSubmitForm";
@@ -78,7 +77,6 @@ export default async function DealsPage() {
     .sort((a, b) => b.upvotes - a.upvotes)
     .slice(0, 4);
 
-  const partner = data.featuredPartners.find((p) => p.name.toLowerCase().includes("parish tins"));
 
   return (
     <main className="pb-16">
@@ -147,25 +145,7 @@ export default async function DealsPage() {
           <DealSubmitForm initial={[]} />
         </section>
 
-        {partner ? (
-          <section className="mt-12">
-            <article className="rounded-2xl border border-[var(--spanish-moss)]/30 bg-white p-5">
-              <p className="text-xs font-semibold uppercase tracking-widest text-[var(--cajun-red)]">Our Partner</p>
-              <p className="mt-2 text-lg font-semibold text-[var(--cast-iron)]">
-                Parish Tins — $250 in local dining for $25
-              </p>
-              <p className="mt-1 text-sm text-[var(--warm-gray)]">{partner.tagline}</p>
-              <Link
-                href={partner.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-4 inline-flex min-h-11 items-center rounded-xl bg-[var(--cajun-red)] px-5 py-2.5 text-sm font-semibold text-white"
-              >
-                Visit Parish Tins →
-              </Link>
-            </article>
-          </section>
-        ) : null}
+
       </div>
     </main>
   );

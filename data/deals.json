@@ -1,31 +1,6 @@
 {
-  "dealOfTheDay": {
-    "id": "dotd-rotation-2026-03",
-    "title": "Parish Tins Local Dining Bundle \u2014 $250 in Acadiana Gift Cards for $25",
-    "description": "One tin includes 25 coaster gift cards worth $10 each at participating local restaurants. Great for date nights, gifts, and trying somewhere new.",
-    "partner": "Parish Tins",
-    "partnerUrl": "https://parishtins.com",
-    "badge": "Partner Highlight",
-    "validThrough": "2026-06-30",
-    "highlight": "Spring rotation active \u2014 limited runs sell out fast"
-  },
-  "featuredPartners": [
-    {
-      "id": "parish-tins",
-      "name": "Parish Tins",
-      "tagline": "25 restaurants. 25 coasters. One $25 tin.",
-      "description": "Local dining gift tin with standout value for Acadiana food lovers.",
-      "url": "https://parishtins.com",
-      "logo": "/partners/parish-tins-logo.png",
-      "valueProp": "$250 in dining value for $25",
-      "category": "Local Partner",
-      "highlights": [
-        "25 local restaurants included",
-        "Each coaster worth $10",
-        "Great for gifts and visitors"
-      ]
-    }
-  ],
+  "dealOfTheDay": null,
+  "featuredPartners": [],
   "categories": [
     "Happy Hour",
     "Daily Special",
