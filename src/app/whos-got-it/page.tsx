@@ -1,6 +1,6 @@
 import { buildMetadata } from "@/lib/seo";
 import { GUIDE_BY_CATEGORY } from "@/lib/guide-config";
-import { GuidePage } from "@/components/guides/GuidePage";
+import WhosGotItPage from "./WhosGotItPage";
 
 const config = GUIDE_BY_CATEGORY["whos-got-it"];
 
@@ -11,5 +11,5 @@ export const metadata = buildMetadata({
 });
 
 export default function Page() {
-  return <GuidePage config={config} />;
+  return <WhosGotItPage />;
 }
