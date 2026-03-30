@@ -105,7 +105,7 @@
       "updatedAt": "03/26/2026 03:57 PM CST"
     },
     {
-      "name": "Jo Mama’s Crawfish",
+      "name": "Jo Mama\u2019s Crawfish",
       "address": "1902 W Summers Dr.",
       "city": "Abbeville",
       "boiledPricePerLb": 5.33,
@@ -165,7 +165,7 @@
       "updatedAt": "03/25/2026 04:45 PM CST"
     },
     {
-      "name": "STELLY’S Boiling Spot",
+      "name": "STELLY\u2019S Boiling Spot",
       "address": "1120 Veterans Memorial Dr.",
       "city": "Abbeville",
       "boiledPricePerLb": 5.49,
@@ -210,21 +210,6 @@
       "updatedAt": "03/25/2026 02:00 PM CST"
     },
     {
-      "name": "Randol's",
-      "address": "325 West Mills Ave.",
-      "city": "Breaux Bridge",
-      "boiledPricePerLb": 6.99,
-      "boiledPriceText": "$6.99/1LB",
-      "livePricePerLb": null,
-      "livePriceText": "Unavailable/1LB",
-      "boiledSize": "Medium",
-      "liveSize": "Medium",
-      "rating": 5,
-      "phone": "337-332-4648",
-      "hours": null,
-      "updatedAt": "03/25/2026 08:20 PM CST"
-    },
-    {
       "name": "Boil & Geaux LLC",
       "address": "226 St. Nazaire Rd.",
       "city": "Broussard",
@@ -240,7 +225,7 @@
       "updatedAt": "03/26/2026 02:56 PM CST"
     },
     {
-      "name": "Broussard’s Boiling Pot",
+      "name": "Broussard\u2019s Boiling Pot",
       "address": "158 Heritage Pkwy.",
       "city": "Broussard",
       "boiledPricePerLb": null,
@@ -285,7 +270,7 @@
       "updatedAt": "03/25/2026 01:08 PM CST"
     },
     {
-      "name": "Pogie’s Boil House",
+      "name": "Pogie\u2019s Boil House",
       "address": "226 St Nazaire Rd.",
       "city": "Broussard",
       "boiledPricePerLb": 4.99,
@@ -405,7 +390,7 @@
       "updatedAt": "03/19/2026 06:41 PM CST"
     },
     {
-      "name": "Mikey’s Seafood & Specialty Meats Crowley",
+      "name": "Mikey\u2019s Seafood & Specialty Meats Crowley",
       "address": "165 Oddfellows Rd.",
       "city": "Crowley",
       "boiledPricePerLb": 5.49,
@@ -465,7 +450,7 @@
       "updatedAt": "03/25/2026 01:44 PM CST"
     },
     {
-      "name": "Cooney’s Crawfish",
+      "name": "Cooney\u2019s Crawfish",
       "address": "4535 Moss Street",
       "city": "Lafayette",
       "boiledPricePerLb": 6,
@@ -555,7 +540,7 @@
       "updatedAt": "01/09/2026 12:45 PM CST"
     },
     {
-      "name": "JJ’s Boiling Shack",
+      "name": "JJ\u2019s Boiling Shack",
       "address": "405 Duhon Road",
       "city": "Lafayette",
       "boiledPricePerLb": 6.5,
@@ -870,7 +855,7 @@
       "updatedAt": "03/25/2026 05:39 PM CST"
     },
     {
-      "name": "Jett’s Crawfish Drive-Thru",
+      "name": "Jett\u2019s Crawfish Drive-Thru",
       "address": "1421 The Boulevard.",
       "city": "Rayne",
       "boiledPricePerLb": 5.83,
@@ -915,7 +900,7 @@
       "updatedAt": "03/19/2026 04:11 PM CST"
     },
     {
-      "name": "Cody’s Crawfish Shop",
+      "name": "Cody\u2019s Crawfish Shop",
       "address": "505 Apollo Rd.",
       "city": "Scott",
       "boiledPricePerLb": 6.6,

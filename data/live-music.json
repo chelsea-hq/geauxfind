@@ -83,49 +83,49 @@
           "day": "Monday",
           "dayIndex": 1,
           "description": "Live music during dinner",
-          "hours": "6:00 PM – 9:00 PM",
+          "hours": "6:00 PM \u2013 9:00 PM",
           "genre": "Variety"
         },
         {
           "day": "Tuesday",
           "dayIndex": 2,
           "description": "Live music during dinner",
-          "hours": "6:00 PM – 9:00 PM",
+          "hours": "6:00 PM \u2013 9:00 PM",
           "genre": "Variety"
         },
         {
           "day": "Wednesday",
           "dayIndex": 3,
           "description": "Live music during dinner",
-          "hours": "6:00 PM – 9:00 PM",
+          "hours": "6:00 PM \u2013 9:00 PM",
           "genre": "Variety"
         },
         {
           "day": "Thursday",
           "dayIndex": 4,
           "description": "Live music during dinner",
-          "hours": "6:00 PM – 9:00 PM",
+          "hours": "6:00 PM \u2013 9:00 PM",
           "genre": "Variety"
         },
         {
           "day": "Friday",
           "dayIndex": 5,
           "description": "Live music during dinner",
-          "hours": "6:00 PM – 9:00 PM",
+          "hours": "6:00 PM \u2013 9:00 PM",
           "genre": "Variety"
         },
         {
           "day": "Saturday",
           "dayIndex": 6,
           "description": "Live music during brunch & dinner",
-          "hours": "10:00 AM – 2:00 PM, 6:00 PM – 9:00 PM",
+          "hours": "10:00 AM \u2013 2:00 PM, 6:00 PM \u2013 9:00 PM",
           "genre": "Variety"
         },
         {
           "day": "Sunday",
           "dayIndex": 0,
           "description": "Live music during brunch",
-          "hours": "10:00 AM – 2:00 PM",
+          "hours": "10:00 AM \u2013 2:00 PM",
           "genre": "Variety"
         }
       ],
@@ -139,7 +139,7 @@
       "vibe": "Upscale Cajun restaurant with nightly live music",
       "website": "https://bontempsgrill.com",
       "category": "Restaurant",
-      "notes": "Live music 7 days a week — one of the best dinner-and-music combos in Lafayette. Swamp-edge cuisine in an urban Cajun atmosphere.",
+      "notes": "Live music 7 days a week \u2014 one of the best dinner-and-music combos in Lafayette. Swamp-edge cuisine in an urban Cajun atmosphere.",
       "isRestaurant": true
     },
     {
@@ -152,8 +152,8 @@
         {
           "day": "Saturday",
           "dayIndex": 6,
-          "description": "World-Famous Zydeco Breakfast – live zydeco music while you dine",
-          "hours": "8:00 AM – 11:30 AM",
+          "description": "World-Famous Zydeco Breakfast \u2013 live zydeco music while you dine",
+          "hours": "8:00 AM \u2013 11:30 AM",
           "genre": "Zydeco"
         },
         {
@@ -179,7 +179,7 @@
       "vibe": "Cajun-Italian restaurant in a restored motor building. Famous Saturday Zydeco Breakfast with a balcony overlooking the dance floor. First come, first served.",
       "website": "https://www.buckandjohnnys.com",
       "category": "Restaurant / Music Venue",
-      "notes": "100 Berard St, Breaux Bridge. No reservations for Zydeco Breakfast – doors open at 8 AM. Yvette Landry and Richard Comeaux have standing residency Thu–Sat evenings.",
+      "notes": "100 Berard St, Breaux Bridge. No reservations for Zydeco Breakfast \u2013 doors open at 8 AM. Yvette Landry and Richard Comeaux have standing residency Thu\u2013Sat evenings.",
       "isRestaurant": true
     },
     {
@@ -193,14 +193,14 @@
           "day": "Saturday",
           "dayIndex": 6,
           "description": "Live music during brunch and evening service",
-          "hours": "11:00 AM – 2:00 PM / 5:00 PM – 9:00 PM",
+          "hours": "11:00 AM \u2013 2:00 PM / 5:00 PM \u2013 9:00 PM",
           "genre": "Cajun / Local"
         },
         {
           "day": "Sunday",
           "dayIndex": 0,
           "description": "Live music during Sunday brunch",
-          "hours": "9:45 AM – 2:00 PM",
+          "hours": "9:45 AM \u2013 2:00 PM",
           "genre": "Cajun / Local"
         }
       ],
@@ -209,9 +209,9 @@
         "Local Artists"
       ],
       "cover": "Free",
-      "vibe": "Charming downtown Breaux Bridge café with live local music and art. Modern Cajun cuisine. Warm, community feel.",
+      "vibe": "Charming downtown Breaux Bridge caf\u00e9 with live local music and art. Modern Cajun cuisine. Warm, community feel.",
       "website": "https://cafesydniemae.com",
-      "category": "Restaurant / Café",
+      "category": "Restaurant / Caf\u00e9",
       "notes": "140 E Bridge St, Breaux Bridge. Live music on weekends. Also doubles as a brunch destination.",
       "isRestaurant": true
     },
@@ -226,28 +226,28 @@
           "day": "Wednesday",
           "dayIndex": 3,
           "description": "Live music during dinner",
-          "hours": "6:00 PM – 9:00 PM",
+          "hours": "6:00 PM \u2013 9:00 PM",
           "genre": "Jazz"
         },
         {
           "day": "Thursday",
           "dayIndex": 4,
           "description": "Live music during dinner",
-          "hours": "6:00 PM – 9:00 PM",
+          "hours": "6:00 PM \u2013 9:00 PM",
           "genre": "Jazz"
         },
         {
           "day": "Friday",
           "dayIndex": 5,
           "description": "Live music during dinner",
-          "hours": "6:00 PM – 9:00 PM",
+          "hours": "6:00 PM \u2013 9:00 PM",
           "genre": "Jazz"
         },
         {
           "day": "Saturday",
           "dayIndex": 6,
           "description": "Live music during dinner",
-          "hours": "6:00 PM – 9:00 PM",
+          "hours": "6:00 PM \u2013 9:00 PM",
           "genre": "Jazz"
         }
       ],
@@ -273,21 +273,21 @@
           "day": "Thursday",
           "dayIndex": 4,
           "description": "Live music",
-          "hours": "7:00 PM – 10:00 PM",
+          "hours": "7:00 PM \u2013 10:00 PM",
           "genre": "Variety"
         },
         {
           "day": "Friday",
           "dayIndex": 5,
           "description": "Live music",
-          "hours": "7:00 PM – 10:00 PM",
+          "hours": "7:00 PM \u2013 10:00 PM",
           "genre": "Variety"
         },
         {
           "day": "Saturday",
           "dayIndex": 6,
           "description": "Live music",
-          "hours": "7:00 PM – 10:00 PM",
+          "hours": "7:00 PM \u2013 10:00 PM",
           "genre": "Variety"
         }
       ],
@@ -314,14 +314,14 @@
           "day": "Friday",
           "dayIndex": 5,
           "description": "Live music",
-          "hours": "7:00 PM – 10:00 PM",
+          "hours": "7:00 PM \u2013 10:00 PM",
           "genre": "Variety"
         },
         {
           "day": "Saturday",
           "dayIndex": 6,
           "description": "Live music",
-          "hours": "7:00 PM – 10:00 PM",
+          "hours": "7:00 PM \u2013 10:00 PM",
           "genre": "Variety"
         }
       ],
@@ -369,7 +369,7 @@
         "Cajun"
       ],
       "cover": "Free",
-      "vibe": "Formerly Mulate's – the original Cajun restaurant. Authentic Cajun food and live music. Known for seafood and traditional recipes.",
+      "vibe": "Formerly Mulate's \u2013 the original Cajun restaurant. Authentic Cajun food and live music. Known for seafood and traditional recipes.",
       "website": "https://pontbreauxscajunrestaurant.com",
       "category": "Restaurant / Dance Hall",
       "notes": "325 W Mills Ave, Breaux Bridge. (337) 332-4648. Formerly operated as Mulate's Cajun Restaurant; same tradition of nightly live music. Call ahead to verify current schedule.",
@@ -386,63 +386,63 @@
           "day": "Saturday",
           "dayIndex": 6,
           "description": "Morning Cajun music session",
-          "hours": "9:00 AM – 11:00 AM",
+          "hours": "9:00 AM \u2013 11:00 AM",
           "genre": "Cajun"
         },
         {
           "day": "Sunday",
           "dayIndex": 0,
           "description": "Morning Cajun music session",
-          "hours": "9:00 AM – 11:00 AM",
+          "hours": "9:00 AM \u2013 11:00 AM",
           "genre": "Cajun"
         },
         {
           "day": "Monday",
           "dayIndex": 1,
           "description": "Live traditional Cajun music",
-          "hours": "7:00 PM – close",
+          "hours": "7:00 PM \u2013 close",
           "genre": "Cajun"
         },
         {
           "day": "Tuesday",
           "dayIndex": 2,
           "description": "Live traditional Cajun music",
-          "hours": "7:00 PM – close",
+          "hours": "7:00 PM \u2013 close",
           "genre": "Cajun"
         },
         {
           "day": "Wednesday",
           "dayIndex": 3,
           "description": "Live traditional Cajun music",
-          "hours": "7:00 PM – close",
+          "hours": "7:00 PM \u2013 close",
           "genre": "Cajun"
         },
         {
           "day": "Thursday",
           "dayIndex": 4,
           "description": "Live traditional Cajun music",
-          "hours": "7:00 PM – close",
+          "hours": "7:00 PM \u2013 close",
           "genre": "Cajun"
         },
         {
           "day": "Friday",
           "dayIndex": 5,
           "description": "Live traditional Cajun music",
-          "hours": "7:00 PM – close",
+          "hours": "7:00 PM \u2013 close",
           "genre": "Cajun"
         },
         {
           "day": "Saturday",
           "dayIndex": 6,
           "description": "Live traditional Cajun music (evening)",
-          "hours": "7:00 PM – close",
+          "hours": "7:00 PM \u2013 close",
           "genre": "Cajun"
         },
         {
           "day": "Sunday",
           "dayIndex": 0,
           "description": "Live traditional Cajun music (evening)",
-          "hours": "7:00 PM – close",
+          "hours": "7:00 PM \u2013 close",
           "genre": "Cajun"
         }
       ],
@@ -457,67 +457,6 @@
       "isRestaurant": true
     },
     {
-      "slug": "randols",
-      "name": "Randol's Restaurant & Cajun Dance Hall",
-      "locations": [
-        "Lafayette"
-      ],
-      "musicNights": [
-        {
-          "day": "Tuesday",
-          "dayIndex": 2,
-          "description": "Live Cajun music and dancing",
-          "hours": "6:30 PM – close",
-          "genre": "Cajun"
-        },
-        {
-          "day": "Wednesday",
-          "dayIndex": 3,
-          "description": "Live Cajun music and dancing",
-          "hours": "6:30 PM – close",
-          "genre": "Cajun"
-        },
-        {
-          "day": "Thursday",
-          "dayIndex": 4,
-          "description": "Live Cajun music and dancing",
-          "hours": "6:30 PM – close",
-          "genre": "Cajun"
-        },
-        {
-          "day": "Friday",
-          "dayIndex": 5,
-          "description": "Live Cajun music and dancing",
-          "hours": "6:30 PM – close",
-          "genre": "Cajun"
-        },
-        {
-          "day": "Saturday",
-          "dayIndex": 6,
-          "description": "Live Cajun music and dancing (e.g. Maegan Benoit)",
-          "hours": "6:30 PM – close",
-          "genre": "Cajun"
-        },
-        {
-          "day": "Sunday",
-          "dayIndex": 0,
-          "description": "Live Cajun music and dancing",
-          "hours": "6:30 PM – close",
-          "genre": "Cajun"
-        }
-      ],
-      "genres": [
-        "Cajun",
-        "Zydeco"
-      ],
-      "cover": "Free",
-      "vibe": "Classic Acadiana dance hall with large dance floor. Open 40+ years. Locals and tourists two-stepping nightly. Great crawfish.",
-      "website": "https://www.randols.com",
-      "category": "Restaurant / Dance Hall",
-      "notes": "Located at 2320 Kaliste Saloom Rd, Lafayette. Known for crawfish by the pound. Live music nightly; call ahead to confirm specific nights.",
-      "isRestaurant": true
-    },
-    {
       "slug": "rock-n-bowl-lafayette",
       "name": "Rock'n'Bowl de Lafayette",
       "locations": [
@@ -528,28 +467,28 @@
           "day": "Thursday",
           "dayIndex": 4,
           "description": "Zydeco night",
-          "hours": "8:30 PM – close",
+          "hours": "8:30 PM \u2013 close",
           "genre": "Zydeco"
         },
         {
           "day": "Friday",
           "dayIndex": 5,
           "description": "Live music with bowling",
-          "hours": "9:30 PM – close",
+          "hours": "9:30 PM \u2013 close",
           "genre": "Zydeco / Party Band / Various"
         },
         {
           "day": "Saturday",
           "dayIndex": 6,
           "description": "Live music with bowling",
-          "hours": "9:30 PM – close",
+          "hours": "9:30 PM \u2013 close",
           "genre": "Party Band / Various"
         },
         {
           "day": "Sunday",
           "dayIndex": 0,
-          "description": "Zydeco Sunday – live zydeco starting around 5 PM",
-          "hours": "5:00 PM – close",
+          "description": "Zydeco Sunday \u2013 live zydeco starting around 5 PM",
+          "hours": "5:00 PM \u2013 close",
           "genre": "Zydeco"
         }
       ],
@@ -577,28 +516,28 @@
           "day": "Wednesday",
           "dayIndex": 3,
           "description": "Live acoustic music",
-          "hours": "6:00 PM – 9:00 PM",
+          "hours": "6:00 PM \u2013 9:00 PM",
           "genre": "Country"
         },
         {
           "day": "Thursday",
           "dayIndex": 4,
           "description": "Live music",
-          "hours": "6:00 PM – 9:00 PM",
+          "hours": "6:00 PM \u2013 9:00 PM",
           "genre": "Variety"
         },
         {
           "day": "Friday",
           "dayIndex": 5,
           "description": "Live music",
-          "hours": "6:30 PM – 9:30 PM",
+          "hours": "6:30 PM \u2013 9:30 PM",
           "genre": "Variety"
         },
         {
           "day": "Saturday",
           "dayIndex": 6,
           "description": "Live music",
-          "hours": "6:30 PM – 9:30 PM",
+          "hours": "6:30 PM \u2013 9:30 PM",
           "genre": "Country"
         }
       ],
@@ -625,21 +564,21 @@
           "day": "Thursday",
           "dayIndex": 4,
           "description": "Live music during dinner",
-          "hours": "6:00 PM – 9:00 PM",
+          "hours": "6:00 PM \u2013 9:00 PM",
           "genre": "Variety"
         },
         {
           "day": "Friday",
           "dayIndex": 5,
           "description": "Live music during dinner",
-          "hours": "7:00 PM – 10:00 PM",
+          "hours": "7:00 PM \u2013 10:00 PM",
           "genre": "Variety"
         },
         {
           "day": "Saturday",
           "dayIndex": 6,
           "description": "Live music during dinner",
-          "hours": "7:00 PM – 10:00 PM",
+          "hours": "7:00 PM \u2013 10:00 PM",
           "genre": "Variety"
         }
       ],
@@ -651,7 +590,7 @@
       "vibe": "Farm-to-table restaurant with weekend live music",
       "website": "https://www.socialsouthern.com",
       "category": "Restaurant",
-      "notes": "Farm-to-table approach with brunch, lunch, and dinner. Live music on peak nights — busiest Thu–Sat evenings.",
+      "notes": "Farm-to-table approach with brunch, lunch, and dinner. Live music on peak nights \u2014 busiest Thu\u2013Sat evenings.",
       "isRestaurant": true
     },
     {
@@ -665,14 +604,14 @@
           "day": "Friday",
           "dayIndex": 5,
           "description": "Live music",
-          "hours": "7:00 PM – 10:00 PM",
+          "hours": "7:00 PM \u2013 10:00 PM",
           "genre": "Variety"
         },
         {
           "day": "Saturday",
           "dayIndex": 6,
           "description": "Live music",
-          "hours": "8:00 PM – 11:00 PM",
+          "hours": "8:00 PM \u2013 11:00 PM",
           "genre": "Variety"
         }
       ],
@@ -684,7 +623,7 @@
       "vibe": "Neighborhood bar & grill with weekend live music",
       "website": null,
       "category": "Restaurant / Bar",
-      "notes": "Popular Broussard spot — live music on weekends plus karaoke on Wednesdays.",
+      "notes": "Popular Broussard spot \u2014 live music on weekends plus karaoke on Wednesdays.",
       "isRestaurant": true
     },
     {
@@ -698,14 +637,14 @@
           "day": "Friday",
           "dayIndex": 5,
           "description": "Live Cajun accordion music",
-          "hours": "6:00 PM – 9:00 PM",
+          "hours": "6:00 PM \u2013 9:00 PM",
           "genre": "Cajun"
         },
         {
           "day": "Saturday",
           "dayIndex": 6,
           "description": "Live Cajun accordion music",
-          "hours": "6:00 PM – 9:00 PM",
+          "hours": "6:00 PM \u2013 9:00 PM",
           "genre": "Cajun"
         }
       ],
@@ -730,49 +669,49 @@
           "day": "Monday",
           "dayIndex": 1,
           "description": "Live jazz & blues",
-          "hours": "6:00 PM – 9:00 PM",
+          "hours": "6:00 PM \u2013 9:00 PM",
           "genre": "Jazz"
         },
         {
           "day": "Tuesday",
           "dayIndex": 2,
           "description": "Live jazz & blues",
-          "hours": "6:00 PM – 9:00 PM",
+          "hours": "6:00 PM \u2013 9:00 PM",
           "genre": "Jazz"
         },
         {
           "day": "Wednesday",
           "dayIndex": 3,
           "description": "Live jazz & blues",
-          "hours": "6:00 PM – 9:00 PM",
+          "hours": "6:00 PM \u2013 9:00 PM",
           "genre": "Jazz"
         },
         {
           "day": "Thursday",
           "dayIndex": 4,
           "description": "Live jazz & blues",
-          "hours": "6:00 PM – 9:00 PM",
+          "hours": "6:00 PM \u2013 9:00 PM",
           "genre": "Jazz"
         },
         {
           "day": "Friday",
           "dayIndex": 5,
           "description": "Live jazz & blues",
-          "hours": "7:00 PM – 10:00 PM",
+          "hours": "7:00 PM \u2013 10:00 PM",
           "genre": "Jazz"
         },
         {
           "day": "Saturday",
           "dayIndex": 6,
           "description": "Live jazz & blues",
-          "hours": "7:00 PM – 10:00 PM",
+          "hours": "7:00 PM \u2013 10:00 PM",
           "genre": "Jazz"
         },
         {
           "day": "Sunday",
           "dayIndex": 0,
           "description": "Jazz brunch",
-          "hours": "10:00 AM – 2:00 PM",
+          "hours": "10:00 AM \u2013 2:00 PM",
           "genre": "Jazz"
         }
       ],
@@ -799,7 +738,7 @@
           "day": "Sunday",
           "dayIndex": 0,
           "description": "Live Cajun and zydeco music overlooking the Atchafalaya Basin",
-          "hours": "3:00 PM – 9:00 PM",
+          "hours": "3:00 PM \u2013 9:00 PM",
           "genre": "Cajun / Zydeco"
         }
       ],
@@ -811,7 +750,7 @@
       "vibe": "Rustic dance hall on the banks of the Atchafalaya Basin levee. Stunning swamp views. Established 1982. Every Sunday afternoon.",
       "website": null,
       "category": "Dance Hall / Bar",
-      "notes": "1365 Henderson Levee Rd, Breaux Bridge area. Open every Sunday 3–9 PM. Started as a bar and boat launch. One of the most scenic music spots in Louisiana.",
+      "notes": "1365 Henderson Levee Rd, Breaux Bridge area. Open every Sunday 3\u20139 PM. Started as a bar and boat launch. One of the most scenic music spots in Louisiana.",
       "isRestaurant": false
     },
     {
@@ -824,22 +763,22 @@
         {
           "day": "Thursday",
           "dayIndex": 4,
-          "description": "Live music – various genres",
-          "hours": "8:00 PM – close",
+          "description": "Live music \u2013 various genres",
+          "hours": "8:00 PM \u2013 close",
           "genre": "Cajun / Zydeco / Blues / Roots"
         },
         {
           "day": "Friday",
           "dayIndex": 5,
-          "description": "Live music – various genres",
-          "hours": "8:00 PM – close",
+          "description": "Live music \u2013 various genres",
+          "hours": "8:00 PM \u2013 close",
           "genre": "Cajun / Zydeco / Blues / Roots"
         },
         {
           "day": "Saturday",
           "dayIndex": 6,
-          "description": "Live music – various genres",
-          "hours": "8:00 PM – close",
+          "description": "Live music \u2013 various genres",
+          "hours": "8:00 PM \u2013 close",
           "genre": "Cajun / Zydeco / Blues / Roots"
         }
       ],
@@ -850,7 +789,7 @@
         "Roots",
         "Honky-tonk"
       ],
-      "cover": "Varies by show – check website",
+      "cover": "Varies by show \u2013 check website",
       "vibe": "Historic 1900s home turned iconic music venue & boutique guesthouse. Intimate, eclectic, nationally acclaimed.",
       "website": "https://www.bluemoonpresents.com",
       "category": "Bar / Music Venue / Guesthouse",
@@ -868,14 +807,14 @@
           "day": "Friday",
           "dayIndex": 5,
           "description": "Live zydeco and blues",
-          "hours": "Evening – check Facebook",
+          "hours": "Evening \u2013 check Facebook",
           "genre": "Zydeco / Blues"
         },
         {
           "day": "Saturday",
           "dayIndex": 6,
           "description": "Live zydeco and blues",
-          "hours": "Evening – check Facebook",
+          "hours": "Evening \u2013 check Facebook",
           "genre": "Zydeco / Blues"
         }
       ],
@@ -900,21 +839,21 @@
         {
           "day": "Thursday",
           "dayIndex": 4,
-          "description": "Live music – various genres",
-          "hours": "Evening – check Facebook",
+          "description": "Live music \u2013 various genres",
+          "hours": "Evening \u2013 check Facebook",
           "genre": "Cajun / Various"
         },
         {
           "day": "Friday",
           "dayIndex": 5,
-          "description": "Live music – various genres",
+          "description": "Live music \u2013 various genres",
           "hours": "Evening",
           "genre": "Cajun / Various"
         },
         {
           "day": "Saturday",
           "dayIndex": 6,
-          "description": "Live music – various genres",
+          "description": "Live music \u2013 various genres",
           "hours": "Evening",
           "genre": "Cajun / Various"
         }
@@ -926,7 +865,7 @@
         "Various"
       ],
       "cover": "Varies",
-      "vibe": "Rustic feed-store-themed venue with antique décor. Large open dance floor for fais do-do (traditional Cajun dancing). Outdoor patio.",
+      "vibe": "Rustic feed-store-themed venue with antique d\u00e9cor. Large open dance floor for fais do-do (traditional Cajun dancing). Outdoor patio.",
       "website": "https://www.facebook.com/FeedNSeedLafayette/",
       "category": "Music Venue / Bar",
       "notes": "Downtown Lafayette area. Check Facebook for current schedule and events.",
@@ -942,8 +881,8 @@
         {
           "day": "Saturday",
           "dayIndex": 6,
-          "description": "Live Cajun music broadcast on local radio – beer, boudin, dancing",
-          "hours": "9:00 AM – 12:00 PM (doors at 7:00 AM)",
+          "description": "Live Cajun music broadcast on local radio \u2013 beer, boudin, dancing",
+          "hours": "9:00 AM \u2013 12:00 PM (doors at 7:00 AM)",
           "genre": "Cajun"
         }
       ],
@@ -954,12 +893,12 @@
       "vibe": "World-famous Saturday morning institution. Beer and boudin at 7 AM. Live Cajun music broadcast on local radio. Legendary Acadiana experience.",
       "website": null,
       "category": "Bar / Dance Hall",
-      "notes": "420 6th Street, Mamou. (318) 468-5411. Doors open 7 AM Saturdays, music 9 AM–noon. One of the most unique live music experiences in the South.",
+      "notes": "420 6th Street, Mamou. (318) 468-5411. Doors open 7 AM Saturdays, music 9 AM\u2013noon. One of the most unique live music experiences in the South.",
       "isRestaurant": false
     },
     {
       "slug": "la-poussiere",
-      "name": "La Poussière Cajun Dancehall",
+      "name": "La Poussi\u00e8re Cajun Dancehall",
       "locations": [
         "Breaux Bridge"
       ],
@@ -968,14 +907,14 @@
           "day": "Saturday",
           "dayIndex": 6,
           "description": "Live Cajun music and dancing",
-          "hours": "Afternoon / Evening – check Facebook",
+          "hours": "Afternoon / Evening \u2013 check Facebook",
           "genre": "Cajun"
         },
         {
           "day": "Sunday",
           "dayIndex": 0,
           "description": "Live Cajun music and dancing",
-          "hours": "2:00 PM – close",
+          "hours": "2:00 PM \u2013 close",
           "genre": "Cajun"
         }
       ],
@@ -999,8 +938,8 @@
         {
           "day": "Saturday",
           "dayIndex": 6,
-          "description": "Rendezvous des Cajuns – live Cajun music radio/TV show in French, with dance floor",
-          "hours": "6:00 PM – 8:00 PM",
+          "description": "Rendezvous des Cajuns \u2013 live Cajun music radio/TV show in French, with dance floor",
+          "hours": "6:00 PM \u2013 8:00 PM",
           "genre": "Cajun"
         }
       ],
@@ -1025,7 +964,7 @@
         {
           "day": "Saturday",
           "dayIndex": 6,
-          "description": "Live zydeco – epic zydeco dances",
+          "description": "Live zydeco \u2013 epic zydeco dances",
           "hours": "Evening",
           "genre": "Zydeco"
         }
@@ -1037,7 +976,7 @@
       "vibe": "Legendary Zydeco roadhouse on Hwy 190 between Lawtell and Opelousas. Renowned for epic zydeco dances. Authentic and local.",
       "website": null,
       "category": "Dance Hall / Bar",
-      "notes": "Hwy 190, 3–4 miles west of Opelousas. Proprietor Kelvin Richard. (318) 543-6596. Verify schedule before visiting.",
+      "notes": "Hwy 190, 3\u20134 miles west of Opelousas. Proprietor Kelvin Richard. (318) 543-6596. Verify schedule before visiting.",
       "isRestaurant": false
     },
     {
@@ -1050,8 +989,8 @@
         {
           "day": "Saturday",
           "dayIndex": 6,
-          "description": "Open acoustic jam session – anyone can bring an instrument and join in",
-          "hours": "9:00 AM – 12:00 PM",
+          "description": "Open acoustic jam session \u2013 anyone can bring an instrument and join in",
+          "hours": "9:00 AM \u2013 12:00 PM",
           "genre": "Cajun"
         }
       ],
@@ -1062,7 +1001,7 @@
       "vibe": "Accordion shop and cultural institution. 40+ years of Saturday morning jams. Grassroots Cajun music community experience.",
       "website": "https://www.savoymusiccenter.com",
       "category": "Music Shop / Jam Session",
-      "notes": "337-580-0899. Open Saturdays 9 AM–noon for 40+ years. Owned by accordion-maker Marc Savoy. A bucket-list Cajun music experience.",
+      "notes": "337-580-0899. Open Saturdays 9 AM\u2013noon for 40+ years. Owned by accordion-maker Marc Savoy. A bucket-list Cajun music experience.",
       "isRestaurant": false
     },
     {
@@ -1075,14 +1014,14 @@
         {
           "day": "Friday",
           "dayIndex": 5,
-          "description": "Live zydeco (when open – verify before visiting)",
+          "description": "Live zydeco (when open \u2013 verify before visiting)",
           "hours": "Evening",
           "genre": "Zydeco"
         },
         {
           "day": "Saturday",
           "dayIndex": 6,
-          "description": "Live zydeco (when open – verify before visiting)",
+          "description": "Live zydeco (when open \u2013 verify before visiting)",
           "hours": "Evening",
           "genre": "Zydeco"
         }
@@ -1107,28 +1046,28 @@
         {
           "day": "Wednesday",
           "dayIndex": 3,
-          "description": "Live music – various genres",
+          "description": "Live music \u2013 various genres",
           "hours": "Evening",
           "genre": "Various"
         },
         {
           "day": "Thursday",
           "dayIndex": 4,
-          "description": "Live music – various genres",
+          "description": "Live music \u2013 various genres",
           "hours": "Evening",
           "genre": "Various"
         },
         {
           "day": "Friday",
           "dayIndex": 5,
-          "description": "Live music – various genres",
+          "description": "Live music \u2013 various genres",
           "hours": "Evening",
           "genre": "Various"
         },
         {
           "day": "Saturday",
           "dayIndex": 6,
-          "description": "Live music – various genres",
+          "description": "Live music \u2013 various genres",
           "hours": "Evening",
           "genre": "Various"
         }

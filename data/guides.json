@@ -29,7 +29,7 @@
             "Thursday",
             "Friday"
           ],
-          "hours": "3:00 PM – 6:00 PM",
+          "hours": "3:00 PM \u2013 6:00 PM",
           "deals": [
             "Discounted craft cocktails",
             "Select wine specials",
@@ -71,7 +71,7 @@
             "Thursday",
             "Friday"
           ],
-          "hours": "4:00 PM – 6:00 PM",
+          "hours": "4:00 PM \u2013 6:00 PM",
           "deals": [
             "Bar drink specials",
             "Appetizer specials",
@@ -113,7 +113,7 @@
             "Thursday",
             "Friday"
           ],
-          "hours": "3:00 PM – 6:00 PM",
+          "hours": "3:00 PM \u2013 6:00 PM",
           "deals": [
             "Select sushi roll specials",
             "Discounted cocktails",
@@ -155,7 +155,7 @@
             "Thursday",
             "Friday"
           ],
-          "hours": "2:00 PM – 7:00 PM",
+          "hours": "2:00 PM \u2013 7:00 PM",
           "deals": [
             "$2 off drafts",
             "$2 off cocktails",
@@ -197,7 +197,7 @@
             "Thursday",
             "Friday"
           ],
-          "hours": "4:00 PM – 6:00 PM",
+          "hours": "4:00 PM \u2013 6:00 PM",
           "deals": [
             "Bar cocktail specials",
             "Discounted wine pours",
@@ -239,7 +239,7 @@
             "Thursday",
             "Friday"
           ],
-          "hours": "3:00 PM – 6:00 PM",
+          "hours": "3:00 PM \u2013 6:00 PM",
           "deals": [
             "Beer specials",
             "Cocktail specials",
@@ -281,7 +281,7 @@
             "Thursday",
             "Friday"
           ],
-          "hours": "3:00 PM – 6:00 PM",
+          "hours": "3:00 PM \u2013 6:00 PM",
           "deals": [
             "$5 cocktails",
             "Draft specials",
@@ -323,7 +323,7 @@
             "Thursday",
             "Friday"
           ],
-          "hours": "4:00 PM – 7:00 PM",
+          "hours": "4:00 PM \u2013 7:00 PM",
           "deals": [
             "House cocktail specials",
             "Beer bucket deals",
@@ -364,7 +364,7 @@
             "Thursday",
             "Friday"
           ],
-          "hours": "4:00 PM – 7:00 PM",
+          "hours": "4:00 PM \u2013 7:00 PM",
           "deals": [
             "Craft beer specials",
             "Seasonal cocktail deals",
@@ -406,7 +406,7 @@
             "Thursday",
             "Friday"
           ],
-          "hours": "4:00 PM – 7:00 PM",
+          "hours": "4:00 PM \u2013 7:00 PM",
           "deals": [
             "Well drink deals",
             "Draft beer discounts",
@@ -448,7 +448,7 @@
             "Thursday",
             "Friday"
           ],
-          "hours": "3:00 PM – 6:00 PM",
+          "hours": "3:00 PM \u2013 6:00 PM",
           "deals": [
             "Local draft specials",
             "Wine and seltzer specials",
@@ -489,7 +489,7 @@
             "Thursday",
             "Friday"
           ],
-          "hours": "4:00 PM – 6:00 PM",
+          "hours": "4:00 PM \u2013 6:00 PM",
           "deals": [
             "Wine specials",
             "Cocktail specials",
@@ -531,7 +531,7 @@
             "Thursday",
             "Friday"
           ],
-          "hours": "3:00 PM – 6:00 PM",
+          "hours": "3:00 PM \u2013 6:00 PM",
           "deals": [
             "Domestic beer specials",
             "Well drink deals",
@@ -573,7 +573,7 @@
             "Thursday",
             "Friday"
           ],
-          "hours": "4:00 PM – 6:30 PM",
+          "hours": "4:00 PM \u2013 6:30 PM",
           "deals": [
             "Hand-crafted cocktail specials",
             "Bang Bang Shrimp deals",
@@ -701,9 +701,9 @@
             "Thursday",
             "Friday"
           ],
-          "hours": "3:00 PM – 7:00 PM",
+          "hours": "3:00 PM \u2013 7:00 PM",
           "deals": [
-            "$4–$6 beer, wine, and cocktail options",
+            "$4\u2013$6 beer, wine, and cocktail options",
             "Discounted appetizers"
           ]
         }
@@ -742,7 +742,7 @@
             "Thursday",
             "Friday"
           ],
-          "hours": "3:00 PM – 6:00 PM",
+          "hours": "3:00 PM \u2013 6:00 PM",
           "deals": [
             "Bar drink specials",
             "Discounted small plates",
@@ -782,7 +782,7 @@
             "Thursday",
             "Friday"
           ],
-          "hours": "4:00 PM – 6:00 PM",
+          "hours": "4:00 PM \u2013 6:00 PM",
           "deals": [
             "House pint specials",
             "Trivia-night beer specials",
@@ -899,7 +899,7 @@
             "Wednesday",
             "Thursday"
           ],
-          "hours": "3:00 PM – 6:00 PM",
+          "hours": "3:00 PM \u2013 6:00 PM",
           "deals": [
             "Frozen drink specials",
             "Craft cocktail deals",
@@ -912,7 +912,7 @@
     }
   },
   {
-    "name": "Antoni's Italian Café",
+    "name": "Antoni's Italian Caf\u00e9",
     "slug": "antons-lafayette",
     "category": "happy-hour",
     "group": "food-drink",
@@ -940,7 +940,7 @@
             "Thursday",
             "Friday"
           ],
-          "hours": "4:00 PM – 6:00 PM",
+          "hours": "4:00 PM \u2013 6:00 PM",
           "deals": [
             "Wine and martini specials",
             "Italian small plate deals"
@@ -981,7 +981,7 @@
             "Thursday",
             "Friday"
           ],
-          "hours": "3:00 PM – 6:00 PM",
+          "hours": "3:00 PM \u2013 6:00 PM",
           "deals": [
             "Raw oyster pricing",
             "Beer specials",
@@ -1064,7 +1064,7 @@
             "Thursday",
             "Friday"
           ],
-          "hours": "4:00 PM – 7:00 PM",
+          "hours": "4:00 PM \u2013 7:00 PM",
           "deals": [
             "Bar drink specials",
             "Bowling + drink combo nights",
@@ -1077,7 +1077,7 @@
     }
   },
   {
-    "name": "Blue Dog Café",
+    "name": "Blue Dog Caf\u00e9",
     "slug": "blue-dog-cafe",
     "category": "happy-hour",
     "group": "food-drink",
@@ -1106,7 +1106,7 @@
             "Thursday",
             "Friday"
           ],
-          "hours": "3:00 PM – 6:00 PM",
+          "hours": "3:00 PM \u2013 6:00 PM",
           "deals": [
             "Cocktail specials",
             "Wine discounts",
@@ -1147,7 +1147,7 @@
             "Thursday",
             "Friday"
           ],
-          "hours": "4:00 PM – 6:00 PM",
+          "hours": "4:00 PM \u2013 6:00 PM",
           "deals": [
             "Wine happy hour",
             "Cocktail specials",
@@ -1189,7 +1189,7 @@
             "Thursday",
             "Friday"
           ],
-          "hours": "3:00 PM – 6:00 PM",
+          "hours": "3:00 PM \u2013 6:00 PM",
           "deals": [
             "Bar cocktails",
             "Beer and wine deals",
@@ -1231,7 +1231,7 @@
             "Thursday",
             "Friday"
           ],
-          "hours": "3:00 PM – 6:00 PM",
+          "hours": "3:00 PM \u2013 6:00 PM",
           "deals": [
             "Oyster and drink specials",
             "Beer bucket deals",
@@ -1313,7 +1313,7 @@
             "Friday"
           ],
           "mealType": "Lunch",
-          "hours": "10:30 AM – 2:00 PM",
+          "hours": "10:30 AM \u2013 2:00 PM",
           "items": [
             "Daily plate lunch rotation",
             "Classic Cajun sides",
@@ -1356,7 +1356,7 @@
             "Friday"
           ],
           "mealType": "Lunch",
-          "hours": "11:00 AM – 2:00 PM",
+          "hours": "11:00 AM \u2013 2:00 PM",
           "items": [
             "Soul food plate lunch board",
             "Smothered meats by day",
@@ -1399,7 +1399,7 @@
             "Friday"
           ],
           "mealType": "Breakfast",
-          "hours": "6:00 AM – 10:30 AM",
+          "hours": "6:00 AM \u2013 10:30 AM",
           "items": [
             "Daily breakfast meat specials",
             "Boudin and eggs combos"
@@ -1414,7 +1414,7 @@
             "Friday"
           ],
           "mealType": "Lunch",
-          "hours": "11:00 AM – 2:00 PM",
+          "hours": "11:00 AM \u2013 2:00 PM",
           "items": [
             "Daily plate lunch",
             "Cajun smothered dishes"
@@ -1456,7 +1456,7 @@
             "Friday"
           ],
           "mealType": "Lunch",
-          "hours": "11:00 AM – 3:00 PM",
+          "hours": "11:00 AM \u2013 3:00 PM",
           "items": [
             "Daily po-boy lunch specials",
             "Combo plate deals"
@@ -1498,7 +1498,7 @@
             "Friday"
           ],
           "mealType": "Lunch",
-          "hours": "11:00 AM – 2:00 PM",
+          "hours": "11:00 AM \u2013 2:00 PM",
           "items": [
             "Daily po-boy and plate lunch combo",
             "Soup-and-half deals"
@@ -1540,7 +1540,7 @@
             "Friday"
           ],
           "mealType": "Lunch",
-          "hours": "10:30 AM – 2:00 PM",
+          "hours": "10:30 AM \u2013 2:00 PM",
           "items": [
             "Blue plate lunch specials",
             "Daily hot lunch lineup"
@@ -1582,7 +1582,7 @@
             "Friday"
           ],
           "mealType": "Lunch",
-          "hours": "11:00 AM – 2:00 PM",
+          "hours": "11:00 AM \u2013 2:00 PM",
           "items": [
             "Burger combo specials",
             "Lunch combo pricing"
@@ -1624,7 +1624,7 @@
             "Friday"
           ],
           "mealType": "Lunch",
-          "hours": "11:00 AM – 2:00 PM",
+          "hours": "11:00 AM \u2013 2:00 PM",
           "items": [
             "Daily Cajun lunch features",
             "Seafood plate specials"
@@ -1666,7 +1666,7 @@
             "Friday"
           ],
           "mealType": "Lunch",
-          "hours": "11:00 AM – 2:00 PM",
+          "hours": "11:00 AM \u2013 2:00 PM",
           "items": [
             "Lunch pizza slice specials",
             "Soup/salad and slice combos"
@@ -1708,7 +1708,7 @@
             "Friday"
           ],
           "mealType": "Lunch",
-          "hours": "11:00 AM – 2:00 PM",
+          "hours": "11:00 AM \u2013 2:00 PM",
           "items": [
             "Cajun lunch specials",
             "Seafood lunch platters"
@@ -1750,10 +1750,10 @@
             "Friday"
           ],
           "mealType": "Lunch",
-          "hours": "11:00 AM – 2:00 PM",
+          "hours": "11:00 AM \u2013 2:00 PM",
           "items": [
             "Soul food daily specials",
-            "Smothered entrée plate lunches"
+            "Smothered entr\u00e9e plate lunches"
           ]
         }
       ],
@@ -1792,7 +1792,7 @@
             "Friday"
           ],
           "mealType": "Lunch",
-          "hours": "10:30 AM – 2:00 PM",
+          "hours": "10:30 AM \u2013 2:00 PM",
           "items": [
             "Daily plate lunch menu",
             "Cajun home-style specials"
@@ -1834,7 +1834,7 @@
             "Friday"
           ],
           "mealType": "Lunch",
-          "hours": "11:00 AM – 3:00 PM",
+          "hours": "11:00 AM \u2013 3:00 PM",
           "items": [
             "Lunch portion specials",
             "Rotisserie combo plates"
@@ -1876,7 +1876,7 @@
             "Friday"
           ],
           "mealType": "Lunch",
-          "hours": "11:00 AM – 2:30 PM",
+          "hours": "11:00 AM \u2013 2:30 PM",
           "items": [
             "Bento lunch specials",
             "Sushi lunch combos"
@@ -1918,7 +1918,7 @@
             "Friday"
           ],
           "mealType": "Lunch",
-          "hours": "11:00 AM – 3:00 PM",
+          "hours": "11:00 AM \u2013 3:00 PM",
           "items": [
             "All-you-can-eat lunch pricing",
             "Lunch-only sushi value tier"
@@ -1960,7 +1960,7 @@
             "Friday"
           ],
           "mealType": "Lunch",
-          "hours": "11:00 AM – 2:30 PM",
+          "hours": "11:00 AM \u2013 2:30 PM",
           "items": [
             "Hibachi lunch specials",
             "Sushi lunch roll combos"
@@ -2002,7 +2002,7 @@
             "Friday"
           ],
           "mealType": "Lunch",
-          "hours": "11:00 AM – 2:00 PM",
+          "hours": "11:00 AM \u2013 2:00 PM",
           "items": [
             "Daily hot plate lunch",
             "Takeout family plate options"
@@ -2044,10 +2044,10 @@
             "Friday"
           ],
           "mealType": "Lunch",
-          "hours": "11:00 AM – 2:00 PM",
+          "hours": "11:00 AM \u2013 2:00 PM",
           "items": [
             "Lunch seafood plate specials",
-            "Daily entrée rotation"
+            "Daily entr\u00e9e rotation"
           ]
         }
       ],
@@ -2086,7 +2086,7 @@
             "Friday"
           ],
           "mealType": "Lunch",
-          "hours": "11:00 AM – 3:00 PM",
+          "hours": "11:00 AM \u2013 3:00 PM",
           "items": [
             "Lunch seafood combo specials",
             "Soup/salad lunch deals"
@@ -2128,7 +2128,7 @@
             "Friday"
           ],
           "mealType": "Lunch",
-          "hours": "11:00 AM – 2:00 PM",
+          "hours": "11:00 AM \u2013 2:00 PM",
           "items": [
             "Daily plate lunch board",
             "Cajun/meat-and-three specials"
@@ -2170,7 +2170,7 @@
             "Friday"
           ],
           "mealType": "Lunch",
-          "hours": "11:00 AM – 2:00 PM",
+          "hours": "11:00 AM \u2013 2:00 PM",
           "items": [
             "Daily lunch specials",
             "Comfort food plate lunches"
@@ -2211,7 +2211,7 @@
             "Friday"
           ],
           "mealType": "Lunch",
-          "hours": "11:00 AM – 2:00 PM",
+          "hours": "11:00 AM \u2013 2:00 PM",
           "items": [
             "Cajun plate lunch rotation",
             "Daily seafood/meat specials"
@@ -2253,7 +2253,7 @@
             "Friday"
           ],
           "mealType": "Lunch",
-          "hours": "11:00 AM – 2:00 PM",
+          "hours": "11:00 AM \u2013 2:00 PM",
           "items": [
             "Lunch seafood specials",
             "Po-boy lunch combos"
@@ -2295,7 +2295,7 @@
             "Friday"
           ],
           "mealType": "Lunch",
-          "hours": "11:00 AM – 2:00 PM",
+          "hours": "11:00 AM \u2013 2:00 PM",
           "items": [
             "Burger basket specials",
             "Daily combo discounts"
@@ -3150,7 +3150,7 @@
     }
   },
   {
-    "name": "Fête Food Truck",
+    "name": "F\u00eate Food Truck",
     "slug": "fete-food-truck",
     "category": "food-truck",
     "group": "food-drink",
@@ -3385,7 +3385,7 @@
     ],
     "featured": false,
     "meta": {
-      "restaurant": "Antoni's Italian Café",
+      "restaurant": "Antoni's Italian Caf\u00e9",
       "activity": "Explore downtown murals and ArtWalk nights",
       "restaurantUrl": "https://www.antonisitaliancafe.com",
       "activityUrl": "https://www.downtownlafayette.org",
@@ -3955,7 +3955,7 @@
     ],
     "featured": false,
     "meta": {
-      "restaurant": "Blue Dog Café",
+      "restaurant": "Blue Dog Caf\u00e9",
       "activity": "Live performance at Acadiana Center for the Arts",
       "restaurantUrl": "https://bluedogcafe.com",
       "activityUrl": "https://acadianacenterforthearts.org",
@@ -4111,7 +4111,7 @@
         "Arnaudville"
       ],
       "type": "brewery",
-      "flagship": "Acadiana Amber, LA 31 Bière Pâle, Cocodrie",
+      "flagship": "Acadiana Amber, LA 31 Bi\u00e8re P\u00e2le, Cocodrie",
       "tastingRoomHours": "Thu-Fri 4-9 PM, Sat 11 AM-9 PM, Sun 11 AM-6 PM",
       "toursAvailable": "Yes, by request",
       "foodServed": "On-site Cajun Saucer pizza",
@@ -4569,7 +4569,7 @@
         "Youngsville"
       ],
       "type": "brewery",
-      "flagship": "Youngsville Kölsch, Basin IPA, Rice Lager",
+      "flagship": "Youngsville K\u00f6lsch, Basin IPA, Rice Lager",
       "tastingRoomHours": "Wed-Thu 4-9 PM, Fri 4-10 PM, Sat 12-10 PM",
       "toursAvailable": "Occasional behind-the-scenes",
       "foodServed": "Food trucks on weekends",
@@ -4645,7 +4645,7 @@
     }
   },
   {
-    "name": "Rêve Coffee Roasters (River Ranch)",
+    "name": "R\u00eave Coffee Roasters (River Ranch)",
     "slug": "reve-roasters-river-ranch",
     "category": "coffee",
     "group": "food-drink",
@@ -4677,7 +4677,7 @@
     }
   },
   {
-    "name": "Rêve Coffee Roasters (Downtown)",
+    "name": "R\u00eave Coffee Roasters (Downtown)",
     "slug": "reve-downtown",
     "category": "coffee",
     "group": "food-drink",
@@ -4740,11 +4740,11 @@
     }
   },
   {
-    "name": "Café Cottage",
+    "name": "Caf\u00e9 Cottage",
     "slug": "cafe-cottage",
     "category": "coffee",
     "group": "food-drink",
-    "description": "Cozy cottage café with pastries",
+    "description": "Cozy cottage caf\u00e9 with pastries",
     "address": "",
     "city": "Lafayette",
     "website": "https://www.facebook.com/cafecottagelafayette",
@@ -4859,17 +4859,17 @@
       "wifi": "Fair",
       "outdoorSeating": false,
       "hours": "Mon-Sat 6 AM-2 PM",
-      "specialty": "Café au lait + boudin breakfast combo",
+      "specialty": "Caf\u00e9 au lait + boudin breakfast combo",
       "source": "coffee-shops",
       "lastUpdated": "2026-03-26"
     }
   },
   {
-    "name": "Villager Café",
+    "name": "Villager Caf\u00e9",
     "slug": "villager-cafe",
     "category": "coffee",
     "group": "food-drink",
-    "description": "Neighborhood café with artsy crowd",
+    "description": "Neighborhood caf\u00e9 with artsy crowd",
     "address": "",
     "city": "Lafayette",
     "website": "https://www.facebook.com/villagercafelafayette",
@@ -4961,7 +4961,7 @@
     "slug": "huya-craft-coffee",
     "category": "coffee",
     "group": "food-drink",
-    "description": "Specialty minimalist café with manual brew bar",
+    "description": "Specialty minimalist caf\u00e9 with manual brew bar",
     "address": "",
     "city": "Lafayette",
     "website": "https://www.instagram.com/huyacraftcoffee",
@@ -5055,7 +5055,7 @@
     "slug": "roots-coffee-bar",
     "category": "coffee",
     "group": "food-drink",
-    "description": "Bright cowork-friendly café",
+    "description": "Bright cowork-friendly caf\u00e9",
     "address": "",
     "city": "Broussard",
     "website": "https://www.instagram.com/rootscoffeebar",
@@ -5117,7 +5117,7 @@
     "slug": "main-cup",
     "category": "coffee",
     "group": "food-drink",
-    "description": "Main street café with local art walls",
+    "description": "Main street caf\u00e9 with local art walls",
     "address": "",
     "city": "Abbeville",
     "website": "https://www.facebook.com/themaincupabbeville",
@@ -5144,7 +5144,7 @@
     }
   },
   {
-    "name": "Church Alley Café & Coffee",
+    "name": "Church Alley Caf\u00e9 & Coffee",
     "slug": "church-alley-cafe",
     "category": "coffee",
     "group": "food-drink",
@@ -5168,7 +5168,7 @@
       "wifi": "Fair",
       "outdoorSeating": false,
       "hours": "Tue-Sat 7 AM-3 PM",
-      "specialty": "Café au lait with beignets",
+      "specialty": "Caf\u00e9 au lait with beignets",
       "source": "coffee-shops",
       "lastUpdated": "2026-03-26"
     }
@@ -5205,7 +5205,7 @@
     }
   },
   {
-    "name": "Black Café",
+    "name": "Black Caf\u00e9",
     "slug": "black-cafe",
     "category": "coffee",
     "group": "food-drink",
@@ -5236,7 +5236,7 @@
     }
   },
   {
-    "name": "Café Vermilion Bean",
+    "name": "Caf\u00e9 Vermilion Bean",
     "slug": "cafe-vermilion-bean",
     "category": "coffee",
     "group": "food-drink",
@@ -5833,7 +5833,7 @@
       "dates": "Early May",
       "cost": "Paid weekend pass",
       "music": "Cajun, Zydeco",
-      "food": "Crawfish étouffée, boiled crawfish",
+      "food": "Crawfish \u00e9touff\u00e9e, boiled crawfish",
       "tips": "Go early for crawfish eating contest seats.",
       "source": "festivals",
       "lastUpdated": "2026-03-26"
@@ -5898,7 +5898,7 @@
     }
   },
   {
-    "name": "El Festival Español de Nueva Iberia",
+    "name": "El Festival Espa\u00f1ol de Nueva Iberia",
     "slug": "new-iberia-spanish-festival",
     "category": "festival",
     "group": "things-to-do",
@@ -6130,7 +6130,7 @@
     }
   },
   {
-    "name": "Festivals Acadiens et Créoles",
+    "name": "Festivals Acadiens et Cr\u00e9oles",
     "slug": "festivals-acadiens-creoles",
     "category": "festival",
     "group": "things-to-do",
@@ -6478,7 +6478,7 @@
     }
   },
   {
-    "name": "Allons à Lafayette",
+    "name": "Allons \u00e0 Lafayette",
     "slug": "allons-a-lafayette",
     "category": "festival",
     "group": "things-to-do",
@@ -6507,7 +6507,7 @@
     }
   },
   {
-    "name": "Fête de la Musique Lafayette",
+    "name": "F\u00eate de la Musique Lafayette",
     "slug": "fete-de-la-musique",
     "category": "festival",
     "group": "things-to-do",
@@ -6536,7 +6536,7 @@
     }
   },
   {
-    "name": "Bastille Day Fête",
+    "name": "Bastille Day F\u00eate",
     "slug": "bastille-day-fete",
     "category": "festival",
     "group": "things-to-do",
@@ -6558,7 +6558,7 @@
       "dates": "Around July 14",
       "cost": "Paid",
       "music": "French jazz, Cajun",
-      "food": "Crêpes, charcuterie, Cajun twists",
+      "food": "Cr\u00eapes, charcuterie, Cajun twists",
       "tips": "Dress for heat if outdoors.",
       "source": "festivals",
       "lastUpdated": "2026-03-26"
@@ -6594,7 +6594,7 @@
     }
   },
   {
-    "name": "Noël Acadien au Village",
+    "name": "No\u00ebl Acadien au Village",
     "slug": "noel-acadien-au-village",
     "category": "festival",
     "group": "things-to-do",
@@ -7190,34 +7190,6 @@
     }
   },
   {
-    "name": "Randol's Restaurant & Cajun Dance Hall",
-    "slug": "randols",
-    "category": "dance-hall",
-    "group": "things-to-do",
-    "description": "Long-running Cajun dance institution in Lafayette.",
-    "address": "Lafayette",
-    "city": "Lafayette",
-    "website": "https://www.randols.com",
-    "tags": [
-      "both",
-      "dance-hall"
-    ],
-    "features": [
-      "food",
-      "Usually free with dinner"
-    ],
-    "featured": false,
-    "meta": {
-      "danceNights": "Tue-Sun evenings",
-      "musicType": "both",
-      "cover": "Usually free with dinner",
-      "lessons": false,
-      "food": true,
-      "source": "dance-halls",
-      "lastUpdated": "2026-03-26"
-    }
-  },
-  {
     "name": "Blue Moon Saloon",
     "slug": "blue-moon-saloon",
     "category": "dance-hall",
@@ -7411,7 +7383,7 @@
     }
   },
   {
-    "name": "La Poussière",
+    "name": "La Poussi\u00e8re",
     "slug": "la-poussiere",
     "category": "dance-hall",
     "group": "things-to-do",
@@ -7821,7 +7793,7 @@
     "slug": "academy-sacred-heart-grand-coteau",
     "category": "photo-spot",
     "group": "things-to-do",
-    "description": "Beautiful historic façade and tree-lined walks",
+    "description": "Beautiful historic fa\u00e7ade and tree-lined walks",
     "address": "Grand Coteau",
     "city": "Grand Coteau",
     "tags": [
@@ -7898,7 +7870,7 @@
     }
   },
   {
-    "name": "Café des Amis + Bayou Landing",
+    "name": "Caf\u00e9 des Amis + Bayou Landing",
     "slug": "cafe-des-amis-front",
     "category": "photo-spot",
     "group": "things-to-do",
@@ -7925,7 +7897,7 @@
     }
   },
   {
-    "name": "TABASCO® Avery Island Signage",
+    "name": "TABASCO\u00ae Avery Island Signage",
     "slug": "tabasco-signage",
     "category": "photo-spot",
     "group": "things-to-do",
@@ -7978,7 +7950,7 @@
       ],
       "day": "Monday",
       "dayIndex": 1,
-      "hours": "4:00 PM – 9:00 PM",
+      "hours": "4:00 PM \u2013 9:00 PM",
       "ageLimit": "12 & under",
       "kidsPerAdult": 1,
       "dineInOnly": true,
@@ -8013,7 +7985,7 @@
       ],
       "day": "Monday",
       "dayIndex": 1,
-      "hours": "5:00 PM – 7:00 PM",
+      "hours": "5:00 PM \u2013 7:00 PM",
       "ageLimit": "Kids meal",
       "kidsPerAdult": 2,
       "dineInOnly": true,
@@ -8028,7 +8000,7 @@
     "slug": "ihop",
     "category": "kids-eat-free",
     "group": "food-drink",
-    "description": "One free kids' meal (12 & under) with purchase of adult entrée",
+    "description": "One free kids' meal (12 & under) with purchase of adult entr\u00e9e",
     "address": "",
     "city": "Lafayette",
     "website": "https://www.ihop.com",
@@ -8047,12 +8019,12 @@
       ],
       "day": "Monday",
       "dayIndex": 1,
-      "hours": "3:00 PM – 9:00 PM",
+      "hours": "3:00 PM \u2013 9:00 PM",
       "ageLimit": "12 & under",
       "kidsPerAdult": 1,
       "dineInOnly": false,
       "category": "Breakfast / Family",
-      "notes": "Deal runs Monday–Sunday 3–9 PM. Confirmed ongoing.",
+      "notes": "Deal runs Monday\u2013Sunday 3\u20139 PM. Confirmed ongoing.",
       "source": "kids-eat-free",
       "lastUpdated": "2026-03-25"
     }
@@ -8062,7 +8034,7 @@
     "slug": "sicilys-broussard",
     "category": "kids-eat-free",
     "group": "food-drink",
-    "description": "Two kids (12 & under) eat free per adult meal — must purchase kids' drink",
+    "description": "Two kids (12 & under) eat free per adult meal \u2014 must purchase kids' drink",
     "address": "",
     "city": "Broussard",
     "website": "https://www.sicilyspizza.com",
@@ -8097,7 +8069,7 @@
     "slug": "walk-ons",
     "category": "kids-eat-free",
     "group": "food-drink",
-    "description": "One free kids' meal (12 & under) with purchase of adult entrée",
+    "description": "One free kids' meal (12 & under) with purchase of adult entr\u00e9e",
     "address": "",
     "city": "Lafayette",
     "website": "https://walk-ons.com",
@@ -8132,7 +8104,7 @@
     "slug": "la-madeleine",
     "category": "kids-eat-free",
     "group": "food-drink",
-    "description": "One free kids' meal with purchase of adult entrée",
+    "description": "One free kids' meal with purchase of adult entr\u00e9e",
     "address": "",
     "city": "Lafayette",
     "website": "https://lamadeleine.com",
@@ -8156,7 +8128,7 @@
       "ageLimit": "Kids menu",
       "kidsPerAdult": 1,
       "dineInOnly": true,
-      "category": "French Café",
+      "category": "French Caf\u00e9",
       "notes": "Dine-in only.",
       "source": "kids-eat-free",
       "lastUpdated": "2026-03-25"
@@ -8167,7 +8139,7 @@
     "slug": "solou",
     "category": "kids-eat-free",
     "group": "food-drink",
-    "description": "Kids 12 & under eat free from the Kids Menu with purchase of adult entrée",
+    "description": "Kids 12 & under eat free from the Kids Menu with purchase of adult entr\u00e9e",
     "address": "",
     "city": "Lafayette",
     "website": "https://eatsolou.com",
@@ -8202,7 +8174,7 @@
     "slug": "sombreros-lafayette",
     "category": "kids-eat-free",
     "group": "food-drink",
-    "description": "Kids 12 & under eat free from children's menu with adult entrée",
+    "description": "Kids 12 & under eat free from children's menu with adult entr\u00e9e",
     "address": "",
     "city": "Lafayette",
     "website": "https://mysombreros.com",
@@ -8257,7 +8229,7 @@
       ],
       "day": "Tuesday",
       "dayIndex": 2,
-      "hours": "5:00 PM – 9:00 PM",
+      "hours": "5:00 PM \u2013 9:00 PM",
       "ageLimit": "Kids menu",
       "kidsPerAdult": 1,
       "dineInOnly": true,
@@ -8360,7 +8332,7 @@
       ],
       "day": "Thursday",
       "dayIndex": 4,
-      "hours": "4:00 PM – close",
+      "hours": "4:00 PM \u2013 close",
       "ageLimit": "Kids menu",
       "kidsPerAdult": null,
       "dineInOnly": true,
@@ -8375,7 +8347,7 @@
     "slug": "chicken-salad-chick",
     "category": "kids-eat-free",
     "group": "food-drink",
-    "description": "One free kids' meal per adult entrée",
+    "description": "One free kids' meal per adult entr\u00e9e",
     "address": "",
     "city": "Lafayette",
     "website": "https://www.chickensaladchick.com",
@@ -8443,7 +8415,7 @@
     "slug": "la-hacienda-broussard",
     "category": "kids-eat-free",
     "group": "food-drink",
-    "description": "One free kids' meal per adult entrée",
+    "description": "One free kids' meal per adult entr\u00e9e",
     "address": "",
     "city": "Broussard",
     "tags": [
@@ -8477,7 +8449,7 @@
     "slug": "bushido-lafayette",
     "category": "kids-eat-free",
     "group": "food-drink",
-    "description": "Kids under 5 eat free. Kids 5–12 get discounted AYCE pricing.",
+    "description": "Kids under 5 eat free. Kids 5\u201312 get discounted AYCE pricing.",
     "address": "",
     "city": "Lafayette",
     "website": "https://www.bushidolafayette.com",
@@ -8502,7 +8474,7 @@
       "kidsPerAdult": null,
       "dineInOnly": true,
       "category": "Sushi / Korean BBQ",
-      "notes": "Under 5 free every day. Ages 5–12: Lunch AYCE $11.99, Dinner & Weekends $16.99.",
+      "notes": "Under 5 free every day. Ages 5\u201312: Lunch AYCE $11.99, Dinner & Weekends $16.99.",
       "source": "kids-eat-free",
       "lastUpdated": "2026-03-25"
     }
@@ -8539,10 +8511,10 @@
         "Saturday",
         "Sunday"
       ],
-      "hours": "9:00 AM – 2:00 PM",
+      "hours": "9:00 AM \u2013 2:00 PM",
       "reservations": "Not needed",
       "category": "Cajun / American",
-      "notes": "Two locations: 214 E Vermilion St (Downtown) and 3822 Ambassador Caffery Pkwy. Featured in SAVEUR Magazine Top 100. Open Mon, Wed–Sun 7 AM–2 PM; Sat–Sun 9 AM–2 PM. Note: Original downtown location may have changed hours – verify.",
+      "notes": "Two locations: 214 E Vermilion St (Downtown) and 3822 Ambassador Caffery Pkwy. Featured in SAVEUR Magazine Top 100. Open Mon, Wed\u2013Sun 7 AM\u20132 PM; Sat\u2013Sun 9 AM\u20132 PM. Note: Original downtown location may have changed hours \u2013 verify.",
       "source": "weekend-brunch",
       "lastUpdated": "2026-03-25"
     }
@@ -8576,10 +8548,10 @@
       "brunchDays": [
         "Sunday"
       ],
-      "hours": "10:00 AM – 3:00 PM",
+      "hours": "10:00 AM \u2013 3:00 PM",
       "reservations": "Recommended",
       "category": "American / Upscale Casual",
-      "notes": "407 Brook Ave, Lafayette. Tue–Thu 5–9 PM; Fri 11–2 & 5–10 PM; Sat 5–10 PM; Sun 10–3 PM. Live music on select Wednesday nights. Reservations strongly recommended for weekend brunch.",
+      "notes": "407 Brook Ave, Lafayette. Tue\u2013Thu 5\u20139 PM; Fri 11\u20132 & 5\u201310 PM; Sat 5\u201310 PM; Sun 10\u20133 PM. Live music on select Wednesday nights. Reservations strongly recommended for weekend brunch.",
       "source": "weekend-brunch",
       "lastUpdated": "2026-03-25"
     }
@@ -8616,7 +8588,7 @@
         "Saturday",
         "Sunday"
       ],
-      "hours": "Saturday 11:00 AM – 2:00 PM / Sunday 9:45 AM – 2:00 PM",
+      "hours": "Saturday 11:00 AM \u2013 2:00 PM / Sunday 9:45 AM \u2013 2:00 PM",
       "reservations": "Recommended",
       "category": "Cajun / Creole",
       "notes": "140 E Bridge St, Breaux Bridge. (337) 909-2377. Live local music during brunch. Indoor and outdoor seating. Rated 4.7/5 on TripAdvisor. One of the region's most beloved brunch spots.",
@@ -8657,10 +8629,10 @@
         "Saturday",
         "Sunday"
       ],
-      "hours": "10:30 AM – 2:00 PM",
+      "hours": "10:30 AM \u2013 2:00 PM",
       "reservations": "Not needed",
       "category": "American / Casual",
-      "notes": "Lafayette location: 819 E Broussard Rd. Happy Hour M–F 3–6 PM. Brunch Sat & Sun 10:30 AM–2 PM. Two locations; fans rave about cocktails and locally sourced menu.",
+      "notes": "Lafayette location: 819 E Broussard Rd. Happy Hour M\u2013F 3\u20136 PM. Brunch Sat & Sun 10:30 AM\u20132 PM. Two locations; fans rave about cocktails and locally sourced menu.",
       "source": "weekend-brunch",
       "lastUpdated": "2026-03-25"
     }
@@ -8697,10 +8669,10 @@
         "Saturday",
         "Sunday"
       ],
-      "hours": "7:00 AM – 3:00 PM",
+      "hours": "7:00 AM \u2013 3:00 PM",
       "reservations": "Not needed",
       "category": "Southern / American",
-      "notes": "4701 Ambassador Caffery Pkwy, Lafayette. Mon–Fri 7:30 AM–2 PM; Weekends 7:30 AM–3 PM. Popular regional chain with strong following. Consistently rated top brunch spot on Yelp.",
+      "notes": "4701 Ambassador Caffery Pkwy, Lafayette. Mon\u2013Fri 7:30 AM\u20132 PM; Weekends 7:30 AM\u20133 PM. Popular regional chain with strong following. Consistently rated top brunch spot on Yelp.",
       "source": "weekend-brunch",
       "lastUpdated": "2026-03-25"
     }
@@ -8734,10 +8706,10 @@
       "brunchDays": [
         "Sunday"
       ],
-      "hours": "10:00 AM – 2:00 PM",
+      "hours": "10:00 AM \u2013 2:00 PM",
       "reservations": "Not needed",
       "category": "American / Southern",
-      "notes": "Downtown Lafayette. No reservations taken. Sun 10 AM–2 PM. Tue–Sat 11 AM–9/10 PM. Rated 4.6/5 on TripAdvisor. Do not take reservations.",
+      "notes": "Downtown Lafayette. No reservations taken. Sun 10 AM\u20132 PM. Tue\u2013Sat 11 AM\u20139/10 PM. Rated 4.6/5 on TripAdvisor. Do not take reservations.",
       "source": "weekend-brunch",
       "lastUpdated": "2026-03-25"
     }
@@ -8771,10 +8743,10 @@
       "brunchDays": [
         "Sunday"
       ],
-      "hours": "10:30 AM – 3:00 PM",
+      "hours": "10:30 AM \u2013 3:00 PM",
       "reservations": "Not needed",
       "category": "American BBQ / Smokehouse",
-      "notes": "117 S College Rd, Lafayette. Sunday brunch 10:30 AM–3 PM. Restaurant open until 8 PM Sundays. Outdoor seating, dog-friendly.",
+      "notes": "117 S College Rd, Lafayette. Sunday brunch 10:30 AM\u20133 PM. Restaurant open until 8 PM Sundays. Outdoor seating, dog-friendly.",
       "source": "weekend-brunch",
       "lastUpdated": "2026-03-25"
     }
@@ -8808,10 +8780,10 @@
       "brunchDays": [
         "Sunday"
       ],
-      "hours": "10:00 AM – 2:00 PM",
+      "hours": "10:00 AM \u2013 2:00 PM",
       "reservations": "Recommended",
       "category": "Cajun / Creole",
-      "notes": "1211 W Pinhook Rd, Lafayette. Sunday brunch 10 AM–2 PM with live music. Check current status – reported closed on some review sites as of early 2026; verify before visiting.",
+      "notes": "1211 W Pinhook Rd, Lafayette. Sunday brunch 10 AM\u20132 PM with live music. Check current status \u2013 reported closed on some review sites as of early 2026; verify before visiting.",
       "source": "weekend-brunch",
       "lastUpdated": "2026-03-25"
     }
@@ -8927,7 +8899,7 @@
     }
   },
   {
-    "name": "Buck & Johnny's – Zydeco Breakfast",
+    "name": "Buck & Johnny's \u2013 Zydeco Breakfast",
     "slug": "buck-and-johnnys-brunch",
     "category": "weekend-brunch",
     "group": "food-drink",
@@ -8955,16 +8927,16 @@
       "brunchDays": [
         "Saturday"
       ],
-      "hours": "8:00 AM – 11:30 AM",
-      "reservations": "Not needed – First Come First Served",
+      "hours": "8:00 AM \u2013 11:30 AM",
+      "reservations": "Not needed \u2013 First Come First Served",
       "category": "Cajun / Italian",
-      "notes": "100 Berard St, Breaux Bridge. Doors open 8 AM, music 8:30–11:30 AM. No reservations – arrive early! Family-friendly. One of the most unique brunch experiences in Louisiana.",
+      "notes": "100 Berard St, Breaux Bridge. Doors open 8 AM, music 8:30\u201311:30 AM. No reservations \u2013 arrive early! Family-friendly. One of the most unique brunch experiences in Louisiana.",
       "source": "weekend-brunch",
       "lastUpdated": "2026-03-25"
     }
   },
   {
-    "name": "Prejean's Restaurant – Weekend Brunch",
+    "name": "Prejean's Restaurant \u2013 Weekend Brunch",
     "slug": "park-bistro-brunch",
     "category": "weekend-brunch",
     "group": "food-drink",
@@ -8994,10 +8966,10 @@
         "Saturday",
         "Sunday"
       ],
-      "hours": "9:00 AM – 11:00 AM (live Cajun music)",
+      "hours": "9:00 AM \u2013 11:00 AM (live Cajun music)",
       "reservations": "Recommended",
       "category": "Cajun / Creole",
-      "notes": "3480 NE Evangeline Thruway, Lafayette. Live Cajun music Sat–Sun mornings 9–11 AM, and every evening from 7 PM. Reservations on OpenTable.",
+      "notes": "3480 NE Evangeline Thruway, Lafayette. Live Cajun music Sat\u2013Sun mornings 9\u201311 AM, and every evening from 7 PM. Reservations on OpenTable.",
       "source": "weekend-brunch",
       "lastUpdated": "2026-03-25"
     }
@@ -9031,10 +9003,10 @@
       "brunchDays": [
         "Saturday"
       ],
-      "hours": "9:00 AM – 2:00 PM",
+      "hours": "9:00 AM \u2013 2:00 PM",
       "reservations": "Recommended",
       "category": "Southern / Contemporary",
-      "notes": "Lafayette. Sat brunch 9 AM–2 PM. Known for bartender creativity and craft cocktails. Lively patio atmosphere.",
+      "notes": "Lafayette. Sat brunch 9 AM\u20132 PM. Known for bartender creativity and craft cocktails. Lively patio atmosphere.",
       "source": "weekend-brunch",
       "lastUpdated": "2026-03-25"
     }
@@ -9067,10 +9039,10 @@
       "brunchDays": [
         "Saturday"
       ],
-      "hours": "7:00 AM – 3:00 PM",
+      "hours": "7:00 AM \u2013 3:00 PM",
       "reservations": "Not needed",
       "category": "American / Breakfast",
-      "notes": "317 Heymann Blvd, Lafayette. Mon–Sat 7 AM–3 PM; closed Sunday. Budget-friendly option for a solid weekend breakfast/brunch on Saturdays.",
+      "notes": "317 Heymann Blvd, Lafayette. Mon\u2013Sat 7 AM\u20133 PM; closed Sunday. Budget-friendly option for a solid weekend breakfast/brunch on Saturdays.",
       "source": "weekend-brunch",
       "lastUpdated": "2026-03-25"
     }
@@ -9344,49 +9316,49 @@
           "day": "Monday",
           "dayIndex": 1,
           "description": "Live music during dinner",
-          "hours": "6:00 PM – 9:00 PM",
+          "hours": "6:00 PM \u2013 9:00 PM",
           "genre": "Variety"
         },
         {
           "day": "Tuesday",
           "dayIndex": 2,
           "description": "Live music during dinner",
-          "hours": "6:00 PM – 9:00 PM",
+          "hours": "6:00 PM \u2013 9:00 PM",
           "genre": "Variety"
         },
         {
           "day": "Wednesday",
           "dayIndex": 3,
           "description": "Live music during dinner",
-          "hours": "6:00 PM – 9:00 PM",
+          "hours": "6:00 PM \u2013 9:00 PM",
           "genre": "Variety"
         },
         {
           "day": "Thursday",
           "dayIndex": 4,
           "description": "Live music during dinner",
-          "hours": "6:00 PM – 9:00 PM",
+          "hours": "6:00 PM \u2013 9:00 PM",
           "genre": "Variety"
         },
         {
           "day": "Friday",
           "dayIndex": 5,
           "description": "Live music during dinner",
-          "hours": "6:00 PM – 9:00 PM",
+          "hours": "6:00 PM \u2013 9:00 PM",
           "genre": "Variety"
         },
         {
           "day": "Saturday",
           "dayIndex": 6,
           "description": "Live music during brunch & dinner",
-          "hours": "10:00 AM – 2:00 PM, 6:00 PM – 9:00 PM",
+          "hours": "10:00 AM \u2013 2:00 PM, 6:00 PM \u2013 9:00 PM",
           "genre": "Variety"
         },
         {
           "day": "Sunday",
           "dayIndex": 0,
           "description": "Live music during brunch",
-          "hours": "10:00 AM – 2:00 PM",
+          "hours": "10:00 AM \u2013 2:00 PM",
           "genre": "Variety"
         }
       ],
@@ -9398,7 +9370,7 @@
       ],
       "cover": "Free",
       "category": "Restaurant",
-      "notes": "Live music 7 days a week — one of the best dinner-and-music combos in Lafayette. Swamp-edge cuisine in an urban Cajun atmosphere.",
+      "notes": "Live music 7 days a week \u2014 one of the best dinner-and-music combos in Lafayette. Swamp-edge cuisine in an urban Cajun atmosphere.",
       "isRestaurant": true,
       "source": "live-music",
       "lastUpdated": "2026-03-25"
@@ -9432,8 +9404,8 @@
         {
           "day": "Saturday",
           "dayIndex": 6,
-          "description": "World-Famous Zydeco Breakfast – live zydeco music while you dine",
-          "hours": "8:00 AM – 11:30 AM",
+          "description": "World-Famous Zydeco Breakfast \u2013 live zydeco music while you dine",
+          "hours": "8:00 AM \u2013 11:30 AM",
           "genre": "Zydeco"
         },
         {
@@ -9457,7 +9429,7 @@
       ],
       "cover": "Free",
       "category": "Restaurant / Music Venue",
-      "notes": "100 Berard St, Breaux Bridge. No reservations for Zydeco Breakfast – doors open at 8 AM. Yvette Landry and Richard Comeaux have standing residency Thu–Sat evenings.",
+      "notes": "100 Berard St, Breaux Bridge. No reservations for Zydeco Breakfast \u2013 doors open at 8 AM. Yvette Landry and Richard Comeaux have standing residency Thu\u2013Sat evenings.",
       "isRestaurant": true,
       "source": "live-music",
       "lastUpdated": "2026-03-25"
@@ -9468,7 +9440,7 @@
     "slug": "cafe-sydnie-mae-music",
     "category": "live-music",
     "group": "things-to-do",
-    "description": "Charming downtown Breaux Bridge café with live local music and art. Modern Cajun cuisine. Warm, community feel.",
+    "description": "Charming downtown Breaux Bridge caf\u00e9 with live local music and art. Modern Cajun cuisine. Warm, community feel.",
     "address": "",
     "city": "Breaux Bridge",
     "website": "https://cafesydniemae.com",
@@ -9492,14 +9464,14 @@
           "day": "Saturday",
           "dayIndex": 6,
           "description": "Live music during brunch and evening service",
-          "hours": "11:00 AM – 2:00 PM / 5:00 PM – 9:00 PM",
+          "hours": "11:00 AM \u2013 2:00 PM / 5:00 PM \u2013 9:00 PM",
           "genre": "Cajun / Local"
         },
         {
           "day": "Sunday",
           "dayIndex": 0,
           "description": "Live music during Sunday brunch",
-          "hours": "9:45 AM – 2:00 PM",
+          "hours": "9:45 AM \u2013 2:00 PM",
           "genre": "Cajun / Local"
         }
       ],
@@ -9508,7 +9480,7 @@
         "Local Artists"
       ],
       "cover": "Free",
-      "category": "Restaurant / Café",
+      "category": "Restaurant / Caf\u00e9",
       "notes": "140 E Bridge St, Breaux Bridge. Live music on weekends. Also doubles as a brunch destination.",
       "isRestaurant": true,
       "source": "live-music",
@@ -9543,28 +9515,28 @@
           "day": "Wednesday",
           "dayIndex": 3,
           "description": "Live music during dinner",
-          "hours": "6:00 PM – 9:00 PM",
+          "hours": "6:00 PM \u2013 9:00 PM",
           "genre": "Jazz"
         },
         {
           "day": "Thursday",
           "dayIndex": 4,
           "description": "Live music during dinner",
-          "hours": "6:00 PM – 9:00 PM",
+          "hours": "6:00 PM \u2013 9:00 PM",
           "genre": "Jazz"
         },
         {
           "day": "Friday",
           "dayIndex": 5,
           "description": "Live music during dinner",
-          "hours": "6:00 PM – 9:00 PM",
+          "hours": "6:00 PM \u2013 9:00 PM",
           "genre": "Jazz"
         },
         {
           "day": "Saturday",
           "dayIndex": 6,
           "description": "Live music during dinner",
-          "hours": "6:00 PM – 9:00 PM",
+          "hours": "6:00 PM \u2013 9:00 PM",
           "genre": "Jazz"
         }
       ],
@@ -9609,21 +9581,21 @@
           "day": "Thursday",
           "dayIndex": 4,
           "description": "Live music",
-          "hours": "7:00 PM – 10:00 PM",
+          "hours": "7:00 PM \u2013 10:00 PM",
           "genre": "Variety"
         },
         {
           "day": "Friday",
           "dayIndex": 5,
           "description": "Live music",
-          "hours": "7:00 PM – 10:00 PM",
+          "hours": "7:00 PM \u2013 10:00 PM",
           "genre": "Variety"
         },
         {
           "day": "Saturday",
           "dayIndex": 6,
           "description": "Live music",
-          "hours": "7:00 PM – 10:00 PM",
+          "hours": "7:00 PM \u2013 10:00 PM",
           "genre": "Variety"
         }
       ],
@@ -9668,14 +9640,14 @@
           "day": "Friday",
           "dayIndex": 5,
           "description": "Live music",
-          "hours": "7:00 PM – 10:00 PM",
+          "hours": "7:00 PM \u2013 10:00 PM",
           "genre": "Variety"
         },
         {
           "day": "Saturday",
           "dayIndex": 6,
           "description": "Live music",
-          "hours": "7:00 PM – 10:00 PM",
+          "hours": "7:00 PM \u2013 10:00 PM",
           "genre": "Variety"
         }
       ],
@@ -9696,7 +9668,7 @@
     "slug": "pont-breauxs",
     "category": "live-music",
     "group": "things-to-do",
-    "description": "Formerly Mulate's – the original Cajun restaurant. Authentic Cajun food and live music. Known for seafood and traditional recipes.",
+    "description": "Formerly Mulate's \u2013 the original Cajun restaurant. Authentic Cajun food and live music. Known for seafood and traditional recipes.",
     "address": "",
     "city": "Breaux Bridge",
     "website": "https://pontbreauxscajunrestaurant.com",
@@ -9776,63 +9748,63 @@
           "day": "Saturday",
           "dayIndex": 6,
           "description": "Morning Cajun music session",
-          "hours": "9:00 AM – 11:00 AM",
+          "hours": "9:00 AM \u2013 11:00 AM",
           "genre": "Cajun"
         },
         {
           "day": "Sunday",
           "dayIndex": 0,
           "description": "Morning Cajun music session",
-          "hours": "9:00 AM – 11:00 AM",
+          "hours": "9:00 AM \u2013 11:00 AM",
           "genre": "Cajun"
         },
         {
           "day": "Monday",
           "dayIndex": 1,
           "description": "Live traditional Cajun music",
-          "hours": "7:00 PM – close",
+          "hours": "7:00 PM \u2013 close",
           "genre": "Cajun"
         },
         {
           "day": "Tuesday",
           "dayIndex": 2,
           "description": "Live traditional Cajun music",
-          "hours": "7:00 PM – close",
+          "hours": "7:00 PM \u2013 close",
           "genre": "Cajun"
         },
         {
           "day": "Wednesday",
           "dayIndex": 3,
           "description": "Live traditional Cajun music",
-          "hours": "7:00 PM – close",
+          "hours": "7:00 PM \u2013 close",
           "genre": "Cajun"
         },
         {
           "day": "Thursday",
           "dayIndex": 4,
           "description": "Live traditional Cajun music",
-          "hours": "7:00 PM – close",
+          "hours": "7:00 PM \u2013 close",
           "genre": "Cajun"
         },
         {
           "day": "Friday",
           "dayIndex": 5,
           "description": "Live traditional Cajun music",
-          "hours": "7:00 PM – close",
+          "hours": "7:00 PM \u2013 close",
           "genre": "Cajun"
         },
         {
           "day": "Saturday",
           "dayIndex": 6,
           "description": "Live traditional Cajun music (evening)",
-          "hours": "7:00 PM – close",
+          "hours": "7:00 PM \u2013 close",
           "genre": "Cajun"
         },
         {
           "day": "Sunday",
           "dayIndex": 0,
           "description": "Live traditional Cajun music (evening)",
-          "hours": "7:00 PM – close",
+          "hours": "7:00 PM \u2013 close",
           "genre": "Cajun"
         }
       ],
@@ -9842,86 +9814,6 @@
       "cover": "Free",
       "category": "Restaurant / Dance Hall",
       "notes": "Located at 3480 NE Evangeline Thruway (I-49 N), Lafayette. Famous for gumbo, wild game, and seafood. Reservations available via OpenTable.",
-      "isRestaurant": true,
-      "source": "live-music",
-      "lastUpdated": "2026-03-25"
-    }
-  },
-  {
-    "name": "Randol's Restaurant & Cajun Dance Hall",
-    "slug": "randols",
-    "category": "live-music",
-    "group": "things-to-do",
-    "description": "Classic Acadiana dance hall with large dance floor. Open 40+ years. Locals and tourists two-stepping nightly. Great crawfish.",
-    "address": "",
-    "city": "Lafayette",
-    "website": "https://www.randols.com",
-    "tags": [
-      "Lafayette",
-      "Cajun",
-      "Zydeco",
-      "live-music"
-    ],
-    "features": [
-      "Free",
-      "restaurant"
-    ],
-    "featured": false,
-    "meta": {
-      "locations": [
-        "Lafayette"
-      ],
-      "musicNights": [
-        {
-          "day": "Tuesday",
-          "dayIndex": 2,
-          "description": "Live Cajun music and dancing",
-          "hours": "6:30 PM – close",
-          "genre": "Cajun"
-        },
-        {
-          "day": "Wednesday",
-          "dayIndex": 3,
-          "description": "Live Cajun music and dancing",
-          "hours": "6:30 PM – close",
-          "genre": "Cajun"
-        },
-        {
-          "day": "Thursday",
-          "dayIndex": 4,
-          "description": "Live Cajun music and dancing",
-          "hours": "6:30 PM – close",
-          "genre": "Cajun"
-        },
-        {
-          "day": "Friday",
-          "dayIndex": 5,
-          "description": "Live Cajun music and dancing",
-          "hours": "6:30 PM – close",
-          "genre": "Cajun"
-        },
-        {
-          "day": "Saturday",
-          "dayIndex": 6,
-          "description": "Live Cajun music and dancing (e.g. Maegan Benoit)",
-          "hours": "6:30 PM – close",
-          "genre": "Cajun"
-        },
-        {
-          "day": "Sunday",
-          "dayIndex": 0,
-          "description": "Live Cajun music and dancing",
-          "hours": "6:30 PM – close",
-          "genre": "Cajun"
-        }
-      ],
-      "genres": [
-        "Cajun",
-        "Zydeco"
-      ],
-      "cover": "Free",
-      "category": "Restaurant / Dance Hall",
-      "notes": "Located at 2320 Kaliste Saloom Rd, Lafayette. Known for crawfish by the pound. Live music nightly; call ahead to confirm specific nights.",
       "isRestaurant": true,
       "source": "live-music",
       "lastUpdated": "2026-03-25"
@@ -9958,28 +9850,28 @@
           "day": "Thursday",
           "dayIndex": 4,
           "description": "Zydeco night",
-          "hours": "8:30 PM – close",
+          "hours": "8:30 PM \u2013 close",
           "genre": "Zydeco"
         },
         {
           "day": "Friday",
           "dayIndex": 5,
           "description": "Live music with bowling",
-          "hours": "9:30 PM – close",
+          "hours": "9:30 PM \u2013 close",
           "genre": "Zydeco / Party Band / Various"
         },
         {
           "day": "Saturday",
           "dayIndex": 6,
           "description": "Live music with bowling",
-          "hours": "9:30 PM – close",
+          "hours": "9:30 PM \u2013 close",
           "genre": "Party Band / Various"
         },
         {
           "day": "Sunday",
           "dayIndex": 0,
-          "description": "Zydeco Sunday – live zydeco starting around 5 PM",
-          "hours": "5:00 PM – close",
+          "description": "Zydeco Sunday \u2013 live zydeco starting around 5 PM",
+          "hours": "5:00 PM \u2013 close",
           "genre": "Zydeco"
         }
       ],
@@ -10027,28 +9919,28 @@
           "day": "Wednesday",
           "dayIndex": 3,
           "description": "Live acoustic music",
-          "hours": "6:00 PM – 9:00 PM",
+          "hours": "6:00 PM \u2013 9:00 PM",
           "genre": "Country"
         },
         {
           "day": "Thursday",
           "dayIndex": 4,
           "description": "Live music",
-          "hours": "6:00 PM – 9:00 PM",
+          "hours": "6:00 PM \u2013 9:00 PM",
           "genre": "Variety"
         },
         {
           "day": "Friday",
           "dayIndex": 5,
           "description": "Live music",
-          "hours": "6:30 PM – 9:30 PM",
+          "hours": "6:30 PM \u2013 9:30 PM",
           "genre": "Variety"
         },
         {
           "day": "Saturday",
           "dayIndex": 6,
           "description": "Live music",
-          "hours": "6:30 PM – 9:30 PM",
+          "hours": "6:30 PM \u2013 9:30 PM",
           "genre": "Country"
         }
       ],
@@ -10094,21 +9986,21 @@
           "day": "Thursday",
           "dayIndex": 4,
           "description": "Live music during dinner",
-          "hours": "6:00 PM – 9:00 PM",
+          "hours": "6:00 PM \u2013 9:00 PM",
           "genre": "Variety"
         },
         {
           "day": "Friday",
           "dayIndex": 5,
           "description": "Live music during dinner",
-          "hours": "7:00 PM – 10:00 PM",
+          "hours": "7:00 PM \u2013 10:00 PM",
           "genre": "Variety"
         },
         {
           "day": "Saturday",
           "dayIndex": 6,
           "description": "Live music during dinner",
-          "hours": "7:00 PM – 10:00 PM",
+          "hours": "7:00 PM \u2013 10:00 PM",
           "genre": "Variety"
         }
       ],
@@ -10118,7 +10010,7 @@
       ],
       "cover": "Free",
       "category": "Restaurant",
-      "notes": "Farm-to-table approach with brunch, lunch, and dinner. Live music on peak nights — busiest Thu–Sat evenings.",
+      "notes": "Farm-to-table approach with brunch, lunch, and dinner. Live music on peak nights \u2014 busiest Thu\u2013Sat evenings.",
       "isRestaurant": true,
       "source": "live-music",
       "lastUpdated": "2026-03-25"
@@ -10152,14 +10044,14 @@
           "day": "Friday",
           "dayIndex": 5,
           "description": "Live music",
-          "hours": "7:00 PM – 10:00 PM",
+          "hours": "7:00 PM \u2013 10:00 PM",
           "genre": "Variety"
         },
         {
           "day": "Saturday",
           "dayIndex": 6,
           "description": "Live music",
-          "hours": "8:00 PM – 11:00 PM",
+          "hours": "8:00 PM \u2013 11:00 PM",
           "genre": "Variety"
         }
       ],
@@ -10169,7 +10061,7 @@
       ],
       "cover": "Free",
       "category": "Restaurant / Bar",
-      "notes": "Popular Broussard spot — live music on weekends plus karaoke on Wednesdays.",
+      "notes": "Popular Broussard spot \u2014 live music on weekends plus karaoke on Wednesdays.",
       "isRestaurant": true,
       "source": "live-music",
       "lastUpdated": "2026-03-25"
@@ -10203,14 +10095,14 @@
           "day": "Friday",
           "dayIndex": 5,
           "description": "Live Cajun accordion music",
-          "hours": "6:00 PM – 9:00 PM",
+          "hours": "6:00 PM \u2013 9:00 PM",
           "genre": "Cajun"
         },
         {
           "day": "Saturday",
           "dayIndex": 6,
           "description": "Live Cajun accordion music",
-          "hours": "6:00 PM – 9:00 PM",
+          "hours": "6:00 PM \u2013 9:00 PM",
           "genre": "Cajun"
         }
       ],
@@ -10254,49 +10146,49 @@
           "day": "Monday",
           "dayIndex": 1,
           "description": "Live jazz & blues",
-          "hours": "6:00 PM – 9:00 PM",
+          "hours": "6:00 PM \u2013 9:00 PM",
           "genre": "Jazz"
         },
         {
           "day": "Tuesday",
           "dayIndex": 2,
           "description": "Live jazz & blues",
-          "hours": "6:00 PM – 9:00 PM",
+          "hours": "6:00 PM \u2013 9:00 PM",
           "genre": "Jazz"
         },
         {
           "day": "Wednesday",
           "dayIndex": 3,
           "description": "Live jazz & blues",
-          "hours": "6:00 PM – 9:00 PM",
+          "hours": "6:00 PM \u2013 9:00 PM",
           "genre": "Jazz"
         },
         {
           "day": "Thursday",
           "dayIndex": 4,
           "description": "Live jazz & blues",
-          "hours": "6:00 PM – 9:00 PM",
+          "hours": "6:00 PM \u2013 9:00 PM",
           "genre": "Jazz"
         },
         {
           "day": "Friday",
           "dayIndex": 5,
           "description": "Live jazz & blues",
-          "hours": "7:00 PM – 10:00 PM",
+          "hours": "7:00 PM \u2013 10:00 PM",
           "genre": "Jazz"
         },
         {
           "day": "Saturday",
           "dayIndex": 6,
           "description": "Live jazz & blues",
-          "hours": "7:00 PM – 10:00 PM",
+          "hours": "7:00 PM \u2013 10:00 PM",
           "genre": "Jazz"
         },
         {
           "day": "Sunday",
           "dayIndex": 0,
           "description": "Jazz brunch",
-          "hours": "10:00 AM – 2:00 PM",
+          "hours": "10:00 AM \u2013 2:00 PM",
           "genre": "Jazz"
         }
       ],
@@ -10341,7 +10233,7 @@
           "day": "Sunday",
           "dayIndex": 0,
           "description": "Live Cajun and zydeco music overlooking the Atchafalaya Basin",
-          "hours": "3:00 PM – 9:00 PM",
+          "hours": "3:00 PM \u2013 9:00 PM",
           "genre": "Cajun / Zydeco"
         }
       ],
@@ -10351,7 +10243,7 @@
       ],
       "cover": "Free",
       "category": "Dance Hall / Bar",
-      "notes": "1365 Henderson Levee Rd, Breaux Bridge area. Open every Sunday 3–9 PM. Started as a bar and boat launch. One of the most scenic music spots in Louisiana.",
+      "notes": "1365 Henderson Levee Rd, Breaux Bridge area. Open every Sunday 3\u20139 PM. Started as a bar and boat launch. One of the most scenic music spots in Louisiana.",
       "isRestaurant": false,
       "source": "live-music",
       "lastUpdated": "2026-03-25"
@@ -10376,7 +10268,7 @@
       "live-music"
     ],
     "features": [
-      "Varies by show – check website"
+      "Varies by show \u2013 check website"
     ],
     "featured": false,
     "meta": {
@@ -10387,22 +10279,22 @@
         {
           "day": "Thursday",
           "dayIndex": 4,
-          "description": "Live music – various genres",
-          "hours": "8:00 PM – close",
+          "description": "Live music \u2013 various genres",
+          "hours": "8:00 PM \u2013 close",
           "genre": "Cajun / Zydeco / Blues / Roots"
         },
         {
           "day": "Friday",
           "dayIndex": 5,
-          "description": "Live music – various genres",
-          "hours": "8:00 PM – close",
+          "description": "Live music \u2013 various genres",
+          "hours": "8:00 PM \u2013 close",
           "genre": "Cajun / Zydeco / Blues / Roots"
         },
         {
           "day": "Saturday",
           "dayIndex": 6,
-          "description": "Live music – various genres",
-          "hours": "8:00 PM – close",
+          "description": "Live music \u2013 various genres",
+          "hours": "8:00 PM \u2013 close",
           "genre": "Cajun / Zydeco / Blues / Roots"
         }
       ],
@@ -10413,7 +10305,7 @@
         "Roots",
         "Honky-tonk"
       ],
-      "cover": "Varies by show – check website",
+      "cover": "Varies by show \u2013 check website",
       "category": "Bar / Music Venue / Guesthouse",
       "notes": "Voted one of the Best Bars in America by Esquire. Happy hour 5 PM with $3 Crown, $3 Jameson, $4 local beers. Check live music calendar online for full schedule.",
       "isRestaurant": false,
@@ -10449,14 +10341,14 @@
           "day": "Friday",
           "dayIndex": 5,
           "description": "Live zydeco and blues",
-          "hours": "Evening – check Facebook",
+          "hours": "Evening \u2013 check Facebook",
           "genre": "Zydeco / Blues"
         },
         {
           "day": "Saturday",
           "dayIndex": 6,
           "description": "Live zydeco and blues",
-          "hours": "Evening – check Facebook",
+          "hours": "Evening \u2013 check Facebook",
           "genre": "Zydeco / Blues"
         }
       ],
@@ -10477,7 +10369,7 @@
     "slug": "feed-n-seed",
     "category": "live-music",
     "group": "things-to-do",
-    "description": "Rustic feed-store-themed venue with antique décor. Large open dance floor for fais do-do (traditional Cajun dancing). Outdoor patio.",
+    "description": "Rustic feed-store-themed venue with antique d\u00e9cor. Large open dance floor for fais do-do (traditional Cajun dancing). Outdoor patio.",
     "address": "",
     "city": "Lafayette",
     "website": "https://www.facebook.com/FeedNSeedLafayette/",
@@ -10501,21 +10393,21 @@
         {
           "day": "Thursday",
           "dayIndex": 4,
-          "description": "Live music – various genres",
-          "hours": "Evening – check Facebook",
+          "description": "Live music \u2013 various genres",
+          "hours": "Evening \u2013 check Facebook",
           "genre": "Cajun / Various"
         },
         {
           "day": "Friday",
           "dayIndex": 5,
-          "description": "Live music – various genres",
+          "description": "Live music \u2013 various genres",
           "hours": "Evening",
           "genre": "Cajun / Various"
         },
         {
           "day": "Saturday",
           "dayIndex": 6,
-          "description": "Live music – various genres",
+          "description": "Live music \u2013 various genres",
           "hours": "Evening",
           "genre": "Cajun / Various"
         }
@@ -10559,8 +10451,8 @@
         {
           "day": "Saturday",
           "dayIndex": 6,
-          "description": "Live Cajun music broadcast on local radio – beer, boudin, dancing",
-          "hours": "9:00 AM – 12:00 PM (doors at 7:00 AM)",
+          "description": "Live Cajun music broadcast on local radio \u2013 beer, boudin, dancing",
+          "hours": "9:00 AM \u2013 12:00 PM (doors at 7:00 AM)",
           "genre": "Cajun"
         }
       ],
@@ -10569,14 +10461,14 @@
       ],
       "cover": "Free",
       "category": "Bar / Dance Hall",
-      "notes": "420 6th Street, Mamou. (318) 468-5411. Doors open 7 AM Saturdays, music 9 AM–noon. One of the most unique live music experiences in the South.",
+      "notes": "420 6th Street, Mamou. (318) 468-5411. Doors open 7 AM Saturdays, music 9 AM\u2013noon. One of the most unique live music experiences in the South.",
       "isRestaurant": false,
       "source": "live-music",
       "lastUpdated": "2026-03-25"
     }
   },
   {
-    "name": "La Poussière Cajun Dancehall",
+    "name": "La Poussi\u00e8re Cajun Dancehall",
     "slug": "la-poussiere",
     "category": "live-music",
     "group": "things-to-do",
@@ -10602,14 +10494,14 @@
           "day": "Saturday",
           "dayIndex": 6,
           "description": "Live Cajun music and dancing",
-          "hours": "Afternoon / Evening – check Facebook",
+          "hours": "Afternoon / Evening \u2013 check Facebook",
           "genre": "Cajun"
         },
         {
           "day": "Sunday",
           "dayIndex": 0,
           "description": "Live Cajun music and dancing",
-          "hours": "2:00 PM – close",
+          "hours": "2:00 PM \u2013 close",
           "genre": "Cajun"
         }
       ],
@@ -10650,8 +10542,8 @@
         {
           "day": "Saturday",
           "dayIndex": 6,
-          "description": "Rendezvous des Cajuns – live Cajun music radio/TV show in French, with dance floor",
-          "hours": "6:00 PM – 8:00 PM",
+          "description": "Rendezvous des Cajuns \u2013 live Cajun music radio/TV show in French, with dance floor",
+          "hours": "6:00 PM \u2013 8:00 PM",
           "genre": "Cajun"
         }
       ],
@@ -10693,7 +10585,7 @@
         {
           "day": "Saturday",
           "dayIndex": 6,
-          "description": "Live zydeco – epic zydeco dances",
+          "description": "Live zydeco \u2013 epic zydeco dances",
           "hours": "Evening",
           "genre": "Zydeco"
         }
@@ -10703,7 +10595,7 @@
       ],
       "cover": "Small cover charge",
       "category": "Dance Hall / Bar",
-      "notes": "Hwy 190, 3–4 miles west of Opelousas. Proprietor Kelvin Richard. (318) 543-6596. Verify schedule before visiting.",
+      "notes": "Hwy 190, 3\u20134 miles west of Opelousas. Proprietor Kelvin Richard. (318) 543-6596. Verify schedule before visiting.",
       "isRestaurant": false,
       "source": "live-music",
       "lastUpdated": "2026-03-25"
@@ -10735,8 +10627,8 @@
         {
           "day": "Saturday",
           "dayIndex": 6,
-          "description": "Open acoustic jam session – anyone can bring an instrument and join in",
-          "hours": "9:00 AM – 12:00 PM",
+          "description": "Open acoustic jam session \u2013 anyone can bring an instrument and join in",
+          "hours": "9:00 AM \u2013 12:00 PM",
           "genre": "Cajun"
         }
       ],
@@ -10745,7 +10637,7 @@
       ],
       "cover": "Free (donation of boudin or cracklins welcome)",
       "category": "Music Shop / Jam Session",
-      "notes": "337-580-0899. Open Saturdays 9 AM–noon for 40+ years. Owned by accordion-maker Marc Savoy. A bucket-list Cajun music experience.",
+      "notes": "337-580-0899. Open Saturdays 9 AM\u2013noon for 40+ years. Owned by accordion-maker Marc Savoy. A bucket-list Cajun music experience.",
       "isRestaurant": false,
       "source": "live-music",
       "lastUpdated": "2026-03-25"
@@ -10776,14 +10668,14 @@
         {
           "day": "Friday",
           "dayIndex": 5,
-          "description": "Live zydeco (when open – verify before visiting)",
+          "description": "Live zydeco (when open \u2013 verify before visiting)",
           "hours": "Evening",
           "genre": "Zydeco"
         },
         {
           "day": "Saturday",
           "dayIndex": 6,
-          "description": "Live zydeco (when open – verify before visiting)",
+          "description": "Live zydeco (when open \u2013 verify before visiting)",
           "hours": "Evening",
           "genre": "Zydeco"
         }
@@ -10828,28 +10720,28 @@
         {
           "day": "Wednesday",
           "dayIndex": 3,
-          "description": "Live music – various genres",
+          "description": "Live music \u2013 various genres",
           "hours": "Evening",
           "genre": "Various"
         },
         {
           "day": "Thursday",
           "dayIndex": 4,
-          "description": "Live music – various genres",
+          "description": "Live music \u2013 various genres",
           "hours": "Evening",
           "genre": "Various"
         },
         {
           "day": "Friday",
           "dayIndex": 5,
-          "description": "Live music – various genres",
+          "description": "Live music \u2013 various genres",
           "hours": "Evening",
           "genre": "Various"
         },
         {
           "day": "Saturday",
           "dayIndex": 6,
-          "description": "Live music – various genres",
+          "description": "Live music \u2013 various genres",
           "hours": "Evening",
           "genre": "Various"
         }
@@ -10873,7 +10765,7 @@
     "slug": "boudin",
     "category": "whos-got-it",
     "group": "food-drink",
-    "description": "Smoked, steamed, spicy, or classic — every parish swears theirs is best.",
+    "description": "Smoked, steamed, spicy, or classic \u2014 every parish swears theirs is best.",
     "address": "Acadiana",
     "city": "Lafayette",
     "tags": [
@@ -10890,21 +10782,21 @@
         {
           "placeName": "Billy's Boudin & Cracklin",
           "slug": "billy-s-boudin-cracklin",
-          "badge": "👑 Crowd Favorite",
+          "badge": "\ud83d\udc51 Crowd Favorite",
           "caseFor": "Consistent links with rich seasoning and that perfect snap. It's the benchmark people compare everyone else to.",
           "rating": 4.7
         },
         {
           "placeName": "Best Stop Supermarket",
           "slug": "best-stop-supermarket",
-          "badge": "🏆 Geaux's Pick",
+          "badge": "\ud83c\udfc6 Geaux's Pick",
           "caseFor": "Balanced spice, juicy texture, and cracklins that hit every time. A road-trip stop that's worth the detour.",
           "rating": 4.8
         },
         {
           "placeName": "Kartchner's Specialty Meats",
           "slug": "kartchner-s-specialty-meats",
-          "badge": "🌶️ Spicy Take",
+          "badge": "\ud83c\udf36\ufe0f Spicy Take",
           "caseFor": "Flavor-forward and a little bolder than average. If you like your boudin with attitude, this is your move.",
           "rating": 4.6
         }
@@ -10920,7 +10812,7 @@
       "source": "whos-got-it",
       "debateOfTheWeek": {
         "item": "Boudin",
-        "hook": "Rice, pork, and pure South Louisiana pride — who really owns the crown this week?"
+        "hook": "Rice, pork, and pure South Louisiana pride \u2014 who really owns the crown this week?"
       },
       "seasonalRotation": [
         {
@@ -10963,21 +10855,21 @@
         {
           "placeName": "Don's Specialty Meats",
           "slug": "dons-specialty-meats",
-          "badge": "👑 Crowd Favorite",
+          "badge": "\ud83d\udc51 Crowd Favorite",
           "caseFor": "Golden crunch and reliable seasoning. People grab an extra bag before they even leave the parking lot.",
           "rating": 4.6
         },
         {
           "placeName": "Best Stop Supermarket",
           "slug": "best-stop-supermarket",
-          "badge": "⚔️ Split Verdict",
-          "caseFor": "Some call it unbeatable, others say too rich — which is exactly why this debate gets loud at every boil.",
+          "badge": "\u2694\ufe0f Split Verdict",
+          "caseFor": "Some call it unbeatable, others say too rich \u2014 which is exactly why this debate gets loud at every boil.",
           "rating": 4.8
         },
         {
           "placeName": "Billy's Boudin & Cracklin",
           "slug": "billy-s-boudin-cracklin",
-          "badge": "🌶️ Spicy Take",
+          "badge": "\ud83c\udf36\ufe0f Spicy Take",
           "caseFor": "Peppery and intense in the best way. Not for the timid, but pure joy for heat lovers.",
           "rating": 4.7
         }
@@ -10987,7 +10879,7 @@
       "source": "whos-got-it",
       "debateOfTheWeek": {
         "item": "Boudin",
-        "hook": "Rice, pork, and pure South Louisiana pride — who really owns the crown this week?"
+        "hook": "Rice, pork, and pure South Louisiana pride \u2014 who really owns the crown this week?"
       },
       "seasonalRotation": [
         {
@@ -11013,7 +10905,7 @@
     "slug": "crawfish",
     "category": "whos-got-it",
     "group": "food-drink",
-    "description": "Spice level, peel quality, and price per pound — this one can start a family feud.",
+    "description": "Spice level, peel quality, and price per pound \u2014 this one can start a family feud.",
     "address": "Acadiana",
     "city": "Lafayette",
     "tags": [
@@ -11030,21 +10922,21 @@
         {
           "placeName": "Dwight's Restaurant",
           "slug": "dwights-restaurant",
-          "badge": "👑 Crowd Favorite",
+          "badge": "\ud83d\udc51 Crowd Favorite",
           "caseFor": "One of the absolute best on Johnston with bold, balanced seasoning and consistent quality.",
           "rating": 4.8
         },
         {
           "placeName": "C'est Bon Crawfish",
           "slug": "cest-bon-crawfish",
-          "badge": "🏆 Geaux's Pick",
+          "badge": "\ud83c\udfc6 Geaux's Pick",
           "caseFor": "Youngsville favorite with great, juicy crawfish and a strong word-of-mouth following.",
           "rating": 4.7
         },
         {
           "placeName": "Hawk's Crawfish Restaurant",
           "slug": "hawks-crawfish-restaurant",
-          "badge": "🌶️ Spicy Take",
+          "badge": "\ud83c\udf36\ufe0f Spicy Take",
           "caseFor": "Rayne institution with serious flavor depth and loyal locals every season.",
           "rating": 4.7
         }
@@ -11090,7 +10982,7 @@
       "source": "whos-got-it",
       "debateOfTheWeek": {
         "item": "Boudin",
-        "hook": "Rice, pork, and pure South Louisiana pride — who really owns the crown this week?"
+        "hook": "Rice, pork, and pure South Louisiana pride \u2014 who really owns the crown this week?"
       },
       "seasonalRotation": [
         {
@@ -11133,15 +11025,15 @@
         {
           "placeName": "Fezzo's Seafood, Steakhouse & Oyster Bar",
           "slug": "fezzo-s-seafood-steakhouse-oyster-bar",
-          "badge": "👑 Crowd Favorite",
+          "badge": "\ud83d\udc51 Crowd Favorite",
           "caseFor": "Rich custard body with a sauce that'll make you scrape the bowl.",
           "rating": 4.6
         },
         {
           "placeName": "Bon Temps Grill",
           "slug": "bon-temps-grill",
-          "badge": "🏆 Geaux's Pick",
-          "caseFor": "Decadent but balanced — sweet without going overboard.",
+          "badge": "\ud83c\udfc6 Geaux's Pick",
+          "caseFor": "Decadent but balanced \u2014 sweet without going overboard.",
           "rating": 4.7
         }
       ],
@@ -11150,7 +11042,7 @@
       "source": "whos-got-it",
       "debateOfTheWeek": {
         "item": "Boudin",
-        "hook": "Rice, pork, and pure South Louisiana pride — who really owns the crown this week?"
+        "hook": "Rice, pork, and pure South Louisiana pride \u2014 who really owns the crown this week?"
       },
       "seasonalRotation": [
         {
@@ -11176,7 +11068,7 @@
     "slug": "king-cake",
     "category": "whos-got-it",
     "group": "food-drink",
-    "description": "Icing ratio, filling style, and who gets the baby — Acadiana takes this personally.",
+    "description": "Icing ratio, filling style, and who gets the baby \u2014 Acadiana takes this personally.",
     "address": "Acadiana",
     "city": "Lafayette",
     "tags": [
@@ -11193,14 +11085,14 @@
         {
           "placeName": "Keller's Bakery",
           "slug": "keller-s-bakery",
-          "badge": "👑 Crowd Favorite",
+          "badge": "\ud83d\udc51 Crowd Favorite",
           "caseFor": "Classic style done right with pillowy dough and clean cinnamon flavor.",
           "rating": 4.7
         },
         {
           "placeName": "Aunt Angie's Cakery",
           "slug": "aunt-angie-s-cakery-new-iberia",
-          "badge": "🆕 Rising Star",
+          "badge": "\ud83c\udd95 Rising Star",
           "caseFor": "Creative spins and fun fillings that still respect tradition.",
           "rating": 4.2
         }
@@ -11210,7 +11102,7 @@
       "source": "whos-got-it",
       "debateOfTheWeek": {
         "item": "Boudin",
-        "hook": "Rice, pork, and pure South Louisiana pride — who really owns the crown this week?"
+        "hook": "Rice, pork, and pure South Louisiana pride \u2014 who really owns the crown this week?"
       },
       "seasonalRotation": [
         {
@@ -11236,7 +11128,7 @@
     "slug": "chicken-salad",
     "category": "whos-got-it",
     "group": "food-drink",
-    "description": "Spread-style chicken salad gets heated fast — chunky vs creamy, spicy vs mild, and where the jalapeño version wins.",
+    "description": "Spread-style chicken salad gets heated fast \u2014 chunky vs creamy, spicy vs mild, and where the jalape\u00f1o version wins.",
     "address": "Acadiana",
     "city": "Lafayette",
     "tags": [
@@ -11253,21 +11145,21 @@
         {
           "placeName": "Chop's Specialty Meats",
           "slug": "chops-specialty-meats-broussard",
-          "badge": "👑 Crowd Favorite",
-          "caseFor": "30+ recommendations with a cult-favorite jalapeño version on Albertsons Parkway.",
+          "badge": "\ud83d\udc51 Crowd Favorite",
+          "caseFor": "30+ recommendations with a cult-favorite jalape\u00f1o version on Albertsons Parkway.",
           "rating": 4.9
         },
         {
           "placeName": "Champagne's",
           "slug": "champagnes-market",
-          "badge": "🏆 Geaux's Pick",
+          "badge": "\ud83c\udfc6 Geaux's Pick",
           "caseFor": "Oil Center variety and fresh-made spicy Erath version made this a runaway community favorite.",
           "rating": 4.8
         },
         {
           "placeName": "Rod's Supermarket",
           "slug": "rods-supermarket-church-point",
-          "badge": "🌶️ Spicy Take",
+          "badge": "\ud83c\udf36\ufe0f Spicy Take",
           "caseFor": "Church Point pick with strong support and old-school deli credibility.",
           "rating": 4.6
         }
@@ -11317,7 +11209,7 @@
         {
           "placeName": "Hebert's",
           "slug": "heberts-breaux-bridge",
-          "note": "Smoked jalapeño version in Breaux Bridge."
+          "note": "Smoked jalape\u00f1o version in Breaux Bridge."
         },
         {
           "placeName": "Lydia Food Store",
@@ -11334,7 +11226,7 @@
       "source": "whos-got-it",
       "debateOfTheWeek": {
         "item": "Boudin",
-        "hook": "Rice, pork, and pure South Louisiana pride — who really owns the crown this week?"
+        "hook": "Rice, pork, and pure South Louisiana pride \u2014 who really owns the crown this week?"
       },
       "seasonalRotation": [
         {
@@ -11360,7 +11252,7 @@
     "slug": "beef-jerky",
     "category": "whos-got-it",
     "group": "food-drink",
-    "description": "Peppered strips and smoky chew — glovebox essentials for every road trip.",
+    "description": "Peppered strips and smoky chew \u2014 glovebox essentials for every road trip.",
     "address": "Acadiana",
     "city": "Lafayette",
     "tags": [
@@ -11377,14 +11269,14 @@
         {
           "placeName": "Kartchner's Specialty Meats",
           "slug": "kartchner-s-specialty-meats",
-          "badge": "🏆 Geaux's Pick",
+          "badge": "\ud83c\udfc6 Geaux's Pick",
           "caseFor": "Robust seasoning and serious smoke depth.",
           "rating": 4.6
         },
         {
           "placeName": "Don's Specialty Meats",
           "slug": "dons-specialty-meats",
-          "badge": "👑 Crowd Favorite",
+          "badge": "\ud83d\udc51 Crowd Favorite",
           "caseFor": "Classic texture with just enough heat.",
           "rating": 4.6
         }
@@ -11394,7 +11286,7 @@
       "source": "whos-got-it",
       "debateOfTheWeek": {
         "item": "Boudin",
-        "hook": "Rice, pork, and pure South Louisiana pride — who really owns the crown this week?"
+        "hook": "Rice, pork, and pure South Louisiana pride \u2014 who really owns the crown this week?"
       },
       "seasonalRotation": [
         {
@@ -11437,14 +11329,14 @@
         {
           "placeName": "Best Stop Supermarket",
           "slug": "best-stop-supermarket",
-          "badge": "👑 Crowd Favorite",
+          "badge": "\ud83d\udc51 Crowd Favorite",
           "caseFor": "Excellent snap and seasoning that holds up on the grill.",
           "rating": 4.8
         },
         {
           "placeName": "Billy's Boudin & Cracklin",
           "slug": "billy-s-boudin-cracklin",
-          "badge": "🌶️ Spicy Take",
+          "badge": "\ud83c\udf36\ufe0f Spicy Take",
           "caseFor": "A bolder blend for folks who want more kick.",
           "rating": 4.7
         }
@@ -11454,7 +11346,7 @@
       "source": "whos-got-it",
       "debateOfTheWeek": {
         "item": "Boudin",
-        "hook": "Rice, pork, and pure South Louisiana pride — who really owns the crown this week?"
+        "hook": "Rice, pork, and pure South Louisiana pride \u2014 who really owns the crown this week?"
       },
       "seasonalRotation": [
         {
@@ -11497,21 +11389,21 @@
         {
           "placeName": "Rachael's Cafe",
           "slug": "rachaels-cafe-republic-st",
-          "badge": "👑 Crowd Favorite",
+          "badge": "\ud83d\udc51 Crowd Favorite",
           "caseFor": "Runaway winner from the thread with deep dark roux and standout seafood gumbo.",
           "rating": 4.9
         },
         {
           "placeName": "Don's Seafood",
           "slug": "dons-seafood",
-          "badge": "🏆 Geaux's Pick",
+          "badge": "\ud83c\udfc6 Geaux's Pick",
           "caseFor": "Praised for generous crab meat and consistent seafood flavor.",
           "rating": 4.7
         },
         {
           "placeName": "Chris's Poboys",
           "slug": "chriss-poboys-pinhook",
-          "badge": "🆕 Rising Star",
+          "badge": "\ud83c\udd95 Rising Star",
           "caseFor": "Pinhook favorite that keeps popping up in local seafood gumbo discussions.",
           "rating": 4.6
         }
@@ -11592,7 +11484,7 @@
       "source": "whos-got-it",
       "debateOfTheWeek": {
         "item": "Boudin",
-        "hook": "Rice, pork, and pure South Louisiana pride — who really owns the crown this week?"
+        "hook": "Rice, pork, and pure South Louisiana pride \u2014 who really owns the crown this week?"
       },
       "seasonalRotation": [
         {
@@ -11614,11 +11506,11 @@
     }
   },
   {
-    "name": "Étouffée",
+    "name": "\u00c9touff\u00e9e",
     "slug": "e-touffe-e",
     "category": "whos-got-it",
     "group": "food-drink",
-    "description": "Silky gravy, rice ratio, and spice balance — judged hard by locals.",
+    "description": "Silky gravy, rice ratio, and spice balance \u2014 judged hard by locals.",
     "address": "Acadiana",
     "city": "Lafayette",
     "tags": [
@@ -11635,15 +11527,15 @@
         {
           "placeName": "Prejean's",
           "slug": "prejeans",
-          "badge": "👑 Crowd Favorite",
+          "badge": "\ud83d\udc51 Crowd Favorite",
           "caseFor": "Classic crawfish flavor and smooth texture that never misses.",
           "rating": 4.6
         },
         {
           "placeName": "Bon Temps Grill",
           "slug": "bon-temps-grill",
-          "badge": "⚔️ Split Verdict",
-          "caseFor": "Some call it the best in town, others prefer thicker gravy — so the argument lives on.",
+          "badge": "\u2694\ufe0f Split Verdict",
+          "caseFor": "Some call it the best in town, others prefer thicker gravy \u2014 so the argument lives on.",
           "rating": 4.7
         }
       ],
@@ -11652,7 +11544,7 @@
       "source": "whos-got-it",
       "debateOfTheWeek": {
         "item": "Boudin",
-        "hook": "Rice, pork, and pure South Louisiana pride — who really owns the crown this week?"
+        "hook": "Rice, pork, and pure South Louisiana pride \u2014 who really owns the crown this week?"
       },
       "seasonalRotation": [
         {
@@ -11678,7 +11570,7 @@
     "slug": "fried-chicken",
     "category": "whos-got-it",
     "group": "food-drink",
-    "description": "Crunch factor, juiciness, and seasoning in the crust — no room for mediocrity.",
+    "description": "Crunch factor, juiciness, and seasoning in the crust \u2014 no room for mediocrity.",
     "address": "Acadiana",
     "city": "Lafayette",
     "tags": [
@@ -11695,15 +11587,15 @@
         {
           "placeName": "Broaddus Burgers",
           "slug": "broaddus-burgers",
-          "badge": "🌶️ Spicy Take",
+          "badge": "\ud83c\udf36\ufe0f Spicy Take",
           "caseFor": "Unexpected sleeper pick with serious crisp and flavor.",
           "rating": 4.3
         },
         {
           "placeName": "Raising Cane's",
           "slug": "raising-canes-lafayette",
-          "badge": "⚔️ Split Verdict",
-          "caseFor": "Beloved by many, questioned by purists — exactly the kind of debate fuel we need.",
+          "badge": "\u2694\ufe0f Split Verdict",
+          "caseFor": "Beloved by many, questioned by purists \u2014 exactly the kind of debate fuel we need.",
           "rating": 4
         }
       ],
@@ -11712,7 +11604,7 @@
       "source": "whos-got-it",
       "debateOfTheWeek": {
         "item": "Boudin",
-        "hook": "Rice, pork, and pure South Louisiana pride — who really owns the crown this week?"
+        "hook": "Rice, pork, and pure South Louisiana pride \u2014 who really owns the crown this week?"
       },
       "seasonalRotation": [
         {
@@ -11755,14 +11647,14 @@
         {
           "placeName": "Laura's II",
           "slug": "lauras-ii",
-          "badge": "👑 Crowd Favorite",
+          "badge": "\ud83d\udc51 Crowd Favorite",
           "caseFor": "Portions are huge and every tray feels like a Sunday kitchen special.",
           "rating": 4.5
         },
         {
           "placeName": "Olde Tyme Grocery",
           "slug": "olde-tyme-grocery",
-          "badge": "🆕 Rising Star",
+          "badge": "\ud83c\udd95 Rising Star",
           "caseFor": "Reliable comfort classics and neighborhood charm.",
           "rating": 4.4
         }
@@ -11772,7 +11664,7 @@
       "source": "whos-got-it",
       "debateOfTheWeek": {
         "item": "Boudin",
-        "hook": "Rice, pork, and pure South Louisiana pride — who really owns the crown this week?"
+        "hook": "Rice, pork, and pure South Louisiana pride \u2014 who really owns the crown this week?"
       },
       "seasonalRotation": [
         {
@@ -11798,7 +11690,7 @@
     "slug": "grilled-chicken-salad",
     "category": "whos-got-it",
     "group": "food-drink",
-    "description": "Entrée-style salads where grilled or smoked chicken is the star.",
+    "description": "Entr\u00e9e-style salads where grilled or smoked chicken is the star.",
     "address": "Acadiana",
     "city": "Lafayette",
     "tags": [
@@ -11815,21 +11707,21 @@
         {
           "placeName": "Acadian Superette",
           "slug": "acadian-superette",
-          "badge": "👑 Crowd Favorite",
+          "badge": "\ud83d\udc51 Crowd Favorite",
           "caseFor": "Hands-down winner in the thread for flavor, portion, and consistency.",
           "rating": 4.8
         },
         {
           "placeName": "Zea's",
           "slug": "zeas",
-          "badge": "🏆 Geaux's Pick",
+          "badge": "\ud83c\udfc6 Geaux's Pick",
           "caseFor": "Pepper jelly chicken salad and Asian almond version both got love.",
           "rating": 4.7
         },
         {
           "placeName": "Cafe Lola",
           "slug": "cafe-lola",
-          "badge": "🆕 Rising Star",
+          "badge": "\ud83c\udd95 Rising Star",
           "caseFor": "Cobb salad mention came up repeatedly for fresh ingredients.",
           "rating": 4.6
         }
@@ -11866,7 +11758,7 @@
       "source": "whos-got-it",
       "debateOfTheWeek": {
         "item": "Boudin",
-        "hook": "Rice, pork, and pure South Louisiana pride — who really owns the crown this week?"
+        "hook": "Rice, pork, and pure South Louisiana pride \u2014 who really owns the crown this week?"
       },
       "seasonalRotation": [
         {
@@ -11909,21 +11801,21 @@
         {
           "placeName": "Fuji Sushi House",
           "slug": "fuji-sushi-house",
-          "badge": "👑 Crowd Favorite",
-          "caseFor": "Around 25 recs and legendary quality — temporarily closed but still top of mind.",
+          "badge": "\ud83d\udc51 Crowd Favorite",
+          "caseFor": "Around 25 recs and legendary quality \u2014 temporarily closed but still top of mind.",
           "rating": 4.8
         },
         {
           "placeName": "Minami Sushi Bar",
           "slug": "minami-sushi-bar-downtown",
-          "badge": "🏆 Geaux's Pick",
+          "badge": "\ud83c\udfc6 Geaux's Pick",
           "caseFor": "Downtown pick praised for the freshest fish in Lafayette.",
           "rating": 4.7
         },
         {
           "placeName": "Rock-n-Sake",
           "slug": "rock-n-sake-river-ranch",
-          "badge": "🆕 Rising Star",
+          "badge": "\ud83c\udd95 Rising Star",
           "caseFor": "River Ranch favorite with great freshness and atmosphere.",
           "rating": 4.6
         }
@@ -12009,7 +11901,7 @@
       "source": "whos-got-it",
       "debateOfTheWeek": {
         "item": "Boudin",
-        "hook": "Rice, pork, and pure South Louisiana pride — who really owns the crown this week?"
+        "hook": "Rice, pork, and pure South Louisiana pride \u2014 who really owns the crown this week?"
       },
       "seasonalRotation": [
         {
@@ -12035,7 +11927,7 @@
     "slug": "mexican-food",
     "category": "whos-got-it",
     "group": "food-drink",
-    "description": "Authentic taquerias, family spots, and comfort classics — Acadiana's top Mexican picks.",
+    "description": "Authentic taquerias, family spots, and comfort classics \u2014 Acadiana's top Mexican picks.",
     "address": "Acadiana",
     "city": "Lafayette",
     "tags": [
@@ -12052,21 +11944,21 @@
         {
           "placeName": "Mezcal",
           "slug": "mezcal",
-          "badge": "👑 Crowd Favorite",
+          "badge": "\ud83d\udc51 Crowd Favorite",
           "caseFor": "Consistent food, great service, and popular $12.99 fajita specials midweek.",
           "rating": 4.7
         },
         {
           "placeName": "Taqueria El Mexicano",
           "slug": "taqueria-el-mexicano",
-          "badge": "🏆 Geaux's Pick",
+          "badge": "\ud83c\udfc6 Geaux's Pick",
           "caseFor": "Repeatedly called the actual best for authentic flavor.",
           "rating": 4.8
         },
         {
           "placeName": "La Fiesta",
           "slug": "la-fiesta-broussard",
-          "badge": "🆕 Rising Star",
+          "badge": "\ud83c\udd95 Rising Star",
           "caseFor": "Broussard pick with 'never had a bad meal' consistency.",
           "rating": 4.6
         }
@@ -12107,7 +11999,7 @@
       "source": "whos-got-it",
       "debateOfTheWeek": {
         "item": "Boudin",
-        "hook": "Rice, pork, and pure South Louisiana pride — who really owns the crown this week?"
+        "hook": "Rice, pork, and pure South Louisiana pride \u2014 who really owns the crown this week?"
       },
       "seasonalRotation": [
         {
@@ -12133,7 +12025,7 @@
     "slug": "birria-tacos",
     "category": "whos-got-it",
     "group": "food-drink",
-    "description": "Tender, rich birria and consommé done right — one of the fastest-rising local obsessions.",
+    "description": "Tender, rich birria and consomm\u00e9 done right \u2014 one of the fastest-rising local obsessions.",
     "address": "Acadiana",
     "city": "Lafayette",
     "tags": [
@@ -12150,21 +12042,21 @@
         {
           "placeName": "Zarape Tacos y Gorditas",
           "slug": "zarape-tacos-y-gorditas",
-          "badge": "👑 Crowd Favorite",
+          "badge": "\ud83d\udc51 Crowd Favorite",
           "caseFor": "The go-to birria recommendation with multiple independent votes.",
           "rating": 4.8
         },
         {
           "placeName": "Taqueria El Mexicano",
           "slug": "taqueria-el-mexicano-mimosa-place",
-          "badge": "🏆 Geaux's Pick",
+          "badge": "\ud83c\udfc6 Geaux's Pick",
           "caseFor": "Mimosa Place location repeatedly praised for authentic birria.",
           "rating": 4.7
         },
         {
           "placeName": "Las Chismosas",
           "slug": "las-chismosas-eraste-landry",
-          "badge": "🆕 Rising Star",
+          "badge": "\ud83c\udd95 Rising Star",
           "caseFor": "Eraste Landry standout with strong birria feedback.",
           "rating": 4.6
         }
@@ -12195,7 +12087,7 @@
       "source": "whos-got-it",
       "debateOfTheWeek": {
         "item": "Boudin",
-        "hook": "Rice, pork, and pure South Louisiana pride — who really owns the crown this week?"
+        "hook": "Rice, pork, and pure South Louisiana pride \u2014 who really owns the crown this week?"
       },
       "seasonalRotation": [
         {

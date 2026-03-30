@@ -1,13 +1,13 @@
 {
   "dealOfTheDay": {
     "id": "dotd-rotation-2026-03",
-    "title": "Parish Tins Local Dining Bundle — $250 in Acadiana Gift Cards for $25",
+    "title": "Parish Tins Local Dining Bundle \u2014 $250 in Acadiana Gift Cards for $25",
     "description": "One tin includes 25 coaster gift cards worth $10 each at participating local restaurants. Great for date nights, gifts, and trying somewhere new.",
     "partner": "Parish Tins",
     "partnerUrl": "https://parishtins.com",
     "badge": "Partner Highlight",
     "validThrough": "2026-06-30",
-    "highlight": "Spring rotation active — limited runs sell out fast"
+    "highlight": "Spring rotation active \u2014 limited runs sell out fast"
   },
   "featuredPartners": [
     {
@@ -33,38 +33,325 @@
     "New Opening"
   ],
   "communityDeals": [
-    {"id":"deal-001","restaurant":"Social Southern Table & Bar","deal":"Weekday happy hour drink + bar bite specials (3–6 PM)","category":"Happy Hour","submittedBy":"GeauxFind Team","upvotes":18,"createdAt":"2026-03-26T16:00:00.000Z","status":"approved"},
-    {"id":"deal-002","restaurant":"Tsunami Sushi Lafayette","deal":"Afternoon sushi and cocktail happy hour menu","category":"Happy Hour","submittedBy":"GeauxFind Team","upvotes":14,"createdAt":"2026-03-26T16:01:00.000Z","status":"approved"},
-    {"id":"deal-003","restaurant":"Charley G's","deal":"Bar happy hour specials on select cocktails and wine","category":"Happy Hour","submittedBy":"GeauxFind Team","upvotes":12,"createdAt":"2026-03-26T16:02:00.000Z","status":"approved"},
-    {"id":"deal-004","restaurant":"Dwyer's Cafe","deal":"Weekday plate lunch specials downtown","category":"Daily Special","submittedBy":"GeauxFind Team","upvotes":21,"createdAt":"2026-03-26T16:03:00.000Z","status":"approved"},
-    {"id":"deal-005","restaurant":"Laura's II","deal":"Rotating soul-food lunch plates until sold out","category":"Daily Special","submittedBy":"GeauxFind Team","upvotes":25,"createdAt":"2026-03-26T16:04:00.000Z","status":"approved"},
-    {"id":"deal-006","restaurant":"T-Coon's","deal":"Breakfast and lunch daily Cajun specials","category":"Daily Special","submittedBy":"GeauxFind Team","upvotes":17,"createdAt":"2026-03-26T16:05:00.000Z","status":"approved"},
-    {"id":"deal-007","restaurant":"Old Tyme Grocery","deal":"Lunch combo po-boy specials weekdays","category":"Daily Special","submittedBy":"GeauxFind Team","upvotes":22,"createdAt":"2026-03-26T16:06:00.000Z","status":"approved"},
-    {"id":"deal-008","restaurant":"BJ's Restaurant & Brewhouse","deal":"Weekday happy hour with appetizer discounts","category":"Happy Hour","submittedBy":"GeauxFind Team","upvotes":10,"createdAt":"2026-03-26T16:07:00.000Z","status":"approved"},
-    {"id":"deal-009","restaurant":"Bonefish Grill","deal":"Bar bite and handcrafted cocktail happy hour","category":"Happy Hour","submittedBy":"GeauxFind Team","upvotes":9,"createdAt":"2026-03-26T16:08:00.000Z","status":"approved"},
-    {"id":"deal-010","restaurant":"Walk-On's","deal":"After-work happy hour drink menu","category":"Happy Hour","submittedBy":"GeauxFind Team","upvotes":13,"createdAt":"2026-03-26T16:09:00.000Z","status":"approved"},
-    {"id":"deal-011","restaurant":"Deano's Pizza","deal":"Weekday bar and pizza lunch specials","category":"Daily Special","submittedBy":"GeauxFind Team","upvotes":8,"createdAt":"2026-03-26T16:10:00.000Z","status":"approved"},
-    {"id":"deal-012","restaurant":"Zea Rotisserie & Bar","deal":"Lunch feature menu + weekday happy hour","category":"Daily Special","submittedBy":"GeauxFind Team","upvotes":7,"createdAt":"2026-03-26T16:11:00.000Z","status":"approved"},
-    {"id":"deal-013","restaurant":"Parish Brewing Co.","deal":"Taproom release specials and select pints","category":"Seasonal","submittedBy":"GeauxFind Team","upvotes":15,"createdAt":"2026-03-26T16:12:00.000Z","status":"approved"},
-    {"id":"deal-014","restaurant":"Bayou Teche Brewing","deal":"Friday pint specials with pizza pairings","category":"Seasonal","submittedBy":"GeauxFind Team","upvotes":6,"createdAt":"2026-03-26T16:13:00.000Z","status":"approved"},
-    {"id":"deal-015","restaurant":"Fezzo's (Scott)","deal":"Weekday oyster bar happy hour and seafood specials","category":"Happy Hour","submittedBy":"GeauxFind Team","upvotes":5,"createdAt":"2026-03-26T16:14:00.000Z","status":"approved"},
-    {"id":"deal-016","restaurant":"Buck & Johnny's","deal":"Live music nights with drink and pizza specials","category":"Seasonal","submittedBy":"GeauxFind Team","upvotes":16,"createdAt":"2026-03-26T16:15:00.000Z","status":"approved"},
-    {"id":"deal-017","restaurant":"Parc de Oaks events","deal":"Local market pop-ups featuring food truck meal deals","category":"New Opening","submittedBy":"GeauxFind Team","upvotes":4,"createdAt":"2026-03-26T16:16:00.000Z","status":"approved"},
-    {"id":"deal-018","restaurant":"Rock'n'Bowl de Lafayette","deal":"Select nights bundle bowling + drinks specials","category":"Seasonal","submittedBy":"GeauxFind Team","upvotes":9,"createdAt":"2026-03-26T16:17:00.000Z","status":"approved"},
-    {"id":"deal-019","restaurant":"Prejean's","deal":"Cajun combo plates with rotating weekday pricing after 4 PM","category":"Daily Special","submittedBy":"Lafayette Foodie","upvotes":19,"createdAt":"2026-03-27T12:03:00.000Z","status":"approved"},
-    {"id":"deal-020","restaurant":"Don's Seafood","deal":"Two-course lunch special weekdays until 2 PM","category":"Daily Special","submittedBy":"M. Guidry","upvotes":20,"createdAt":"2026-03-27T12:07:00.000Z","status":"approved"},
-    {"id":"deal-021","restaurant":"Café Vermilionville","deal":"Weekday prix-fixe lunch featuring seasonal dishes","category":"Daily Special","submittedBy":"Downtown Insider","upvotes":17,"createdAt":"2026-03-27T12:15:00.000Z","status":"approved"},
-    {"id":"deal-022","restaurant":"Poupart's Bakery","deal":"Morning pastry + coffee bundle before 10 AM","category":"Daily Special","submittedBy":"Breads & Brews","upvotes":23,"createdAt":"2026-03-27T12:17:00.000Z","status":"approved"},
-    {"id":"deal-023","restaurant":"The Wurst Biergarten","deal":"Craft beer flight specials during weekday happy hour (4–6 PM)","category":"Happy Hour","submittedBy":"Beer Trail LA","upvotes":16,"createdAt":"2026-03-27T12:23:00.000Z","status":"approved"},
-    {"id":"deal-024","restaurant":"Pop's Poboys","deal":"Lunch combo: half po-boy + cup of gumbo + drink","category":"Daily Special","submittedBy":"Northside Eats","upvotes":14,"createdAt":"2026-03-27T12:25:00.000Z","status":"approved"},
-    {"id":"deal-025","restaurant":"Randol's","deal":"Seafood dinner feature + live dancing nights with drink specials","category":"Seasonal","submittedBy":"Cajun Nights","upvotes":18,"createdAt":"2026-03-27T12:30:00.000Z","status":"approved"},
-    {"id":"deal-026","restaurant":"Blue Dog Café","deal":"Happy hour cocktails and small plates at the bar (3–6 PM)","category":"Happy Hour","submittedBy":"River Ranch Local","upvotes":24,"createdAt":"2026-03-27T12:35:00.000Z","status":"approved"},
-    {"id":"deal-027","restaurant":"Agave Mexican Grill","deal":"Taco Tuesday: discounted tacos and house margaritas","category":"Daily Special","submittedBy":"Acadiana Taco Club","upvotes":22,"createdAt":"2026-03-27T12:38:00.000Z","status":"approved"},
-    {"id":"deal-028","restaurant":"Pamplona Tapas Bar","deal":"Wine Wednesday glass specials + chef tapas pairings","category":"Happy Hour","submittedBy":"Date Night Crew","upvotes":15,"createdAt":"2026-03-27T12:41:00.000Z","status":"approved"},
-    {"id":"deal-029","restaurant":"The French Press","deal":"Brunch board special with rotating pastry and coffee add-on","category":"Seasonal","submittedBy":"Sunday Brunch Squad","upvotes":21,"createdAt":"2026-03-27T12:46:00.000Z","status":"approved"},
-    {"id":"deal-030","restaurant":"Bread & Circus Provisions","deal":"Neighborhood pizza night: discounted pies on Thursdays","category":"Daily Special","submittedBy":"Midcity Neighbor","upvotes":13,"createdAt":"2026-03-27T12:52:00.000Z","status":"approved"},
-    {"id":"deal-031","restaurant":"Dat Dog","deal":"Specialty dog + local draft combo on weekday evenings","category":"Daily Special","submittedBy":"UL Student","upvotes":12,"createdAt":"2026-03-27T12:57:00.000Z","status":"approved"},
-    {"id":"deal-032","restaurant":"Central Pizza","deal":"Downtown lunch special: personal pie + fountain drink","category":"Daily Special","submittedBy":"Downtown Lunch Run","upvotes":11,"createdAt":"2026-03-27T13:02:00.000Z","status":"approved"},
-    {"id":"deal-033","restaurant":"Scratch Farm Kitchen","deal":"Grand opening week: 15% off lunch bowls and wraps","category":"New Opening","submittedBy":"GeauxFind Team","upvotes":10,"createdAt":"2026-03-27T13:08:00.000Z","status":"approved"}
+    {
+      "id": "deal-001",
+      "restaurant": "Social Southern Table & Bar",
+      "deal": "Weekday happy hour drink + bar bite specials (3\u20136 PM)",
+      "category": "Happy Hour",
+      "submittedBy": "GeauxFind Team",
+      "upvotes": 18,
+      "createdAt": "2026-03-26T16:00:00.000Z",
+      "status": "approved"
+    },
+    {
+      "id": "deal-002",
+      "restaurant": "Tsunami Sushi Lafayette",
+      "deal": "Afternoon sushi and cocktail happy hour menu",
+      "category": "Happy Hour",
+      "submittedBy": "GeauxFind Team",
+      "upvotes": 14,
+      "createdAt": "2026-03-26T16:01:00.000Z",
+      "status": "approved"
+    },
+    {
+      "id": "deal-003",
+      "restaurant": "Charley G's",
+      "deal": "Bar happy hour specials on select cocktails and wine",
+      "category": "Happy Hour",
+      "submittedBy": "GeauxFind Team",
+      "upvotes": 12,
+      "createdAt": "2026-03-26T16:02:00.000Z",
+      "status": "approved"
+    },
+    {
+      "id": "deal-004",
+      "restaurant": "Dwyer's Cafe",
+      "deal": "Weekday plate lunch specials downtown",
+      "category": "Daily Special",
+      "submittedBy": "GeauxFind Team",
+      "upvotes": 21,
+      "createdAt": "2026-03-26T16:03:00.000Z",
+      "status": "approved"
+    },
+    {
+      "id": "deal-005",
+      "restaurant": "Laura's II",
+      "deal": "Rotating soul-food lunch plates until sold out",
+      "category": "Daily Special",
+      "submittedBy": "GeauxFind Team",
+      "upvotes": 25,
+      "createdAt": "2026-03-26T16:04:00.000Z",
+      "status": "approved"
+    },
+    {
+      "id": "deal-006",
+      "restaurant": "T-Coon's",
+      "deal": "Breakfast and lunch daily Cajun specials",
+      "category": "Daily Special",
+      "submittedBy": "GeauxFind Team",
+      "upvotes": 17,
+      "createdAt": "2026-03-26T16:05:00.000Z",
+      "status": "approved"
+    },
+    {
+      "id": "deal-007",
+      "restaurant": "Old Tyme Grocery",
+      "deal": "Lunch combo po-boy specials weekdays",
+      "category": "Daily Special",
+      "submittedBy": "GeauxFind Team",
+      "upvotes": 22,
+      "createdAt": "2026-03-26T16:06:00.000Z",
+      "status": "approved"
+    },
+    {
+      "id": "deal-008",
+      "restaurant": "BJ's Restaurant & Brewhouse",
+      "deal": "Weekday happy hour with appetizer discounts",
+      "category": "Happy Hour",
+      "submittedBy": "GeauxFind Team",
+      "upvotes": 10,
+      "createdAt": "2026-03-26T16:07:00.000Z",
+      "status": "approved"
+    },
+    {
+      "id": "deal-009",
+      "restaurant": "Bonefish Grill",
+      "deal": "Bar bite and handcrafted cocktail happy hour",
+      "category": "Happy Hour",
+      "submittedBy": "GeauxFind Team",
+      "upvotes": 9,
+      "createdAt": "2026-03-26T16:08:00.000Z",
+      "status": "approved"
+    },
+    {
+      "id": "deal-010",
+      "restaurant": "Walk-On's",
+      "deal": "After-work happy hour drink menu",
+      "category": "Happy Hour",
+      "submittedBy": "GeauxFind Team",
+      "upvotes": 13,
+      "createdAt": "2026-03-26T16:09:00.000Z",
+      "status": "approved"
+    },
+    {
+      "id": "deal-011",
+      "restaurant": "Deano's Pizza",
+      "deal": "Weekday bar and pizza lunch specials",
+      "category": "Daily Special",
+      "submittedBy": "GeauxFind Team",
+      "upvotes": 8,
+      "createdAt": "2026-03-26T16:10:00.000Z",
+      "status": "approved"
+    },
+    {
+      "id": "deal-012",
+      "restaurant": "Zea Rotisserie & Bar",
+      "deal": "Lunch feature menu + weekday happy hour",
+      "category": "Daily Special",
+      "submittedBy": "GeauxFind Team",
+      "upvotes": 7,
+      "createdAt": "2026-03-26T16:11:00.000Z",
+      "status": "approved"
+    },
+    {
+      "id": "deal-013",
+      "restaurant": "Parish Brewing Co.",
+      "deal": "Taproom release specials and select pints",
+      "category": "Seasonal",
+      "submittedBy": "GeauxFind Team",
+      "upvotes": 15,
+      "createdAt": "2026-03-26T16:12:00.000Z",
+      "status": "approved"
+    },
+    {
+      "id": "deal-014",
+      "restaurant": "Bayou Teche Brewing",
+      "deal": "Friday pint specials with pizza pairings",
+      "category": "Seasonal",
+      "submittedBy": "GeauxFind Team",
+      "upvotes": 6,
+      "createdAt": "2026-03-26T16:13:00.000Z",
+      "status": "approved"
+    },
+    {
+      "id": "deal-015",
+      "restaurant": "Fezzo's (Scott)",
+      "deal": "Weekday oyster bar happy hour and seafood specials",
+      "category": "Happy Hour",
+      "submittedBy": "GeauxFind Team",
+      "upvotes": 5,
+      "createdAt": "2026-03-26T16:14:00.000Z",
+      "status": "approved"
+    },
+    {
+      "id": "deal-016",
+      "restaurant": "Buck & Johnny's",
+      "deal": "Live music nights with drink and pizza specials",
+      "category": "Seasonal",
+      "submittedBy": "GeauxFind Team",
+      "upvotes": 16,
+      "createdAt": "2026-03-26T16:15:00.000Z",
+      "status": "approved"
+    },
+    {
+      "id": "deal-017",
+      "restaurant": "Parc de Oaks events",
+      "deal": "Local market pop-ups featuring food truck meal deals",
+      "category": "New Opening",
+      "submittedBy": "GeauxFind Team",
+      "upvotes": 4,
+      "createdAt": "2026-03-26T16:16:00.000Z",
+      "status": "approved"
+    },
+    {
+      "id": "deal-018",
+      "restaurant": "Rock'n'Bowl de Lafayette",
+      "deal": "Select nights bundle bowling + drinks specials",
+      "category": "Seasonal",
+      "submittedBy": "GeauxFind Team",
+      "upvotes": 9,
+      "createdAt": "2026-03-26T16:17:00.000Z",
+      "status": "approved"
+    },
+    {
+      "id": "deal-019",
+      "restaurant": "Prejean's",
+      "deal": "Cajun combo plates with rotating weekday pricing after 4 PM",
+      "category": "Daily Special",
+      "submittedBy": "Lafayette Foodie",
+      "upvotes": 19,
+      "createdAt": "2026-03-27T12:03:00.000Z",
+      "status": "approved"
+    },
+    {
+      "id": "deal-020",
+      "restaurant": "Don's Seafood",
+      "deal": "Two-course lunch special weekdays until 2 PM",
+      "category": "Daily Special",
+      "submittedBy": "M. Guidry",
+      "upvotes": 20,
+      "createdAt": "2026-03-27T12:07:00.000Z",
+      "status": "approved"
+    },
+    {
+      "id": "deal-021",
+      "restaurant": "Caf\u00e9 Vermilionville",
+      "deal": "Weekday prix-fixe lunch featuring seasonal dishes",
+      "category": "Daily Special",
+      "submittedBy": "Downtown Insider",
+      "upvotes": 17,
+      "createdAt": "2026-03-27T12:15:00.000Z",
+      "status": "approved"
+    },
+    {
+      "id": "deal-022",
+      "restaurant": "Poupart's Bakery",
+      "deal": "Morning pastry + coffee bundle before 10 AM",
+      "category": "Daily Special",
+      "submittedBy": "Breads & Brews",
+      "upvotes": 23,
+      "createdAt": "2026-03-27T12:17:00.000Z",
+      "status": "approved"
+    },
+    {
+      "id": "deal-023",
+      "restaurant": "The Wurst Biergarten",
+      "deal": "Craft beer flight specials during weekday happy hour (4\u20136 PM)",
+      "category": "Happy Hour",
+      "submittedBy": "Beer Trail LA",
+      "upvotes": 16,
+      "createdAt": "2026-03-27T12:23:00.000Z",
+      "status": "approved"
+    },
+    {
+      "id": "deal-024",
+      "restaurant": "Pop's Poboys",
+      "deal": "Lunch combo: half po-boy + cup of gumbo + drink",
+      "category": "Daily Special",
+      "submittedBy": "Northside Eats",
+      "upvotes": 14,
+      "createdAt": "2026-03-27T12:25:00.000Z",
+      "status": "approved"
+    },
+    {
+      "id": "deal-026",
+      "restaurant": "Blue Dog Caf\u00e9",
+      "deal": "Happy hour cocktails and small plates at the bar (3\u20136 PM)",
+      "category": "Happy Hour",
+      "submittedBy": "River Ranch Local",
+      "upvotes": 24,
+      "createdAt": "2026-03-27T12:35:00.000Z",
+      "status": "approved"
+    },
+    {
+      "id": "deal-027",
+      "restaurant": "Agave Mexican Grill",
+      "deal": "Taco Tuesday: discounted tacos and house margaritas",
+      "category": "Daily Special",
+      "submittedBy": "Acadiana Taco Club",
+      "upvotes": 22,
+      "createdAt": "2026-03-27T12:38:00.000Z",
+      "status": "approved"
+    },
+    {
+      "id": "deal-028",
+      "restaurant": "Pamplona Tapas Bar",
+      "deal": "Wine Wednesday glass specials + chef tapas pairings",
+      "category": "Happy Hour",
+      "submittedBy": "Date Night Crew",
+      "upvotes": 15,
+      "createdAt": "2026-03-27T12:41:00.000Z",
+      "status": "approved"
+    },
+    {
+      "id": "deal-029",
+      "restaurant": "The French Press",
+      "deal": "Brunch board special with rotating pastry and coffee add-on",
+      "category": "Seasonal",
+      "submittedBy": "Sunday Brunch Squad",
+      "upvotes": 21,
+      "createdAt": "2026-03-27T12:46:00.000Z",
+      "status": "approved"
+    },
+    {
+      "id": "deal-030",
+      "restaurant": "Bread & Circus Provisions",
+      "deal": "Neighborhood pizza night: discounted pies on Thursdays",
+      "category": "Daily Special",
+      "submittedBy": "Midcity Neighbor",
+      "upvotes": 13,
+      "createdAt": "2026-03-27T12:52:00.000Z",
+      "status": "approved"
+    },
+    {
+      "id": "deal-031",
+      "restaurant": "Dat Dog",
+      "deal": "Specialty dog + local draft combo on weekday evenings",
+      "category": "Daily Special",
+      "submittedBy": "UL Student",
+      "upvotes": 12,
+      "createdAt": "2026-03-27T12:57:00.000Z",
+      "status": "approved"
+    },
+    {
+      "id": "deal-032",
+      "restaurant": "Central Pizza",
+      "deal": "Downtown lunch special: personal pie + fountain drink",
+      "category": "Daily Special",
+      "submittedBy": "Downtown Lunch Run",
+      "upvotes": 11,
+      "createdAt": "2026-03-27T13:02:00.000Z",
+      "status": "approved"
+    },
+    {
+      "id": "deal-033",
+      "restaurant": "Scratch Farm Kitchen",
+      "deal": "Grand opening week: 15% off lunch bowls and wraps",
+      "category": "New Opening",
+      "submittedBy": "GeauxFind Team",
+      "upvotes": 10,
+      "createdAt": "2026-03-27T13:08:00.000Z",
+      "status": "approved"
+    }
   ]
 }
