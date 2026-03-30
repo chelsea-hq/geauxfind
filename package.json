@@ -46,7 +46,11 @@
     "scrape:all": "bash scripts/run-all-scrapers.sh",
     "scrape:weekend-events": "node scripts/scrape-weekend-events.js",
     "scrape:specials": "node scripts/scrape-specials.js",
-    "assign:neighborhoods": "node scripts/assign-neighborhoods.js"
+    "assign:neighborhoods": "node scripts/assign-neighborhoods.js",
+    "verify:businesses": "node scripts/verify-businesses.mjs",
+    "discover:businesses": "node scripts/discover-businesses.mjs",
+    "freshness:check": "node scripts/freshness-check.mjs",
+    "apply:verification": "node scripts/apply-verification.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.9.0",
