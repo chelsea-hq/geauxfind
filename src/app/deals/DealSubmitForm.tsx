@@ -122,7 +122,7 @@ export function DealSubmitForm({ initial }: { initial: CommunityDeal[] }) {
                     className="flex shrink-0 flex-col items-center rounded-xl border border-[var(--spanish-moss)]/30 px-3 py-2 text-xs disabled:opacity-50"
                   >
                     <span>▲</span>
-                    <span className="font-semibold">{deal.upvotes}</span>
+                    {deal.upvotes > 0 ? <span className="font-semibold">{deal.upvotes}</span> : null}
                   </button>
                 </div>
                 <p className="mt-3 text-sm text-[var(--cast-iron)]">{deal.deal}</p>
