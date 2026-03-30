@@ -158,33 +158,6 @@ async function facebookSignals(): Promise<HotSignal[]> {
     }));
 }
 
-// Static Reddit-style signals (real Reddit integration would require API key + polling)
-function redditSignals(): HotSignal[] {
-  return [
-    {
-      id: "reddit-acadiana-1",
-      type: "reddit",
-      title: "r/Acadiana: Best lunch spots near ULL?",
-      description: "Thread getting traction with 40+ comments recommending local favorites around the university.",
-      timestamp: ago(6 * 60 * 60 * 1000),
-      source: "r/Acadiana",
-      sourceUrl: "https://reddit.com/r/Acadiana",
-      heat: 3,
-      tags: ["reddit", "lunch", "lafayette"],
-    },
-    {
-      id: "reddit-lafayette-1",
-      type: "reddit",
-      title: "r/lafayette: New restaurant opening on Johnston?",
-      description: "Community spotted a new spot going in. Speculation on what it is with 25 upvotes.",
-      timestamp: ago(12 * 60 * 60 * 1000),
-      source: "r/lafayette",
-      sourceUrl: "https://reddit.com/r/lafayette",
-      heat: 2,
-      tags: ["reddit", "new-opening", "johnston"],
-    },
-  ];
-}
 
 export async function getHotSignals(): Promise<HotSignal[]> {
   const [search, events, crawfish, community, facebook] = await Promise.all([
@@ -195,9 +168,7 @@ export async function getHotSignals(): Promise<HotSignal[]> {
     facebookSignals(),
   ]);
 
-  const reddit = redditSignals();
-
-  const all = [...crawfish, ...search, ...reddit, ...events, ...community, ...facebook];
+  const all = [...crawfish, ...search, ...events, ...community, ...facebook];
 
   return all.sort((a, b) => {
     const heatDiff = b.heat - a.heat;

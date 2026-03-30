@@ -237,7 +237,7 @@ export default function Home() {
         <div className="rounded-[12px] border border-[var(--spanish-moss)]/35 bg-white p-6 md:p-8">
           <p className="text-xs tracking-[0.18em] text-[var(--moss)]">FOR BUSINESS OWNERS</p>
           <h2 className="mt-2 text-3xl text-[var(--cajun-red)] md:text-4xl">Own a business in Acadiana?</h2>
-          <p className="mt-2 max-w-3xl text-[var(--cast-iron)]/85">Over 2,300 local businesses are already on GeauxFind. Claim yours — it&apos;s free, always.</p>
+          <p className="mt-2 max-w-3xl text-[var(--cast-iron)]/85">Over {claimablePlaces.length}+ local businesses are already on GeauxFind. Claim yours — it&apos;s free, always.</p>
 
           <div className="mt-4">
             <input

@@ -11,10 +11,10 @@
     {
       "id": "deal-001",
       "restaurant": "Social Southern Table & Bar",
-      "deal": "Weekday happy hour drink + bar bite specials (3\u20136 PM)",
+      "deal": "Weekday happy hour drink + bar bite specials (3–6 PM)",
       "category": "Happy Hour",
       "submittedBy": "GeauxFind Team",
-      "upvotes": 18,
+      "upvotes": 0,
       "createdAt": "2026-03-26T16:00:00.000Z",
       "status": "approved"
     },
@@ -24,7 +24,7 @@
       "deal": "Afternoon sushi and cocktail happy hour menu",
       "category": "Happy Hour",
       "submittedBy": "GeauxFind Team",
-      "upvotes": 14,
+      "upvotes": 0,
       "createdAt": "2026-03-26T16:01:00.000Z",
       "status": "approved"
     },
@@ -34,7 +34,7 @@
       "deal": "Bar happy hour specials on select cocktails and wine",
       "category": "Happy Hour",
       "submittedBy": "GeauxFind Team",
-      "upvotes": 12,
+      "upvotes": 0,
       "createdAt": "2026-03-26T16:02:00.000Z",
       "status": "approved"
     },
@@ -44,7 +44,7 @@
       "deal": "Weekday plate lunch specials downtown",
       "category": "Daily Special",
       "submittedBy": "GeauxFind Team",
-      "upvotes": 21,
+      "upvotes": 0,
       "createdAt": "2026-03-26T16:03:00.000Z",
       "status": "approved"
     },
@@ -54,7 +54,7 @@
       "deal": "Rotating soul-food lunch plates until sold out",
       "category": "Daily Special",
       "submittedBy": "GeauxFind Team",
-      "upvotes": 25,
+      "upvotes": 0,
       "createdAt": "2026-03-26T16:04:00.000Z",
       "status": "approved"
     },
@@ -64,7 +64,7 @@
       "deal": "Breakfast and lunch daily Cajun specials",
       "category": "Daily Special",
       "submittedBy": "GeauxFind Team",
-      "upvotes": 17,
+      "upvotes": 0,
       "createdAt": "2026-03-26T16:05:00.000Z",
       "status": "approved"
     },
@@ -74,7 +74,7 @@
       "deal": "Lunch combo po-boy specials weekdays",
       "category": "Daily Special",
       "submittedBy": "GeauxFind Team",
-      "upvotes": 22,
+      "upvotes": 0,
       "createdAt": "2026-03-26T16:06:00.000Z",
       "status": "approved"
     },
@@ -84,7 +84,7 @@
       "deal": "Weekday happy hour with appetizer discounts",
       "category": "Happy Hour",
       "submittedBy": "GeauxFind Team",
-      "upvotes": 10,
+      "upvotes": 0,
       "createdAt": "2026-03-26T16:07:00.000Z",
       "status": "approved"
     },
@@ -94,7 +94,7 @@
       "deal": "Bar bite and handcrafted cocktail happy hour",
       "category": "Happy Hour",
       "submittedBy": "GeauxFind Team",
-      "upvotes": 9,
+      "upvotes": 0,
       "createdAt": "2026-03-26T16:08:00.000Z",
       "status": "approved"
     },
@@ -104,7 +104,7 @@
       "deal": "After-work happy hour drink menu",
       "category": "Happy Hour",
       "submittedBy": "GeauxFind Team",
-      "upvotes": 13,
+      "upvotes": 0,
       "createdAt": "2026-03-26T16:09:00.000Z",
       "status": "approved"
     },
@@ -114,7 +114,7 @@
       "deal": "Weekday bar and pizza lunch specials",
       "category": "Daily Special",
       "submittedBy": "GeauxFind Team",
-      "upvotes": 8,
+      "upvotes": 0,
       "createdAt": "2026-03-26T16:10:00.000Z",
       "status": "approved"
     },
@@ -124,7 +124,7 @@
       "deal": "Lunch feature menu + weekday happy hour",
       "category": "Daily Special",
       "submittedBy": "GeauxFind Team",
-      "upvotes": 7,
+      "upvotes": 0,
       "createdAt": "2026-03-26T16:11:00.000Z",
       "status": "approved"
     },
@@ -134,7 +134,7 @@
       "deal": "Taproom release specials and select pints",
       "category": "Seasonal",
       "submittedBy": "GeauxFind Team",
-      "upvotes": 15,
+      "upvotes": 0,
       "createdAt": "2026-03-26T16:12:00.000Z",
       "status": "approved"
     },
@@ -144,7 +144,7 @@
       "deal": "Friday pint specials with pizza pairings",
       "category": "Seasonal",
       "submittedBy": "GeauxFind Team",
-      "upvotes": 6,
+      "upvotes": 0,
       "createdAt": "2026-03-26T16:13:00.000Z",
       "status": "approved"
     },
@@ -154,7 +154,7 @@
       "deal": "Weekday oyster bar happy hour and seafood specials",
       "category": "Happy Hour",
       "submittedBy": "GeauxFind Team",
-      "upvotes": 5,
+      "upvotes": 0,
       "createdAt": "2026-03-26T16:14:00.000Z",
       "status": "approved"
     },
@@ -164,7 +164,7 @@
       "deal": "Live music nights with drink and pizza specials",
       "category": "Seasonal",
       "submittedBy": "GeauxFind Team",
-      "upvotes": 16,
+      "upvotes": 0,
       "createdAt": "2026-03-26T16:15:00.000Z",
       "status": "approved"
     },
@@ -174,7 +174,7 @@
       "deal": "Local market pop-ups featuring food truck meal deals",
       "category": "New Opening",
       "submittedBy": "GeauxFind Team",
-      "upvotes": 4,
+      "upvotes": 0,
       "createdAt": "2026-03-26T16:16:00.000Z",
       "status": "approved"
     },
@@ -184,7 +184,7 @@
       "deal": "Select nights bundle bowling + drinks specials",
       "category": "Seasonal",
       "submittedBy": "GeauxFind Team",
-      "upvotes": 9,
+      "upvotes": 0,
       "createdAt": "2026-03-26T16:17:00.000Z",
       "status": "approved"
     },
@@ -194,7 +194,7 @@
       "deal": "Cajun combo plates with rotating weekday pricing after 4 PM",
       "category": "Daily Special",
       "submittedBy": "GeauxFind Team",
-      "upvotes": 19,
+      "upvotes": 0,
       "createdAt": "2026-03-27T12:03:00.000Z",
       "status": "approved"
     },
@@ -204,17 +204,17 @@
       "deal": "Two-course lunch special weekdays until 2 PM",
       "category": "Daily Special",
       "submittedBy": "GeauxFind Team",
-      "upvotes": 20,
+      "upvotes": 0,
       "createdAt": "2026-03-27T12:07:00.000Z",
       "status": "approved"
     },
     {
       "id": "deal-021",
-      "restaurant": "Caf\u00e9 Vermilionville",
+      "restaurant": "Café Vermilionville",
       "deal": "Weekday prix-fixe lunch featuring seasonal dishes",
       "category": "Daily Special",
       "submittedBy": "GeauxFind Team",
-      "upvotes": 17,
+      "upvotes": 0,
       "createdAt": "2026-03-27T12:15:00.000Z",
       "status": "approved"
     },
@@ -224,17 +224,17 @@
       "deal": "Morning pastry + coffee bundle before 10 AM",
       "category": "Daily Special",
       "submittedBy": "GeauxFind Team",
-      "upvotes": 23,
+      "upvotes": 0,
       "createdAt": "2026-03-27T12:17:00.000Z",
       "status": "approved"
     },
     {
       "id": "deal-023",
       "restaurant": "The Wurst Biergarten",
-      "deal": "Craft beer flight specials during weekday happy hour (4\u20136 PM)",
+      "deal": "Craft beer flight specials during weekday happy hour (4–6 PM)",
       "category": "Happy Hour",
       "submittedBy": "GeauxFind Team",
-      "upvotes": 16,
+      "upvotes": 0,
       "createdAt": "2026-03-27T12:23:00.000Z",
       "status": "approved"
     },
@@ -244,17 +244,17 @@
       "deal": "Lunch combo: half po-boy + cup of gumbo + drink",
       "category": "Daily Special",
       "submittedBy": "GeauxFind Team",
-      "upvotes": 14,
+      "upvotes": 0,
       "createdAt": "2026-03-27T12:25:00.000Z",
       "status": "approved"
     },
     {
       "id": "deal-026",
-      "restaurant": "Blue Dog Caf\u00e9",
-      "deal": "Happy hour cocktails and small plates at the bar (3\u20136 PM)",
+      "restaurant": "Blue Dog Café",
+      "deal": "Happy hour cocktails and small plates at the bar (3–6 PM)",
       "category": "Happy Hour",
       "submittedBy": "GeauxFind Team",
-      "upvotes": 24,
+      "upvotes": 0,
       "createdAt": "2026-03-27T12:35:00.000Z",
       "status": "approved"
     },
@@ -264,7 +264,7 @@
       "deal": "Taco Tuesday: discounted tacos and house margaritas",
       "category": "Daily Special",
       "submittedBy": "GeauxFind Team",
-      "upvotes": 22,
+      "upvotes": 0,
       "createdAt": "2026-03-27T12:38:00.000Z",
       "status": "approved"
     },
@@ -274,7 +274,7 @@
       "deal": "Wine Wednesday glass specials + chef tapas pairings",
       "category": "Happy Hour",
       "submittedBy": "GeauxFind Team",
-      "upvotes": 15,
+      "upvotes": 0,
       "createdAt": "2026-03-27T12:41:00.000Z",
       "status": "approved"
     },
@@ -284,7 +284,7 @@
       "deal": "Brunch board special with rotating pastry and coffee add-on",
       "category": "Seasonal",
       "submittedBy": "GeauxFind Team",
-      "upvotes": 21,
+      "upvotes": 0,
       "createdAt": "2026-03-27T12:46:00.000Z",
       "status": "approved"
     },
@@ -294,7 +294,7 @@
       "deal": "Neighborhood pizza night: discounted pies on Thursdays",
       "category": "Daily Special",
       "submittedBy": "GeauxFind Team",
-      "upvotes": 13,
+      "upvotes": 0,
       "createdAt": "2026-03-27T12:52:00.000Z",
       "status": "approved"
     },
@@ -304,7 +304,7 @@
       "deal": "Specialty dog + local draft combo on weekday evenings",
       "category": "Daily Special",
       "submittedBy": "GeauxFind Team",
-      "upvotes": 12,
+      "upvotes": 0,
       "createdAt": "2026-03-27T12:57:00.000Z",
       "status": "approved"
     },
@@ -314,7 +314,7 @@
       "deal": "Downtown lunch special: personal pie + fountain drink",
       "category": "Daily Special",
       "submittedBy": "GeauxFind Team",
-      "upvotes": 11,
+      "upvotes": 0,
       "createdAt": "2026-03-27T13:02:00.000Z",
       "status": "approved"
     },
@@ -324,7 +324,7 @@
       "deal": "Grand opening week: 15% off lunch bowls and wraps",
       "category": "New Opening",
       "submittedBy": "GeauxFind Team",
-      "upvotes": 10,
+      "upvotes": 0,
       "createdAt": "2026-03-27T13:08:00.000Z",
       "status": "approved"
     }

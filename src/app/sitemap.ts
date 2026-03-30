@@ -14,7 +14,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/crawfish`, lastModified: now, changeFrequency: "daily", priority: 0.9 },
     { url: `${base}/community`, lastModified: now, changeFrequency: "daily", priority: 0.8 },
     { url: `${base}/whos-got-it`, lastModified: now, changeFrequency: "weekly", priority: 0.8 },
-    { url: `${base}/trending`, lastModified: now, changeFrequency: "daily", priority: 0.75 },
     { url: `${base}/whats-new`, lastModified: now, changeFrequency: "daily", priority: 0.8 },
     { url: `${base}/this-weekend`, lastModified: now, changeFrequency: "daily", priority: 0.8 },
     { url: `${base}/events`, lastModified: now, changeFrequency: "daily", priority: 0.85 },

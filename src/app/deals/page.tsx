@@ -82,7 +82,7 @@ export default async function DealsPage() {
     <main className="pb-16">
       <section className="bg-[linear-gradient(135deg,#8B1A1A,#bf5a24)] px-4 py-14 text-white">
         <div className="mx-auto max-w-6xl">
-          <p className="mb-3 inline-flex rounded-full bg-white/20 px-4 py-1 text-sm font-semibold">Community-Powered Savings</p>
+          <p className="mb-3 inline-flex rounded-full bg-white/20 px-4 py-1 text-sm font-semibold">Local Deals & Specials</p>
           <h1 className="text-4xl md:text-6xl">Acadiana&apos;s Best Deals — Found by Locals</h1>
           <p className="mt-3 text-lg text-white/90 md:text-2xl">
             Happy hours, daily specials, and neighborhood finds from Lafayette and across Acadiana.
@@ -94,7 +94,7 @@ export default async function DealsPage() {
         <section className="mt-10">
           <p className="text-xs font-semibold uppercase tracking-widest text-[var(--cajun-red)]">What&apos;s Good Right Now</p>
           <h2 className="mt-2 text-3xl font-bold text-[var(--cast-iron)] md:text-4xl">Most-loved local deals this week</h2>
-          <p className="mt-2 text-[var(--warm-gray)]">Sorted by community upvotes so the best deals rise to the top.</p>
+
           <div className="mt-6">
             <DealGrid deals={approvedDeals} categories={data.categories} />
           </div>
@@ -114,7 +114,7 @@ export default async function DealsPage() {
               <article key={deal.id} className="rounded-xl bg-white p-4 shadow-sm">
                 <p className="font-bold text-[var(--cast-iron)]">{deal.restaurant}</p>
                 <p className="mt-1 text-sm text-[var(--cast-iron)]">{deal.deal}</p>
-                <p className="mt-2 text-xs text-[var(--warm-gray)]">🔥 {deal.upvotes} local upvotes</p>
+                {deal.upvotes > 0 ? <p className="mt-2 text-xs text-[var(--warm-gray)]">🔥 {deal.upvotes} local upvotes</p> : null}
               </article>
             ))}
           </div>
@@ -128,7 +128,7 @@ export default async function DealsPage() {
               <article key={deal.id} className="rounded-xl border border-[var(--sunset-gold)]/30 bg-white p-4">
                 <p className="font-bold text-[var(--cast-iron)]">{deal.restaurant}</p>
                 <p className="mt-1 text-sm text-[var(--cast-iron)]">{deal.deal}</p>
-                <p className="mt-2 text-xs text-[var(--warm-gray)]">Added by {deal.submittedBy || "GeauxFind"}</p>
+                {deal.submittedBy && deal.submittedBy !== "GeauxFind Team" ? <p className="mt-2 text-xs text-[var(--warm-gray)]">Added by {deal.submittedBy}</p> : null}
               </article>
             ))}
           </div>

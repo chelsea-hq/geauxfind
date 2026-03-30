@@ -119,7 +119,8 @@
         {
           "slug": "fuji-sushi-house",
           "name": "Fuji Sushi House",
-          "mentionCount": 40
+          "mentionCount": 40,
+          "status": "temporarily_closed"
         },
         {
           "slug": "minami-sushi-bar",
@@ -455,7 +456,8 @@
         "top-pick",
         "local-favorite"
       ],
-      "specialNotes": "Temporarily closed"
+      "specialNotes": "Temporarily closed",
+      "status": "temporarily_closed"
     },
     {
       "slug": "chops-specialty-meats",

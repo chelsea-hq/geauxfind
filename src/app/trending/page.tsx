@@ -1,5 +1,5 @@
 import { getHotSignals } from "@/lib/hot-signals";
-import { getSeasonalSignals, getTrending } from "@/lib/trends";
+import { getSeasonalSignals } from "@/lib/trends";
 import { buildMetadata } from "@/lib/seo";
 import type { HotSignal, SignalSource } from "@/lib/hot-signals";
 
@@ -71,27 +71,11 @@ function SignalCard({ signal }: { signal: HotSignal }) {
   );
 }
 
-function Sparkline({ values }: { values: number[] }) {
-  const max = Math.max(...values, 1);
-  return (
-    <div className="flex items-end gap-1">
-      {values.map((v, i) => (
-        <span
-          key={i}
-          className="w-2 rounded-sm bg-[var(--cajun-red)]/70"
-          style={{ height: `${Math.max(6, (v / max) * 28)}px` }}
-        />
-      ))}
-    </div>
-  );
-}
-
 export default async function TrendingPage() {
   const [signals, seasonal] = await Promise.all([
     getHotSignals(),
     Promise.resolve(getSeasonalSignals()),
   ]);
-  const trendingSearches = getTrending(10);
 
   const topSignals = signals.slice(0, 3);
   const restSignals = signals.slice(3);
@@ -142,30 +126,6 @@ export default async function TrendingPage() {
             <p className="text-2xl">🔥</p>
             <p className="mt-2 font-semibold text-[var(--cast-iron)]">Heating up…</p>
             <p className="mt-1 text-sm text-[var(--warm-gray)]">Signals will appear as activity picks up. Check back soon.</p>
-          </section>
-        ) : null}
-
-        {/* Trending searches */}
-        {trendingSearches.length > 0 ? (
-          <section className="mt-14">
-            <h2 className="text-3xl text-[var(--cajun-red)]">Trending Searches</h2>
-            <p className="mt-1 text-sm text-[var(--warm-gray)]">What Acadiana folks are searching on GeauxFind right now.</p>
-            <div className="mt-5 grid gap-3">
-              {trendingSearches.map((item, i) => (
-                <article
-                  key={item.query}
-                  className="flex items-center justify-between rounded-xl border border-[var(--spanish-moss)]/25 bg-white p-4"
-                >
-                  <div>
-                    <p className="font-semibold">
-                      #{i + 1} {item.query} {item.count >= 3 ? "🔥" : ""}
-                    </p>
-                    <p className="text-xs text-[var(--warm-gray)]">{item.count} recent searches</p>
-                  </div>
-                  <Sparkline values={item.spark.map((s) => s.count)} />
-                </article>
-              ))}
-            </div>
           </section>
         ) : null}
 

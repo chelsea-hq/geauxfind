@@ -4,9 +4,21 @@
     "hook": "Rice, pork, and pure South Louisiana pride — who really owns the crown this week?"
   },
   "seasonalRotation": [
-    { "item": "King Cake", "season": "Jan-Feb", "note": "Mardi Gras madness mode." },
-    { "item": "Crawfish", "season": "Mar-Jun", "note": "Boil weather and backyard arguments." },
-    { "item": "Snowballs", "season": "Jun-Sep", "note": "When the heat hits, the flavor wars start." }
+    {
+      "item": "King Cake",
+      "season": "Jan-Feb",
+      "note": "Mardi Gras madness mode."
+    },
+    {
+      "item": "Crawfish",
+      "season": "Mar-Jun",
+      "note": "Boil weather and backyard arguments."
+    },
+    {
+      "item": "Snowballs",
+      "season": "Jun-Sep",
+      "note": "When the heat hits, the flavor wars start."
+    }
   ],
   "items": [
     {
@@ -14,12 +26,34 @@
       "type": "sausage",
       "description": "Smoked, steamed, spicy, or classic — every parish swears theirs is best.",
       "contenders": [
-        { "placeName": "Billy's Boudin & Cracklin", "slug": "billy-s-boudin-cracklin", "badge": "👑 Crowd Favorite", "caseFor": "Consistent links with rich seasoning and that perfect snap. It's the benchmark people compare everyone else to.", "rating": 4.7 },
-        { "placeName": "Best Stop Supermarket", "slug": "best-stop-supermarket", "badge": "🏆 Geaux's Pick", "caseFor": "Balanced spice, juicy texture, and cracklins that hit every time. A road-trip stop that's worth the detour.", "rating": 4.8 },
-        { "placeName": "Kartchner's Specialty Meats", "slug": "kartchner-s-specialty-meats", "badge": "🌶️ Spicy Take", "caseFor": "Flavor-forward and a little bolder than average. If you like your boudin with attitude, this is your move.", "rating": 4.6 }
+        {
+          "placeName": "Billy's Boudin & Cracklin",
+          "slug": "billy-s-boudin-cracklin",
+          "badge": "👑 Crowd Favorite",
+          "caseFor": "Consistent links with rich seasoning and that perfect snap. It's the benchmark people compare everyone else to.",
+          "rating": 4.7
+        },
+        {
+          "placeName": "Best Stop Supermarket",
+          "slug": "best-stop-supermarket",
+          "badge": "🏆 Geaux's Pick",
+          "caseFor": "Balanced spice, juicy texture, and cracklins that hit every time. A road-trip stop that's worth the detour.",
+          "rating": 4.8
+        },
+        {
+          "placeName": "Kartchner's Specialty Meats",
+          "slug": "kartchner-s-specialty-meats",
+          "badge": "🌶️ Spicy Take",
+          "caseFor": "Flavor-forward and a little bolder than average. If you like your boudin with attitude, this is your move.",
+          "rating": 4.6
+        }
       ],
       "allSpots": [
-        { "placeName": "Boudin & Cracklins", "slug": "boudin-and-cracklins-rayne", "note": "Underrated and climbing fast with locals. Great value and a no-frills vibe." }
+        {
+          "placeName": "Boudin & Cracklins",
+          "slug": "boudin-and-cracklins-rayne",
+          "note": "Underrated and climbing fast with locals. Great value and a no-frills vibe."
+        }
       ]
     },
     {
@@ -27,9 +61,27 @@
       "type": "snack",
       "description": "Crunchy outside, melt-in-the-middle fat, and the eternal question: salty or pepper-hot?",
       "contenders": [
-        { "placeName": "Don's Specialty Meats", "slug": "dons-specialty-meats", "badge": "👑 Crowd Favorite", "caseFor": "Golden crunch and reliable seasoning. People grab an extra bag before they even leave the parking lot.", "rating": 4.6 },
-        { "placeName": "Best Stop Supermarket", "slug": "best-stop-supermarket", "badge": "⚔️ Split Verdict", "caseFor": "Some call it unbeatable, others say too rich — which is exactly why this debate gets loud at every boil.", "rating": 4.8 },
-        { "placeName": "Billy's Boudin & Cracklin", "slug": "billy-s-boudin-cracklin", "badge": "🌶️ Spicy Take", "caseFor": "Peppery and intense in the best way. Not for the timid, but pure joy for heat lovers.", "rating": 4.7 }
+        {
+          "placeName": "Don's Specialty Meats",
+          "slug": "dons-specialty-meats",
+          "badge": "👑 Crowd Favorite",
+          "caseFor": "Golden crunch and reliable seasoning. People grab an extra bag before they even leave the parking lot.",
+          "rating": 4.6
+        },
+        {
+          "placeName": "Best Stop Supermarket",
+          "slug": "best-stop-supermarket",
+          "badge": "⚔️ Split Verdict",
+          "caseFor": "Some call it unbeatable, others say too rich — which is exactly why this debate gets loud at every boil.",
+          "rating": 4.8
+        },
+        {
+          "placeName": "Billy's Boudin & Cracklin",
+          "slug": "billy-s-boudin-cracklin",
+          "badge": "🌶️ Spicy Take",
+          "caseFor": "Peppery and intense in the best way. Not for the timid, but pure joy for heat lovers.",
+          "rating": 4.7
+        }
       ],
       "allSpots": []
     },
@@ -38,18 +90,64 @@
       "type": "seafood",
       "description": "Spice level, peel quality, and price per pound — this one can start a family feud.",
       "contenders": [
-        { "placeName": "Dwight's Restaurant", "slug": "dwights-restaurant", "badge": "👑 Crowd Favorite", "caseFor": "One of the absolute best on Johnston with bold, balanced seasoning and consistent quality.", "rating": 4.8 },
-        { "placeName": "C'est Bon Crawfish", "slug": "cest-bon-crawfish", "badge": "🏆 Geaux's Pick", "caseFor": "Youngsville favorite with great, juicy crawfish and a strong word-of-mouth following.", "rating": 4.7 },
-        { "placeName": "Hawk's Crawfish Restaurant", "slug": "hawks-crawfish-restaurant", "badge": "🌶️ Spicy Take", "caseFor": "Rayne institution with serious flavor depth and loyal locals every season.", "rating": 4.7 }
+        {
+          "placeName": "Dwight's Restaurant",
+          "slug": "dwights-restaurant",
+          "badge": "👑 Crowd Favorite",
+          "caseFor": "One of the absolute best on Johnston with bold, balanced seasoning and consistent quality.",
+          "rating": 4.8
+        },
+        {
+          "placeName": "C'est Bon Crawfish",
+          "slug": "cest-bon-crawfish",
+          "badge": "🏆 Geaux's Pick",
+          "caseFor": "Youngsville favorite with great, juicy crawfish and a strong word-of-mouth following.",
+          "rating": 4.7
+        },
+        {
+          "placeName": "Hawk's Crawfish Restaurant",
+          "slug": "hawks-crawfish-restaurant",
+          "badge": "🌶️ Spicy Take",
+          "caseFor": "Rayne institution with serious flavor depth and loyal locals every season.",
+          "rating": 4.7
+        }
       ],
       "allSpots": [
-        { "placeName": "Crawfish Time", "slug": "crawfish-time", "note": "Still a frequent go-to on Ridge with dependable boils." },
-        { "placeName": "Crazy Bout Crawfish", "slug": "crazy-bout-crawfish", "note": "Traditional boil style with no dusting." },
-        { "placeName": "Granddaddy's", "slug": "granddaddys-scott", "note": "Scott favorite that keeps showing up in recommendations." },
-        { "placeName": "Young's Sports Bar & Grill", "slug": "youngs-sports-bar-and-grill", "note": "Popular stop for dine-in crawfish." },
-        { "placeName": "The Cajun Table", "slug": "the-cajun-table", "note": "Repeatedly called a hands-down winner." },
-        { "placeName": "Uncle T's", "slug": "uncle-ts", "note": "Very tasty according to locals in the thread." },
-        { "placeName": "Bulldog", "slug": "bulldog", "note": "Frequently mentioned seasonal option." }
+        {
+          "placeName": "Crawfish Time",
+          "slug": "crawfish-time",
+          "note": "Still a frequent go-to on Ridge with dependable boils."
+        },
+        {
+          "placeName": "Crazy Bout Crawfish",
+          "slug": "crazy-bout-crawfish",
+          "note": "Traditional boil style with no dusting."
+        },
+        {
+          "placeName": "Granddaddy's",
+          "slug": "granddaddys-scott",
+          "note": "Scott favorite that keeps showing up in recommendations."
+        },
+        {
+          "placeName": "Young's Sports Bar & Grill",
+          "slug": "youngs-sports-bar-and-grill",
+          "note": "Popular stop for dine-in crawfish."
+        },
+        {
+          "placeName": "The Cajun Table",
+          "slug": "the-cajun-table",
+          "note": "Repeatedly called a hands-down winner."
+        },
+        {
+          "placeName": "Uncle T's",
+          "slug": "uncle-ts",
+          "note": "Very tasty according to locals in the thread."
+        },
+        {
+          "placeName": "Bulldog",
+          "slug": "bulldog",
+          "note": "Frequently mentioned seasonal option."
+        }
       ],
       "relatedLink": "/crawfish"
     },
@@ -58,8 +156,20 @@
       "type": "dessert",
       "description": "Warm, boozy sauce or classic sweet cream? The spoon battles are real.",
       "contenders": [
-        { "placeName": "Fezzo's Seafood, Steakhouse & Oyster Bar", "slug": "fezzo-s-seafood-steakhouse-oyster-bar", "badge": "👑 Crowd Favorite", "caseFor": "Rich custard body with a sauce that'll make you scrape the bowl.", "rating": 4.6 },
-        { "placeName": "Bon Temps Grill", "slug": "bon-temps-grill", "badge": "🏆 Geaux's Pick", "caseFor": "Decadent but balanced — sweet without going overboard.", "rating": 4.7 }
+        {
+          "placeName": "Fezzo's Seafood, Steakhouse & Oyster Bar",
+          "slug": "fezzo-s-seafood-steakhouse-oyster-bar",
+          "badge": "👑 Crowd Favorite",
+          "caseFor": "Rich custard body with a sauce that'll make you scrape the bowl.",
+          "rating": 4.6
+        },
+        {
+          "placeName": "Bon Temps Grill",
+          "slug": "bon-temps-grill",
+          "badge": "🏆 Geaux's Pick",
+          "caseFor": "Decadent but balanced — sweet without going overboard.",
+          "rating": 4.7
+        }
       ],
       "allSpots": []
     },
@@ -68,8 +178,20 @@
       "type": "dessert",
       "description": "Icing ratio, filling style, and who gets the baby — Acadiana takes this personally.",
       "contenders": [
-        { "placeName": "Keller's Bakery", "slug": "keller-s-bakery", "badge": "👑 Crowd Favorite", "caseFor": "Classic style done right with pillowy dough and clean cinnamon flavor.", "rating": 4.7 },
-        { "placeName": "Aunt Angie's Cakery", "slug": "aunt-angie-s-cakery-new-iberia", "badge": "🆕 Rising Star", "caseFor": "Creative spins and fun fillings that still respect tradition.", "rating": 4.2 }
+        {
+          "placeName": "Keller's Bakery",
+          "slug": "keller-s-bakery",
+          "badge": "👑 Crowd Favorite",
+          "caseFor": "Classic style done right with pillowy dough and clean cinnamon flavor.",
+          "rating": 4.7
+        },
+        {
+          "placeName": "Aunt Angie's Cakery",
+          "slug": "aunt-angie-s-cakery-new-iberia",
+          "badge": "🆕 Rising Star",
+          "caseFor": "Creative spins and fun fillings that still respect tradition.",
+          "rating": 4.2
+        }
       ],
       "allSpots": []
     },
@@ -78,22 +200,85 @@
       "type": "deli",
       "description": "Spread-style chicken salad gets heated fast — chunky vs creamy, spicy vs mild, and where the jalapeño version wins.",
       "contenders": [
-        { "placeName": "Chop's Specialty Meats", "slug": "chops-specialty-meats-broussard", "badge": "👑 Crowd Favorite", "caseFor": "30+ recommendations with a cult-favorite jalapeño version on Albertsons Parkway.", "rating": 4.9 },
-        { "placeName": "Champagne's", "slug": "champagnes-market", "badge": "🏆 Geaux's Pick", "caseFor": "Oil Center variety and fresh-made spicy Erath version made this a runaway community favorite.", "rating": 4.8 },
-        { "placeName": "Rod's Supermarket", "slug": "rods-supermarket-church-point", "badge": "🌶️ Spicy Take", "caseFor": "Church Point pick with strong support and old-school deli credibility.", "rating": 4.6 }
+        {
+          "placeName": "Chop's Specialty Meats",
+          "slug": "chops-specialty-meats-broussard",
+          "badge": "👑 Crowd Favorite",
+          "caseFor": "30+ recommendations with a cult-favorite jalapeño version on Albertsons Parkway.",
+          "rating": 4.9
+        },
+        {
+          "placeName": "Champagne's",
+          "slug": "champagnes-market",
+          "badge": "🏆 Geaux's Pick",
+          "caseFor": "Oil Center variety and fresh-made spicy Erath version made this a runaway community favorite.",
+          "rating": 4.8
+        },
+        {
+          "placeName": "Rod's Supermarket",
+          "slug": "rods-supermarket-church-point",
+          "badge": "🌶️ Spicy Take",
+          "caseFor": "Church Point pick with strong support and old-school deli credibility.",
+          "rating": 4.6
+        }
       ],
       "allSpots": [
-        { "placeName": "Cade's Market", "slug": "cades-market-st-martinville", "note": "St. Martinville favorite.", "specialTag": "Local Family Business" },
-        { "placeName": "Adrien's", "slug": "adriens-on-congress", "note": "Around 10 recs and praised for amazing flavor." },
-        { "placeName": "Little Veron's", "slug": "little-verons-rena-dr", "note": "Real chicken, no fillers." },
-        { "placeName": "NuNu's", "slug": "nunus-youngsville", "note": "Milder seasoning and includes eggs." },
-        { "placeName": "Earl's", "slug": "earls-on-verot", "note": "Smoked chicken salad with Sriracha that sells out fast." },
-        { "placeName": "Sweet Envie", "slug": "sweet-envie-moss-st", "note": "Loved when available, but sells out quickly." },
-        { "placeName": "Mama's Fried Chicken", "slug": "mamas-fried-chicken-opelousas", "note": "Locals say it tastes like boudin." },
-        { "placeName": "Poupart Bakery", "slug": "poupart-bakery", "note": "Original crowd favorite still repeatedly recommended." },
-        { "placeName": "Hebert's", "slug": "heberts-breaux-bridge", "note": "Smoked jalapeño version in Breaux Bridge." },
-        { "placeName": "Lydia Food Store", "slug": "lydia-food-store", "note": "Steady local recommendation." },
-        { "placeName": "Rouse's Market", "slug": "rouses-market", "note": "Dependable and crowd-pleasing quick lunch option." }
+        {
+          "placeName": "Cade's Market",
+          "slug": "cades-market-st-martinville",
+          "note": "St. Martinville favorite.",
+          "specialTag": "Local Family Business"
+        },
+        {
+          "placeName": "Adrien's",
+          "slug": "adriens-on-congress",
+          "note": "Around 10 recs and praised for amazing flavor."
+        },
+        {
+          "placeName": "Little Veron's",
+          "slug": "little-verons-rena-dr",
+          "note": "Real chicken, no fillers."
+        },
+        {
+          "placeName": "NuNu's",
+          "slug": "nunus-youngsville",
+          "note": "Milder seasoning and includes eggs."
+        },
+        {
+          "placeName": "Earl's",
+          "slug": "earls-on-verot",
+          "note": "Smoked chicken salad with Sriracha that sells out fast."
+        },
+        {
+          "placeName": "Sweet Envie",
+          "slug": "sweet-envie-moss-st",
+          "note": "Loved when available, but sells out quickly."
+        },
+        {
+          "placeName": "Mama's Fried Chicken",
+          "slug": "mamas-fried-chicken-opelousas",
+          "note": "Locals say it tastes like boudin."
+        },
+        {
+          "placeName": "Poupart Bakery",
+          "slug": "poupart-bakery",
+          "note": "Original crowd favorite still repeatedly recommended."
+        },
+        {
+          "placeName": "Hebert's",
+          "slug": "heberts-breaux-bridge",
+          "note": "Smoked jalapeño version in Breaux Bridge."
+        },
+        {
+          "placeName": "Lydia Food Store",
+          "slug": "lydia-food-store",
+          "note": "Steady local recommendation."
+        },
+        {
+          "placeName": "Rouse's Market",
+          "slug": "rouses-market",
+          "note": "Dependable and crowd-pleasing quick lunch option."
+        }
       ]
     },
     {
@@ -101,8 +286,20 @@
       "type": "snack",
       "description": "Peppered strips and smoky chew — glovebox essentials for every road trip.",
       "contenders": [
-        { "placeName": "Kartchner's Specialty Meats", "slug": "kartchner-s-specialty-meats", "badge": "🏆 Geaux's Pick", "caseFor": "Robust seasoning and serious smoke depth.", "rating": 4.6 },
-        { "placeName": "Don's Specialty Meats", "slug": "dons-specialty-meats", "badge": "👑 Crowd Favorite", "caseFor": "Classic texture with just enough heat.", "rating": 4.6 }
+        {
+          "placeName": "Kartchner's Specialty Meats",
+          "slug": "kartchner-s-specialty-meats",
+          "badge": "🏆 Geaux's Pick",
+          "caseFor": "Robust seasoning and serious smoke depth.",
+          "rating": 4.6
+        },
+        {
+          "placeName": "Don's Specialty Meats",
+          "slug": "dons-specialty-meats",
+          "badge": "👑 Crowd Favorite",
+          "caseFor": "Classic texture with just enough heat.",
+          "rating": 4.6
+        }
       ],
       "allSpots": []
     },
@@ -111,8 +308,20 @@
       "type": "sausage",
       "description": "From backyard pits to game day grills, this is the hero link.",
       "contenders": [
-        { "placeName": "Best Stop Supermarket", "slug": "best-stop-supermarket", "badge": "👑 Crowd Favorite", "caseFor": "Excellent snap and seasoning that holds up on the grill.", "rating": 4.8 },
-        { "placeName": "Billy's Boudin & Cracklin", "slug": "billy-s-boudin-cracklin", "badge": "🌶️ Spicy Take", "caseFor": "A bolder blend for folks who want more kick.", "rating": 4.7 }
+        {
+          "placeName": "Best Stop Supermarket",
+          "slug": "best-stop-supermarket",
+          "badge": "👑 Crowd Favorite",
+          "caseFor": "Excellent snap and seasoning that holds up on the grill.",
+          "rating": 4.8
+        },
+        {
+          "placeName": "Billy's Boudin & Cracklin",
+          "slug": "billy-s-boudin-cracklin",
+          "badge": "🌶️ Spicy Take",
+          "caseFor": "A bolder blend for folks who want more kick.",
+          "rating": 4.7
+        }
       ],
       "allSpots": []
     },
@@ -121,25 +330,99 @@
       "type": "stew",
       "description": "Seafood gumbo wars: shrimp + crab are non-negotiable, oysters are bonus points, and dark roux is sacred.",
       "contenders": [
-        { "placeName": "Rachael's Cafe", "slug": "rachaels-cafe-republic-st", "badge": "👑 Crowd Favorite", "caseFor": "Runaway winner from the thread with deep dark roux and standout seafood gumbo.", "rating": 4.9 },
-        { "placeName": "Don's Seafood", "slug": "dons-seafood", "badge": "🏆 Geaux's Pick", "caseFor": "Praised for generous crab meat and consistent seafood flavor.", "rating": 4.7 },
-        { "placeName": "Chris's Poboys", "slug": "chriss-poboys-pinhook", "badge": "🆕 Rising Star", "caseFor": "Pinhook favorite that keeps popping up in local seafood gumbo discussions.", "rating": 4.6 }
+        {
+          "placeName": "Rachael's Cafe",
+          "slug": "rachaels-cafe-republic-st",
+          "badge": "👑 Crowd Favorite",
+          "caseFor": "Runaway winner from the thread with deep dark roux and standout seafood gumbo.",
+          "rating": 4.9
+        },
+        {
+          "placeName": "Don's Seafood",
+          "slug": "dons-seafood",
+          "badge": "🏆 Geaux's Pick",
+          "caseFor": "Praised for generous crab meat and consistent seafood flavor.",
+          "rating": 4.7
+        },
+        {
+          "placeName": "Chris's Poboys",
+          "slug": "chriss-poboys-pinhook",
+          "badge": "🆕 Rising Star",
+          "caseFor": "Pinhook favorite that keeps popping up in local seafood gumbo discussions.",
+          "rating": 4.6
+        }
       ],
       "allSpots": [
-        { "placeName": "Prejean's", "slug": "prejeans-carencro", "note": "Carencro staple; duck & andouille gumbo also highly rated." },
-        { "placeName": "Bon Creole", "slug": "bon-creole-new-iberia", "note": "New Iberia pick: 'closest to my momma's gumbo.'" },
-        { "placeName": "Chef Roy's Frog City Cafe", "slug": "chef-roys-frog-city-cafe-rayne", "note": "Rayne recommendation with multiple mentions." },
-        { "placeName": "La Cuisine de Maman", "slug": "la-cuisine-de-maman-vermilionville", "note": "At Vermilionville on Fridays (+ Wednesdays during Lent)." },
-        { "placeName": "Rascal's", "slug": "rascals-duson", "note": "Duson spot praised for roux done right." },
-        { "placeName": "Soileau's", "slug": "soileaus-opelousas", "note": "Opelousas classic." },
-        { "placeName": "Fezzo's", "slug": "fezzos", "note": "Still in the gumbo conversation across Acadiana." },
-        { "placeName": "Pincher's Seafood", "slug": "pinchers-seafood", "note": "Frequent community mention." },
-        { "placeName": "Charley G's", "slug": "charley-gs", "note": "Upscale option that still earns gumbo respect." },
-        { "placeName": "Shucks", "slug": "shucks-abbeville", "note": "Abbeville recommendation." },
-        { "placeName": "Steamboat Warehouse", "slug": "steamboat-warehouse-washington", "note": "Washington destination pick." },
-        { "placeName": "Monroe's", "slug": "monroes", "note": "Mentioned by locals in seafood gumbo thread." },
-        { "placeName": "Poor Boy's Riverside Inn", "slug": "poor-boys-riverside-inn", "note": "Classic pick that still gets nods." },
-        { "placeName": "Bon Temps Grill", "slug": "bon-temps-grill", "note": "Previous site favorite kept for continuity." }
+        {
+          "placeName": "Prejean's",
+          "slug": "prejeans-carencro",
+          "note": "Carencro staple; duck & andouille gumbo also highly rated."
+        },
+        {
+          "placeName": "Bon Creole",
+          "slug": "bon-creole-new-iberia",
+          "note": "New Iberia pick: 'closest to my momma's gumbo.'"
+        },
+        {
+          "placeName": "Chef Roy's Frog City Cafe",
+          "slug": "chef-roys-frog-city-cafe-rayne",
+          "note": "Rayne recommendation with multiple mentions."
+        },
+        {
+          "placeName": "La Cuisine de Maman",
+          "slug": "la-cuisine-de-maman-vermilionville",
+          "note": "At Vermilionville on Fridays (+ Wednesdays during Lent)."
+        },
+        {
+          "placeName": "Rascal's",
+          "slug": "rascals-duson",
+          "note": "Duson spot praised for roux done right."
+        },
+        {
+          "placeName": "Soileau's",
+          "slug": "soileaus-opelousas",
+          "note": "Opelousas classic."
+        },
+        {
+          "placeName": "Fezzo's",
+          "slug": "fezzos",
+          "note": "Still in the gumbo conversation across Acadiana."
+        },
+        {
+          "placeName": "Pincher's Seafood",
+          "slug": "pinchers-seafood",
+          "note": "Frequent community mention."
+        },
+        {
+          "placeName": "Charley G's",
+          "slug": "charley-gs",
+          "note": "Upscale option that still earns gumbo respect."
+        },
+        {
+          "placeName": "Shucks",
+          "slug": "shucks-abbeville",
+          "note": "Abbeville recommendation."
+        },
+        {
+          "placeName": "Steamboat Warehouse",
+          "slug": "steamboat-warehouse-washington",
+          "note": "Washington destination pick."
+        },
+        {
+          "placeName": "Monroe's",
+          "slug": "monroes",
+          "note": "Mentioned by locals in seafood gumbo thread."
+        },
+        {
+          "placeName": "Poor Boy's Riverside Inn",
+          "slug": "poor-boys-riverside-inn",
+          "note": "Classic pick that still gets nods."
+        },
+        {
+          "placeName": "Bon Temps Grill",
+          "slug": "bon-temps-grill",
+          "note": "Previous site favorite kept for continuity."
+        }
       ]
     },
     {
@@ -147,8 +430,20 @@
       "type": "stew",
       "description": "Silky gravy, rice ratio, and spice balance — judged hard by locals.",
       "contenders": [
-        { "placeName": "Prejean's", "slug": "prejeans", "badge": "👑 Crowd Favorite", "caseFor": "Classic crawfish flavor and smooth texture that never misses.", "rating": 4.6 },
-        { "placeName": "Bon Temps Grill", "slug": "bon-temps-grill", "badge": "⚔️ Split Verdict", "caseFor": "Some call it the best in town, others prefer thicker gravy — so the argument lives on.", "rating": 4.7 }
+        {
+          "placeName": "Prejean's",
+          "slug": "prejeans",
+          "badge": "👑 Crowd Favorite",
+          "caseFor": "Classic crawfish flavor and smooth texture that never misses.",
+          "rating": 4.6
+        },
+        {
+          "placeName": "Bon Temps Grill",
+          "slug": "bon-temps-grill",
+          "badge": "⚔️ Split Verdict",
+          "caseFor": "Some call it the best in town, others prefer thicker gravy — so the argument lives on.",
+          "rating": 4.7
+        }
       ],
       "allSpots": []
     },
@@ -157,8 +452,20 @@
       "type": "comfort",
       "description": "Crunch factor, juiciness, and seasoning in the crust — no room for mediocrity.",
       "contenders": [
-        { "placeName": "Broaddus Burgers", "slug": "broaddus-burgers", "badge": "🌶️ Spicy Take", "caseFor": "Unexpected sleeper pick with serious crisp and flavor.", "rating": 4.3 },
-        { "placeName": "Raising Cane's", "slug": "raising-canes-lafayette", "badge": "⚔️ Split Verdict", "caseFor": "Beloved by many, questioned by purists — exactly the kind of debate fuel we need.", "rating": 4.0 }
+        {
+          "placeName": "Broaddus Burgers",
+          "slug": "broaddus-burgers",
+          "badge": "🌶️ Spicy Take",
+          "caseFor": "Unexpected sleeper pick with serious crisp and flavor.",
+          "rating": 4.3
+        },
+        {
+          "placeName": "Raising Cane's",
+          "slug": "raising-canes-lafayette",
+          "badge": "⚔️ Split Verdict",
+          "caseFor": "Beloved by many, questioned by purists — exactly the kind of debate fuel we need.",
+          "rating": 4
+        }
       ],
       "allSpots": []
     },
@@ -167,8 +474,20 @@
       "type": "comfort",
       "description": "Rice, gravy, and two sides that hug your soul.",
       "contenders": [
-        { "placeName": "Laura's II", "slug": "lauras-ii", "badge": "👑 Crowd Favorite", "caseFor": "Portions are huge and every tray feels like a Sunday kitchen special.", "rating": 4.5 },
-        { "placeName": "Olde Tyme Grocery", "slug": "olde-tyme-grocery", "badge": "🆕 Rising Star", "caseFor": "Reliable comfort classics and neighborhood charm.", "rating": 4.4 }
+        {
+          "placeName": "Laura's II",
+          "slug": "lauras-ii",
+          "badge": "👑 Crowd Favorite",
+          "caseFor": "Portions are huge and every tray feels like a Sunday kitchen special.",
+          "rating": 4.5
+        },
+        {
+          "placeName": "Olde Tyme Grocery",
+          "slug": "olde-tyme-grocery",
+          "badge": "🆕 Rising Star",
+          "caseFor": "Reliable comfort classics and neighborhood charm.",
+          "rating": 4.4
+        }
       ],
       "allSpots": []
     },
@@ -177,16 +496,55 @@
       "type": "salad",
       "description": "Entrée-style salads where grilled or smoked chicken is the star.",
       "contenders": [
-        { "placeName": "Acadian Superette", "slug": "acadian-superette", "badge": "👑 Crowd Favorite", "caseFor": "Hands-down winner in the thread for flavor, portion, and consistency.", "rating": 4.8 },
-        { "placeName": "Zea's", "slug": "zeas", "badge": "🏆 Geaux's Pick", "caseFor": "Pepper jelly chicken salad and Asian almond version both got love.", "rating": 4.7 },
-        { "placeName": "Cafe Lola", "slug": "cafe-lola", "badge": "🆕 Rising Star", "caseFor": "Cobb salad mention came up repeatedly for fresh ingredients.", "rating": 4.6 }
+        {
+          "placeName": "Acadian Superette",
+          "slug": "acadian-superette",
+          "badge": "👑 Crowd Favorite",
+          "caseFor": "Hands-down winner in the thread for flavor, portion, and consistency.",
+          "rating": 4.8
+        },
+        {
+          "placeName": "Zea's",
+          "slug": "zeas",
+          "badge": "🏆 Geaux's Pick",
+          "caseFor": "Pepper jelly chicken salad and Asian almond version both got love.",
+          "rating": 4.7
+        },
+        {
+          "placeName": "Cafe Lola",
+          "slug": "cafe-lola",
+          "badge": "🆕 Rising Star",
+          "caseFor": "Cobb salad mention came up repeatedly for fresh ingredients.",
+          "rating": 4.6
+        }
       ],
       "allSpots": [
-        { "placeName": "Cade's Market", "slug": "cades-market-st-martinville", "note": "St. Martinville recommendation.", "specialTag": "Local Family Business" },
-        { "placeName": "Taco Sisters", "slug": "taco-sisters", "note": "Known for smoked chicken salad." },
-        { "placeName": "Syro's Bistro", "slug": "syros-bistro", "note": "Caesar salad recommendation." },
-        { "placeName": "Rochetto's", "slug": "rochettos", "note": "Local entrant mentioned in thread." },
-        { "placeName": "Burger Tyme", "slug": "burger-tyme", "note": "Community pick for grilled chicken salad." }
+        {
+          "placeName": "Cade's Market",
+          "slug": "cades-market-st-martinville",
+          "note": "St. Martinville recommendation.",
+          "specialTag": "Local Family Business"
+        },
+        {
+          "placeName": "Taco Sisters",
+          "slug": "taco-sisters",
+          "note": "Known for smoked chicken salad."
+        },
+        {
+          "placeName": "Syro's Bistro",
+          "slug": "syros-bistro",
+          "note": "Caesar salad recommendation."
+        },
+        {
+          "placeName": "Rochetto's",
+          "slug": "rochettos",
+          "note": "Local entrant mentioned in thread."
+        },
+        {
+          "placeName": "Burger Tyme",
+          "slug": "burger-tyme",
+          "note": "Community pick for grilled chicken salad."
+        }
       ]
     },
     {
@@ -194,26 +552,104 @@
       "type": "seafood",
       "description": "From classic rolls to omakase-style favorites, this list tracks Acadiana's most-loved sushi spots.",
       "contenders": [
-        { "placeName": "Fuji Sushi House", "slug": "fuji-sushi-house", "badge": "👑 Crowd Favorite", "caseFor": "Around 25 recs and legendary quality — temporarily closed but still top of mind.", "rating": 4.8 },
-        { "placeName": "Minami Sushi Bar", "slug": "minami-sushi-bar-downtown", "badge": "🏆 Geaux's Pick", "caseFor": "Downtown pick praised for the freshest fish in Lafayette.", "rating": 4.7 },
-        { "placeName": "Rock-n-Sake", "slug": "rock-n-sake-river-ranch", "badge": "🆕 Rising Star", "caseFor": "River Ranch favorite with great freshness and atmosphere.", "rating": 4.6 }
+        {
+          "placeName": "Fuji Sushi House",
+          "slug": "fuji-sushi-house",
+          "badge": "👑 Crowd Favorite",
+          "caseFor": "Around 25 recs and legendary quality — temporarily closed but still top of mind.",
+          "rating": 4.8
+        },
+        {
+          "placeName": "Minami Sushi Bar",
+          "slug": "minami-sushi-bar-downtown",
+          "badge": "🏆 Geaux's Pick",
+          "caseFor": "Downtown pick praised for the freshest fish in Lafayette.",
+          "rating": 4.7
+        },
+        {
+          "placeName": "Rock-n-Sake",
+          "slug": "rock-n-sake-river-ranch",
+          "badge": "🆕 Rising Star",
+          "caseFor": "River Ranch favorite with great freshness and atmosphere.",
+          "rating": 4.6
+        }
       ],
       "allSpots": [
-        { "placeName": "Fishbox Sushi", "slug": "fishbox-sushi", "note": "Great by-the-piece option." },
-        { "placeName": "NHI Taste of Asia", "slug": "nhi-taste-of-asia", "note": "Cheaper sushi options with strong support." },
-        { "placeName": "Ahi Sushi", "slug": "ahi-sushi", "note": "Best-kept-secret status; orange blossom roll mention." },
-        { "placeName": "Oishi Sushi", "slug": "oishi-sushi-kaliste-saloom", "note": "Takeout-only favorite on Kaliste Saloom." },
-        { "placeName": "Sushi Roxx", "slug": "sushi-roxx-broussard", "note": "Family-owned Broussard spot." },
-        { "placeName": "Saketini", "slug": "saketini-broussard", "note": "Broussard location with daily specials." },
-        { "placeName": "Samurai", "slug": "samurai", "note": "Both locations got shoutouts." },
-        { "placeName": "RawZ Bistro", "slug": "rawz-bistro-youngsville", "note": "Chef Andrew's spot; pho also praised." },
-        { "placeName": "Osaka", "slug": "osaka", "note": "Consistent local sushi option." },
-        { "placeName": "Bojangles", "slug": "bojangles-new-iberia", "note": "New Iberia pick, especially angel roll." },
-        { "placeName": "Yoka", "slug": "yoka-youngsville", "note": "Very underrated according to locals." },
-        { "placeName": "Kasai", "slug": "kasai", "note": "Mentioned as a reliable sushi stop." },
-        { "placeName": "Tsunami / Shinto's", "slug": "tsunami-shintos", "note": "Regional favorites that still get nods." },
-        { "placeName": "Tsubaki by Koi", "slug": "tsubaki-by-koi", "note": "Another recurring recommendation." },
-        { "placeName": "Mizu", "slug": "mizu-youngsville", "note": "All-you-can-eat option in Youngsville." }
+        {
+          "placeName": "Fishbox Sushi",
+          "slug": "fishbox-sushi",
+          "note": "Great by-the-piece option."
+        },
+        {
+          "placeName": "NHI Taste of Asia",
+          "slug": "nhi-taste-of-asia",
+          "note": "Cheaper sushi options with strong support."
+        },
+        {
+          "placeName": "Ahi Sushi",
+          "slug": "ahi-sushi",
+          "note": "Best-kept-secret status; orange blossom roll mention."
+        },
+        {
+          "placeName": "Oishi Sushi",
+          "slug": "oishi-sushi-kaliste-saloom",
+          "note": "Takeout-only favorite on Kaliste Saloom."
+        },
+        {
+          "placeName": "Sushi Roxx",
+          "slug": "sushi-roxx-broussard",
+          "note": "Family-owned Broussard spot."
+        },
+        {
+          "placeName": "Saketini",
+          "slug": "saketini-broussard",
+          "note": "Broussard location with daily specials."
+        },
+        {
+          "placeName": "Samurai",
+          "slug": "samurai",
+          "note": "Both locations got shoutouts."
+        },
+        {
+          "placeName": "RawZ Bistro",
+          "slug": "rawz-bistro-youngsville",
+          "note": "Chef Andrew's spot; pho also praised."
+        },
+        {
+          "placeName": "Osaka",
+          "slug": "osaka",
+          "note": "Consistent local sushi option."
+        },
+        {
+          "placeName": "Bojangles",
+          "slug": "bojangles-new-iberia",
+          "note": "New Iberia pick, especially angel roll."
+        },
+        {
+          "placeName": "Yoka",
+          "slug": "yoka-youngsville",
+          "note": "Very underrated according to locals."
+        },
+        {
+          "placeName": "Kasai",
+          "slug": "kasai",
+          "note": "Mentioned as a reliable sushi stop."
+        },
+        {
+          "placeName": "Tsunami / Shinto's",
+          "slug": "tsunami-shintos",
+          "note": "Regional favorites that still get nods."
+        },
+        {
+          "placeName": "Tsubaki by Koi",
+          "slug": "tsubaki-by-koi",
+          "note": "Another recurring recommendation."
+        },
+        {
+          "placeName": "Mizu",
+          "slug": "mizu-youngsville",
+          "note": "All-you-can-eat option in Youngsville."
+        }
       ]
     },
     {
@@ -221,17 +657,59 @@
       "type": "restaurant",
       "description": "Authentic taquerias, family spots, and comfort classics — Acadiana's top Mexican picks.",
       "contenders": [
-        { "placeName": "Mezcal", "slug": "mezcal", "badge": "👑 Crowd Favorite", "caseFor": "Consistent food, great service, and popular $12.99 fajita specials midweek.", "rating": 4.7 },
-        { "placeName": "Taqueria El Mexicano", "slug": "taqueria-el-mexicano", "badge": "🏆 Geaux's Pick", "caseFor": "Repeatedly called the actual best for authentic flavor.", "rating": 4.8 },
-        { "placeName": "La Fiesta", "slug": "la-fiesta-broussard", "badge": "🆕 Rising Star", "caseFor": "Broussard pick with 'never had a bad meal' consistency.", "rating": 4.6 }
+        {
+          "placeName": "Mezcal",
+          "slug": "mezcal",
+          "badge": "👑 Crowd Favorite",
+          "caseFor": "Consistent food, great service, and popular $12.99 fajita specials midweek.",
+          "rating": 4.7
+        },
+        {
+          "placeName": "Taqueria El Mexicano",
+          "slug": "taqueria-el-mexicano",
+          "badge": "🏆 Geaux's Pick",
+          "caseFor": "Repeatedly called the actual best for authentic flavor.",
+          "rating": 4.8
+        },
+        {
+          "placeName": "La Fiesta",
+          "slug": "la-fiesta-broussard",
+          "badge": "🆕 Rising Star",
+          "caseFor": "Broussard pick with 'never had a bad meal' consistency.",
+          "rating": 4.6
+        }
       ],
       "allSpots": [
-        { "placeName": "La Carreta", "slug": "la-carreta", "note": "Frequent go-to for groups and family dinners." },
-        { "placeName": "La Hacienda", "slug": "la-hacienda-broussard", "note": "Broussard pick described as VERY good." },
-        { "placeName": "Little Hacienda", "slug": "little-hacienda-pinhook", "note": "Behind Wendy's on Pinhook." },
-        { "placeName": "Tampico's", "slug": "tampicos", "note": "Old-school favorite." },
-        { "placeName": "Pop's Loca", "slug": "pops-loca", "note": "Known for tongue tacos." },
-        { "placeName": "Zarape", "slug": "zarape-university", "note": "University location still highly recommended." }
+        {
+          "placeName": "La Carreta",
+          "slug": "la-carreta",
+          "note": "Frequent go-to for groups and family dinners."
+        },
+        {
+          "placeName": "La Hacienda",
+          "slug": "la-hacienda-broussard",
+          "note": "Broussard pick described as VERY good."
+        },
+        {
+          "placeName": "Little Hacienda",
+          "slug": "little-hacienda-pinhook",
+          "note": "Behind Wendy's on Pinhook."
+        },
+        {
+          "placeName": "Tampico's",
+          "slug": "tampicos",
+          "note": "Old-school favorite."
+        },
+        {
+          "placeName": "Pop's Loca",
+          "slug": "pops-loca",
+          "note": "Known for tongue tacos."
+        },
+        {
+          "placeName": "Zarape",
+          "slug": "zarape-university",
+          "note": "University location still highly recommended."
+        }
       ]
     },
     {
@@ -239,15 +717,49 @@
       "type": "mexican",
       "description": "Tender, rich birria and consommé done right — one of the fastest-rising local obsessions.",
       "contenders": [
-        { "placeName": "Zarape Tacos y Gorditas", "slug": "zarape-tacos-y-gorditas", "badge": "👑 Crowd Favorite", "caseFor": "The go-to birria recommendation with multiple independent votes.", "rating": 4.8 },
-        { "placeName": "Taqueria El Mexicano", "slug": "taqueria-el-mexicano-mimosa-place", "badge": "🏆 Geaux's Pick", "caseFor": "Mimosa Place location repeatedly praised for authentic birria.", "rating": 4.7 },
-        { "placeName": "Las Chismosas", "slug": "las-chismosas-eraste-landry", "badge": "🆕 Rising Star", "caseFor": "Eraste Landry standout with strong birria feedback.", "rating": 4.6 }
+        {
+          "placeName": "Zarape Tacos y Gorditas",
+          "slug": "zarape-tacos-y-gorditas",
+          "badge": "👑 Crowd Favorite",
+          "caseFor": "The go-to birria recommendation with multiple independent votes.",
+          "rating": 4.8
+        },
+        {
+          "placeName": "Taqueria El Mexicano",
+          "slug": "taqueria-el-mexicano-mimosa-place",
+          "badge": "🏆 Geaux's Pick",
+          "caseFor": "Mimosa Place location repeatedly praised for authentic birria.",
+          "rating": 4.7
+        },
+        {
+          "placeName": "Las Chismosas",
+          "slug": "las-chismosas-eraste-landry",
+          "badge": "🆕 Rising Star",
+          "caseFor": "Eraste Landry standout with strong birria feedback.",
+          "rating": 4.6
+        }
       ],
       "allSpots": [
-        { "placeName": "All-Star Bakeshop", "slug": "all-star-bakeshop", "note": "Unexpected but frequently mentioned birria option." },
-        { "placeName": "Blanchard's", "slug": "blanchards", "note": "Available on select days only." },
-        { "placeName": "Louisiana Soulllll", "slug": "louisiana-soulllll", "note": "Home cook at 710 Solomon St on Taco Tuesdays (birria tacos, pizza, ramen, grilled cheese)." },
-        { "placeName": "Chow Yum Phat", "slug": "chow-yum-phat", "note": "Does birria specials at times." }
+        {
+          "placeName": "All-Star Bakeshop",
+          "slug": "all-star-bakeshop",
+          "note": "Unexpected but frequently mentioned birria option."
+        },
+        {
+          "placeName": "Blanchard's",
+          "slug": "blanchards",
+          "note": "Available on select days only."
+        },
+        {
+          "placeName": "Louisiana Soulllll",
+          "slug": "louisiana-soulllll",
+          "note": "Home cook at 710 Solomon St on Taco Tuesdays (birria tacos, pizza, ramen, grilled cheese)."
+        },
+        {
+          "placeName": "Chow Yum Phat",
+          "slug": "chow-yum-phat",
+          "note": "Does birria specials at times."
+        }
       ]
     }
   ]

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { weekendHighlights } from "@/data/mock-data";
 import { EventCard } from "@/components/cards/EventCard";
 import { buildMetadata } from "@/lib/seo";
@@ -7,7 +8,7 @@ export const dynamic = "force-dynamic";
 
 export const metadata = buildMetadata({
   title: "This Weekend in Acadiana — Events, Eats & Plans | GeauxFind",
-  description: "See your weekend roundup for Acadiana with local events, food specials, music, and weather highlights.",
+  description: "See your weekend roundup for Acadiana with current events and links to live local info.",
   path: "/this-weekend",
 });
 
@@ -49,16 +50,20 @@ export default async function ThisWeekend() {
       <div className="mt-6 grid gap-4 md:grid-cols-3">
         <div className="rounded-2xl border border-[var(--warm-gray)]/20 bg-white p-4">
           <h2 className="font-semibold">Weather Outlook</h2>
-          <p className="mt-2 text-sm text-[var(--warm-gray)]">{weekendHighlights.weather}</p>
-          <p className="mt-2 text-xs text-[var(--warm-gray)]/80">Forecast snapshot for now — live weather integration planned next phase.</p>
+          <a
+            href="https://weather.com/weather/today/l/Lafayette+LA"
+            target="_blank"
+            rel="noreferrer"
+            className="mt-2 inline-block text-sm text-[var(--cajun-red)] underline"
+          >
+            Check local weather
+          </a>
         </div>
         <div className="rounded-2xl border border-[var(--warm-gray)]/20 bg-white p-4 md:col-span-2">
           <h2 className="font-semibold">Food Specials</h2>
-          <ul className="mt-2 list-disc pl-5 text-sm text-[var(--warm-gray)]">
-            {weekendHighlights.foodSpecials.map((f) => (
-              <li key={f}>{f}</li>
-            ))}
-          </ul>
+          <p className="mt-2 text-sm text-[var(--warm-gray)]">
+            Check our <Link href="/deals" className="text-[var(--cajun-red)] underline">deals page</Link> for current specials.
+          </p>
         </div>
       </div>
 
@@ -76,12 +81,10 @@ export default async function ThisWeekend() {
         ))}
       </div>
 
-      <h2 className="mb-2 mt-8 font-serif text-2xl">Music Listings</h2>
-      <ul className="list-disc pl-5 text-sm text-[var(--warm-gray)]">
-        {weekendHighlights.music.map((m) => (
-          <li key={m}>{m}</li>
-        ))}
-      </ul>
+      <h2 className="mb-2 mt-8 font-serif text-2xl">Music & Events</h2>
+      <p className="text-sm text-[var(--warm-gray)]">
+        See what&apos;s happening on our <Link href="/events" className="text-[var(--cajun-red)] underline">events page</Link>.
+      </p>
     </main>
   );
 }
