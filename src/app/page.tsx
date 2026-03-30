@@ -14,8 +14,6 @@ import { JsonLd } from "@/components/JsonLd";
 import { FaqSection } from "@/components/FaqSection";
 import type { Place, WhatsNewItem } from "@/types";
 
-type AiPick = Place & { why?: string };
-
 const SEASONAL_ITEMS: Array<{ months: number[]; emoji: string; title: string; desc: string; link: string }> = [
   { months: [1, 2], emoji: "👑", title: "King Cake Season", desc: "Find the best king cakes across Acadiana", link: "/search?q=king+cake" },
   { months: [2, 3], emoji: "🎭", title: "Mardi Gras", desc: "Parades, balls, and Cajun Mardi Gras runs", link: "/events" },
@@ -26,14 +24,15 @@ const SEASONAL_ITEMS: Array<{ months: number[]; emoji: string; title: string; de
   { months: [9, 10], emoji: "🏈", title: "Tailgate Season", desc: "Game day grub and watch parties across Cajun Country", link: "/search?q=sports+bar" },
   { months: [10, 11], emoji: "🎃", title: "Fall Festivals", desc: "Harvest fairs, Halloween events, and hayrides", link: "/events" },
   { months: [11, 12], emoji: "🎄", title: "Holiday Season", desc: "Christmas lights, holiday markets, and festive dining", link: "/events" },
-  { months: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], emoji: "🍴", title: "Plate Lunch", desc: "The Cajun lunch tradition — meat, rice, and two sides", link: "/daily-specials" },
-  { months: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], emoji: "🎵", title: "Live Music", desc: "Cajun, zydeco, and blues every night of the week", link: "/live-music" },
+  { months: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], emoji: "🍴", title: "Plate Lunch", desc: "The Cajun lunch tradition — rice, meat, and two sides", link: "/daily-specials" },
+  { months: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12], emoji: "🎵", title: "Live Music", desc: "Cajun, zydeco, blues — every night of the week", link: "/live-music" },
 ];
 
 export default function Home() {
   const [whatsNewItems, setWhatsNewItems] = useState<WhatsNewItem[]>([]);
   const [businessQuery, setBusinessQuery] = useState("");
-  const [aiPicks, setAiPicks] = useState<AiPick[]>([]);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const [aiPicks, setAiPicks] = useState<Array<any>>([]);
   const [aiVibe, setAiVibe] = useState("");
 
   const claimablePlaces = useMemo(() => (seedPlaces as Place[]), []);
@@ -81,10 +80,7 @@ export default function Home() {
       .slice(0, 3);
   }, [businessQuery, claimablePlaces]);
 
-  const seasonalNow = useMemo(() => {
-    const month = new Date().getMonth() + 1;
-    return SEASONAL_ITEMS.filter((item) => item.months.includes(month)).slice(0, 6);
-  }, []);
+  const currentSeasonal = SEASONAL_ITEMS.filter((s) => s.months.includes(new Date().getMonth() + 1)).slice(0, 6);
 
   const featuredRecipe = recipes[0];
 
@@ -97,21 +93,12 @@ export default function Home() {
     fetch("/api/ai-picks", { cache: "no-store" })
       .then((res) => (res.ok ? res.json() : Promise.reject(new Error("ai-picks request failed"))))
       .then((data) => {
-        const picks = Array.isArray(data?.picks) ? data.picks : [];
-        if (picks.length > 0) {
-          setAiPicks(picks);
-          setAiVibe(typeof data?.vibe === "string" ? data.vibe : "");
-          return;
-        }
-
-        const fallback = places.filter((p) => p.featured).slice(0, 6);
-        setAiPicks(fallback);
-        setAiVibe("Handpicked featured spots from around Acadiana.");
+        setAiPicks(Array.isArray(data?.picks) ? data.picks : []);
+        setAiVibe(typeof data?.vibe === "string" ? data.vibe : "");
       })
       .catch(() => {
-        const fallback = places.filter((p) => p.featured).slice(0, 6);
-        setAiPicks(fallback);
-        setAiVibe("Handpicked featured spots from around Acadiana.");
+        setAiPicks(places.filter((p) => p.featured).slice(0, 6));
+        setAiVibe("");
       });
 
     const targets = Array.from(document.querySelectorAll(".reveal"));
@@ -350,7 +337,8 @@ export default function Home() {
           <div className="flex snap-x snap-mandatory gap-4 overflow-x-auto pb-2 scrollbar-hide">
             {aiPicks.map((pick, idx) => (
               <div key={pick.slug ?? `${pick.name}-${idx}`} className="min-w-[280px] snap-start">
-                <PlaceCard place={pick} blurb={pick.why} />
+                <PlaceCard place={pick} />
+                {pick.why ? <p className="mt-1 text-xs italic text-[var(--warm-gray)]">{pick.why}</p> : null}
               </div>
             ))}
           </div>
@@ -384,13 +372,13 @@ export default function Home() {
         <div className="mb-4 flex items-center justify-between">
           <div>
             <h2 className="text-3xl text-[var(--cajun-red)]">Seasonal in Acadiana</h2>
-            <p className="mt-1 text-sm text-[var(--warm-gray)]">What&apos;s in season right now in Cajun Country</p>
+            <p className="mt-1 text-sm text-[var(--warm-gray)]">What&apos;s in season right now</p>
           </div>
-          <Link href="/events" className="gf-link text-sm">See events</Link>
+          <Link href="/events" className="gf-link text-sm">Full calendar</Link>
         </div>
-        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {seasonalNow.map((item) => (
-            <Link key={`${item.title}-${item.link}`} href={item.link} className="rounded-[12px] border border-[var(--spanish-moss)]/30 bg-white p-4 transition-transform hover:-translate-y-0.5 card-lift">
+        <div className="grid gap-3 md:grid-cols-3">
+          {currentSeasonal.map((item) => (
+            <Link key={`${item.title}-${item.link}`} href={item.link} className="rounded-[12px] border border-[var(--spanish-moss)]/30 bg-white p-4 card-lift">
               <p className="text-2xl" aria-hidden="true">{item.emoji}</p>
               <h3 className="mt-2 text-lg text-[var(--cast-iron)]">{item.title}</h3>
               <p className="mt-1 text-sm text-[var(--warm-gray)]">{item.desc}</p>
