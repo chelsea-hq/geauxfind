@@ -15,8 +15,7 @@ interface CommunityDeal {
 }
 
 export function DealSubmitForm({ initial }: { initial: CommunityDeal[] }) {
-  const [deals, setDeals] = useState<CommunityDeal[]>(initial);
-  const [upvoted, setUpvoted] = useState<Set<string>>(new Set());
+  const [deals] = useState<CommunityDeal[]>(initial);
   const [form, setForm] = useState({ restaurant: "", deal: "", category: "Daily Special", submittedBy: "" });
   const [status, setStatus] = useState("");
   const [submitting, setSubmitting] = useState(false);
@@ -44,17 +43,6 @@ export function DealSubmitForm({ initial }: { initial: CommunityDeal[] }) {
     } finally {
       setSubmitting(false);
     }
-  }
-
-  async function upvote(id: string) {
-    if (upvoted.has(id)) return;
-    setUpvoted((prev) => new Set([...prev, id]));
-    setDeals((prev) => prev.map((d) => d.id === id ? { ...d, upvotes: d.upvotes + 1 } : d));
-    await fetch("/api/deals", {
-      method: "PATCH",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ id }),
-    }).catch(() => null);
   }
 
   return (
@@ -112,18 +100,8 @@ export function DealSubmitForm({ initial }: { initial: CommunityDeal[] }) {
             {deals.map((deal) => (
               <article key={deal.id} className="rounded-2xl border border-[var(--spanish-moss)]/25 bg-white p-5">
                 <div className="flex items-start justify-between gap-3">
-                  <div>
-                    <p className="font-semibold text-[var(--cast-iron)]">{deal.restaurant}</p>
-                    <span className="mt-1 inline-block rounded-full bg-[var(--cream)] px-2.5 py-0.5 text-xs font-semibold text-[var(--cajun-red)]">{deal.category}</span>
-                  </div>
-                  <button
-                    onClick={() => upvote(deal.id)}
-                    disabled={upvoted.has(deal.id)}
-                    className="flex shrink-0 flex-col items-center rounded-xl border border-[var(--spanish-moss)]/30 px-3 py-2 text-xs disabled:opacity-50"
-                  >
-                    <span>▲</span>
-                    {deal.upvotes > 0 ? <span className="font-semibold">{deal.upvotes}</span> : null}
-                  </button>
+                  <p className="font-semibold text-[var(--cast-iron)]">{deal.restaurant}</p>
+                  <span className="shrink-0 rounded-full bg-[var(--cream)] px-2.5 py-1 text-xs font-semibold text-[var(--cajun-red)]">{deal.category}</span>
                 </div>
                 <p className="mt-3 text-sm text-[var(--cast-iron)]">{deal.deal}</p>
                 <p className="mt-2 text-xs text-[var(--warm-gray)]">

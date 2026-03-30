@@ -130,12 +130,7 @@ export default function WhatsNewPage() {
                   <span>{formatDate(item.date)}</span>
                   <span>•</span>
                   <span>Source: {item.source}</span>
-                  {item.engagement ? (
-                    <>
-                      <span>•</span>
-                      <span>👍 {item.engagement.likes} · 💬 {item.engagement.comments}</span>
-                    </>
-                  ) : null}
+
                 </div>
               </div>
             </article>

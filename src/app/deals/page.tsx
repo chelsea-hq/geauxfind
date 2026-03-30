@@ -70,11 +70,9 @@ export default async function DealsPage() {
   const approvedDeals = data.communityDeals.filter((deal) => deal.status === "approved");
   const happyHourDeals = approvedDeals
     .filter((deal) => deal.category === "Happy Hour")
-    .sort((a, b) => b.upvotes - a.upvotes)
     .slice(0, 4);
   const seasonalDeals = approvedDeals
     .filter((deal) => deal.category === "Seasonal")
-    .sort((a, b) => b.upvotes - a.upvotes)
     .slice(0, 4);
 
 
@@ -114,7 +112,7 @@ export default async function DealsPage() {
               <article key={deal.id} className="rounded-xl bg-white p-4 shadow-sm">
                 <p className="font-bold text-[var(--cast-iron)]">{deal.restaurant}</p>
                 <p className="mt-1 text-sm text-[var(--cast-iron)]">{deal.deal}</p>
-                {deal.upvotes > 0 ? <p className="mt-2 text-xs text-[var(--warm-gray)]">🔥 {deal.upvotes} local upvotes</p> : null}
+
               </article>
             ))}
           </div>

@@ -21,15 +21,10 @@ interface DealGridProps {
 export function DealGrid({ deals, categories }: DealGridProps) {
   const [activeCategory, setActiveCategory] = useState<string>("All");
 
-  const sortedDeals = useMemo(
-    () => [...deals].sort((a, b) => b.upvotes - a.upvotes),
-    [deals],
-  );
-
   const filteredDeals = useMemo(() => {
-    if (activeCategory === "All") return sortedDeals;
-    return sortedDeals.filter((deal) => deal.category === activeCategory);
-  }, [activeCategory, sortedDeals]);
+    if (activeCategory === "All") return deals;
+    return deals.filter((deal) => deal.category === activeCategory);
+  }, [activeCategory, deals]);
 
   const pillCategories = ["All", ...categories];
 
@@ -75,10 +70,9 @@ export function DealGrid({ deals, categories }: DealGridProps) {
 
             <p className="mt-3 text-sm leading-relaxed text-[var(--cast-iron)]">{deal.deal}</p>
 
-            <div className="mt-4 flex items-center justify-between text-xs text-[var(--warm-gray)]">
-              {deal.submittedBy && deal.submittedBy !== "GeauxFind Team" ? <p>Added by {deal.submittedBy}</p> : <span />}
-              {deal.upvotes > 0 ? <p className="font-semibold text-[var(--cajun-red)]">🔥 {deal.upvotes}</p> : null}
-            </div>
+            {deal.submittedBy && deal.submittedBy !== "GeauxFind Team" ? (
+              <p className="mt-4 text-xs text-[var(--warm-gray)]">Added by {deal.submittedBy}</p>
+            ) : null}
           </article>
         ))}
       </div>

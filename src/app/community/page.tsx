@@ -25,14 +25,14 @@ export default function CommunityPage() {
 
   // --- Recs state ---
   const [recs, setRecs] = useState<RecSubmission[]>([]);
-  const [recVotes, setRecVotes] = useState<Set<string>>(new Set());
+
   const [recForm, setRecForm] = useState({ placeName: "", recommendation: "", category: "Restaurant", submittedBy: "" });
   const [recStatus, setRecStatus] = useState("");
   const [recSubmitting, setRecSubmitting] = useState(false);
 
   // --- Tips state ---
   const [items, setItems] = useState<CommunitySubmission[]>([]);
-  const [votes, setVotes] = useState<Record<string, number>>({});
+
   const [form, setForm] = useState({ type: "Food tip" as CommunitySubmission["type"], placeName: "", placeSlug: "", text: "", authorName: "Anonymous Geaux" });
   const [photoFile, setPhotoFile] = useState<File | null>(null);
   const [status, setStatus] = useState("");
@@ -40,32 +40,7 @@ export default function CommunityPage() {
   useEffect(() => {
     fetch("/api/community").then((r) => r.json()).then(setItems).catch(() => setItems([]));
     fetch("/api/recs").then((r) => r.json()).then(setRecs).catch(() => setRecs([]));
-    const saved = localStorage.getItem("geaux-upvotes");
-    if (saved) setVotes(JSON.parse(saved));
-    const savedRec = localStorage.getItem("geaux-rec-upvotes");
-    if (savedRec) setRecVotes(new Set(JSON.parse(savedRec)));
   }, []);
-
-  // Upvote tip
-  function upvote(id: string) {
-    const next = { ...votes, [id]: (votes[id] || 0) + 1 };
-    setVotes(next);
-    localStorage.setItem("geaux-upvotes", JSON.stringify(next));
-  }
-
-  // Upvote rec
-  async function upvoteRec(id: string) {
-    if (recVotes.has(id)) return;
-    const next = new Set([...recVotes, id]);
-    setRecVotes(next);
-    localStorage.setItem("geaux-rec-upvotes", JSON.stringify([...next]));
-    setRecs((prev) => prev.map((r) => r.id === id ? { ...r, upvotes: r.upvotes + 1 } : r));
-    await fetch("/api/recs", {
-      method: "PATCH",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ id }),
-    }).catch(() => null);
-  }
 
   const leaderboard = useMemo(() => {
     const byAuthor = new Map<string, CommunitySubmission[]>();
@@ -216,15 +191,7 @@ export default function CommunityPage() {
                           {rec.category}
                         </span>
                       </div>
-                      <button
-                        onClick={() => upvoteRec(rec.id)}
-                        disabled={recVotes.has(rec.id)}
-                        aria-label={`Upvote ${rec.placeName}`}
-                        className="flex shrink-0 flex-col items-center rounded-xl border border-[var(--spanish-moss)]/30 px-3 py-2 text-xs hover:border-[var(--cajun-red)] disabled:opacity-50"
-                      >
-                        <span>▲</span>
-                        <span className="font-semibold">{rec.upvotes}</span>
-                      </button>
+
                     </div>
                     <p className="mt-3 text-sm text-[var(--cast-iron)]">{rec.recommendation}</p>
                     <p className="mt-2 text-xs text-[var(--warm-gray)]">
@@ -269,7 +236,7 @@ export default function CommunityPage() {
           <section className="mt-8 grid gap-4">
             {items.map((item) => {
               const userItems = leaderboard.get(item.authorName) || [];
-              const topVotes = Math.max(...userItems.map((i) => votes[i.id] || 0), 0);
+              const topVotes = 0;
               return (
                 <article key={item.id} className="rounded-xl border border-[var(--spanish-moss)]/25 bg-white p-4">
                   <div className="flex items-center justify-between gap-3">
@@ -290,7 +257,7 @@ export default function CommunityPage() {
                       />
                     </div>
                   ) : null}
-                  <button onClick={() => upvote(item.id)} className="mt-3 rounded-lg border px-3 py-1 text-sm">⬆️ Upvote ({votes[item.id] || 0})</button>
+
                 </article>
               );
             })}
