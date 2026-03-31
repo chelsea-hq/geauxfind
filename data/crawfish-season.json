@@ -18,7 +18,7 @@
       "Crawfish Acadiana",
       "Crawfish Time"
     ],
-    "lastUpdated": "2026-03-30T11:53:21.676Z"
+    "lastUpdated": "2026-03-31T11:44:21.346Z"
   },
   "seasonOutlook": [
     "2026 season is \"looking good\" per LSU AgCenter (Todd Fontenot, crawfish extension agent)",
@@ -119,7 +119,7 @@
       "address": "2019 Verot School Rd.",
       "city": "Lafayette",
       "hours": "Mon-Thu 5-9pm • Fri-Sat 4:30-10pm • Sun 4-9pm",
-      "priceSummary": "Boiled $6.89/lb • Live $2.50/lb • Boiled size: Large • Live size: Medium • Rating: 4/5",
+      "priceSummary": "Boiled $6.89/lb • Live $2.50/lb • Boiled size: Large • Live size: Medium • Rating: 3/5",
       "pricePerLbEstimate": 6.89,
       "description": "Cajun camp atmosphere with strong evening crowd and drive-thru 10lb option.",
       "tags": [
@@ -128,7 +128,7 @@
       ],
       "website": "https://lacrawfishtime.com",
       "phone": "337-988-2645",
-      "rating": 4
+      "rating": 3
     },
     {
       "name": "The Bulldog",
@@ -709,6 +709,21 @@
       "rating": 0
     },
     {
+      "name": "Cody’s Crawfish Shop",
+      "address": "505 Apollo Rd.",
+      "city": "Scott",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $6.20/lb • Live $3.49/lb • Boiled size: Large • Live size: Large • Rating: 3/5",
+      "pricePerLbEstimate": 6.2,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-456-3003",
+      "rating": 3
+    },
+    {
       "name": "Crawfish House",
       "address": "2004 West Landry St.",
       "city": "Opelousas",
@@ -722,21 +737,6 @@
       "website": null,
       "phone": "337-942-1175",
       "rating": 2
-    },
-    {
-      "name": "Cody’s Crawfish Shop",
-      "address": "505 Apollo Rd.",
-      "city": "Scott",
-      "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $6.60/lb • Live $3.69/lb • Boiled size: Large • Live size: Large • Rating: 3/5",
-      "pricePerLbEstimate": 6.6,
-      "description": "Listed via The Crawfish App.",
-      "tags": [
-        "Price Tracker"
-      ],
-      "website": null,
-      "phone": "337-456-3003",
-      "rating": 3
     },
     {
       "name": "The Crawfish Pot",
@@ -848,7 +848,7 @@
       "address": "320 Ridge Rd.",
       "city": "Lafayette",
       "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $7.33/lb • Live $2.35/lb • Boiled size: Medium • Live size: Medium • Rating: 4/5",
+      "priceSummary": "Boiled $7.33/lb • Live $2.35/lb • Boiled size: Medium • Live size: Medium • Rating: 3/5",
       "pricePerLbEstimate": 7.33,
       "description": "Listed via The Crawfish App.",
       "tags": [
@@ -856,7 +856,7 @@
       ],
       "website": null,
       "phone": "337-216-9955",
-      "rating": 4
+      "rating": 3
     },
     {
       "name": "Seafood Connection",

@@ -1,7 +1,7 @@
 {
   "source": "The Crawfish App",
   "sourceLink": "https://www.thecrawfishapp.com/VendorSearchUi",
-  "lastUpdated": "2026-03-30T11:53:21.676Z",
+  "lastUpdated": "2026-03-31T11:44:21.346Z",
   "cities": [
     {
       "city": "Lafayette",
@@ -519,7 +519,7 @@
       "livePriceText": "$2.35/1LB",
       "boiledSize": "Medium",
       "liveSize": "Medium",
-      "rating": 4,
+      "rating": 3,
       "phone": "337-216-9955",
       "hours": null,
       "updatedAt": "03/19/2026 04:05 PM CST"
@@ -594,7 +594,7 @@
       "livePriceText": "$2.50/1LB",
       "boiledSize": "Large",
       "liveSize": "Medium",
-      "rating": 4,
+      "rating": 3,
       "phone": "337-988-2645",
       "hours": null,
       "updatedAt": "03/20/2026 01:28 PM CST"
@@ -918,16 +918,16 @@
       "name": "Cody’s Crawfish Shop",
       "address": "505 Apollo Rd.",
       "city": "Scott",
-      "boiledPricePerLb": 6.6,
-      "boiledPriceText": "$6.60/1LB",
-      "livePricePerLb": 3.69,
-      "livePriceText": "$3.69/1LB",
+      "boiledPricePerLb": 6.2,
+      "boiledPriceText": "$6.20/1LB",
+      "livePricePerLb": 3.49,
+      "livePriceText": "$3.49/1LB",
       "boiledSize": "Large",
       "liveSize": "Large",
       "rating": 3,
       "phone": "337-456-3003",
       "hours": null,
-      "updatedAt": "03/19/2026 06:56 PM CST"
+      "updatedAt": "03/30/2026 05:25 PM CST"
     },
     {
       "name": "Granddaddy's Crawfish",
