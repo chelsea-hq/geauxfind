@@ -1,8 +1,19 @@
 {
-  "timestamp": "2026-03-25T14:25:03.410Z",
+  "timestamp": "2026-03-30T05:06:03.794Z",
   "base": "https://geauxfind.com",
   "totalChecks": 98,
-  "passed": 98,
-  "failed": 0,
-  "issues": []
+  "passed": 96,
+  "failed": 2,
+  "issues": [
+    {
+      "page": "/",
+      "category": "BROKEN_IMAGES",
+      "detail": "1 broken non-API image URLs"
+    },
+    {
+      "page": "/",
+      "category": "NAV",
+      "detail": "/trending is not reachable from homepage nav/quick links/footer"
+    }
+  ]
 }

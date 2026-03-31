@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-03-25T10:00:39.019Z",
+  "generatedAt": "2026-03-31T10:00:41.073Z",
   "totals": {
-    "raw": 72,
-    "final": 31
+    "raw": 73,
+    "final": 36
   },
   "sources": [
     {
@@ -26,7 +26,7 @@
     {
       "source": "eventbrite",
       "ok": true,
-      "count": 72,
+      "count": 73,
       "error": null
     },
     {
