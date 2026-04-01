@@ -1,14 +1,29 @@
 {
-  "timestamp": "2026-03-30T05:06:03.794Z",
+  "timestamp": "2026-04-01T10:03:02.369Z",
   "base": "https://geauxfind.com",
   "totalChecks": 98,
-  "passed": 96,
-  "failed": 2,
+  "passed": 93,
+  "failed": 5,
   "issues": [
+    {
+      "page": "seed-data.json",
+      "category": "DUPLICATES",
+      "detail": "120 duplicate entries detected"
+    },
+    {
+      "page": "seed-data.json",
+      "category": "DESCRIPTIONS",
+      "detail": "3141 places with short/empty descriptions (<40 chars)"
+    },
     {
       "page": "/",
       "category": "BROKEN_IMAGES",
       "detail": "1 broken non-API image URLs"
+    },
+    {
+      "page": "/whos-got-it",
+      "category": "DEAD_LINKS",
+      "detail": "4 internal links not reachable"
     },
     {
       "page": "/",
