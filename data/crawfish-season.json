@@ -6,7 +6,7 @@
     "quickStats": "18 Spots • $5-10/lb • March-May Peak"
   },
   "priceTracker": {
-    "currentRange": "$4.45 - $10.00/lb boiled",
+    "currentRange": "$4.45 - $9.00/lb boiled",
     "trend": "Prices are dropping! Down from $10+ in January",
     "bestDealTip": "Best deals: Buy direct from farm drive-thrus",
     "proTip": "Most places don't start boiling until 4-5pm — call ahead for lunch",
@@ -18,7 +18,7 @@
       "Crawfish Acadiana",
       "Crawfish Time"
     ],
-    "lastUpdated": "2026-03-31T11:44:21.346Z"
+    "lastUpdated": "2026-04-01T11:49:36.322Z"
   },
   "seasonOutlook": [
     "2026 season is \"looking good\" per LSU AgCenter (Todd Fontenot, crawfish extension agent)",
@@ -364,21 +364,6 @@
       "rating": 5
     },
     {
-      "name": "Pogie’s Boil House",
-      "address": "226 St Nazaire Rd.",
-      "city": "Broussard",
-      "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $4.99/lb • Boiled size: Medium • Rating: 0/5",
-      "pricePerLbEstimate": 4.99,
-      "description": "Listed via The Crawfish App.",
-      "tags": [
-        "Price Tracker"
-      ],
-      "website": null,
-      "phone": "337-236-0662",
-      "rating": 0
-    },
-    {
       "name": "Rouses Market #23",
       "address": "2900 E. Milton Ave.",
       "city": "Youngsville",
@@ -514,6 +499,21 @@
       "rating": 0
     },
     {
+      "name": "Pogie’s Boil House",
+      "address": "226 St Nazaire Rd.",
+      "city": "Broussard",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $5.49/lb • Live $3.75/lb • Boiled size: Medium • Live size: Medium • Rating: 0/5",
+      "pricePerLbEstimate": 5.49,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-236-0662",
+      "rating": 0
+    },
+    {
       "name": "Coastal Fire And Ice",
       "address": "6412 Ambassador Caffery Pkwy.",
       "city": "Youngsville",
@@ -589,6 +589,21 @@
       "rating": 5
     },
     {
+      "name": "Clements Heberts Boiling Pot",
+      "address": "7630 West LA Hwy. 338",
+      "city": "Abbeville",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $5.75/lb • Live $5.75/lb • Boiled size: Medium • Live size: Medium • Rating: 5/5",
+      "pricePerLbEstimate": 5.75,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-652-8520",
+      "rating": 5
+    },
+    {
       "name": "Crawfish Point",
       "address": "616 W. Canal St.",
       "city": "Church Point",
@@ -608,7 +623,7 @@
       "address": "603 W Admiral Doyle Dr.",
       "city": "New Iberia",
       "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $5.79/lb • Live $4.00/lb • Boiled size: Large • Live size: Large • Rating: 5/5",
+      "priceSummary": "Boiled $5.79/lb • Live $3.89/lb • Boiled size: Large • Live size: Large • Rating: 5/5",
       "pricePerLbEstimate": 5.79,
       "description": "Listed via The Crawfish App.",
       "tags": [
@@ -991,21 +1006,6 @@
       ],
       "website": null,
       "phone": "337-228-7512",
-      "rating": 5
-    },
-    {
-      "name": "Clements Heberts Boiling Pot",
-      "address": "7630 West LA Hwy. 338",
-      "city": "Abbeville",
-      "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $10.00/lb • Boiled size: Large • Live size: Large • Rating: 5/5",
-      "pricePerLbEstimate": 10,
-      "description": "Listed via The Crawfish App.",
-      "tags": [
-        "Price Tracker"
-      ],
-      "website": null,
-      "phone": "337-652-8520",
       "rating": 5
     },
     {
