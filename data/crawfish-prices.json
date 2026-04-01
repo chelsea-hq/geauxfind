@@ -1,7 +1,7 @@
 {
   "source": "The Crawfish App",
   "sourceLink": "https://www.thecrawfishapp.com/VendorSearchUi",
-  "lastUpdated": "2026-03-30T11:53:21.676Z",
+  "lastUpdated": "2026-04-01T11:49:36.322Z",
   "cities": [
     {
       "city": "Lafayette",
@@ -63,16 +63,16 @@
       "name": "Clements Heberts Boiling Pot",
       "address": "7630 West LA Hwy. 338",
       "city": "Abbeville",
-      "boiledPricePerLb": 10,
-      "boiledPriceText": "$10.00/1LB",
-      "livePricePerLb": null,
-      "livePriceText": "Unavailable/1LB",
-      "boiledSize": "Large",
-      "liveSize": "Large",
+      "boiledPricePerLb": 5.75,
+      "boiledPriceText": "$5.75/1LB",
+      "livePricePerLb": 5.75,
+      "livePriceText": "$5.75/1LB",
+      "boiledSize": "Medium",
+      "liveSize": "Medium",
       "rating": 5,
       "phone": "337-652-8520",
       "hours": null,
-      "updatedAt": "03/25/2026 05:52 PM CST"
+      "updatedAt": "03/31/2026 05:55 PM CST"
     },
     {
       "name": "D&T Crawfish",
@@ -288,16 +288,16 @@
       "name": "Pogie’s Boil House",
       "address": "226 St Nazaire Rd.",
       "city": "Broussard",
-      "boiledPricePerLb": 4.99,
-      "boiledPriceText": "$4.99/1LB",
-      "livePricePerLb": null,
-      "livePriceText": "Not Sold/1LB",
+      "boiledPricePerLb": 5.49,
+      "boiledPriceText": "$5.49/1LB",
+      "livePricePerLb": 3.75,
+      "livePriceText": "$3.75/1LB",
       "boiledSize": "Medium",
-      "liveSize": null,
+      "liveSize": "Medium",
       "rating": 0,
       "phone": "337-236-0662",
       "hours": null,
-      "updatedAt": "03/23/2026 09:50 AM CST"
+      "updatedAt": "03/31/2026 09:03 PM CST"
     },
     {
       "name": "Young's Sports Grill",
@@ -519,7 +519,7 @@
       "livePriceText": "$2.35/1LB",
       "boiledSize": "Medium",
       "liveSize": "Medium",
-      "rating": 4,
+      "rating": 3,
       "phone": "337-216-9955",
       "hours": null,
       "updatedAt": "03/19/2026 04:05 PM CST"
@@ -594,7 +594,7 @@
       "livePriceText": "$2.50/1LB",
       "boiledSize": "Large",
       "liveSize": "Medium",
-      "rating": 4,
+      "rating": 3,
       "phone": "337-988-2645",
       "hours": null,
       "updatedAt": "03/20/2026 01:28 PM CST"
@@ -695,14 +695,14 @@
       "city": "New Iberia",
       "boiledPricePerLb": 5.79,
       "boiledPriceText": "$5.79/1LB",
-      "livePricePerLb": 4,
-      "livePriceText": "$4.00/1LB",
+      "livePricePerLb": 3.89,
+      "livePriceText": "$3.89/1LB",
       "boiledSize": "Large",
       "liveSize": "Large",
       "rating": 5,
       "phone": "337-365-6657",
       "hours": null,
-      "updatedAt": "03/25/2026 12:32 PM CST"
+      "updatedAt": "03/31/2026 08:58 PM CST"
     },
     {
       "name": "Jane's Seafood",
@@ -918,16 +918,16 @@
       "name": "Cody’s Crawfish Shop",
       "address": "505 Apollo Rd.",
       "city": "Scott",
-      "boiledPricePerLb": 6.6,
-      "boiledPriceText": "$6.60/1LB",
-      "livePricePerLb": 3.69,
-      "livePriceText": "$3.69/1LB",
+      "boiledPricePerLb": 6.2,
+      "boiledPriceText": "$6.20/1LB",
+      "livePricePerLb": 3.49,
+      "livePriceText": "$3.49/1LB",
       "boiledSize": "Large",
       "liveSize": "Large",
       "rating": 3,
       "phone": "337-456-3003",
       "hours": null,
-      "updatedAt": "03/19/2026 06:56 PM CST"
+      "updatedAt": "03/30/2026 05:25 PM CST"
     },
     {
       "name": "Granddaddy's Crawfish",
