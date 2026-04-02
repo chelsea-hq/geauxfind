@@ -18,7 +18,7 @@
       "Crawfish Acadiana",
       "Crawfish Time"
     ],
-    "lastUpdated": "2026-04-01T11:49:36.322Z"
+    "lastUpdated": "2026-04-02T11:42:26.816Z"
   },
   "seasonOutlook": [
     "2026 season is \"looking good\" per LSU AgCenter (Todd Fontenot, crawfish extension agent)",
@@ -334,21 +334,6 @@
       "rating": 0
     },
     {
-      "name": "Crawfish Corner",
-      "address": "529 South Union St.",
-      "city": "Opelousas",
-      "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $4.50/lb • Live $3.00/lb • Boiled size: Medium • Rating: 5/5",
-      "pricePerLbEstimate": 4.5,
-      "description": "Listed via The Crawfish App.",
-      "tags": [
-        "Price Tracker"
-      ],
-      "website": null,
-      "phone": "337-407-2529",
-      "rating": 5
-    },
-    {
       "name": "Bonanza Boilers",
       "address": "4916 I49 Frontage Rd.",
       "city": "Opelousas",
@@ -559,6 +544,21 @@
       "rating": 3
     },
     {
+      "name": "Crawfish Corner",
+      "address": "529 South Union St.",
+      "city": "Opelousas",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $5.58/lb • Live $3.00/lb • Boiled size: Medium • Rating: 5/5",
+      "pricePerLbEstimate": 5.58,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-407-2529",
+      "rating": 5
+    },
+    {
       "name": "D&T Crawfish",
       "address": "3140 Veterans Memorial Dr.",
       "city": "Abbeville",
@@ -758,7 +758,7 @@
       "address": "817 Foreman Drive",
       "city": "Lafayette",
       "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $6.67/lb • Live $3.99/lb • Boiled size: Medium • Live size: Medium • Rating: 5/5",
+      "priceSummary": "Boiled $6.67/lb • Live $3.48/lb • Boiled size: Medium • Live size: Medium • Rating: 5/5",
       "pricePerLbEstimate": 6.67,
       "description": "Listed via The Crawfish App.",
       "tags": [
@@ -863,7 +863,7 @@
       "address": "320 Ridge Rd.",
       "city": "Lafayette",
       "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $7.33/lb • Live $2.35/lb • Boiled size: Medium • Live size: Medium • Rating: 3/5",
+      "priceSummary": "Boiled $7.33/lb • Live $2.94/lb • Boiled size: Medium • Live size: Medium • Rating: 3/5",
       "pricePerLbEstimate": 7.33,
       "description": "Listed via The Crawfish App.",
       "tags": [
