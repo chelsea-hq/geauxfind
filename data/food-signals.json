@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-03-30T14:25:28.007Z",
-  "count": 36,
+  "generatedAt": "2026-04-06T14:09:53.902Z",
+  "count": 24,
   "records": [
     {
       "title": "Skip navigation",
@@ -98,6 +98,11 @@
       "source": "www.lafayettetravel.com"
     },
     {
+      "title": "It's Crawfish Season, Y'all!",
+      "url": "https://www.lafayettetravel.com/blog/stories/post/its-crawfish-season-yall/",
+      "source": "www.lafayettetravel.com"
+    },
+    {
       "title": "{{~fill(helpers.partial('custom_responsive_image'), { asset: data.asset, config: helpers.var.config })}}",
       "url": "https://www.lafayettetravel.com/restaurants/%7B%7BassetLink()%7D%7D",
       "source": "www.lafayettetravel.com"
@@ -116,71 +121,6 @@
       "title": "{{title}}",
       "url": "https://www.lafayettetravel.com/restaurants/%7B%7Burl%7D%7D",
       "source": "www.lafayettetravel.com"
-    },
-    {
-      "title": "Skip to Content",
-      "url": "https://thecrawfishapp.com/",
-      "source": "thecrawfishapp.com"
-    },
-    {
-      "title": "Our Story",
-      "url": "https://thecrawfishapp.com/ourstory",
-      "source": "thecrawfishapp.com"
-    },
-    {
-      "title": "Users",
-      "url": "https://thecrawfishapp.com/users",
-      "source": "thecrawfishapp.com"
-    },
-    {
-      "title": "Vendors",
-      "url": "https://thecrawfishapp.com/vendors",
-      "source": "thecrawfishapp.com"
-    },
-    {
-      "title": "How to Boil",
-      "url": "https://thecrawfishapp.com/how-to-boil",
-      "source": "thecrawfishapp.com"
-    },
-    {
-      "title": "Contact Us",
-      "url": "https://thecrawfishapp.com/contact-us",
-      "source": "thecrawfishapp.com"
-    },
-    {
-      "title": "Forgot Password?",
-      "url": "https://www.thecrawfishapp.com/CrawfishAccountUi/ForgotPassword",
-      "source": "thecrawfishapp.com"
-    },
-    {
-      "title": "SHOP CRAWFISH APP",
-      "url": "https://thecrawfishapp.com/shop-crawfish",
-      "source": "thecrawfishapp.com"
-    },
-    {
-      "title": "Download The Crawfish App",
-      "url": "https://qrco.de/bcms2m",
-      "source": "thecrawfishapp.com"
-    },
-    {
-      "title": "here",
-      "url": "mailto:contact@thecrawfishapp.com",
-      "source": "thecrawfishapp.com"
-    },
-    {
-      "title": "Get A Listing on The Crawfish App",
-      "url": "https://thecrawfishapp.com/get-a-listing",
-      "source": "thecrawfishapp.com"
-    },
-    {
-      "title": "(225) 803-0986",
-      "url": "https://thecrawfishapp.com/225-803-0986",
-      "source": "thecrawfishapp.com"
-    },
-    {
-      "title": "Here.",
-      "url": "https://www.thecrawfishapp.com/VendorSearchUi",
-      "source": "thecrawfishapp.com"
     }
   ]
 }
