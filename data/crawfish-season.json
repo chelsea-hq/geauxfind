@@ -18,7 +18,7 @@
       "Crawfish Acadiana",
       "Crawfish Time"
     ],
-    "lastUpdated": "2026-04-06T11:44:40.060Z"
+    "lastUpdated": "2026-04-07T11:50:38.371Z"
   },
   "seasonOutlook": [
     "2026 season is \"looking good\" per LSU AgCenter (Todd Fontenot, crawfish extension agent)",
@@ -829,6 +829,21 @@
       "rating": 0
     },
     {
+      "name": "Young's Sports Grill",
+      "address": "305 E Main Street",
+      "city": "Broussard",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $6.99/lb • Boiled size: Medium • Live size: Large • Rating: 5/5",
+      "pricePerLbEstimate": 6.99,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-330-2900",
+      "rating": 5
+    },
+    {
       "name": "Morvants Bar & Grill",
       "address": "200 Lafayette St.",
       "city": "Youngsville",
@@ -901,21 +916,6 @@
       ],
       "website": null,
       "phone": "337-265-3770",
-      "rating": 5
-    },
-    {
-      "name": "Young's Sports Grill",
-      "address": "305 E Main Street",
-      "city": "Broussard",
-      "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $7.66/lb • Boiled size: Medium • Live size: Large • Rating: 5/5",
-      "pricePerLbEstimate": 7.66,
-      "description": "Listed via The Crawfish App.",
-      "tags": [
-        "Price Tracker"
-      ],
-      "website": null,
-      "phone": "337-330-2900",
       "rating": 5
     },
     {
