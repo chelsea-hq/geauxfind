@@ -18,7 +18,7 @@
       "Crawfish Acadiana",
       "Crawfish Time"
     ],
-    "lastUpdated": "2026-04-10T11:43:37.271Z"
+    "lastUpdated": "2026-04-11T11:26:44.192Z"
   },
   "seasonOutlook": [
     "2026 season is \"looking good\" per LSU AgCenter (Todd Fontenot, crawfish extension agent)",
@@ -964,6 +964,21 @@
       "rating": 0
     },
     {
+      "name": "Richard's Seafood Patio",
+      "address": "1516 S Henry St.",
+      "city": "Abbeville",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $7.99/lb • Boiled size: Large • Rating: 5/5",
+      "pricePerLbEstimate": 7.99,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-893-1693",
+      "rating": 5
+    },
+    {
       "name": "Crazy Bout Crawfish",
       "address": "1905 Rees St.",
       "city": "Breaux Bridge",
@@ -976,21 +991,6 @@
       ],
       "website": null,
       "phone": "337-332-3071",
-      "rating": 5
-    },
-    {
-      "name": "Richard's Seafood Patio",
-      "address": "1516 S Henry St.",
-      "city": "Abbeville",
-      "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $8.98/lb • Boiled size: Large • Rating: 5/5",
-      "pricePerLbEstimate": 8.98,
-      "description": "Listed via The Crawfish App.",
-      "tags": [
-        "Price Tracker"
-      ],
-      "website": null,
-      "phone": "337-893-1693",
       "rating": 5
     },
     {
@@ -1142,6 +1142,21 @@
       "website": null,
       "phone": "337-873-3619",
       "rating": 5
+    },
+    {
+      "name": "Super 1 Foods",
+      "address": "2240 Ambassador Caffery Pkwy",
+      "city": "Lafayette",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Rating: 0/5",
+      "pricePerLbEstimate": null,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-735-7799",
+      "rating": 0
     },
     {
       "name": "Super 1 Foods",

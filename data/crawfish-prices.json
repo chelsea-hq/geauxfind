@@ -1,11 +1,11 @@
 {
   "source": "The Crawfish App",
   "sourceLink": "https://www.thecrawfishapp.com/VendorSearchUi",
-  "lastUpdated": "2026-04-10T11:43:37.271Z",
+  "lastUpdated": "2026-04-11T11:26:44.192Z",
   "cities": [
     {
       "city": "Lafayette",
-      "count": 15
+      "count": 16
     },
     {
       "city": "Broussard",
@@ -56,7 +56,7 @@
       "count": 5
     }
   ],
-  "totalVendors": 64,
+  "totalVendors": 65,
   "errors": [],
   "vendors": [
     {
@@ -132,14 +132,14 @@
       "rating": 5,
       "phone": "337-893-6761",
       "hours": null,
-      "updatedAt": "04/02/2026 02:03 PM CST"
+      "updatedAt": "04/10/2026 07:26 AM CST"
     },
     {
       "name": "Richard's Seafood Patio",
       "address": "1516 S Henry St.",
       "city": "Abbeville",
-      "boiledPricePerLb": 8.98,
-      "boiledPriceText": "$8.98/1LB",
+      "boiledPricePerLb": 7.99,
+      "boiledPriceText": "$7.99/1LB",
       "livePricePerLb": null,
       "livePriceText": "Not sold/1LB",
       "boiledSize": "Large",
@@ -147,7 +147,7 @@
       "rating": 5,
       "phone": "337-893-1693",
       "hours": null,
-      "updatedAt": "04/01/2026 04:35 PM CST"
+      "updatedAt": "04/10/2026 07:26 AM CST"
     },
     {
       "name": "Sack Daddy's Crawfish",
@@ -177,7 +177,7 @@
       "rating": 5,
       "phone": "337-740-0806",
       "hours": null,
-      "updatedAt": "04/02/2026 02:38 PM CST"
+      "updatedAt": "04/10/2026 08:48 AM CST"
     },
     {
       "name": "Cajun Claws",
@@ -207,7 +207,7 @@
       "rating": 5,
       "phone": "337-332-3071",
       "hours": null,
-      "updatedAt": "04/02/2026 02:44 PM CST"
+      "updatedAt": "04/10/2026 08:27 AM CST"
     },
     {
       "name": "Randol's",
@@ -432,7 +432,7 @@
       "rating": 5,
       "phone": "337-458-1257",
       "hours": null,
-      "updatedAt": "04/02/2026 02:12 PM CST"
+      "updatedAt": "04/10/2026 08:03 AM CST"
     },
     {
       "name": "The Crawfish Nest & Market",
@@ -537,7 +537,7 @@
       "rating": 4,
       "phone": "337-236-6129",
       "hours": null,
-      "updatedAt": "04/02/2026 02:12 PM CST"
+      "updatedAt": "04/10/2026 08:04 AM CST"
     },
     {
       "name": "Don's Seafood",
@@ -645,6 +645,21 @@
       "updatedAt": "04/09/2026 06:21 AM CST"
     },
     {
+      "name": "Super 1 Foods",
+      "address": "2240 Ambassador Caffery Pkwy",
+      "city": "Lafayette",
+      "boiledPricePerLb": null,
+      "boiledPriceText": "Unavailable/1LB",
+      "livePricePerLb": null,
+      "livePriceText": "Unavailable/1LB",
+      "boiledSize": null,
+      "liveSize": null,
+      "rating": 0,
+      "phone": "337-735-7799",
+      "hours": null,
+      "updatedAt": "04/10/2026 01:03 PM CST"
+    },
+    {
       "name": "T-Bob's",
       "address": "302 S St. Antoine St.",
       "city": "Lafayette",
@@ -657,7 +672,7 @@
       "rating": 0,
       "phone": "337-233-9302",
       "hours": null,
-      "updatedAt": "04/02/2026 02:13 PM CST"
+      "updatedAt": "04/10/2026 08:06 AM CST"
     },
     {
       "name": "The Boozy & Boiling Barn",
@@ -702,7 +717,7 @@
       "rating": 5,
       "phone": "337-365-6657",
       "hours": null,
-      "updatedAt": "04/08/2026 08:59 PM CST"
+      "updatedAt": "04/10/2026 08:09 AM CST"
     },
     {
       "name": "Jane's Seafood",
@@ -807,7 +822,7 @@
       "rating": 2,
       "phone": "337-942-1175",
       "hours": null,
-      "updatedAt": "04/02/2026 02:23 PM CST"
+      "updatedAt": "04/10/2026 08:27 AM CST"
     },
     {
       "name": "Crawfish House and Grill",
@@ -942,7 +957,7 @@
       "rating": 3,
       "phone": "337-456-3003",
       "hours": null,
-      "updatedAt": "04/09/2026 09:30 AM CST"
+      "updatedAt": "04/10/2026 08:31 AM CST"
     },
     {
       "name": "Granddaddy's Crawfish",
