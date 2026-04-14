@@ -1,7 +1,7 @@
 {
   "source": "The Crawfish App",
   "sourceLink": "https://www.thecrawfishapp.com/VendorSearchUi",
-  "lastUpdated": "2026-04-13T12:00:37.736Z",
+  "lastUpdated": "2026-04-14T11:55:25.394Z",
   "cities": [
     {
       "city": "Lafayette",
@@ -653,11 +653,11 @@
       "livePricePerLb": null,
       "livePriceText": "Unavailable/1LB",
       "boiledSize": null,
-      "liveSize": null,
+      "liveSize": "Medium",
       "rating": 0,
       "phone": "337-735-7799",
       "hours": null,
-      "updatedAt": "04/10/2026 01:03 PM CST"
+      "updatedAt": "04/13/2026 10:53 AM CST"
     },
     {
       "name": "T-Bob's",
@@ -875,14 +875,14 @@
       "city": "Opelousas",
       "boiledPricePerLb": null,
       "boiledPriceText": "Unavailable/1LB",
-      "livePricePerLb": null,
-      "livePriceText": "Unavailable/1LB",
+      "livePricePerLb": 1.99,
+      "livePriceText": "$1.99/1LB",
       "boiledSize": null,
-      "liveSize": null,
+      "liveSize": "Medium",
       "rating": 0,
       "phone": "337-948-7802",
       "hours": null,
-      "updatedAt": "04/09/2026 01:00 PM CST"
+      "updatedAt": "04/13/2026 05:09 PM CST"
     },
     {
       "name": "Boulet's Boil-N-Go Rayne",
