@@ -18,7 +18,7 @@
       "Crawfish Acadiana",
       "Crawfish Time"
     ],
-    "lastUpdated": "2026-04-15T11:54:09.597Z"
+    "lastUpdated": "2026-04-16T11:56:08.762Z"
   },
   "seasonOutlook": [
     "2026 season is \"looking good\" per LSU AgCenter (Todd Fontenot, crawfish extension agent)",
@@ -499,6 +499,21 @@
       "rating": 5
     },
     {
+      "name": "Fremin's Magic Dust Crawfish Express",
+      "address": "603 W Admiral Doyle Dr.",
+      "city": "New Iberia",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $5.00/lb • Live $3.27/lb • Boiled size: Large • Live size: Large • Rating: 5/5",
+      "pricePerLbEstimate": 5,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-365-6657",
+      "rating": 5
+    },
+    {
       "name": "Sack Daddy's Crawfish",
       "address": "210 North Saint Valerie St.",
       "city": "Abbeville",
@@ -574,6 +589,21 @@
       "rating": 5
     },
     {
+      "name": "Broussard’s Boiling Pot",
+      "address": "158 Heritage Pkwy.",
+      "city": "Broussard",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $5.49/lb • Live $3.49/lb • Boiled size: Large • Live size: Large • Rating: 5/5",
+      "pricePerLbEstimate": 5.49,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-573-4179",
+      "rating": 5
+    },
+    {
       "name": "Mikey’s Seafood & Specialty Meats Crowley",
       "address": "165 Oddfellows Rd.",
       "city": "Crowley",
@@ -587,21 +617,6 @@
       "website": null,
       "phone": "337-717-1963",
       "rating": 0
-    },
-    {
-      "name": "Fremin's Magic Dust Crawfish Express",
-      "address": "603 W Admiral Doyle Dr.",
-      "city": "New Iberia",
-      "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $5.50/lb • Live $3.60/lb • Boiled size: Large • Live size: Large • Rating: 5/5",
-      "pricePerLbEstimate": 5.5,
-      "description": "Listed via The Crawfish App.",
-      "tags": [
-        "Price Tracker"
-      ],
-      "website": null,
-      "phone": "337-365-6657",
-      "rating": 5
     },
     {
       "name": "Meche's crawfish",
@@ -1024,21 +1039,6 @@
       "rating": 0
     },
     {
-      "name": "Broussard’s Boiling Pot",
-      "address": "158 Heritage Pkwy.",
-      "city": "Broussard",
-      "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled size: Medium • Live size: Medium • Rating: 5/5",
-      "pricePerLbEstimate": null,
-      "description": "Listed via The Crawfish App.",
-      "tags": [
-        "Price Tracker"
-      ],
-      "website": null,
-      "phone": "337-573-4179",
-      "rating": 5
-    },
-    {
       "name": "C&J Farms",
       "address": "251 Sarver Cove Rd.",
       "city": "Crowley",
@@ -1133,7 +1133,7 @@
       "address": "1005 Golden Grain Rd.",
       "city": "Rayne",
       "hours": "Call for seasonal hours",
-      "priceSummary": "Live $3.00/lb • Live size: Medium • Rating: 5/5",
+      "priceSummary": "Live $2.75/lb • Live size: Medium • Rating: 5/5",
       "pricePerLbEstimate": null,
       "description": "Listed via The Crawfish App.",
       "tags": [

@@ -1,7 +1,7 @@
 {
   "source": "The Crawfish App",
   "sourceLink": "https://www.thecrawfishapp.com/VendorSearchUi",
-  "lastUpdated": "2026-04-15T11:54:09.597Z",
+  "lastUpdated": "2026-04-16T11:56:08.762Z",
   "cities": [
     {
       "city": "Lafayette",
@@ -222,7 +222,7 @@
       "rating": 5,
       "phone": "337-332-4648",
       "hours": null,
-      "updatedAt": "04/07/2026 03:54 PM CST"
+      "updatedAt": "04/15/2026 06:41 PM CST"
     },
     {
       "name": "Boil & Geaux LLC",
@@ -243,16 +243,16 @@
       "name": "Broussard’s Boiling Pot",
       "address": "158 Heritage Pkwy.",
       "city": "Broussard",
-      "boiledPricePerLb": null,
-      "boiledPriceText": "Unavailable /1LB",
-      "livePricePerLb": null,
-      "livePriceText": "Unavailable/1LB",
-      "boiledSize": "Medium",
-      "liveSize": "Medium",
+      "boiledPricePerLb": 5.49,
+      "boiledPriceText": "$5.49/1LB",
+      "livePricePerLb": 3.49,
+      "livePriceText": "$3.49/1LB",
+      "boiledSize": "Large",
+      "liveSize": "Large",
       "rating": 5,
       "phone": "337-573-4179",
       "hours": null,
-      "updatedAt": "04/02/2026 03:08 PM CST"
+      "updatedAt": "04/15/2026 11:43 AM CST"
     },
     {
       "name": "Dat's Good Crawfish & More",
@@ -462,7 +462,7 @@
       "rating": 5,
       "phone": "337-228-7512",
       "hours": null,
-      "updatedAt": "04/02/2026 03:45 PM CST"
+      "updatedAt": "04/15/2026 06:07 PM CST"
     },
     {
       "name": "Cooney’s Crawfish",
@@ -708,16 +708,16 @@
       "name": "Fremin's Magic Dust Crawfish Express",
       "address": "603 W Admiral Doyle Dr.",
       "city": "New Iberia",
-      "boiledPricePerLb": 5.5,
-      "boiledPriceText": "$5.50/1LB",
-      "livePricePerLb": 3.6,
-      "livePriceText": "$3.60/1LB",
+      "boiledPricePerLb": 5,
+      "boiledPriceText": "$5.00/1LB",
+      "livePricePerLb": 3.27,
+      "livePriceText": "$3.27/1LB",
       "boiledSize": "Large",
       "liveSize": "Large",
       "rating": 5,
       "phone": "337-365-6657",
       "hours": null,
-      "updatedAt": "04/10/2026 08:09 AM CST"
+      "updatedAt": "04/15/2026 07:21 PM CST"
     },
     {
       "name": "Jane's Seafood",
@@ -920,14 +920,14 @@
       "city": "Rayne",
       "boiledPricePerLb": null,
       "boiledPriceText": "Unavailable/1LB",
-      "livePricePerLb": 3,
-      "livePriceText": "$3.00/1LB",
+      "livePricePerLb": 2.75,
+      "livePriceText": "$2.75/1LB",
       "boiledSize": null,
       "liveSize": "Medium",
       "rating": 5,
       "phone": "337-873-3619",
       "hours": null,
-      "updatedAt": "04/09/2026 05:07 PM CST"
+      "updatedAt": "04/15/2026 12:51 PM CST"
     },
     {
       "name": "Meche's crawfish",
