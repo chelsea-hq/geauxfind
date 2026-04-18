@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-04-17T11:47:33.998Z",
-  "count": 35,
+  "generatedAt": "2026-04-18T11:31:01.950Z",
+  "count": 37,
   "records": [
     {
       "title": "Skip navigation",
@@ -125,6 +125,16 @@
     {
       "title": "Music Genres",
       "link": "https://www.lafayettetravel.com/things-to-do/arts-culture/music/music-genres/",
+      "source": "lafayette_travel"
+    },
+    {
+      "title": "Walking Art Trail",
+      "link": "https://www.lafayettetravel.com/things-to-do/arts-culture/public-art/walking-art-trail/",
+      "source": "lafayette_travel"
+    },
+    {
+      "title": "Biking Art Trail",
+      "link": "https://www.lafayettetravel.com/things-to-do/arts-culture/public-art/biking-art-trail/",
       "source": "lafayette_travel"
     },
     {
