@@ -1,7 +1,7 @@
 {
   "source": "The Crawfish App",
   "sourceLink": "https://www.thecrawfishapp.com/VendorSearchUi",
-  "lastUpdated": "2026-04-20T12:00:43.539Z",
+  "lastUpdated": "2026-04-21T11:57:37.306Z",
   "cities": [
     {
       "city": "Lafayette",
@@ -17,7 +17,7 @@
     },
     {
       "city": "Scott",
-      "count": 2
+      "count": 3
     },
     {
       "city": "Breaux Bridge",
@@ -56,7 +56,7 @@
       "count": 5
     }
   ],
-  "totalVendors": 68,
+  "totalVendors": 69,
   "errors": [],
   "vendors": [
     {
@@ -1020,11 +1020,26 @@
       "updatedAt": "04/16/2026 07:54 PM CST"
     },
     {
+      "name": "Super 1 Foods",
+      "address": "200 Destination Pointe Lane",
+      "city": "Scott",
+      "boiledPricePerLb": null,
+      "boiledPriceText": "Unavailable/1LB",
+      "livePricePerLb": 1.99,
+      "livePriceText": "$1.99/1LB",
+      "boiledSize": null,
+      "liveSize": "Medium",
+      "rating": 0,
+      "phone": "337-210-2000",
+      "hours": null,
+      "updatedAt": "04/20/2026 02:11 PM CST"
+    },
+    {
       "name": "Coastal Fire And Ice",
       "address": "6412 Ambassador Caffery Pkwy.",
       "city": "Youngsville",
-      "boiledPricePerLb": 4.25,
-      "boiledPriceText": "$4.25/1LB",
+      "boiledPricePerLb": 3.99,
+      "boiledPriceText": "$3.99/1LB",
       "livePricePerLb": 2.5,
       "livePriceText": "$2.50/1LB",
       "boiledSize": "Medium",
@@ -1032,7 +1047,7 @@
       "rating": 4,
       "phone": "337-573-8669",
       "hours": null,
-      "updatedAt": "04/11/2026 11:57 AM CST"
+      "updatedAt": "04/20/2026 06:19 PM CST"
     },
     {
       "name": "Morvants Bar & Grill",

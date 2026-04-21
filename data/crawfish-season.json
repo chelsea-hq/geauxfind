@@ -18,7 +18,7 @@
       "Crawfish Acadiana",
       "Crawfish Time"
     ],
-    "lastUpdated": "2026-04-20T12:00:43.539Z"
+    "lastUpdated": "2026-04-21T11:57:37.306Z"
   },
   "seasonOutlook": [
     "2026 season is \"looking good\" per LSU AgCenter (Todd Fontenot, crawfish extension agent)",
@@ -334,6 +334,21 @@
       "rating": 0
     },
     {
+      "name": "Coastal Fire And Ice",
+      "address": "6412 Ambassador Caffery Pkwy.",
+      "city": "Youngsville",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $3.99/lb • Live $2.50/lb • Boiled size: Medium • Live size: Medium • Rating: 4/5",
+      "pricePerLbEstimate": 3.99,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-573-8669",
+      "rating": 4
+    },
+    {
       "name": "Rouses Market #23",
       "address": "2900 E. Milton Ave.",
       "city": "Youngsville",
@@ -406,21 +421,6 @@
       ],
       "website": null,
       "phone": "337-889-0015",
-      "rating": 4
-    },
-    {
-      "name": "Coastal Fire And Ice",
-      "address": "6412 Ambassador Caffery Pkwy.",
-      "city": "Youngsville",
-      "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $4.25/lb • Live $2.50/lb • Boiled size: Medium • Live size: Medium • Rating: 4/5",
-      "pricePerLbEstimate": 4.25,
-      "description": "Listed via The Crawfish App.",
-      "tags": [
-        "Price Tracker"
-      ],
-      "website": null,
-      "phone": "337-573-8669",
       "rating": 4
     },
     {
@@ -1216,6 +1216,21 @@
       ],
       "website": null,
       "phone": "337-948-7802",
+      "rating": 0
+    },
+    {
+      "name": "Super 1 Foods",
+      "address": "200 Destination Pointe Lane",
+      "city": "Scott",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Live $1.99/lb • Live size: Medium • Rating: 0/5",
+      "pricePerLbEstimate": null,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-210-2000",
       "rating": 0
     },
     {
