@@ -18,7 +18,7 @@
       "Crawfish Acadiana",
       "Crawfish Time"
     ],
-    "lastUpdated": "2026-04-21T11:57:37.306Z"
+    "lastUpdated": "2026-04-22T11:57:33.690Z"
   },
   "seasonOutlook": [
     "2026 season is \"looking good\" per LSU AgCenter (Todd Fontenot, crawfish extension agent)",
@@ -518,7 +518,7 @@
       "address": "2240 Ambassador Caffery Pkwy",
       "city": "Lafayette",
       "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $4.98/lb • Live $2.28/lb • Boiled size: Medium • Live size: Medium • Rating: 0/5",
+      "priceSummary": "Boiled $4.98/lb • Live $1.99/lb • Boiled size: Medium • Live size: Medium • Rating: 0/5",
       "pricePerLbEstimate": 4.98,
       "description": "Listed via The Crawfish App.",
       "tags": [
@@ -799,6 +799,21 @@
       "rating": 5
     },
     {
+      "name": "Don's Seafood",
+      "address": "4309 Johnston St, Lafayette, LA 70503",
+      "city": "Lafayette",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $6.00/lb • Boiled size: Large • Rating: 0/5",
+      "pricePerLbEstimate": 6,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-981-1159",
+      "rating": 0
+    },
+    {
       "name": "Crawfish Time",
       "address": "320 Ridge Rd.",
       "city": "Lafayette",
@@ -916,21 +931,6 @@
       ],
       "website": null,
       "phone": "337-233-9302",
-      "rating": 0
-    },
-    {
-      "name": "Don's Seafood",
-      "address": "4309 Johnston St, Lafayette, LA 70503",
-      "city": "Lafayette",
-      "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $7.00/lb • Boiled size: Large • Rating: 0/5",
-      "pricePerLbEstimate": 7,
-      "description": "Listed via The Crawfish App.",
-      "tags": [
-        "Price Tracker"
-      ],
-      "website": null,
-      "phone": "337-981-1159",
       "rating": 0
     },
     {
