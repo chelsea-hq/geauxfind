@@ -1,54 +1,49 @@
 [
   {
-    "id": "medical-tent-set-up-at-festival-international-in-downtown-lafayette",
-    "title": "Medical Tent Set Up at Festival International in Downtown Lafayette",
+    "id": "alleged-roadkill-found-in-louisiana-restaurant-freezer",
+    "title": "Alleged Roadkill Found in Louisiana Restaurant Freezer",
     "source": "KPEL 96.5",
     "sourceUrl": "https://kpel965.com/",
-    "url": "https://kpel965.com/ixp/29/p/festival-international-lafayette/",
-    "excerpt": "Local update from Medical Tent Set Up at Festival International in Downtown Lafayette.",
-    "date": "2026-04-22T11:57:47.459Z",
-    "imageUrl": "https://townsquare.media/site/29/files/2026/04/attachment-screen-shot-2026-04-21-at-8-25-05-am.jpg?w=980&q=75",
-    "category": "Event",
+    "url": "https://kpel965.com/roadkill-louisiana-restaurant/",
+    "excerpt": "Local update from Alleged Roadkill Found in Louisiana Restaurant Freezer.",
+    "date": "2026-04-23T11:57:45.165Z",
+    "imageUrl": "https://townsquare.media/site/36/files/2026/04/attachment-zoe-richardson-4nk4axjzvfk-unsplash.jpg?w=980&q=75",
+    "category": "New Restaurant",
     "tags": [
-      "event",
-      "downtown",
-      "festival",
-      "lafayette"
-    ],
-    "city": "Lafayette"
-  },
-  {
-    "id": "body-of-missing-red-river-boater-shane-kile-recovered-in-rapides-parish-after-we",
-    "title": "Body of Missing Red River Boater Shane Kile Recovered in Rapides Parish After Weekend Search",
-    "source": "KPEL 96.5",
-    "sourceUrl": "https://kpel965.com/",
-    "url": "https://kpel965.com/deville-boating-accident-update/",
-    "excerpt": "DJ Digital",
-    "date": "2026-04-22T11:57:47.459Z",
-    "imageUrl": "https://townsquare.media/site/36/files/2026/04/attachment-screen-shot-2026-04-20-at-4-14-24-pm.jpg?w=980&q=75",
-    "category": "Event",
-    "tags": [
-      "event",
-      "weekend"
+      "new restaurant"
     ]
   },
   {
-    "id": "medical-tent-set-up-at-festival-international-in-downtown-lafayette",
-    "title": "Medical Tent Set Up at Festival International in Downtown Lafayette",
-    "source": "973 The Dawg",
-    "sourceUrl": "https://973thedawg.com/categories/lafayette-news/",
-    "url": "https://973thedawg.com/ixp/29/p/festival-international-lafayette/",
-    "excerpt": "Local update from Medical Tent Set Up at Festival International in Downtown Lafayette.",
-    "date": "2026-04-22T11:57:46.538Z",
-    "imageUrl": "https://townsquare.media/site/29/files/2026/04/attachment-screen-shot-2026-04-21-at-8-25-05-am.jpg?w=980&q=75",
+    "id": "pet-owners-leave-animals-home-during-festival",
+    "title": "Pet Owners: Leave Animals Home During Festival",
+    "source": "KPEL 96.5",
+    "sourceUrl": "https://kpel965.com/",
+    "url": "https://kpel965.com/ixp/29/p/festival-international-no-pets-lafayette/",
+    "excerpt": "Local update from Pet Owners: Leave Animals Home During Festival.",
+    "date": "2026-04-23T11:57:45.165Z",
+    "imageUrl": "https://townsquare.media/site/29/files/2026/04/attachment-dogs-gettyimages-457241996.jpg?w=980&q=75",
     "category": "Event",
     "tags": [
       "event",
-      "downtown",
+      "festival"
+    ]
+  },
+  {
+    "id": "the-etouffee-festival-is-back-in-arnaudville-this-weekend-heres-the-full-schedul",
+    "title": "The Etouffee Festival Is Back in Arnaudville This Weekend — Here’s the Full Schedule",
+    "source": "KPEL 96.5",
+    "sourceUrl": "https://kpel965.com/",
+    "url": "https://kpel965.com/ixp/33/p/arnaudville-etouffee-festival-april-2026-schedule/",
+    "excerpt": "The 2026 Etouffee Festival runs April 23&#x2013;25 in Arnaudville, La. Free admission and parking. Live music, mayor&apos;s cook-off, auto show, carnival, and bingo.",
+    "date": "2026-04-23T11:57:45.165Z",
+    "imageUrl": "https://townsquare.media/site/33/files/2026/04/attachment-489547633_1177111057546480_2345023967399571169_n.jpg?w=980&q=75",
+    "category": "Event",
+    "tags": [
+      "event",
       "festival",
-      "lafayette"
-    ],
-    "city": "Lafayette"
+      "live music",
+      "weekend"
+    ]
   },
   {
     "id": "customers-show-up-on-motorized-couch-at-louisiana-speciality-meat-store",
@@ -57,7 +52,7 @@
     "sourceUrl": "https://973thedawg.com/categories/lafayette-news/",
     "url": "https://973thedawg.com/ixp/29/p/customers-motorized-couch/",
     "excerpt": "Local update from Customers Show Up on Motorized Couch at Louisiana Speciality Meat Store.",
-    "date": "2026-04-22T11:57:46.538Z",
+    "date": "2026-04-23T11:57:44.426Z",
     "imageUrl": "https://townsquare.media/site/29/files/2026/04/attachment-screen-shot-2026-04-20-at-7-00-33-am.jpg?w=980&q=75",
     "category": "Business Opening",
     "tags": [
@@ -71,7 +66,7 @@
     "sourceUrl": "https://973thedawg.com/categories/lafayette-news/",
     "url": "https://973thedawg.com/festival-international-louisiane/",
     "excerpt": "Local update from Festival International 2026 Is Almost Here — Everything You Need to Know Before You Go.",
-    "date": "2026-04-22T11:57:46.538Z",
+    "date": "2026-04-23T11:57:44.426Z",
     "imageUrl": "https://townsquare.media/site/33/files/2026/04/attachment-00c5fa72-0c1f-4463-8ec4-3b3cd66777fd.jpeg?w=980&q=75",
     "category": "Event",
     "tags": [
@@ -86,7 +81,7 @@
     "sourceUrl": "https://973thedawg.com/categories/lafayette-news/",
     "url": "https://973thedawg.com/ixp/34/p/keith-lee-lafayette-food-tour-chosen/",
     "excerpt": "Local update from Lafayette Beats Two States For Keith Lee Food Tour.",
-    "date": "2026-04-22T11:57:46.538Z",
+    "date": "2026-04-23T11:57:44.426Z",
     "imageUrl": "https://townsquare.media/site/34/files/2026/04/attachment-untitled-design-18.jpg?w=980&q=75",
     "category": "Food News",
     "tags": [
@@ -96,19 +91,37 @@
     "city": "Lafayette"
   },
   {
-    "id": "marie-ducote-owner-of-cajun-food-tours",
-    "title": "Marie Ducote, owner of Cajun Food Tours",
-    "source": "Developing Lafayette",
-    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
-    "url": "https://developinglafayette.com/wp/marie-ducote-owner-of-cajun-food-tours/",
-    "excerpt": "Local update from Marie Ducote, owner of Cajun Food Tours.",
-    "date": "2026-04-22T11:57:42.219Z",
-    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/03/hqdefault-360x220.jpg",
-    "category": "Food News",
+    "id": "pet-owners-leave-animals-home-during-festival",
+    "title": "Pet Owners: Leave Animals Home During Festival",
+    "source": "973 The Dawg",
+    "sourceUrl": "https://973thedawg.com/categories/lafayette-news/",
+    "url": "https://973thedawg.com/ixp/29/p/festival-international-no-pets-lafayette/",
+    "excerpt": "Local update from Pet Owners: Leave Animals Home During Festival.",
+    "date": "2026-04-23T11:57:44.425Z",
+    "imageUrl": "https://townsquare.media/site/29/files/2026/04/attachment-dogs-gettyimages-457241996.jpg?w=980&q=75",
+    "category": "Event",
     "tags": [
-      "food news",
-      "cajun"
+      "event",
+      "festival"
     ]
+  },
+  {
+    "id": "medical-tent-set-up-at-festival-international-in-downtown-lafayette",
+    "title": "Medical Tent Set Up at Festival International in Downtown Lafayette",
+    "source": "973 The Dawg",
+    "sourceUrl": "https://973thedawg.com/categories/lafayette-news/",
+    "url": "https://973thedawg.com/ixp/29/p/festival-international-lafayette/",
+    "excerpt": "Local update from Medical Tent Set Up at Festival International in Downtown Lafayette.",
+    "date": "2026-04-23T11:57:44.425Z",
+    "imageUrl": "https://townsquare.media/site/29/files/2026/04/attachment-screen-shot-2026-04-21-at-8-25-05-am.jpg?w=980&q=75",
+    "category": "Event",
+    "tags": [
+      "event",
+      "downtown",
+      "festival",
+      "lafayette"
+    ],
+    "city": "Lafayette"
   },
   {
     "id": "the-tea-podcasts-inside-festival-international-2026-planning-marketing-lafayette",
@@ -116,13 +129,14 @@
     "source": "Developing Lafayette",
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/inside-festival-international-2026-planning-marketing-lafayettes-biggest-event/",
-    "excerpt": "Local update from The Tea Podcasts Inside Festival International 2026 | Planning, Marketing & Lafayette’s Biggest Event We are talking with Carly Viator, Marketing Director for Festival International de Louisiane, and Jesse Guidry, Vice President of....",
-    "date": "2026-04-22T11:57:42.218Z",
-    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/04/hqdefault-1.jpg",
-    "category": "Event",
+    "excerpt": "Broussard New Standalone Ochsner Emergency Center Coming Soon to Broussard, LA A new standalone emergency center by Ochsner Lafayette General is coming soon to 8000 Ambassador Caffery Parkway in Broussard,...",
+    "date": "2026-04-23T11:57:42.464Z",
+    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/04/olg-broussard-offsite-ec-2000x1200.jpg",
+    "category": "Coming Soon",
     "tags": [
-      "event",
+      "coming soon",
       "festival",
+      "new",
       "lafayette"
     ],
     "city": "Lafayette"
@@ -134,7 +148,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/historic-jefferson-blvd-church-renovation-nearing-completion-as-the-wilyard-moves-toward-opening/",
     "excerpt": "Local update from Historic Jefferson Blvd Church Renovation Nearing Completion as The Wilyard Moves Toward Opening.",
-    "date": "2026-04-22T11:57:42.181Z",
+    "date": "2026-04-23T11:57:41.614Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/04/cb5af276-0a85-4c59-8721-13bec126b5cb-2000x1200.jpg",
     "category": "Business Opening",
     "tags": [
@@ -149,7 +163,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/freedom-homes-of-carencro-grand-reopening-march-28th/",
     "excerpt": "Local update from Freedom Homes of Carencro Grand Reopening, March 28th.",
-    "date": "2026-04-22T11:57:42.181Z",
+    "date": "2026-04-23T11:57:41.614Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/03/366baff9-6335-4a85-b1c0-57864ed0420f-2000x1200.jpg",
     "category": "Business Opening",
     "tags": [
@@ -165,7 +179,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/new-harvest-community-church-campus-planned-for-former-piggly-wiggly-site-on-simcoe-street/",
     "excerpt": "Local update from New Harvest Community Church Campus Planned for Former Grocery Store Site on Simcoe Street.",
-    "date": "2026-04-22T11:57:42.181Z",
+    "date": "2026-04-23T11:57:41.614Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/03/c5be19c9-6441-4364-bea5-dddf3401d77e-2000x1200.jpg",
     "category": "Business Opening",
     "tags": [
@@ -180,7 +194,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/former-bakers-choice-reopens-as-a-bakers-paradise-under-new-ownership/",
     "excerpt": "Local update from Former Baker’s Choice Reopens as A Baker’s Paradise Under New Ownership.",
-    "date": "2026-04-22T11:57:42.181Z",
+    "date": "2026-04-23T11:57:41.614Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/03/aa3ca931-c420-41fb-9ac4-51be820fa4af-2000x1200.jpg",
     "category": "Food News",
     "tags": [
@@ -189,19 +203,18 @@
     ]
   },
   {
-    "id": "agave-mexican-grill-cantina-reopens-downtown-lafayette-following-renovations",
-    "title": "Agave Mexican Grill & Cantina Reopens Downtown Lafayette Following Renovations",
+    "id": "new-standalone-ochsner-emergency-center-coming-soon-to-broussard-la",
+    "title": "New Standalone Ochsner Emergency Center Coming Soon to Broussard, LA",
     "source": "Developing Lafayette",
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
-    "url": "https://developinglafayette.com/wp/agave-mexican-grill-cantina-reopens-downtown-lafayette-following-renovations/",
-    "excerpt": "Local update from Agave Mexican Grill & Cantina Reopens Downtown Lafayette Following Renovations.",
-    "date": "2026-04-22T11:57:41.333Z",
-    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/04/0bc5a2b5-3d91-4085-b597-163903a405bd-2000x1200.jpg",
-    "category": "Food News",
+    "url": "https://developinglafayette.com/wp/new-standalone-ochsner-emergency-center-coming-soon-to-broussard-la/",
+    "excerpt": "A new standalone emergency center by Ochsner Lafayette General is coming soon to 8000 Ambassador Caffery Parkway in Broussard, LA.",
+    "date": "2026-04-23T11:57:41.613Z",
+    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/04/olg-broussard-offsite-ec-2000x1200.jpg",
+    "category": "Coming Soon",
     "tags": [
-      "food news",
-      "downtown",
-      "mexican",
+      "coming soon",
+      "new",
       "lafayette"
     ],
     "city": "Lafayette"
@@ -213,7 +226,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/kings-seafood-coming-soon-to-broussard-site-formerly-planned-for-coterie/",
     "excerpt": "Local update from King’s Seafood Coming Soon to Broussard Site Formerly Planned for Coterie.",
-    "date": "2026-04-22T11:57:41.333Z",
+    "date": "2026-04-23T11:57:40.761Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/03/90d9c1a4-8068-47c0-be3e-4cb91bdb9d97-2000x1200.jpg",
     "category": "Coming Soon",
     "tags": [
@@ -229,7 +242,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/empire-wingz-opening-saturday-march-28th/",
     "excerpt": "Local update from Empire Wingz in Lafayette, LA Opening Saturday, March 28th.",
-    "date": "2026-04-22T11:57:41.333Z",
+    "date": "2026-04-23T11:57:40.761Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/03/91883576-b8ab-4f83-8295-b613b5655a4c-2000x1200.jpg",
     "category": "Business Opening",
     "tags": [
@@ -246,7 +259,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/large-retail-restaurant-development-under-construction-in-scott-la-at-destination-pointe/",
     "excerpt": "Local update from Large Retail/Restaurant Development Under Construction in Scott, LA at Destination Pointe.",
-    "date": "2026-04-22T11:57:41.333Z",
+    "date": "2026-04-23T11:57:40.761Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/03/35471aaf-e264-479c-be34-c7684db3ffe3-2000x1200.jpg",
     "category": "New Restaurant",
     "tags": [
@@ -261,7 +274,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/inside-the-new-smash-pickleball-restaurant-opening-this-week-in-youngsville-la/",
     "excerpt": "Local update from Inside the New Smash Pickleball Restaurant Opening This Week in Youngsville, LA.",
-    "date": "2026-04-22T11:57:41.333Z",
+    "date": "2026-04-23T11:57:40.761Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/03/1a804e35-b9ac-4c18-a940-f14063d20987-2000x1200.jpg",
     "category": "New Restaurant",
     "tags": [
@@ -278,7 +291,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/empire-wingz-baton-rouge-based-wing-brand-coming-soon-to-lafayettela/",
     "excerpt": "Local update from Empire Wingz, Baton Rouge-Based Wing Brand, Coming Soon to Lafayette,LA.",
-    "date": "2026-04-22T11:57:41.333Z",
+    "date": "2026-04-23T11:57:40.761Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/03/img_2109-2000x1200.jpg",
     "category": "Coming Soon",
     "tags": [
@@ -294,7 +307,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/insomnia-cookies-coming-soon-to-downtown-lafayette/",
     "excerpt": "Local update from Insomnia Cookies Coming Soon to Downtown Lafayette.",
-    "date": "2026-04-22T11:57:41.333Z",
+    "date": "2026-04-23T11:57:40.761Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/02/img_7981-1-2000x1200.jpg",
     "category": "Coming Soon",
     "tags": [
@@ -311,7 +324,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/dunkin-coming-soon-to-broussard-la-inside-walmart-as-store-begins-renovations/",
     "excerpt": "Local update from Dunkin’ Coming Soon to Broussard, LA Inside Walmart as Store Begins Renovations.",
-    "date": "2026-04-22T11:57:41.332Z",
+    "date": "2026-04-23T11:57:40.760Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/04/3f87dcd8-388c-4d61-b672-05a454dde9f1.png",
     "category": "Coming Soon",
     "tags": [
@@ -320,13 +333,31 @@
     "city": "Broussard"
   },
   {
+    "id": "agave-mexican-grill-cantina-reopens-downtown-lafayette-following-renovations",
+    "title": "Agave Mexican Grill & Cantina Reopens Downtown Lafayette Following Renovations",
+    "source": "Developing Lafayette",
+    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
+    "url": "https://developinglafayette.com/wp/agave-mexican-grill-cantina-reopens-downtown-lafayette-following-renovations/",
+    "excerpt": "Local update from Agave Mexican Grill & Cantina Reopens Downtown Lafayette Following Renovations.",
+    "date": "2026-04-23T11:57:40.760Z",
+    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/04/0bc5a2b5-3d91-4085-b597-163903a405bd-2000x1200.jpg",
+    "category": "Food News",
+    "tags": [
+      "food news",
+      "downtown",
+      "mexican",
+      "lafayette"
+    ],
+    "city": "Lafayette"
+  },
+  {
     "id": "tropical-smoothie-cafe-now-open-in-the-former-zorbas-space-in-youngsville-la",
     "title": "Tropical Smoothie Cafe Now Open in the Former Zorba’s Space in Youngsville, LA",
     "source": "Developing Lafayette",
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/tropical-smoothie-cafe-now-open-in-the-former-zorbas-space-in-youngsville-la/",
     "excerpt": "Tropical Smoothie Cafe is now open in Youngsville at 1821 Chemin Metairie Parkway, taking over the former Zorba’s location. See",
-    "date": "2026-04-22T11:57:41.331Z",
+    "date": "2026-04-23T11:57:40.759Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/04/f94ed43d-6822-47c5-90c2-55632c08c104-2000x1200.jpg",
     "category": "New Restaurant",
     "tags": [
