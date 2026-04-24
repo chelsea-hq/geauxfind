@@ -6,7 +6,7 @@
     "quickStats": "18 Spots • $5-10/lb • March-May Peak"
   },
   "priceTracker": {
-    "currentRange": "$3.49 - $9.00/lb boiled",
+    "currentRange": "$3.49 - $8.00/lb boiled",
     "trend": "Prices are dropping! Down from $10+ in January",
     "bestDealTip": "Best deals: Buy direct from farm drive-thrus",
     "proTip": "Most places don't start boiling until 4-5pm — call ahead for lunch",
@@ -18,7 +18,7 @@
       "Crawfish Acadiana",
       "Crawfish Time"
     ],
-    "lastUpdated": "2026-04-23T11:57:33.943Z"
+    "lastUpdated": "2026-04-24T11:54:28.249Z"
   },
   "seasonOutlook": [
     "2026 season is \"looking good\" per LSU AgCenter (Todd Fontenot, crawfish extension agent)",
@@ -234,8 +234,8 @@
       "address": "445 Ridge Rd.",
       "city": "Lafayette",
       "hours": "Lunch Mon-Fri 11-1:30pm • Dinner Tue-Thu 5-8:30pm • Fri-Sat 5-9:30pm",
-      "priceSummary": "Boiled $6.95/lb • Boiled size: Large • Live size: Medium • Rating: 0/5",
-      "pricePerLbEstimate": 6.95,
+      "priceSummary": "Boiled $6.33/lb • Boiled size: Large • Live size: Medium • Rating: 0/5",
+      "pricePerLbEstimate": 6.33,
       "description": "Large Cajun seafood buffet and market with crawfish, crab, and catfish.",
       "tags": [
         "Dine-In"
@@ -249,8 +249,8 @@
       "address": "1120 Veterans Memorial Dr.",
       "city": "Abbeville",
       "hours": "Tue/Wed/Fri/Sat 4-9pm",
-      "priceSummary": "Boiled $5.49/lb • Boiled size: Medium • Rating: 5/5",
-      "pricePerLbEstimate": 5.49,
+      "priceSummary": "Boiled $5.94/lb • Boiled size: Medium • Rating: 5/5",
+      "pricePerLbEstimate": 5.94,
       "description": "Family-owned, fresh crawfish from their own ponds.",
       "tags": [
         "Family-Owned",
@@ -439,6 +439,21 @@
       "rating": 4
     },
     {
+      "name": "Meche's crawfish",
+      "address": "2308 Abbeville Hwy.",
+      "city": "Rayne",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $4.25/lb • Rating: 0/5",
+      "pricePerLbEstimate": 4.25,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-514-3231",
+      "rating": 0
+    },
+    {
       "name": "Gilbert's Crawfish Tub",
       "address": "8200 E Whitney St.",
       "city": "Crowley",
@@ -452,21 +467,6 @@
       "website": null,
       "phone": "337-783-6608",
       "rating": 0
-    },
-    {
-      "name": "Crawfish Corner",
-      "address": "529 South Union St.",
-      "city": "Opelousas",
-      "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $4.50/lb • Live $2.75/lb • Boiled size: Medium • Rating: 5/5",
-      "pricePerLbEstimate": 4.5,
-      "description": "Listed via The Crawfish App.",
-      "tags": [
-        "Price Tracker"
-      ],
-      "website": null,
-      "phone": "337-407-2529",
-      "rating": 5
     },
     {
       "name": "The Boozy & Boiling Barn",
@@ -559,6 +559,21 @@
       "rating": 5
     },
     {
+      "name": "Duos Cajun Corner",
+      "address": "840 US-167",
+      "city": "Opelousas",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $4.99/lb • Live $3.00/lb • Boiled size: Large • Live size: Medium • Rating: 5/5",
+      "pricePerLbEstimate": 4.99,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-628-0123",
+      "rating": 5
+    },
+    {
       "name": "Crawfish House and Grill",
       "address": "1214 S Union St.",
       "city": "Opelousas",
@@ -586,6 +601,21 @@
       ],
       "website": null,
       "phone": "337-365-6657",
+      "rating": 5
+    },
+    {
+      "name": "Crawfish Corner",
+      "address": "529 South Union St.",
+      "city": "Opelousas",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $5.08/lb • Live $2.75/lb • Boiled size: Medium • Rating: 5/5",
+      "pricePerLbEstimate": 5.08,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-407-2529",
       "rating": 5
     },
     {
@@ -649,6 +679,21 @@
       "rating": 5
     },
     {
+      "name": "The Crawfish Pot",
+      "address": "817 Foreman Drive",
+      "city": "Lafayette",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $5.49/lb • Live $3.48/lb • Boiled size: Medium • Live size: Medium • Rating: 5/5",
+      "pricePerLbEstimate": 5.49,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-981-1114",
+      "rating": 5
+    },
+    {
       "name": "Cooney’s Crawfish",
       "address": "4535 Moss Street",
       "city": "Lafayette",
@@ -677,21 +722,6 @@
       "website": null,
       "phone": "337-893-6761",
       "rating": 5
-    },
-    {
-      "name": "Meche's crawfish",
-      "address": "2308 Abbeville Hwy.",
-      "city": "Rayne",
-      "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $5.50/lb • Rating: 0/5",
-      "pricePerLbEstimate": 5.5,
-      "description": "Listed via The Crawfish App.",
-      "tags": [
-        "Price Tracker"
-      ],
-      "website": null,
-      "phone": "337-514-3231",
-      "rating": 0
     },
     {
       "name": "Clements Heberts Boiling Pot",
@@ -782,21 +812,6 @@
       "website": null,
       "phone": "337-783-9900",
       "rating": 0
-    },
-    {
-      "name": "The Crawfish Pot",
-      "address": "817 Foreman Drive",
-      "city": "Lafayette",
-      "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $5.99/lb • Live $3.48/lb • Boiled size: Medium • Live size: Medium • Rating: 5/5",
-      "pricePerLbEstimate": 5.99,
-      "description": "Listed via The Crawfish App.",
-      "tags": [
-        "Price Tracker"
-      ],
-      "website": null,
-      "phone": "337-981-1114",
-      "rating": 5
     },
     {
       "name": "Crawfish Spot",
@@ -919,21 +934,6 @@
       "rating": 5
     },
     {
-      "name": "Duos Cajun Corner",
-      "address": "840 US-167",
-      "city": "Opelousas",
-      "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $6.99/lb • Live $3.00/lb • Boiled size: Large • Live size: Medium • Rating: 5/5",
-      "pricePerLbEstimate": 6.99,
-      "description": "Listed via The Crawfish App.",
-      "tags": [
-        "Price Tracker"
-      ],
-      "website": null,
-      "phone": "337-628-0123",
-      "rating": 5
-    },
-    {
       "name": "T-Bob's",
       "address": "302 S St. Antoine St.",
       "city": "Lafayette",
@@ -962,6 +962,21 @@
       "website": null,
       "phone": "337-227-8101",
       "rating": 0
+    },
+    {
+      "name": "Pat's Fishermans Wharf",
+      "address": "1008 Henderson Levee Rd.",
+      "city": "Henderson",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $7.33/lb • Rating: 5/5",
+      "pricePerLbEstimate": 7.33,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-228-7512",
+      "rating": 5
     },
     {
       "name": "Crawfish Man",
@@ -1021,21 +1036,6 @@
       ],
       "website": null,
       "phone": "337-332-3071",
-      "rating": 5
-    },
-    {
-      "name": "Pat's Fishermans Wharf",
-      "address": "1008 Henderson Levee Rd.",
-      "city": "Henderson",
-      "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $9.00/lb • Rating: 5/5",
-      "pricePerLbEstimate": 9,
-      "description": "Listed via The Crawfish App.",
-      "tags": [
-        "Price Tracker"
-      ],
-      "website": null,
-      "phone": "337-228-7512",
       "rating": 5
     },
     {
@@ -1148,7 +1148,7 @@
       "address": "1005 Golden Grain Rd.",
       "city": "Rayne",
       "hours": "Call for seasonal hours",
-      "priceSummary": "Live $2.75/lb • Live size: Medium • Rating: 5/5",
+      "priceSummary": "Live $2.50/lb • Live size: Medium • Rating: 5/5",
       "pricePerLbEstimate": null,
       "description": "Listed via The Crawfish App.",
       "tags": [
