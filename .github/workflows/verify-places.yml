@@ -1,0 +1,67 @@
+name: Verify places
+
+on:
+  schedule:
+    # Every Monday at 13:12 UTC (8:12am CT) — weekly is enough for closures,
+    # and keeps Google Places API usage low.
+    - cron: "12 13 * * 1"
+  workflow_dispatch: {}
+
+concurrency:
+  group: verify-places
+  cancel-in-progress: false
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+      issues: write
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install deps
+        run: npm ci --no-audit --no-fund
+
+      - name: Run verify-places
+        env:
+          GOOGLE_PLACES_API_KEY: ${{ secrets.GOOGLE_PLACES_API_KEY }}
+        run: npm run verify:places
+
+      - name: Commit verification
+        run: |
+          git config user.name "geauxfind-bot"
+          git config user.email "bot@geauxfind.com"
+          git add data/place-verification.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "chore(data): weekly place verification [skip ci]"
+            git push
+          fi
+
+      - name: Open issue if new closures detected
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node -e "
+          const v = require('./data/place-verification.json');
+          const closed = (v.verified || []).filter(p => p.business_status === 'CLOSED_PERMANENTLY');
+          if (closed.length === 0) { console.log('No permanent closures'); process.exit(0); }
+          const body = '# Permanent closures detected\n\n' +
+            closed.map(c => '- ' + c.slug + ' — ' + c.name).join('\n') +
+            '\n\nAdd these slugs to data/closed-businesses.json if you agree, then commit + redeploy.';
+          const fs = require('fs');
+          fs.writeFileSync('/tmp/issue_body.md', body);
+          " || true
+          if [ -f /tmp/issue_body.md ]; then
+            gh issue create --title "Weekly place verification: closures detected" --body-file /tmp/issue_body.md || true
+          fi

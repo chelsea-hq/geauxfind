@@ -1,1 +1,42 @@
-[]
+{
+  "$schema": "Curated list of businesses that have closed or relocated. Anything listed here is filtered out of every list, map, sitemap, and JSON-LD on GeauxFind. Add new entries with {slug, name, status, reason, source, closedAt}. Status: 'closed' | 'temporarily-closed' | 'relocated' | 'unverified'.",
+  "generatedAt": "2026-04-24T12:00:00Z",
+  "entries": [
+    {
+      "slug": "randols",
+      "name": "Randol's Restaurant & Cajun Dance Hall",
+      "status": "closed",
+      "reason": "Original Lafayette location closed 2024. Breaux Bridge continuation reported closed.",
+      "source": "user:chelsea",
+      "closedAt": "2024-04-01",
+      "matchNames": ["Randol's", "Randol's Restaurant", "Randol's Cajun Seafood Restaurant", "Randol's Restaurant & Cajun Dance Hall"]
+    },
+    {
+      "slug": "randols-restaurant",
+      "name": "Randol's Restaurant",
+      "status": "closed",
+      "reason": "Same business as randols — legacy duplicate slug.",
+      "source": "user:chelsea",
+      "closedAt": "2024-04-01",
+      "matchNames": ["Randol's Restaurant"]
+    },
+    {
+      "slug": "randol-s-cajun-seafood-restaurant-breaux-bridge",
+      "name": "Randol's Cajun Seafood Restaurant",
+      "status": "closed",
+      "reason": "Breaux Bridge relocation attempt — reported closed.",
+      "source": "user:chelsea",
+      "closedAt": "2024-04-01",
+      "matchNames": ["Randol's Cajun Seafood Restaurant"]
+    },
+    {
+      "slug": "fuji-sushi-house",
+      "name": "Fuji Sushi House",
+      "status": "temporarily-closed",
+      "reason": "Per GeauxFind internal notes (STATE.md, 2026-03-25) — temporarily closed.",
+      "source": "state-md",
+      "closedAt": "2026-03-25",
+      "matchNames": ["Fuji Sushi House"]
+    }
+  ]
+}
