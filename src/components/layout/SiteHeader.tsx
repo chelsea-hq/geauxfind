@@ -17,8 +17,17 @@ const topLinks = [
 const foodDrinkLinks = GUIDE_CATEGORIES["food-drink"].items.map((item) => [item.path, item.label] as const);
 const thingsToDoLinks = GUIDE_CATEGORIES["things-to-do"].items.map((item) => [item.path, item.label] as const);
 
+const exploreLinks = [
+  ["/tonight", "Tonight in Acadiana"],
+  ["/this-weekend", "This Weekend"],
+  ["/city", "City Guides"],
+  ["/best", "Best Of Acadiana"],
+  ["/whats-new", "What's New"],
+] as const;
+
 const mobileSections = [
   { title: "Top Links", links: topLinks },
+  { title: "Explore", links: exploreLinks },
   { title: GUIDE_CATEGORIES["food-drink"].label, links: foodDrinkLinks },
   { title: GUIDE_CATEGORIES["things-to-do"].label, links: thingsToDoLinks },
 ] as const;
@@ -26,15 +35,18 @@ const mobileSections = [
 export function SiteHeader() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
+  const [exploreOpen, setExploreOpen] = useState(false);
   const [foodOpen, setFoodOpen] = useState(false);
   const [thingsOpen, setThingsOpen] = useState(false);
 
   useEffect(() => {
     setOpen(false);
+    setExploreOpen(false);
     setFoodOpen(false);
     setThingsOpen(false);
   }, [pathname]);
 
+  const isExploreActive = exploreLinks.some(([href]) => pathname.startsWith(href));
   const isFoodActive = foodDrinkLinks.some(([href]) => pathname.startsWith(href));
   const isThingsActive = thingsToDoLinks.some(([href]) => pathname.startsWith(href));
 
@@ -50,6 +62,27 @@ export function SiteHeader() {
           <Link href="/" className={`gf-link py-2 ${pathname === "/" ? "text-[var(--cajun-red)]" : "text-[var(--cast-iron)] hover:text-[var(--cajun-red)]"}`}>
             Home
           </Link>
+
+          <div className="relative" onMouseEnter={() => setExploreOpen(true)} onMouseLeave={() => setExploreOpen(false)}>
+            <button
+              type="button"
+              onClick={() => setExploreOpen((v) => !v)}
+              className={`gf-link inline-flex items-center gap-1 py-2 ${isExploreActive ? "text-[var(--cajun-red)]" : "text-[var(--cast-iron)] hover:text-[var(--cajun-red)]"}`}
+              aria-expanded={exploreOpen}
+              aria-haspopup="menu"
+            >
+              Explore
+              <ChevronDown className={`h-4 w-4 transition-transform ${exploreOpen ? "rotate-180" : ""}`} />
+            </button>
+            {exploreOpen ? (
+              <div className="absolute left-0 top-full z-50 mt-2 min-w-56 rounded-[10px] border border-[var(--spanish-moss)]/35 bg-white p-2 shadow-lg" role="menu">
+                {exploreLinks.map(([href, label]) => {
+                  const isActive = pathname.startsWith(href);
+                  return <Link key={href} href={href} className={`block rounded-[8px] px-3 py-2 text-sm ${isActive ? "bg-[var(--cajun-red)] text-white" : "text-[var(--cast-iron)] hover:bg-[var(--sunset-gold)]/20"}`}>{label}</Link>;
+                })}
+              </div>
+            ) : null}
+          </div>
 
           <div className="relative" onMouseEnter={() => setFoodOpen(true)} onMouseLeave={() => setFoodOpen(false)}>
             <button

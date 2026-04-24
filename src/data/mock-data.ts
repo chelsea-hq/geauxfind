@@ -1,10 +1,16 @@
 import seedData from "../../scripts/seed-data.json";
 import eventsData from "../../data/events.json";
 import { Event, Place, Recipe } from "@/types";
+import { filterOperational } from "@/lib/place-status";
 
 type SeedData = Place[] | { places?: Place[] };
 const normalizedSeed = seedData as SeedData;
-export const places: Place[] = Array.isArray(normalizedSeed) ? normalizedSeed : (normalizedSeed.places ?? []);
+const rawPlaces: Place[] = Array.isArray(normalizedSeed) ? normalizedSeed : (normalizedSeed.places ?? []);
+
+// Filter closed businesses (see data/closed-businesses.json) out of every
+// page view. Import `allPlaces` only for admin/debug contexts.
+export const places: Place[] = filterOperational(rawPlaces);
+export const allPlaces: Place[] = rawPlaces;
 
 export const events: Event[] = eventsData as Event[];
 

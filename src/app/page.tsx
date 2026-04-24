@@ -369,6 +369,35 @@ export default function Home() {
       </section>
 
       <section className="mx-auto mt-16 max-w-6xl px-4 reveal">
+        <div className="mb-4 flex items-end justify-between">
+          <div>
+            <p className="text-xs tracking-[0.2em] text-[var(--moss)]">START HERE</p>
+            <h2 className="mt-1 text-3xl text-[var(--cajun-red)]">Find your way around Acadiana</h2>
+          </div>
+        </div>
+        <div className="grid gap-4 md:grid-cols-3">
+          <Link href="/tonight" className="rounded-[12px] border border-[var(--spanish-moss)]/30 bg-[linear-gradient(130deg,#0e2a2a,#1f4a47)] p-5 text-white card-lift">
+            <p className="text-xs tracking-[0.2em] text-[var(--sunset-gold)]">TONIGHT</p>
+            <h3 className="mt-2 text-xl font-semibold">Tonight in Acadiana</h3>
+            <p className="mt-1 text-sm text-white/85">Live music, events, and kids-eat-free deals — all for today.</p>
+            <p className="mt-3 text-sm font-semibold">See tonight&apos;s plan →</p>
+          </Link>
+          <Link href="/city" className="rounded-[12px] border border-[var(--spanish-moss)]/30 bg-white p-5 card-lift">
+            <p className="text-xs tracking-[0.2em] text-[var(--moss)]">CITY GUIDES</p>
+            <h3 className="mt-2 text-xl font-semibold text-[var(--cast-iron)]">Every town in Acadiana</h3>
+            <p className="mt-1 text-sm text-[var(--warm-gray)]">Lafayette, Breaux Bridge, Scott, Opelousas, Abbeville, and more.</p>
+            <p className="mt-3 text-sm font-semibold text-[var(--cajun-red)]">Pick a city →</p>
+          </Link>
+          <Link href="/best" className="rounded-[12px] border border-[var(--spanish-moss)]/30 bg-white p-5 card-lift">
+            <p className="text-xs tracking-[0.2em] text-[var(--moss)]">BEST OF</p>
+            <h3 className="mt-2 text-xl font-semibold text-[var(--cast-iron)]">Dish-by-dish guides</h3>
+            <p className="mt-1 text-sm text-[var(--warm-gray)]">Boudin, gumbo, étouffée, king cake, cracklins — where locals actually go.</p>
+            <p className="mt-3 text-sm font-semibold text-[var(--cajun-red)]">Taste Acadiana →</p>
+          </Link>
+        </div>
+      </section>
+
+      <section className="mx-auto mt-16 max-w-6xl px-4 reveal">
         <div className="mb-4 flex items-center justify-between">
           <div>
             <h2 className="text-3xl text-[var(--cajun-red)]">Seasonal in Acadiana</h2>

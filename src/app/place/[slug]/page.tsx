@@ -9,11 +9,13 @@ import { places } from "@/data/mock-data";
 import { RatingStars } from "@/components/RatingStars";
 import { ReviewSummaryCard } from "@/components/ReviewSummaryCard";
 import { readJsonFile } from "@/lib/community-data";
+import { isClosed } from "@/lib/place-status";
 import type { BusinessClaim } from "@/types";
 import type { Metadata } from "next";
 import { absoluteUrl, buildMetadata } from "@/lib/seo";
 import { JsonLd } from "@/components/JsonLd";
 import { RelatedLinks } from "@/components/RelatedLinks";
+import { ReportClosedButton } from "@/components/ReportClosedButton";
 
 export const dynamic = "force-dynamic";
 
@@ -39,6 +41,7 @@ export default async function PlaceDetail({ params }: { params: Promise<{ slug: 
   const { slug } = await params;
   const place = places.find((p) => p.slug === slug);
   if (!place) return notFound();
+  if (isClosed(place)) return notFound();
 
   const similar = places.filter((p) => p.slug !== slug && p.category === place.category).slice(0, 2);
   const claims = await readJsonFile<BusinessClaim[]>("business-claims.json", []);
@@ -147,6 +150,7 @@ export default async function PlaceDetail({ params }: { params: Promise<{ slug: 
           <a className="text-[var(--cajun-red)] underline" href={place.website}>{place.website}</a>
           <ul className="mt-3 space-y-1">{place.hours.map((h) => <li key={h}>{h}</li>)}</ul>
           <Link href={`/business/${place.slug}`} className="mt-4 inline-block rounded-lg border px-3 py-2">Claim This Business</Link>
+          <ReportClosedButton slug={place.slug} placeName={place.name} />
         </aside>
       </section>
 
