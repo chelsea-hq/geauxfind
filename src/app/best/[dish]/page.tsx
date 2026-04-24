@@ -29,6 +29,9 @@ export async function generateMetadata({ params }: { params: Promise<{ dish: str
     title: `Best ${meta.dish} in Lafayette, Louisiana — Local Favorites | GeauxFind`,
     description: `${meta.intro}`,
     path: `/best/${meta.slug}`,
+    ogTitle: `Best ${meta.dish} in Lafayette`,
+    ogSubtitle: meta.tagline,
+    ogKicker: "GEAUXFIND · DISH GUIDE",
   });
 }
 

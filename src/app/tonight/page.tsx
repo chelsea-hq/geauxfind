@@ -10,6 +10,9 @@ export const metadata = buildMetadata({
   description:
     "What's happening in Lafayette and Acadiana tonight: live music venues, kids-eat-free deals, and things to do today. Updated every few hours.",
   path: "/tonight",
+  ogTitle: "Tonight in Lafayette",
+  ogSubtitle: "Live music, kids-eat-free, and tonight's best across Acadiana.",
+  ogKicker: "GEAUXFIND · TONIGHT",
 });
 
 export const revalidate = 1800;

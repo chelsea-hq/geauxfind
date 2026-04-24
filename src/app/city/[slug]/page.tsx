@@ -30,6 +30,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: `${city.name}, Louisiana — Food, Events & Hidden Gems | GeauxFind`,
     description: `${city.intro} Browse ${city.name}'s best restaurants, events, live music, and kids-eat-free spots — curated by locals.`,
     path: `/city/${city.slug}`,
+    ogTitle: `${city.name}, Louisiana`,
+    ogSubtitle: city.tagline,
+    ogKicker: "GEAUXFIND · ACADIANA",
   });
 }
 
