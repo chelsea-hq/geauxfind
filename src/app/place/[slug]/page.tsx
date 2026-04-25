@@ -5,6 +5,7 @@ import { MapWrapper } from "@/components/MapWrapper";
 import { ReviewCard } from "@/components/ReviewCard";
 import { PlaceCard } from "@/components/cards/PlaceCard";
 import { PlaceImage } from "@/components/PlaceImage";
+import { normalizePlacePhoto } from "@/lib/place-image";
 import { places } from "@/data/mock-data";
 import { RatingStars } from "@/components/RatingStars";
 import { ReviewSummaryCard } from "@/components/ReviewSummaryCard";
@@ -69,8 +70,21 @@ export default async function PlaceDetail({ params }: { params: Promise<{ slug: 
     .filter((p) => p.slug === slug)
     .sort((a, b) => b.createdAt.localeCompare(a.createdAt));
 
-  const mainImage = submittedPhotos[0]?.url || place.image;
-  const gallery = [...submittedPhotos.map((p) => p.url), ...place.gallery];
+  // Hero image priority: community-submitted > real place.image (skip
+  // placeholders) > first gallery photo proxied through /api/photo >
+  // placeholder fallback. Without this, hero stays as a generic SVG
+  // even when the place has real photos in its gallery.
+  const isPlaceholderImg = (s: string | undefined) =>
+    !s || s.startsWith("/placeholder") || s.includes("/placeholders/");
+  const galleryUrls = (place.gallery || [])
+    .map((g) => normalizePlacePhoto(g))
+    .filter(Boolean) as string[];
+  const mainImage =
+    submittedPhotos[0]?.url ||
+    (isPlaceholderImg(place.image) ? null : normalizePlacePhoto(place.image)) ||
+    galleryUrls[0] ||
+    place.image;
+  const gallery = [...submittedPhotos.map((p) => p.url), ...galleryUrls];
   const schemaType = place.category === "food" ? "Restaurant" : "LocalBusiness";
   const placeWithGeo = place as typeof place & {
     google_rating?: number;
