@@ -12,6 +12,7 @@ import { events, places, recipes } from "@/data/mock-data";
 import seedPlaces from "../../scripts/seed-data.json";
 import { JsonLd } from "@/components/JsonLd";
 import { FaqSection } from "@/components/FaqSection";
+import { HappeningNowBanner } from "@/components/HappeningNowBanner";
 import type { Place, WhatsNewItem } from "@/types";
 
 const SEASONAL_ITEMS: Array<{ months: number[]; emoji: string; title: string; desc: string; link: string }> = [
@@ -182,12 +183,14 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Small gator accent */}
+          {/* GeauxFind logo accent */}
           <div className="fade-up stagger-4 mt-4 md:absolute md:-right-4 md:bottom-0 md:mt-0">
-            <Image src="/mascot/gator-wave.svg" alt="Geaux the gator" width={100} height={100} className="h-auto w-16 opacity-80 drop-shadow-lg md:w-24" />
+            <Image src="/logo-icon-transparent.svg" alt="GeauxFind" width={100} height={100} className="h-auto w-16 opacity-90 drop-shadow-lg md:w-24" unoptimized />
           </div>
         </div>
       </section>
+
+      <HappeningNowBanner />
 
       <section className="w-full bg-[var(--cast-iron)] px-4 py-3 text-white reveal">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-2 text-sm md:text-base">

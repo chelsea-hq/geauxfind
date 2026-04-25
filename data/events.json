@@ -1,5 +1,22 @@
 [
   {
+    "slug": "festival-international-de-louisiane-2026",
+    "title": "Festival International de Louisiane 2026",
+    "date": "2026-04-22",
+    "endDate": "2026-04-26",
+    "time": "All day",
+    "venue": "Downtown Lafayette",
+    "address": "Downtown Lafayette, LA",
+    "city": "Lafayette",
+    "description": "The 40th anniversary of Festival International de Louisiane. Five days of free music, food, and culture from around the world in downtown Lafayette. The largest international music festival in the United States — 300,000+ visitors from 48 states and 26 countries.",
+    "category": "festival",
+    "image": "https://festivalinternational.org/wp-content/uploads/2024/03/FI-2024-Hero-Image.jpg",
+    "link": "https://festivalinternational.org",
+    "source": "manual",
+    "free": true,
+    "price": null
+  },
+  {
     "slug": "first-friday-community-dance-class-hip-hop",
     "title": "First Friday Community Dance Class: Hip-Hop",
     "date": "2026-04-03",
