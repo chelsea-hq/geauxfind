@@ -1,7 +1,7 @@
 {
   "source": "The Crawfish App",
   "sourceLink": "https://www.thecrawfishapp.com/VendorSearchUi",
-  "lastUpdated": "2026-04-24T11:54:28.249Z",
+  "lastUpdated": "2026-04-25T11:35:12.466Z",
   "cities": [
     {
       "city": "Lafayette",
@@ -192,7 +192,7 @@
       "rating": 0,
       "phone": "337-898-1255",
       "hours": null,
-      "updatedAt": "04/16/2026 01:32 PM CST"
+      "updatedAt": "04/24/2026 09:40 AM CST"
     },
     {
       "name": "Cajun Claws",
@@ -567,7 +567,7 @@
       "rating": 0,
       "phone": "337-981-1159",
       "hours": null,
-      "updatedAt": "04/21/2026 11:28 AM CST"
+      "updatedAt": "04/24/2026 09:50 AM CST"
     },
     {
       "name": "JJ’s Boiling Shack",
