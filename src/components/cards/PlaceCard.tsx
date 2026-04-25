@@ -6,6 +6,7 @@ import { MapPin } from "lucide-react";
 import { useState } from "react";
 import { Place } from "@/types";
 import { RatingStars } from "@/components/RatingStars";
+import { normalizePlacePhoto } from "@/lib/place-image";
 
 const badgeColor: Record<string, string> = {
   food: "bg-[#fbe8d6] text-[#7d3f1f]",
@@ -33,13 +34,16 @@ function getImageSrc(place: Place) {
     image.endsWith("/placeholder.svg") ||
     image.startsWith("/placeholders/");
 
-  // Use first gallery photo (Google Places) when main image is a placeholder
+  // Use first gallery photo (Google Places) when main image is a placeholder.
+  // Wrap raw "places/ChIJ.../photos/..." refs through /api/photo so the
+  // browser can actually fetch them — otherwise they 404 against our origin.
   if (isPlaceholder && place.gallery?.length) {
-    return place.gallery[0];
+    const first = normalizePlacePhoto(place.gallery[0]);
+    if (first) return first;
   }
 
   if (isPlaceholder) return placeholderByCategory[place.category] ?? "/placeholders/default.svg";
-  return image;
+  return normalizePlacePhoto(image) ?? placeholderByCategory[place.category] ?? "/placeholders/default.svg";
 }
 
 export function PlaceCard({
