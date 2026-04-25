@@ -7,6 +7,8 @@ import { MobileBottomNav } from "@/components/layout/MobileBottomNav";
 import { SiteHeader } from "@/components/layout/SiteHeader";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { SITE_URL } from "@/lib/seo";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const display = DM_Serif_Display({ subsets: ["latin"], weight: "400", variable: "--font-display" });
 const bodyFont = DM_Sans({ subsets: ["latin"], variable: "--font-body" });
@@ -59,6 +61,8 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         {children}
         <Footer />
         <MobileBottomNav />
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
