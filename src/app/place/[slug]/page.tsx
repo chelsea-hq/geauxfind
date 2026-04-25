@@ -27,11 +27,29 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const place = places.find((p) => p.slug === slug);
   if (!place) return buildMetadata({ title: "Place | GeauxFind", description: "Discover local spots in Acadiana.", path: `/place/${slug}` });
+
+  // Image priority for share previews:
+  //   1. Real photo on place.image (skip if it's a placeholder SVG)
+  //   2. Skip — gallery[0] requires the Google Places key at fetch time, which
+  //      Facebook/X scrapers can't reliably hit. Use dynamic OG instead.
+  //   3. Dynamic /api/og card with the place name + city (always works)
+  const placeImage = place.image?.trim() || "";
+  const isRealImage =
+    placeImage &&
+    !placeImage.startsWith("/placeholder") &&
+    !placeImage.includes("/placeholders/");
+
   return buildMetadata({
     title: `${place.name} — ${place.category} in ${place.city} | GeauxFind`,
     description: place.description,
     path: `/place/${place.slug}`,
-    images: [place.image || "/og-image.png"],
+    ...(isRealImage
+      ? { images: [placeImage] }
+      : {
+          ogTitle: place.name,
+          ogSubtitle: `${place.cuisine ? `${place.cuisine} · ` : ""}${place.city}, Louisiana${place.price ? ` · ${place.price}` : ""}`,
+          ogKicker: `GEAUXFIND · ${place.category.toUpperCase()}`,
+        }),
   });
 }
 
