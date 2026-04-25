@@ -87,6 +87,16 @@ jobs:
         env:
           FACEBOOK_GRAPH_TOKEN: ${{ secrets.FACEBOOK_GRAPH_TOKEN }}
 
+      # ── Merge all sources into events.json ─────────────────────────────────
+
+      - name: Merge events (lafayette-travel, krvs, ul-lafayette, weekend, etc.)
+        run: node scripts/merge-events.mjs
+        continue-on-error: true
+
+      - name: Stamp last-updated timestamps
+        run: node scripts/stamp-last-updated.mjs
+        continue-on-error: true
+
       # ── Commit updated data ────────────────────────────────────────────────
 
       - name: Commit and push updated data

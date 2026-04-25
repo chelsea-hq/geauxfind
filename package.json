@@ -44,6 +44,7 @@
     "seed:supabase:best_of": "node scripts/seed-supabase.mjs --only best_of",
     "parse:fb-dumps": "node scripts/parse-fb-dumps.mjs",
     "scrape:all": "bash scripts/run-all-scrapers.sh",
+    "merge:events": "node scripts/merge-events.mjs",
     "scrape:weekend-events": "node scripts/scrape-weekend-events.js",
     "scrape:specials": "node scripts/scrape-specials.js",
     "assign:neighborhoods": "node scripts/assign-neighborhoods.js",
