@@ -186,11 +186,15 @@ async function fetchDatasetItems(token, datasetId, limit = 500) {
 async function scrapePages(token, pages) {
   if (!pages.length) return [];
   const input = {
+    // Cover both naming conventions — danek/facebook-pages-posts-ppr
+    // requires snake_case max_posts; other actors honor camelCase.
     startUrls: pages.map((p) => ({ url: p.url })),
+    max_posts: POSTS_PER_PAGE,
     resultsLimit: POSTS_PER_PAGE,
-    onlyPostsNewerThan: "30 days",
-    // Many danek pages actors honor these even though docs vary; ignored
-    // if not supported, no harm done.
+    onlyOlderThan: "30 days",
+    onlyNewerThan: "30 days",
+    // Comment-related hints (ignored if not supported).
+    max_comments: 5,
     maxComments: 5,
     commentsLimit: 5,
   };
@@ -209,9 +213,19 @@ async function scrapePages(token, pages) {
 
 async function scrapeGroups(token, groups) {
   if (!groups.length) return [];
+  // The danek/facebook-groups-lite actor requires a $9.99/mo rental
+  // ("actor-is-not-rented" 403). Until the user explicitly opts into
+  // paying that, skip groups. Use the Chrome extension at extension/
+  // for private-group capture as a manual top-up.
+  if (process.env.APIFY_GROUPS_ENABLED !== "true") {
+    console.log(`Skipping ${groups.length} groups — set APIFY_GROUPS_ENABLED=true to run paid actor.`);
+    return [];
+  }
   const input = {
     startUrls: groups.map((g) => ({ url: g.url })),
+    max_posts: POSTS_PER_GROUP,
     resultsLimit: POSTS_PER_GROUP,
+    max_comments: COMMENTS_PER_POST,
     maxComments: COMMENTS_PER_POST,
     commentsLimit: COMMENTS_PER_POST,
   };
