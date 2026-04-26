@@ -1,3 +1,6 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import { formatAbsolute, formatRelative, getFileUpdatedAt, getFreshnessTier } from "@/lib/freshness";
 
 type Props = {
@@ -19,10 +22,38 @@ const tierDot: Record<string, string> = {
   stale: "bg-rose-500",
 };
 
+// "Updated 5 min ago" depends on Date.now(), which differs between server
+// SSR and client hydration. Computing it eagerly on first render causes
+// React error #418 (hydration mismatch) — that was the source of the
+// "Application error: client-side exception" overlay.
+//
+// Fix: render a stable neutral state on server + first client paint,
+// then upgrade to real relative time after mount via useEffect. Re-ticks
+// every minute so the badge stays accurate while the page is open.
 export default function FreshnessBadge({ file, label = "Updated", className = "", showAbsolute = false }: Props) {
   const updated = getFileUpdatedAt(file);
-  const tier = getFreshnessTier(updated);
-  const rel = formatRelative(updated);
+  const [now, setNow] = useState<Date | null>(null);
+
+  useEffect(() => {
+    setNow(new Date());
+    const t = setInterval(() => setNow(new Date()), 60_000);
+    return () => clearInterval(t);
+  }, []);
+
+  if (!now) {
+    return (
+      <span
+        className={`inline-flex items-center gap-2 rounded-full bg-slate-50 px-3 py-1 text-xs font-medium text-slate-600 ring-1 ring-slate-200 ${className}`}
+        suppressHydrationWarning
+      >
+        <span className="h-1.5 w-1.5 rounded-full bg-slate-400" aria-hidden="true" />
+        <span>{label}</span>
+      </span>
+    );
+  }
+
+  const tier = getFreshnessTier(updated, now);
+  const rel = formatRelative(updated, now);
   const abs = formatAbsolute(updated);
 
   return (
