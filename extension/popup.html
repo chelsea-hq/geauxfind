@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>GeauxFind Capture</title>
+    <style>
+      :root {
+        font-family: system-ui, -apple-system, sans-serif;
+        font-size: 13px;
+        color: #2c1810;
+      }
+      body {
+        margin: 0;
+        padding: 16px;
+        width: 320px;
+        background: #faf7f2;
+      }
+      h1 {
+        margin: 0 0 8px;
+        font-size: 16px;
+        font-weight: 700;
+        color: #a32929;
+      }
+      p {
+        margin: 0 0 12px;
+        color: #6b5d52;
+        font-size: 12px;
+        line-height: 1.45;
+      }
+      label {
+        display: block;
+        margin-top: 12px;
+        font-size: 12px;
+        font-weight: 600;
+        color: #2c1810;
+      }
+      input {
+        margin-top: 4px;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 8px 10px;
+        font-size: 13px;
+        border: 1px solid #d4cabd;
+        border-radius: 8px;
+        background: white;
+      }
+      button {
+        margin-top: 14px;
+        width: 100%;
+        padding: 10px;
+        font-size: 13px;
+        font-weight: 600;
+        background: #a32929;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+      button:disabled {
+        opacity: 0.6;
+        cursor: default;
+      }
+      .status {
+        margin-top: 10px;
+        font-size: 12px;
+        min-height: 16px;
+      }
+      .status.ok {
+        color: #1f3d1f;
+      }
+      .status.err {
+        color: #7a1326;
+      }
+      .footer {
+        margin-top: 16px;
+        padding-top: 12px;
+        border-top: 1px solid #e6dfd4;
+        font-size: 11px;
+        color: #8a7d6f;
+      }
+      a {
+        color: #a32929;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>GeauxFind Capture</h1>
+    <p>Paste your admin token, then click the floating "Send to GeauxFind" button on any FB thread.</p>
+
+    <label for="token">Admin token</label>
+    <input id="token" type="password" autocomplete="off" spellcheck="false" placeholder="ADMIN_TOKEN" />
+
+    <label for="endpoint">Endpoint</label>
+    <input id="endpoint" type="url" autocomplete="off" spellcheck="false" />
+
+    <button id="save" type="button">Save</button>
+    <div class="status" id="status" role="status" aria-live="polite"></div>
+
+    <div class="footer">
+      <a href="https://geauxfind.vercel.app/best-of" target="_blank">View captured topics →</a>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

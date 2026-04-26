@@ -22,6 +22,7 @@ const exploreLinks = [
   ["/this-weekend", "This Weekend"],
   ["/city", "City Guides"],
   ["/best", "Best Of Acadiana"],
+  ["/best-of", "Community Picks"],
   ["/whats-new", "What's New"],
 ] as const;
 
