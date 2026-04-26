@@ -101,6 +101,13 @@ jobs:
           GOOGLE_PLACES_API_KEY: ${{ secrets.GOOGLE_PLACES_API_KEY }}
         continue-on-error: true
 
+      - name: AI praise extraction → community-recs (autonomous "best of")
+        run: node scripts/extract-praise-tags.mjs
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          VENICE_API_KEY: ${{ secrets.VENICE_API_KEY }}
+        continue-on-error: true
+
       # ── Commit updated data ────────────────────────────────────────────────
 
       - name: Commit and push updated data
