@@ -75,11 +75,15 @@ async function main() {
   // 3. ICO — sharp doesn't write .ico natively; emit a 32×32 PNG renamed.
   // Most browsers accept PNG inside .ico filename. The previous favicon.ico
   // was generated this way too.
-  await sharp(masterBuf)
+  // NOTE: Next.js App Router gives src/app/favicon.ico priority over
+  // public/favicon.ico — write to BOTH so the served favicon updates.
+  const icoBuf = await sharp(masterBuf)
     .resize(32, 32, { fit: "contain", background: { r: 0, g: 0, b: 0, alpha: 0 } })
     .png()
-    .toFile(path.join(PUBLIC, "favicon.ico"));
-  console.log("✓ favicon.ico (32×32 PNG)");
+    .toBuffer();
+  await writeFile(path.join(PUBLIC, "favicon.ico"), icoBuf);
+  await writeFile(path.join(root, "src", "app", "favicon.ico"), icoBuf);
+  console.log("✓ favicon.ico (32×32 PNG, written to public/ and src/app/)");
 
   // 4. OG image — 1200×630, Cajun-red gradient + logo + wordmark
   const W = 1200;
