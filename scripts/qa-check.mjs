@@ -20,8 +20,33 @@ const arg = (name, fallback = null) => {
 
 const BASE = arg("url", "https://geauxfind.com");
 const ROOT = process.cwd();
-const PAGES = ["/", "/explore", "/crawfish", "/vibe", "/weekend", "/plan", "/whos-got-it", "/trending", "/ask", "/food", "/music", "/events", "/finds", "/recipes", "/whats-new"];
-const REQUIRED_NAV_ROUTES = ["/plan", "/whos-got-it", "/trending"];
+const PAGES = [
+  "/",
+  "/explore",
+  "/crawfish",
+  "/vibe",
+  "/weekend",
+  "/plan",
+  "/whos-got-it",
+  "/trending",
+  "/ask",
+  "/food",
+  "/music",
+  "/events",
+  "/finds",
+  "/recipes",
+  "/whats-new",
+  // Recently shipped — community picks surface
+  "/best-of",
+  "/best-of/best-donuts-in-acadiana",
+  "/best-of/best-coffee-in-acadiana",
+  "/best-of/best-chicken-salad-in-acadiana",
+  "/best-of/best-gumbo-in-acadiana",
+  // Guide pages where dead-FB-link audit found bad data
+  "/farmers-markets",
+  "/festivals",
+];
+const REQUIRED_NAV_ROUTES = ["/plan", "/whos-got-it", "/trending", "/best-of"];
 
 const issues = [];
 let totalChecks = 0;
@@ -158,26 +183,84 @@ async function checkNavCompleteness() {
   }
 }
 
+// Surface check: did any closed business slip through filterOperational
+// onto a public page? Compares closed-businesses.json slugs against
+// HTML on key pages. Catches closed-business "zombies" early.
+async function checkClosedBusinessLeak() {
+  let closed;
+  try {
+    closed = JSON.parse(await fs.readFile(path.join(ROOT, "data", "closed-businesses.json"), "utf8"));
+  } catch {
+    console.log("⚠️  closed-businesses.json not readable; skipping leak check");
+    return;
+  }
+  const slugs = (closed.entries || []).map((e) => e.slug).filter(Boolean);
+  if (!slugs.length) return;
+  console.log(`\n🔒 Closed-business leak check (${slugs.length} known slugs)`);
+
+  const checkRoutes = ["/", "/food", "/whos-got-it", "/best-of", "/farmers-markets"];
+  for (const route of checkRoutes) {
+    try {
+      const res = await fetch(`${BASE}${route}`, { redirect: "follow" });
+      if (!res.ok) continue;
+      const html = await res.text();
+      const leaked = slugs.filter((s) => html.includes(`/place/${s}"`));
+      check(
+        leaked.length === 0,
+        route,
+        "CLOSED_LEAK",
+        leaked.length > 0 ? `Closed business(es) leaked: ${leaked.slice(0, 5).join(", ")}` : "",
+      );
+    } catch {}
+  }
+}
+
+// The most important check — actually loads each page in a real browser
+// and listens for runtime exceptions. This is what catches the
+// "Application error: client-side exception" issues that don't show up
+// in the SSR'd HTML.
 async function checkConsoleErrorsWithPlaywright() {
   let chromium;
   try {
     ({ chromium } = await import("playwright"));
   } catch {
-    console.log("⚠️  Playwright not installed; console error checks skipped");
+    console.log("\n⚠️  Playwright not installed; browser-based error checks skipped");
+    console.log("   Install: npm i -D playwright && npx playwright install chromium --only-shell");
     return;
   }
 
+  console.log(`\n🌐 Browser smoke test (${PAGES.length} routes)`);
   const browser = await chromium.launch({ headless: true });
   try {
     for (const route of PAGES) {
       const page = await browser.newPage();
       const errors = [];
+      const consoleErrors = [];
       page.on("console", (msg) => {
-        if (msg.type() === "error") errors.push(msg.text());
+        if (msg.type() === "error") consoleErrors.push(msg.text().slice(0, 200));
       });
-      page.on("pageerror", (err) => errors.push(err.message));
-      await page.goto(`${BASE}${route}`, { waitUntil: "networkidle" });
-      check(errors.length === 0, route, "CONSOLE", `${errors.length} console/page errors`);
+      page.on("pageerror", (err) => errors.push((err.message || String(err)).slice(0, 200)));
+      try {
+        await page.goto(`${BASE}${route}`, { waitUntil: "networkidle", timeout: 25000 });
+        // Wait briefly for any deferred error to fire
+        await page.waitForTimeout(800);
+        // Also detect Next.js error overlay text rendered into the DOM
+        const errorText = await page.evaluate(() => {
+          const txt = document.body?.innerText || "";
+          const lower = txt.toLowerCase();
+          if (lower.includes("application error") && lower.includes("client-side exception")) return "Next.js error overlay rendered";
+          if (lower.includes("a server-side exception")) return "Server-side exception page";
+          return null;
+        });
+        if (errorText) errors.push(errorText);
+      } catch (e) {
+        errors.push(`navigation: ${e.message.slice(0, 150)}`);
+      }
+      check(errors.length === 0, route, "RUNTIME_ERROR", errors.slice(0, 3).join(" | "));
+      // Console errors are softer — log but don't fail (Vercel Analytics / 3p widgets often log)
+      if (consoleErrors.length) {
+        console.log(`  ⚠️  ${route}: ${consoleErrors.length} console.error(s) — first: ${consoleErrors[0].slice(0, 100)}`);
+      }
       await page.close();
     }
   } finally {
@@ -192,6 +275,7 @@ async function checkConsoleErrorsWithPlaywright() {
   await checkDataFile();
   for (const route of PAGES) await checkPage(route);
   await checkNavCompleteness();
+  await checkClosedBusinessLeak();
   await checkConsoleErrorsWithPlaywright();
 
   const elapsed = ((Date.now() - start) / 1000).toFixed(1);
