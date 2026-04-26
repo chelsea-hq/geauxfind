@@ -79,11 +79,12 @@ jobs:
         env:
           TRIPADVISOR_API_KEY: ${{ secrets.TRIPADVISOR_API_KEY }}
 
-      - name: Apify Facebook pipeline
+      - name: Apify Facebook pipeline (public pages → facebook-feed.json)
         run: node scripts/apify-facebook-pipeline.mjs
         continue-on-error: true
         env:
           APIFY_API_KEY: ${{ secrets.APIFY_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
 
       # ── Post-scrape processing ─────────────────────────────────────────────
 

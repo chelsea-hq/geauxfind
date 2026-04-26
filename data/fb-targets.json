@@ -1,0 +1,38 @@
+{
+  "$schema": "Curated Facebook targets for the autonomous public-page scraper. Edit pages[] and groups[] to add/remove sources. Each entry should be {name, url, kind?}. The pipeline iterates this file, so adding a target is a one-line JSON change. Public pages and groups only — no logged-in scraping.",
+  "lastReviewed": "2026-04-26",
+  "pages": [
+    { "name": "Developing Lafayette", "url": "https://www.facebook.com/DevelopingLafayette", "kind": "news" },
+    { "name": "Downtown Lafayette", "url": "https://www.facebook.com/DowntownLafayette", "kind": "news" },
+    { "name": "Lafayette Travel", "url": "https://www.facebook.com/LafayetteTravel", "kind": "tourism" },
+    { "name": "Acadiana Advocate", "url": "https://www.facebook.com/TheAcadianaAdvocate", "kind": "news" },
+    { "name": "KATC TV3", "url": "https://www.facebook.com/KATC", "kind": "news" },
+    { "name": "Eat Lafayette", "url": "https://www.facebook.com/EatLafayette", "kind": "food-news" },
+    { "name": "Discover Lafayette", "url": "https://www.facebook.com/DiscoverLafayetteLA", "kind": "podcast" },
+    { "name": "Festival International de Louisiane", "url": "https://www.facebook.com/festivalinternational", "kind": "events" },
+    { "name": "Festivals Acadiens et Créoles", "url": "https://www.facebook.com/festivalsacadiens", "kind": "events" },
+    { "name": "Don's Specialty Meats", "url": "https://www.facebook.com/DonsSpecialtyMeats", "kind": "restaurant" },
+    { "name": "The Best Stop", "url": "https://www.facebook.com/BestStopSupermarket", "kind": "restaurant" },
+    { "name": "Pamplona Tapas Bar", "url": "https://www.facebook.com/PamplonaTapas", "kind": "restaurant" },
+    { "name": "Spoonbill Watering Hole", "url": "https://www.facebook.com/SpoonbillWateringHoleAndRestaurant", "kind": "restaurant" },
+    { "name": "Rêve Coffee Roasters", "url": "https://www.facebook.com/revecoffee", "kind": "restaurant" },
+    { "name": "The French Press", "url": "https://www.facebook.com/thefrenchpresslafayette", "kind": "restaurant" },
+    { "name": "Carpe Diem Gelato", "url": "https://www.facebook.com/CarpeDiemGelato", "kind": "restaurant" },
+    { "name": "Bread & Circus Provisions", "url": "https://www.facebook.com/BreadAndCircusProvisions", "kind": "restaurant" },
+    { "name": "Olde Tyme Grocery", "url": "https://www.facebook.com/OldeTymeGroceryLafayette", "kind": "restaurant" },
+    { "name": "Tula Tacos + Amigos", "url": "https://www.facebook.com/TulaTacos", "kind": "restaurant" },
+    { "name": "Saint Street Inn", "url": "https://www.facebook.com/SaintStreetInn", "kind": "restaurant" },
+    { "name": "Pop's Poboys", "url": "https://www.facebook.com/popspoboys", "kind": "restaurant" },
+    { "name": "Crawfish Town USA", "url": "https://www.facebook.com/CrawfishTownUSA", "kind": "restaurant" },
+    { "name": "Dwyer's Cafe", "url": "https://www.facebook.com/Dwyers-Cafe", "kind": "restaurant" },
+    { "name": "Charlie T's Specialty Meats", "url": "https://www.facebook.com/CharlieTSpecialtyMeats", "kind": "restaurant" },
+    { "name": "Earl's Cajun Market", "url": "https://www.facebook.com/EarlsCajunMarket", "kind": "restaurant" },
+    { "name": "Hebert's Specialty Meats", "url": "https://www.facebook.com/HebertsSpecialtyMeats", "kind": "restaurant" },
+    { "name": "Chop's Specialty Meats", "url": "https://www.facebook.com/ChopsSpecialtyMeats", "kind": "restaurant" },
+    { "name": "NuNu's Fresh Market", "url": "https://www.facebook.com/NuNusFreshMarket", "kind": "restaurant" },
+    { "name": "Champagne's Market", "url": "https://www.facebook.com/ChampagnesMarket", "kind": "restaurant" }
+  ],
+  "groups": [
+    { "name": "Lafayette Foodies Group", "url": "https://www.facebook.com/groups/437445600497753" }
+  ]
+}
