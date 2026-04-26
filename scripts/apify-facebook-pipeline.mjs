@@ -183,32 +183,47 @@ async function fetchDatasetItems(token, datasetId, limit = 500) {
   return Array.isArray(res) ? res : [];
 }
 
+// danek/facebook-pages-posts-ppr takes ONE page_url per run (not a
+// startUrls array). We loop pages sequentially. Actor runtime is fast
+// (~15s) and PPR billing means cost ≈ posts × $0.003. For 29 pages × 10
+// posts that's ~$0.87 per weekly run.
 async function scrapePages(token, pages) {
   if (!pages.length) return [];
-  const input = {
-    // Cover both naming conventions — danek/facebook-pages-posts-ppr
-    // requires snake_case max_posts; other actors honor camelCase.
-    startUrls: pages.map((p) => ({ url: p.url })),
-    max_posts: POSTS_PER_PAGE,
-    resultsLimit: POSTS_PER_PAGE,
-    onlyOlderThan: "30 days",
-    onlyNewerThan: "30 days",
-    // Comment-related hints (ignored if not supported).
-    max_comments: 5,
-    maxComments: 5,
-    commentsLimit: 5,
-  };
-  try {
-    const run = await runActor({ token, actorId: PAGE_ACTOR, input });
-    if (run?.status !== "SUCCEEDED") {
-      console.warn(`pages actor ${run?.status}`);
-      return [];
+
+  // Window: only fetch posts from the last 30 days. start_date format
+  // is YYYY-MM-DD per the actor's input schema.
+  const startDate = new Date(Date.now() - 30 * 24 * 60 * 60 * 1000)
+    .toISOString()
+    .slice(0, 10);
+
+  const all = [];
+  let i = 0;
+  for (const page of pages) {
+    i++;
+    const input = {
+      page_url: page.url,
+      max_posts: POSTS_PER_PAGE,
+      start_date: startDate,
+    };
+    try {
+      const run = await runActor({ token, actorId: PAGE_ACTOR, input });
+      if (run?.status !== "SUCCEEDED") {
+        console.warn(`  [${i}/${pages.length}] ${page.name}: ${run?.status}`);
+        continue;
+      }
+      const items = await fetchDatasetItems(token, run.defaultDatasetId);
+      // Tag with the human-readable page name so downstream attribution
+      // doesn't depend on whatever the actor returns.
+      for (const it of items) it.__sourcePageName = page.name;
+      all.push(...items);
+      if (i % 5 === 0 || i === pages.length) {
+        console.log(`  [${i}/${pages.length}] ${page.name}: +${items.length} posts (running total ${all.length})`);
+      }
+    } catch (err) {
+      console.warn(`  [${i}/${pages.length}] ${page.name}: ${err.message.slice(0, 120)}`);
     }
-    return await fetchDatasetItems(token, run.defaultDatasetId);
-  } catch (err) {
-    console.warn(`pages err: ${err.message}`);
-    return [];
   }
+  return all;
 }
 
 async function scrapeGroups(token, groups) {
@@ -292,7 +307,7 @@ async function scrapeCommentsForRelevantPosts(token, items) {
 
 function normalizeItem(raw, fallbackSource = "Facebook") {
   const source = sanitize(
-    firstNonEmpty(raw?.pageName, raw?.groupName, raw?.ownerName, raw?.username, fallbackSource),
+    firstNonEmpty(raw?.__sourcePageName, raw?.pageName, raw?.groupName, raw?.ownerName, raw?.username, fallbackSource),
   );
   const text = sanitize(firstNonEmpty(raw?.text, raw?.content, raw?.postText, raw?.caption, raw?.message));
   const url = firstNonEmpty(raw?.url, raw?.postUrl, raw?.facebookUrl, raw?.permalink, raw?.link);
