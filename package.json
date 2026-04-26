@@ -54,7 +54,8 @@
     "discover:businesses": "node scripts/discover-businesses.mjs",
     "freshness:check": "node scripts/freshness-check.mjs",
     "apply:verification": "node scripts/apply-verification.mjs",
-    "extract:praise": "node scripts/extract-praise-tags.mjs"
+    "extract:praise": "node scripts/extract-praise-tags.mjs",
+    "verify:websites": "node scripts/verify-guide-websites.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.9.0",

@@ -384,7 +384,6 @@
     "description": "Classic downtown bar with daily specials",
     "address": "",
     "city": "Lafayette",
-    "website": "https://www.facebook.com/LegendsLafayette",
     "tags": [
       "Bar",
       "Lafayette"
@@ -416,7 +415,9 @@
       ],
       "source": "happy-hours",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.825Z"
   },
   {
     "name": "Tap Room Youngsville",
@@ -426,7 +427,6 @@
     "description": "Modern neighborhood bar and grill",
     "address": "",
     "city": "Youngsville",
-    "website": "https://www.facebook.com/taproomyoungsville",
     "tags": [
       "Bar & Grill",
       "Youngsville"
@@ -458,7 +458,9 @@
       ],
       "source": "happy-hours",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Abacus Youngsville",
@@ -509,7 +511,6 @@
     "description": "Local watering hole with regular crowd",
     "address": "",
     "city": "Broussard",
-    "website": "https://www.facebook.com/martinsbarbroussard",
     "tags": [
       "Bar",
       "Broussard"
@@ -541,7 +542,9 @@
       ],
       "source": "happy-hours",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Bonefish Grill",
@@ -959,7 +962,6 @@
     "description": "Casual seafood/oyster crowd with patio",
     "address": "",
     "city": "Youngsville",
-    "website": "https://www.facebook.com/uncletsoysterbar",
     "tags": [
       "Seafood Bar",
       "Youngsville"
@@ -991,7 +993,9 @@
       ],
       "source": "happy-hours",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Prejean's",
@@ -1333,7 +1337,6 @@
     "description": "Legendary Creole soul food and plate lunches",
     "address": "",
     "city": "Lafayette",
-    "website": "https://www.facebook.com/lauras2lafayette",
     "tags": [
       "Lafayette",
       "daily-special"
@@ -1366,7 +1369,9 @@
       ],
       "source": "daily-specials",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "T-Coon's",
@@ -1769,7 +1774,6 @@
     "description": "No-frills plate lunches and local crowd",
     "address": "",
     "city": "Lafayette",
-    "website": "https://www.facebook.com/dwightsrestaurantlafayette",
     "tags": [
       "Lafayette",
       "daily-special"
@@ -1801,7 +1805,9 @@
       ],
       "source": "daily-specials",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Zea Rotisserie & Bar",
@@ -1979,7 +1985,6 @@
     "description": "Scott plate lunch regular stop",
     "address": "",
     "city": "Scott",
-    "website": "https://www.facebook.com/oldetymescott",
     "tags": [
       "Scott",
       "daily-special"
@@ -2011,7 +2016,9 @@
       ],
       "source": "daily-specials",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Fezzo's (Broussard)",
@@ -2105,7 +2112,6 @@
     "description": "Grab-and-go Cajun plate lunches",
     "address": "",
     "city": "Lafayette",
-    "website": "https://www.facebook.com/hotfoodexpresslafayette",
     "tags": [
       "Lafayette",
       "daily-special"
@@ -2137,7 +2143,9 @@
       ],
       "source": "daily-specials",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Villagers Cafe",
@@ -2147,7 +2155,6 @@
     "description": "Small-town lunch counter feel",
     "address": "",
     "city": "Youngsville",
-    "website": "https://www.facebook.com/villagerscafeyoungsville",
     "tags": [
       "Youngsville",
       "daily-special"
@@ -2179,7 +2186,9 @@
       ],
       "source": "daily-specials",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Bonnin's Restaurant",
@@ -2189,7 +2198,6 @@
     "description": "Breaux Bridge local plate lunches",
     "address": "",
     "city": "Breaux Bridge",
-    "website": "https://www.facebook.com/bonninsrestaurant",
     "tags": [
       "Breaux Bridge",
       "daily-special"
@@ -2220,7 +2228,9 @@
       ],
       "source": "daily-specials",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Shucks! (Broussard)",
@@ -2272,7 +2282,6 @@
     "description": "Old-school burger baskets and lunch combos",
     "address": "",
     "city": "Lafayette",
-    "website": "https://www.facebook.com/broaddusburger",
     "tags": [
       "Lafayette",
       "daily-special"
@@ -2304,7 +2313,9 @@
       ],
       "source": "daily-specials",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Waffle House (Ambassador)",
@@ -2522,7 +2533,6 @@
     "description": "Late drinks with bar snacks downtown",
     "address": "",
     "city": "Lafayette",
-    "website": "https://www.facebook.com/LegendsLafayette",
     "hours": {
       "close": "2:00 AM"
     },
@@ -2538,7 +2548,9 @@
       "openUntil": "2:00 AM",
       "source": "late-night",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "The Green Room",
@@ -2548,7 +2560,6 @@
     "description": "Late-night downtown bar and food popups",
     "address": "",
     "city": "Lafayette",
-    "website": "https://www.facebook.com/thegreenroomlafayette",
     "hours": {
       "close": "2:00 AM"
     },
@@ -2564,7 +2575,9 @@
       "openUntil": "2:00 AM",
       "source": "late-night",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "The Loft at Parc Village",
@@ -2876,7 +2889,6 @@
     "description": "Soul Food food truck serving Acadiana events.",
     "address": "",
     "city": "Lafayette",
-    "website": "https://www.facebook.com/soulhauslafayette",
     "tags": [
       "Soul Food",
       "food-truck"
@@ -2897,7 +2909,9 @@
       },
       "source": "food-trucks",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Moe's BBQ Trailer",
@@ -2938,7 +2952,6 @@
     "description": "Cajun / Boudin food truck serving Acadiana events.",
     "address": "",
     "city": "Lafayette",
-    "website": "https://www.facebook.com/quebedeauxsboudin",
     "tags": [
       "Cajun / Boudin",
       "food-truck"
@@ -2959,7 +2972,9 @@
       },
       "source": "food-trucks",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "El Taco Loco Truck",
@@ -2969,7 +2984,6 @@
     "description": "Street Tacos food truck serving Acadiana events.",
     "address": "",
     "city": "Lafayette",
-    "website": "https://www.facebook.com/eltacolocolafayette",
     "tags": [
       "Street Tacos",
       "food-truck"
@@ -2990,7 +3004,9 @@
       },
       "source": "food-trucks",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Kona Ice of Lafayette",
@@ -3095,7 +3111,6 @@
     "description": "Creole food truck serving Acadiana events.",
     "address": "",
     "city": "Lafayette",
-    "website": "https://www.facebook.com/ninascreolekitchen",
     "tags": [
       "Creole",
       "food-truck"
@@ -3116,7 +3131,9 @@
       },
       "source": "food-trucks",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Bon Creole Lunch Truck",
@@ -3126,7 +3143,6 @@
     "description": "Plate Lunch / Cajun food truck serving Acadiana events.",
     "address": "",
     "city": "Lafayette",
-    "website": "https://www.facebook.com/boncreoletruck",
     "tags": [
       "Plate Lunch / Cajun",
       "food-truck"
@@ -3147,7 +3163,9 @@
       },
       "source": "food-trucks",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Fête Food Truck",
@@ -3219,7 +3237,6 @@
     "description": "Wings / Fried Chicken food truck serving Acadiana events.",
     "address": "",
     "city": "Lafayette",
-    "website": "https://www.facebook.com/wingfingerstruck",
     "tags": [
       "Wings / Fried Chicken",
       "food-truck"
@@ -3240,7 +3257,9 @@
       },
       "source": "food-trucks",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "PoBoy on Wheels",
@@ -3250,7 +3269,6 @@
     "description": "Po-boys food truck serving Acadiana events.",
     "address": "",
     "city": "Lafayette",
-    "website": "https://www.facebook.com/poboyonwheels",
     "tags": [
       "Po-boys",
       "food-truck"
@@ -3271,7 +3289,9 @@
       },
       "source": "food-trucks",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Sweet Swirls Truck",
@@ -3281,7 +3301,6 @@
     "description": "Desserts / Ice Cream food truck serving Acadiana events.",
     "address": "",
     "city": "Lafayette",
-    "website": "https://www.facebook.com/sweetswirlstruck",
     "tags": [
       "Desserts / Ice Cream",
       "food-truck"
@@ -3302,7 +3321,9 @@
       },
       "source": "food-trucks",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Bayou Bites Truck",
@@ -3793,7 +3814,6 @@
     "description": "Big flavor, tiny budget, great conversation space.",
     "address": "Lafayette",
     "city": "Lafayette",
-    "website": "https://www.facebook.com/lauras2lafayette",
     "priceRange": "$",
     "tags": [
       "Budget-Friendly",
@@ -3813,7 +3833,9 @@
       "vibe": "Budget-Friendly",
       "source": "date-night",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Burgers + Ice Cream",
@@ -3913,7 +3935,6 @@
     "description": "Small-town Cajun charm for cheap.",
     "address": "Breaux Bridge",
     "city": "Breaux Bridge",
-    "website": "https://www.facebook.com/bonninsrestaurant",
     "priceRange": "$",
     "tags": [
       "Budget-Friendly",
@@ -3933,7 +3954,9 @@
       "vibe": "Budget-Friendly",
       "source": "date-night",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Blue Dog Art Night",
@@ -4129,7 +4152,6 @@
     "description": "Neighborhood craft spot with relaxed local crowd",
     "address": "",
     "city": "Lafayette",
-    "website": "https://www.facebook.com/cajunbrewing",
     "tags": [
       "brewery",
       "Lafayette"
@@ -4152,7 +4174,9 @@
       "social": "https://www.instagram.com/cajunbrewing",
       "source": "breweries",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Apocalypse Brew Works",
@@ -4228,7 +4252,6 @@
     "description": "Downtown New Iberia community taproom",
     "address": "",
     "city": "New Iberia",
-    "website": "https://www.facebook.com/atakapabrewing",
     "tags": [
       "brewery",
       "New Iberia"
@@ -4251,7 +4274,9 @@
       "social": "https://www.instagram.com/atakapabrewing",
       "source": "breweries",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Jolie Blonde Brewing Co.",
@@ -4261,7 +4286,6 @@
     "description": "Cajun-inspired branding and easygoing patio hangout",
     "address": "",
     "city": "Lafayette",
-    "website": "https://www.facebook.com/jolieblondebrewing",
     "tags": [
       "brewery",
       "Lafayette"
@@ -4284,7 +4308,9 @@
       "social": "https://www.instagram.com/jolieblondebrewing",
       "source": "breweries",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Adopted Dog Brewing",
@@ -4424,7 +4450,6 @@
     "description": "Craft spirits lab with cocktail lounge style",
     "address": "",
     "city": "Lafayette",
-    "website": "https://www.facebook.com/jimmysdistilling",
     "tags": [
       "distillery",
       "Lafayette"
@@ -4446,7 +4471,9 @@
       "social": "https://www.instagram.com/jimmysdistilling",
       "source": "breweries",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Cane River Craft Spirits Tasting Room",
@@ -4456,7 +4483,6 @@
     "description": "Intimate cocktail-forward tasting room",
     "address": "",
     "city": "Lafayette",
-    "website": "https://www.facebook.com/canerivercraftspirits",
     "tags": [
       "distillery",
       "Lafayette"
@@ -4478,7 +4504,9 @@
       "social": "https://www.instagram.com/canerivercraftspirits",
       "source": "breweries",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Hideaway on Lee Craft Beer Bar",
@@ -4521,7 +4549,6 @@
     "description": "Outdoor-heavy beer garden with games and live DJs",
     "address": "",
     "city": "Lafayette",
-    "website": "https://www.facebook.com/socialbeergardenlafayette",
     "tags": [
       "taproom",
       "Lafayette"
@@ -4544,7 +4571,9 @@
       "social": "https://www.instagram.com/socialbeergardenlafayette",
       "source": "breweries",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Acadian Brewing Project",
@@ -4554,7 +4583,6 @@
     "description": "Growing suburb brewery with neighborhood feel",
     "address": "",
     "city": "Youngsville",
-    "website": "https://www.facebook.com/acadianbrewingproject",
     "tags": [
       "brewery",
       "Youngsville"
@@ -4577,7 +4605,9 @@
       "social": "https://www.instagram.com/acadianbrewingproject",
       "source": "breweries",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Teche Terrace Taproom",
@@ -4587,7 +4617,6 @@
     "description": "Walkable downtown taproom near the bridge district",
     "address": "",
     "city": "Breaux Bridge",
-    "website": "https://www.facebook.com/techeterracetaproom",
     "tags": [
       "taproom",
       "Breaux Bridge"
@@ -4610,7 +4639,9 @@
       "social": "https://www.instagram.com/techeterracetaproom",
       "source": "breweries",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "River Ranch Craft House",
@@ -4620,7 +4651,6 @@
     "description": "Polished taproom for flights and dinner",
     "address": "",
     "city": "Lafayette",
-    "website": "https://www.facebook.com/riverranchcrafthouse",
     "tags": [
       "taproom",
       "Lafayette"
@@ -4642,7 +4672,9 @@
       "social": "https://www.instagram.com/riverranchcrafthouse",
       "source": "breweries",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Rêve Coffee Roasters (River Ranch)",
@@ -4747,7 +4779,6 @@
     "description": "Cozy cottage café with pastries",
     "address": "",
     "city": "Lafayette",
-    "website": "https://www.facebook.com/cafecottagelafayette",
     "tags": [
       "Lafayette",
       "coffee"
@@ -4768,7 +4799,9 @@
       "specialty": "Honey lavender latte",
       "source": "coffee-shops",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "CC's Coffee House (Johnston)",
@@ -4842,7 +4875,6 @@
     "description": "Local boudin stop with strong morning coffee",
     "address": "",
     "city": "Lafayette",
-    "website": "https://www.facebook.com/quebedeauxsboudin",
     "tags": [
       "Lafayette",
       "coffee"
@@ -4862,7 +4894,9 @@
       "specialty": "Café au lait + boudin breakfast combo",
       "source": "coffee-shops",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Villager Café",
@@ -4872,7 +4906,6 @@
     "description": "Neighborhood café with artsy crowd",
     "address": "",
     "city": "Lafayette",
-    "website": "https://www.facebook.com/villagercafelafayette",
     "tags": [
       "Lafayette",
       "coffee"
@@ -4893,7 +4926,9 @@
       "specialty": "Vietnamese iced coffee",
       "source": "coffee-shops",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Carpe Diem! Gelato-Espresso Bar",
@@ -4903,7 +4938,6 @@
     "description": "Downtown dessert-and-espresso hangout",
     "address": "",
     "city": "Lafayette",
-    "website": "https://www.facebook.com/CarpeDiemLafayette",
     "tags": [
       "Lafayette",
       "coffee"
@@ -4924,7 +4958,9 @@
       "specialty": "Affogato and Italian espresso",
       "source": "coffee-shops",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Jet Coffee",
@@ -4996,7 +5032,6 @@
     "description": "Retro diner and coffee nostalgia",
     "address": "",
     "city": "Lafayette",
-    "website": "https://www.facebook.com/BordensLafayette",
     "tags": [
       "Lafayette",
       "coffee"
@@ -5017,7 +5052,9 @@
       "specialty": "Classic drip with malt add-on",
       "source": "coffee-shops",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "God's Grind Coffee House",
@@ -5027,7 +5064,6 @@
     "description": "Faith-based community coffeehouse",
     "address": "",
     "city": "Lafayette",
-    "website": "https://www.facebook.com/godsgrindcoffee",
     "tags": [
       "Lafayette",
       "coffee"
@@ -5048,7 +5084,9 @@
       "specialty": "Praline latte",
       "source": "coffee-shops",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Roots Coffee Bar",
@@ -5089,7 +5127,6 @@
     "description": "Tourist-friendly bridge town coffee stop",
     "address": "",
     "city": "Breaux Bridge",
-    "website": "https://www.facebook.com/bayoubrewcoffeehouse",
     "tags": [
       "Breaux Bridge",
       "coffee"
@@ -5110,7 +5147,9 @@
       "specialty": "Cane syrup latte",
       "source": "coffee-shops",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "The Main Cup",
@@ -5120,7 +5159,6 @@
     "description": "Main street café with local art walls",
     "address": "",
     "city": "Abbeville",
-    "website": "https://www.facebook.com/themaincupabbeville",
     "tags": [
       "Abbeville",
       "coffee"
@@ -5141,7 +5179,9 @@
       "specialty": "Vanilla bean iced latte",
       "source": "coffee-shops",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Church Alley Café & Coffee",
@@ -5243,7 +5283,6 @@
     "description": "Quiet garden patio coffee + lunch",
     "address": "",
     "city": "Lafayette",
-    "website": "https://www.facebook.com/cafevermilionbean",
     "tags": [
       "Lafayette",
       "coffee"
@@ -5264,7 +5303,9 @@
       "specialty": "House-made chicory latte",
       "source": "coffee-shops",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Lafayette Farmers & Artisans Market",
@@ -5305,7 +5346,6 @@
     "description": "Fresh vegetables, jams, local seafood, artisan goods",
     "address": "220 W Main St, New Iberia",
     "city": "Lafayette",
-    "website": "https://www.facebook.com/hubcityfarmersmarket",
     "hours": {
       "open": "9 AM-1 PM"
     },
@@ -5326,7 +5366,9 @@
       "parking": "Street parking and municipal lot",
       "source": "farmers-markets",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Jockey Lot Produce Market",
@@ -5336,7 +5378,6 @@
     "description": "Bulk produce, plants, local vendors, flea-market finds",
     "address": "301 N Eola Rd, Lafayette",
     "city": "Lafayette",
-    "website": "https://www.facebook.com/lafayettejockeylot",
     "hours": {
       "open": "7 AM-2 PM"
     },
@@ -5359,7 +5400,9 @@
       "parking": "Free gravel lot",
       "source": "farmers-markets",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Teche Area Farmers Market",
@@ -5369,7 +5412,6 @@
     "description": "After-work produce pickup, honey, homemade breads",
     "address": "Bouligny Plaza, New Iberia",
     "city": "Lafayette",
-    "website": "https://www.facebook.com/techeareafarmersmarket",
     "hours": {
       "open": "4 PM-7 PM"
     },
@@ -5390,7 +5432,9 @@
       "parking": "Downtown street parking",
       "source": "farmers-markets",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Youngsville Farmers Market",
@@ -5400,7 +5444,6 @@
     "description": "Family-friendly market with produce, sweets, food vendors",
     "address": "Sports Complex, 801 Savoy Rd, Youngsville",
     "city": "Lafayette",
-    "website": "https://www.facebook.com/youngsvillefarmersmarket",
     "hours": {
       "open": "4 PM-7 PM"
     },
@@ -5421,7 +5464,9 @@
       "parking": "Large sports complex parking",
       "source": "farmers-markets",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Broussard Community Market",
@@ -5431,7 +5476,6 @@
     "description": "Small local growers, eggs, value-added goods",
     "address": "Broussard City Hall, 310 E Main St, Broussard",
     "city": "Lafayette",
-    "website": "https://www.facebook.com/broussardcommunitymarket",
     "hours": {
       "open": "4 PM-7 PM"
     },
@@ -5452,7 +5496,9 @@
       "parking": "City hall lot",
       "source": "farmers-markets",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Sunset Open Air Market",
@@ -5462,7 +5508,6 @@
     "description": "Produce + antiques + handmade soaps and preserves",
     "address": "Town Hall Square, Sunset",
     "city": "Lafayette",
-    "website": "https://www.facebook.com/sunsetopenairmarket",
     "hours": {
       "open": "8 AM-12 PM"
     },
@@ -5483,7 +5528,9 @@
       "parking": "Street parking around town square",
       "source": "farmers-markets",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Abbeville Fresh Market",
@@ -5493,7 +5540,6 @@
     "description": "Regional produce, local rice products, baked treats",
     "address": "Magdalen Square, Abbeville",
     "city": "Lafayette",
-    "website": "https://www.facebook.com/abbevillefreshmarket",
     "hours": {
       "open": "8 AM-11 AM"
     },
@@ -5514,7 +5560,9 @@
       "parking": "Downtown curbside and public lots",
       "source": "farmers-markets",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Carencro Farmers Market",
@@ -5524,7 +5572,6 @@
     "description": "Neighborhood produce stand style market",
     "address": "200 N Church St, Carencro",
     "city": "Lafayette",
-    "website": "https://www.facebook.com/carencrofarmersmarket",
     "hours": {
       "open": "4 PM-7 PM"
     },
@@ -5545,7 +5592,9 @@
       "parking": "Church and city lots",
       "source": "farmers-markets",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Breaux Bridge Farmers Market",
@@ -5555,7 +5604,6 @@
     "description": "Local produce, Cajun food vendors, crafts",
     "address": "Downtown Breaux Bridge, Parc Hardy",
     "city": "Lafayette",
-    "website": "https://www.facebook.com/breauxbridgefarmersmarket",
     "hours": {
       "open": "8 AM-12 PM"
     },
@@ -5576,7 +5624,9 @@
       "parking": "Parc Hardy lot + nearby streets",
       "source": "farmers-markets",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Louisiana Sugar Cane Festival",
@@ -5644,7 +5694,6 @@
     "description": "Family-friendly carnival with rides, bands, and local food booths.",
     "address": "Carencro",
     "city": "Carencro",
-    "website": "https://www.facebook.com/carencromardigrasfair",
     "tags": [
       "February",
       "festival"
@@ -5663,7 +5712,9 @@
       "tips": "Bring cash for booths.",
       "source": "festivals",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Courir de Mardi Gras (Rural Runs)",
@@ -5702,7 +5753,6 @@
     "description": "Suburban Mardi Gras parade with family krewe floats.",
     "address": "Youngsville",
     "city": "Youngsville",
-    "website": "https://www.facebook.com/youngsvillemardigras",
     "tags": [
       "February",
       "festival"
@@ -5721,7 +5771,9 @@
       "tips": "Bring chairs and beads bags for kids.",
       "source": "festivals",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "International Cajun-Zydeco Festival",
@@ -5760,7 +5812,6 @@
     "description": "St. Paddy parade with green-themed block party downtown.",
     "address": "Downtown Lafayette",
     "city": "Downtown Lafayette",
-    "website": "https://www.facebook.com/lafayettestpatricksparade",
     "tags": [
       "March",
       "festival"
@@ -5779,7 +5830,9 @@
       "tips": "Parking fills up quickly downtown.",
       "source": "festivals",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Festival International de Louisiane",
@@ -5905,7 +5958,6 @@
     "description": "Celebration of Spanish heritage with dancing and cultural exhibits.",
     "address": "New Iberia",
     "city": "New Iberia",
-    "website": "https://www.facebook.com/festivalespanolnuevaiberia",
     "tags": [
       "April",
       "festival"
@@ -5924,7 +5976,9 @@
       "tips": "Great event for family cultural activities.",
       "source": "festivals",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Rayne Frog Festival",
@@ -5992,7 +6046,6 @@
     "description": "Classic small-town Independence Day celebration with parade and fireworks.",
     "address": "Erath",
     "city": "Erath",
-    "website": "https://www.facebook.com/erath4th",
     "tags": [
       "July",
       "festival"
@@ -6011,7 +6064,9 @@
       "tips": "Stay for evening fireworks finale.",
       "source": "festivals",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Uncle Sam's Jam",
@@ -6253,7 +6308,6 @@
     "description": "Competitive boudin tasting event with live local bands.",
     "address": "Broussard",
     "city": "Broussard",
-    "website": "https://www.facebook.com/broussardboudincookoff",
     "tags": [
       "November",
       "festival"
@@ -6272,7 +6326,9 @@
       "tips": "Buy tasting wristbands in advance.",
       "source": "festivals",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Acadian Village Noel Celebration",
@@ -6340,7 +6396,6 @@
     "description": "Paddle, music, and ecology festival celebrating Bayou Teche.",
     "address": "Parks and Bayou Teche corridor",
     "city": "Parks and Bayou Teche corridor",
-    "website": "https://www.facebook.com/geauxteche",
     "tags": [
       "October",
       "festival"
@@ -6359,7 +6414,9 @@
       "tips": "Book paddle tours ahead.",
       "source": "festivals",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "St. Landry BBQ Festival",
@@ -6369,7 +6426,6 @@
     "description": "Regional barbecue festival with cook teams and live music.",
     "address": "Opelousas",
     "city": "Opelousas",
-    "website": "https://www.facebook.com/stlandrybbqfestival",
     "tags": [
       "September",
       "festival"
@@ -6388,7 +6444,9 @@
       "tips": "Bring folding chair for evening sets.",
       "source": "festivals",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "World Championship Gumbo Cookoff",
@@ -6427,7 +6485,6 @@
     "description": "Celebrates Gulf seafood with chef demos and family zones.",
     "address": "New Iberia",
     "city": "New Iberia",
-    "website": "https://www.facebook.com/laseafoodheritagefestival",
     "tags": [
       "June",
       "festival"
@@ -6446,7 +6503,9 @@
       "tips": "Attend chef demo tents before dinner rush.",
       "source": "festivals",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "St. John's Fall Fair",
@@ -6456,7 +6515,6 @@
     "description": "Parish fair with carnival rides and local performances.",
     "address": "Lafayette",
     "city": "Lafayette",
-    "website": "https://www.facebook.com/stjohnsfairlafayette",
     "tags": [
       "October",
       "festival"
@@ -6475,7 +6533,9 @@
       "tips": "Great for families with younger kids.",
       "source": "festivals",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Allons à Lafayette",
@@ -6514,7 +6574,6 @@
     "description": "Free citywide music day inspired by the French tradition.",
     "address": "Downtown Lafayette",
     "city": "Downtown Lafayette",
-    "website": "https://www.facebook.com/fetedelamusiquelafayette",
     "tags": [
       "June",
       "festival"
@@ -6533,7 +6592,9 @@
       "tips": "Walk between stages for variety.",
       "source": "festivals",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Bastille Day Fête",
@@ -7280,7 +7341,6 @@
     "description": "Atchafalaya levee dance stop with decades of local tradition.",
     "address": "Henderson",
     "city": "Henderson",
-    "website": "https://www.facebook.com/angelleswhiskeyriverlanding",
     "tags": [
       "both",
       "dance-hall"
@@ -7298,7 +7358,9 @@
       "food": true,
       "source": "dance-halls",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Fred's Lounge",
@@ -7308,7 +7370,6 @@
     "description": "World-famous Saturday Cajun jam and dance ritual.",
     "address": "Mamou",
     "city": "Mamou",
-    "website": "https://www.facebook.com/fredsloungemamou",
     "tags": [
       "cajun",
       "dance-hall"
@@ -7325,7 +7386,9 @@
       "food": false,
       "source": "dance-halls",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.828Z"
   },
   {
     "name": "Liberty Theater (Rendez-vous des Cajuns)",
@@ -7444,7 +7507,6 @@
     "description": "Classic zydeco roadhouse known for packed dance floors.",
     "address": "Lawtell / Opelousas area",
     "city": "Lawtell / Opelousas area",
-    "website": "https://www.facebook.com/richardsclubla",
     "tags": [
       "zydeco",
       "dance-hall"
@@ -7461,7 +7523,9 @@
       "food": false,
       "source": "dance-halls",
       "lastUpdated": "2026-03-26"
-    }
+    },
+    "website": null,
+    "_websiteRemovedAt": "2026-04-26T21:17:25.829Z"
   },
   {
     "name": "Buck & Johnny's Zydeco Breakfast",
