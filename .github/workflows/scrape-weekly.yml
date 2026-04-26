@@ -79,12 +79,21 @@ jobs:
         env:
           TRIPADVISOR_API_KEY: ${{ secrets.TRIPADVISOR_API_KEY }}
 
-      - name: Apify Facebook pipeline (public pages → facebook-feed.json)
-        run: node scripts/apify-facebook-pipeline.mjs
-        continue-on-error: true
-        env:
-          APIFY_API_KEY: ${{ secrets.APIFY_API_KEY }}
-          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      # Apify FB pipeline — disabled 2026-04-26.
+      # All FB scrapers on Apify Store now require paid plan ($49/mo Starter
+      # minimum). Free tier accounts hit "Actor only for paid users" and
+      # exit with 0 items. To re-enable: upgrade Apify, set
+      # APIFY_FB_ENABLED=true, uncomment below. Until then the autonomous
+      # "best of" pipeline lives entirely in extract-praise-tags.mjs
+      # (Google reviews → community-recs) and the Chrome extension at
+      # extension/ covers private-group capture manually.
+      #
+      # - name: Apify Facebook pipeline (public pages → facebook-feed.json)
+      #   run: node scripts/apify-facebook-pipeline.mjs
+      #   continue-on-error: true
+      #   env:
+      #     APIFY_API_KEY: ${{ secrets.APIFY_API_KEY }}
+      #     OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
 
       # ── Post-scrape processing ─────────────────────────────────────────────
 
