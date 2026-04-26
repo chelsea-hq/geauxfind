@@ -185,7 +185,7 @@ export default function Home() {
 
           {/* GeauxFind logo accent */}
           <div className="fade-up stagger-4 mt-4 md:absolute md:-right-4 md:bottom-0 md:mt-0">
-            <Image src="/logo-icon-transparent.svg" alt="GeauxFind" width={100} height={100} className="h-auto w-16 opacity-90 drop-shadow-lg md:w-24" unoptimized />
+            <Image src="/logo-icon-transparent.png" alt="GeauxFind" width={100} height={100} className="h-auto w-16 opacity-90 drop-shadow-lg md:w-24" unoptimized />
           </div>
         </div>
       </section>

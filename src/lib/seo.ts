@@ -5,7 +5,7 @@ export const SITE_NAME = "GeauxFind";
 
 // Bump when the /api/og visual template changes so Facebook/Twitter/iMessage
 // caches refetch the new art. Appended as ?v=N on dynamic OG URLs.
-export const OG_CACHE_VERSION = 2;
+export const OG_CACHE_VERSION = 3;
 
 export function absoluteUrl(path = "/") {
   return `${SITE_URL}${path === "/" ? "" : path}`;

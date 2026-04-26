@@ -54,7 +54,7 @@ export function SiteHeader() {
     <header className="sticky top-0 z-40 border-b border-[var(--spanish-moss)]/25 bg-[rgba(250,247,242,0.76)] backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
         <Link href="/" aria-label="GeauxFind home" className="inline-flex items-center">
-          <Image src="/logo-icon-transparent.svg" alt="GeauxFind" width={42} height={42} className="h-8 w-8 md:h-10 md:w-10" priority unoptimized />
+          <Image src="/logo-icon-transparent.png" alt="GeauxFind" width={42} height={42} className="h-8 w-8 md:h-10 md:w-10" priority unoptimized />
           <span className="ml-2 font-[family-name:var(--font-display)] text-xl font-bold text-[var(--cast-iron)] md:text-2xl">GeauxFind</span>
         </Link>
 

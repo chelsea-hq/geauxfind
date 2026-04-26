@@ -30,13 +30,12 @@ export const metadata: Metadata = {
   manifest: "/manifest.json",
   icons: {
     icon: [
-      { url: "/logo-icon-transparent.svg", type: "image/svg+xml" },
-      { url: "/favicon.ico", sizes: "32x32" },
       { url: "/icon.png", sizes: "192x192", type: "image/png" },
       { url: "/icon-512.png", sizes: "512x512", type: "image/png" },
+      { url: "/favicon.ico", sizes: "32x32" },
     ],
     apple: "/apple-touch-icon.png",
-    shortcut: "/logo-icon-transparent.svg",
+    shortcut: "/icon.png",
   },
   openGraph: {
     title: "GeauxFind — Discover Acadiana",
