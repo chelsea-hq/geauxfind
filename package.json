@@ -45,6 +45,8 @@
     "parse:fb-dumps": "node scripts/parse-fb-dumps.mjs",
     "scrape:all": "bash scripts/run-all-scrapers.sh",
     "merge:events": "node scripts/merge-events.mjs",
+    "verify:and:refresh": "node scripts/verify-and-refresh.mjs",
+    "refresh:photos": "node scripts/refresh-place-photos.mjs",
     "scrape:weekend-events": "node scripts/scrape-weekend-events.js",
     "scrape:specials": "node scripts/scrape-specials.js",
     "assign:neighborhoods": "node scripts/assign-neighborhoods.js",

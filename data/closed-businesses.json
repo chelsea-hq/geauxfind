@@ -37,6 +37,15 @@
       "source": "state-md",
       "closedAt": "2026-03-25",
       "matchNames": ["Fuji Sushi House"]
+    },
+    {
+      "slug": "twin-peaks-lafayette",
+      "name": "Twin Peaks",
+      "status": "closed",
+      "reason": "Lafayette location closed permanently — reported by user 2026-04-25.",
+      "source": "user:chelsea",
+      "closedAt": "2026-04-25",
+      "matchNames": ["Twin Peaks", "Twin Peaks Lafayette", "Twin Peaks Restaurant"]
     }
   ]
 }

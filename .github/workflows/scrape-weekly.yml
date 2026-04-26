@@ -95,6 +95,12 @@ jobs:
         run: node scripts/generate-smart-tags.mjs
         continue-on-error: true
 
+      - name: Verify businesses + refresh photos (Google Places)
+        run: node scripts/verify-and-refresh.mjs
+        env:
+          GOOGLE_PLACES_API_KEY: ${{ secrets.GOOGLE_PLACES_API_KEY }}
+        continue-on-error: true
+
       # ── Commit updated data ────────────────────────────────────────────────
 
       - name: Commit and push updated data

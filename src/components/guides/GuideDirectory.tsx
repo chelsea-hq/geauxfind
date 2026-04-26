@@ -3,6 +3,7 @@
 import { useCallback, useMemo, useState } from "react";
 import guides from "../../../data/guides.json";
 import type { GuideGrouping } from "@/lib/guide-config";
+import { filterOperational } from "@/lib/place-status";
 
 type Guide = {
   name: string;
@@ -149,7 +150,7 @@ export function GuideDirectory({
   const [groupFilter, setGroupFilter] = useState("All");
 
   const items = useMemo(
-    () => (guides as Guide[]).filter((item) => item.category === category),
+    () => filterOperational((guides as Guide[]).filter((item) => item.category === category)),
     [category],
   );
 
