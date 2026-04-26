@@ -39,9 +39,16 @@ const POLL_TIMEOUT_MS = 6 * 60 * 1000;
 
 const PAGE_ACTOR = "danek~facebook-pages-posts-ppr";
 const GROUP_ACTOR = "danek~facebook-groups-lite";
+const COMMENTS_ACTOR = "danek~facebook-comments-scraper";
 
 const POSTS_PER_PAGE = 10;
 const POSTS_PER_GROUP = 25;
+// Comments per post — the recommendation answers live here. Cap low to
+// keep AI-filter token costs reasonable on PPR pricing.
+const COMMENTS_PER_POST = 25;
+// Only fetch comments for posts where the original text smells like a
+// "where can I find best X" question. Cuts comment-scrape cost ~80%.
+const COMMENT_TRIGGER_REGEX = /\b(best|favorite|recommend|where (?:can|to (?:find|get))|anyone tried|need (?:a |the )?good|looking for|y'?all)\b/i;
 
 const TARGETS_PATH = path.join(root, "data", "fb-targets.json");
 const FEED_PATH = path.join(root, "data", "facebook-feed.json");
@@ -182,6 +189,10 @@ async function scrapePages(token, pages) {
     startUrls: pages.map((p) => ({ url: p.url })),
     resultsLimit: POSTS_PER_PAGE,
     onlyPostsNewerThan: "30 days",
+    // Many danek pages actors honor these even though docs vary; ignored
+    // if not supported, no harm done.
+    maxComments: 5,
+    commentsLimit: 5,
   };
   try {
     const run = await runActor({ token, actorId: PAGE_ACTOR, input });
@@ -201,6 +212,8 @@ async function scrapeGroups(token, groups) {
   const input = {
     startUrls: groups.map((g) => ({ url: g.url })),
     resultsLimit: POSTS_PER_GROUP,
+    maxComments: COMMENTS_PER_POST,
+    commentsLimit: COMMENTS_PER_POST,
   };
   try {
     const run = await runActor({ token, actorId: GROUP_ACTOR, input });
@@ -215,6 +228,54 @@ async function scrapeGroups(token, groups) {
   }
 }
 
+// Scrape comments for posts that look like recommendation questions.
+// Runs as a second-stage pass against the dedicated comments actor —
+// only triggers on posts matching COMMENT_TRIGGER_REGEX so we don't
+// burn budget on every restaurant's promo posts.
+async function scrapeCommentsForRelevantPosts(token, items) {
+  const triggers = items.filter(
+    (i) => i.sourceUrl && i.text && COMMENT_TRIGGER_REGEX.test(i.text),
+  );
+  if (!triggers.length) return new Map();
+
+  console.log(`Fetching comments for ${triggers.length} likely "where to find X" posts...`);
+
+  const input = {
+    startUrls: triggers.map((i) => ({ url: i.sourceUrl })),
+    resultsLimit: COMMENTS_PER_POST,
+    includeNestedComments: true,
+  };
+  try {
+    const run = await runActor({ token, actorId: COMMENTS_ACTOR, input });
+    if (run?.status !== "SUCCEEDED") {
+      console.warn(`comments actor ${run?.status}`);
+      return new Map();
+    }
+    const raw = await fetchDatasetItems(token, run.defaultDatasetId, 2000);
+
+    // Bucket comments by the post URL they came from so we can attach
+    // them back to the right item.
+    const byPost = new Map();
+    for (const c of raw) {
+      const postUrl = firstNonEmpty(c?.postUrl, c?.parentPostUrl, c?.sourceUrl, c?.url);
+      const text = sanitize(firstNonEmpty(c?.text, c?.commentText, c?.content));
+      if (!postUrl || !text) continue;
+      if (!byPost.has(postUrl)) byPost.set(postUrl, []);
+      byPost.get(postUrl).push({
+        author: sanitize(firstNonEmpty(c?.authorName, c?.author, c?.userName, "Community")),
+        text: text.slice(0, 400),
+        likes: safeNum(firstNonEmpty(c?.likesCount, c?.likes, c?.reactions)),
+      });
+    }
+    // Sort each bucket by likes desc so top voices come first.
+    for (const arr of byPost.values()) arr.sort((a, b) => b.likes - a.likes);
+    return byPost;
+  } catch (err) {
+    console.warn(`comments err: ${err.message}`);
+    return new Map();
+  }
+}
+
 function normalizeItem(raw, fallbackSource = "Facebook") {
   const source = sanitize(
     firstNonEmpty(raw?.pageName, raw?.groupName, raw?.ownerName, raw?.username, fallbackSource),
@@ -225,6 +286,18 @@ function normalizeItem(raw, fallbackSource = "Facebook") {
   const images = extractArray(raw, ["images", "imageUrls", "media", "attachments"])
     .map((img) => (typeof img === "string" ? img : img?.url || img?.src))
     .filter(Boolean);
+
+  // Inline comments — danek actors sometimes return comments alongside
+  // posts on a single fetch. Capture if present.
+  const inlineComments = extractArray(raw, ["comments", "topComments", "recentComments", "commentsList"])
+    .slice(0, COMMENTS_PER_POST)
+    .map((c) => ({
+      author: sanitize(firstNonEmpty(c?.authorName, c?.author, c?.userName, "Community")),
+      text: sanitize(firstNonEmpty(c?.text, c?.commentText, c?.content)).slice(0, 400),
+      likes: safeNum(firstNonEmpty(c?.likesCount, c?.likes, c?.reactions)),
+    }))
+    .filter((c) => c.text);
+
   return {
     source,
     sourceUrl: url || "",
@@ -234,6 +307,7 @@ function normalizeItem(raw, fallbackSource = "Facebook") {
     likes: safeNum(firstNonEmpty(raw?.likesCount, raw?.likes, raw?.reactionsCount, raw?.reactions)),
     comments: safeNum(firstNonEmpty(raw?.commentsCount, raw?.comments, raw?.commentCount)),
     shares: safeNum(firstNonEmpty(raw?.sharesCount, raw?.shares, raw?.shareCount)),
+    commentTexts: inlineComments,
   };
 }
 
@@ -249,7 +323,11 @@ function deriveTitleAndSummary(source, text) {
 }
 
 function toFeedItem(base) {
-  const category = categorize(base.text);
+  // Combine post text + comment texts so the AI relevance filter and
+  // any downstream parsing (extract-recs-from-fb-posts) sees the full
+  // recommendation thread, not just the question.
+  const combinedForCategorize = [base.text, ...(base.commentTexts || []).map((c) => c.text)].join(" ");
+  const category = categorize(combinedForCategorize);
   const { title, summary } = deriveTitleAndSummary(base.source, base.text);
   return {
     id: buildId(base.source, base.sourceUrl, base.date, base.text),
@@ -266,6 +344,7 @@ function toFeedItem(base) {
       comments: base.comments,
       shares: base.shares,
     },
+    topComments: (base.commentTexts || []).slice(0, 10),
   };
 }
 
@@ -277,12 +356,21 @@ async function callOpenRouterRelevance(items, key) {
 
   const scores = new Map();
   for (const batch of batches) {
-    const prompt = `Score each Facebook post 0.0-1.0 for relevance to "Acadiana food, restaurants, events, or local news worth surfacing on a Lafayette discovery website". 1.0 = great signal (new restaurant, event, food news). 0.0 = noise (politics, generic life updates, ads, religion, jokes).
+    const prompt = `Score each Facebook post 0.0-1.0 for relevance to "Acadiana food, restaurants, events, or local news worth surfacing on a Lafayette discovery website". 1.0 = great signal (new restaurant, event, food news, OR a "where can I find best X" thread with named recommendations in the comments). 0.0 = noise (politics, generic life updates, ads, religion, jokes).
 
 Return strict JSON: { "scores": [{ "id": "<id>", "score": <0-1>, "reason": "<short>" }] }
 
-Posts:
-${batch.map((b) => `[${b.id}] ${b.source}: ${b.text.slice(0, 280)}`).join("\n")}`;
+Posts (with top comments where available):
+${batch
+  .map((b) => {
+    const post = b.text.slice(0, 280);
+    const comments = (b.topComments || [])
+      .slice(0, 3)
+      .map((c) => `   ↳ ${c.author || "?"}: ${(c.text || "").slice(0, 140)}`)
+      .join("\n");
+    return `[${b.id}] ${b.source}: ${post}${comments ? "\n" + comments : ""}`;
+  })
+  .join("\n\n")}`;
 
     try {
       const res = await fetch("https://openrouter.ai/api/v1/chat/completions", {
@@ -360,8 +448,29 @@ async function main() {
     .filter((item) => item.text && item.sourceUrl);
   console.log(`Normalized: ${all.length}`);
 
-  // Stage 1: keyword pre-filter (cheap)
-  const keywordPassed = all.filter((item) => isRelevantByKeyword(item.text));
+  // Stage 1.5: top up missing comments via the dedicated comments actor
+  // for posts that look like "where can I find best X" questions.
+  const haveInlineComments = all.filter((i) => (i.commentTexts || []).length > 0).length;
+  console.log(`Posts with inline comments: ${haveInlineComments}/${all.length}`);
+  if (haveInlineComments < all.length / 2) {
+    const commentsByPost = await scrapeCommentsForRelevantPosts(apifyToken, all);
+    let backfilled = 0;
+    for (const item of all) {
+      if ((item.commentTexts || []).length > 0) continue;
+      const fetched = commentsByPost.get(item.sourceUrl);
+      if (fetched && fetched.length) {
+        item.commentTexts = fetched.slice(0, COMMENTS_PER_POST);
+        backfilled++;
+      }
+    }
+    console.log(`Backfilled comments on ${backfilled} posts`);
+  }
+
+  // Stage 2: keyword pre-filter (cheap) — searches post + comments
+  const keywordPassed = all.filter((item) => {
+    const combined = [item.text, ...(item.commentTexts || []).map((c) => c.text)].join(" ");
+    return isRelevantByKeyword(combined);
+  });
   console.log(`Keyword-passed: ${keywordPassed.length}`);
 
   // Stage 2: optional AI relevance scoring (better signal)
