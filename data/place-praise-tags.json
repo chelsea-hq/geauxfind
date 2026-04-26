@@ -23,5 +23,5746 @@
     "reviewCount": 3,
     "extractedAt": "2026-04-26T19:42:14.679Z",
     "topics": []
+  },
+  "aunt-angie-s-cakery-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:50:28.985Z",
+    "topics": [
+      {
+        "topic": "cupcakes",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "wedding cake",
+        "confidence": 0.8,
+        "mention_count": 2
+      },
+      {
+        "topic": "chocolate cake",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "boudin-and-cracklins-rayne": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:50:30.594Z",
+    "topics": [
+      {
+        "topic": "boudin",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "chicken cracklings",
+        "confidence": 0.9,
+        "mention_count": 1
+      }
+    ]
+  },
+  "church-alley-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:50:31.809Z",
+    "topics": [
+      {
+        "topic": "frappe",
+        "confidence": 0.9,
+        "mention_count": 1
+      }
+    ]
+  },
+  "city-park-gazebo-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:50:32.473Z",
+    "topics": []
+  },
+  "collette-s-seafood-henderson": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:50:33.225Z",
+    "topics": [
+      {
+        "topic": "catfish",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "fish",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "holy-rosary-institute-marker-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:50:34.419Z",
+    "topics": []
+  },
+  "hunt-s-perfect-roast-scott": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:50:35.414Z",
+    "topics": [
+      {
+        "topic": "coffee",
+        "confidence": 1,
+        "mention_count": 3
+      }
+    ]
+  },
+  "janice-the-cat-lady-swing-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:50:36.219Z",
+    "topics": []
+  },
+  "komade-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:50:36.976Z",
+    "topics": [
+      {
+        "topic": "coffee",
+        "confidence": 0.9,
+        "mention_count": 3
+      },
+      {
+        "topic": "cortado",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "latte",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "avocado toast",
+        "confidence": 0.7,
+        "mention_count": 1
+      },
+      {
+        "topic": "breakfast sandwiches",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "locals-pub-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:50:37.508Z",
+    "topics": []
+  },
+  "mac-and-pea-s-cafe-rayne": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:50:38.305Z",
+    "topics": []
+  },
+  "maggie-s-organic-market-acadiana-mall-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:50:39.257Z",
+    "topics": []
+  },
+  "memramcook-park-scott": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:50:39.795Z",
+    "topics": []
+  },
+  "nora-s-sweets-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:50:40.747Z",
+    "topics": [
+      {
+        "topic": "cheesecake",
+        "confidence": 0.9,
+        "mention_count": 1
+      }
+    ]
+  },
+  "nube-9-coffee-scott": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:50:42.330Z",
+    "topics": [
+      {
+        "topic": "coffee",
+        "confidence": 0.9,
+        "mention_count": 3
+      },
+      {
+        "topic": "matcha",
+        "confidence": 0.8,
+        "mention_count": 2
+      },
+      {
+        "topic": "cold brew",
+        "confidence": 0.7,
+        "mention_count": 2
+      }
+    ]
+  },
+  "perry-outfitters-abbeville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:50:42.856Z",
+    "topics": []
+  },
+  "pinspiration-lafayette-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:50:43.461Z",
+    "topics": []
+  },
+  "pont-breaux-coffee-house-breaux-bridge": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:50:44.006Z",
+    "topics": [
+      {
+        "topic": "coffee",
+        "confidence": 1,
+        "mention_count": 3
+      }
+    ]
+  },
+  "public-parking-for-walking-track-scott": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:50:44.473Z",
+    "topics": []
+  },
+  "rayne-donuts-rayne": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:50:46.319Z",
+    "topics": [
+      {
+        "topic": "donuts",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "frappes",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "cake donuts",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "s-t-donuts-opelousas": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:50:47.505Z",
+    "topics": [
+      {
+        "topic": "donut holes",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "kolaches",
+        "confidence": 0.9,
+        "mention_count": 1
+      }
+    ]
+  },
+  "sassy-s-daiquiris-eunice": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:50:48.328Z",
+    "topics": [
+      {
+        "topic": "daiquiris",
+        "confidence": 0.9,
+        "mention_count": 2
+      }
+    ]
+  },
+  "spicy-exotics-carencro": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:50:48.860Z",
+    "topics": []
+  },
+  "tommy-b-s-night-club-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:50:49.444Z",
+    "topics": []
+  },
+  "trik-nite-rayne": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:50:50.221Z",
+    "topics": [
+      {
+        "topic": "potato salad",
+        "confidence": 0.9,
+        "mention_count": 1
+      }
+    ]
+  },
+  "tut-s-bakery-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:50:51.379Z",
+    "topics": [
+      {
+        "topic": "macarons",
+        "confidence": 0.9,
+        "mention_count": 3
+      },
+      {
+        "topic": "galaxy",
+        "confidence": 0.6,
+        "mention_count": 1
+      },
+      {
+        "topic": "strawberry cream cheese",
+        "confidence": 0.6,
+        "mention_count": 1
+      }
+    ]
+  },
+  "walmart-bakery-carencro": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:50:51.629Z",
+    "topics": []
+  },
+  "wright-at-home-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:50:52.135Z",
+    "topics": [
+      {
+        "topic": "bread",
+        "confidence": 0.9,
+        "mention_count": 3
+      },
+      {
+        "topic": "cookies",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "a-cheveux-salon-and-coffee-bar-abbeville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:50:53.909Z",
+    "topics": [
+      {
+        "topic": "quesadillas",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "iced turtle latte",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "smore latte",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "abbey-players-abbeville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:50:54.345Z",
+    "topics": []
+  },
+  "acadiana-daiquiri-depot-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:50:54.861Z",
+    "topics": [
+      {
+        "topic": "daiquiris",
+        "confidence": 1,
+        "mention_count": 3
+      },
+      {
+        "topic": "jello shots",
+        "confidence": 1,
+        "mention_count": 1
+      }
+    ]
+  },
+  "atchafalaya-basin-landing-airboat-swamp-tours-henderson": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:50:55.336Z",
+    "topics": []
+  },
+  "boulet-s-boil-n-go-rayne-la-rayne": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:50:56.113Z",
+    "topics": [
+      {
+        "topic": "crawfish",
+        "confidence": 1,
+        "mention_count": 3
+      }
+    ]
+  },
+  "cantinas-downtown-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:50:58.322Z",
+    "topics": [
+      {
+        "topic": "margarita",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "beer",
+        "confidence": 0.8,
+        "mention_count": 2
+      },
+      {
+        "topic": "mix drinks",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "doyle-s-drive-thru-daiquris-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:00.336Z",
+    "topics": [
+      {
+        "topic": "daiquiris",
+        "confidence": 1,
+        "mention_count": 3
+      },
+      {
+        "topic": "liquid mj",
+        "confidence": 1,
+        "mention_count": 1
+      }
+    ]
+  },
+  "eunice-players-theatre-eunice": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:01.452Z",
+    "topics": []
+  },
+  "harris-park-eunice": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:01.927Z",
+    "topics": []
+  },
+  "home-cut-donuts-youngsville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:02.526Z",
+    "topics": [
+      {
+        "topic": "donuts",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "kolaches",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "it-s-just-a-cookie-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:03.546Z",
+    "topics": [
+      {
+        "topic": "cookies",
+        "confidence": 0.9,
+        "mention_count": 3
+      }
+    ]
+  },
+  "jett-s-crawfish-drive-thru-rayne": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:04.550Z",
+    "topics": [
+      {
+        "topic": "crawfish",
+        "confidence": 1,
+        "mention_count": 3
+      }
+    ]
+  },
+  "la-cheesecake-bakery-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:05.130Z",
+    "topics": [
+      {
+        "topic": "cheesecake",
+        "confidence": 0.9,
+        "mention_count": 3
+      },
+      {
+        "topic": "coffee",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "cheesecake brownie",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "lafayette-restaurant-blazin-hot-chicken-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:06.090Z",
+    "topics": [
+      {
+        "topic": "crunch wrap",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "chicken tenders",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "fries",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "magdalen-square-abbeville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:06.755Z",
+    "topics": []
+  },
+  "note-to-selfie-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:07.302Z",
+    "topics": []
+  },
+  "prim-bath-and-body-company-opelousas": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:07.846Z",
+    "topics": []
+  },
+  "ref-s-southern-cafe-and-catering-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:09.683Z",
+    "topics": [
+      {
+        "topic": "shrimp and grits",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "chef salad",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "étouffée",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "school-of-rock-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:10.225Z",
+    "topics": []
+  },
+  "sugarcoated-eunice": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:11.377Z",
+    "topics": [
+      {
+        "topic": "cheesecake salad",
+        "confidence": 1,
+        "mention_count": 2
+      },
+      {
+        "topic": "chocolate chip cookies",
+        "confidence": 1,
+        "mention_count": 1
+      }
+    ]
+  },
+  "the-bank-bar-and-patio-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:12.248Z",
+    "topics": []
+  },
+  "the-cookie-door-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:14.326Z",
+    "topics": [
+      {
+        "topic": "cookies",
+        "confidence": 0.9,
+        "mention_count": 3
+      },
+      {
+        "topic": "brownies",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "cinnamon rolls",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "the-seafood-boiler-henderson": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:15.639Z",
+    "topics": [
+      {
+        "topic": "crawfish",
+        "confidence": 1,
+        "mention_count": 3
+      }
+    ]
+  },
+  "adelita-mexican-restaurant-abbeville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:16.386Z",
+    "topics": [
+      {
+        "topic": "street tacos",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "steak enchiladas",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "horchata",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "nacho loco",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "pina colada",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "chips n queso",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "antoni-s-italian-cafe-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:18.495Z",
+    "topics": [
+      {
+        "topic": "lasagna",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "margherita pizza",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "crepe myrtle drink",
+        "confidence": 0.9,
+        "mention_count": 1
+      }
+    ]
+  },
+  "bayou-amy-boat-launch-henderson": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:18.975Z",
+    "topics": []
+  },
+  "bayou-barista-llc-breaux-bridge": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:21.135Z",
+    "topics": [
+      {
+        "topic": "espresso",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "frappe",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "croissant",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "bayou-teche-museum-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:21.744Z",
+    "topics": []
+  },
+  "bellevue-memorial-park-office-opelousas": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:22.298Z",
+    "topics": []
+  },
+  "brass-room-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:22.837Z",
+    "topics": []
+  },
+  "cafe-sydnie-mae-breaux-bridge": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:23.458Z",
+    "topics": []
+  },
+  "cajun-music-hall-of-fame-eunice": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:23.997Z",
+    "topics": []
+  },
+  "cathedral-of-st-john-the-evangelist-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:24.593Z",
+    "topics": []
+  },
+  "club-heels-llc-opelousas": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:25.085Z",
+    "topics": []
+  },
+  "crumbl-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:26.916Z",
+    "topics": [
+      {
+        "topic": "cookies",
+        "confidence": 0.9,
+        "mention_count": 3
+      },
+      {
+        "topic": "pies",
+        "confidence": 0.8,
+        "mention_count": 2
+      },
+      {
+        "topic": "pumpkin square",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "cypress-cove-landing-and-houseboat-rentals-henderson": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:27.836Z",
+    "topics": [
+      {
+        "topic": "catfish sandwich",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "strawberry daiquiris",
+        "confidence": 0.9,
+        "mention_count": 1
+      }
+    ]
+  },
+  "fightingville-fresh-market-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:28.641Z",
+    "topics": []
+  },
+  "filling-station-cafe-inside-cajun-fasttrack-arcade-henderson": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:29.511Z",
+    "topics": [
+      {
+        "topic": "catfish bites",
+        "confidence": 0.9,
+        "mention_count": 1
+      }
+    ]
+  },
+  "five-mile-eatery-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:31.357Z",
+    "topics": [
+      {
+        "topic": "cappuccino",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "caprese toast",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "tira-miso latte",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "gossen-memorial-park-rayne": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:31.904Z",
+    "topics": []
+  },
+  "jet-coffee-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:32.794Z",
+    "topics": [
+      {
+        "topic": "coffee",
+        "confidence": 0.9,
+        "mention_count": 3
+      }
+    ]
+  },
+  "keller-s-bakery-of-youngsville-youngsville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:33.636Z",
+    "topics": [
+      {
+        "topic": "king cake",
+        "confidence": 0.9,
+        "mention_count": 3
+      },
+      {
+        "topic": "chocolate balls",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "key lime pie",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "la-poussiere-breaux-bridge": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:34.176Z",
+    "topics": []
+  },
+  "leaf-and-beef-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:35.864Z",
+    "topics": [
+      {
+        "topic": "chicken bowl",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "chopped salad",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "chicken sizzle plate",
+        "confidence": 0.9,
+        "mention_count": 1
+      }
+    ]
+  },
+  "lucia-bakehouse-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:37.223Z",
+    "topics": [
+      {
+        "topic": "pastries",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "matcha",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "latte",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "napoleon-s-bar-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:37.867Z",
+    "topics": []
+  },
+  "nuts-for-donuts-youngsville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:39.431Z",
+    "topics": [
+      {
+        "topic": "donuts",
+        "confidence": 0.9,
+        "mention_count": 3
+      },
+      {
+        "topic": "kolaches",
+        "confidence": 0.8,
+        "mention_count": 2
+      },
+      {
+        "topic": "croissants",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "o-yah-s-rayne": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:39.987Z",
+    "topics": [
+      {
+        "topic": "burger",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "pork roast",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "opelousas-museum-and-interpretive-center-opelousas": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:40.570Z",
+    "topics": []
+  },
+  "rickey-meche-s-donut-king-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:41.919Z",
+    "topics": [
+      {
+        "topic": "donut holes",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "beignets",
+        "confidence": 0.8,
+        "mention_count": 2
+      },
+      {
+        "topic": "blueberry donuts",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "sack-daddy-s-crawfish-abbeville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:42.872Z",
+    "topics": [
+      {
+        "topic": "crawfish",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "snowballs",
+        "confidence": 0.8,
+        "mention_count": 2
+      },
+      {
+        "topic": "turkey neck",
+        "confidence": 0.7,
+        "mention_count": 1
+      },
+      {
+        "topic": "turtle cheesecake bites",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "saint-julien-park-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:43.637Z",
+    "topics": []
+  },
+  "saint-mary-magdalen-catholic-church-abbeville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:44.415Z",
+    "topics": []
+  },
+  "southside-community-center-rayne": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:44.862Z",
+    "topics": []
+  },
+  "st-landry-catholic-church-opelousas": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:45.540Z",
+    "topics": []
+  },
+  "survivor-oak-scott": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:46.135Z",
+    "topics": []
+  },
+  "swamp-base-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:46.684Z",
+    "topics": []
+  },
+  "sweet-shop-henderson": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:48.510Z",
+    "topics": [
+      {
+        "topic": "burger",
+        "confidence": 1,
+        "mention_count": 3
+      },
+      {
+        "topic": "fries",
+        "confidence": 0.67,
+        "mention_count": 2
+      },
+      {
+        "topic": "grilled jalapeos",
+        "confidence": 0.5,
+        "mention_count": 2
+      }
+    ]
+  },
+  "tiffany-plaza-shopping-center-abbeville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:48.760Z",
+    "topics": []
+  },
+  "tito-s-la-casa-abbeville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:50.658Z",
+    "topics": [
+      {
+        "topic": "garlic knots",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "alfredo",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "shrimp tortellini",
+        "confidence": 0.9,
+        "mention_count": 1
+      }
+    ]
+  },
+  "wonderland-center-for-performing-arts-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:51.309Z",
+    "topics": []
+  },
+  "acadian-cultural-center-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:51.934Z",
+    "topics": []
+  },
+  "acadiana-center-for-the-arts-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:52.478Z",
+    "topics": []
+  },
+  "acadiana-park-nature-station-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:53.007Z",
+    "topics": []
+  },
+  "angelle-s-old-fashioned-hamburgers-breaux-bridge": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:53.855Z",
+    "topics": [
+      {
+        "topic": "burger",
+        "confidence": 0.9,
+        "mention_count": 3
+      },
+      {
+        "topic": "onion rings",
+        "confidence": 0.8,
+        "mention_count": 3
+      },
+      {
+        "topic": "gator burger",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "baskin-robbins-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:55.264Z",
+    "topics": [
+      {
+        "topic": "banana split",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "ice cream",
+        "confidence": 0.8,
+        "mention_count": 3
+      }
+    ]
+  },
+  "big-al-s-hideaway-carencro": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:55.767Z",
+    "topics": []
+  },
+  "black-i-am-bookstore-art-gallery-and-museum-llc-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:56.018Z",
+    "topics": []
+  },
+  "bon-creole-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:58.103Z",
+    "topics": [
+      {
+        "topic": "shrimp poboy",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "fries",
+        "confidence": 0.6,
+        "mention_count": 1
+      },
+      {
+        "topic": "bread pudding",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "bric-s-on-main-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:51:58.691Z",
+    "topics": []
+  },
+  "c-est-bon-crawfish-youngsville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:00.551Z",
+    "topics": [
+      {
+        "topic": "crawfish",
+        "confidence": 0.9,
+        "mention_count": 3
+      },
+      {
+        "topic": "charbroiled oysters",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "seafood platter",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "cafe-mosaic-llc-eunice": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:01.214Z",
+    "topics": []
+  },
+  "caroline-s-cookies-lafayette-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:02.833Z",
+    "topics": [
+      {
+        "topic": "cookies",
+        "confidence": 1,
+        "mention_count": 3
+      },
+      {
+        "topic": "cookie cake",
+        "confidence": 0.8,
+        "mention_count": 2
+      },
+      {
+        "topic": "mini cookies",
+        "confidence": 0.5,
+        "mention_count": 1
+      }
+    ]
+  },
+  "champagne-s-breaux-bridge-bakery-breaux-bridge": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:03.858Z",
+    "topics": [
+      {
+        "topic": "chantilly cake",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "bread",
+        "confidence": 0.8,
+        "mention_count": 2
+      }
+    ]
+  },
+  "chef-roy-s-frog-city-cafe-rayne": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:04.896Z",
+    "topics": [
+      {
+        "topic": "frog legs",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "crab",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "church-alley-cafe-and-bistro-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:06.827Z",
+    "topics": [
+      {
+        "topic": "waffles",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "eggs",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "grits",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "cit-des-arts-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:07.350Z",
+    "topics": []
+  },
+  "creole-lunch-box-breaux-bridge": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:07.999Z",
+    "topics": [
+      {
+        "topic": "fried shrimp",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "boom-boom chicken wing combo",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "da-berry-fresh-market-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:08.676Z",
+    "topics": [
+      {
+        "topic": "tea leaves",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "sea moss",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "black soap",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "produce",
+        "confidence": 0.7,
+        "mention_count": 2
+      }
+    ]
+  },
+  "dee-s-lounge-abbeville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:09.201Z",
+    "topics": []
+  },
+  "dezmeaux-s-boudin-opelousas": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:10.164Z",
+    "topics": [
+      {
+        "topic": "boudin",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "stuffed chicken wings",
+        "confidence": 0.8,
+        "mention_count": 2
+      },
+      {
+        "topic": "boudin burger",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "donut-queen-eunice": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:12.758Z",
+    "topics": [
+      {
+        "topic": "kolaches",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "donuts",
+        "confidence": 0.8,
+        "mention_count": 2
+      },
+      {
+        "topic": "croissants",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "ducrest-gilfry-auditorium-in-angelle-hall-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:13.654Z",
+    "topics": []
+  },
+  "dupuy-s-seafood-and-steak-abbeville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:15.919Z",
+    "topics": [
+      {
+        "topic": "oysters",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "crab cake",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "crab plate",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "gator bites",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "emerald-billiards-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:16.548Z",
+    "topics": []
+  },
+  "eunice-depot-museum-eunice": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:17.077Z",
+    "topics": []
+  },
+  "evangeline-maid-bakery-outlet-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:19.112Z",
+    "topics": [
+      {
+        "topic": "bread",
+        "confidence": 0.9,
+        "mention_count": 3
+      },
+      {
+        "topic": "snack cakes",
+        "confidence": 0.8,
+        "mention_count": 2
+      },
+      {
+        "topic": "pastries",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "gautreaux-doughnut-kitchen-rayne": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:20.739Z",
+    "topics": [
+      {
+        "topic": "king cake",
+        "confidence": 1,
+        "mention_count": 3
+      },
+      {
+        "topic": "strawberry cream cheese king cake",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "godchaux-park-abbeville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:21.261Z",
+    "topics": []
+  },
+  "honey-hush-lounge-inc-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:21.947Z",
+    "topics": []
+  },
+  "hoppers-icehouse-breaux-bridge": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:22.484Z",
+    "topics": []
+  },
+  "jane-s-seafood-and-chinese-restaurant-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:24.206Z",
+    "topics": [
+      {
+        "topic": "crawdads",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "boiled crabs",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "egg drop soup",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "java-square-cafe-opelousas": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:26.067Z",
+    "topics": [
+      {
+        "topic": "coffee",
+        "confidence": 0.9,
+        "mention_count": 3
+      },
+      {
+        "topic": "pastry",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "sugar spice frappe",
+        "confidence": 0.95,
+        "mention_count": 1
+      }
+    ]
+  },
+  "kelvin-s-piano-bar-abbeville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:26.832Z",
+    "topics": [
+      {
+        "topic": "muffaletta",
+        "confidence": 1,
+        "mention_count": 1
+      }
+    ]
+  },
+  "kk-s-cafe-youngsville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:28.709Z",
+    "topics": [
+      {
+        "topic": "crawfish ettoufee",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "chicken stew",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "salad",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "lafayette-parish-bayou-vermilion-district-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:29.245Z",
+    "topics": []
+  },
+  "lafayette-parks-and-recreation-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:29.855Z",
+    "topics": []
+  },
+  "loft18-broussard-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:30.370Z",
+    "topics": []
+  },
+  "mcgee-s-louisiana-swamp-and-airboat-tours-henderson": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:30.993Z",
+    "topics": []
+  },
+  "moncus-park-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:31.545Z",
+    "topics": []
+  },
+  "mouton-plantation-c-1820-sgna-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:32.625Z",
+    "topics": [
+      {
+        "topic": "shrimp and grits",
+        "confidence": 0.9,
+        "mention_count": 2
+      }
+    ]
+  },
+  "nature-station-trailhead-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:33.207Z",
+    "topics": []
+  },
+  "new-orleans-original-daiquiris-breaux-bridge": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:34.514Z",
+    "topics": [
+      {
+        "topic": "almaretto",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "daiquiris",
+        "confidence": 0.8,
+        "mention_count": 3
+      }
+    ]
+  },
+  "oh-pho-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:35.899Z",
+    "topics": [
+      {
+        "topic": "pho broth",
+        "confidence": 0.8,
+        "mention_count": 2
+      },
+      {
+        "topic": "vietnamese food",
+        "confidence": 0.6,
+        "mention_count": 2
+      }
+    ]
+  },
+  "olde-tyme-grocery-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:37.716Z",
+    "topics": [
+      {
+        "topic": "po-boy",
+        "confidence": 1,
+        "mention_count": 3
+      },
+      {
+        "topic": "shrimp po boy",
+        "confidence": 0.9,
+        "mention_count": 2
+      }
+    ]
+  },
+  "parish-biscuit-company-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:40.172Z",
+    "topics": [
+      {
+        "topic": "beignets",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "brisket biscuit",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "mimosas",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "orange juice",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "pizza-village-breaux-bridge": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:42.115Z",
+    "topics": [
+      {
+        "topic": "mozzarella sticks",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "fried pepperoni",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "cracker crust",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "quarter-tavern-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:42.629Z",
+    "topics": []
+  },
+  "ray-s-bakery-eunice": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:43.789Z",
+    "topics": [
+      {
+        "topic": "donuts",
+        "confidence": 1,
+        "mention_count": 3
+      },
+      {
+        "topic": "donut holes",
+        "confidence": 0.9,
+        "mention_count": 2
+      }
+    ]
+  },
+  "r-ve-coffee-roasters-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:44.517Z",
+    "topics": [
+      {
+        "topic": "latte",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "blueberry biscuit",
+        "confidence": 0.7,
+        "mention_count": 1
+      },
+      {
+        "topic": "pig in a blanket",
+        "confidence": 0.6,
+        "mention_count": 1
+      }
+    ]
+  },
+  "rhonda-s-hang-out-rayne": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:45.109Z",
+    "topics": []
+  },
+  "sky-s-the-limit-cakes-scott": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:45.848Z",
+    "topics": [
+      {
+        "topic": "cake",
+        "confidence": 0.9,
+        "mention_count": 3
+      }
+    ]
+  },
+  "sunglass-hut-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:46.365Z",
+    "topics": []
+  },
+  "the-best-stop-supermarket-scott": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:47.859Z",
+    "topics": [
+      {
+        "topic": "boudin",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "bouding balls",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "the-blenders-abbeville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:48.357Z",
+    "topics": []
+  },
+  "the-hangout-sports-pub-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:48.957Z",
+    "topics": [
+      {
+        "topic": "burger",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "wings",
+        "confidence": 0.7,
+        "mention_count": 2
+      },
+      {
+        "topic": "sweet tea",
+        "confidence": 0.9,
+        "mention_count": 1
+      }
+    ]
+  },
+  "the-twisted-tiger-sports-bar-youngsville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:49.589Z",
+    "topics": []
+  },
+  "tim-s-kitchen-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:50.793Z",
+    "topics": [
+      {
+        "topic": "shrimp salad",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "chicken fried steak",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "turtle-s-bar-and-grill-henderson": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:53.009Z",
+    "topics": [
+      {
+        "topic": "gumbo",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "po-boy",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "chicken salad",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "uncle-t-s-oyster-bar-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:55.070Z",
+    "topics": [
+      {
+        "topic": "boudin egg rolls",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "charbroiled oysters",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "tacos",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "vermilionville-historic-village-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:55.615Z",
+    "topics": []
+  },
+  "watch-me-whip-youngsville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:56.561Z",
+    "topics": [
+      {
+        "topic": "cake",
+        "confidence": 0.9,
+        "mention_count": 3
+      },
+      {
+        "topic": "cupcakes",
+        "confidence": 0.8,
+        "mention_count": 2
+      }
+    ]
+  },
+  "whiskful-baking-co-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:57.317Z",
+    "topics": [
+      {
+        "topic": "donuts",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "king cake",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "gumbo",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "zea-rotisserie-and-bar-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:58.919Z",
+    "topics": [
+      {
+        "topic": "whiskey basil drop",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "red beans rice",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "abbeville-cultural-and-historical-alliance-abbeville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:52:59.809Z",
+    "topics": []
+  },
+  "adopted-dog-brewing-scott": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:01.576Z",
+    "topics": [
+      {
+        "topic": "beer",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "pretzel sticks",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "wings",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "backstop-bar-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:02.951Z",
+    "topics": [
+      {
+        "topic": "hamburgers",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "hamburger steak",
+        "confidence": 0.9,
+        "mention_count": 1
+      }
+    ]
+  },
+  "barnes-and-noble-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:03.558Z",
+    "topics": [
+      {
+        "topic": "coffee",
+        "confidence": 0.9,
+        "mention_count": 1
+      }
+    ]
+  },
+  "bee-hive-abbeville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:04.244Z",
+    "topics": []
+  },
+  "blue-moon-saloon-and-guest-house-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:04.750Z",
+    "topics": []
+  },
+  "broussard-sports-complex-at-saint-julien-park-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:05.396Z",
+    "topics": []
+  },
+  "caff-cottage-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:06.384Z",
+    "topics": [
+      {
+        "topic": "burger",
+        "confidence": 0.8,
+        "mention_count": 2
+      },
+      {
+        "topic": "happy hour",
+        "confidence": 0.7,
+        "mention_count": 1
+      },
+      {
+        "topic": "loaded fries",
+        "confidence": 0.6,
+        "mention_count": 1
+      }
+    ]
+  },
+  "cajun-market-donut-company-breaux-bridge": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:08.427Z",
+    "topics": [
+      {
+        "topic": "beignet",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "king cake",
+        "confidence": 0.8,
+        "mention_count": 2
+      },
+      {
+        "topic": "donuts",
+        "confidence": 0.7,
+        "mention_count": 2
+      }
+    ]
+  },
+  "cane-river-pecan-company-pie-bar-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:09.860Z",
+    "topics": [
+      {
+        "topic": "coffee",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "pies",
+        "confidence": 0.8,
+        "mention_count": 2
+      }
+    ]
+  },
+  "casa-margarita-rayne": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:11.864Z",
+    "topics": [
+      {
+        "topic": "margaritas",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "watermelon margaritas",
+        "confidence": 0.95,
+        "mention_count": 1
+      }
+    ]
+  },
+  "central-pizza-bar-lafayette-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:13.539Z",
+    "topics": [
+      {
+        "topic": "garlic knots",
+        "confidence": 0.9,
+        "mention_count": 3
+      },
+      {
+        "topic": "burrata",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "cheese curds",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "champagnes-market-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:14.444Z",
+    "topics": [
+      {
+        "topic": "chicken salad",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "tuna salad",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "baked pie",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "chicken-on-the-bayou-and-boudin-shop-henderson": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:15.700Z",
+    "topics": [
+      {
+        "topic": "boudin balls",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "boudin",
+        "confidence": 0.8,
+        "mention_count": 2
+      }
+    ]
+  },
+  "children-s-museum-of-acadiana-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:16.296Z",
+    "topics": []
+  },
+  "chip-s-daiquiris-eunice": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:17.336Z",
+    "topics": [
+      {
+        "topic": "daiquiris",
+        "confidence": 0.9,
+        "mention_count": 2
+      }
+    ]
+  },
+  "circle-k-eunice": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:17.864Z",
+    "topics": []
+  },
+  "city-of-eunice-fairgrounds-splash-pad-eunice": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:18.535Z",
+    "topics": []
+  },
+  "city-of-eunice-martha-fisher-park-eunice": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:19.013Z",
+    "topics": []
+  },
+  "club-337-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:19.572Z",
+    "topics": []
+  },
+  "crispy-donut-carencro": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:20.126Z",
+    "topics": [
+      {
+        "topic": "donuts",
+        "confidence": 0.9,
+        "mention_count": 3
+      },
+      {
+        "topic": "kolaches",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "pastries",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "cupids-creswell-ln-daiquiris-of-opelousas-opelousas": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:21.621Z",
+    "topics": [
+      {
+        "topic": "daiquiris",
+        "confidence": 0.9,
+        "mention_count": 3
+      },
+      {
+        "topic": "liquid mj",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "cyt-lafayette-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:22.427Z",
+    "topics": []
+  },
+  "delish-donuts-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:23.327Z",
+    "topics": [
+      {
+        "topic": "boudin",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "donut holes",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "beignets",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "kolaches",
+        "confidence": 0.7,
+        "mention_count": 1
+      },
+      {
+        "topic": "breakfast burritos",
+        "confidence": 0.7,
+        "mention_count": 1
+      },
+      {
+        "topic": "blueberry cake doughnuts",
+        "confidence": 0.9,
+        "mention_count": 1
+      }
+    ]
+  },
+  "delta-grand-opelousas": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:23.951Z",
+    "topics": []
+  },
+  "elevated-tea-and-coffee-house-eunice": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:25.881Z",
+    "topics": [
+      {
+        "topic": "caramel frappuccino",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "espresso",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "evangeline-maid-bakery-eunice": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:26.495Z",
+    "topics": []
+  },
+  "girard-park-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:27.059Z",
+    "topics": []
+  },
+  "glenda-s-creole-kitchen-restaurant-breaux-bridge": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:28.714Z",
+    "topics": [
+      {
+        "topic": "bread pudding",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "peach cobbler",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "meatball stew",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "grand-point-tavern-breaux-bridge": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:29.143Z",
+    "topics": []
+  },
+  "guilbeau-s-thrifty-way-pharmacy-carencro": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:29.689Z",
+    "topics": []
+  },
+  "heymann-performing-arts-center-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:30.274Z",
+    "topics": []
+  },
+  "hilliard-art-museum-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:30.807Z",
+    "topics": []
+  },
+  "huya-craft-coffee-youngsville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:31.541Z",
+    "topics": [
+      {
+        "topic": "boudin pop tart",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "quesadillas",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "espresso bloom",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "jalisco-mexican-grill-abbeville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:32.304Z",
+    "topics": []
+  },
+  "la-fiesta-mexican-grill-in-broussard-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:33.249Z",
+    "topics": []
+  },
+  "lafayette-farmers-and-artisan-market-at-the-horse-farm-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:33.932Z",
+    "topics": []
+  },
+  "landrys-donuts-and-coffee-scott": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:35.880Z",
+    "topics": [
+      {
+        "topic": "coffee",
+        "confidence": 0.9,
+        "mention_count": 3
+      },
+      {
+        "topic": "donuts",
+        "confidence": 0.8,
+        "mention_count": 2
+      },
+      {
+        "topic": "breakfast sandwich",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "lazy-lounge-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:37.201Z",
+    "topics": [
+      {
+        "topic": "burgers",
+        "confidence": 1,
+        "mention_count": 1
+      }
+    ]
+  },
+  "louisiana-military-museum-abbeville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:37.758Z",
+    "topics": []
+  },
+  "louisiana-orphan-train-museum-mus-e-du-train-orphelin-de-louisiane-opelousas": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:38.404Z",
+    "topics": []
+  },
+  "meche-s-donuts-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:39.654Z",
+    "topics": [
+      {
+        "topic": "donuts",
+        "confidence": 0.9,
+        "mention_count": 3
+      }
+    ]
+  },
+  "misfits-dine-and-drink-youngsville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:40.423Z",
+    "topics": [
+      {
+        "topic": "boudin eggrolls",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "margherita pizza",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "tuna sorpresa",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "morvant-s-bar-and-grill-youngsville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:42.617Z",
+    "topics": [
+      {
+        "topic": "burgers",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "fried shrimp po boy",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "eggplant fries",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "new-iberia-city-park-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:43.145Z",
+    "topics": []
+  },
+  "palmyre-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:43.685Z",
+    "topics": []
+  },
+  "parc-des-ponts-breaux-breaux-bridge": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:44.153Z",
+    "topics": []
+  },
+  "pizza-shack-inc-opelousas": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:46.234Z",
+    "topics": [
+      {
+        "topic": "pizzas",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "ferdies special",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "beer",
+        "confidence": 0.7,
+        "mention_count": 2
+      }
+    ]
+  },
+  "poche-s-market-and-restaurant-breaux-bridge": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:48.104Z",
+    "topics": []
+  },
+  "prairie-acadian-cultural-center-eunice": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:48.741Z",
+    "topics": []
+  },
+  "raising-cane-s-chicken-fingers-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:49.573Z",
+    "topics": [
+      {
+        "topic": "chicken fingers",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "fries",
+        "confidence": 0.8,
+        "mention_count": 2
+      },
+      {
+        "topic": "sauce",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "r-ve-coffee-lab-river-ranch-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:50.546Z",
+    "topics": [
+      {
+        "topic": "coffee",
+        "confidence": 0.9,
+        "mention_count": 3
+      },
+      {
+        "topic": "pastry",
+        "confidence": 0.8,
+        "mention_count": 2
+      },
+      {
+        "topic": "matcha latte",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "ronnie-s-place-eunice": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:51.033Z",
+    "topics": []
+  },
+  "saigon-noodles-scott": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:51.745Z",
+    "topics": []
+  },
+  "scooter-s-coffee-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:53.947Z",
+    "topics": [
+      {
+        "topic": "cinnamon roll",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "coffee",
+        "confidence": 0.8,
+        "mention_count": 3
+      },
+      {
+        "topic": "cold foam",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "shadows-on-the-teche-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:54.759Z",
+    "topics": []
+  },
+  "shucks-abbeville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:55.343Z",
+    "topics": [
+      {
+        "topic": "oysters",
+        "confidence": 0.9,
+        "mention_count": 3
+      },
+      {
+        "topic": "bread pudding",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "shucked margarita",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "social-southern-table-and-bar-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:57.377Z",
+    "topics": [
+      {
+        "topic": "brussels sprouts",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "smoked fried chicken",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "pancake",
+        "confidence": 0.5,
+        "mention_count": 1
+      }
+    ]
+  },
+  "soul-haus-kitchen-scott": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:58.945Z",
+    "topics": [
+      {
+        "topic": "wings",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "cornbread",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "fries",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "spoonbill-watering-hole-and-restaurant-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:53:59.812Z",
+    "topics": [
+      {
+        "topic": "oysters",
+        "confidence": 0.9,
+        "mention_count": 1
+      }
+    ]
+  },
+  "sushi-masa-lafayette-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:00.325Z",
+    "topics": []
+  },
+  "the-coffee-depot-scott": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:02.194Z",
+    "topics": [
+      {
+        "topic": "beignets",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "pancakes",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "the-crawfish-hut-bar-and-grill-rayne": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:04.066Z",
+    "topics": [
+      {
+        "topic": "boudin egg rolls",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "shrimp poboy",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "crawdad basket",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "the-fresh-market-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:05.786Z",
+    "topics": [
+      {
+        "topic": "croissants",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "organic fruits",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "organic veggies",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "the-tap-room-youngsville-youngsville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:06.794Z",
+    "topics": [
+      {
+        "topic": "beer menu",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "fried la crave-a-balls",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "fig flat bread",
+        "confidence": 0.7,
+        "mention_count": 1
+      },
+      {
+        "topic": "loaded fries",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "thomas-park-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:07.868Z",
+    "topics": []
+  },
+  "twisted-nutrition-llc-scott": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:08.778Z",
+    "topics": [
+      {
+        "topic": "tea",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "protein shake",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "coffee",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "veronica-s-cafe-carencro": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:11.162Z",
+    "topics": [
+      {
+        "topic": "shrimp stew",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "smothered sausage",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "chicken",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "village-at-gloria-switch-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:12.121Z",
+    "topics": []
+  },
+  "whiskey-tales-henderson": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:12.629Z",
+    "topics": []
+  },
+  "winner-s-circle-sports-bar-carencro": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:14.127Z",
+    "topics": []
+  },
+  "world-donuts-and-kolaches-breaux-bridge": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:14.664Z",
+    "topics": []
+  },
+  "acadiana-park-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:15.380Z",
+    "topics": []
+  },
+  "ambassador-town-center-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:15.915Z",
+    "topics": []
+  },
+  "black-bull-youngsville-youngsville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:16.715Z",
+    "topics": [
+      {
+        "topic": "burger",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "boba-haus-youngsville-street-food-corner-youngsville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:19.113Z",
+    "topics": [
+      {
+        "topic": "korean corn dogs",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "boba strawberry",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "boba kiwi",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "bojangles-sushi-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:19.663Z",
+    "topics": []
+  },
+  "bola8-sports-bar-scott": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:20.259Z",
+    "topics": []
+  },
+  "bon-temps-grill-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:22.512Z",
+    "topics": [
+      {
+        "topic": "red beans",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "crawfish etoufee",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "bang bang alligator po boy",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "bourbon-street-deli-abbeville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:24.537Z",
+    "topics": [
+      {
+        "topic": "boudin balls",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "fries",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "club sandwich",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "crabcake sandwich",
+        "confidence": 0.7,
+        "mention_count": 1
+      },
+      {
+        "topic": "egg roll",
+        "confidence": 0.7,
+        "mention_count": 2
+      }
+    ]
+  },
+  "bri-s-donuts-opelousas": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:24.787Z",
+    "topics": []
+  },
+  "buck-and-johnny-s-eclectic-italian-with-a-cajun-flair-breaux-bridge": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:25.396Z",
+    "topics": []
+  },
+  "cajun-station-eunice": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:26.254Z",
+    "topics": [
+      {
+        "topic": "shrimp",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "fish",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "caribbean-ice-company-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:27.967Z",
+    "topics": [
+      {
+        "topic": "burgers",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "wraps",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "shrimp salad",
+        "confidence": 0.9,
+        "mention_count": 1
+      }
+    ]
+  },
+  "cc-s-coffee-house-scott": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:29.888Z",
+    "topics": [
+      {
+        "topic": "mocha",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "croissants",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "coffee",
+        "confidence": 0.7,
+        "mention_count": 2
+      }
+    ]
+  },
+  "chick-fil-a-lafayette-2": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:30.515Z",
+    "topics": []
+  },
+  "corner-seafood-and-wings-youngsville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:32.480Z",
+    "topics": [
+      {
+        "topic": "wings",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "shrimp fried rice",
+        "confidence": 0.6,
+        "mention_count": 2
+      },
+      {
+        "topic": "shrimp",
+        "confidence": 0.5,
+        "mention_count": 1
+      }
+    ]
+  },
+  "cowboys-saloon-scott": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:33.495Z",
+    "topics": [
+      {
+        "topic": "crown royal apple",
+        "confidence": 0.9,
+        "mention_count": 1
+      }
+    ]
+  },
+  "daiquiri-shack-eunice": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:34.032Z",
+    "topics": []
+  },
+  "daiquiri-supreme-youngsville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:34.583Z",
+    "topics": []
+  },
+  "don-s-specialty-meats-scott": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:36.424Z",
+    "topics": [
+      {
+        "topic": "boudin",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "cracklins",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "sausage",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "dons-seafood-lafayette-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:38.716Z",
+    "topics": [
+      {
+        "topic": "hush puppies",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "fried crab claws",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "fried alligator",
+        "confidence": 0.9,
+        "mention_count": 1
+      }
+    ]
+  },
+  "elevation-station-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:39.471Z",
+    "topics": []
+  },
+  "eunice-walking-park-eunice": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:40.119Z",
+    "topics": []
+  },
+  "fat-pat-s-breaux-bridge-breaux-bridge": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:41.972Z",
+    "topics": [
+      {
+        "topic": "burger",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "wrap",
+        "confidence": 0.8,
+        "mention_count": 2
+      },
+      {
+        "topic": "bleu cheese sauce",
+        "confidence": 0.9,
+        "mention_count": 1
+      }
+    ]
+  },
+  "graham-brown-memorial-park-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:42.501Z",
+    "topics": []
+  },
+  "green-oaks-lounge-scott": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:43.356Z",
+    "topics": [
+      {
+        "topic": "burgers",
+        "confidence": 0.9,
+        "mention_count": 2
+      }
+    ]
+  },
+  "hacienda-real-eunice": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:45.458Z",
+    "topics": [
+      {
+        "topic": "margaritas",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "shrimp cocktail",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "quesadilla",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "hacienda-real-mexican-restaurant-of-breaux-bridge-breaux-bridge": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:46.493Z",
+    "topics": [
+      {
+        "topic": "margaritas",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "chips and salsa",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "arose con pollo",
+        "confidence": 0.7,
+        "mention_count": 1
+      },
+      {
+        "topic": "body builder burrito",
+        "confidence": 0.7,
+        "mention_count": 1
+      },
+      {
+        "topic": "street taco",
+        "confidence": 0.6,
+        "mention_count": 1
+      }
+    ]
+  },
+  "hebert-s-boudin-and-cracklins-breaux-bridge": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:47.112Z",
+    "topics": [
+      {
+        "topic": "boudin",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "crawfish pie",
+        "confidence": 0.8,
+        "mention_count": 2
+      },
+      {
+        "topic": "meat pies",
+        "confidence": 0.7,
+        "mention_count": 2
+      }
+    ]
+  },
+  "henry-guidry-memorial-park-henderson": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:47.642Z",
+    "topics": []
+  },
+  "heymann-park-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:48.063Z",
+    "topics": []
+  },
+  "jj-s-pizza-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:49.021Z",
+    "topics": []
+  },
+  "keepin-it-twisted-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:49.780Z",
+    "topics": []
+  },
+  "kok-wings-and-things-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:51.360Z",
+    "topics": [
+      {
+        "topic": "wings",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "fries",
+        "confidence": 0.8,
+        "mention_count": 2
+      },
+      {
+        "topic": "fish bites",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "la-espuela-cantina-and-grill-carencro": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:51.930Z",
+    "topics": []
+  },
+  "la-hacienda-opelousas": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:52.569Z",
+    "topics": [
+      {
+        "topic": "fajitas",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "taco salad",
+        "confidence": 0.7,
+        "mention_count": 1
+      },
+      {
+        "topic": "enchiladas",
+        "confidence": 0.9,
+        "mention_count": 1
+      }
+    ]
+  },
+  "lafayette-little-league-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:53.088Z",
+    "topics": []
+  },
+  "lafayette-plaza-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:53.672Z",
+    "topics": []
+  },
+  "lee-s-cajun-cuisine-opelousas": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:55.191Z",
+    "topics": [
+      {
+        "topic": "gumbo",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "cajun sausage poboy",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "let-s-get-popp-n-kettle-corn-abbeville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:55.713Z",
+    "topics": []
+  },
+  "liberty-theater-eunice": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:56.633Z",
+    "topics": []
+  },
+  "lil-s-on-the-teche-breaux-bridge": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:57.208Z",
+    "topics": []
+  },
+  "mama-s-fried-chicken-opelousas": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:58.965Z",
+    "topics": [
+      {
+        "topic": "fried chicken",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "shrimp poboy",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "red beans and rice",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "mauboules-park-rayne": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:54:59.488Z",
+    "topics": []
+  },
+  "miko-s-donuts-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:00.116Z",
+    "topics": [
+      {
+        "topic": "donuts",
+        "confidence": 0.9,
+        "mention_count": 3
+      },
+      {
+        "topic": "glaze",
+        "confidence": 0.8,
+        "mention_count": 2
+      },
+      {
+        "topic": "apple fritter",
+        "confidence": 0.7,
+        "mention_count": 2
+      },
+      {
+        "topic": "strawberry glazed",
+        "confidence": 0.9,
+        "mention_count": 2
+      }
+    ]
+  },
+  "new-orleans-original-daiquiris-new-iberia-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:00.645Z",
+    "topics": []
+  },
+  "opelousas-little-theatre-opelousas": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:01.203Z",
+    "topics": []
+  },
+  "parc-hardy-breaux-bridge": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:01.659Z",
+    "topics": []
+  },
+  "parc-sans-souci-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:02.261Z",
+    "topics": []
+  },
+  "park-restaurant-abbeville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:03.746Z",
+    "topics": [
+      {
+        "topic": "burger",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "coffee",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "pelican-park-carencro": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:04.343Z",
+    "topics": []
+  },
+  "pinhook-at-marketplace-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:04.967Z",
+    "topics": []
+  },
+  "plaza-acadienne-eunice": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:05.772Z",
+    "topics": []
+  },
+  "poupart-bakery-inc-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:07.187Z",
+    "topics": [
+      {
+        "topic": "cake",
+        "confidence": 0.9,
+        "mention_count": 3
+      },
+      {
+        "topic": "caramel doberge",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "quinn-s-tavern-henderson": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:07.577Z",
+    "topics": []
+  },
+  "riverfront-abbeville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:09.089Z",
+    "topics": [
+      {
+        "topic": "seafood",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "steaks",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "cocktails",
+        "confidence": 0.9,
+        "mention_count": 2
+      }
+    ]
+  },
+  "rock-n-bowl-de-lafayette-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:09.614Z",
+    "topics": []
+  },
+  "sliman-theatre-for-the-performing-arts-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:10.280Z",
+    "topics": []
+  },
+  "super-1-foods-carencro": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:10.863Z",
+    "topics": []
+  },
+  "tad-s-louisiana-cooking-youngsville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:12.600Z",
+    "topics": [
+      {
+        "topic": "catfish",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "fried shrimp",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "cocktail sauce",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "the-chimes-lafayette-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:14.282Z",
+    "topics": [
+      {
+        "topic": "salad",
+        "confidence": 0.8,
+        "mention_count": 3
+      },
+      {
+        "topic": "alfredo",
+        "confidence": 0.7,
+        "mention_count": 1
+      },
+      {
+        "topic": "oysters",
+        "confidence": 0.9,
+        "mention_count": 1
+      }
+    ]
+  },
+  "the-lafayette-museum-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:14.793Z",
+    "topics": []
+  },
+  "the-shops-at-autumnwood-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:15.431Z",
+    "topics": []
+  },
+  "toby-s-downtown-formerly-toby-s-lounge-and-reception-center-opelousas": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:16.107Z",
+    "topics": []
+  },
+  "tropical-smoothie-cafe-carencro": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:16.658Z",
+    "topics": [
+      {
+        "topic": "smoothies",
+        "confidence": 1,
+        "mention_count": 3
+      }
+    ]
+  },
+  "village-deaux-carencro": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:17.322Z",
+    "topics": [
+      {
+        "topic": "donuts",
+        "confidence": 0.8,
+        "mention_count": 2
+      }
+    ]
+  },
+  "walk-on-s-sports-bistreaux-lafayette-restaurant-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:17.931Z",
+    "topics": []
+  },
+  "walmart-neighborhood-market-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:18.514Z",
+    "topics": []
+  },
+  "albertsons-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:19.268Z",
+    "topics": []
+  },
+  "ashes-2-ashes-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:19.673Z",
+    "topics": []
+  },
+  "b-and-b-daiquiri-abbeville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:21.621Z",
+    "topics": [
+      {
+        "topic": "daiquiris",
+        "confidence": 0.8,
+        "mention_count": 2
+      },
+      {
+        "topic": "high octane margarita",
+        "confidence": 0.7,
+        "mention_count": 1
+      },
+      {
+        "topic": "white russian",
+        "confidence": 0.9,
+        "mention_count": 1
+      }
+    ]
+  },
+  "bayou-landing-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:22.156Z",
+    "topics": []
+  },
+  "brass-rail-opelousas": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:22.762Z",
+    "topics": []
+  },
+  "broussard-commons-llc-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:23.354Z",
+    "topics": []
+  },
+  "camp-margaritaville-breaux-bridge-henderson": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:23.849Z",
+    "topics": []
+  },
+  "centerpiece-shopping-center-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:24.309Z",
+    "topics": []
+  },
+  "champagne-s-to-go-breaux-bridge": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:25.361Z",
+    "topics": [
+      {
+        "topic": "cookies",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "coffee",
+        "confidence": 0.7,
+        "mention_count": 1
+      },
+      {
+        "topic": "ice drinks",
+        "confidence": 0.6,
+        "mention_count": 1
+      }
+    ]
+  },
+  "crawfish-house-and-grill-llc-opelousas": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:26.095Z",
+    "topics": [
+      {
+        "topic": "redfish",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "garlic spinach",
+        "confidence": 0.7,
+        "mention_count": 1
+      },
+      {
+        "topic": "asparagus",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "daiquiri-island-scott": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:27.992Z",
+    "topics": [
+      {
+        "topic": "daiquiri",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "crown and coke",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "dewey-s-lounge-bonin-youngsville-la-youngsville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:28.533Z",
+    "topics": []
+  },
+  "dillard-s-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:29.092Z",
+    "topics": []
+  },
+  "dog-park-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:29.742Z",
+    "topics": []
+  },
+  "donut-palace-abbeville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:30.281Z",
+    "topics": []
+  },
+  "e-and-e-sports-bar-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:30.664Z",
+    "topics": []
+  },
+  "el-rodeo-mexican-grill-eunice": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:31.548Z",
+    "topics": [
+      {
+        "topic": "chips and salsa",
+        "confidence": 0.9,
+        "mention_count": 2
+      }
+    ]
+  },
+  "fezzo-s-seafood-steakhouse-and-oyster-bar-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:32.449Z",
+    "topics": [
+      {
+        "topic": "crab cakes",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "fried fish",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "hush puppies",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "martini",
+        "confidence": 0.7,
+        "mention_count": 1
+      },
+      {
+        "topic": "cajun trio",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "pork ribeye",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "gabe-s-cajun-food-rayne": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:33.251Z",
+    "topics": [
+      {
+        "topic": "fried seafood",
+        "confidence": 0.8,
+        "mention_count": 2
+      },
+      {
+        "topic": "shrimp boat",
+        "confidence": 0.7,
+        "mention_count": 1
+      },
+      {
+        "topic": "seafood platter",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "great-american-cookies-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:35.317Z",
+    "topics": [
+      {
+        "topic": "ice cream",
+        "confidence": 0.9,
+        "mention_count": 3
+      },
+      {
+        "topic": "cookies",
+        "confidence": 0.8,
+        "mention_count": 2
+      },
+      {
+        "topic": "pecan cookies",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "hebert-s-boudin-and-cracklins-henderson": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:36.085Z",
+    "topics": [
+      {
+        "topic": "cracklins",
+        "confidence": 1,
+        "mention_count": 2
+      },
+      {
+        "topic": "chicken cracklings",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "boudin balls",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "hot-food-express-scott": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:37.034Z",
+    "topics": [
+      {
+        "topic": "bang bang chicken",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "grilled shrimp",
+        "confidence": 0.7,
+        "mention_count": 1
+      },
+      {
+        "topic": "crack fire rice",
+        "confidence": 0.9,
+        "mention_count": 1
+      }
+    ]
+  },
+  "hub-city-farmers-market-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:37.785Z",
+    "topics": []
+  },
+  "jim-s-lounge-carencro": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:38.376Z",
+    "topics": []
+  },
+  "keller-s-bakery-downtown-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:39.324Z",
+    "topics": [
+      {
+        "topic": "king cakes",
+        "confidence": 0.9,
+        "mention_count": 2
+      }
+    ]
+  },
+  "la-debs-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:39.871Z",
+    "topics": []
+  },
+  "la-madeleine-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:40.468Z",
+    "topics": []
+  },
+  "la-papa-feliz-cameron-st-scott": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:41.945Z",
+    "topics": [
+      {
+        "topic": "asada tacos",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "lengua tacos",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "refried beans",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "legends-pinhook-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:42.716Z",
+    "topics": [
+      {
+        "topic": "burger",
+        "confidence": 1,
+        "mention_count": 1
+      }
+    ]
+  },
+  "little-capitol-henderson": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:43.321Z",
+    "topics": [
+      {
+        "topic": "shrimp poboy",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "local fare",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "lt-s-seafood-and-steakhouse-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:45.216Z",
+    "topics": [
+      {
+        "topic": "crawfish",
+        "confidence": 0.9,
+        "mention_count": 3
+      },
+      {
+        "topic": "onion rings",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "catfish",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "meche-s-on-the-vermilion-abbeville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:45.813Z",
+    "topics": [
+      {
+        "topic": "king cake",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "donuts",
+        "confidence": 0.8,
+        "mention_count": 3
+      },
+      {
+        "topic": "kolaches",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "mel-s-diner-youngsville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:46.541Z",
+    "topics": [
+      {
+        "topic": "biscuits",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "coffee",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "liver and onions",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "mikey-s-donut-king-opelousas": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:47.141Z",
+    "topics": [
+      {
+        "topic": "donuts",
+        "confidence": 0.9,
+        "mention_count": 3
+      },
+      {
+        "topic": "pastries",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "jelly donut",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "murphy-s-law-sports-and-cigar-bar-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:47.987Z",
+    "topics": []
+  },
+  "new-iberia-parks-and-recreation-department-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:48.238Z",
+    "topics": []
+  },
+  "neyland-park-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:48.792Z",
+    "topics": []
+  },
+  "o-darby-s-pub-and-grill-carencro": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:49.436Z",
+    "topics": []
+  },
+  "oaklawn-park-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:50.051Z",
+    "topics": []
+  },
+  "oasis-hookah-lounge-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:50.674Z",
+    "topics": []
+  },
+  "parc-lafayette-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:51.111Z",
+    "topics": []
+  },
+  "peach-cobbler-factory-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:51.693Z",
+    "topics": [
+      {
+        "topic": "cobblers",
+        "confidence": 0.9,
+        "mention_count": 3
+      },
+      {
+        "topic": "peach cobbler",
+        "confidence": 0.8,
+        "mention_count": 2
+      },
+      {
+        "topic": "cobbler shakes",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "poor-boy-s-riverside-inn-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:52.298Z",
+    "topics": []
+  },
+  "prejean-s-carencro": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:53.032Z",
+    "topics": []
+  },
+  "prejean-s-restaurant-broussard-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:55.258Z",
+    "topics": [
+      {
+        "topic": "gumbo",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "crawfish",
+        "confidence": 0.8,
+        "mention_count": 2
+      },
+      {
+        "topic": "alligator bites",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "richard-s-seafood-patio-abbeville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:56.643Z",
+    "topics": [
+      {
+        "topic": "gumbo",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "seafood buffet",
+        "confidence": 0.8,
+        "mention_count": 2
+      }
+    ]
+  },
+  "roxie-s-outdoor-patio-and-drive-thru-youngsville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:58.259Z",
+    "topics": [
+      {
+        "topic": "snowballs",
+        "confidence": 1,
+        "mention_count": 3
+      }
+    ]
+  },
+  "ruby-s-cafe-eunice": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:58.733Z",
+    "topics": []
+  },
+  "scott-oaks-plaza-scott": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:59.227Z",
+    "topics": [
+      {
+        "topic": "sushi",
+        "confidence": 0.9,
+        "mention_count": 1
+      }
+    ]
+  },
+  "shane-s-famous-quesadilla-burgers-scott": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:55:59.819Z",
+    "topics": [
+      {
+        "topic": "hot honey chicken",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "tots",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "bread pudding",
+        "confidence": 0.9,
+        "mention_count": 1
+      }
+    ]
+  },
+  "sky-zone-trampoline-park-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:01.101Z",
+    "topics": [
+      {
+        "topic": "pizza",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "nachos",
+        "confidence": 0.9,
+        "mention_count": 1
+      }
+    ]
+  },
+  "skye-s-dream-dog-park-breaux-bridge": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:01.636Z",
+    "topics": []
+  },
+  "south-college-shopping-center-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:02.601Z",
+    "topics": []
+  },
+  "southside-regional-park-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:03.118Z",
+    "topics": []
+  },
+  "starbucks-coffee-company-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:03.965Z",
+    "topics": []
+  },
+  "stirling-lafayette-shopping-center-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:04.577Z",
+    "topics": []
+  },
+  "sunrise-donuts-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:05.246Z",
+    "topics": [
+      {
+        "topic": "donuts",
+        "confidence": 0.9,
+        "mention_count": 3
+      }
+    ]
+  },
+  "t-boy-s-lounge-breaux-bridge": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:06.181Z",
+    "topics": [
+      {
+        "topic": "boiled eggs",
+        "confidence": 1,
+        "mention_count": 1
+      }
+    ]
+  },
+  "the-barrel-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:06.702Z",
+    "topics": []
+  },
+  "the-boozy-and-boiling-barn-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:08.062Z",
+    "topics": [
+      {
+        "topic": "daiquiri",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "crawfish",
+        "confidence": 0.8,
+        "mention_count": 3
+      }
+    ]
+  },
+  "the-district-event-center-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:08.597Z",
+    "topics": []
+  },
+  "the-grand-ambassador-by-santikos-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:09.141Z",
+    "topics": []
+  },
+  "the-grand-lafayette-by-santikos-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:10.116Z",
+    "topics": []
+  },
+  "thee-heavenly-donut-henderson": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:11.044Z",
+    "topics": [
+      {
+        "topic": "donuts",
+        "confidence": 0.9,
+        "mention_count": 2
+      }
+    ]
+  },
+  "trahan-foods-llc-rayne": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:12.177Z",
+    "topics": [
+      {
+        "topic": "boudin",
+        "confidence": 0.9,
+        "mention_count": 1
+      }
+    ]
+  },
+  "west-park-shopping-center-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:12.884Z",
+    "topics": []
+  },
+  "whole-foods-market-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:13.576Z",
+    "topics": []
+  },
+  "young-s-sports-grill-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:14.650Z",
+    "topics": [
+      {
+        "topic": "fish poboy",
+        "confidence": 0.9,
+        "mention_count": 1
+      }
+    ]
+  },
+  "a-a-comeaux-parks-and-recreation-abbeville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:15.310Z",
+    "topics": []
+  },
+  "abacus-coffee-opelousas": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:18.015Z",
+    "topics": [
+      {
+        "topic": "smores latte",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "chocolate peppermint mocha",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "abbeville-parks-and-recreation-abbeville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:18.934Z",
+    "topics": []
+  },
+  "acadian-oaks-park-inc-rayne": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:19.184Z",
+    "topics": []
+  },
+  "agave-mexican-grill-and-cantina-youngsville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:19.566Z",
+    "topics": []
+  },
+  "ambassador-row-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:20.196Z",
+    "topics": []
+  },
+  "arceneaux-park-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:20.748Z",
+    "topics": []
+  },
+  "beaullieu-park-dog-park-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:22.967Z",
+    "topics": []
+  },
+  "beaver-park-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:23.503Z",
+    "topics": []
+  },
+  "cane-river-pecan-company-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:24.059Z",
+    "topics": [
+      {
+        "topic": "pecans",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "pies",
+        "confidence": 0.8,
+        "mention_count": 2
+      },
+      {
+        "topic": "chicken salad",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "carabella-s-bar-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:24.430Z",
+    "topics": []
+  },
+  "carencro-park-carencro": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:25.026Z",
+    "topics": []
+  },
+  "chick-fil-a-lagniappe-village-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:25.611Z",
+    "topics": []
+  },
+  "chip-s-daiquiris-original-opelousas": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:26.484Z",
+    "topics": [
+      {
+        "topic": "daiquiris",
+        "confidence": 1,
+        "mention_count": 2
+      }
+    ]
+  },
+  "corner-bar-youngsville-youngsville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:27.433Z",
+    "topics": [
+      {
+        "topic": "flatbread pizza",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "crazy-bout-crawfish-breaux-bridge": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:29.018Z",
+    "topics": [
+      {
+        "topic": "gumbo",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "crab cakes",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "crawfish",
+        "confidence": 0.95,
+        "mention_count": 1
+      }
+    ]
+  },
+  "creswell-plaza-opelousas": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:29.586Z",
+    "topics": []
+  },
+  "ct-usa-restaurant-and-market-henderson": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:31.604Z",
+    "topics": [
+      {
+        "topic": "po-boy",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "etouffe",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "shrimp salad",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "daiquiri-divas-rayne": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:33.137Z",
+    "topics": [
+      {
+        "topic": "daiquiri",
+        "confidence": 0.9,
+        "mention_count": 3
+      },
+      {
+        "topic": "sex on the beach",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "downtown-new-iberia-louisiana-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:38.383Z",
+    "topics": []
+  },
+  "duffy-s-diner-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:40.386Z",
+    "topics": [
+      {
+        "topic": "onion rings",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "cheeseburger",
+        "confidence": 0.7,
+        "mention_count": 1
+      },
+      {
+        "topic": "chicken sandwich",
+        "confidence": 0.6,
+        "mention_count": 1
+      }
+    ]
+  },
+  "eunice-recreation-department-eunice": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:41.464Z",
+    "topics": [
+      {
+        "topic": "crawfish etouffe",
+        "confidence": 0.9,
+        "mention_count": 1
+      }
+    ]
+  },
+  "fat-pat-s-bar-and-grill-broussard-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:42.573Z",
+    "topics": [
+      {
+        "topic": "nachos",
+        "confidence": 0.9,
+        "mention_count": 1
+      }
+    ]
+  },
+  "fat-pat-s-bar-and-grill-carencro-carencro": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:43.406Z",
+    "topics": [
+      {
+        "topic": "hot dog",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "burger",
+        "confidence": 0.6,
+        "mention_count": 2
+      }
+    ]
+  },
+  "foster-memorial-park-youngsville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:43.829Z",
+    "topics": []
+  },
+  "gloria-s-lounge-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:44.750Z",
+    "topics": []
+  },
+  "hot-donuts-and-kolaches-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:46.423Z",
+    "topics": [
+      {
+        "topic": "donuts",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "croissants",
+        "confidence": 0.8,
+        "mention_count": 2
+      },
+      {
+        "topic": "kolaches",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "iberia-plaza-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:47.041Z",
+    "topics": []
+  },
+  "king-buffet-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:47.594Z",
+    "topics": []
+  },
+  "king-s-seafood-new-iberia-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:49.040Z",
+    "topics": [
+      {
+        "topic": "honey chicken",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "sesame chicken",
+        "confidence": 0.9,
+        "mention_count": 2
+      }
+    ]
+  },
+  "la-esmeralda-super-market-scott": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:49.634Z",
+    "topics": [
+      {
+        "topic": "chilaquiles",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "tacos",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "lafayette-science-museum-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:50.179Z",
+    "topics": []
+  },
+  "love-s-travel-stop-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:50.789Z",
+    "topics": []
+  },
+  "mi-tierra-restaurante-scott": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:51.539Z",
+    "topics": [
+      {
+        "topic": "baleada",
+        "confidence": 0.9,
+        "mention_count": 1
+      }
+    ]
+  },
+  "mi-tio-mexican-grill-henderson": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:52.121Z",
+    "topics": [
+      {
+        "topic": "burgers",
+        "confidence": 0.9,
+        "mention_count": 1
+      }
+    ]
+  },
+  "moore-park-fields-18-27-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:52.680Z",
+    "topics": []
+  },
+  "northgate-mall-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:53.101Z",
+    "topics": []
+  },
+  "on-the-boulevard-shopping-center-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:53.652Z",
+    "topics": []
+  },
+  "outback-steakhouse-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:54.382Z",
+    "topics": []
+  },
+  "pelicans-on-the-bayou-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:56.439Z",
+    "topics": [
+      {
+        "topic": "crab",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "potato balls",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "softshell crab",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "pepperplex-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:57.471Z",
+    "topics": []
+  },
+  "pogie-s-pour-house-carencro": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:58.242Z",
+    "topics": [
+      {
+        "topic": "draft beer",
+        "confidence": 0.9,
+        "mention_count": 1
+      }
+    ]
+  },
+  "rockys-sport-bar-henderson": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:58.725Z",
+    "topics": []
+  },
+  "roma-s-italian-restaurant-rayne": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:59.251Z",
+    "topics": []
+  },
+  "scott-park-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:56:59.881Z",
+    "topics": []
+  },
+  "sicily-s-pizza-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:01.646Z",
+    "topics": [
+      {
+        "topic": "gumbo",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "chocolate dessert pizza",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "smothered cabbage",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "smallcakes-cupcakery-and-creamery-carencro-carencro": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:02.896Z",
+    "topics": [
+      {
+        "topic": "cupcakes",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "coffee",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "st-landry-plaza-opelousas": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:04.140Z",
+    "topics": []
+  },
+  "starbucks-eunice": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:05.109Z",
+    "topics": [
+      {
+        "topic": "caramel iced latte",
+        "confidence": 0.9,
+        "mention_count": 2
+      }
+    ]
+  },
+  "subway-henderson": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:06.745Z",
+    "topics": [
+      {
+        "topic": "salads",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "cookies",
+        "confidence": 0.9,
+        "mention_count": 1
+      }
+    ]
+  },
+  "sugarcrest-shopping-center-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:07.430Z",
+    "topics": []
+  },
+  "texas-roadhouse-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:07.974Z",
+    "topics": []
+  },
+  "the-acadiana-bar-and-grill-youngsville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:08.516Z",
+    "topics": [
+      {
+        "topic": "burger",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "acadiana sampler",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "boudin quesadilla",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "the-new-ronnie-s-cajun-cafe-eunice": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:09.550Z",
+    "topics": [
+      {
+        "topic": "mashed potatoes",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "hamburger steak",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "the-village-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:09.978Z",
+    "topics": []
+  },
+  "the-yard-goat-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:10.470Z",
+    "topics": [
+      {
+        "topic": "fried green beans",
+        "confidence": 0.9,
+        "mention_count": 1
+      }
+    ]
+  },
+  "tokyo-japan-carencro": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:11.087Z",
+    "topics": []
+  },
+  "waffle-house-scott": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:11.740Z",
+    "topics": []
+  },
+  "west-end-park-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:12.338Z",
+    "topics": []
+  },
+  "winnwood-shopping-center-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:12.739Z",
+    "topics": []
+  },
+  "zoosiana-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:13.142Z",
+    "topics": []
+  },
+  "acadiana-mall-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:13.663Z",
+    "topics": []
+  },
+  "azalea-trail-lafayette-la-usa-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:14.227Z",
+    "topics": []
+  },
+  "blend-nutrition-carencro": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:16.433Z",
+    "topics": [
+      {
+        "topic": "jolly rancher",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "loaded teas",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "squid ink",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "blondys-wings-burgers-sandwiches-and-sports-bar-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:18.252Z",
+    "topics": [
+      {
+        "topic": "wings",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "fries",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "chargois-park-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:18.764Z",
+    "topics": []
+  },
+  "city-buffet-breaux-bridge": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:19.469Z",
+    "topics": [
+      {
+        "topic": "crabs",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "crawfish",
+        "confidence": 0.8,
+        "mention_count": 2
+      }
+    ]
+  },
+  "college-park-shopping-center-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:20.172Z",
+    "topics": []
+  },
+  "crispy-cajun-of-eunice-eunice": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:22.209Z",
+    "topics": [
+      {
+        "topic": "fried chicken",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "hamburgers",
+        "confidence": 0.8,
+        "mention_count": 2
+      },
+      {
+        "topic": "chicken tenders",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "el-paso-mexican-grill-youngsville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:22.661Z",
+    "topics": []
+  },
+  "el-paso-mexican-grill-carencro-carencro": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:23.253Z",
+    "topics": [
+      {
+        "topic": "queso bowl",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "tacos",
+        "confidence": 0.8,
+        "mention_count": 2
+      }
+    ]
+  },
+  "foti-s-caf-breaux-bridge": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:25.021Z",
+    "topics": [
+      {
+        "topic": "cheeseburger",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "onion rings",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "hamburger",
+        "confidence": 0.8,
+        "mention_count": 2
+      }
+    ]
+  },
+  "galleries-lafayette-shopping-center-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:25.525Z",
+    "topics": []
+  },
+  "golden-wok-chinese-buffet-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:26.646Z",
+    "topics": []
+  },
+  "jeri-s-pier-35-rayne": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:27.080Z",
+    "topics": []
+  },
+  "king-s-seafood-abbeville-abbeville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:28.512Z",
+    "topics": [
+      {
+        "topic": "honey hot chicken",
+        "confidence": 1,
+        "mention_count": 1
+      },
+      {
+        "topic": "lo mein noodles",
+        "confidence": 0.8,
+        "mention_count": 2
+      }
+    ]
+  },
+  "lagniappe-village-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:29.178Z",
+    "topics": []
+  },
+  "landry-s-cajun-seafood-and-steakhouse-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:29.706Z",
+    "topics": []
+  },
+  "legends-scott-scott": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:30.453Z",
+    "topics": []
+  },
+  "lil-goldmine-breaux-bridge": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:31.172Z",
+    "topics": []
+  },
+  "longhorn-steakhouse-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:32.970Z",
+    "topics": [
+      {
+        "topic": "steak",
+        "confidence": 0.9,
+        "mention_count": 3
+      },
+      {
+        "topic": "loaded baked potatoes",
+        "confidence": 0.8,
+        "mention_count": 2
+      },
+      {
+        "topic": "caesar salad",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "miami-moon-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:33.843Z",
+    "topics": []
+  },
+  "michael-s-mens-club-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:34.481Z",
+    "topics": []
+  },
+  "miss-mamie-s-casino-rayne": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:35.022Z",
+    "topics": []
+  },
+  "mr-gatti-s-pizza-eunice": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:35.617Z",
+    "topics": [
+      {
+        "topic": "pizza",
+        "confidence": 0.8,
+        "mention_count": 2
+      },
+      {
+        "topic": "cheese sticks",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "new-china-buffet-and-grill-abbeville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:37.446Z",
+    "topics": [
+      {
+        "topic": "hot and sour soup",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "buffet",
+        "confidence": 0.8,
+        "mention_count": 2
+      },
+      {
+        "topic": "pepper chicken",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "north-city-park-opelousas": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:38.052Z",
+    "topics": []
+  },
+  "pat-s-fisherman-s-wharf-restaurant-henderson": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:38.918Z",
+    "topics": [
+      {
+        "topic": "gumbo",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "crawfish etouffee",
+        "confidence": 0.7,
+        "mention_count": 1
+      },
+      {
+        "topic": "crawfish",
+        "confidence": 0.6,
+        "mention_count": 2
+      }
+    ]
+  },
+  "peking-buffet-opelousas": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:39.599Z",
+    "topics": [
+      {
+        "topic": "cashew chicken",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "egg drop soup",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "sushi",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "prehistoric-park-henderson": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:39.979Z",
+    "topics": []
+  },
+  "racetrac-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:40.727Z",
+    "topics": []
+  },
+  "saketini-sushi-and-hibachi-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:42.576Z",
+    "topics": [
+      {
+        "topic": "rolls",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "beef tataki",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "hibachi meals",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "shannon-on-congress-scott": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:43.187Z",
+    "topics": []
+  },
+  "south-city-park-opelousas": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:43.667Z",
+    "topics": []
+  },
+  "the-bulldog-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:46.107Z",
+    "topics": [
+      {
+        "topic": "crayfish",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "fried rice",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "eggroll",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "shrimp",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "the-ruins-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:46.734Z",
+    "topics": []
+  },
+  "the-toasted-yolk-cafe-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:47.455Z",
+    "topics": [
+      {
+        "topic": "blueberry donuts",
+        "confidence": 0.9,
+        "mention_count": 1
+      }
+    ]
+  },
+  "the-village-at-southpark-shopping-center-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:48.074Z",
+    "topics": []
+  },
+  "westgate-shopping-center-eunice": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:48.866Z",
+    "topics": []
+  },
+  "yamato-steakhouse-of-japan-opelousas": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:50.666Z",
+    "topics": [
+      {
+        "topic": "sushi",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "hibachi",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "miso soup",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "bank-avenue-park-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:51.313Z",
+    "topics": []
+  },
+  "big-easy-casino-youngsville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:51.980Z",
+    "topics": []
+  },
+  "buffalo-wild-wings-lafayette-2": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:52.510Z",
+    "topics": []
+  },
+  "crescent-at-river-ranch-apartments-and-shopping-center-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:52.970Z",
+    "topics": []
+  },
+  "d-c-s-sports-bar-and-steakhouse-eunice": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:54.378Z",
+    "topics": [
+      {
+        "topic": "catfish",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "étouffée",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "dairy-queen-grill-and-chill-abbeville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:55.315Z",
+    "topics": [
+      {
+        "topic": "burger",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "blizzard",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "domino-s-pizza-abbeville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:56.163Z",
+    "topics": [
+      {
+        "topic": "pizza",
+        "confidence": 0.8,
+        "mention_count": 2
+      }
+    ]
+  },
+  "grand-marche-shopping-center-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:57.110Z",
+    "topics": []
+  },
+  "iberia-mall-shopping-center-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:57.468Z",
+    "topics": []
+  },
+  "nothing-bundt-cakes-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:58.017Z",
+    "topics": []
+  },
+  "pj-s-coffee-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:57:59.567Z",
+    "topics": [
+      {
+        "topic": "cold brew",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "coffee",
+        "confidence": 0.8,
+        "mention_count": 2
+      }
+    ]
+  },
+  "pub-part-ii-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:00.104Z",
+    "topics": []
+  },
+  "rainbow-daiquiris-breaux-bridge": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:00.677Z",
+    "topics": [
+      {
+        "topic": "daiquiris",
+        "confidence": 0.9,
+        "mention_count": 2
+      }
+    ]
+  },
+  "sonic-drive-in-opelousas": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:01.284Z",
+    "topics": []
+  },
+  "surge-entertainment-by-drew-brees-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:01.909Z",
+    "topics": []
+  },
+  "tante-marie-breaux-bridge": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:04.095Z",
+    "topics": [
+      {
+        "topic": "beignets",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "shrimp and grits",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "croissant french toast",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "walmart-supercenter-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:04.651Z",
+    "topics": []
+  },
+  "c2-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:04.901Z",
+    "topics": []
+  },
+  "chili-s-grill-and-bar-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:05.469Z",
+    "topics": []
+  },
+  "chipotle-mexican-grill-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:06.122Z",
+    "topics": []
+  },
+  "cowboys-nightclub-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:06.908Z",
+    "topics": []
+  },
+  "cullpeppers-saloon-llc-abbeville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:07.511Z",
+    "topics": []
+  },
+  "deano-s-henderson-henderson": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:08.484Z",
+    "topics": [
+      {
+        "topic": "pizza",
+        "confidence": 1,
+        "mention_count": 3
+      }
+    ]
+  },
+  "king-wok-carencro": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:09.048Z",
+    "topics": []
+  },
+  "little-caesars-pizza-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:09.587Z",
+    "topics": []
+  },
+  "louisiana-donuts-and-pastries-carencro": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:10.447Z",
+    "topics": [
+      {
+        "topic": "donuts",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "kolaches",
+        "confidence": 0.8,
+        "mention_count": 2
+      }
+    ]
+  },
+  "pedro-s-tacos-and-tequila-bar-opelousas-opelousas": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:12.292Z",
+    "topics": [
+      {
+        "topic": "guacamole",
+        "confidence": 0.9,
+        "mention_count": 2
+      },
+      {
+        "topic": "margaritas",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "martinis",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "peking-chinese-restaurant-eunice": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:12.986Z",
+    "topics": []
+  },
+  "pizza-hut-rayne": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:13.703Z",
+    "topics": [
+      {
+        "topic": "wings",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "shell-breaux-bridge": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:14.372Z",
+    "topics": []
+  },
+  "the-crawfish-boss-youngsville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:15.265Z",
+    "topics": []
+  },
+  "torrido-village-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:17.164Z",
+    "topics": [
+      {
+        "topic": "apple fritters",
+        "confidence": 1,
+        "mention_count": 1
+      },
+      {
+        "topic": "kolaches",
+        "confidence": 1,
+        "mention_count": 1
+      },
+      {
+        "topic": "donuts",
+        "confidence": 1,
+        "mention_count": 1
+      }
+    ]
+  },
+  "cajun-prairie-habitat-preservation-society-eunice": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:17.696Z",
+    "topics": []
+  },
+  "cracker-barrel-old-country-store-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:18.694Z",
+    "topics": []
+  },
+  "dynasty-restaurant-scott": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:19.265Z",
+    "topics": []
+  },
+  "joey-s-sports-bar-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:19.806Z",
+    "topics": []
+  },
+  "lafitte-drive-in-park-abbeville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:20.912Z",
+    "topics": []
+  },
+  "mcdonald-s-lafayette-2": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:22.528Z",
+    "topics": [
+      {
+        "topic": "fries",
+        "confidence": 0.8,
+        "mention_count": 2
+      },
+      {
+        "topic": "big mac",
+        "confidence": 0.5,
+        "mention_count": 1
+      }
+    ]
+  },
+  "none-eunice": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:23.082Z",
+    "topics": []
+  },
+  "panera-bread-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:24.873Z",
+    "topics": [
+      {
+        "topic": "chicken avocado melt",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "the feisty one",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "soup",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "park-carl-williams-breaux-bridge": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:25.468Z",
+    "topics": []
+  },
+  "planet-nutrition-breaux-bridge-breaux-bridge": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:27.203Z",
+    "topics": [
+      {
+        "topic": "smoothie",
+        "confidence": 0.9,
+        "mention_count": 3
+      },
+      {
+        "topic": "banana split smoothie",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "popeyes-louisiana-kitchen-carencro": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:27.781Z",
+    "topics": []
+  },
+  "wendy-s-abbeville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:28.199Z",
+    "topics": []
+  },
+  "blue-iguana-eunice-eunice": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:29.495Z",
+    "topics": [
+      {
+        "topic": "shrimp cocktail",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "chips and salsa",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "boutin-s-cajun-seafood-steakhouse-and-oyster-bar-carencro": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:30.033Z",
+    "topics": []
+  },
+  "burger-king-rayne": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:30.585Z",
+    "topics": []
+  },
+  "dunkin-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:31.623Z",
+    "topics": [
+      {
+        "topic": "dunkalatte",
+        "confidence": 0.9,
+        "mention_count": 1
+      }
+    ]
+  },
+  "louise-park-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:32.493Z",
+    "topics": []
+  },
+  "on-the-run-youngsville": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:33.420Z",
+    "topics": []
+  },
+  "opelousas-farmers-market-when-solf-opelousas": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:34.377Z",
+    "topics": []
+  },
+  "sidney-street-playground-opelousas": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:35.293Z",
+    "topics": []
+  },
+  "taco-bell-eunice": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:35.971Z",
+    "topics": []
+  },
+  "the-dugout-eunice": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:36.605Z",
+    "topics": []
+  },
+  "whataburger-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:37.175Z",
+    "topics": []
+  },
+  "black-pot-bookshop-opelousas": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:37.801Z",
+    "topics": []
+  },
+  "church-s-texas-chicken-carencro": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:39.700Z",
+    "topics": [
+      {
+        "topic": "biscuits",
+        "confidence": 0.9,
+        "mention_count": 1
+      },
+      {
+        "topic": "spicy combo",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "sides",
+        "confidence": 0.8,
+        "mention_count": 1
+      }
+    ]
+  },
+  "hong-kong-buffet-broussard": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:40.436Z",
+    "topics": [
+      {
+        "topic": "noodles",
+        "confidence": 0.8,
+        "mention_count": 1
+      },
+      {
+        "topic": "crayfish",
+        "confidence": 0.7,
+        "mention_count": 1
+      },
+      {
+        "topic": "salt and pepper shrimp",
+        "confidence": 0.7,
+        "mention_count": 1
+      }
+    ]
+  },
+  "nitetown-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:41.100Z",
+    "topics": []
+  },
+  "sats-scott-area-team-sports-scott": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:41.624Z",
+    "topics": []
+  },
+  "wingstop-scott": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:42.091Z",
+    "topics": []
+  },
+  "ihop-carencro": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:42.694Z",
+    "topics": []
+  },
+  "shiloh-mobile-home-park-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:43.393Z",
+    "topics": []
+  },
+  "the-office-bar-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:43.997Z",
+    "topics": []
+  },
+  "fresh-donuts-opelousas": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:45.010Z",
+    "topics": []
+  },
+  "shop-rite-scott": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:45.844Z",
+    "topics": []
+  },
+  "la-bamba-bar-and-lounge-lafayette": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:46.409Z",
+    "topics": []
+  },
+  "7-eleven-scott": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:47.025Z",
+    "topics": []
+  },
+  "cherokee-park-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:47.553Z",
+    "topics": []
+  },
+  "olive-branch-37-p-h-a-f-and-am-new-iberia": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:47.803Z",
+    "topics": []
+  },
+  "opelousas-historic-district-opelousas": {
+    "reviewCount": 3,
+    "extractedAt": "2026-04-26T19:58:48.335Z",
+    "topics": []
   }
 }

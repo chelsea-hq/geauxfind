@@ -430,6 +430,2261 @@
           "mentionCount": 1
         }
       ]
+    },
+    {
+      "slug": "best-cupcakes-in-acadiana",
+      "name": "Best Cupcakes in Acadiana",
+      "category": "Cupcakes",
+      "businessCount": 3,
+      "totalMentions": 6,
+      "topBusinesses": [
+        {
+          "slug": "aunt-angie-s-cakery-new-iberia",
+          "name": "Aunt Angie's Cakery",
+          "mentionCount": 2
+        },
+        {
+          "slug": "watch-me-whip-youngsville",
+          "name": "Watch Me Whip",
+          "mentionCount": 2
+        },
+        {
+          "slug": "smallcakes-cupcakery-and-creamery-carencro-carencro",
+          "name": "Smallcakes Cupcakery and Creamery - Carencro",
+          "mentionCount": 2
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-boudin-in-acadiana",
+      "name": "Best Boudin in Acadiana",
+      "category": "Boudin",
+      "businessCount": 8,
+      "totalMentions": 11,
+      "topBusinesses": [
+        {
+          "slug": "dezmeaux-s-boudin-opelousas",
+          "name": "DezMeaux's Boudin",
+          "mentionCount": 2
+        },
+        {
+          "slug": "chicken-on-the-bayou-and-boudin-shop-henderson",
+          "name": "Chicken On The Bayou & Boudin Shop",
+          "mentionCount": 2
+        },
+        {
+          "slug": "hebert-s-boudin-and-cracklins-breaux-bridge",
+          "name": "Hebert's Boudin and Cracklins",
+          "mentionCount": 2
+        },
+        {
+          "slug": "boudin-and-cracklins-rayne",
+          "name": "Boudin & Cracklins",
+          "mentionCount": 1
+        },
+        {
+          "slug": "the-best-stop-supermarket-scott",
+          "name": "The Best Stop Supermarket",
+          "mentionCount": 1
+        },
+        {
+          "slug": "delish-donuts-new-iberia",
+          "name": "Delish Donuts",
+          "mentionCount": 1
+        },
+        {
+          "slug": "don-s-specialty-meats-scott",
+          "name": "Don's Specialty Meats",
+          "mentionCount": 1
+        },
+        {
+          "slug": "trahan-foods-llc-rayne",
+          "name": "Trahan Foods LLC",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-chicken-cracklings-in-acadiana",
+      "name": "Best Chicken Cracklings in Acadiana",
+      "category": "Chicken Cracklings",
+      "businessCount": 2,
+      "totalMentions": 2,
+      "topBusinesses": [
+        {
+          "slug": "boudin-and-cracklins-rayne",
+          "name": "Boudin & Cracklins",
+          "mentionCount": 1
+        },
+        {
+          "slug": "hebert-s-boudin-and-cracklins-henderson",
+          "name": "Hebert's Boudin & Cracklins",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-frappe-in-acadiana",
+      "name": "Best Frappe in Acadiana",
+      "category": "Frappe",
+      "businessCount": 2,
+      "totalMentions": 2,
+      "topBusinesses": [
+        {
+          "slug": "church-alley-new-iberia",
+          "name": "Church Alley",
+          "mentionCount": 1
+        },
+        {
+          "slug": "bayou-barista-llc-breaux-bridge",
+          "name": "Bayou Barista LLC",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-catfish-in-acadiana",
+      "name": "Best Catfish in Acadiana",
+      "category": "Catfish",
+      "businessCount": 4,
+      "totalMentions": 4,
+      "topBusinesses": [
+        {
+          "slug": "collette-s-seafood-henderson",
+          "name": "Collette's Seafood",
+          "mentionCount": 1
+        },
+        {
+          "slug": "tad-s-louisiana-cooking-youngsville",
+          "name": "Tad's Louisiana Cooking",
+          "mentionCount": 1
+        },
+        {
+          "slug": "lt-s-seafood-and-steakhouse-broussard",
+          "name": "LT's Seafood & Steakhouse",
+          "mentionCount": 1
+        },
+        {
+          "slug": "d-c-s-sports-bar-and-steakhouse-eunice",
+          "name": "D C's Sports Bar & Steakhouse",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-fish-in-acadiana",
+      "name": "Best Fish in Acadiana",
+      "category": "Fish",
+      "businessCount": 2,
+      "totalMentions": 2,
+      "topBusinesses": [
+        {
+          "slug": "collette-s-seafood-henderson",
+          "name": "Collette's Seafood",
+          "mentionCount": 1
+        },
+        {
+          "slug": "cajun-station-eunice",
+          "name": "Cajun Station",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-coffee-in-acadiana",
+      "name": "Best Coffee in Acadiana",
+      "category": "Coffee",
+      "businessCount": 19,
+      "totalMentions": 40,
+      "topBusinesses": [
+        {
+          "slug": "hunt-s-perfect-roast-scott",
+          "name": "Hunt's Perfect Roast",
+          "mentionCount": 3
+        },
+        {
+          "slug": "komade-new-iberia",
+          "name": "Komade",
+          "mentionCount": 3
+        },
+        {
+          "slug": "nube-9-coffee-scott",
+          "name": "Nube 9 Coffee",
+          "mentionCount": 3
+        },
+        {
+          "slug": "pont-breaux-coffee-house-breaux-bridge",
+          "name": "Pont Breaux Coffee House",
+          "mentionCount": 3
+        },
+        {
+          "slug": "jet-coffee-broussard",
+          "name": "Jet Coffee",
+          "mentionCount": 3
+        },
+        {
+          "slug": "java-square-cafe-opelousas",
+          "name": "Java Square Cafe",
+          "mentionCount": 3
+        },
+        {
+          "slug": "landrys-donuts-and-coffee-scott",
+          "name": "Landrys Donuts and Coffee",
+          "mentionCount": 3
+        },
+        {
+          "slug": "r-ve-coffee-lab-river-ranch-lafayette",
+          "name": "Rêve Coffee Lab River Ranch",
+          "mentionCount": 3
+        },
+        {
+          "slug": "scooter-s-coffee-broussard",
+          "name": "Scooter's Coffee",
+          "mentionCount": 3
+        },
+        {
+          "slug": "cane-river-pecan-company-pie-bar-new-iberia",
+          "name": "Cane River Pecan Company Pie Bar",
+          "mentionCount": 2
+        },
+        {
+          "slug": "cc-s-coffee-house-scott",
+          "name": "CC's Coffee House",
+          "mentionCount": 2
+        },
+        {
+          "slug": "pj-s-coffee-broussard",
+          "name": "PJ's Coffee",
+          "mentionCount": 2
+        },
+        {
+          "slug": "la-cheesecake-bakery-lafayette",
+          "name": "LA Cheesecake Bakery",
+          "mentionCount": 1
+        },
+        {
+          "slug": "barnes-and-noble-lafayette",
+          "name": "Barnes & Noble",
+          "mentionCount": 1
+        },
+        {
+          "slug": "twisted-nutrition-llc-scott",
+          "name": "Twisted Nutrition LLC",
+          "mentionCount": 1
+        },
+        {
+          "slug": "park-restaurant-abbeville",
+          "name": "Park Restaurant",
+          "mentionCount": 1
+        },
+        {
+          "slug": "champagne-s-to-go-breaux-bridge",
+          "name": "Champagne's to Go!",
+          "mentionCount": 1
+        },
+        {
+          "slug": "mel-s-diner-youngsville",
+          "name": "Mel's Diner",
+          "mentionCount": 1
+        },
+        {
+          "slug": "smallcakes-cupcakery-and-creamery-carencro-carencro",
+          "name": "Smallcakes Cupcakery and Creamery - Carencro",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-latte-in-acadiana",
+      "name": "Best Latte in Acadiana",
+      "category": "Latte",
+      "businessCount": 3,
+      "totalMentions": 3,
+      "topBusinesses": [
+        {
+          "slug": "komade-new-iberia",
+          "name": "Komade",
+          "mentionCount": 1
+        },
+        {
+          "slug": "lucia-bakehouse-lafayette",
+          "name": "Lucia | Bakehouse",
+          "mentionCount": 1
+        },
+        {
+          "slug": "r-ve-coffee-roasters-lafayette",
+          "name": "Rêve Coffee Roasters",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-cheesecake-in-acadiana",
+      "name": "Best Cheesecake in Acadiana",
+      "category": "Cheesecake",
+      "businessCount": 2,
+      "totalMentions": 4,
+      "topBusinesses": [
+        {
+          "slug": "la-cheesecake-bakery-lafayette",
+          "name": "LA Cheesecake Bakery",
+          "mentionCount": 3
+        },
+        {
+          "slug": "nora-s-sweets-broussard",
+          "name": "Nora’s Sweets",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-matcha-in-acadiana",
+      "name": "Best Matcha in Acadiana",
+      "category": "Matcha",
+      "businessCount": 2,
+      "totalMentions": 3,
+      "topBusinesses": [
+        {
+          "slug": "nube-9-coffee-scott",
+          "name": "Nube 9 Coffee",
+          "mentionCount": 2
+        },
+        {
+          "slug": "lucia-bakehouse-lafayette",
+          "name": "Lucia | Bakehouse",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-cold-brew-in-acadiana",
+      "name": "Best Cold Brew in Acadiana",
+      "category": "Cold Brew",
+      "businessCount": 2,
+      "totalMentions": 4,
+      "topBusinesses": [
+        {
+          "slug": "nube-9-coffee-scott",
+          "name": "Nube 9 Coffee",
+          "mentionCount": 2
+        },
+        {
+          "slug": "pj-s-coffee-broussard",
+          "name": "PJ's Coffee",
+          "mentionCount": 2
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-donuts-in-acadiana",
+      "name": "Best Donuts in Acadiana",
+      "category": "Donuts",
+      "businessCount": 19,
+      "totalMentions": 45,
+      "topBusinesses": [
+        {
+          "slug": "nuts-for-donuts-youngsville",
+          "name": "NUTS FOR DONUTS",
+          "mentionCount": 3
+        },
+        {
+          "slug": "ray-s-bakery-eunice",
+          "name": "Ray's Bakery",
+          "mentionCount": 3
+        },
+        {
+          "slug": "crispy-donut-carencro",
+          "name": "Crispy Donut",
+          "mentionCount": 3
+        },
+        {
+          "slug": "meche-s-donuts-new-iberia",
+          "name": "Meche's Donuts",
+          "mentionCount": 3
+        },
+        {
+          "slug": "miko-s-donuts-broussard",
+          "name": "Miko’s Donuts",
+          "mentionCount": 3
+        },
+        {
+          "slug": "meche-s-on-the-vermilion-abbeville",
+          "name": "Meche's On The Vermilion",
+          "mentionCount": 3
+        },
+        {
+          "slug": "mikey-s-donut-king-opelousas",
+          "name": "Mikey's Donut King",
+          "mentionCount": 3
+        },
+        {
+          "slug": "sunrise-donuts-broussard",
+          "name": "Sunrise Donuts",
+          "mentionCount": 3
+        },
+        {
+          "slug": "rayne-donuts-rayne",
+          "name": "Rayne Donuts",
+          "mentionCount": 2
+        },
+        {
+          "slug": "home-cut-donuts-youngsville",
+          "name": "Home Cut Donuts",
+          "mentionCount": 2
+        },
+        {
+          "slug": "donut-queen-eunice",
+          "name": "Donut Queen",
+          "mentionCount": 2
+        },
+        {
+          "slug": "whiskful-baking-co-broussard",
+          "name": "Whiskful Baking Co.",
+          "mentionCount": 2
+        },
+        {
+          "slug": "cajun-market-donut-company-breaux-bridge",
+          "name": "Cajun Market Donut Company",
+          "mentionCount": 2
+        },
+        {
+          "slug": "landrys-donuts-and-coffee-scott",
+          "name": "Landrys Donuts and Coffee",
+          "mentionCount": 2
+        },
+        {
+          "slug": "village-deaux-carencro",
+          "name": "Village Deaux",
+          "mentionCount": 2
+        },
+        {
+          "slug": "thee-heavenly-donut-henderson",
+          "name": "Thee Heavenly Donut",
+          "mentionCount": 2
+        },
+        {
+          "slug": "hot-donuts-and-kolaches-new-iberia",
+          "name": "Hot Donuts & Kolaches",
+          "mentionCount": 2
+        },
+        {
+          "slug": "louisiana-donuts-and-pastries-carencro",
+          "name": "Louisiana Donuts and Pastries",
+          "mentionCount": 2
+        },
+        {
+          "slug": "torrido-village-new-iberia",
+          "name": "Torrido Village",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-donut-holes-in-acadiana",
+      "name": "Best Donut Holes in Acadiana",
+      "category": "Donut Holes",
+      "businessCount": 4,
+      "totalMentions": 6,
+      "topBusinesses": [
+        {
+          "slug": "rickey-meche-s-donut-king-lafayette",
+          "name": "Rickey Meche's Donut King",
+          "mentionCount": 2
+        },
+        {
+          "slug": "ray-s-bakery-eunice",
+          "name": "Ray's Bakery",
+          "mentionCount": 2
+        },
+        {
+          "slug": "s-t-donuts-opelousas",
+          "name": "S T DONUTS",
+          "mentionCount": 1
+        },
+        {
+          "slug": "delish-donuts-new-iberia",
+          "name": "Delish Donuts",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-kolaches-in-acadiana",
+      "name": "Best Kolaches in Acadiana",
+      "category": "Kolaches",
+      "businessCount": 10,
+      "totalMentions": 13,
+      "topBusinesses": [
+        {
+          "slug": "nuts-for-donuts-youngsville",
+          "name": "NUTS FOR DONUTS",
+          "mentionCount": 2
+        },
+        {
+          "slug": "donut-queen-eunice",
+          "name": "Donut Queen",
+          "mentionCount": 2
+        },
+        {
+          "slug": "louisiana-donuts-and-pastries-carencro",
+          "name": "Louisiana Donuts and Pastries",
+          "mentionCount": 2
+        },
+        {
+          "slug": "s-t-donuts-opelousas",
+          "name": "S T DONUTS",
+          "mentionCount": 1
+        },
+        {
+          "slug": "home-cut-donuts-youngsville",
+          "name": "Home Cut Donuts",
+          "mentionCount": 1
+        },
+        {
+          "slug": "crispy-donut-carencro",
+          "name": "Crispy Donut",
+          "mentionCount": 1
+        },
+        {
+          "slug": "delish-donuts-new-iberia",
+          "name": "Delish Donuts",
+          "mentionCount": 1
+        },
+        {
+          "slug": "meche-s-on-the-vermilion-abbeville",
+          "name": "Meche's On The Vermilion",
+          "mentionCount": 1
+        },
+        {
+          "slug": "hot-donuts-and-kolaches-new-iberia",
+          "name": "Hot Donuts & Kolaches",
+          "mentionCount": 1
+        },
+        {
+          "slug": "torrido-village-new-iberia",
+          "name": "Torrido Village",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-daiquiris-in-acadiana",
+      "name": "Best Daiquiris in Acadiana",
+      "category": "Daiquiris",
+      "businessCount": 9,
+      "totalMentions": 22,
+      "topBusinesses": [
+        {
+          "slug": "acadiana-daiquiri-depot-new-iberia",
+          "name": "Acadiana Daiquiri Depot",
+          "mentionCount": 3
+        },
+        {
+          "slug": "doyle-s-drive-thru-daiquris-new-iberia",
+          "name": "Doyle's Drive Thru Daiquris",
+          "mentionCount": 3
+        },
+        {
+          "slug": "new-orleans-original-daiquiris-breaux-bridge",
+          "name": "New Orleans Original Daiquiris",
+          "mentionCount": 3
+        },
+        {
+          "slug": "cupids-creswell-ln-daiquiris-of-opelousas-opelousas",
+          "name": "Cupids Creswell Ln Daiquiris of Opelousas",
+          "mentionCount": 3
+        },
+        {
+          "slug": "sassy-s-daiquiris-eunice",
+          "name": "Sassy's Daiquiris",
+          "mentionCount": 2
+        },
+        {
+          "slug": "chip-s-daiquiris-eunice",
+          "name": "Chip’s daiquiris",
+          "mentionCount": 2
+        },
+        {
+          "slug": "b-and-b-daiquiri-abbeville",
+          "name": "B&B Daiquiri",
+          "mentionCount": 2
+        },
+        {
+          "slug": "chip-s-daiquiris-original-opelousas",
+          "name": "Chip's Daiquiris Original",
+          "mentionCount": 2
+        },
+        {
+          "slug": "rainbow-daiquiris-breaux-bridge",
+          "name": "Rainbow Daiquiris",
+          "mentionCount": 2
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-bread-in-acadiana",
+      "name": "Best Bread in Acadiana",
+      "category": "Bread",
+      "businessCount": 3,
+      "totalMentions": 8,
+      "topBusinesses": [
+        {
+          "slug": "wright-at-home-new-iberia",
+          "name": "Wright at Home",
+          "mentionCount": 3
+        },
+        {
+          "slug": "evangeline-maid-bakery-outlet-broussard",
+          "name": "Evangeline Maid Bakery Outlet",
+          "mentionCount": 3
+        },
+        {
+          "slug": "champagne-s-breaux-bridge-bakery-breaux-bridge",
+          "name": "Champagne's Breaux Bridge Bakery",
+          "mentionCount": 2
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-cookies-in-acadiana",
+      "name": "Best Cookies in Acadiana",
+      "category": "Cookies",
+      "businessCount": 8,
+      "totalMentions": 17,
+      "topBusinesses": [
+        {
+          "slug": "it-s-just-a-cookie-broussard",
+          "name": "It's Just a Cookie",
+          "mentionCount": 3
+        },
+        {
+          "slug": "the-cookie-door-broussard",
+          "name": "The Cookie Door",
+          "mentionCount": 3
+        },
+        {
+          "slug": "crumbl-lafayette",
+          "name": "Crumbl",
+          "mentionCount": 3
+        },
+        {
+          "slug": "caroline-s-cookies-lafayette-lafayette",
+          "name": "Caroline's Cookies Lafayette",
+          "mentionCount": 3
+        },
+        {
+          "slug": "great-american-cookies-new-iberia",
+          "name": "Great American Cookies",
+          "mentionCount": 2
+        },
+        {
+          "slug": "wright-at-home-new-iberia",
+          "name": "Wright at Home",
+          "mentionCount": 1
+        },
+        {
+          "slug": "champagne-s-to-go-breaux-bridge",
+          "name": "Champagne's to Go!",
+          "mentionCount": 1
+        },
+        {
+          "slug": "subway-henderson",
+          "name": "Subway",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-quesadillas-in-acadiana",
+      "name": "Best Quesadillas in Acadiana",
+      "category": "Quesadillas",
+      "businessCount": 2,
+      "totalMentions": 2,
+      "topBusinesses": [
+        {
+          "slug": "a-cheveux-salon-and-coffee-bar-abbeville",
+          "name": "A Cheveux Salon & Coffee Bar",
+          "mentionCount": 1
+        },
+        {
+          "slug": "huya-craft-coffee-youngsville",
+          "name": "Huya Craft Coffee",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-crawfish-in-acadiana",
+      "name": "Best Crawfish in Acadiana",
+      "category": "Crawfish",
+      "businessCount": 11,
+      "totalMentions": 26,
+      "topBusinesses": [
+        {
+          "slug": "boulet-s-boil-n-go-rayne-la-rayne",
+          "name": "Boulet's Boil-N-Go (Rayne, La)",
+          "mentionCount": 3
+        },
+        {
+          "slug": "jett-s-crawfish-drive-thru-rayne",
+          "name": "Jett's Crawfish Drive-Thru",
+          "mentionCount": 3
+        },
+        {
+          "slug": "the-seafood-boiler-henderson",
+          "name": "The Seafood Boiler",
+          "mentionCount": 3
+        },
+        {
+          "slug": "c-est-bon-crawfish-youngsville",
+          "name": "C'est Bon Crawfish",
+          "mentionCount": 3
+        },
+        {
+          "slug": "lt-s-seafood-and-steakhouse-broussard",
+          "name": "LT's Seafood & Steakhouse",
+          "mentionCount": 3
+        },
+        {
+          "slug": "the-boozy-and-boiling-barn-broussard",
+          "name": "The Boozy & Boiling Barn",
+          "mentionCount": 3
+        },
+        {
+          "slug": "prejean-s-restaurant-broussard-broussard",
+          "name": "Prejean's Restaurant Broussard",
+          "mentionCount": 2
+        },
+        {
+          "slug": "city-buffet-breaux-bridge",
+          "name": "City Buffet",
+          "mentionCount": 2
+        },
+        {
+          "slug": "pat-s-fisherman-s-wharf-restaurant-henderson",
+          "name": "Pat's Fisherman's Wharf Restaurant",
+          "mentionCount": 2
+        },
+        {
+          "slug": "sack-daddy-s-crawfish-abbeville",
+          "name": "Sack Daddy's Crawfish",
+          "mentionCount": 1
+        },
+        {
+          "slug": "crazy-bout-crawfish-breaux-bridge",
+          "name": "Crazy Bout Crawfish",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-beer-in-acadiana",
+      "name": "Best Beer in Acadiana",
+      "category": "Beer",
+      "businessCount": 3,
+      "totalMentions": 6,
+      "topBusinesses": [
+        {
+          "slug": "cantinas-downtown-new-iberia",
+          "name": "Cantinas Downtown",
+          "mentionCount": 2
+        },
+        {
+          "slug": "adopted-dog-brewing-scott",
+          "name": "Adopted Dog Brewing",
+          "mentionCount": 2
+        },
+        {
+          "slug": "pizza-shack-inc-opelousas",
+          "name": "Pizza Shack Inc",
+          "mentionCount": 2
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-liquid-mj-in-acadiana",
+      "name": "Best Liquid Mj in Acadiana",
+      "category": "Liquid Mj",
+      "businessCount": 2,
+      "totalMentions": 2,
+      "topBusinesses": [
+        {
+          "slug": "doyle-s-drive-thru-daiquris-new-iberia",
+          "name": "Doyle's Drive Thru Daiquris",
+          "mentionCount": 1
+        },
+        {
+          "slug": "cupids-creswell-ln-daiquiris-of-opelousas-opelousas",
+          "name": "Cupids Creswell Ln Daiquiris of Opelousas",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-chicken-tenders-in-acadiana",
+      "name": "Best Chicken Tenders in Acadiana",
+      "category": "Chicken Tenders",
+      "businessCount": 2,
+      "totalMentions": 2,
+      "topBusinesses": [
+        {
+          "slug": "lafayette-restaurant-blazin-hot-chicken-lafayette",
+          "name": "Lafayette Restaurant - Blazin' Hot Chicken",
+          "mentionCount": 1
+        },
+        {
+          "slug": "crispy-cajun-of-eunice-eunice",
+          "name": "Crispy Cajun of Eunice",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-fries-in-acadiana",
+      "name": "Best Fries in Acadiana",
+      "category": "Fries",
+      "businessCount": 9,
+      "totalMentions": 13,
+      "topBusinesses": [
+        {
+          "slug": "sweet-shop-henderson",
+          "name": "Sweet Shop",
+          "mentionCount": 2
+        },
+        {
+          "slug": "raising-cane-s-chicken-fingers-lafayette",
+          "name": "Raising Cane's Chicken Fingers",
+          "mentionCount": 2
+        },
+        {
+          "slug": "kok-wings-and-things-lafayette",
+          "name": "KOK Wings & Things",
+          "mentionCount": 2
+        },
+        {
+          "slug": "mcdonald-s-lafayette-2",
+          "name": "McDonald's",
+          "mentionCount": 2
+        },
+        {
+          "slug": "lafayette-restaurant-blazin-hot-chicken-lafayette",
+          "name": "Lafayette Restaurant - Blazin' Hot Chicken",
+          "mentionCount": 1
+        },
+        {
+          "slug": "bon-creole-new-iberia",
+          "name": "Bon Creole",
+          "mentionCount": 1
+        },
+        {
+          "slug": "soul-haus-kitchen-scott",
+          "name": "Soul Haus Kitchen",
+          "mentionCount": 1
+        },
+        {
+          "slug": "bourbon-street-deli-abbeville",
+          "name": "Bourbon Street Deli",
+          "mentionCount": 1
+        },
+        {
+          "slug": "blondys-wings-burgers-sandwiches-and-sports-bar-new-iberia",
+          "name": "Blondys Wings Burgers Sandwiches & Sports Bar",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-shrimp-and-grits-in-acadiana",
+      "name": "Best Shrimp And Grits in Acadiana",
+      "category": "Shrimp And Grits",
+      "businessCount": 3,
+      "totalMentions": 4,
+      "topBusinesses": [
+        {
+          "slug": "mouton-plantation-c-1820-sgna-lafayette",
+          "name": "Mouton Plantation c.1820 (SGNA)",
+          "mentionCount": 2
+        },
+        {
+          "slug": "ref-s-southern-cafe-and-catering-new-iberia",
+          "name": "Ref's Southern Cafe & Catering",
+          "mentionCount": 1
+        },
+        {
+          "slug": "tante-marie-breaux-bridge",
+          "name": "Tante Marie",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-touffe-in-acadiana",
+      "name": "Best éToufféE in Acadiana",
+      "category": "éToufféE",
+      "businessCount": 2,
+      "totalMentions": 2,
+      "topBusinesses": [
+        {
+          "slug": "ref-s-southern-cafe-and-catering-new-iberia",
+          "name": "Ref's Southern Cafe & Catering",
+          "mentionCount": 1
+        },
+        {
+          "slug": "d-c-s-sports-bar-and-steakhouse-eunice",
+          "name": "D C's Sports Bar & Steakhouse",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-margherita-pizza-in-acadiana",
+      "name": "Best Margherita Pizza in Acadiana",
+      "category": "Margherita Pizza",
+      "businessCount": 2,
+      "totalMentions": 2,
+      "topBusinesses": [
+        {
+          "slug": "antoni-s-italian-cafe-lafayette",
+          "name": "Antoni's Italian Cafe",
+          "mentionCount": 1
+        },
+        {
+          "slug": "misfits-dine-and-drink-youngsville",
+          "name": "Misfits Dine & Drink",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-espresso-in-acadiana",
+      "name": "Best Espresso in Acadiana",
+      "category": "Espresso",
+      "businessCount": 2,
+      "totalMentions": 2,
+      "topBusinesses": [
+        {
+          "slug": "bayou-barista-llc-breaux-bridge",
+          "name": "Bayou Barista LLC",
+          "mentionCount": 1
+        },
+        {
+          "slug": "elevated-tea-and-coffee-house-eunice",
+          "name": "Elevated Tea and Coffee House",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-pies-in-acadiana",
+      "name": "Best Pies in Acadiana",
+      "category": "Pies",
+      "businessCount": 3,
+      "totalMentions": 6,
+      "topBusinesses": [
+        {
+          "slug": "crumbl-lafayette",
+          "name": "Crumbl",
+          "mentionCount": 2
+        },
+        {
+          "slug": "cane-river-pecan-company-pie-bar-new-iberia",
+          "name": "Cane River Pecan Company Pie Bar",
+          "mentionCount": 2
+        },
+        {
+          "slug": "cane-river-pecan-company-new-iberia",
+          "name": "Cane River Pecan Company",
+          "mentionCount": 2
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-king-cake-in-acadiana",
+      "name": "Best King Cake in Acadiana",
+      "category": "King Cake",
+      "businessCount": 5,
+      "totalMentions": 11,
+      "topBusinesses": [
+        {
+          "slug": "keller-s-bakery-of-youngsville-youngsville",
+          "name": "Keller's Bakery of Youngsville",
+          "mentionCount": 3
+        },
+        {
+          "slug": "gautreaux-doughnut-kitchen-rayne",
+          "name": "Gautreaux Doughnut Kitchen",
+          "mentionCount": 3
+        },
+        {
+          "slug": "cajun-market-donut-company-breaux-bridge",
+          "name": "Cajun Market Donut Company",
+          "mentionCount": 2
+        },
+        {
+          "slug": "meche-s-on-the-vermilion-abbeville",
+          "name": "Meche's On The Vermilion",
+          "mentionCount": 2
+        },
+        {
+          "slug": "whiskful-baking-co-broussard",
+          "name": "Whiskful Baking Co.",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-pastries-in-acadiana",
+      "name": "Best Pastries in Acadiana",
+      "category": "Pastries",
+      "businessCount": 4,
+      "totalMentions": 5,
+      "topBusinesses": [
+        {
+          "slug": "lucia-bakehouse-lafayette",
+          "name": "Lucia | Bakehouse",
+          "mentionCount": 2
+        },
+        {
+          "slug": "evangeline-maid-bakery-outlet-broussard",
+          "name": "Evangeline Maid Bakery Outlet",
+          "mentionCount": 1
+        },
+        {
+          "slug": "crispy-donut-carencro",
+          "name": "Crispy Donut",
+          "mentionCount": 1
+        },
+        {
+          "slug": "mikey-s-donut-king-opelousas",
+          "name": "Mikey's Donut King",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-croissants-in-acadiana",
+      "name": "Best Croissants in Acadiana",
+      "category": "Croissants",
+      "businessCount": 5,
+      "totalMentions": 6,
+      "topBusinesses": [
+        {
+          "slug": "hot-donuts-and-kolaches-new-iberia",
+          "name": "Hot Donuts & Kolaches",
+          "mentionCount": 2
+        },
+        {
+          "slug": "nuts-for-donuts-youngsville",
+          "name": "NUTS FOR DONUTS",
+          "mentionCount": 1
+        },
+        {
+          "slug": "donut-queen-eunice",
+          "name": "Donut Queen",
+          "mentionCount": 1
+        },
+        {
+          "slug": "the-fresh-market-lafayette",
+          "name": "The Fresh Market",
+          "mentionCount": 1
+        },
+        {
+          "slug": "cc-s-coffee-house-scott",
+          "name": "CC's Coffee House",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-burger-in-acadiana",
+      "name": "Best Burger in Acadiana",
+      "category": "Burger",
+      "businessCount": 12,
+      "totalMentions": 19,
+      "topBusinesses": [
+        {
+          "slug": "sweet-shop-henderson",
+          "name": "Sweet Shop",
+          "mentionCount": 3
+        },
+        {
+          "slug": "angelle-s-old-fashioned-hamburgers-breaux-bridge",
+          "name": "Angelle's old fashioned hamburgers",
+          "mentionCount": 3
+        },
+        {
+          "slug": "o-yah-s-rayne",
+          "name": "O'YAH'S",
+          "mentionCount": 2
+        },
+        {
+          "slug": "caff-cottage-lafayette",
+          "name": "Caffé Cottage",
+          "mentionCount": 2
+        },
+        {
+          "slug": "fat-pat-s-bar-and-grill-carencro-carencro",
+          "name": "Fat Pat's Bar and Grill Carencro",
+          "mentionCount": 2
+        },
+        {
+          "slug": "the-hangout-sports-pub-broussard",
+          "name": "The Hangout Sports Pub",
+          "mentionCount": 1
+        },
+        {
+          "slug": "black-bull-youngsville-youngsville",
+          "name": "BLACK BULL YOUNGSVILLE",
+          "mentionCount": 1
+        },
+        {
+          "slug": "fat-pat-s-breaux-bridge-breaux-bridge",
+          "name": "Fat Pat's Breaux Bridge",
+          "mentionCount": 1
+        },
+        {
+          "slug": "park-restaurant-abbeville",
+          "name": "Park Restaurant",
+          "mentionCount": 1
+        },
+        {
+          "slug": "legends-pinhook-broussard",
+          "name": "Legends Pinhook",
+          "mentionCount": 1
+        },
+        {
+          "slug": "the-acadiana-bar-and-grill-youngsville",
+          "name": "The Acadiana Bar and Grill",
+          "mentionCount": 1
+        },
+        {
+          "slug": "dairy-queen-grill-and-chill-abbeville",
+          "name": "Dairy Queen Grill & Chill",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-beignets-in-acadiana",
+      "name": "Best Beignets in Acadiana",
+      "category": "Beignets",
+      "businessCount": 5,
+      "totalMentions": 7,
+      "topBusinesses": [
+        {
+          "slug": "rickey-meche-s-donut-king-lafayette",
+          "name": "Rickey Meche's Donut King",
+          "mentionCount": 2
+        },
+        {
+          "slug": "the-coffee-depot-scott",
+          "name": "The Coffee Depot",
+          "mentionCount": 2
+        },
+        {
+          "slug": "parish-biscuit-company-lafayette",
+          "name": "Parish Biscuit Company",
+          "mentionCount": 1
+        },
+        {
+          "slug": "delish-donuts-new-iberia",
+          "name": "Delish Donuts",
+          "mentionCount": 1
+        },
+        {
+          "slug": "tante-marie-breaux-bridge",
+          "name": "Tante Marie",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-blueberry-donuts-in-acadiana",
+      "name": "Best Blueberry Donuts in Acadiana",
+      "category": "Blueberry Donuts",
+      "businessCount": 2,
+      "totalMentions": 2,
+      "topBusinesses": [
+        {
+          "slug": "rickey-meche-s-donut-king-lafayette",
+          "name": "Rickey Meche's Donut King",
+          "mentionCount": 1
+        },
+        {
+          "slug": "the-toasted-yolk-cafe-lafayette",
+          "name": "The Toasted Yolk Cafe",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-snowballs-in-acadiana",
+      "name": "Best Snowballs in Acadiana",
+      "category": "Snowballs",
+      "businessCount": 2,
+      "totalMentions": 5,
+      "topBusinesses": [
+        {
+          "slug": "roxie-s-outdoor-patio-and-drive-thru-youngsville",
+          "name": "Roxie's Outdoor Patio and Drive-Thru",
+          "mentionCount": 3
+        },
+        {
+          "slug": "sack-daddy-s-crawfish-abbeville",
+          "name": "Sack Daddy's Crawfish",
+          "mentionCount": 2
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-garlic-knots-in-acadiana",
+      "name": "Best Garlic Knots in Acadiana",
+      "category": "Garlic Knots",
+      "businessCount": 2,
+      "totalMentions": 4,
+      "topBusinesses": [
+        {
+          "slug": "central-pizza-bar-lafayette-lafayette",
+          "name": "CENTRAL Pizza + Bar Lafayette",
+          "mentionCount": 3
+        },
+        {
+          "slug": "tito-s-la-casa-abbeville",
+          "name": "Tito's La Casa",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-alfredo-in-acadiana",
+      "name": "Best Alfredo in Acadiana",
+      "category": "Alfredo",
+      "businessCount": 2,
+      "totalMentions": 2,
+      "topBusinesses": [
+        {
+          "slug": "tito-s-la-casa-abbeville",
+          "name": "Tito's La Casa",
+          "mentionCount": 1
+        },
+        {
+          "slug": "the-chimes-lafayette-lafayette",
+          "name": "The Chimes Lafayette",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-onion-rings-in-acadiana",
+      "name": "Best Onion Rings in Acadiana",
+      "category": "Onion Rings",
+      "businessCount": 4,
+      "totalMentions": 6,
+      "topBusinesses": [
+        {
+          "slug": "angelle-s-old-fashioned-hamburgers-breaux-bridge",
+          "name": "Angelle's old fashioned hamburgers",
+          "mentionCount": 3
+        },
+        {
+          "slug": "lt-s-seafood-and-steakhouse-broussard",
+          "name": "LT's Seafood & Steakhouse",
+          "mentionCount": 1
+        },
+        {
+          "slug": "duffy-s-diner-new-iberia",
+          "name": "Duffy's Diner",
+          "mentionCount": 1
+        },
+        {
+          "slug": "foti-s-caf-breaux-bridge",
+          "name": "Foti's Café",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-ice-cream-in-acadiana",
+      "name": "Best Ice Cream in Acadiana",
+      "category": "Ice Cream",
+      "businessCount": 2,
+      "totalMentions": 6,
+      "topBusinesses": [
+        {
+          "slug": "baskin-robbins-new-iberia",
+          "name": "Baskin-Robbins",
+          "mentionCount": 3
+        },
+        {
+          "slug": "great-american-cookies-new-iberia",
+          "name": "Great American Cookies",
+          "mentionCount": 3
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-shrimp-poboy-in-acadiana",
+      "name": "Best Shrimp Poboy in Acadiana",
+      "category": "Shrimp Poboy",
+      "businessCount": 4,
+      "totalMentions": 5,
+      "topBusinesses": [
+        {
+          "slug": "bon-creole-new-iberia",
+          "name": "Bon Creole",
+          "mentionCount": 2
+        },
+        {
+          "slug": "the-crawfish-hut-bar-and-grill-rayne",
+          "name": "The Crawfish Hut Bar & Grill",
+          "mentionCount": 1
+        },
+        {
+          "slug": "mama-s-fried-chicken-opelousas",
+          "name": "Mama's Fried Chicken",
+          "mentionCount": 1
+        },
+        {
+          "slug": "little-capitol-henderson",
+          "name": "Little Capitol",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-bread-pudding-in-acadiana",
+      "name": "Best Bread Pudding in Acadiana",
+      "category": "Bread Pudding",
+      "businessCount": 4,
+      "totalMentions": 4,
+      "topBusinesses": [
+        {
+          "slug": "bon-creole-new-iberia",
+          "name": "Bon Creole",
+          "mentionCount": 1
+        },
+        {
+          "slug": "glenda-s-creole-kitchen-restaurant-breaux-bridge",
+          "name": "Glenda's Creole Kitchen Restaurant",
+          "mentionCount": 1
+        },
+        {
+          "slug": "shucks-abbeville",
+          "name": "SHUCKS!",
+          "mentionCount": 1
+        },
+        {
+          "slug": "shane-s-famous-quesadilla-burgers-scott",
+          "name": "Shane's Famous Quesadilla Burgers",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-charbroiled-oysters-in-acadiana",
+      "name": "Best Charbroiled Oysters in Acadiana",
+      "category": "Charbroiled Oysters",
+      "businessCount": 2,
+      "totalMentions": 2,
+      "topBusinesses": [
+        {
+          "slug": "c-est-bon-crawfish-youngsville",
+          "name": "C'est Bon Crawfish",
+          "mentionCount": 1
+        },
+        {
+          "slug": "uncle-t-s-oyster-bar-lafayette",
+          "name": "Uncle T's Oyster Bar",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-seafood-platter-in-acadiana",
+      "name": "Best Seafood Platter in Acadiana",
+      "category": "Seafood Platter",
+      "businessCount": 2,
+      "totalMentions": 2,
+      "topBusinesses": [
+        {
+          "slug": "c-est-bon-crawfish-youngsville",
+          "name": "C'est Bon Crawfish",
+          "mentionCount": 1
+        },
+        {
+          "slug": "gabe-s-cajun-food-rayne",
+          "name": "Gabe’s Cajun Food",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-crab-in-acadiana",
+      "name": "Best Crab in Acadiana",
+      "category": "Crab",
+      "businessCount": 2,
+      "totalMentions": 3,
+      "topBusinesses": [
+        {
+          "slug": "pelicans-on-the-bayou-new-iberia",
+          "name": "Pelicans On the Bayou",
+          "mentionCount": 2
+        },
+        {
+          "slug": "chef-roy-s-frog-city-cafe-rayne",
+          "name": "Chef Roy's Frog City Cafe",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-fried-shrimp-in-acadiana",
+      "name": "Best Fried Shrimp in Acadiana",
+      "category": "Fried Shrimp",
+      "businessCount": 2,
+      "totalMentions": 2,
+      "topBusinesses": [
+        {
+          "slug": "creole-lunch-box-breaux-bridge",
+          "name": "Creole Lunch Box",
+          "mentionCount": 1
+        },
+        {
+          "slug": "tad-s-louisiana-cooking-youngsville",
+          "name": "Tad's Louisiana Cooking",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-oysters-in-acadiana",
+      "name": "Best Oysters in Acadiana",
+      "category": "Oysters",
+      "businessCount": 4,
+      "totalMentions": 6,
+      "topBusinesses": [
+        {
+          "slug": "shucks-abbeville",
+          "name": "SHUCKS!",
+          "mentionCount": 3
+        },
+        {
+          "slug": "dupuy-s-seafood-and-steak-abbeville",
+          "name": "Dupuy's Seafood and Steak",
+          "mentionCount": 1
+        },
+        {
+          "slug": "spoonbill-watering-hole-and-restaurant-lafayette",
+          "name": "Spoonbill Watering Hole & Restaurant",
+          "mentionCount": 1
+        },
+        {
+          "slug": "the-chimes-lafayette-lafayette",
+          "name": "The Chimes Lafayette",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-egg-drop-soup-in-acadiana",
+      "name": "Best Egg Drop Soup in Acadiana",
+      "category": "Egg Drop Soup",
+      "businessCount": 2,
+      "totalMentions": 2,
+      "topBusinesses": [
+        {
+          "slug": "jane-s-seafood-and-chinese-restaurant-new-iberia",
+          "name": "Jane's Seafood & Chinese Restaurant",
+          "mentionCount": 1
+        },
+        {
+          "slug": "peking-buffet-opelousas",
+          "name": "Peking Buffet",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-pastry-in-acadiana",
+      "name": "Best Pastry in Acadiana",
+      "category": "Pastry",
+      "businessCount": 2,
+      "totalMentions": 3,
+      "topBusinesses": [
+        {
+          "slug": "r-ve-coffee-lab-river-ranch-lafayette",
+          "name": "Rêve Coffee Lab River Ranch",
+          "mentionCount": 2
+        },
+        {
+          "slug": "java-square-cafe-opelousas",
+          "name": "Java Square Cafe",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-salad-in-acadiana",
+      "name": "Best Salad in Acadiana",
+      "category": "Salad",
+      "businessCount": 2,
+      "totalMentions": 4,
+      "topBusinesses": [
+        {
+          "slug": "the-chimes-lafayette-lafayette",
+          "name": "The Chimes Lafayette",
+          "mentionCount": 3
+        },
+        {
+          "slug": "kk-s-cafe-youngsville",
+          "name": "KK's Cafe",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-po-boy-in-acadiana",
+      "name": "Best Po-Boy in Acadiana",
+      "category": "Po-Boy",
+      "businessCount": 3,
+      "totalMentions": 5,
+      "topBusinesses": [
+        {
+          "slug": "olde-tyme-grocery-lafayette",
+          "name": "Olde Tyme Grocery",
+          "mentionCount": 3
+        },
+        {
+          "slug": "turtle-s-bar-and-grill-henderson",
+          "name": "Turtle’s Bar & Grill",
+          "mentionCount": 1
+        },
+        {
+          "slug": "ct-usa-restaurant-and-market-henderson",
+          "name": "CT-USA Restaurant & Market",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-cake-in-acadiana",
+      "name": "Best Cake in Acadiana",
+      "category": "Cake",
+      "businessCount": 3,
+      "totalMentions": 9,
+      "topBusinesses": [
+        {
+          "slug": "sky-s-the-limit-cakes-scott",
+          "name": "Sky's the Limit Cakes",
+          "mentionCount": 3
+        },
+        {
+          "slug": "watch-me-whip-youngsville",
+          "name": "Watch Me Whip",
+          "mentionCount": 3
+        },
+        {
+          "slug": "poupart-bakery-inc-lafayette",
+          "name": "Poupart Bakery Inc",
+          "mentionCount": 3
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-wings-in-acadiana",
+      "name": "Best Wings in Acadiana",
+      "category": "Wings",
+      "businessCount": 7,
+      "totalMentions": 11,
+      "topBusinesses": [
+        {
+          "slug": "the-hangout-sports-pub-broussard",
+          "name": "The Hangout Sports Pub",
+          "mentionCount": 2
+        },
+        {
+          "slug": "soul-haus-kitchen-scott",
+          "name": "Soul Haus Kitchen",
+          "mentionCount": 2
+        },
+        {
+          "slug": "corner-seafood-and-wings-youngsville",
+          "name": "Corner Seafood And Wings",
+          "mentionCount": 2
+        },
+        {
+          "slug": "kok-wings-and-things-lafayette",
+          "name": "KOK Wings & Things",
+          "mentionCount": 2
+        },
+        {
+          "slug": "adopted-dog-brewing-scott",
+          "name": "Adopted Dog Brewing",
+          "mentionCount": 1
+        },
+        {
+          "slug": "blondys-wings-burgers-sandwiches-and-sports-bar-new-iberia",
+          "name": "Blondys Wings Burgers Sandwiches & Sports Bar",
+          "mentionCount": 1
+        },
+        {
+          "slug": "pizza-hut-rayne",
+          "name": "Pizza Hut",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-shrimp-salad-in-acadiana",
+      "name": "Best Shrimp Salad in Acadiana",
+      "category": "Shrimp Salad",
+      "businessCount": 3,
+      "totalMentions": 3,
+      "topBusinesses": [
+        {
+          "slug": "tim-s-kitchen-broussard",
+          "name": "Tim's Kitchen",
+          "mentionCount": 1
+        },
+        {
+          "slug": "caribbean-ice-company-new-iberia",
+          "name": "Caribbean Ice Company",
+          "mentionCount": 1
+        },
+        {
+          "slug": "ct-usa-restaurant-and-market-henderson",
+          "name": "CT-USA Restaurant & Market",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-gumbo-in-acadiana",
+      "name": "Best Gumbo in Acadiana",
+      "category": "Gumbo",
+      "businessCount": 8,
+      "totalMentions": 12,
+      "topBusinesses": [
+        {
+          "slug": "turtle-s-bar-and-grill-henderson",
+          "name": "Turtle’s Bar & Grill",
+          "mentionCount": 2
+        },
+        {
+          "slug": "lee-s-cajun-cuisine-opelousas",
+          "name": "Lee's Cajun Cuisine",
+          "mentionCount": 2
+        },
+        {
+          "slug": "prejean-s-restaurant-broussard-broussard",
+          "name": "Prejean's Restaurant Broussard",
+          "mentionCount": 2
+        },
+        {
+          "slug": "crazy-bout-crawfish-breaux-bridge",
+          "name": "Crazy Bout Crawfish",
+          "mentionCount": 2
+        },
+        {
+          "slug": "whiskful-baking-co-broussard",
+          "name": "Whiskful Baking Co.",
+          "mentionCount": 1
+        },
+        {
+          "slug": "richard-s-seafood-patio-abbeville",
+          "name": "Richard's Seafood Patio",
+          "mentionCount": 1
+        },
+        {
+          "slug": "sicily-s-pizza-broussard",
+          "name": "Sicily's Pizza",
+          "mentionCount": 1
+        },
+        {
+          "slug": "pat-s-fisherman-s-wharf-restaurant-henderson",
+          "name": "Pat's Fisherman's Wharf Restaurant",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-boudin-egg-rolls-in-acadiana",
+      "name": "Best Boudin Egg Rolls in Acadiana",
+      "category": "Boudin Egg Rolls",
+      "businessCount": 2,
+      "totalMentions": 3,
+      "topBusinesses": [
+        {
+          "slug": "the-crawfish-hut-bar-and-grill-rayne",
+          "name": "The Crawfish Hut Bar & Grill",
+          "mentionCount": 2
+        },
+        {
+          "slug": "uncle-t-s-oyster-bar-lafayette",
+          "name": "Uncle T's Oyster Bar",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-tacos-in-acadiana",
+      "name": "Best Tacos in Acadiana",
+      "category": "Tacos",
+      "businessCount": 3,
+      "totalMentions": 4,
+      "topBusinesses": [
+        {
+          "slug": "el-paso-mexican-grill-carencro-carencro",
+          "name": "El Paso Mexican Grill Carencro",
+          "mentionCount": 2
+        },
+        {
+          "slug": "uncle-t-s-oyster-bar-lafayette",
+          "name": "Uncle T's Oyster Bar",
+          "mentionCount": 1
+        },
+        {
+          "slug": "la-esmeralda-super-market-scott",
+          "name": "La Esmeralda Super-Market",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-hamburgers-in-acadiana",
+      "name": "Best Hamburgers in Acadiana",
+      "category": "Hamburgers",
+      "businessCount": 2,
+      "totalMentions": 3,
+      "topBusinesses": [
+        {
+          "slug": "crispy-cajun-of-eunice-eunice",
+          "name": "Crispy Cajun of Eunice",
+          "mentionCount": 2
+        },
+        {
+          "slug": "backstop-bar-new-iberia",
+          "name": "Backstop Bar",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-hamburger-steak-in-acadiana",
+      "name": "Best Hamburger Steak in Acadiana",
+      "category": "Hamburger Steak",
+      "businessCount": 2,
+      "totalMentions": 2,
+      "topBusinesses": [
+        {
+          "slug": "backstop-bar-new-iberia",
+          "name": "Backstop Bar",
+          "mentionCount": 1
+        },
+        {
+          "slug": "the-new-ronnie-s-cajun-cafe-eunice",
+          "name": "The New Ronnie's Cajun Cafe",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-loaded-fries-in-acadiana",
+      "name": "Best Loaded Fries in Acadiana",
+      "category": "Loaded Fries",
+      "businessCount": 2,
+      "totalMentions": 2,
+      "topBusinesses": [
+        {
+          "slug": "caff-cottage-lafayette",
+          "name": "Caffé Cottage",
+          "mentionCount": 1
+        },
+        {
+          "slug": "the-tap-room-youngsville-youngsville",
+          "name": "The Tap Room Youngsville",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-margaritas-in-acadiana",
+      "name": "Best Margaritas in Acadiana",
+      "category": "Margaritas",
+      "businessCount": 4,
+      "totalMentions": 4,
+      "topBusinesses": [
+        {
+          "slug": "casa-margarita-rayne",
+          "name": "Casa Margarita",
+          "mentionCount": 1
+        },
+        {
+          "slug": "hacienda-real-eunice",
+          "name": "Hacienda Real",
+          "mentionCount": 1
+        },
+        {
+          "slug": "hacienda-real-mexican-restaurant-of-breaux-bridge-breaux-bridge",
+          "name": "Hacienda Real Mexican Restaurant of Breaux Bridge",
+          "mentionCount": 1
+        },
+        {
+          "slug": "pedro-s-tacos-and-tequila-bar-opelousas-opelousas",
+          "name": "Pedro's Tacos & Tequila Bar Opelousas",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-boudin-balls-in-acadiana",
+      "name": "Best Boudin Balls in Acadiana",
+      "category": "Boudin Balls",
+      "businessCount": 3,
+      "totalMentions": 3,
+      "topBusinesses": [
+        {
+          "slug": "chicken-on-the-bayou-and-boudin-shop-henderson",
+          "name": "Chicken On The Bayou & Boudin Shop",
+          "mentionCount": 1
+        },
+        {
+          "slug": "bourbon-street-deli-abbeville",
+          "name": "Bourbon Street Deli",
+          "mentionCount": 1
+        },
+        {
+          "slug": "hebert-s-boudin-and-cracklins-henderson",
+          "name": "Hebert's Boudin & Cracklins",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-peach-cobbler-in-acadiana",
+      "name": "Best Peach Cobbler in Acadiana",
+      "category": "Peach Cobbler",
+      "businessCount": 2,
+      "totalMentions": 3,
+      "topBusinesses": [
+        {
+          "slug": "peach-cobbler-factory-lafayette",
+          "name": "Peach Cobbler Factory",
+          "mentionCount": 2
+        },
+        {
+          "slug": "glenda-s-creole-kitchen-restaurant-breaux-bridge",
+          "name": "Glenda's Creole Kitchen Restaurant",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-burgers-in-acadiana",
+      "name": "Best Burgers in Acadiana",
+      "category": "Burgers",
+      "businessCount": 5,
+      "totalMentions": 7,
+      "topBusinesses": [
+        {
+          "slug": "morvant-s-bar-and-grill-youngsville",
+          "name": "Morvant's Bar & Grill",
+          "mentionCount": 2
+        },
+        {
+          "slug": "green-oaks-lounge-scott",
+          "name": "Green Oaks Lounge",
+          "mentionCount": 2
+        },
+        {
+          "slug": "lazy-lounge-new-iberia",
+          "name": "Lazy Lounge",
+          "mentionCount": 1
+        },
+        {
+          "slug": "caribbean-ice-company-new-iberia",
+          "name": "Caribbean Ice Company",
+          "mentionCount": 1
+        },
+        {
+          "slug": "mi-tio-mexican-grill-henderson",
+          "name": "MI Tio Mexican Grill",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-shrimp-in-acadiana",
+      "name": "Best Shrimp in Acadiana",
+      "category": "Shrimp",
+      "businessCount": 3,
+      "totalMentions": 3,
+      "topBusinesses": [
+        {
+          "slug": "cajun-station-eunice",
+          "name": "Cajun Station",
+          "mentionCount": 1
+        },
+        {
+          "slug": "corner-seafood-and-wings-youngsville",
+          "name": "Corner Seafood And Wings",
+          "mentionCount": 1
+        },
+        {
+          "slug": "the-bulldog-lafayette",
+          "name": "The Bulldog",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-cracklins-in-acadiana",
+      "name": "Best Cracklins in Acadiana",
+      "category": "Cracklins",
+      "businessCount": 2,
+      "totalMentions": 3,
+      "topBusinesses": [
+        {
+          "slug": "hebert-s-boudin-and-cracklins-henderson",
+          "name": "Hebert's Boudin & Cracklins",
+          "mentionCount": 2
+        },
+        {
+          "slug": "don-s-specialty-meats-scott",
+          "name": "Don's Specialty Meats",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-hush-puppies-in-acadiana",
+      "name": "Best Hush Puppies in Acadiana",
+      "category": "Hush Puppies",
+      "businessCount": 2,
+      "totalMentions": 2,
+      "topBusinesses": [
+        {
+          "slug": "dons-seafood-lafayette-lafayette",
+          "name": "Dons Seafood - Lafayette",
+          "mentionCount": 1
+        },
+        {
+          "slug": "fezzo-s-seafood-steakhouse-and-oyster-bar-broussard",
+          "name": "Fezzo's Seafood, Steakhouse & Oyster Bar",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-shrimp-cocktail-in-acadiana",
+      "name": "Best Shrimp Cocktail in Acadiana",
+      "category": "Shrimp Cocktail",
+      "businessCount": 2,
+      "totalMentions": 2,
+      "topBusinesses": [
+        {
+          "slug": "hacienda-real-eunice",
+          "name": "Hacienda Real",
+          "mentionCount": 1
+        },
+        {
+          "slug": "blue-iguana-eunice-eunice",
+          "name": "Blue Iguana Eunice",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-chips-and-salsa-in-acadiana",
+      "name": "Best Chips And Salsa in Acadiana",
+      "category": "Chips And Salsa",
+      "businessCount": 3,
+      "totalMentions": 4,
+      "topBusinesses": [
+        {
+          "slug": "el-rodeo-mexican-grill-eunice",
+          "name": "El Rodeo Mexican Grill",
+          "mentionCount": 2
+        },
+        {
+          "slug": "hacienda-real-mexican-restaurant-of-breaux-bridge-breaux-bridge",
+          "name": "Hacienda Real Mexican Restaurant of Breaux Bridge",
+          "mentionCount": 1
+        },
+        {
+          "slug": "blue-iguana-eunice-eunice",
+          "name": "Blue Iguana Eunice",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-fried-chicken-in-acadiana",
+      "name": "Best Fried Chicken in Acadiana",
+      "category": "Fried Chicken",
+      "businessCount": 2,
+      "totalMentions": 4,
+      "topBusinesses": [
+        {
+          "slug": "mama-s-fried-chicken-opelousas",
+          "name": "Mama's Fried Chicken",
+          "mentionCount": 2
+        },
+        {
+          "slug": "crispy-cajun-of-eunice-eunice",
+          "name": "Crispy Cajun of Eunice",
+          "mentionCount": 2
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-daiquiri-in-acadiana",
+      "name": "Best Daiquiri in Acadiana",
+      "category": "Daiquiri",
+      "businessCount": 3,
+      "totalMentions": 6,
+      "topBusinesses": [
+        {
+          "slug": "daiquiri-divas-rayne",
+          "name": "Daiquiri Divas",
+          "mentionCount": 3
+        },
+        {
+          "slug": "the-boozy-and-boiling-barn-broussard",
+          "name": "The Boozy & Boiling Barn",
+          "mentionCount": 2
+        },
+        {
+          "slug": "daiquiri-island-scott",
+          "name": "Daiquiri Island",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-crab-cakes-in-acadiana",
+      "name": "Best Crab Cakes in Acadiana",
+      "category": "Crab Cakes",
+      "businessCount": 2,
+      "totalMentions": 2,
+      "topBusinesses": [
+        {
+          "slug": "fezzo-s-seafood-steakhouse-and-oyster-bar-broussard",
+          "name": "Fezzo's Seafood, Steakhouse & Oyster Bar",
+          "mentionCount": 1
+        },
+        {
+          "slug": "crazy-bout-crawfish-breaux-bridge",
+          "name": "Crazy Bout Crawfish",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-biscuits-in-acadiana",
+      "name": "Best Biscuits in Acadiana",
+      "category": "Biscuits",
+      "businessCount": 2,
+      "totalMentions": 2,
+      "topBusinesses": [
+        {
+          "slug": "mel-s-diner-youngsville",
+          "name": "Mel's Diner",
+          "mentionCount": 1
+        },
+        {
+          "slug": "church-s-texas-chicken-carencro",
+          "name": "Church's Texas Chicken",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-sushi-in-acadiana",
+      "name": "Best Sushi in Acadiana",
+      "category": "Sushi",
+      "businessCount": 3,
+      "totalMentions": 3,
+      "topBusinesses": [
+        {
+          "slug": "scott-oaks-plaza-scott",
+          "name": "Scott Oaks Plaza",
+          "mentionCount": 1
+        },
+        {
+          "slug": "peking-buffet-opelousas",
+          "name": "Peking Buffet",
+          "mentionCount": 1
+        },
+        {
+          "slug": "yamato-steakhouse-of-japan-opelousas",
+          "name": "Yamato Steakhouse of Japan",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-pizza-in-acadiana",
+      "name": "Best Pizza in Acadiana",
+      "category": "Pizza",
+      "businessCount": 4,
+      "totalMentions": 8,
+      "topBusinesses": [
+        {
+          "slug": "deano-s-henderson-henderson",
+          "name": "DeanO's Henderson",
+          "mentionCount": 3
+        },
+        {
+          "slug": "mr-gatti-s-pizza-eunice",
+          "name": "Mr Gatti's Pizza",
+          "mentionCount": 2
+        },
+        {
+          "slug": "domino-s-pizza-abbeville",
+          "name": "Domino's Pizza",
+          "mentionCount": 2
+        },
+        {
+          "slug": "sky-zone-trampoline-park-lafayette",
+          "name": "Sky Zone Trampoline Park",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-nachos-in-acadiana",
+      "name": "Best Nachos in Acadiana",
+      "category": "Nachos",
+      "businessCount": 2,
+      "totalMentions": 2,
+      "topBusinesses": [
+        {
+          "slug": "sky-zone-trampoline-park-lafayette",
+          "name": "Sky Zone Trampoline Park",
+          "mentionCount": 1
+        },
+        {
+          "slug": "fat-pat-s-bar-and-grill-broussard-broussard",
+          "name": "Fat Pat's Bar and Grill Broussard",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-cheeseburger-in-acadiana",
+      "name": "Best Cheeseburger in Acadiana",
+      "category": "Cheeseburger",
+      "businessCount": 2,
+      "totalMentions": 3,
+      "topBusinesses": [
+        {
+          "slug": "foti-s-caf-breaux-bridge",
+          "name": "Foti's Café",
+          "mentionCount": 2
+        },
+        {
+          "slug": "duffy-s-diner-new-iberia",
+          "name": "Duffy's Diner",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
+    },
+    {
+      "slug": "best-crayfish-in-acadiana",
+      "name": "Best Crayfish in Acadiana",
+      "category": "Crayfish",
+      "businessCount": 2,
+      "totalMentions": 3,
+      "topBusinesses": [
+        {
+          "slug": "the-bulldog-lafayette",
+          "name": "The Bulldog",
+          "mentionCount": 2
+        },
+        {
+          "slug": "hong-kong-buffet-broussard",
+          "name": "Hong Kong Buffet",
+          "mentionCount": 1
+        }
+      ],
+      "source": "ai-praise-tags"
     }
   ],
   "businesses": [
@@ -2276,10 +4531,3958 @@
       "rank": null,
       "tags": [],
       "specialNotes": null
+    },
+    {
+      "slug": "aunt-angie-s-cakery-new-iberia",
+      "name": "Aunt Angie's Cakery",
+      "category": "Bakery",
+      "categories": [
+        "cupcakes"
+      ],
+      "location": "New Iberia",
+      "address": "1507 Elm St, New Iberia, LA 70560, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Cupcakes in Acadiana",
+      "threads": [
+        "Best Cupcakes in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "watch-me-whip-youngsville",
+      "name": "Watch Me Whip",
+      "category": "Bakery",
+      "categories": [
+        "cupcakes"
+      ],
+      "location": "Youngsville",
+      "address": "307 Church St, Youngsville, LA 70592, USA",
+      "mentionCount": 5,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Cupcakes in Acadiana",
+      "threads": [
+        "Best Cupcakes in Acadiana",
+        "Best Cake in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "smallcakes-cupcakery-and-creamery-carencro-carencro",
+      "name": "Smallcakes Cupcakery and Creamery - Carencro",
+      "category": "Cafe",
+      "categories": [
+        "cupcakes"
+      ],
+      "location": "Carencro",
+      "address": "107 Hector Connoly Rd #203, Carencro, LA 70520, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Cupcakes in Acadiana",
+      "threads": [
+        "Best Cupcakes in Acadiana",
+        "Best Coffee in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "dezmeaux-s-boudin-opelousas",
+      "name": "DezMeaux's Boudin",
+      "category": "Restaurant",
+      "categories": [
+        "boudin"
+      ],
+      "location": "Opelousas",
+      "address": "720 E Vine St, Opelousas, LA 70570, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Boudin in Acadiana",
+      "threads": [
+        "Best Boudin in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "chicken-on-the-bayou-and-boudin-shop-henderson",
+      "name": "Chicken On The Bayou & Boudin Shop",
+      "category": "Restaurant",
+      "categories": [
+        "boudin"
+      ],
+      "location": "Henderson",
+      "address": "2942 Grand Point Hwy f, Breaux Bridge, LA 70517, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Boudin in Acadiana",
+      "threads": [
+        "Best Boudin in Acadiana",
+        "Best Boudin Balls in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "hebert-s-boudin-and-cracklins-breaux-bridge",
+      "name": "Hebert's Boudin and Cracklins",
+      "category": "Restaurant",
+      "categories": [
+        "boudin"
+      ],
+      "location": "Breaux Bridge",
+      "address": "2013 Rees St, Breaux Bridge, LA 70517, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Boudin in Acadiana",
+      "threads": [
+        "Best Boudin in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "boudin-and-cracklins-rayne",
+      "name": "Boudin & Cracklins",
+      "category": "Restaurant",
+      "categories": [
+        "boudin"
+      ],
+      "location": "Rayne",
+      "address": "Rayne, LA 70578, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Boudin in Acadiana",
+      "threads": [
+        "Best Boudin in Acadiana",
+        "Best Chicken Cracklings in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "the-best-stop-supermarket-scott",
+      "name": "The Best Stop Supermarket",
+      "category": "Restaurant",
+      "categories": [
+        "boudin"
+      ],
+      "location": "Scott",
+      "address": "615 LA-93, Scott, LA 70583, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Boudin in Acadiana",
+      "threads": [
+        "Best Boudin in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "delish-donuts-new-iberia",
+      "name": "Delish Donuts",
+      "category": "Bakery",
+      "categories": [
+        "boudin"
+      ],
+      "location": "New Iberia",
+      "address": "3005 Loreauville Rd, New Iberia, LA 70563, USA",
+      "mentionCount": 4,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Boudin in Acadiana",
+      "threads": [
+        "Best Boudin in Acadiana",
+        "Best Donut Holes in Acadiana",
+        "Best Kolaches in Acadiana",
+        "Best Beignets in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "don-s-specialty-meats-scott",
+      "name": "Don's Specialty Meats",
+      "category": "Restaurant",
+      "categories": [
+        "boudin"
+      ],
+      "location": "Scott",
+      "address": "730 I-10 South Frontage Rd, Scott, LA 70583, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Boudin in Acadiana",
+      "threads": [
+        "Best Boudin in Acadiana",
+        "Best Cracklins in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "trahan-foods-llc-rayne",
+      "name": "Trahan Foods LLC",
+      "category": "Bakery",
+      "categories": [
+        "boudin"
+      ],
+      "location": "Rayne",
+      "address": "601 N Arenas St, Rayne, LA 70578, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Boudin in Acadiana",
+      "threads": [
+        "Best Boudin in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "hebert-s-boudin-and-cracklins-henderson",
+      "name": "Hebert's Boudin & Cracklins",
+      "category": "Restaurant",
+      "categories": [
+        "chicken cracklings"
+      ],
+      "location": "Henderson",
+      "address": "2926 Grand Point Hwy, Breaux Bridge, LA 70517, USA",
+      "mentionCount": 4,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Chicken Cracklings in Acadiana",
+      "threads": [
+        "Best Chicken Cracklings in Acadiana",
+        "Best Boudin Balls in Acadiana",
+        "Best Cracklins in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "church-alley-new-iberia",
+      "name": "Church Alley",
+      "category": "Park",
+      "categories": [
+        "frappe"
+      ],
+      "location": "New Iberia",
+      "address": "111 Iberia St, New Iberia, LA 70560, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Frappe in Acadiana",
+      "threads": [
+        "Best Frappe in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "bayou-barista-llc-breaux-bridge",
+      "name": "Bayou Barista LLC",
+      "category": "Cafe",
+      "categories": [
+        "frappe"
+      ],
+      "location": "Breaux Bridge",
+      "address": "102 E Refinery St, Breaux Bridge, LA 70517, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Frappe in Acadiana",
+      "threads": [
+        "Best Frappe in Acadiana",
+        "Best Espresso in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "collette-s-seafood-henderson",
+      "name": "Collette's Seafood",
+      "category": "Restaurant",
+      "categories": [
+        "catfish"
+      ],
+      "location": "Henderson",
+      "address": "1021 Robin St, Henderson, LA 70517, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Catfish in Acadiana",
+      "threads": [
+        "Best Catfish in Acadiana",
+        "Best Fish in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "tad-s-louisiana-cooking-youngsville",
+      "name": "Tad's Louisiana Cooking",
+      "category": "Restaurant",
+      "categories": [
+        "catfish"
+      ],
+      "location": "Youngsville",
+      "address": "2600 Bonin Rd, Youngsville, LA 70592, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Catfish in Acadiana",
+      "threads": [
+        "Best Catfish in Acadiana",
+        "Best Fried Shrimp in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "lt-s-seafood-and-steakhouse-broussard",
+      "name": "LT's Seafood & Steakhouse",
+      "category": "Restaurant",
+      "categories": [
+        "catfish"
+      ],
+      "location": "Broussard",
+      "address": "636 Albertson Pkwy, Broussard, LA 70518, USA",
+      "mentionCount": 5,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Catfish in Acadiana",
+      "threads": [
+        "Best Catfish in Acadiana",
+        "Best Crawfish in Acadiana",
+        "Best Onion Rings in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "d-c-s-sports-bar-and-steakhouse-eunice",
+      "name": "D C's Sports Bar & Steakhouse",
+      "category": "Restaurant",
+      "categories": [
+        "catfish"
+      ],
+      "location": "Eunice",
+      "address": "1601 W Laurel Ave, Eunice, LA 70535, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Catfish in Acadiana",
+      "threads": [
+        "Best Catfish in Acadiana",
+        "Best éToufféE in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "cajun-station-eunice",
+      "name": "Cajun Station",
+      "category": "Restaurant",
+      "categories": [
+        "fish"
+      ],
+      "location": "Eunice",
+      "address": "101 Veterans Dr, Eunice, LA 70535, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Fish in Acadiana",
+      "threads": [
+        "Best Fish in Acadiana",
+        "Best Shrimp in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "hunt-s-perfect-roast-scott",
+      "name": "Hunt's Perfect Roast",
+      "category": "Cafe",
+      "categories": [
+        "coffee"
+      ],
+      "location": "Scott",
+      "address": "809G Jenkins Rd, Duson, LA 70529, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Coffee in Acadiana",
+      "threads": [
+        "Best Coffee in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "komade-new-iberia",
+      "name": "Komade",
+      "category": "Cafe",
+      "categories": [
+        "coffee"
+      ],
+      "location": "New Iberia",
+      "address": "917 Parkview Dr Suite 1, New Iberia, LA 70563, USA",
+      "mentionCount": 4,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Coffee in Acadiana",
+      "threads": [
+        "Best Coffee in Acadiana",
+        "Best Latte in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "nube-9-coffee-scott",
+      "name": "Nube 9 Coffee",
+      "category": "Cafe",
+      "categories": [
+        "coffee"
+      ],
+      "location": "Scott",
+      "address": "2104 Ambassador Caffery Pkwy, Lafayette, LA 70506, USA",
+      "mentionCount": 7,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Coffee in Acadiana",
+      "threads": [
+        "Best Coffee in Acadiana",
+        "Best Matcha in Acadiana",
+        "Best Cold Brew in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "pont-breaux-coffee-house-breaux-bridge",
+      "name": "Pont Breaux Coffee House",
+      "category": "Cafe",
+      "categories": [
+        "coffee"
+      ],
+      "location": "Breaux Bridge",
+      "address": "113 S Main St, Breaux Bridge, LA 70517, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Coffee in Acadiana",
+      "threads": [
+        "Best Coffee in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "jet-coffee-broussard",
+      "name": "Jet Coffee",
+      "category": "Cafe",
+      "categories": [
+        "coffee"
+      ],
+      "location": "Broussard",
+      "address": "109 St Nazaire Rd, Broussard, LA 70518, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Coffee in Acadiana",
+      "threads": [
+        "Best Coffee in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "java-square-cafe-opelousas",
+      "name": "Java Square Cafe",
+      "category": "Cafe",
+      "categories": [
+        "coffee"
+      ],
+      "location": "Opelousas",
+      "address": "103 W Landry St, Opelousas, LA 70570, USA",
+      "mentionCount": 4,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Coffee in Acadiana",
+      "threads": [
+        "Best Coffee in Acadiana",
+        "Best Pastry in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "landrys-donuts-and-coffee-scott",
+      "name": "Landrys Donuts and Coffee",
+      "category": "Restaurant",
+      "categories": [
+        "coffee"
+      ],
+      "location": "Scott",
+      "address": "608 Westgate Rd, Lafayette, LA 70506, USA",
+      "mentionCount": 5,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Coffee in Acadiana",
+      "threads": [
+        "Best Coffee in Acadiana",
+        "Best Donuts in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "r-ve-coffee-lab-river-ranch-lafayette",
+      "name": "Rêve Coffee Lab River Ranch",
+      "category": "Cafe",
+      "categories": [
+        "coffee"
+      ],
+      "location": "Lafayette",
+      "address": "1042 Camellia Blvd #6, Lafayette, LA 70508, USA",
+      "mentionCount": 5,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Coffee in Acadiana",
+      "threads": [
+        "Best Coffee in Acadiana",
+        "Best Pastry in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "scooter-s-coffee-broussard",
+      "name": "Scooter's Coffee",
+      "category": "Cafe",
+      "categories": [
+        "coffee"
+      ],
+      "location": "Broussard",
+      "address": "5917 Ambassador Caffery Pkwy, Broussard, LA 70508, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Coffee in Acadiana",
+      "threads": [
+        "Best Coffee in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "cane-river-pecan-company-pie-bar-new-iberia",
+      "name": "Cane River Pecan Company Pie Bar",
+      "category": "Restaurant",
+      "categories": [
+        "coffee"
+      ],
+      "location": "New Iberia",
+      "address": "254 W Main St, New Iberia, LA 70560, USA",
+      "mentionCount": 4,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Coffee in Acadiana",
+      "threads": [
+        "Best Coffee in Acadiana",
+        "Best Pies in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "cc-s-coffee-house-scott",
+      "name": "CC's Coffee House",
+      "category": "Cafe",
+      "categories": [
+        "coffee"
+      ],
+      "location": "Scott",
+      "address": "2825 Ambassador Caffery Pkwy, Lafayette, LA 70506, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Coffee in Acadiana",
+      "threads": [
+        "Best Coffee in Acadiana",
+        "Best Croissants in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "pj-s-coffee-broussard",
+      "name": "PJ's Coffee",
+      "category": "Restaurant",
+      "categories": [
+        "coffee"
+      ],
+      "location": "Broussard",
+      "address": "1137 S Bernard Rd, Broussard, LA 70518, USA",
+      "mentionCount": 4,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Coffee in Acadiana",
+      "threads": [
+        "Best Coffee in Acadiana",
+        "Best Cold Brew in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "la-cheesecake-bakery-lafayette",
+      "name": "LA Cheesecake Bakery",
+      "category": "Bakery",
+      "categories": [
+        "coffee"
+      ],
+      "location": "Lafayette",
+      "address": "600 Guilbeau Rd Suite B, Lafayette, LA 70506, USA",
+      "mentionCount": 4,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Coffee in Acadiana",
+      "threads": [
+        "Best Coffee in Acadiana",
+        "Best Cheesecake in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "barnes-and-noble-lafayette",
+      "name": "Barnes & Noble",
+      "category": "Cafe",
+      "categories": [
+        "coffee"
+      ],
+      "location": "Lafayette",
+      "address": "5705 Johnston St, Lafayette, LA 70503, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Coffee in Acadiana",
+      "threads": [
+        "Best Coffee in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "twisted-nutrition-llc-scott",
+      "name": "Twisted Nutrition LLC",
+      "category": "Cafe",
+      "categories": [
+        "coffee"
+      ],
+      "location": "Scott",
+      "address": "5401 Cameron St, Lafayette, LA 70506, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Coffee in Acadiana",
+      "threads": [
+        "Best Coffee in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "park-restaurant-abbeville",
+      "name": "Park Restaurant",
+      "category": "Restaurant",
+      "categories": [
+        "coffee"
+      ],
+      "location": "Abbeville",
+      "address": "204 Park Ave, Abbeville, LA 70510, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Coffee in Acadiana",
+      "threads": [
+        "Best Coffee in Acadiana",
+        "Best Burger in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "champagne-s-to-go-breaux-bridge",
+      "name": "Champagne's to Go!",
+      "category": "Cafe",
+      "categories": [
+        "coffee"
+      ],
+      "location": "Breaux Bridge",
+      "address": "602 E Bridge St, Breaux Bridge, LA 70517, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Coffee in Acadiana",
+      "threads": [
+        "Best Coffee in Acadiana",
+        "Best Cookies in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "mel-s-diner-youngsville",
+      "name": "Mel's Diner",
+      "category": "Restaurant",
+      "categories": [
+        "coffee"
+      ],
+      "location": "Youngsville",
+      "address": "1225 Evangeline Thruway, Broussard, LA 70518, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Coffee in Acadiana",
+      "threads": [
+        "Best Coffee in Acadiana",
+        "Best Biscuits in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "lucia-bakehouse-lafayette",
+      "name": "Lucia | Bakehouse",
+      "category": "Bakery",
+      "categories": [
+        "latte"
+      ],
+      "location": "Lafayette",
+      "address": "607 Kaliste Saloom Rd a, Lafayette, LA 70508, USA",
+      "mentionCount": 4,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Latte in Acadiana",
+      "threads": [
+        "Best Latte in Acadiana",
+        "Best Matcha in Acadiana",
+        "Best Pastries in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "r-ve-coffee-roasters-lafayette",
+      "name": "Rêve Coffee Roasters",
+      "category": "Cafe",
+      "categories": [
+        "latte"
+      ],
+      "location": "Lafayette",
+      "address": "200-A Jefferson St, Lafayette, LA 70501, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Latte in Acadiana",
+      "threads": [
+        "Best Latte in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "nora-s-sweets-broussard",
+      "name": "Nora’s Sweets",
+      "category": "Bakery",
+      "categories": [
+        "cheesecake"
+      ],
+      "location": "Broussard",
+      "address": "300 Youngsville Hwy, Lafayette, LA 70508, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Cheesecake in Acadiana",
+      "threads": [
+        "Best Cheesecake in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "nuts-for-donuts-youngsville",
+      "name": "NUTS FOR DONUTS",
+      "category": "Bakery",
+      "categories": [
+        "donuts"
+      ],
+      "location": "Youngsville",
+      "address": "1001 Savoy Rd, Youngsville, LA 70592, USA",
+      "mentionCount": 6,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Donuts in Acadiana",
+      "threads": [
+        "Best Donuts in Acadiana",
+        "Best Kolaches in Acadiana",
+        "Best Croissants in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "ray-s-bakery-eunice",
+      "name": "Ray's Bakery",
+      "category": "Bakery",
+      "categories": [
+        "donuts"
+      ],
+      "location": "Eunice",
+      "address": "931 Laurel St, Eunice, LA 70535, USA",
+      "mentionCount": 5,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Donuts in Acadiana",
+      "threads": [
+        "Best Donuts in Acadiana",
+        "Best Donut Holes in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "crispy-donut-carencro",
+      "name": "Crispy Donut",
+      "category": "Bakery",
+      "categories": [
+        "donuts"
+      ],
+      "location": "Carencro",
+      "address": "2700 N University Ave, Lafayette, LA 70507, USA",
+      "mentionCount": 5,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Donuts in Acadiana",
+      "threads": [
+        "Best Donuts in Acadiana",
+        "Best Kolaches in Acadiana",
+        "Best Pastries in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "meche-s-donuts-new-iberia",
+      "name": "Meche's Donuts",
+      "category": "Bakery",
+      "categories": [
+        "donuts"
+      ],
+      "location": "New Iberia",
+      "address": "403 E St Peter St, New Iberia, LA 70560, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Donuts in Acadiana",
+      "threads": [
+        "Best Donuts in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "miko-s-donuts-broussard",
+      "name": "Miko’s Donuts",
+      "category": "Bakery",
+      "categories": [
+        "donuts"
+      ],
+      "location": "Broussard",
+      "address": "137 Albertson Pkwy, Broussard, LA 70518, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Donuts in Acadiana",
+      "threads": [
+        "Best Donuts in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "meche-s-on-the-vermilion-abbeville",
+      "name": "Meche's On The Vermilion",
+      "category": "Cafe",
+      "categories": [
+        "donuts"
+      ],
+      "location": "Abbeville",
+      "address": "493 Pere Megret St #401, Abbeville, LA 70510, USA",
+      "mentionCount": 6,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Donuts in Acadiana",
+      "threads": [
+        "Best Donuts in Acadiana",
+        "Best Kolaches in Acadiana",
+        "Best King Cake in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "mikey-s-donut-king-opelousas",
+      "name": "Mikey's Donut King",
+      "category": "Bakery",
+      "categories": [
+        "donuts"
+      ],
+      "location": "Opelousas",
+      "address": "952 E Landry St, Opelousas, LA 70570, USA",
+      "mentionCount": 4,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Donuts in Acadiana",
+      "threads": [
+        "Best Donuts in Acadiana",
+        "Best Pastries in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "sunrise-donuts-broussard",
+      "name": "Sunrise Donuts",
+      "category": "Bakery",
+      "categories": [
+        "donuts"
+      ],
+      "location": "Broussard",
+      "address": "807 Albertson Pkwy # D, Broussard, LA 70518, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Donuts in Acadiana",
+      "threads": [
+        "Best Donuts in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "rayne-donuts-rayne",
+      "name": "Rayne Donuts",
+      "category": "Bakery",
+      "categories": [
+        "donuts"
+      ],
+      "location": "Rayne",
+      "address": "707 The Blvd, Rayne, LA 70578, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Donuts in Acadiana",
+      "threads": [
+        "Best Donuts in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "home-cut-donuts-youngsville",
+      "name": "Home Cut Donuts",
+      "category": "Bakery",
+      "categories": [
+        "donuts"
+      ],
+      "location": "Youngsville",
+      "address": "814 Fortune Rd, Youngsville, LA 70592, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Donuts in Acadiana",
+      "threads": [
+        "Best Donuts in Acadiana",
+        "Best Kolaches in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "donut-queen-eunice",
+      "name": "Donut Queen",
+      "category": "Bakery",
+      "categories": [
+        "donuts"
+      ],
+      "location": "Eunice",
+      "address": "940 Laurel St, Eunice, LA 70535, USA",
+      "mentionCount": 5,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Donuts in Acadiana",
+      "threads": [
+        "Best Donuts in Acadiana",
+        "Best Kolaches in Acadiana",
+        "Best Croissants in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "whiskful-baking-co-broussard",
+      "name": "Whiskful Baking Co.",
+      "category": "Bakery",
+      "categories": [
+        "donuts"
+      ],
+      "location": "Broussard",
+      "address": "730 Albertson Pkwy Suite B, Broussard, LA 70518, USA",
+      "mentionCount": 4,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Donuts in Acadiana",
+      "threads": [
+        "Best Donuts in Acadiana",
+        "Best King Cake in Acadiana",
+        "Best Gumbo in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "cajun-market-donut-company-breaux-bridge",
+      "name": "Cajun Market Donut Company",
+      "category": "Restaurant",
+      "categories": [
+        "donuts"
+      ],
+      "location": "Breaux Bridge",
+      "address": "125 Courthouse St, Breaux Bridge, LA 70517, USA",
+      "mentionCount": 4,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Donuts in Acadiana",
+      "threads": [
+        "Best Donuts in Acadiana",
+        "Best King Cake in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "village-deaux-carencro",
+      "name": "Village Deaux",
+      "category": "Restaurant",
+      "categories": [
+        "donuts"
+      ],
+      "location": "Carencro",
+      "address": "115 Derek Plaza Dr Suite 111, Carencro, LA 70520, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Donuts in Acadiana",
+      "threads": [
+        "Best Donuts in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "thee-heavenly-donut-henderson",
+      "name": "Thee Heavenly Donut",
+      "category": "Bakery",
+      "categories": [
+        "donuts"
+      ],
+      "location": "Henderson",
+      "address": "2815 Grand Point Hwy Suite B, Henderson, LA 70517, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Donuts in Acadiana",
+      "threads": [
+        "Best Donuts in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "hot-donuts-and-kolaches-new-iberia",
+      "name": "Hot Donuts & Kolaches",
+      "category": "Bakery",
+      "categories": [
+        "donuts"
+      ],
+      "location": "New Iberia",
+      "address": "903 E St Peter St, New Iberia, LA 70560, USA",
+      "mentionCount": 5,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Donuts in Acadiana",
+      "threads": [
+        "Best Donuts in Acadiana",
+        "Best Kolaches in Acadiana",
+        "Best Croissants in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "louisiana-donuts-and-pastries-carencro",
+      "name": "Louisiana Donuts and Pastries",
+      "category": "Restaurant",
+      "categories": [
+        "donuts"
+      ],
+      "location": "Carencro",
+      "address": "4102 N University Ave, Carencro, LA 70520, USA",
+      "mentionCount": 4,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Donuts in Acadiana",
+      "threads": [
+        "Best Donuts in Acadiana",
+        "Best Kolaches in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "torrido-village-new-iberia",
+      "name": "Torrido Village",
+      "category": "Shopping",
+      "categories": [
+        "donuts"
+      ],
+      "location": "New Iberia",
+      "address": "910 E Main St, New Iberia, LA 70560, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Donuts in Acadiana",
+      "threads": [
+        "Best Donuts in Acadiana",
+        "Best Kolaches in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "rickey-meche-s-donut-king-lafayette",
+      "name": "Rickey Meche's Donut King",
+      "category": "Restaurant",
+      "categories": [
+        "donut holes"
+      ],
+      "location": "Lafayette",
+      "address": "402 Guilbeau Rd, Lafayette, LA 70506, USA",
+      "mentionCount": 5,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Donut Holes in Acadiana",
+      "threads": [
+        "Best Donut Holes in Acadiana",
+        "Best Beignets in Acadiana",
+        "Best Blueberry Donuts in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "s-t-donuts-opelousas",
+      "name": "S T DONUTS",
+      "category": "Bakery",
+      "categories": [
+        "donut holes"
+      ],
+      "location": "Opelousas",
+      "address": "1525 S Union St, Opelousas, LA 70570, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Donut Holes in Acadiana",
+      "threads": [
+        "Best Donut Holes in Acadiana",
+        "Best Kolaches in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "acadiana-daiquiri-depot-new-iberia",
+      "name": "Acadiana Daiquiri Depot",
+      "category": "Bar",
+      "categories": [
+        "daiquiris"
+      ],
+      "location": "New Iberia",
+      "address": "1806 E Main St, New Iberia, LA 70560, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Daiquiris in Acadiana",
+      "threads": [
+        "Best Daiquiris in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "doyle-s-drive-thru-daiquris-new-iberia",
+      "name": "Doyle's Drive Thru Daiquris",
+      "category": "Bar",
+      "categories": [
+        "daiquiris"
+      ],
+      "location": "New Iberia",
+      "address": "910 E Main St, New Iberia, LA 70560, USA",
+      "mentionCount": 4,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Daiquiris in Acadiana",
+      "threads": [
+        "Best Daiquiris in Acadiana",
+        "Best Liquid Mj in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "new-orleans-original-daiquiris-breaux-bridge",
+      "name": "New Orleans Original Daiquiris",
+      "category": "Bar",
+      "categories": [
+        "daiquiris"
+      ],
+      "location": "Breaux Bridge",
+      "address": "1811 Rees St UNIT F, Breaux Bridge, LA 70517, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Daiquiris in Acadiana",
+      "threads": [
+        "Best Daiquiris in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "cupids-creswell-ln-daiquiris-of-opelousas-opelousas",
+      "name": "Cupids Creswell Ln Daiquiris of Opelousas",
+      "category": "Bar",
+      "categories": [
+        "daiquiris"
+      ],
+      "location": "Opelousas",
+      "address": "409-B Creswell Ln, Opelousas, LA 70570, USA",
+      "mentionCount": 4,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Daiquiris in Acadiana",
+      "threads": [
+        "Best Daiquiris in Acadiana",
+        "Best Liquid Mj in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "sassy-s-daiquiris-eunice",
+      "name": "Sassy's Daiquiris",
+      "category": "Bar",
+      "categories": [
+        "daiquiris"
+      ],
+      "location": "Eunice",
+      "address": "183 LA-13, Eunice, LA 70535, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Daiquiris in Acadiana",
+      "threads": [
+        "Best Daiquiris in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "chip-s-daiquiris-eunice",
+      "name": "Chip’s daiquiris",
+      "category": "Restaurant",
+      "categories": [
+        "daiquiris"
+      ],
+      "location": "Eunice",
+      "address": "1501 W Laurel Ave, Eunice, LA 70535, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Daiquiris in Acadiana",
+      "threads": [
+        "Best Daiquiris in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "b-and-b-daiquiri-abbeville",
+      "name": "B&B Daiquiri",
+      "category": "Bar",
+      "categories": [
+        "daiquiris"
+      ],
+      "location": "Abbeville",
+      "address": "1103 Veterans Memorial Dr, Abbeville, LA 70510, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Daiquiris in Acadiana",
+      "threads": [
+        "Best Daiquiris in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "chip-s-daiquiris-original-opelousas",
+      "name": "Chip's Daiquiris Original",
+      "category": "Bar",
+      "categories": [
+        "daiquiris"
+      ],
+      "location": "Opelousas",
+      "address": "1240 Edith St, Opelousas, LA 70570, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Daiquiris in Acadiana",
+      "threads": [
+        "Best Daiquiris in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "rainbow-daiquiris-breaux-bridge",
+      "name": "Rainbow Daiquiris",
+      "category": "Bar",
+      "categories": [
+        "daiquiris"
+      ],
+      "location": "Breaux Bridge",
+      "address": "204 S Main St, Breaux Bridge, LA 70517, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Daiquiris in Acadiana",
+      "threads": [
+        "Best Daiquiris in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "wright-at-home-new-iberia",
+      "name": "Wright at Home",
+      "category": "Bakery",
+      "categories": [
+        "bread"
+      ],
+      "location": "New Iberia",
+      "address": "128 Rosier St, New Iberia, LA 70563, USA",
+      "mentionCount": 4,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Bread in Acadiana",
+      "threads": [
+        "Best Bread in Acadiana",
+        "Best Cookies in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "evangeline-maid-bakery-outlet-broussard",
+      "name": "Evangeline Maid Bakery Outlet",
+      "category": "Bakery",
+      "categories": [
+        "bread"
+      ],
+      "location": "Broussard",
+      "address": "490 Albertson Pkwy, Broussard, LA 70518, USA",
+      "mentionCount": 4,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Bread in Acadiana",
+      "threads": [
+        "Best Bread in Acadiana",
+        "Best Pastries in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "champagne-s-breaux-bridge-bakery-breaux-bridge",
+      "name": "Champagne's Breaux Bridge Bakery",
+      "category": "Bakery",
+      "categories": [
+        "bread"
+      ],
+      "location": "Breaux Bridge",
+      "address": "105 S Poydras St, Breaux Bridge, LA 70517, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Bread in Acadiana",
+      "threads": [
+        "Best Bread in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "it-s-just-a-cookie-broussard",
+      "name": "It's Just a Cookie",
+      "category": "Bakery",
+      "categories": [
+        "cookies"
+      ],
+      "location": "Broussard",
+      "address": "817 Albertson Pkwy Suite L & M, Broussard, LA 70518, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Cookies in Acadiana",
+      "threads": [
+        "Best Cookies in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "the-cookie-door-broussard",
+      "name": "The Cookie Door",
+      "category": "Bakery",
+      "categories": [
+        "cookies"
+      ],
+      "location": "Broussard",
+      "address": "730 Albertson Pkwy STE- E, Broussard, LA 70518, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Cookies in Acadiana",
+      "threads": [
+        "Best Cookies in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "crumbl-lafayette",
+      "name": "Crumbl",
+      "category": "Bakery",
+      "categories": [
+        "cookies"
+      ],
+      "location": "Lafayette",
+      "address": "2668 Johnston St Ste A Suite A, Lafayette, LA 70503, USA",
+      "mentionCount": 5,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Cookies in Acadiana",
+      "threads": [
+        "Best Cookies in Acadiana",
+        "Best Pies in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "caroline-s-cookies-lafayette-lafayette",
+      "name": "Caroline's Cookies Lafayette",
+      "category": "Bakery",
+      "categories": [
+        "cookies"
+      ],
+      "location": "Lafayette",
+      "address": "1921 Kaliste Saloom Rd #124, Lafayette, LA 70508, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Cookies in Acadiana",
+      "threads": [
+        "Best Cookies in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "great-american-cookies-new-iberia",
+      "name": "Great American Cookies",
+      "category": "Bakery",
+      "categories": [
+        "cookies"
+      ],
+      "location": "New Iberia",
+      "address": "1000 Parkview Dr Suite 8, New Iberia, LA 70563, USA",
+      "mentionCount": 5,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Cookies in Acadiana",
+      "threads": [
+        "Best Cookies in Acadiana",
+        "Best Ice Cream in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "subway-henderson",
+      "name": "Subway",
+      "category": "Restaurant",
+      "categories": [
+        "cookies"
+      ],
+      "location": "Henderson",
+      "address": "2987 Grand Point Hwy, Breaux Bridge, LA 70517, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Cookies in Acadiana",
+      "threads": [
+        "Best Cookies in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "a-cheveux-salon-and-coffee-bar-abbeville",
+      "name": "A Cheveux Salon & Coffee Bar",
+      "category": "Cafe",
+      "categories": [
+        "quesadillas"
+      ],
+      "location": "Abbeville",
+      "address": "115 Tivoli St, Abbeville, LA 70510, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Quesadillas in Acadiana",
+      "threads": [
+        "Best Quesadillas in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "huya-craft-coffee-youngsville",
+      "name": "Huya Craft Coffee",
+      "category": "Cafe",
+      "categories": [
+        "quesadillas"
+      ],
+      "location": "Youngsville",
+      "address": "1901 Chemin Metairie Pkwy Suite 1, Youngsville, LA 70592, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Quesadillas in Acadiana",
+      "threads": [
+        "Best Quesadillas in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "boulet-s-boil-n-go-rayne-la-rayne",
+      "name": "Boulet's Boil-N-Go (Rayne, La)",
+      "category": "Restaurant",
+      "categories": [
+        "crawfish"
+      ],
+      "location": "Rayne",
+      "address": "205 E Jeff Davis Ave, Rayne, LA 70578, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Crawfish in Acadiana",
+      "threads": [
+        "Best Crawfish in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "jett-s-crawfish-drive-thru-rayne",
+      "name": "Jett's Crawfish Drive-Thru",
+      "category": "Restaurant",
+      "categories": [
+        "crawfish"
+      ],
+      "location": "Rayne",
+      "address": "1421 The Blvd, Rayne, LA 70578, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Crawfish in Acadiana",
+      "threads": [
+        "Best Crawfish in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "the-seafood-boiler-henderson",
+      "name": "The Seafood Boiler",
+      "category": "Restaurant",
+      "categories": [
+        "crawfish"
+      ],
+      "location": "Henderson",
+      "address": "2804 Grand Point Hwy, Breaux Bridge, LA 70517, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Crawfish in Acadiana",
+      "threads": [
+        "Best Crawfish in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "c-est-bon-crawfish-youngsville",
+      "name": "C'est Bon Crawfish",
+      "category": "Restaurant",
+      "categories": [
+        "crawfish"
+      ],
+      "location": "Youngsville",
+      "address": "3301 Chemin Metairie Pkwy, Youngsville, LA 70592, USA",
+      "mentionCount": 5,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Crawfish in Acadiana",
+      "threads": [
+        "Best Crawfish in Acadiana",
+        "Best Charbroiled Oysters in Acadiana",
+        "Best Seafood Platter in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "the-boozy-and-boiling-barn-broussard",
+      "name": "The Boozy & Boiling Barn",
+      "category": "Restaurant",
+      "categories": [
+        "crawfish"
+      ],
+      "location": "Broussard",
+      "address": "6830 B, 6830 Ambassador Caffery Pkwy, Broussard, LA 70518, USA",
+      "mentionCount": 5,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Crawfish in Acadiana",
+      "threads": [
+        "Best Crawfish in Acadiana",
+        "Best Daiquiri in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "prejean-s-restaurant-broussard-broussard",
+      "name": "Prejean's Restaurant Broussard",
+      "category": "Restaurant",
+      "categories": [
+        "crawfish"
+      ],
+      "location": "Broussard",
+      "address": "209 N Morgan Ave, Broussard, LA 70518, USA",
+      "mentionCount": 4,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Crawfish in Acadiana",
+      "threads": [
+        "Best Crawfish in Acadiana",
+        "Best Gumbo in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "city-buffet-breaux-bridge",
+      "name": "City Buffet",
+      "category": "Restaurant",
+      "categories": [
+        "crawfish"
+      ],
+      "location": "Breaux Bridge",
+      "address": "1880 Rees St # 105, Breaux Bridge, LA 70517, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Crawfish in Acadiana",
+      "threads": [
+        "Best Crawfish in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "pat-s-fisherman-s-wharf-restaurant-henderson",
+      "name": "Pat's Fisherman's Wharf Restaurant",
+      "category": "Restaurant",
+      "categories": [
+        "crawfish"
+      ],
+      "location": "Henderson",
+      "address": "1008 Henderson Levee Rd, Henderson, LA 70517, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Crawfish in Acadiana",
+      "threads": [
+        "Best Crawfish in Acadiana",
+        "Best Gumbo in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "sack-daddy-s-crawfish-abbeville",
+      "name": "Sack Daddy's Crawfish",
+      "category": "Restaurant",
+      "categories": [
+        "crawfish"
+      ],
+      "location": "Abbeville",
+      "address": "210 N St Valerie St, Abbeville, LA 70510, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Crawfish in Acadiana",
+      "threads": [
+        "Best Crawfish in Acadiana",
+        "Best Snowballs in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "crazy-bout-crawfish-breaux-bridge",
+      "name": "Crazy Bout Crawfish",
+      "category": "Restaurant",
+      "categories": [
+        "crawfish"
+      ],
+      "location": "Breaux Bridge",
+      "address": "1905 Rees St, Breaux Bridge, LA 70517, USA",
+      "mentionCount": 4,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Crawfish in Acadiana",
+      "threads": [
+        "Best Crawfish in Acadiana",
+        "Best Gumbo in Acadiana",
+        "Best Crab Cakes in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "cantinas-downtown-new-iberia",
+      "name": "Cantinas Downtown",
+      "category": "Bar",
+      "categories": [
+        "beer"
+      ],
+      "location": "New Iberia",
+      "address": "115 Iberia St, New Iberia, LA 70560, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Beer in Acadiana",
+      "threads": [
+        "Best Beer in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "adopted-dog-brewing-scott",
+      "name": "Adopted Dog Brewing",
+      "category": "Restaurant",
+      "categories": [
+        "beer"
+      ],
+      "location": "Scott",
+      "address": "329 Dulles Dr, Lafayette, LA 70506, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Beer in Acadiana",
+      "threads": [
+        "Best Beer in Acadiana",
+        "Best Wings in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "pizza-shack-inc-opelousas",
+      "name": "Pizza Shack Inc",
+      "category": "Restaurant",
+      "categories": [
+        "beer"
+      ],
+      "location": "Opelousas",
+      "address": "1242 Edith St, Opelousas, LA 70570, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Beer in Acadiana",
+      "threads": [
+        "Best Beer in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "lafayette-restaurant-blazin-hot-chicken-lafayette",
+      "name": "Lafayette Restaurant - Blazin' Hot Chicken",
+      "category": "Restaurant",
+      "categories": [
+        "chicken tenders"
+      ],
+      "location": "Lafayette",
+      "address": "1011 E University Ave Suite B, Lafayette, LA 70503, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Chicken Tenders in Acadiana",
+      "threads": [
+        "Best Chicken Tenders in Acadiana",
+        "Best Fries in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "crispy-cajun-of-eunice-eunice",
+      "name": "Crispy Cajun of Eunice",
+      "category": "Restaurant",
+      "categories": [
+        "chicken tenders"
+      ],
+      "location": "Eunice",
+      "address": "941 Laurel St, Eunice, LA 70535, USA",
+      "mentionCount": 5,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Chicken Tenders in Acadiana",
+      "threads": [
+        "Best Chicken Tenders in Acadiana",
+        "Best Hamburgers in Acadiana",
+        "Best Fried Chicken in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "sweet-shop-henderson",
+      "name": "Sweet Shop",
+      "category": "Restaurant",
+      "categories": [
+        "fries"
+      ],
+      "location": "Henderson",
+      "address": "1458 LA-352, Henderson, LA 70517, USA",
+      "mentionCount": 5,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Fries in Acadiana",
+      "threads": [
+        "Best Fries in Acadiana",
+        "Best Burger in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "raising-cane-s-chicken-fingers-lafayette",
+      "name": "Raising Cane's Chicken Fingers",
+      "category": "Restaurant",
+      "categories": [
+        "fries"
+      ],
+      "location": "Lafayette",
+      "address": "2426 W Congress St, Lafayette, LA 70506, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Fries in Acadiana",
+      "threads": [
+        "Best Fries in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "kok-wings-and-things-lafayette",
+      "name": "KOK Wings & Things",
+      "category": "Restaurant",
+      "categories": [
+        "fries"
+      ],
+      "location": "Lafayette",
+      "address": "405 E University Ave, Lafayette, LA 70503, USA",
+      "mentionCount": 4,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Fries in Acadiana",
+      "threads": [
+        "Best Fries in Acadiana",
+        "Best Wings in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "mcdonald-s-lafayette-2",
+      "name": "McDonald's",
+      "category": "Restaurant",
+      "categories": [
+        "fries"
+      ],
+      "location": "Lafayette",
+      "address": "4555 Johnston St, Lafayette, LA 70503, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Fries in Acadiana",
+      "threads": [
+        "Best Fries in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "bon-creole-new-iberia",
+      "name": "Bon Creole",
+      "category": "Restaurant",
+      "categories": [
+        "fries"
+      ],
+      "location": "New Iberia",
+      "address": "1409 E St Peter St, New Iberia, LA 70560, USA",
+      "mentionCount": 4,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Fries in Acadiana",
+      "threads": [
+        "Best Fries in Acadiana",
+        "Best Shrimp Poboy in Acadiana",
+        "Best Bread Pudding in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "soul-haus-kitchen-scott",
+      "name": "Soul Haus Kitchen",
+      "category": "Restaurant",
+      "categories": [
+        "fries"
+      ],
+      "location": "Scott",
+      "address": "4150 W Congress St, Lafayette, LA 70506, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Fries in Acadiana",
+      "threads": [
+        "Best Fries in Acadiana",
+        "Best Wings in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "bourbon-street-deli-abbeville",
+      "name": "Bourbon Street Deli",
+      "category": "Cafe",
+      "categories": [
+        "fries"
+      ],
+      "location": "Abbeville",
+      "address": "520 W Summers Dr, Abbeville, LA 70510, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Fries in Acadiana",
+      "threads": [
+        "Best Fries in Acadiana",
+        "Best Boudin Balls in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "blondys-wings-burgers-sandwiches-and-sports-bar-new-iberia",
+      "name": "Blondys Wings Burgers Sandwiches & Sports Bar",
+      "category": "Restaurant",
+      "categories": [
+        "fries"
+      ],
+      "location": "New Iberia",
+      "address": "816 E Admiral Doyle Dr, New Iberia, LA 70560, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Fries in Acadiana",
+      "threads": [
+        "Best Fries in Acadiana",
+        "Best Wings in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "mouton-plantation-c-1820-sgna-lafayette",
+      "name": "Mouton Plantation c.1820 (SGNA)",
+      "category": "Museum",
+      "categories": [
+        "shrimp and grits"
+      ],
+      "location": "Lafayette",
+      "address": "338 N Sterling St, Lafayette, LA 70501, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Shrimp And Grits in Acadiana",
+      "threads": [
+        "Best Shrimp And Grits in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "ref-s-southern-cafe-and-catering-new-iberia",
+      "name": "Ref's Southern Cafe & Catering",
+      "category": "Cafe",
+      "categories": [
+        "shrimp and grits"
+      ],
+      "location": "New Iberia",
+      "address": "901 Field St, New Iberia, LA 70560, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Shrimp And Grits in Acadiana",
+      "threads": [
+        "Best Shrimp And Grits in Acadiana",
+        "Best éToufféE in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "tante-marie-breaux-bridge",
+      "name": "Tante Marie",
+      "category": "Restaurant",
+      "categories": [
+        "shrimp and grits"
+      ],
+      "location": "Breaux Bridge",
+      "address": "107 N Main St, Breaux Bridge, LA 70517, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Shrimp And Grits in Acadiana",
+      "threads": [
+        "Best Shrimp And Grits in Acadiana",
+        "Best Beignets in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "antoni-s-italian-cafe-lafayette",
+      "name": "Antoni's Italian Cafe",
+      "category": "Restaurant",
+      "categories": [
+        "margherita pizza"
+      ],
+      "location": "Lafayette",
+      "address": "1118 Coolidge St A, Lafayette, LA 70503, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Margherita Pizza in Acadiana",
+      "threads": [
+        "Best Margherita Pizza in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "misfits-dine-and-drink-youngsville",
+      "name": "Misfits Dine & Drink",
+      "category": "Restaurant",
+      "categories": [
+        "margherita pizza"
+      ],
+      "location": "Youngsville",
+      "address": "200 Heritage Pkwy, Broussard, LA 70518, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Margherita Pizza in Acadiana",
+      "threads": [
+        "Best Margherita Pizza in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "elevated-tea-and-coffee-house-eunice",
+      "name": "Elevated Tea and Coffee House",
+      "category": "Cafe",
+      "categories": [
+        "espresso"
+      ],
+      "location": "Eunice",
+      "address": "650 W Laurel Ave, Eunice, LA 70535, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Espresso in Acadiana",
+      "threads": [
+        "Best Espresso in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "cane-river-pecan-company-new-iberia",
+      "name": "Cane River Pecan Company",
+      "category": "Cafe",
+      "categories": [
+        "pies"
+      ],
+      "location": "New Iberia",
+      "address": "254 W Main St, New Iberia, LA 70560, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Pies in Acadiana",
+      "threads": [
+        "Best Pies in Acadiana",
+        "Best Chicken Salad in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "keller-s-bakery-of-youngsville-youngsville",
+      "name": "Keller's Bakery of Youngsville",
+      "category": "Restaurant",
+      "categories": [
+        "king cake"
+      ],
+      "location": "Youngsville",
+      "address": "627 Lafayette St, Youngsville, LA 70592, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best King Cake in Acadiana",
+      "threads": [
+        "Best King Cake in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "gautreaux-doughnut-kitchen-rayne",
+      "name": "Gautreaux Doughnut Kitchen",
+      "category": "Bakery",
+      "categories": [
+        "king cake"
+      ],
+      "location": "Rayne",
+      "address": "705 S Adams Ave, Rayne, LA 70578, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best King Cake in Acadiana",
+      "threads": [
+        "Best King Cake in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "the-fresh-market-lafayette",
+      "name": "The Fresh Market",
+      "category": "Bakery",
+      "categories": [
+        "croissants"
+      ],
+      "location": "Lafayette",
+      "address": "1810 Kaliste Saloom Rd, Lafayette, LA 70508, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Croissants in Acadiana",
+      "threads": [
+        "Best Croissants in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "angelle-s-old-fashioned-hamburgers-breaux-bridge",
+      "name": "Angelle's old fashioned hamburgers",
+      "category": "Restaurant",
+      "categories": [
+        "burger"
+      ],
+      "location": "Breaux Bridge",
+      "address": "110 E Bridge St, Breaux Bridge, LA 70517, USA",
+      "mentionCount": 6,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Burger in Acadiana",
+      "threads": [
+        "Best Burger in Acadiana",
+        "Best Onion Rings in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "o-yah-s-rayne",
+      "name": "O'YAH'S",
+      "category": "Restaurant",
+      "categories": [
+        "burger"
+      ],
+      "location": "Rayne",
+      "address": "203 E Texas Ave, Rayne, LA 70578, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Burger in Acadiana",
+      "threads": [
+        "Best Burger in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "caff-cottage-lafayette",
+      "name": "Caffé Cottage",
+      "category": "Restaurant",
+      "categories": [
+        "burger"
+      ],
+      "location": "Lafayette",
+      "address": "1013 E St Mary Blvd, Lafayette, LA 70503, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Burger in Acadiana",
+      "threads": [
+        "Best Burger in Acadiana",
+        "Best Loaded Fries in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "fat-pat-s-bar-and-grill-carencro-carencro",
+      "name": "Fat Pat's Bar and Grill Carencro",
+      "category": "Restaurant",
+      "categories": [
+        "burger"
+      ],
+      "location": "Carencro",
+      "address": "3900 NE Evangeline Thruway, Carencro, LA 70520, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Burger in Acadiana",
+      "threads": [
+        "Best Burger in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "the-hangout-sports-pub-broussard",
+      "name": "The Hangout Sports Pub",
+      "category": "Restaurant",
+      "categories": [
+        "burger"
+      ],
+      "location": "Broussard",
+      "address": "1004 Fortune Rd, Youngsville, LA 70592, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Burger in Acadiana",
+      "threads": [
+        "Best Burger in Acadiana",
+        "Best Wings in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "black-bull-youngsville-youngsville",
+      "name": "BLACK BULL YOUNGSVILLE",
+      "category": "Restaurant",
+      "categories": [
+        "burger"
+      ],
+      "location": "Youngsville",
+      "address": "808 S St Blaise Ln Ste E, Youngsville, LA 70592, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Burger in Acadiana",
+      "threads": [
+        "Best Burger in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "fat-pat-s-breaux-bridge-breaux-bridge",
+      "name": "Fat Pat's Breaux Bridge",
+      "category": "Restaurant",
+      "categories": [
+        "burger"
+      ],
+      "location": "Breaux Bridge",
+      "address": "1600 Rees St, Breaux Bridge, LA 70517, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Burger in Acadiana",
+      "threads": [
+        "Best Burger in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "legends-pinhook-broussard",
+      "name": "Legends Pinhook",
+      "category": "Bar",
+      "categories": [
+        "burger"
+      ],
+      "location": "Broussard",
+      "address": "3439 W Pinhook Rd, Lafayette, LA 70508, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Burger in Acadiana",
+      "threads": [
+        "Best Burger in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "the-acadiana-bar-and-grill-youngsville",
+      "name": "The Acadiana Bar and Grill",
+      "category": "Restaurant",
+      "categories": [
+        "burger"
+      ],
+      "location": "Youngsville",
+      "address": "327 Iberia St, Youngsville, LA 70592, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Burger in Acadiana",
+      "threads": [
+        "Best Burger in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "dairy-queen-grill-and-chill-abbeville",
+      "name": "Dairy Queen Grill & Chill",
+      "category": "Restaurant",
+      "categories": [
+        "burger"
+      ],
+      "location": "Abbeville",
+      "address": "2719 Charity St, Abbeville, LA 70510, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Burger in Acadiana",
+      "threads": [
+        "Best Burger in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "the-coffee-depot-scott",
+      "name": "The Coffee Depot",
+      "category": "Restaurant",
+      "categories": [
+        "beignets"
+      ],
+      "location": "Scott",
+      "address": "902 St Mary St, Scott, LA 70583, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Beignets in Acadiana",
+      "threads": [
+        "Best Beignets in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "parish-biscuit-company-lafayette",
+      "name": "Parish Biscuit Company",
+      "category": "Restaurant",
+      "categories": [
+        "beignets"
+      ],
+      "location": "Lafayette",
+      "address": "1120 Coolidge St # A, Lafayette, LA 70503, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Beignets in Acadiana",
+      "threads": [
+        "Best Beignets in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "the-toasted-yolk-cafe-lafayette",
+      "name": "The Toasted Yolk Cafe",
+      "category": "Restaurant",
+      "categories": [
+        "blueberry donuts"
+      ],
+      "location": "Lafayette",
+      "address": "2512 Kaliste Saloom Rd, Lafayette, LA 70508, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Blueberry Donuts in Acadiana",
+      "threads": [
+        "Best Blueberry Donuts in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "roxie-s-outdoor-patio-and-drive-thru-youngsville",
+      "name": "Roxie's Outdoor Patio and Drive-Thru",
+      "category": "Restaurant",
+      "categories": [
+        "snowballs"
+      ],
+      "location": "Youngsville",
+      "address": "624 Lafayette St, Youngsville, LA 70592, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Snowballs in Acadiana",
+      "threads": [
+        "Best Snowballs in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "central-pizza-bar-lafayette-lafayette",
+      "name": "CENTRAL Pizza + Bar Lafayette",
+      "category": "Restaurant",
+      "categories": [
+        "garlic knots"
+      ],
+      "location": "Lafayette",
+      "address": "423 Jefferson St, Lafayette, LA 70501, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Garlic Knots in Acadiana",
+      "threads": [
+        "Best Garlic Knots in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "tito-s-la-casa-abbeville",
+      "name": "Tito's La Casa",
+      "category": "Restaurant",
+      "categories": [
+        "garlic knots"
+      ],
+      "location": "Abbeville",
+      "address": "124 Concord St, Abbeville, LA 70510, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Garlic Knots in Acadiana",
+      "threads": [
+        "Best Garlic Knots in Acadiana",
+        "Best Alfredo in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "the-chimes-lafayette-lafayette",
+      "name": "The Chimes Lafayette",
+      "category": "Restaurant",
+      "categories": [
+        "alfredo"
+      ],
+      "location": "Lafayette",
+      "address": "1400 Camellia Blvd, Lafayette, LA 70508, USA",
+      "mentionCount": 5,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Alfredo in Acadiana",
+      "threads": [
+        "Best Alfredo in Acadiana",
+        "Best Oysters in Acadiana",
+        "Best Salad in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "duffy-s-diner-new-iberia",
+      "name": "Duffy's Diner",
+      "category": "Restaurant",
+      "categories": [
+        "onion rings"
+      ],
+      "location": "New Iberia",
+      "address": "1106 Center St, New Iberia, LA 70560, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Onion Rings in Acadiana",
+      "threads": [
+        "Best Onion Rings in Acadiana",
+        "Best Cheeseburger in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "foti-s-caf-breaux-bridge",
+      "name": "Foti's Café",
+      "category": "Cafe",
+      "categories": [
+        "onion rings"
+      ],
+      "location": "Breaux Bridge",
+      "address": "200 W Mills Ave, Breaux Bridge, LA 70517, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Onion Rings in Acadiana",
+      "threads": [
+        "Best Onion Rings in Acadiana",
+        "Best Cheeseburger in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "baskin-robbins-new-iberia",
+      "name": "Baskin-Robbins",
+      "category": "Bakery",
+      "categories": [
+        "ice cream"
+      ],
+      "location": "New Iberia",
+      "address": "Town & Country Square, 1104 E Main St, New Iberia, LA 70560, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Ice Cream in Acadiana",
+      "threads": [
+        "Best Ice Cream in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "the-crawfish-hut-bar-and-grill-rayne",
+      "name": "The Crawfish Hut Bar & Grill",
+      "category": "Restaurant",
+      "categories": [
+        "shrimp poboy"
+      ],
+      "location": "Rayne",
+      "address": "702 W Branche St, Rayne, LA 70578, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Shrimp Poboy in Acadiana",
+      "threads": [
+        "Best Shrimp Poboy in Acadiana",
+        "Best Boudin Egg Rolls in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "mama-s-fried-chicken-opelousas",
+      "name": "Mama's Fried Chicken",
+      "category": "Restaurant",
+      "categories": [
+        "shrimp poboy"
+      ],
+      "location": "Opelousas",
+      "address": "508 E Landry St, Opelousas, LA 70570, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Shrimp Poboy in Acadiana",
+      "threads": [
+        "Best Shrimp Poboy in Acadiana",
+        "Best Fried Chicken in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "little-capitol-henderson",
+      "name": "Little Capitol",
+      "category": "Restaurant",
+      "categories": [
+        "shrimp poboy"
+      ],
+      "location": "Henderson",
+      "address": "2939 Grand Point Hwy, Breaux Bridge, LA 70517, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Shrimp Poboy in Acadiana",
+      "threads": [
+        "Best Shrimp Poboy in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "glenda-s-creole-kitchen-restaurant-breaux-bridge",
+      "name": "Glenda's Creole Kitchen Restaurant",
+      "category": "Restaurant",
+      "categories": [
+        "bread pudding"
+      ],
+      "location": "Breaux Bridge",
+      "address": "3232 Main Hwy #31, Breaux Bridge, LA 70517, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Bread Pudding in Acadiana",
+      "threads": [
+        "Best Bread Pudding in Acadiana",
+        "Best Peach Cobbler in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "shucks-abbeville",
+      "name": "SHUCKS!",
+      "category": "Restaurant",
+      "categories": [
+        "bread pudding"
+      ],
+      "location": "Abbeville",
+      "address": "701 W Port St, Abbeville, LA 70510, USA",
+      "mentionCount": 4,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Bread Pudding in Acadiana",
+      "threads": [
+        "Best Bread Pudding in Acadiana",
+        "Best Oysters in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "shane-s-famous-quesadilla-burgers-scott",
+      "name": "Shane's Famous Quesadilla Burgers",
+      "category": "Restaurant",
+      "categories": [
+        "bread pudding"
+      ],
+      "location": "Scott",
+      "address": "3822 W Congress St, Lafayette, LA 70506, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Bread Pudding in Acadiana",
+      "threads": [
+        "Best Bread Pudding in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "uncle-t-s-oyster-bar-lafayette",
+      "name": "Uncle T's Oyster Bar",
+      "category": "Restaurant",
+      "categories": [
+        "charbroiled oysters"
+      ],
+      "location": "Lafayette",
+      "address": "1001 St Mary St, Scott, LA 70583, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Charbroiled Oysters in Acadiana",
+      "threads": [
+        "Best Charbroiled Oysters in Acadiana",
+        "Best Boudin Egg Rolls in Acadiana",
+        "Best Tacos in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "gabe-s-cajun-food-rayne",
+      "name": "Gabe’s Cajun Food",
+      "category": "Restaurant",
+      "categories": [
+        "seafood platter"
+      ],
+      "location": "Rayne",
+      "address": "1410 The Blvd, Rayne, LA 70578, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Seafood Platter in Acadiana",
+      "threads": [
+        "Best Seafood Platter in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "pelicans-on-the-bayou-new-iberia",
+      "name": "Pelicans On the Bayou",
+      "category": "Restaurant",
+      "categories": [
+        "crab"
+      ],
+      "location": "New Iberia",
+      "address": "5 Jefferson St, New Iberia, LA 70560, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Crab in Acadiana",
+      "threads": [
+        "Best Crab in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "chef-roy-s-frog-city-cafe-rayne",
+      "name": "Chef Roy's Frog City Cafe",
+      "category": "Restaurant",
+      "categories": [
+        "crab"
+      ],
+      "location": "Rayne",
+      "address": "1131 Church Point Hwy, Rayne, LA 70578, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Crab in Acadiana",
+      "threads": [
+        "Best Crab in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "creole-lunch-box-breaux-bridge",
+      "name": "Creole Lunch Box",
+      "category": "Restaurant",
+      "categories": [
+        "fried shrimp"
+      ],
+      "location": "Breaux Bridge",
+      "address": "238 Rees St, Breaux Bridge, LA 70517, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Fried Shrimp in Acadiana",
+      "threads": [
+        "Best Fried Shrimp in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "dupuy-s-seafood-and-steak-abbeville",
+      "name": "Dupuy's Seafood and Steak",
+      "category": "Restaurant",
+      "categories": [
+        "oysters"
+      ],
+      "location": "Abbeville",
+      "address": "108 S Main St, Abbeville, LA 70510, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Oysters in Acadiana",
+      "threads": [
+        "Best Oysters in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "spoonbill-watering-hole-and-restaurant-lafayette",
+      "name": "Spoonbill Watering Hole & Restaurant",
+      "category": "Restaurant",
+      "categories": [
+        "oysters"
+      ],
+      "location": "Lafayette",
+      "address": "900 Jefferson St, Lafayette, LA 70501, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Oysters in Acadiana",
+      "threads": [
+        "Best Oysters in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "jane-s-seafood-and-chinese-restaurant-new-iberia",
+      "name": "Jane's Seafood & Chinese Restaurant",
+      "category": "Restaurant",
+      "categories": [
+        "egg drop soup"
+      ],
+      "location": "New Iberia",
+      "address": "1201 Jane St, New Iberia, LA 70563, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Egg Drop Soup in Acadiana",
+      "threads": [
+        "Best Egg Drop Soup in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "peking-buffet-opelousas",
+      "name": "Peking Buffet",
+      "category": "Restaurant",
+      "categories": [
+        "egg drop soup"
+      ],
+      "location": "Opelousas",
+      "address": "817 Creswell Ln, Opelousas, LA 70570, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Egg Drop Soup in Acadiana",
+      "threads": [
+        "Best Egg Drop Soup in Acadiana",
+        "Best Sushi in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "kk-s-cafe-youngsville",
+      "name": "KK's Cafe",
+      "category": "Restaurant",
+      "categories": [
+        "salad"
+      ],
+      "location": "Youngsville",
+      "address": "905 Savoy Rd, Youngsville, LA 70592, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Salad in Acadiana",
+      "threads": [
+        "Best Salad in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "olde-tyme-grocery-lafayette",
+      "name": "Olde Tyme Grocery",
+      "category": "Restaurant",
+      "categories": [
+        "po-boy"
+      ],
+      "location": "Lafayette",
+      "address": "218 W St Mary Blvd, Lafayette, LA 70506, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Po-Boy in Acadiana",
+      "threads": [
+        "Best Po-Boy in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "turtle-s-bar-and-grill-henderson",
+      "name": "Turtle’s Bar & Grill",
+      "category": "Restaurant",
+      "categories": [
+        "po-boy"
+      ],
+      "location": "Henderson",
+      "address": "1377 Henderson Levee Rd, Henderson, LA 70517, USA",
+      "mentionCount": 4,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Po-Boy in Acadiana",
+      "threads": [
+        "Best Po-Boy in Acadiana",
+        "Best Gumbo in Acadiana",
+        "Best Chicken Salad in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "ct-usa-restaurant-and-market-henderson",
+      "name": "CT-USA Restaurant & Market",
+      "category": "Restaurant",
+      "categories": [
+        "po-boy"
+      ],
+      "location": "Henderson",
+      "address": "2815 Grand Point Hwy, Henderson, LA 70517, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Po-Boy in Acadiana",
+      "threads": [
+        "Best Po-Boy in Acadiana",
+        "Best Shrimp Salad in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "sky-s-the-limit-cakes-scott",
+      "name": "Sky's the Limit Cakes",
+      "category": "Bakery",
+      "categories": [
+        "cake"
+      ],
+      "location": "Scott",
+      "address": "1418 Eraste Landry Rd, Lafayette, LA 70506, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Cake in Acadiana",
+      "threads": [
+        "Best Cake in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "poupart-bakery-inc-lafayette",
+      "name": "Poupart Bakery Inc",
+      "category": "Bakery",
+      "categories": [
+        "cake"
+      ],
+      "location": "Lafayette",
+      "address": "1902 W Pinhook Rd, Lafayette, LA 70508, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Cake in Acadiana",
+      "threads": [
+        "Best Cake in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "corner-seafood-and-wings-youngsville",
+      "name": "Corner Seafood And Wings",
+      "category": "Restaurant",
+      "categories": [
+        "wings"
+      ],
+      "location": "Youngsville",
+      "address": "107 Centre Sarcelle Blvd # 710, Youngsville, LA 70592, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Wings in Acadiana",
+      "threads": [
+        "Best Wings in Acadiana",
+        "Best Shrimp in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "pizza-hut-rayne",
+      "name": "Pizza Hut",
+      "category": "Restaurant",
+      "categories": [
+        "wings"
+      ],
+      "location": "Rayne",
+      "address": "800 The Blvd, Rayne, LA 70578, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Wings in Acadiana",
+      "threads": [
+        "Best Wings in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "tim-s-kitchen-broussard",
+      "name": "Tim's Kitchen",
+      "category": "Restaurant",
+      "categories": [
+        "shrimp salad"
+      ],
+      "location": "Broussard",
+      "address": "1000 Albertson Pkwy, Broussard, LA 70518, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Shrimp Salad in Acadiana",
+      "threads": [
+        "Best Shrimp Salad in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "caribbean-ice-company-new-iberia",
+      "name": "Caribbean Ice Company",
+      "category": "Restaurant",
+      "categories": [
+        "shrimp salad"
+      ],
+      "location": "New Iberia",
+      "address": "2905 Loreauville Rd, New Iberia, LA 70563, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Shrimp Salad in Acadiana",
+      "threads": [
+        "Best Shrimp Salad in Acadiana",
+        "Best Burgers in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "lee-s-cajun-cuisine-opelousas",
+      "name": "Lee's Cajun Cuisine",
+      "category": "Restaurant",
+      "categories": [
+        "gumbo"
+      ],
+      "location": "Opelousas",
+      "address": "372 Country Ridge Rd, Opelousas, LA 70570, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Gumbo in Acadiana",
+      "threads": [
+        "Best Gumbo in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "richard-s-seafood-patio-abbeville",
+      "name": "Richard's Seafood Patio",
+      "category": "Restaurant",
+      "categories": [
+        "gumbo"
+      ],
+      "location": "Abbeville",
+      "address": "1516 S Henry St, Abbeville, LA 70510, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Gumbo in Acadiana",
+      "threads": [
+        "Best Gumbo in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "sicily-s-pizza-broussard",
+      "name": "Sicily's Pizza",
+      "category": "Restaurant",
+      "categories": [
+        "gumbo"
+      ],
+      "location": "Broussard",
+      "address": "1212 Albertson Pkwy, Broussard, LA 70518, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Gumbo in Acadiana",
+      "threads": [
+        "Best Gumbo in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "champagnes-market-lafayette",
+      "name": "Champagnes Market",
+      "category": "Bakery",
+      "categories": [
+        "chicken salad"
+      ],
+      "location": "Lafayette",
+      "address": "454 Heymann Blvd, Lafayette, LA 70503, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Chicken Salad in Acadiana",
+      "threads": [
+        "Best Chicken Salad in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "el-paso-mexican-grill-carencro-carencro",
+      "name": "El Paso Mexican Grill Carencro",
+      "category": "Restaurant",
+      "categories": [
+        "tacos"
+      ],
+      "location": "Carencro",
+      "address": "200 W Gloria Switch Rd, Lafayette, LA 70507, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Tacos in Acadiana",
+      "threads": [
+        "Best Tacos in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "la-esmeralda-super-market-scott",
+      "name": "La Esmeralda Super-Market",
+      "category": "Restaurant",
+      "categories": [
+        "tacos"
+      ],
+      "location": "Scott",
+      "address": "2308 Ambassador Caffery Pkwy, Lafayette, LA 70506, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Tacos in Acadiana",
+      "threads": [
+        "Best Tacos in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "backstop-bar-new-iberia",
+      "name": "Backstop Bar",
+      "category": "Bar",
+      "categories": [
+        "hamburgers"
+      ],
+      "location": "New Iberia",
+      "address": "7783 Main Hwy, St Martinville, LA 70582, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Hamburgers in Acadiana",
+      "threads": [
+        "Best Hamburgers in Acadiana",
+        "Best Hamburger Steak in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "the-new-ronnie-s-cajun-cafe-eunice",
+      "name": "The New Ronnie's Cajun Cafe",
+      "category": "Restaurant",
+      "categories": [
+        "hamburger steak"
+      ],
+      "location": "Eunice",
+      "address": "541 W Laurel Ave, Eunice, LA 70535, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Hamburger Steak in Acadiana",
+      "threads": [
+        "Best Hamburger Steak in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "the-tap-room-youngsville-youngsville",
+      "name": "The Tap Room Youngsville",
+      "category": "Bar",
+      "categories": [
+        "loaded fries"
+      ],
+      "location": "Youngsville",
+      "address": "220 Prescott Blvd Suite 100, Youngsville, LA 70592, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Loaded Fries in Acadiana",
+      "threads": [
+        "Best Loaded Fries in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "casa-margarita-rayne",
+      "name": "Casa Margarita",
+      "category": "Restaurant",
+      "categories": [
+        "margaritas"
+      ],
+      "location": "Rayne",
+      "address": "1407 The Blvd, Rayne, LA 70578, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Margaritas in Acadiana",
+      "threads": [
+        "Best Margaritas in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "hacienda-real-eunice",
+      "name": "Hacienda Real",
+      "category": "Restaurant",
+      "categories": [
+        "margaritas"
+      ],
+      "location": "Eunice",
+      "address": "1742 W Laurel Ave, Eunice, LA 70535, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Margaritas in Acadiana",
+      "threads": [
+        "Best Margaritas in Acadiana",
+        "Best Shrimp Cocktail in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "hacienda-real-mexican-restaurant-of-breaux-bridge-breaux-bridge",
+      "name": "Hacienda Real Mexican Restaurant of Breaux Bridge",
+      "category": "Restaurant",
+      "categories": [
+        "margaritas"
+      ],
+      "location": "Breaux Bridge",
+      "address": "1811 Rees St Suite B, Breaux Bridge, LA 70517, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Margaritas in Acadiana",
+      "threads": [
+        "Best Margaritas in Acadiana",
+        "Best Chips And Salsa in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "pedro-s-tacos-and-tequila-bar-opelousas-opelousas",
+      "name": "Pedro's Tacos & Tequila Bar Opelousas",
+      "category": "Restaurant",
+      "categories": [
+        "margaritas"
+      ],
+      "location": "Opelousas",
+      "address": "5675 Interstate 49 South Service Rd, Opelousas, LA 70570, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Margaritas in Acadiana",
+      "threads": [
+        "Best Margaritas in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "peach-cobbler-factory-lafayette",
+      "name": "Peach Cobbler Factory",
+      "category": "Bakery",
+      "categories": [
+        "peach cobbler"
+      ],
+      "location": "Lafayette",
+      "address": "2916 Johnston St, Lafayette, LA 70503, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Peach Cobbler in Acadiana",
+      "threads": [
+        "Best Peach Cobbler in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "morvant-s-bar-and-grill-youngsville",
+      "name": "Morvant's Bar & Grill",
+      "category": "Restaurant",
+      "categories": [
+        "burgers"
+      ],
+      "location": "Youngsville",
+      "address": "200 Lafayette St, Youngsville, LA 70592, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Burgers in Acadiana",
+      "threads": [
+        "Best Burgers in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "green-oaks-lounge-scott",
+      "name": "Green Oaks Lounge",
+      "category": "Bar",
+      "categories": [
+        "burgers"
+      ],
+      "location": "Scott",
+      "address": "400 Guilbeau Rd # A, Lafayette, LA 70506, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Burgers in Acadiana",
+      "threads": [
+        "Best Burgers in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "lazy-lounge-new-iberia",
+      "name": "Lazy Lounge",
+      "category": "Bar",
+      "categories": [
+        "burgers"
+      ],
+      "location": "New Iberia",
+      "address": "526 French St, New Iberia, LA 70560, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Burgers in Acadiana",
+      "threads": [
+        "Best Burgers in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "mi-tio-mexican-grill-henderson",
+      "name": "MI Tio Mexican Grill",
+      "category": "Restaurant",
+      "categories": [
+        "burgers"
+      ],
+      "location": "Henderson",
+      "address": "2942 H, 2942 Grand Point Hwy, Breaux Bridge, LA 70517, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Burgers in Acadiana",
+      "threads": [
+        "Best Burgers in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "the-bulldog-lafayette",
+      "name": "The Bulldog",
+      "category": "Restaurant",
+      "categories": [
+        "shrimp"
+      ],
+      "location": "Lafayette",
+      "address": "109 General Mouton Ave, Lafayette, LA 70501, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Shrimp in Acadiana",
+      "threads": [
+        "Best Shrimp in Acadiana",
+        "Best Crayfish in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "dons-seafood-lafayette-lafayette",
+      "name": "Dons Seafood - Lafayette",
+      "category": "Restaurant",
+      "categories": [
+        "hush puppies"
+      ],
+      "location": "Lafayette",
+      "address": "4309 Johnston St, Lafayette, LA 70503, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Hush Puppies in Acadiana",
+      "threads": [
+        "Best Hush Puppies in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "fezzo-s-seafood-steakhouse-and-oyster-bar-broussard",
+      "name": "Fezzo's Seafood, Steakhouse & Oyster Bar",
+      "category": "Restaurant",
+      "categories": [
+        "hush puppies"
+      ],
+      "location": "Broussard",
+      "address": "6701 Ambassador Caffery Pkwy, Broussard, LA 70518, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Hush Puppies in Acadiana",
+      "threads": [
+        "Best Hush Puppies in Acadiana",
+        "Best Crab Cakes in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "blue-iguana-eunice-eunice",
+      "name": "Blue Iguana Eunice",
+      "category": "Restaurant",
+      "categories": [
+        "shrimp cocktail"
+      ],
+      "location": "Eunice",
+      "address": "1415 Laurel St, Eunice, LA 70535, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Shrimp Cocktail in Acadiana",
+      "threads": [
+        "Best Shrimp Cocktail in Acadiana",
+        "Best Chips And Salsa in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "el-rodeo-mexican-grill-eunice",
+      "name": "El Rodeo Mexican Grill",
+      "category": "Restaurant",
+      "categories": [
+        "chips and salsa"
+      ],
+      "location": "Eunice",
+      "address": "1141 Laurel St, Eunice, LA 70535, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Chips And Salsa in Acadiana",
+      "threads": [
+        "Best Chips And Salsa in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "daiquiri-divas-rayne",
+      "name": "Daiquiri Divas",
+      "category": "Bar",
+      "categories": [
+        "daiquiri"
+      ],
+      "location": "Rayne",
+      "address": "700 N Polk St, Rayne, LA 70578, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Daiquiri in Acadiana",
+      "threads": [
+        "Best Daiquiri in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "daiquiri-island-scott",
+      "name": "Daiquiri Island",
+      "category": "Bar",
+      "categories": [
+        "daiquiri"
+      ],
+      "location": "Scott",
+      "address": "5410 Cameron St, Lafayette, LA 70506, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Daiquiri in Acadiana",
+      "threads": [
+        "Best Daiquiri in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "church-s-texas-chicken-carencro",
+      "name": "Church's Texas Chicken",
+      "category": "Restaurant",
+      "categories": [
+        "biscuits"
+      ],
+      "location": "Carencro",
+      "address": "105 W Gloria Switch Rd, Lafayette, LA 70507, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Biscuits in Acadiana",
+      "threads": [
+        "Best Biscuits in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "scott-oaks-plaza-scott",
+      "name": "Scott Oaks Plaza",
+      "category": "Shopping",
+      "categories": [
+        "sushi"
+      ],
+      "location": "Scott",
+      "address": "5525 Cameron St, Scott, LA 70583, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Sushi in Acadiana",
+      "threads": [
+        "Best Sushi in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "yamato-steakhouse-of-japan-opelousas",
+      "name": "Yamato Steakhouse of Japan",
+      "category": "Restaurant",
+      "categories": [
+        "sushi"
+      ],
+      "location": "Opelousas",
+      "address": "1434 Heather Dr, Opelousas, LA 70570, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Sushi in Acadiana",
+      "threads": [
+        "Best Sushi in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "deano-s-henderson-henderson",
+      "name": "DeanO's Henderson",
+      "category": "Restaurant",
+      "categories": [
+        "pizza"
+      ],
+      "location": "Henderson",
+      "address": "1046 Henderson Hwy, Breaux Bridge, LA 70517, USA",
+      "mentionCount": 3,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Pizza in Acadiana",
+      "threads": [
+        "Best Pizza in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "mr-gatti-s-pizza-eunice",
+      "name": "Mr Gatti's Pizza",
+      "category": "Restaurant",
+      "categories": [
+        "pizza"
+      ],
+      "location": "Eunice",
+      "address": "2224 W Laurel Ave, Eunice, LA 70535, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Pizza in Acadiana",
+      "threads": [
+        "Best Pizza in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "domino-s-pizza-abbeville",
+      "name": "Domino's Pizza",
+      "category": "Restaurant",
+      "categories": [
+        "pizza"
+      ],
+      "location": "Abbeville",
+      "address": "2510 Veterans Memorial Dr, Abbeville, LA 70510, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Pizza in Acadiana",
+      "threads": [
+        "Best Pizza in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "sky-zone-trampoline-park-lafayette",
+      "name": "Sky Zone Trampoline Park",
+      "category": "Attraction",
+      "categories": [
+        "pizza"
+      ],
+      "location": "Lafayette",
+      "address": "3814 Ambassador Caffery Pkwy, Lafayette, LA 70503, USA",
+      "mentionCount": 2,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Pizza in Acadiana",
+      "threads": [
+        "Best Pizza in Acadiana",
+        "Best Nachos in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "fat-pat-s-bar-and-grill-broussard-broussard",
+      "name": "Fat Pat's Bar and Grill Broussard",
+      "category": "Restaurant",
+      "categories": [
+        "nachos"
+      ],
+      "location": "Broussard",
+      "address": "6925 Ambassador Caffery Pkwy, Broussard, LA 70518, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Nachos in Acadiana",
+      "threads": [
+        "Best Nachos in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
+    },
+    {
+      "slug": "hong-kong-buffet-broussard",
+      "name": "Hong Kong Buffet",
+      "category": "Restaurant",
+      "categories": [
+        "crayfish"
+      ],
+      "location": "Broussard",
+      "address": "219 St Nazaire Rd, Broussard, LA 70518, USA",
+      "mentionCount": 1,
+      "highlights": [],
+      "source": "ai-praise-tags",
+      "sourceThread": "Best Crayfish in Acadiana",
+      "threads": [
+        "Best Crayfish in Acadiana"
+      ],
+      "rank": null,
+      "tags": [],
+      "specialNotes": null
     }
   ],
   "lastUpdated": "2026-03-25T18:20:06.192668+00:00",
   "totalBusinesses": 87,
   "totalMentions": 571,
-  "generatedAt": "2026-04-26T19:42:14.948Z"
+  "generatedAt": "2026-04-26T19:58:48.593Z"
 }
