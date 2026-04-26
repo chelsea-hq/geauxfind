@@ -176,6 +176,20 @@
     }
   }
 
+  function isThreadUrl(href) {
+    try {
+      const u = new URL(href);
+      const path = u.pathname;
+      return (
+        /\/groups\/[^/]+\/(?:posts|permalink)\/[^/]+\/?$/i.test(path) ||
+        /\/(?:posts|permalink)\/[^/]+\/?$/i.test(path) ||
+        (path === "/story.php" && u.searchParams.has("story_fbid"))
+      );
+    } catch {
+      return false;
+    }
+  }
+
   // Seen entries store both timestamp AND text length so we can
   // re-capture when the user expands "View more comments" and the
   // visible thread grows. Format: { ts: number, len: number }.
@@ -272,10 +286,7 @@
     autoCaptureRunning = true;
     try {
       // Only run on actual thread-like URLs (post permalinks, group posts)
-      const path = location.pathname;
-      const looksLikeThread =
-        /\/(posts|permalink|story|groups)\//i.test(path) || /\/groups\/[^/]+\/(posts|permalink)/i.test(path);
-      if (!looksLikeThread) return;
+      if (!isThreadUrl(location.href)) return;
 
       const root = findThreadRoot();
       const text = extractText(root);
