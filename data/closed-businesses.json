@@ -1,6 +1,6 @@
 {
   "$schema": "Curated list of businesses that have closed or relocated. Anything listed here is filtered out of every list, map, sitemap, and JSON-LD on GeauxFind. Add new entries with {slug, name, status, reason, source, closedAt}. Status: 'closed' | 'temporarily-closed' | 'relocated' | 'unverified'.",
-  "generatedAt": "2026-04-24T12:00:00Z",
+  "generatedAt": "2026-04-26T01:23:52.601Z",
   "entries": [
     {
       "slug": "randols",
@@ -9,7 +9,12 @@
       "reason": "Original Lafayette location closed 2024. Breaux Bridge continuation reported closed.",
       "source": "user:chelsea",
       "closedAt": "2024-04-01",
-      "matchNames": ["Randol's", "Randol's Restaurant", "Randol's Cajun Seafood Restaurant", "Randol's Restaurant & Cajun Dance Hall"]
+      "matchNames": [
+        "Randol's",
+        "Randol's Restaurant",
+        "Randol's Cajun Seafood Restaurant",
+        "Randol's Restaurant & Cajun Dance Hall"
+      ]
     },
     {
       "slug": "randols-restaurant",
@@ -18,7 +23,9 @@
       "reason": "Same business as randols — legacy duplicate slug.",
       "source": "user:chelsea",
       "closedAt": "2024-04-01",
-      "matchNames": ["Randol's Restaurant"]
+      "matchNames": [
+        "Randol's Restaurant"
+      ]
     },
     {
       "slug": "randol-s-cajun-seafood-restaurant-breaux-bridge",
@@ -27,7 +34,9 @@
       "reason": "Breaux Bridge relocation attempt — reported closed.",
       "source": "user:chelsea",
       "closedAt": "2024-04-01",
-      "matchNames": ["Randol's Cajun Seafood Restaurant"]
+      "matchNames": [
+        "Randol's Cajun Seafood Restaurant"
+      ]
     },
     {
       "slug": "fuji-sushi-house",
@@ -36,7 +45,9 @@
       "reason": "Per GeauxFind internal notes (STATE.md, 2026-03-25) — temporarily closed.",
       "source": "state-md",
       "closedAt": "2026-03-25",
-      "matchNames": ["Fuji Sushi House"]
+      "matchNames": [
+        "Fuji Sushi House"
+      ]
     },
     {
       "slug": "twin-peaks-lafayette",
@@ -45,7 +56,209 @@
       "reason": "Lafayette location closed permanently — reported by user 2026-04-25.",
       "source": "user:chelsea",
       "closedAt": "2026-04-25",
-      "matchNames": ["Twin Peaks", "Twin Peaks Lafayette", "Twin Peaks Restaurant"]
+      "matchNames": [
+        "Twin Peaks",
+        "Twin Peaks Lafayette",
+        "Twin Peaks Restaurant"
+      ]
+    },
+    {
+      "slug": "acadiana-jerky-co-and-smokehouse",
+      "name": "Acadiana Jerky Co. & Smokehouse",
+      "status": "closed",
+      "reason": "Google Places business_status = CLOSED_PERMANENTLY (auto-detected 2026-04-26)",
+      "source": "google-verify",
+      "closedAt": "2026-04-26",
+      "matchNames": [
+        "Acadiana Jerky Co. & Smokehouse"
+      ]
+    },
+    {
+      "slug": "loveworks",
+      "name": "LoveWorks",
+      "status": "closed",
+      "reason": "Google Places business_status = CLOSED_PERMANENTLY (auto-detected 2026-04-26)",
+      "source": "google-verify",
+      "closedAt": "2026-04-26",
+      "matchNames": [
+        "LoveWorks"
+      ]
+    },
+    {
+      "slug": "lumberjacks-soulfood-louisiana-llc",
+      "name": "LUMBERJACK'S SOULFOOD LOUISIANA. LLC",
+      "status": "closed",
+      "reason": "Google Places business_status = CLOSED_PERMANENTLY (auto-detected 2026-04-26)",
+      "source": "google-verify",
+      "closedAt": "2026-04-26",
+      "matchNames": [
+        "LUMBERJACK'S SOULFOOD LOUISIANA. LLC"
+      ]
+    },
+    {
+      "slug": "mels-at-the-starlite-drive-in-theatre",
+      "name": "MELS at the Starlite Drive-In Theatre",
+      "status": "closed",
+      "reason": "Google Places business_status = CLOSED_PERMANENTLY (auto-detected 2026-04-26)",
+      "source": "google-verify",
+      "closedAt": "2026-04-26",
+      "matchNames": [
+        "MELS at the Starlite Drive-In Theatre"
+      ]
+    },
+    {
+      "slug": "pats-downtown",
+      "name": "Pat's Downtown",
+      "status": "closed",
+      "reason": "Google Places business_status = CLOSED_PERMANENTLY (auto-detected 2026-04-26)",
+      "source": "google-verify",
+      "closedAt": "2026-04-26",
+      "matchNames": [
+        "Pat's Downtown"
+      ]
+    },
+    {
+      "slug": "putt-putt-lake-charles",
+      "name": "Putt putt lake Charles",
+      "status": "closed",
+      "reason": "Google Places business_status = CLOSED_PERMANENTLY (auto-detected 2026-04-26)",
+      "source": "google-verify",
+      "closedAt": "2026-04-26",
+      "matchNames": [
+        "Putt putt lake Charles"
+      ]
+    },
+    {
+      "slug": "super-chix-chicken-and-custard",
+      "name": "Super Chix - Chicken & Custard",
+      "status": "closed",
+      "reason": "Google Places business_status = CLOSED_PERMANENTLY (auto-detected 2026-04-26)",
+      "source": "google-verify",
+      "closedAt": "2026-04-26",
+      "matchNames": [
+        "Super Chix - Chicken & Custard"
+      ]
+    },
+    {
+      "slug": "blue-dog-cafe",
+      "name": "Blue Dog Café",
+      "status": "closed",
+      "reason": "Google Places business_status = CLOSED_PERMANENTLY (auto-detected from guides.json on 2026-04-26)",
+      "source": "google-verify",
+      "closedAt": "2026-04-26",
+      "matchNames": [
+        "Blue Dog Café"
+      ]
+    },
+    {
+      "slug": "moes-bbq-trailer",
+      "name": "Moe's BBQ Trailer",
+      "status": "closed",
+      "reason": "Google Places business_status = CLOSED_PERMANENTLY (auto-detected from guides.json on 2026-04-26)",
+      "source": "google-verify",
+      "closedAt": "2026-04-26",
+      "matchNames": [
+        "Moe's BBQ Trailer"
+      ]
+    },
+    {
+      "slug": "wing-fingers-truck",
+      "name": "Wing Fingers Truck",
+      "status": "closed",
+      "reason": "Google Places business_status = CLOSED_PERMANENTLY (auto-detected from guides.json on 2026-04-26)",
+      "source": "google-verify",
+      "closedAt": "2026-04-26",
+      "matchNames": [
+        "Wing Fingers Truck"
+      ]
+    },
+    {
+      "slug": "cajun-brewing",
+      "name": "Cajun Brewing",
+      "status": "closed",
+      "reason": "Google Places business_status = CLOSED_PERMANENTLY (auto-detected from guides.json on 2026-04-26)",
+      "source": "google-verify",
+      "closedAt": "2026-04-26",
+      "matchNames": [
+        "Cajun Brewing"
+      ]
+    },
+    {
+      "slug": "angelles-whiskey-river",
+      "name": "Angelle's Whiskey River Landing",
+      "status": "closed",
+      "reason": "Google Places business_status = CLOSED_PERMANENTLY (auto-detected from guides.json on 2026-04-26)",
+      "source": "google-verify",
+      "closedAt": "2026-04-26",
+      "matchNames": [
+        "Angelle's Whiskey River Landing"
+      ]
+    },
+    {
+      "slug": "solou",
+      "name": "SoLou",
+      "status": "closed",
+      "reason": "Google Places business_status = CLOSED_PERMANENTLY (auto-detected from guides.json on 2026-04-26)",
+      "source": "google-verify",
+      "closedAt": "2026-04-26",
+      "matchNames": [
+        "SoLou"
+      ]
+    },
+    {
+      "slug": "dark-roux",
+      "name": "Dark Roux",
+      "status": "closed",
+      "reason": "Google Places business_status = CLOSED_PERMANENTLY (auto-detected from guides.json on 2026-04-26)",
+      "source": "google-verify",
+      "closedAt": "2026-04-26",
+      "matchNames": [
+        "Dark Roux"
+      ]
+    },
+    {
+      "slug": "so-lou",
+      "name": "So Lou",
+      "status": "closed",
+      "reason": "Google Places business_status = CLOSED_PERMANENTLY (auto-detected from guides.json on 2026-04-26)",
+      "source": "google-verify",
+      "closedAt": "2026-04-26",
+      "matchNames": [
+        "So Lou"
+      ]
+    },
+    {
+      "slug": "pont-breauxs",
+      "name": "Pont Breaux's Cajun Restaurant",
+      "status": "closed",
+      "reason": "Google Places business_status = CLOSED_PERMANENTLY (auto-detected from guides.json on 2026-04-26)",
+      "source": "google-verify",
+      "closedAt": "2026-04-26",
+      "matchNames": [
+        "Pont Breaux's Cajun Restaurant"
+      ]
+    },
+    {
+      "slug": "angelles-whiskey-river-landing",
+      "name": "Angelle's Whiskey River Landing",
+      "status": "closed",
+      "reason": "Google Places business_status = CLOSED_PERMANENTLY (auto-detected from guides.json on 2026-04-26)",
+      "source": "google-verify",
+      "closedAt": "2026-04-26",
+      "matchNames": [
+        "Angelle's Whiskey River Landing"
+      ]
+    },
+    {
+      "slug": "grouse-room",
+      "name": "The Grouse Room",
+      "status": "closed",
+      "reason": "Google Places business_status = CLOSED_PERMANENTLY (auto-detected from guides.json on 2026-04-26)",
+      "source": "google-verify",
+      "closedAt": "2026-04-26",
+      "matchNames": [
+        "The Grouse Room"
+      ]
     }
   ]
 }
