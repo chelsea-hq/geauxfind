@@ -176,26 +176,37 @@
     }
   }
 
+  // Seen entries store both timestamp AND text length so we can
+  // re-capture when the user expands "View more comments" and the
+  // visible thread grows. Format: { ts: number, len: number }.
   async function loadSeen() {
     const got = await chrome.storage.local.get(SEEN_KEY);
     const seen = got[SEEN_KEY] || {};
-    // Prune old entries
     const cutoff = Date.now() - SEEN_TTL_DAYS * 24 * 60 * 60 * 1000;
     for (const k of Object.keys(seen)) {
-      if (seen[k] < cutoff) delete seen[k];
+      // Migrate old number-only entries to new shape
+      if (typeof seen[k] === "number") seen[k] = { ts: seen[k], len: 0 };
+      if ((seen[k]?.ts ?? 0) < cutoff) delete seen[k];
     }
     return seen;
   }
 
-  async function markSeen(hash) {
+  async function markSeen(hash, len) {
     const seen = await loadSeen();
-    seen[hash] = Date.now();
+    seen[hash] = { ts: Date.now(), len: len || 0 };
     await chrome.storage.local.set({ [SEEN_KEY]: seen });
   }
 
-  async function isSeen(hash) {
+  // Returns "fresh" | "grown" | "stale".
+  // grown = previously captured but text expanded ≥50% (user clicked
+  // "View more comments") → re-capture to refresh mention counts.
+  async function captureState(hash, currentLen) {
     const seen = await loadSeen();
-    return !!seen[hash];
+    const entry = seen[hash];
+    if (!entry) return "fresh";
+    const prevLen = entry.len || 0;
+    if (currentLen >= prevLen * 1.5 && currentLen - prevLen >= 400) return "grown";
+    return "stale";
   }
 
   // ────────────────────────── Capture flows ──────────────────────────
@@ -241,7 +252,7 @@
       });
       if (!r) return;
 
-      await markSeen(urlHash(location.href));
+      await markSeen(urlHash(location.href), text.length);
       const lines = [`✓ Saved "${r.topic.name}"`, `${r.placesFound} businesses · ${r.absoluteMentions} mentions`];
       if (r.topic.topBusinesses?.length) {
         const top3 = r.topic.topBusinesses.slice(0, 3).map((b, i) => `${i + 1}. ${b.name} (${b.mentionCount})`).join("\n");
@@ -266,13 +277,6 @@
         /\/(posts|permalink|story|groups)\//i.test(path) || /\/groups\/[^/]+\/(posts|permalink)/i.test(path);
       if (!looksLikeThread) return;
 
-      const hash = urlHash(location.href);
-      if (await isSeen(hash)) {
-        setStatusPill("● already captured");
-        setTimeout(() => setStatusPill(""), 2000);
-        return;
-      }
-
       const root = findThreadRoot();
       const text = extractText(root);
       if (text.length < MIN_AUTO_TEXT) return;
@@ -282,17 +286,27 @@
       const head = text.slice(0, 800);
       if (!TRIGGER_REGEX.test(head)) return;
 
+      const hash = urlHash(location.href);
+      const state = await captureState(hash, text.length);
+      if (state === "stale") {
+        setStatusPill("● already captured");
+        setTimeout(() => setStatusPill(""), 2000);
+        return;
+      }
+
       const topic = suggestTopic(text) || "best of acadiana";
 
-      setStatusPill(`◐ auto-capturing: ${topic}…`);
+      const verb = state === "grown" ? "re-capturing (more comments)" : "auto-capturing";
+      setStatusPill(`◐ ${verb}: ${topic}…`);
       const r = await postToGeauxFind({ topic, text, sourceUrl: location.href, silent: true });
       if (!r) {
         setStatusPill("✗ auto-capture failed");
         setTimeout(() => setStatusPill(""), 3000);
         return;
       }
-      await markSeen(hash);
-      setStatusPill(`✓ captured: ${r.topic.name} (${r.placesFound} biz)`);
+      await markSeen(hash, text.length);
+      const prefix = state === "grown" ? "↻" : "✓";
+      setStatusPill(`${prefix} captured: ${r.topic.name} (${r.placesFound} biz)`);
       setTimeout(() => setStatusPill(""), 5000);
     } catch (err) {
       setStatusPill(`✗ ${(err?.message || "err").slice(0, 40)}`);
