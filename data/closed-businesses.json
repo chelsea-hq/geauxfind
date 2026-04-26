@@ -1,6 +1,6 @@
 {
   "$schema": "Curated list of businesses that have closed or relocated. Anything listed here is filtered out of every list, map, sitemap, and JSON-LD on GeauxFind. Add new entries with {slug, name, status, reason, source, closedAt}. Status: 'closed' | 'temporarily-closed' | 'relocated' | 'unverified'.",
-  "generatedAt": "2026-04-26T01:23:52.601Z",
+  "generatedAt": "2026-04-26T20:23:48.524Z",
   "entries": [
     {
       "slug": "randols",
@@ -258,6 +258,17 @@
       "closedAt": "2026-04-26",
       "matchNames": [
         "The Grouse Room"
+      ]
+    },
+    {
+      "slug": "shucks-broussard",
+      "name": "Shucks! (Broussard)",
+      "status": "closed",
+      "reason": "Google Places business_status = CLOSED_PERMANENTLY (auto-detected from guides.json on 2026-04-26)",
+      "source": "google-verify",
+      "closedAt": "2026-04-26",
+      "matchNames": [
+        "Shucks! (Broussard)"
       ]
     }
   ]
