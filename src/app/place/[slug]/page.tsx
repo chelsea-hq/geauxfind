@@ -62,6 +62,17 @@ export default async function PlaceDetail({ params }: { params: Promise<{ slug: 
   if (!place) return notFound();
   if (isClosed(place)) return notFound();
 
+  // Defensive coercion — seed-data has mixed types over its history.
+  // place.reviews is sometimes a number (count) instead of an array;
+  // place.hours is sometimes a "Monday: 9-5\n..." string instead of
+  // a string[]. Hardening here prevents 500s when those slugs are hit.
+  const reviewsArray = Array.isArray(place.reviews) ? place.reviews : [];
+  const hoursArray = Array.isArray(place.hours)
+    ? place.hours
+    : typeof place.hours === "string"
+      ? (place.hours as string).split(/\r?\n/).map((s) => s.trim()).filter(Boolean)
+      : [];
+
   const similar = places.filter((p) => p.slug !== slug && p.category === place.category).slice(0, 2);
   const claims = await readJsonFile<BusinessClaim[]>("business-claims.json", []);
   const verified = claims.some((c) => c.placeSlug === slug);
@@ -97,7 +108,7 @@ export default async function PlaceDetail({ params }: { params: Promise<{ slug: 
   const latitude = placeWithGeo.latitude ?? placeWithGeo.lat;
   const longitude = placeWithGeo.longitude ?? placeWithGeo.lng;
   const ratingValue = placeWithGeo.google_rating ?? place.rating;
-  const reviewCount = placeWithGeo.google_rating_count ?? place.reviews.length;
+  const reviewCount = placeWithGeo.google_rating_count ?? reviewsArray.length;
 
   const localBusinessSchema = {
     "@context": "https://schema.org",
@@ -126,7 +137,7 @@ export default async function PlaceDetail({ params }: { params: Promise<{ slug: 
       latitude,
       longitude,
     } : undefined,
-    openingHours: place.hours.length > 0 ? place.hours : undefined,
+    openingHours: hoursArray.length > 0 ? hoursArray : undefined,
   };
 
   return (
@@ -143,7 +154,7 @@ export default async function PlaceDetail({ params }: { params: Promise<{ slug: 
           <div className="mt-6"><MapWrapper places={[place]} /></div>
           <ReviewSummaryCard slug={place.slug} />
           <h2 className="mb-3 mt-8 font-serif text-2xl">Community Reviews</h2>
-          <div className="space-y-3">{place.reviews.map((r) => <ReviewCard key={r.id} review={r} />)}</div>
+          <div className="space-y-3">{reviewsArray.map((r) => <ReviewCard key={r.id} review={r} />)}</div>
 
           <div className="mt-8 rounded-xl border border-[var(--spanish-moss)]/30 bg-white p-4">
             <h2 className="font-serif text-2xl">Community Photos</h2>
@@ -180,7 +191,7 @@ export default async function PlaceDetail({ params }: { params: Promise<{ slug: 
           <h3 className="font-semibold">Details</h3>
           <p className="mt-2">📞 {place.phone}</p>
           <a className="text-[var(--cajun-red)] underline" href={place.website}>{place.website}</a>
-          <ul className="mt-3 space-y-1">{place.hours.map((h) => <li key={h}>{h}</li>)}</ul>
+          <ul className="mt-3 space-y-1">{hoursArray.map((h) => <li key={h}>{h}</li>)}</ul>
           <Link href={`/business/${place.slug}`} className="mt-4 inline-block rounded-lg border px-3 py-2">Claim This Business</Link>
           <ReportClosedButton slug={place.slug} placeName={place.name} />
         </aside>
