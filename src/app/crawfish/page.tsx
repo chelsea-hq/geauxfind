@@ -144,7 +144,11 @@ export default function CrawfishPage() {
               <p className="mt-2 text-[var(--warm-gray)]">{crawfishData.priceTracker.trend}</p>
               <p className="mt-1 text-[var(--warm-gray)]">{crawfishData.priceTracker.bestDealTip}</p>
               <p className="mt-1 text-sm text-[var(--warm-gray)]">{crawfishData.priceTracker.source}</p>
-              {lastUpdatedLabel ? <p className="mt-1 text-xs text-[var(--warm-gray)]">Last updated: {lastUpdatedLabel}</p> : null}
+              {lastUpdatedLabel ? (
+                <p className="mt-1 text-xs text-[var(--warm-gray)]">
+                  Last updated: <span suppressHydrationWarning>{lastUpdatedLabel}</span>
+                </p>
+              ) : null}
             </div>
             <div className="flex flex-col items-start gap-2 md:items-end">
               <Link
@@ -177,7 +181,9 @@ export default function CrawfishPage() {
               >
                 <p className="text-xs font-semibold uppercase tracking-wide text-[var(--cajun-red)]">{event.featured ? "This Friday" : "Coming Up"}</p>
                 <h3 className="mt-1 text-2xl">{event.name}</h3>
-                <p className="mt-2 text-sm text-[var(--warm-gray)]">{new Date(event.date).toLocaleDateString(undefined, { weekday: "long", month: "long", day: "numeric", year: "numeric" })} • {event.time}</p>
+                <p className="mt-2 text-sm text-[var(--warm-gray)]" suppressHydrationWarning>
+                  {new Date(event.date).toLocaleDateString(undefined, { weekday: "long", month: "long", day: "numeric", year: "numeric" })} • {event.time}
+                </p>
                 <p className="mt-1 text-sm text-[var(--warm-gray)]">{event.location}</p>
                 <p className="mt-2 font-semibold text-[var(--cast-iron)]">{event.price}</p>
                 <p className="mt-2 text-sm text-[var(--warm-gray)]">{event.description}</p>
