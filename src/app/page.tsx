@@ -13,6 +13,7 @@ import seedPlaces from "../../scripts/seed-data.json";
 import { JsonLd } from "@/components/JsonLd";
 import { FaqSection } from "@/components/FaqSection";
 import { HappeningNowBanner } from "@/components/HappeningNowBanner";
+import { useNow } from "@/hooks/use-now";
 import type { Place, WhatsNewItem } from "@/types";
 
 const SEASONAL_ITEMS: Array<{ months: number[]; emoji: string; title: string; desc: string; link: string }> = [
@@ -38,6 +39,11 @@ export default function Home() {
 
   const claimablePlaces = useMemo(() => (seedPlaces as Place[]), []);
 
+  // Hydration-safe "now". Null on first render (matches SSR), real Date
+  // after mount. All time-dependent rendering below depends on it; the
+  // empty-array fallbacks render the same string on server and client.
+  const now = useNow();
+
   const featuredPlaces = useMemo(() => {
     const seen = new Set<string>();
     return places.filter((p) => {
@@ -47,7 +53,7 @@ export default function Home() {
     }).slice(0, 5);
   }, []);
   const weekendEvents = useMemo(() => {
-    const now = new Date();
+    if (!now) return [];
     const day = now.getDay();
     const daysToFriday = (5 - day + 7) % 7;
     const friday = new Date(now);
@@ -65,12 +71,13 @@ export default function Home() {
       })
       .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
       .slice(0, 6);
-  }, []);
+  }, [now]);
 
   const todaysEvents = useMemo(() => {
-    const today = new Date().toDateString();
+    if (!now) return [];
+    const today = now.toDateString();
     return events.filter((event) => new Date(`${event.date}T12:00:00`).toDateString() === today);
-  }, []);
+  }, [now]);
 
   const claimMatches = useMemo(() => {
     const query = businessQuery.trim().toLowerCase();
@@ -81,7 +88,9 @@ export default function Home() {
       .slice(0, 3);
   }, [businessQuery, claimablePlaces]);
 
-  const currentSeasonal = SEASONAL_ITEMS.filter((s) => s.months.includes(new Date().getMonth() + 1)).slice(0, 6);
+  const currentSeasonal = now
+    ? SEASONAL_ITEMS.filter((s) => s.months.includes(now.getMonth() + 1)).slice(0, 6)
+    : [];
 
   const featuredRecipe = recipes[0];
 

@@ -51,8 +51,10 @@ interface DealsFile {
   communityDeals: CommunityDeal[];
 }
 
-function getCurrentSeasonContext() {
-  const month = new Date().getMonth() + 1;
+function getCurrentSeasonContext(now: Date | null) {
+  // Stable default before hydration to avoid SSR/client month-boundary mismatch.
+  if (!now) return "Winter comfort-food season is here — warm up with local specials and neighborhood favorites.";
+  const month = now.getMonth() + 1;
   if (month >= 2 && month <= 5) return "Crawfish season is rolling — catch these local favorites while they're hot.";
   if (month >= 9 && month <= 11) return "Festival season in Acadiana means more reasons to eat local and save.";
   if (month >= 6 && month <= 8) return "Summer specials are out — perfect time for cool drinks and patio bites.";
@@ -120,7 +122,7 @@ export default async function DealsPage() {
 
         <section className="mt-12 rounded-2xl border border-[var(--sunset-gold)]/40 bg-[#FFFBF0] p-6 md:p-8">
           <h2 className="text-2xl font-bold text-[var(--cast-iron)] md:text-3xl">Seasonal Picks</h2>
-          <p className="mt-1 text-sm text-[var(--warm-gray)]">{getCurrentSeasonContext()}</p>
+          <p className="mt-1 text-sm text-[var(--warm-gray)]">{getCurrentSeasonContext(new Date())}</p>
           <div className="mt-5 grid gap-4 sm:grid-cols-2">
             {seasonalDeals.map((deal) => (
               <article key={deal.id} className="rounded-xl border border-[var(--sunset-gold)]/30 bg-white p-4">

@@ -49,10 +49,17 @@ export default function CrawfishPage() {
     );
   }, [sortBy]);
 
-  const upcomingEvents = useMemo(() => {
-    const now = new Date();
-    return crawfishData.events.filter((event) => new Date(`${event.endDate}T23:59:59`) >= now);
+  // Hydration-safe: skip date filter until client-side `now` is set.
+  // Otherwise SSR computes "5 upcoming" with server clock and client
+  // computes "4 upcoming" with client clock → React error #418.
+  const [now, setNow] = useState<Date | null>(null);
+  useEffect(() => {
+    setNow(new Date());
   }, []);
+  const upcomingEvents = useMemo(() => {
+    if (!now) return [];
+    return crawfishData.events.filter((event) => new Date(`${event.endDate}T23:59:59`) >= now);
+  }, [now]);
 
   const curatedSpots = crawfishData.spots.slice(0, 18);
   const extraSpots: ExtraSpot[] = (crawfishData as typeof crawfishData & { extraSpots?: ExtraSpot[] }).extraSpots ?? [];

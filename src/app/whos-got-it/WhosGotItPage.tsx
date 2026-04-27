@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
+import { useNow } from "@/hooks/use-now";
 import whosGotItData from "../../../data/whos-got-it.json";
 
 type Item = (typeof whosGotItData.items)[number];
@@ -54,8 +55,10 @@ const ITEM_EMOJI: Record<string, string> = {
   "Fresh Sausage": "🌶️",
 };
 
-function getSeasonSpotlight() {
-  const month = new Date().getMonth() + 1;
+function getSeasonSpotlight(now: Date | null) {
+  // Stable default before hydration so SSR and client first paint match.
+  if (!now) return "Gumbo";
+  const month = now.getMonth() + 1;
 
   if (month >= 3 && month <= 6) return "Crawfish";
   if (month >= 6 && month <= 9) return "Snowballs";
@@ -65,7 +68,8 @@ function getSeasonSpotlight() {
 
 export default function WhosGotItPage() {
   const [activeCategory, setActiveCategory] = useState<Category>("All");
-  const spotlight = getSeasonSpotlight();
+  const now = useNow();
+  const spotlight = getSeasonSpotlight(now);
 
   const filteredItems = useMemo(() => {
     if (activeCategory === "All") return whosGotItData.items;
