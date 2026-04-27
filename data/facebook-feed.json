@@ -1,46 +1,41 @@
 {
-  "lastUpdated": "2026-04-26T20:05:45.055Z",
-  "targetsUsed": {
-    "pages": [
-      "Developing Lafayette",
-      "Downtown Lafayette",
-      "Lafayette Travel",
-      "Acadiana Advocate",
-      "KATC TV3",
-      "Eat Lafayette",
-      "Discover Lafayette",
-      "Festival International de Louisiane",
-      "Festivals Acadiens et Créoles",
-      "Don's Specialty Meats",
-      "The Best Stop",
-      "Pamplona Tapas Bar",
-      "Spoonbill Watering Hole",
-      "Rêve Coffee Roasters",
-      "The French Press",
-      "Carpe Diem Gelato",
-      "Bread & Circus Provisions",
-      "Olde Tyme Grocery",
-      "Tula Tacos + Amigos",
-      "Saint Street Inn",
-      "Pop's Poboys",
-      "Crawfish Town USA",
-      "Dwyer's Cafe",
-      "Charlie T's Specialty Meats",
-      "Earl's Cajun Market",
-      "Hebert's Specialty Meats",
-      "Chop's Specialty Meats",
-      "NuNu's Fresh Market",
-      "Champagne's Market"
-    ],
-    "groups": [
-      "Lafayette Foodies Group"
-    ]
-  },
-  "counts": {
-    "raw": 0,
-    "keywordPassed": 0,
-    "aiFiltered": 0,
-    "finalPublished": 0
-  },
+  "lastScraped": "2026-04-27T15:05:43.273Z",
+  "groups": [
+    {
+      "name": "Foodies of Lafayette",
+      "id": "437445600497753",
+      "url": "https://www.facebook.com/groups/437445600497753/",
+      "postCount": 0,
+      "status": "robots_blocked"
+    },
+    {
+      "name": "Whatz Goin On in Acadiana",
+      "id": "607423613041078",
+      "url": "https://www.facebook.com/groups/607423613041078/",
+      "postCount": 0,
+      "status": "robots_blocked"
+    },
+    {
+      "name": "Lafayette Memories",
+      "id": "LafayetteMemories",
+      "url": "https://www.facebook.com/groups/LafayetteMemories/",
+      "postCount": 0,
+      "status": "robots_blocked"
+    },
+    {
+      "name": "Louisiana Soul Food",
+      "id": "1103265880462154",
+      "url": "https://www.facebook.com/groups/1103265880462154/",
+      "postCount": 0,
+      "status": "robots_blocked"
+    },
+    {
+      "name": "Lafayette EDM Scene",
+      "id": "360751904363123",
+      "url": "https://www.facebook.com/groups/360751904363123/",
+      "postCount": 0,
+      "status": "robots_blocked"
+    }
+  ],
   "items": []
 }
