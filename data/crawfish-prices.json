@@ -1,7 +1,7 @@
 {
   "source": "The Crawfish App",
   "sourceLink": "https://www.thecrawfishapp.com/VendorSearchUi",
-  "lastUpdated": "2026-04-29T12:14:32.525Z",
+  "lastUpdated": "2026-04-30T12:12:06.091Z",
   "cities": [
     {
       "city": "Lafayette",
@@ -237,7 +237,7 @@
       "rating": 5,
       "phone": "337-332-4648",
       "hours": null,
-      "updatedAt": "04/23/2026 04:16 PM CST"
+      "updatedAt": "04/29/2026 02:43 PM CST"
     },
     {
       "name": "Boil & Geaux LLC",
@@ -680,14 +680,14 @@
       "city": "Lafayette",
       "boiledPricePerLb": null,
       "boiledPriceText": "Unavailable/1LB",
-      "livePricePerLb": null,
-      "livePriceText": "Unavailable/1LB",
+      "livePricePerLb": 1.99,
+      "livePriceText": "$1.99/1LB",
       "boiledSize": null,
-      "liveSize": null,
+      "liveSize": "Medium",
       "rating": 0,
       "phone": "337-572-9340",
       "hours": null,
-      "updatedAt": "04/17/2026 12:17 PM CST"
+      "updatedAt": "04/29/2026 10:45 AM CST"
     },
     {
       "name": "Super 1 Foods",
@@ -762,7 +762,7 @@
       "rating": 5,
       "phone": "337-365-6657",
       "hours": null,
-      "updatedAt": "04/23/2026 05:52 PM CST"
+      "updatedAt": "04/29/2026 02:16 PM CST"
     },
     {
       "name": "Jane's Seafood",
