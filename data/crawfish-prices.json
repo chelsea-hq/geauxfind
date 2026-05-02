@@ -1,7 +1,7 @@
 {
   "source": "The Crawfish App",
   "sourceLink": "https://www.thecrawfishapp.com/VendorSearchUi",
-  "lastUpdated": "2026-05-01T11:55:47.858Z",
+  "lastUpdated": "2026-05-02T11:40:49.318Z",
   "cities": [
     {
       "city": "Lafayette",
@@ -558,8 +558,8 @@
       "name": "Don's Seafood",
       "address": "4309 Johnston St, Lafayette, LA 70503",
       "city": "Lafayette",
-      "boiledPricePerLb": 4,
-      "boiledPriceText": "$4.00/1LB",
+      "boiledPricePerLb": 6,
+      "boiledPriceText": "$6.00/1LB",
       "livePricePerLb": null,
       "livePriceText": "Not Sold/1LB",
       "boiledSize": "Large",
@@ -567,7 +567,7 @@
       "rating": 0,
       "phone": "337-981-1159",
       "hours": null,
-      "updatedAt": "04/30/2026 08:49 AM CST"
+      "updatedAt": "05/01/2026 08:59 AM CST"
     },
     {
       "name": "JJ’s Boiling Shack",

@@ -18,7 +18,7 @@
       "Crawfish Acadiana",
       "Crawfish Time"
     ],
-    "lastUpdated": "2026-05-01T11:55:47.858Z"
+    "lastUpdated": "2026-05-02T11:40:49.318Z"
   },
   "seasonOutlook": [
     "2026 season is \"looking good\" per LSU AgCenter (Todd Fontenot, crawfish extension agent)",
@@ -469,21 +469,6 @@
       "rating": 4
     },
     {
-      "name": "Don's Seafood",
-      "address": "4309 Johnston St, Lafayette, LA 70503",
-      "city": "Lafayette",
-      "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $4.00/lb • Boiled size: Large • Rating: 0/5",
-      "pricePerLbEstimate": 4,
-      "description": "Listed via The Crawfish App.",
-      "tags": [
-        "Price Tracker"
-      ],
-      "website": null,
-      "phone": "337-981-1159",
-      "rating": 0
-    },
-    {
       "name": "Meche's crawfish",
       "address": "2308 Abbeville Hwy.",
       "city": "Rayne",
@@ -902,6 +887,21 @@
       "website": null,
       "phone": "337-237-8533",
       "rating": 5
+    },
+    {
+      "name": "Don's Seafood",
+      "address": "4309 Johnston St, Lafayette, LA 70503",
+      "city": "Lafayette",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $6.00/lb • Boiled size: Large • Rating: 0/5",
+      "pricePerLbEstimate": 6,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-981-1159",
+      "rating": 0
     },
     {
       "name": "Crawfish Time",
