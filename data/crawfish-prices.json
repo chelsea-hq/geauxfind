@@ -1,7 +1,7 @@
 {
   "source": "The Crawfish App",
   "sourceLink": "https://www.thecrawfishapp.com/VendorSearchUi",
-  "lastUpdated": "2026-05-02T11:40:49.318Z",
+  "lastUpdated": "2026-05-03T11:38:17.377Z",
   "cities": [
     {
       "city": "Lafayette",
@@ -663,16 +663,16 @@
       "name": "Super 1 Foods",
       "address": "2240 Ambassador Caffery Pkwy",
       "city": "Lafayette",
-      "boiledPricePerLb": 2.29,
-      "boiledPriceText": "$2.29/1LB",
-      "livePricePerLb": 1.89,
-      "livePriceText": "$1.89/1LB",
+      "boiledPricePerLb": null,
+      "boiledPriceText": "Unavailable/1LB",
+      "livePricePerLb": 1.98,
+      "livePriceText": "$1.98/1LB",
       "boiledSize": "Medium",
       "liveSize": "Medium",
       "rating": 0,
       "phone": "337-735-7799",
       "hours": null,
-      "updatedAt": "04/27/2026 04:20 PM CST"
+      "updatedAt": "05/02/2026 02:04 PM CST"
     },
     {
       "name": "Super 1 Foods",

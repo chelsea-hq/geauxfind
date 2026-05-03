@@ -6,7 +6,7 @@
     "quickStats": "18 Spots • $5-10/lb • March-May Peak"
   },
   "priceTracker": {
-    "currentRange": "$2.29 - $7.99/lb boiled",
+    "currentRange": "$3.49 - $7.99/lb boiled",
     "trend": "Prices are dropping! Down from $10+ in January",
     "bestDealTip": "Best deals: Buy direct from farm drive-thrus",
     "proTip": "Most places don't start boiling until 4-5pm — call ahead for lunch",
@@ -18,7 +18,7 @@
       "Crawfish Acadiana",
       "Crawfish Time"
     ],
-    "lastUpdated": "2026-05-02T11:40:49.318Z"
+    "lastUpdated": "2026-05-03T11:38:17.377Z"
   },
   "seasonOutlook": [
     "2026 season is \"looking good\" per LSU AgCenter (Todd Fontenot, crawfish extension agent)",
@@ -318,21 +318,6 @@
     }
   ],
   "extraSpots": [
-    {
-      "name": "Super 1 Foods",
-      "address": "2240 Ambassador Caffery Pkwy",
-      "city": "Lafayette",
-      "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $2.29/lb • Live $1.89/lb • Boiled size: Medium • Live size: Medium • Rating: 0/5",
-      "pricePerLbEstimate": 2.29,
-      "description": "Listed via The Crawfish App.",
-      "tags": [
-        "Price Tracker"
-      ],
-      "website": null,
-      "phone": "337-735-7799",
-      "rating": 0
-    },
     {
       "name": "Mikey’s Seafood & Specialty Meats Crowley",
       "address": "165 Oddfellows Rd.",
@@ -1171,6 +1156,21 @@
       ],
       "website": null,
       "phone": "337-898-1255",
+      "rating": 0
+    },
+    {
+      "name": "Super 1 Foods",
+      "address": "2240 Ambassador Caffery Pkwy",
+      "city": "Lafayette",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Live $1.98/lb • Boiled size: Medium • Live size: Medium • Rating: 0/5",
+      "pricePerLbEstimate": null,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-735-7799",
       "rating": 0
     },
     {
