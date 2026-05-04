@@ -1,22 +1,5 @@
 [
   {
-    "slug": "breaux-bridge-crawfish-festival-2026",
-    "title": "Breaux Bridge Crawfish Festival 2026",
-    "date": "2026-05-01",
-    "endDate": "2026-05-03",
-    "time": "All day",
-    "venue": "Parc Hardy",
-    "address": "Parc Hardy, Breaux Bridge, LA",
-    "city": "Breaux Bridge",
-    "description": "The Crawfish Capital of the World's annual festival — three days of crawfish boils, eating contests, Cajun music, and second-line parades.",
-    "category": "festival",
-    "image": null,
-    "link": "https://bbcrawfest.com",
-    "source": "manual",
-    "free": false,
-    "price": "$8"
-  },
-  {
     "slug": "spring-swing-music-festival-2026",
     "title": "Spring Swing Music Festival 2026",
     "date": "2026-05-09",
