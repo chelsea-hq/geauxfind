@@ -1,6 +1,6 @@
 {
   "$schema": "Curated list of businesses that have closed or relocated. Anything listed here is filtered out of every list, map, sitemap, and JSON-LD on GeauxFind. Add new entries with {slug, name, status, reason, source, closedAt}. Status: 'closed' | 'temporarily-closed' | 'relocated' | 'unverified'.",
-  "generatedAt": "2026-04-26T20:23:48.524Z",
+  "generatedAt": "2026-05-04T15:28:01.803Z",
   "entries": [
     {
       "slug": "randols",
@@ -269,6 +269,39 @@
       "closedAt": "2026-04-26",
       "matchNames": [
         "Shucks! (Broussard)"
+      ]
+    },
+    {
+      "slug": "whole-foods-market-lafayette",
+      "name": "Whole Foods Market",
+      "status": "closed",
+      "reason": "Google Places business_status = CLOSED_PERMANENTLY (auto-detected 2026-05-04)",
+      "source": "google-verify",
+      "closedAt": "2026-05-04",
+      "matchNames": [
+        "Whole Foods Market"
+      ]
+    },
+    {
+      "slug": "blue-iguana-eunice-eunice",
+      "name": "Blue Iguana Eunice",
+      "status": "closed",
+      "reason": "Google Places business_status = CLOSED_PERMANENTLY (auto-detected 2026-05-04)",
+      "source": "google-verify",
+      "closedAt": "2026-05-04",
+      "matchNames": [
+        "Blue Iguana Eunice"
+      ]
+    },
+    {
+      "slug": "arpeggios-lounge-and-event-center",
+      "name": "Arpeggios Lounge & Event Center",
+      "status": "closed",
+      "reason": "Google Places business_status = CLOSED_PERMANENTLY (auto-detected 2026-05-04)",
+      "source": "google-verify",
+      "closedAt": "2026-05-04",
+      "matchNames": [
+        "Arpeggios Lounge & Event Center"
       ]
     }
   ]

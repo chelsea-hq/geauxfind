@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-04-27T15:05:31.771Z",
-  "count": 37,
+  "generatedAt": "2026-05-04T15:09:01.800Z",
+  "count": 39,
   "records": [
     {
       "title": "Skip navigation",
@@ -95,6 +95,16 @@
     {
       "title": "Weather",
       "url": "https://www.lafayettetravel.com/plan/weather/",
+      "source": "www.lafayettetravel.com"
+    },
+    {
+      "title": "Meat Markets in Lafayette",
+      "url": "https://www.lafayettetravel.com/blog/stories/post/meat-markets-in-lafayette/",
+      "source": "www.lafayettetravel.com"
+    },
+    {
+      "title": "Best Happy Hours and Affordable Eats in Lafayette",
+      "url": "https://www.lafayettetravel.com/blog/stories/post/best-happy-hours-and-affordable-eats-in-lafayette/",
       "source": "www.lafayettetravel.com"
     },
     {
