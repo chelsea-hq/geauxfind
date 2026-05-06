@@ -6,7 +6,7 @@
     "quickStats": "18 Spots • $5-10/lb • March-May Peak"
   },
   "priceTracker": {
-    "currentRange": "$3.49 - $7.99/lb boiled",
+    "currentRange": "$3.48 - $6.33/lb boiled",
     "trend": "Prices are dropping! Down from $10+ in January",
     "bestDealTip": "Best deals: Buy direct from farm drive-thrus",
     "proTip": "Most places don't start boiling until 4-5pm — call ahead for lunch",
@@ -18,7 +18,7 @@
       "Crawfish Acadiana",
       "Crawfish Time"
     ],
-    "lastUpdated": "2026-05-05T11:57:33.940Z"
+    "lastUpdated": "2026-05-06T12:25:27.228Z"
   },
   "seasonOutlook": [
     "2026 season is \"looking good\" per LSU AgCenter (Todd Fontenot, crawfish extension agent)",
@@ -317,5 +317,201 @@
       "website": null
     }
   ],
-  "extraSpots": []
+  "extraSpots": [
+    {
+      "name": "Super 1 Foods",
+      "address": "2240 Ambassador Caffery Pkwy",
+      "city": "Lafayette",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $3.48/lb • Live $1.89/lb • Boiled size: Medium • Live size: Medium • Rating: 0/5",
+      "pricePerLbEstimate": 3.48,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-735-7799",
+      "rating": 0
+    },
+    {
+      "name": "Rouses Market #45",
+      "address": "601 Bertrand Drive",
+      "city": "Lafayette",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $3.99/lb • Live $1.99/lb • Boiled size: Large • Live size: Large • Rating: 5/5",
+      "pricePerLbEstimate": 3.99,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-889-0045",
+      "rating": 5
+    },
+    {
+      "name": "Rouses Market #48",
+      "address": "6136 Johnston St.",
+      "city": "Lafayette",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $3.99/lb • Live $1.99/lb • Boiled size: Large • Live size: Large • Rating: 0/5",
+      "pricePerLbEstimate": 3.99,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-889-0040",
+      "rating": 0
+    },
+    {
+      "name": "Rouses Market #84",
+      "address": "1810 Camellia Blvd.",
+      "city": "Lafayette",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $3.99/lb • Live $1.99/lb • Boiled size: Large • Live size: Large • Rating: 4/5",
+      "pricePerLbEstimate": 3.99,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-889-0015",
+      "rating": 4
+    },
+    {
+      "name": "The Boozy & Boiling Barn",
+      "address": "6830 Ambassador Caffery Pkwy.",
+      "city": "Lafayette",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $4.50/lb • Boiled size: Small • Live size: Small • Rating: 3/5",
+      "pricePerLbEstimate": 4.5,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-330-4200",
+      "rating": 3
+    },
+    {
+      "name": "The Crawfish Pot",
+      "address": "817 Foreman Drive",
+      "city": "Lafayette",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $5.49/lb • Live $3.48/lb • Boiled size: Medium • Live size: Medium • Rating: 5/5",
+      "pricePerLbEstimate": 5.49,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-981-1114",
+      "rating": 5
+    },
+    {
+      "name": "Cooney’s Crawfish",
+      "address": "4535 Moss Street",
+      "city": "Lafayette",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $5.50/lb • Live $3.00/lb • Boiled size: Medium • Live size: Medium • Rating: 0/5",
+      "pricePerLbEstimate": 5.5,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-261-1515",
+      "rating": 0
+    },
+    {
+      "name": "Crawfish Spot",
+      "address": "1899 W Pinhook Rd.",
+      "city": "Lafayette",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $6.00/lb • Live $4.00/lb • Boiled size: Medium • Rating: 5/5",
+      "pricePerLbEstimate": 6,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-237-8533",
+      "rating": 5
+    },
+    {
+      "name": "Don's Seafood",
+      "address": "4309 Johnston St, Lafayette, LA 70503",
+      "city": "Lafayette",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $6.00/lb • Boiled size: Large • Rating: 0/5",
+      "pricePerLbEstimate": 6,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-981-1159",
+      "rating": 0
+    },
+    {
+      "name": "Crawfish Time",
+      "address": "320 Ridge Rd.",
+      "city": "Lafayette",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $6.33/lb • Live $2.94/lb • Boiled size: Medium • Live size: Medium • Rating: 3/5",
+      "pricePerLbEstimate": 6.33,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-216-9955",
+      "rating": 3
+    },
+    {
+      "name": "Super 1 Foods",
+      "address": "215 W Willow St.",
+      "city": "Lafayette",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Live $1.99/lb • Live size: Medium • Rating: 0/5",
+      "pricePerLbEstimate": null,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-572-9340",
+      "rating": 0
+    },
+    {
+      "name": "Super 1 Foods",
+      "address": "3747 Ambassador Caffery Pkwy",
+      "city": "Lafayette",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Rating: 0/5",
+      "pricePerLbEstimate": null,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-988-2278",
+      "rating": 0
+    },
+    {
+      "name": "T-Bob's",
+      "address": "302 S St. Antoine St.",
+      "city": "Lafayette",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled size: Medium • Live size: Medium • Rating: 0/5",
+      "pricePerLbEstimate": null,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-233-9302",
+      "rating": 0
+    }
+  ]
 }
