@@ -18,7 +18,7 @@
       "Crawfish Acadiana",
       "Crawfish Time"
     ],
-    "lastUpdated": "2026-05-13T11:44:01.007Z"
+    "lastUpdated": "2026-05-14T11:35:18.114Z"
   },
   "seasonOutlook": [
     "2026 season is \"looking good\" per LSU AgCenter (Todd Fontenot, crawfish extension agent)",
@@ -409,81 +409,6 @@
       "rating": 0
     },
     {
-      "name": "Rouses Market #23",
-      "address": "2900 E. Milton Ave.",
-      "city": "Youngsville",
-      "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $3.99/lb • Live $1.99/lb • Boiled size: Large • Live size: Large • Rating: 1/5",
-      "pricePerLbEstimate": 3.99,
-      "description": "Listed via The Crawfish App.",
-      "tags": [
-        "Price Tracker"
-      ],
-      "website": null,
-      "phone": "337-362-2814",
-      "rating": 1
-    },
-    {
-      "name": "Rouses Market #45",
-      "address": "601 Bertrand Drive",
-      "city": "Lafayette",
-      "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $3.99/lb • Live $1.99/lb • Boiled size: Large • Live size: Large • Rating: 5/5",
-      "pricePerLbEstimate": 3.99,
-      "description": "Listed via The Crawfish App.",
-      "tags": [
-        "Price Tracker"
-      ],
-      "website": null,
-      "phone": "337-889-0045",
-      "rating": 5
-    },
-    {
-      "name": "Rouses Market #48",
-      "address": "6136 Johnston St.",
-      "city": "Lafayette",
-      "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $3.99/lb • Live $1.99/lb • Boiled size: Large • Live size: Large • Rating: 0/5",
-      "pricePerLbEstimate": 3.99,
-      "description": "Listed via The Crawfish App.",
-      "tags": [
-        "Price Tracker"
-      ],
-      "website": null,
-      "phone": "337-889-0040",
-      "rating": 0
-    },
-    {
-      "name": "Rouses Market #74",
-      "address": "900 East Admiral Doyle Dr.",
-      "city": "New Iberia",
-      "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $3.99/lb • Live $1.99/lb • Boiled size: Large • Live size: Large • Rating: 5/5",
-      "pricePerLbEstimate": 3.99,
-      "description": "Listed via The Crawfish App.",
-      "tags": [
-        "Price Tracker"
-      ],
-      "website": null,
-      "phone": "337-551-5002",
-      "rating": 5
-    },
-    {
-      "name": "Rouses Market #84",
-      "address": "1810 Camellia Blvd.",
-      "city": "Lafayette",
-      "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $3.99/lb • Live $1.99/lb • Boiled size: Large • Live size: Large • Rating: 4/5",
-      "pricePerLbEstimate": 3.99,
-      "description": "Listed via The Crawfish App.",
-      "tags": [
-        "Price Tracker"
-      ],
-      "website": null,
-      "phone": "337-889-0015",
-      "rating": 4
-    },
-    {
       "name": "The Boozy & Boiling Barn",
       "address": "6830 Ambassador Caffery Pkwy.",
       "city": "Lafayette",
@@ -662,6 +587,81 @@
       "website": null,
       "phone": "337-514-3231",
       "rating": 0
+    },
+    {
+      "name": "Rouses Market #23",
+      "address": "2900 E. Milton Ave.",
+      "city": "Youngsville",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $4.99/lb • Live $3.59/lb • Boiled size: Large • Live size: Large • Rating: 1/5",
+      "pricePerLbEstimate": 4.99,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-362-2814",
+      "rating": 1
+    },
+    {
+      "name": "Rouses Market #45",
+      "address": "601 Bertrand Drive",
+      "city": "Lafayette",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $4.99/lb • Live $3.59/lb • Boiled size: Large • Live size: Large • Rating: 5/5",
+      "pricePerLbEstimate": 4.99,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-889-0045",
+      "rating": 5
+    },
+    {
+      "name": "Rouses Market #48",
+      "address": "6136 Johnston St.",
+      "city": "Lafayette",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $4.99/lb • Live $3.59/lb • Boiled size: Large • Live size: Large • Rating: 0/5",
+      "pricePerLbEstimate": 4.99,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-889-0040",
+      "rating": 0
+    },
+    {
+      "name": "Rouses Market #74",
+      "address": "900 East Admiral Doyle Dr.",
+      "city": "New Iberia",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $4.99/lb • Live $3.59/lb • Boiled size: Large • Live size: Large • Rating: 5/5",
+      "pricePerLbEstimate": 4.99,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-551-5002",
+      "rating": 5
+    },
+    {
+      "name": "Rouses Market #84",
+      "address": "1810 Camellia Blvd.",
+      "city": "Lafayette",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $4.99/lb • Live $3.59/lb • Boiled size: Large • Live size: Large • Rating: 4/5",
+      "pricePerLbEstimate": 4.99,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-889-0015",
+      "rating": 4
     },
     {
       "name": "Fremin's Magic Dust Crawfish Express",
