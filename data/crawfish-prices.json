@@ -1,7 +1,7 @@
 {
   "source": "The Crawfish App",
   "sourceLink": "https://www.thecrawfishapp.com/VendorSearchUi",
-  "lastUpdated": "2026-05-14T11:35:18.114Z",
+  "lastUpdated": "2026-05-15T11:39:00.808Z",
   "cities": [
     {
       "city": "Lafayette",
@@ -87,7 +87,7 @@
       "rating": 5,
       "phone": "337-893-5436",
       "hours": null,
-      "updatedAt": "05/06/2026 05:36 PM CST"
+      "updatedAt": "05/14/2026 08:57 PM CST"
     },
     {
       "name": "Fatboyz Crawfish Company",
@@ -102,7 +102,7 @@
       "rating": 4,
       "phone": "337-893-9029",
       "hours": null,
-      "updatedAt": "05/05/2026 07:50 AM CST"
+      "updatedAt": "05/15/2026 12:08 AM CST"
     },
     {
       "name": "Jo Mama’s Crawfish",
@@ -213,16 +213,16 @@
       "name": "Crazy Bout Crawfish",
       "address": "1905 Rees St.",
       "city": "Breaux Bridge",
-      "boiledPricePerLb": 7.99,
-      "boiledPriceText": "$7.99/1LB",
-      "livePricePerLb": 5.5,
-      "livePriceText": "$5.50/1LB",
+      "boiledPricePerLb": 6,
+      "boiledPriceText": "$6.00/1LB",
+      "livePricePerLb": 4,
+      "livePriceText": "$4.00/1LB",
       "boiledSize": "Medium",
       "liveSize": "Large",
       "rating": 5,
       "phone": "337-332-3071",
       "hours": null,
-      "updatedAt": "04/30/2026 08:12 PM CST"
+      "updatedAt": "05/14/2026 11:00 PM CST"
     },
     {
       "name": "Randol's",
@@ -258,16 +258,16 @@
       "name": "Broussard’s Boiling Pot",
       "address": "158 Heritage Pkwy.",
       "city": "Broussard",
-      "boiledPricePerLb": 5.49,
-      "boiledPriceText": "$5.49/1LB",
-      "livePricePerLb": 3.49,
-      "livePriceText": "$3.49/1LB",
+      "boiledPricePerLb": null,
+      "boiledPriceText": "PERMANENTLY CLOSED/1LB",
+      "livePricePerLb": null,
+      "livePriceText": "PERMANENTLY CLOSED/1LB",
       "boiledSize": "Large",
       "liveSize": "Large",
       "rating": 5,
       "phone": "337-573-4179",
       "hours": null,
-      "updatedAt": "04/30/2026 09:52 PM CST"
+      "updatedAt": "05/14/2026 11:24 PM CST"
     },
     {
       "name": "Dat's Good Crawfish & More",
@@ -318,8 +318,8 @@
       "name": "Young's Sports Grill",
       "address": "305 E Main Street",
       "city": "Broussard",
-      "boiledPricePerLb": 7.33,
-      "boiledPriceText": "$7.33/1LB",
+      "boiledPricePerLb": 6,
+      "boiledPriceText": "$6.00/1LB",
       "livePricePerLb": null,
       "livePriceText": "Unavailable/1LB",
       "boiledSize": "Large",
@@ -327,7 +327,7 @@
       "rating": 5,
       "phone": "337-330-2900",
       "hours": null,
-      "updatedAt": "05/05/2026 11:20 AM CST"
+      "updatedAt": "05/15/2026 12:09 AM CST"
     },
     {
       "name": "Carencro Seafood Corner",
@@ -357,7 +357,7 @@
       "rating": 5,
       "phone": "337-227-8009",
       "hours": null,
-      "updatedAt": "05/06/2026 05:40 PM CST"
+      "updatedAt": "05/15/2026 05:58 AM CST"
     },
     {
       "name": "The Boil Spot",
@@ -402,7 +402,7 @@
       "rating": 0,
       "phone": "337-783-6608",
       "hours": null,
-      "updatedAt": "05/06/2026 05:13 PM CST"
+      "updatedAt": "05/15/2026 12:06 AM CST"
     },
     {
       "name": "Korky's Food Mart",
@@ -468,8 +468,8 @@
       "name": "Pat's Fishermans Wharf",
       "address": "1008 Henderson Levee Rd.",
       "city": "Henderson",
-      "boiledPricePerLb": 7,
-      "boiledPriceText": "$7.00/1LB",
+      "boiledPricePerLb": 6.5,
+      "boiledPriceText": "$6.50/1LB",
       "livePricePerLb": null,
       "livePriceText": "Not sold/1LB",
       "boiledSize": null,
@@ -477,7 +477,7 @@
       "rating": 5,
       "phone": "337-228-7512",
       "hours": null,
-      "updatedAt": "05/06/2026 05:09 PM CST"
+      "updatedAt": "05/15/2026 12:02 AM CST"
     },
     {
       "name": "Cooney’s Crawfish",
@@ -498,16 +498,16 @@
       "name": "Crawfish Jake",
       "address": "106 Roselawn Blvd.",
       "city": "Lafayette",
-      "boiledPricePerLb": 5,
-      "boiledPriceText": "$5.00/1LB",
+      "boiledPricePerLb": null,
+      "boiledPriceText": "CLOSED FOR SEASON/1LB",
       "livePricePerLb": null,
-      "livePriceText": "Unavailable/1LB",
+      "livePriceText": "CLOSED FOR SEASON/1LB",
       "boiledSize": "Medium",
       "liveSize": "Medium",
       "rating": 5,
       "phone": "337-450-9400",
       "hours": null,
-      "updatedAt": "04/30/2026 09:14 PM CST"
+      "updatedAt": "05/14/2026 11:12 PM CST"
     },
     {
       "name": "Crawfish Spot",
@@ -558,8 +558,8 @@
       "name": "Don's Seafood",
       "address": "4309 Johnston St, Lafayette, LA 70503",
       "city": "Lafayette",
-      "boiledPricePerLb": 7,
-      "boiledPriceText": "$7.00/1LB",
+      "boiledPricePerLb": 5,
+      "boiledPriceText": "$5.00/1LB",
       "livePricePerLb": null,
       "livePriceText": "Not Sold/1LB",
       "boiledSize": "Large",
@@ -567,7 +567,7 @@
       "rating": 0,
       "phone": "337-981-1159",
       "hours": null,
-      "updatedAt": "05/08/2026 10:01 AM CST"
+      "updatedAt": "05/14/2026 09:14 AM CST"
     },
     {
       "name": "JJ’s Boiling Shack",
@@ -582,7 +582,7 @@
       "rating": 5,
       "phone": "337-504-4613",
       "hours": null,
-      "updatedAt": "04/30/2026 08:30 PM CST"
+      "updatedAt": "05/14/2026 11:17 PM CST"
     },
     {
       "name": "Lagneaux's",
@@ -717,7 +717,7 @@
       "rating": 0,
       "phone": "337-233-9302",
       "hours": null,
-      "updatedAt": "04/30/2026 07:42 PM CST"
+      "updatedAt": "05/14/2026 10:37 PM CST"
     },
     {
       "name": "The Boozy & Boiling Barn",
@@ -762,7 +762,7 @@
       "rating": 5,
       "phone": "337-365-6657",
       "hours": null,
-      "updatedAt": "05/07/2026 09:58 PM CST"
+      "updatedAt": "05/14/2026 10:34 AM CST"
     },
     {
       "name": "Jane's Seafood",
@@ -777,7 +777,7 @@
       "rating": 5,
       "phone": "337-365-5412",
       "hours": null,
-      "updatedAt": "05/01/2026 12:00 AM CST"
+      "updatedAt": "05/15/2026 12:15 AM CST"
     },
     {
       "name": "R&M Boiling Point",
@@ -837,7 +837,7 @@
       "rating": 0,
       "phone": "337-364-1370",
       "hours": null,
-      "updatedAt": "04/30/2026 09:20 AM CST"
+      "updatedAt": "05/14/2026 11:45 PM CST"
     },
     {
       "name": "Bonanza Boilers",
@@ -852,14 +852,14 @@
       "rating": 5,
       "phone": "337-692-2242",
       "hours": null,
-      "updatedAt": "04/30/2026 09:49 PM CST"
+      "updatedAt": "05/14/2026 11:24 PM CST"
     },
     {
       "name": "Crawfish Corner",
       "address": "529 South Union St.",
       "city": "Opelousas",
-      "boiledPricePerLb": 5.08,
-      "boiledPriceText": "$5.08/1LB",
+      "boiledPricePerLb": 5,
+      "boiledPriceText": "$5.00/1LB",
       "livePricePerLb": 2.75,
       "livePriceText": "$2.75/1LB",
       "boiledSize": "Medium",
@@ -867,14 +867,14 @@
       "rating": 5,
       "phone": "337-407-2529",
       "hours": null,
-      "updatedAt": "05/06/2026 10:14 PM CST"
+      "updatedAt": "05/14/2026 07:44 PM CST"
     },
     {
       "name": "Crawfish House",
       "address": "2004 West Landry St.",
       "city": "Opelousas",
-      "boiledPricePerLb": 6.49,
-      "boiledPriceText": "$6.49/1LB",
+      "boiledPricePerLb": 5.99,
+      "boiledPriceText": "$5.99/1LB",
       "livePricePerLb": null,
       "livePriceText": "Unavailable/1LB",
       "boiledSize": "Medium",
@@ -882,7 +882,7 @@
       "rating": 2,
       "phone": "337-942-1175",
       "hours": null,
-      "updatedAt": "04/30/2026 08:07 PM CST"
+      "updatedAt": "05/14/2026 10:55 PM CST"
     },
     {
       "name": "Crawfish House and Grill",
@@ -987,7 +987,7 @@
       "rating": 5,
       "phone": "337-873-3619",
       "hours": null,
-      "updatedAt": "05/06/2026 02:15 PM CST"
+      "updatedAt": "05/14/2026 11:57 PM CST"
     },
     {
       "name": "Meche's Crawfish",
@@ -1002,22 +1002,22 @@
       "rating": 0,
       "phone": "337-514-3231",
       "hours": null,
-      "updatedAt": "05/06/2026 10:28 PM CST"
+      "updatedAt": "05/14/2026 07:49 PM CST"
     },
     {
       "name": "Cody’s Crawfish Shop",
       "address": "505 Apollo Rd.",
       "city": "Scott",
-      "boiledPricePerLb": 5.99,
-      "boiledPriceText": "$5.99/1LB",
-      "livePricePerLb": 2.99,
-      "livePriceText": "$2.99/1LB",
+      "boiledPricePerLb": 6.99,
+      "boiledPriceText": "$6.99/1LB",
+      "livePricePerLb": 3.49,
+      "livePriceText": "$3.49/1LB",
       "boiledSize": "Large",
       "liveSize": "Large",
       "rating": 3,
       "phone": "337-456-3003",
       "hours": null,
-      "updatedAt": "04/30/2026 08:25 PM CST"
+      "updatedAt": "05/14/2026 11:06 PM CST"
     },
     {
       "name": "Granddaddy's Crawfish",
@@ -1032,7 +1032,7 @@
       "rating": 5,
       "phone": "337-265-3770",
       "hours": null,
-      "updatedAt": "04/30/2026 09:55 PM CST"
+      "updatedAt": "05/14/2026 11:25 PM CST"
     },
     {
       "name": "Super 1 Foods",

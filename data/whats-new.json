@@ -1,16 +1,80 @@
 [
   {
-    "id": "iconic-louisiana-dish-earns-food-network-accolades",
-    "title": "Iconic Louisiana Dish Earns Food Network Accolades",
+    "id": "three-big-events-are-happening-in-downtown-lafayette-this-saturday",
+    "title": "Three Big Events Are Happening in Downtown Lafayette This Saturday",
     "source": "KPEL 96.5",
     "sourceUrl": "https://kpel965.com/",
-    "url": "https://kpel965.com/ixp/33/p/louisiana-nostalgic-dishes/",
-    "excerpt": "Local update from Iconic Louisiana Dish Earns Food Network Accolades.",
-    "date": "2026-05-14T11:35:51.715Z",
-    "imageUrl": "https://townsquare.media/site/33/files/2026/05/attachment-woman-eating-louis-hansel-via-unsplash.JPG?w=980&q=75",
+    "url": "https://kpel965.com/ixp/33/p/downtown-lafayette-events-weekend/",
+    "excerpt": "Three Big Events Are Happening in Downtown Lafayette This Saturday",
+    "date": "2026-05-15T11:39:17.226Z",
+    "imageUrl": "https://townsquare.media/site/33/files/2025/08/attachment-downtown-lafayete.jpg?w=300&q=75",
+    "category": "Event",
+    "tags": [
+      "event",
+      "downtown",
+      "lafayette"
+    ],
+    "city": "Lafayette"
+  },
+  {
+    "id": "new-community-fridge-opens-in-opelousas",
+    "title": "New Community Fridge Opens in Opelousas",
+    "source": "KPEL 96.5",
+    "sourceUrl": "https://kpel965.com/",
+    "url": "https://kpel965.com/ixp/29/p/opelousas-giving-fridge-pantry/",
+    "excerpt": "Local update from New Community Fridge Opens in Opelousas.",
+    "date": "2026-05-15T11:39:17.226Z",
+    "imageUrl": "https://townsquare.media/site/29/files/2026/05/attachment-the-giving-fridge-in-opelousas-the-giving-fridge.jpg?w=980&q=75",
+    "category": "Food News",
+    "tags": [
+      "food news",
+      "new"
+    ]
+  },
+  {
+    "id": "mall-in-louisiana-is-for-sale-on-open-market",
+    "title": "Mall in Louisiana Is For Sale on Open Market",
+    "source": "KPEL 96.5",
+    "sourceUrl": "https://kpel965.com/",
+    "url": "https://kpel965.com/ixp/29/p/mall-for-sale/",
+    "excerpt": "Local update from Mall in Louisiana Is For Sale on Open Market.",
+    "date": "2026-05-15T11:39:17.226Z",
+    "imageUrl": "https://townsquare.media/site/29/files/2026/05/attachment-screen-shot-2026-05-14-at-6-16-58-am.jpg?w=980&q=75",
     "category": "Food News",
     "tags": [
       "food news"
+    ]
+  },
+  {
+    "id": "three-big-events-are-happening-in-downtown-lafayette-this-saturday",
+    "title": "Three Big Events Are Happening in Downtown Lafayette This Saturday",
+    "source": "973 The Dawg",
+    "sourceUrl": "https://973thedawg.com/categories/lafayette-news/",
+    "url": "https://973thedawg.com/downtown-lafayette-events-weekend/",
+    "excerpt": "Local update from Three Big Events Are Happening in Downtown Lafayette This Saturday.",
+    "date": "2026-05-15T11:39:16.905Z",
+    "imageUrl": "https://townsquare.media/site/33/files/2025/08/attachment-downtown-lafayete.jpg?w=980&q=75",
+    "category": "Event",
+    "tags": [
+      "event",
+      "downtown",
+      "lafayette"
+    ],
+    "city": "Lafayette"
+  },
+  {
+    "id": "new-community-fridge-opens-in-opelousas",
+    "title": "New Community Fridge Opens in Opelousas",
+    "source": "973 The Dawg",
+    "sourceUrl": "https://973thedawg.com/categories/lafayette-news/",
+    "url": "https://973thedawg.com/ixp/29/p/opelousas-giving-fridge-pantry/",
+    "excerpt": "Local update from New Community Fridge Opens in Opelousas.",
+    "date": "2026-05-15T11:39:16.905Z",
+    "imageUrl": "https://townsquare.media/site/29/files/2026/05/attachment-the-giving-fridge-in-opelousas-the-giving-fridge.jpg?w=980&q=75",
+    "category": "Food News",
+    "tags": [
+      "food news",
+      "new"
     ]
   },
   {
@@ -20,26 +84,11 @@
     "sourceUrl": "https://973thedawg.com/categories/lafayette-news/",
     "url": "https://973thedawg.com/ixp/36/p/st-landry-woman-shooting-arrest/",
     "excerpt": "Local update from Louisiana Woman Accused of Opening Fire Near Krotz Springs.",
-    "date": "2026-05-14T11:35:51.513Z",
+    "date": "2026-05-15T11:39:16.905Z",
     "imageUrl": "https://townsquare.media/site/36/files/2026/05/attachment-raneill-cortez-st-landry-parish-sheriff-s-office.jpg?w=980&q=75",
     "category": "Business Opening",
     "tags": [
       "business opening",
-      "opening"
-    ]
-  },
-  {
-    "id": "business-roundup-grand-opening-two-restaurant-closures",
-    "title": "Business Roundup: Grand Opening + Two Restaurant Closures",
-    "source": "973 The Dawg",
-    "sourceUrl": "https://973thedawg.com/categories/lafayette-news/",
-    "url": "https://973thedawg.com/acadiana-business-updates/",
-    "excerpt": "Local update from Business Roundup: Grand Opening + Two Restaurant Closures.",
-    "date": "2026-05-14T11:35:51.513Z",
-    "imageUrl": "https://townsquare.media/site/33/files/2026/05/attachment-23370_17802cc478f5066.jpeg?w=980&q=75",
-    "category": "New Restaurant",
-    "tags": [
-      "new restaurant",
       "opening"
     ]
   },
@@ -50,7 +99,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/new-second-7-brew-coffee-drive-thru-coming-soon-near-sams-on-ambassador-in-lafayette-la/",
     "excerpt": "Local update from New, Second 7 Brew Coffee Drive-thru Coming Soon Near Sam’s on Ambassador in Lafayette, LA.",
-    "date": "2026-05-14T11:35:28.930Z",
+    "date": "2026-05-15T11:39:15.207Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/04/7fabd6cf-bab7-4bdc-99c3-1d4929040c74-360x220.png",
     "category": "Coming Soon",
     "tags": [
@@ -62,13 +111,29 @@
     "city": "Lafayette"
   },
   {
+    "id": "ccs-coffee-house-coming-soon-to-former-pjs-coffee-space-in-scotts-west-village",
+    "title": "CC’s Coffee House Coming Soon to Former PJ’s Coffee Space in Scott’s West Village",
+    "source": "Developing Lafayette",
+    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
+    "url": "https://developinglafayette.com/wp/ccs-coffee-house-coming-soon-to-former-pjs-coffee-space-in-scotts-west-village/",
+    "excerpt": "Local update from CC’s Coffee House Coming Soon to Former PJ’s Coffee Space in Scott’s West Village.",
+    "date": "2026-05-15T11:39:15.194Z",
+    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/04/c130fde8-e1f2-41ef-bf8a-fbb8df364300-2000x1200.jpg",
+    "category": "Coming Soon",
+    "tags": [
+      "coming soon",
+      "coffee"
+    ],
+    "city": "Scott"
+  },
+  {
     "id": "new-standalone-ochsner-emergency-center-coming-soon-to-broussard-la",
     "title": "New Standalone Ochsner Emergency Center Coming Soon to Broussard, LA",
     "source": "Developing Lafayette",
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/new-standalone-ochsner-emergency-center-coming-soon-to-broussard-la/",
     "excerpt": "Local update from New Standalone Ochsner Emergency Center Coming Soon to Broussard, LA.",
-    "date": "2026-05-14T11:35:27.845Z",
+    "date": "2026-05-15T11:39:15.194Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/04/olg-broussard-offsite-ec-2000x1200.jpg",
     "category": "Coming Soon",
     "tags": [
@@ -84,7 +149,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/beaubassin-farm-gardens-a-new-bb-and-event-venue-in-sunset-la/",
     "excerpt": "Local update from BeauBassin Farm & Gardens, A New B&B and Event Venue in Sunset, LA.",
-    "date": "2026-05-14T11:35:27.844Z",
+    "date": "2026-05-15T11:39:15.193Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/05/0aadf01b-889e-4c8b-ad28-c78114e87ed7.jpg",
     "category": "Event",
     "tags": [
@@ -99,7 +164,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/phin-de-louisiane-a-new-vietnamese-inspired-coffee-shop-coming-soon-to-youngsville-la/",
     "excerpt": "Local update from Phin de Louisiane, A New Vietnamese-Inspired Coffee Shop Coming Soon to Youngsville, LA.",
-    "date": "2026-05-14T11:35:27.844Z",
+    "date": "2026-05-15T11:39:15.193Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/05/c0deceb4-8e27-4c51-b523-3bd8187bbb2d-2000x1200.jpg",
     "category": "Coming Soon",
     "tags": [
@@ -110,20 +175,36 @@
     "city": "Youngsville"
   },
   {
-    "id": "ccs-coffee-house-coming-soon-to-former-pjs-coffee-space-in-scotts-west-village",
-    "title": "CC’s Coffee House Coming Soon to Former PJ’s Coffee Space in Scott’s West Village",
+    "id": "all-day-a-new-all-day-restaurant-is-coming-soon-to-the-former-solou-space-in-laf",
+    "title": "All Day, A New “all-day” Restaurant is Coming Soon to the Former SoLou space in Lafayette, LA",
     "source": "Developing Lafayette",
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
-    "url": "https://developinglafayette.com/wp/ccs-coffee-house-coming-soon-to-former-pjs-coffee-space-in-scotts-west-village/",
-    "excerpt": "Local update from CC’s Coffee House Coming Soon to Former PJ’s Coffee Space in Scott’s West Village.",
-    "date": "2026-05-14T11:35:27.844Z",
-    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/04/c130fde8-e1f2-41ef-bf8a-fbb8df364300-2000x1200.jpg",
+    "url": "https://developinglafayette.com/wp/all-day-a-new-all-day-restaurant-is-coming-soon-to-the-former-solou-space-in-lafayette-la/",
+    "excerpt": "Local update from All Day, A New “all-day” Restaurant is Coming Soon to the Former SoLou space in Lafayette, LA.",
+    "date": "2026-05-15T11:39:14.354Z",
+    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/04/14bcd144-6ceb-49e3-b327-39a4a505bcc0-2000x1200.jpg",
     "category": "Coming Soon",
     "tags": [
       "coming soon",
-      "coffee"
+      "new",
+      "lafayette"
     ],
-    "city": "Scott"
+    "city": "Lafayette"
+  },
+  {
+    "id": "tropical-smoothie-cafe-now-open-in-the-former-zorbas-space-in-youngsville-la",
+    "title": "Tropical Smoothie Cafe Now Open in the Former Zorba’s Space in Youngsville, LA",
+    "source": "Developing Lafayette",
+    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
+    "url": "https://developinglafayette.com/wp/tropical-smoothie-cafe-now-open-in-the-former-zorbas-space-in-youngsville-la/",
+    "excerpt": "Local update from Tropical Smoothie Cafe Now Open in the Former Zorba’s Space in Youngsville, LA.",
+    "date": "2026-05-15T11:39:14.354Z",
+    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/04/f94ed43d-6822-47c5-90c2-55632c08c104-2000x1200.jpg",
+    "category": "New Restaurant",
+    "tags": [
+      "new restaurant"
+    ],
+    "city": "Youngsville"
   },
   {
     "id": "dunkin-coming-soon-to-broussard-la-inside-walmart-as-store-begins-renovations",
@@ -132,7 +213,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/dunkin-coming-soon-to-broussard-la-inside-walmart-as-store-begins-renovations/",
     "excerpt": "Local update from Dunkin’ Coming Soon to Broussard, LA Inside Walmart as Store Begins Renovations.",
-    "date": "2026-05-14T11:35:27.010Z",
+    "date": "2026-05-15T11:39:14.354Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/04/3f87dcd8-388c-4d61-b672-05a454dde9f1.png",
     "category": "Coming Soon",
     "tags": [
@@ -147,7 +228,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/agave-mexican-grill-cantina-reopens-downtown-lafayette-following-renovations/",
     "excerpt": "Local update from Agave Mexican Grill & Cantina Reopens Downtown Lafayette Following Renovations.",
-    "date": "2026-05-14T11:35:27.010Z",
+    "date": "2026-05-15T11:39:14.354Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/04/0bc5a2b5-3d91-4085-b597-163903a405bd-2000x1200.jpg",
     "category": "Food News",
     "tags": [
@@ -165,7 +246,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/kings-seafood-coming-soon-to-broussard-site-formerly-planned-for-coterie/",
     "excerpt": "Local update from King’s Seafood Coming Soon to Broussard Site Formerly Planned for Coterie.",
-    "date": "2026-05-14T11:35:27.010Z",
+    "date": "2026-05-15T11:39:14.354Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/03/90d9c1a4-8068-47c0-be3e-4cb91bdb9d97-2000x1200.jpg",
     "category": "Coming Soon",
     "tags": [
@@ -181,7 +262,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/empire-wingz-opening-saturday-march-28th/",
     "excerpt": "Local update from Empire Wingz in Lafayette, LA Opening Saturday, March 28th.",
-    "date": "2026-05-14T11:35:27.010Z",
+    "date": "2026-05-15T11:39:14.354Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/03/91883576-b8ab-4f83-8295-b613b5655a4c-2000x1200.jpg",
     "category": "Business Opening",
     "tags": [
@@ -198,7 +279,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/large-retail-restaurant-development-under-construction-in-scott-la-at-destination-pointe/",
     "excerpt": "Local update from Large Retail/Restaurant Development Under Construction in Scott, LA at Destination Pointe.",
-    "date": "2026-05-14T11:35:27.010Z",
+    "date": "2026-05-15T11:39:14.354Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/03/35471aaf-e264-479c-be34-c7684db3ffe3-2000x1200.jpg",
     "category": "New Restaurant",
     "tags": [
@@ -207,45 +288,13 @@
     "city": "Scott"
   },
   {
-    "id": "all-day-a-new-all-day-restaurant-is-coming-soon-to-the-former-solou-space-in-laf",
-    "title": "All Day, A New “all-day” Restaurant is Coming Soon to the Former SoLou space in Lafayette, LA",
-    "source": "Developing Lafayette",
-    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
-    "url": "https://developinglafayette.com/wp/all-day-a-new-all-day-restaurant-is-coming-soon-to-the-former-solou-space-in-lafayette-la/",
-    "excerpt": "Local update from All Day, A New “all-day” Restaurant is Coming Soon to the Former SoLou space in Lafayette, LA.",
-    "date": "2026-05-14T11:35:27.009Z",
-    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/04/14bcd144-6ceb-49e3-b327-39a4a505bcc0-2000x1200.jpg",
-    "category": "Coming Soon",
-    "tags": [
-      "coming soon",
-      "new",
-      "lafayette"
-    ],
-    "city": "Lafayette"
-  },
-  {
-    "id": "tropical-smoothie-cafe-now-open-in-the-former-zorbas-space-in-youngsville-la",
-    "title": "Tropical Smoothie Cafe Now Open in the Former Zorba’s Space in Youngsville, LA",
-    "source": "Developing Lafayette",
-    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
-    "url": "https://developinglafayette.com/wp/tropical-smoothie-cafe-now-open-in-the-former-zorbas-space-in-youngsville-la/",
-    "excerpt": "Local update from Tropical Smoothie Cafe Now Open in the Former Zorba’s Space in Youngsville, LA.",
-    "date": "2026-05-14T11:35:27.009Z",
-    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/04/f94ed43d-6822-47c5-90c2-55632c08c104-2000x1200.jpg",
-    "category": "New Restaurant",
-    "tags": [
-      "new restaurant"
-    ],
-    "city": "Youngsville"
-  },
-  {
     "id": "blazin-hot-chicken-coming-soon-to-the-former-wendys-space-in-broussard-la",
     "title": "Blazin’ Hot Chicken Coming Soon to the Former Wendy’s space in Broussard, LA",
     "source": "Developing Lafayette",
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/blazin-hot-chicken-coming-soon-to-the-former-wendys-space-in-broussard-la/",
     "excerpt": "Blazin’ Hot Chicken, a Louisiana-based Nashville hot chicken concept, is coming soon to the former Wendy’s location at 1240 Albertson",
-    "date": "2026-05-14T11:35:27.007Z",
+    "date": "2026-05-15T11:39:14.352Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/05/19258251-aa98-4761-bde2-869d722b09f5-2000x1200.jpg",
     "category": "Coming Soon",
     "tags": [
