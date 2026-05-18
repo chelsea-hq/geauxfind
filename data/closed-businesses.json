@@ -1,6 +1,6 @@
 {
   "$schema": "Curated list of businesses that have closed or relocated. Anything listed here is filtered out of every list, map, sitemap, and JSON-LD on GeauxFind. Add new entries with {slug, name, status, reason, source, closedAt}. Status: 'closed' | 'temporarily-closed' | 'relocated' | 'unverified'.",
-  "generatedAt": "2026-05-11T16:14:25.291Z",
+  "generatedAt": "2026-05-18T14:31:14.239Z",
   "entries": [
     {
       "slug": "randols",
@@ -335,6 +335,39 @@
       "closedAt": "2026-05-11",
       "matchNames": [
         "Randalls Crawfish llc"
+      ]
+    },
+    {
+      "slug": "nails-by-jada",
+      "name": "Nails by Jada",
+      "status": "closed",
+      "reason": "Google Places business_status = CLOSED_PERMANENTLY (auto-detected 2026-05-18)",
+      "source": "google-verify",
+      "closedAt": "2026-05-18",
+      "matchNames": [
+        "Nails by Jada"
+      ]
+    },
+    {
+      "slug": "wing-boss",
+      "name": "Wing Boss",
+      "status": "closed",
+      "reason": "Google Places business_status = CLOSED_PERMANENTLY (auto-detected 2026-05-18)",
+      "source": "google-verify",
+      "closedAt": "2026-05-18",
+      "matchNames": [
+        "Wing Boss"
+      ]
+    },
+    {
+      "slug": "breaux-bridge-downtown",
+      "name": "Downtown Breaux Bridge Bridgefront",
+      "status": "closed",
+      "reason": "Google Places business_status = CLOSED_PERMANENTLY (auto-detected from guides.json on 2026-05-18)",
+      "source": "google-verify",
+      "closedAt": "2026-05-18",
+      "matchNames": [
+        "Downtown Breaux Bridge Bridgefront"
       ]
     }
   ]
