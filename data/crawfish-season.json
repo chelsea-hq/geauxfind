@@ -18,7 +18,7 @@
       "Crawfish Acadiana",
       "Crawfish Time"
     ],
-    "lastUpdated": "2026-05-19T12:02:10.103Z"
+    "lastUpdated": "2026-05-20T11:58:07.699Z"
   },
   "seasonOutlook": [
     "2026 season is \"looking good\" per LSU AgCenter (Todd Fontenot, crawfish extension agent)",
@@ -394,6 +394,21 @@
       "rating": 0
     },
     {
+      "name": "Pogie’s Boil House",
+      "address": "226 St Nazaire Rd.",
+      "city": "Broussard",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $4.00/lb • Live $2.35/lb • Boiled size: Medium • Live size: Medium • Rating: 5/5",
+      "pricePerLbEstimate": 4,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-236-0662",
+      "rating": 5
+    },
+    {
       "name": "The Boozy & Boiling Barn",
       "address": "6830 Ambassador Caffery Pkwy.",
       "city": "Lafayette",
@@ -452,21 +467,6 @@
       "website": null,
       "phone": "337-573-8669",
       "rating": 4
-    },
-    {
-      "name": "Pogie’s Boil House",
-      "address": "226 St Nazaire Rd.",
-      "city": "Broussard",
-      "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $4.50/lb • Live $3.00/lb • Boiled size: Medium • Live size: Medium • Rating: 5/5",
-      "pricePerLbEstimate": 4.5,
-      "description": "Listed via The Crawfish App.",
-      "tags": [
-        "Price Tracker"
-      ],
-      "website": null,
-      "phone": "337-236-0662",
-      "rating": 5
     },
     {
       "name": "S & S Crawfish",
