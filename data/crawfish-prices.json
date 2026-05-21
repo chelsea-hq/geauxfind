@@ -1,7 +1,7 @@
 {
   "source": "The Crawfish App",
   "sourceLink": "https://www.thecrawfishapp.com/VendorSearchUi",
-  "lastUpdated": "2026-05-20T11:58:07.699Z",
+  "lastUpdated": "2026-05-21T12:03:39.532Z",
   "cities": [
     {
       "city": "Lafayette",
@@ -620,14 +620,14 @@
       "city": "Lafayette",
       "boiledPricePerLb": 4.99,
       "boiledPriceText": "$4.99/1LB",
-      "livePricePerLb": 3.59,
-      "livePriceText": "$3.59/1LB",
+      "livePricePerLb": 2.99,
+      "livePriceText": "$2.99/1LB",
       "boiledSize": "Large",
       "liveSize": "Large",
       "rating": 5,
       "phone": "337-889-0045",
       "hours": null,
-      "updatedAt": "05/14/2026 05:27 AM CST"
+      "updatedAt": "05/21/2026 05:44 AM CST"
     },
     {
       "name": "Rouses Market #48",
@@ -635,14 +635,14 @@
       "city": "Lafayette",
       "boiledPricePerLb": 4.99,
       "boiledPriceText": "$4.99/1LB",
-      "livePricePerLb": 3.59,
-      "livePriceText": "$3.59/1LB",
+      "livePricePerLb": 2.99,
+      "livePriceText": "$2.99/1LB",
       "boiledSize": "Large",
       "liveSize": "Large",
       "rating": 0,
       "phone": "337-889-0040",
       "hours": null,
-      "updatedAt": "05/14/2026 05:27 AM CST"
+      "updatedAt": "05/21/2026 05:44 AM CST"
     },
     {
       "name": "Rouses Market #84",
@@ -650,14 +650,14 @@
       "city": "Lafayette",
       "boiledPricePerLb": 4.99,
       "boiledPriceText": "$4.99/1LB",
-      "livePricePerLb": 3.59,
-      "livePriceText": "$3.59/1LB",
+      "livePricePerLb": 2.99,
+      "livePriceText": "$2.99/1LB",
       "boiledSize": "Large",
       "liveSize": "Large",
       "rating": 4,
       "phone": "337-889-0015",
       "hours": null,
-      "updatedAt": "05/14/2026 05:28 AM CST"
+      "updatedAt": "05/21/2026 05:44 AM CST"
     },
     {
       "name": "Super 1 Foods",
@@ -687,7 +687,7 @@
       "rating": 0,
       "phone": "337-572-9340",
       "hours": null,
-      "updatedAt": "05/15/2026 08:29 AM CST"
+      "updatedAt": "05/21/2026 04:22 AM CST"
     },
     {
       "name": "Super 1 Foods",
@@ -800,14 +800,14 @@
       "city": "New Iberia",
       "boiledPricePerLb": 4.99,
       "boiledPriceText": "$4.99/1LB",
-      "livePricePerLb": 3.59,
-      "livePriceText": "$3.59/1LB",
+      "livePricePerLb": 2.99,
+      "livePriceText": "$2.99/1LB",
       "boiledSize": "Large",
       "liveSize": "Large",
       "rating": 5,
       "phone": "337-551-5002",
       "hours": null,
-      "updatedAt": "05/14/2026 05:28 AM CST"
+      "updatedAt": "05/21/2026 05:44 AM CST"
     },
     {
       "name": "Seafood Connection",
@@ -828,8 +828,8 @@
       "name": "Super 1 Foods",
       "address": "939 S Lewis St.",
       "city": "New Iberia",
-      "boiledPricePerLb": 3.97,
-      "boiledPriceText": "$3.97/1LB",
+      "boiledPricePerLb": 3.98,
+      "boiledPriceText": "$3.98/1LB",
       "livePricePerLb": 1.89,
       "livePriceText": "$1.89/1LB",
       "boiledSize": "Medium",
@@ -837,7 +837,7 @@
       "rating": 0,
       "phone": "337-364-1370",
       "hours": null,
-      "updatedAt": "05/14/2026 11:45 PM CST"
+      "updatedAt": "05/20/2026 08:21 PM CST"
     },
     {
       "name": "Bonanza Boilers",
@@ -1085,14 +1085,14 @@
       "city": "Youngsville",
       "boiledPricePerLb": 4.99,
       "boiledPriceText": "$4.99/1LB",
-      "livePricePerLb": 3.59,
-      "livePriceText": "$3.59/1LB",
+      "livePricePerLb": 2.99,
+      "livePriceText": "$2.99/1LB",
       "boiledSize": "Large",
       "liveSize": "Large",
       "rating": 1,
       "phone": "337-362-2814",
       "hours": null,
-      "updatedAt": "05/14/2026 05:27 AM CST"
+      "updatedAt": "05/21/2026 05:44 AM CST"
     },
     {
       "name": "TaD's of Youngsville",
