@@ -1,7 +1,7 @@
 {
   "source": "The Crawfish App",
   "sourceLink": "https://www.thecrawfishapp.com/VendorSearchUi",
-  "lastUpdated": "2026-05-21T12:03:39.532Z",
+  "lastUpdated": "2026-05-22T11:55:41.259Z",
   "cities": [
     {
       "city": "Lafayette",
@@ -72,7 +72,7 @@
       "rating": 5,
       "phone": "337-652-8520",
       "hours": null,
-      "updatedAt": "05/13/2026 09:03 PM CST"
+      "updatedAt": "05/21/2026 08:05 PM CST"
     },
     {
       "name": "D&T Crawfish",
@@ -117,7 +117,7 @@
       "rating": 5,
       "phone": "337-892-7033",
       "hours": null,
-      "updatedAt": "05/13/2026 08:34 PM CST"
+      "updatedAt": "05/21/2026 07:33 PM CST"
     },
     {
       "name": "Maxi-Mart",
@@ -132,7 +132,7 @@
       "rating": 5,
       "phone": "337-893-6761",
       "hours": null,
-      "updatedAt": "05/13/2026 07:29 PM CST"
+      "updatedAt": "05/21/2026 07:23 PM CST"
     },
     {
       "name": "Richard's Seafood Patio",
@@ -147,7 +147,7 @@
       "rating": 5,
       "phone": "337-893-1693",
       "hours": null,
-      "updatedAt": "05/13/2026 07:28 PM CST"
+      "updatedAt": "05/21/2026 07:23 PM CST"
     },
     {
       "name": "Sack Daddy's Crawfish",
@@ -162,7 +162,7 @@
       "rating": 4,
       "phone": "337-422-6500",
       "hours": null,
-      "updatedAt": "05/13/2026 08:55 PM CST"
+      "updatedAt": "05/21/2026 08:03 PM CST"
     },
     {
       "name": "STELLY’S Boiling Spot",
@@ -177,7 +177,7 @@
       "rating": 5,
       "phone": "337-740-0806",
       "hours": null,
-      "updatedAt": "05/07/2026 10:28 PM CST"
+      "updatedAt": "05/21/2026 05:47 PM CST"
     },
     {
       "name": "Super 1 Foods",
@@ -192,7 +192,7 @@
       "rating": 0,
       "phone": "337-898-1255",
       "hours": null,
-      "updatedAt": "05/07/2026 10:49 PM CST"
+      "updatedAt": "05/21/2026 10:53 PM CST"
     },
     {
       "name": "Cajun Claws",
@@ -207,7 +207,7 @@
       "rating": 5,
       "phone": "337-332-2439",
       "hours": null,
-      "updatedAt": "05/07/2026 05:29 PM CST"
+      "updatedAt": "05/21/2026 09:54 PM CST"
     },
     {
       "name": "Crazy Bout Crawfish",
@@ -237,7 +237,7 @@
       "rating": 5,
       "phone": "337-332-4648",
       "hours": null,
-      "updatedAt": "05/13/2026 12:40 PM CST"
+      "updatedAt": "05/21/2026 07:40 PM CST"
     },
     {
       "name": "Boil & Geaux LLC",
@@ -252,7 +252,7 @@
       "rating": 0,
       "phone": "337-832-8905",
       "hours": null,
-      "updatedAt": "05/13/2026 08:52 PM CST"
+      "updatedAt": "05/21/2026 07:54 PM CST"
     },
     {
       "name": "Broussard’s Boiling Pot",
@@ -282,7 +282,7 @@
       "rating": 0,
       "phone": "337-804-2309",
       "hours": null,
-      "updatedAt": "05/06/2026 11:28 PM CST"
+      "updatedAt": "05/21/2026 09:39 PM CST"
     },
     {
       "name": "L.T.'s Seafood",
@@ -297,7 +297,7 @@
       "rating": 0,
       "phone": "337-837-3268",
       "hours": null,
-      "updatedAt": "05/07/2026 09:11 PM CST"
+      "updatedAt": "05/21/2026 05:06 PM CST"
     },
     {
       "name": "Pogie’s Boil House",
@@ -342,7 +342,7 @@
       "rating": 5,
       "phone": "337-349-5579",
       "hours": null,
-      "updatedAt": "05/07/2026 06:05 PM CST"
+      "updatedAt": "05/21/2026 05:50 PM CST"
     },
     {
       "name": "Crawfish Point",
@@ -372,7 +372,7 @@
       "rating": 0,
       "phone": "337-227-8101",
       "hours": null,
-      "updatedAt": "05/13/2026 09:05 PM CST"
+      "updatedAt": "05/21/2026 08:06 PM CST"
     },
     {
       "name": "C&J Farms",
@@ -387,7 +387,7 @@
       "rating": 5,
       "phone": "337-581-4729",
       "hours": null,
-      "updatedAt": "05/07/2026 05:43 PM CST"
+      "updatedAt": "05/21/2026 05:27 PM CST"
     },
     {
       "name": "Gilbert's Crawfish Tub",
@@ -417,7 +417,7 @@
       "rating": 5,
       "phone": "337-788-1600",
       "hours": null,
-      "updatedAt": "05/13/2026 07:26 PM CST"
+      "updatedAt": "05/21/2026 07:23 PM CST"
     },
     {
       "name": "Mikey’s Seafood & Specialty Meats Crowley",
@@ -432,7 +432,7 @@
       "rating": 0,
       "phone": "337-717-1963",
       "hours": null,
-      "updatedAt": "05/13/2026 08:53 PM CST"
+      "updatedAt": "05/21/2026 07:54 PM CST"
     },
     {
       "name": "S & S Crawfish",
@@ -447,7 +447,7 @@
       "rating": 5,
       "phone": "337-458-1257",
       "hours": null,
-      "updatedAt": "05/07/2026 05:44 PM CST"
+      "updatedAt": "05/21/2026 05:27 PM CST"
     },
     {
       "name": "The Crawfish Nest & Market",
@@ -462,7 +462,7 @@
       "rating": 0,
       "phone": "337-783-9900",
       "hours": null,
-      "updatedAt": "05/06/2026 11:17 PM CST"
+      "updatedAt": "05/21/2026 09:34 PM CST"
     },
     {
       "name": "Pat's Fishermans Wharf",
@@ -492,7 +492,7 @@
       "rating": 0,
       "phone": "337-261-1515",
       "hours": null,
-      "updatedAt": "05/13/2026 08:48 PM CST"
+      "updatedAt": "05/21/2026 07:46 PM CST"
     },
     {
       "name": "Crawfish Jake",
@@ -522,7 +522,7 @@
       "rating": 5,
       "phone": "337-237-8533",
       "hours": null,
-      "updatedAt": "05/13/2026 07:16 PM CST"
+      "updatedAt": "05/21/2026 10:25 PM CST"
     },
     {
       "name": "Crawfish Time",
@@ -537,7 +537,7 @@
       "rating": 3,
       "phone": "337-216-9955",
       "hours": null,
-      "updatedAt": "05/07/2026 05:07 PM CST"
+      "updatedAt": "05/21/2026 09:10 PM CST"
     },
     {
       "name": "Crawfish Time",
@@ -552,14 +552,14 @@
       "rating": 4,
       "phone": "337-236-6129",
       "hours": null,
-      "updatedAt": "05/07/2026 05:52 PM CST"
+      "updatedAt": "05/21/2026 05:37 PM CST"
     },
     {
       "name": "Don's Seafood",
       "address": "4309 Johnston St, Lafayette, LA 70503",
       "city": "Lafayette",
-      "boiledPricePerLb": 7,
-      "boiledPriceText": "$7.00/1LB",
+      "boiledPricePerLb": 5,
+      "boiledPriceText": "$5.00/1LB",
       "livePricePerLb": null,
       "livePriceText": "Not Sold/1LB",
       "boiledSize": "Large",
@@ -567,7 +567,7 @@
       "rating": 0,
       "phone": "337-981-1159",
       "hours": null,
-      "updatedAt": "05/15/2026 08:16 AM CST"
+      "updatedAt": "05/21/2026 08:52 AM CST"
     },
     {
       "name": "JJ’s Boiling Shack",
@@ -597,7 +597,7 @@
       "rating": 0,
       "phone": "337-984-1415",
       "hours": null,
-      "updatedAt": "05/07/2026 05:09 PM CST"
+      "updatedAt": "05/21/2026 09:14 PM CST"
     },
     {
       "name": "Louisiana Crawfish Time",
@@ -612,7 +612,7 @@
       "rating": 3,
       "phone": "337-988-2645",
       "hours": null,
-      "updatedAt": "05/07/2026 05:04 PM CST"
+      "updatedAt": "05/21/2026 09:06 PM CST"
     },
     {
       "name": "Rouses Market #45",
@@ -702,7 +702,7 @@
       "rating": 0,
       "phone": "337-988-2278",
       "hours": null,
-      "updatedAt": "05/07/2026 06:10 PM CST"
+      "updatedAt": "05/21/2026 05:55 PM CST"
     },
     {
       "name": "T-Bob's",
@@ -732,14 +732,14 @@
       "rating": 3,
       "phone": "337-330-4200",
       "hours": null,
-      "updatedAt": "05/07/2026 09:29 PM CST"
+      "updatedAt": "05/21/2026 05:16 PM CST"
     },
     {
       "name": "The Crawfish Pot",
       "address": "817 Foreman Drive",
       "city": "Lafayette",
-      "boiledPricePerLb": 5.49,
-      "boiledPriceText": "$5.49/1LB",
+      "boiledPricePerLb": 6,
+      "boiledPriceText": "$6.00/1LB",
       "livePricePerLb": 3.48,
       "livePriceText": "$3.48/1LB",
       "boiledSize": "Medium",
@@ -747,7 +747,7 @@
       "rating": 5,
       "phone": "337-981-1114",
       "hours": null,
-      "updatedAt": "05/07/2026 05:06 PM CST"
+      "updatedAt": "05/21/2026 09:08 PM CST"
     },
     {
       "name": "Fremin's Magic Dust Crawfish Express",
@@ -792,7 +792,7 @@
       "rating": 0,
       "phone": "337-365-7596",
       "hours": null,
-      "updatedAt": "05/07/2026 09:10 PM CST"
+      "updatedAt": "05/21/2026 05:03 PM CST"
     },
     {
       "name": "Rouses Market #74",
@@ -822,7 +822,7 @@
       "rating": 0,
       "phone": "337-365-2454",
       "hours": null,
-      "updatedAt": "05/13/2026 07:17 PM CST"
+      "updatedAt": "05/21/2026 10:25 PM CST"
     },
     {
       "name": "Super 1 Foods",
@@ -834,7 +834,7 @@
       "livePriceText": "$1.89/1LB",
       "boiledSize": "Medium",
       "liveSize": "Medium",
-      "rating": 0,
+      "rating": 5,
       "phone": "337-364-1370",
       "hours": null,
       "updatedAt": "05/20/2026 08:21 PM CST"
@@ -867,7 +867,7 @@
       "rating": 5,
       "phone": "337-407-2529",
       "hours": null,
-      "updatedAt": "05/14/2026 07:44 PM CST"
+      "updatedAt": "05/21/2026 07:08 PM CST"
     },
     {
       "name": "Crawfish House",
@@ -897,7 +897,7 @@
       "rating": 0,
       "phone": "337-948-0049",
       "hours": null,
-      "updatedAt": "05/07/2026 09:11 PM CST"
+      "updatedAt": "05/21/2026 05:07 PM CST"
     },
     {
       "name": "Crawfish Man",
@@ -912,7 +912,7 @@
       "rating": 5,
       "phone": "337-678-0946",
       "hours": null,
-      "updatedAt": "05/13/2026 07:23 PM CST"
+      "updatedAt": "05/21/2026 07:21 PM CST"
     },
     {
       "name": "Duos Cajun Corner",
@@ -927,7 +927,7 @@
       "rating": 5,
       "phone": "337-628-0123",
       "hours": null,
-      "updatedAt": "05/06/2026 11:20 PM CST"
+      "updatedAt": "05/21/2026 09:35 PM CST"
     },
     {
       "name": "Super 1 Foods",
@@ -972,7 +972,7 @@
       "rating": 5,
       "phone": "337-458-8066",
       "hours": null,
-      "updatedAt": "05/07/2026 05:59 PM CST"
+      "updatedAt": "05/21/2026 05:43 PM CST"
     },
     {
       "name": "Lil EZ Farms",
@@ -1002,7 +1002,7 @@
       "rating": 0,
       "phone": "337-514-3231",
       "hours": null,
-      "updatedAt": "05/14/2026 07:49 PM CST"
+      "updatedAt": "05/21/2026 07:18 PM CST"
     },
     {
       "name": "Cody’s Crawfish Shop",
@@ -1047,7 +1047,7 @@
       "rating": 0,
       "phone": "337-210-2000",
       "hours": null,
-      "updatedAt": "05/07/2026 10:49 PM CST"
+      "updatedAt": "05/21/2026 10:53 PM CST"
     },
     {
       "name": "Coastal Fire And Ice",
@@ -1077,7 +1077,7 @@
       "rating": 4,
       "phone": "337-856-7469",
       "hours": null,
-      "updatedAt": "05/07/2026 12:05 AM CST"
+      "updatedAt": "05/21/2026 10:47 PM CST"
     },
     {
       "name": "Rouses Market #23",

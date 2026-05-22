@@ -18,7 +18,7 @@
       "Crawfish Acadiana",
       "Crawfish Time"
     ],
-    "lastUpdated": "2026-05-21T12:03:39.532Z"
+    "lastUpdated": "2026-05-22T11:55:41.259Z"
   },
   "seasonOutlook": [
     "2026 season is \"looking good\" per LSU AgCenter (Todd Fontenot, crawfish extension agent)",
@@ -383,7 +383,7 @@
       "address": "939 S Lewis St.",
       "city": "New Iberia",
       "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $3.98/lb • Live $1.89/lb • Boiled size: Medium • Live size: Medium • Rating: 0/5",
+      "priceSummary": "Boiled $3.98/lb • Live $1.89/lb • Boiled size: Medium • Live size: Medium • Rating: 5/5",
       "pricePerLbEstimate": 3.98,
       "description": "Listed via The Crawfish App.",
       "tags": [
@@ -391,7 +391,7 @@
       ],
       "website": null,
       "phone": "337-364-1370",
-      "rating": 0
+      "rating": 5
     },
     {
       "name": "Pogie’s Boil House",
@@ -664,6 +664,21 @@
       "rating": 5
     },
     {
+      "name": "Don's Seafood",
+      "address": "4309 Johnston St, Lafayette, LA 70503",
+      "city": "Lafayette",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $5.00/lb • Boiled size: Large • Rating: 0/5",
+      "pricePerLbEstimate": 5,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-981-1159",
+      "rating": 0
+    },
+    {
       "name": "Fremin's Magic Dust Crawfish Express",
       "address": "603 W Admiral Doyle Dr.",
       "city": "New Iberia",
@@ -736,21 +751,6 @@
       ],
       "website": null,
       "phone": "337-892-7033",
-      "rating": 5
-    },
-    {
-      "name": "The Crawfish Pot",
-      "address": "817 Foreman Drive",
-      "city": "Lafayette",
-      "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $5.49/lb • Live $3.48/lb • Boiled size: Medium • Live size: Medium • Rating: 5/5",
-      "pricePerLbEstimate": 5.49,
-      "description": "Listed via The Crawfish App.",
-      "tags": [
-        "Price Tracker"
-      ],
-      "website": null,
-      "phone": "337-981-1114",
       "rating": 5
     },
     {
@@ -934,6 +934,21 @@
       "rating": 5
     },
     {
+      "name": "The Crawfish Pot",
+      "address": "817 Foreman Drive",
+      "city": "Lafayette",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $6.00/lb • Live $3.48/lb • Boiled size: Medium • Live size: Medium • Rating: 5/5",
+      "pricePerLbEstimate": 6,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-981-1114",
+      "rating": 5
+    },
+    {
       "name": "R&M Boiling Point",
       "address": "7413 Hwy. 90 W",
       "city": "New Iberia",
@@ -1037,21 +1052,6 @@
       "website": null,
       "phone": "337-893-1693",
       "rating": 5
-    },
-    {
-      "name": "Don's Seafood",
-      "address": "4309 Johnston St, Lafayette, LA 70503",
-      "city": "Lafayette",
-      "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $7.00/lb • Boiled size: Large • Rating: 0/5",
-      "pricePerLbEstimate": 7,
-      "description": "Listed via The Crawfish App.",
-      "tags": [
-        "Price Tracker"
-      ],
-      "website": null,
-      "phone": "337-981-1159",
-      "rating": 0
     },
     {
       "name": "Young's Sports Grill",
