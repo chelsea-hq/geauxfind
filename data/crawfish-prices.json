@@ -1,7 +1,7 @@
 {
   "source": "The Crawfish App",
   "sourceLink": "https://www.thecrawfishapp.com/VendorSearchUi",
-  "lastUpdated": "2026-05-22T11:55:41.259Z",
+  "lastUpdated": "2026-05-23T11:27:18.921Z",
   "cities": [
     {
       "city": "Lafayette",
@@ -558,8 +558,8 @@
       "name": "Don's Seafood",
       "address": "4309 Johnston St, Lafayette, LA 70503",
       "city": "Lafayette",
-      "boiledPricePerLb": 5,
-      "boiledPriceText": "$5.00/1LB",
+      "boiledPricePerLb": 7,
+      "boiledPriceText": "$7.00/1LB",
       "livePricePerLb": null,
       "livePriceText": "Not Sold/1LB",
       "boiledSize": "Large",
@@ -567,7 +567,7 @@
       "rating": 0,
       "phone": "337-981-1159",
       "hours": null,
-      "updatedAt": "05/21/2026 08:52 AM CST"
+      "updatedAt": "05/22/2026 08:33 AM CST"
     },
     {
       "name": "JJ’s Boiling Shack",
@@ -980,14 +980,14 @@
       "city": "Rayne",
       "boiledPricePerLb": null,
       "boiledPriceText": "Unavailable/1LB",
-      "livePricePerLb": 3.25,
-      "livePriceText": "$3.25/1LB",
+      "livePricePerLb": 3,
+      "livePriceText": "$3.00/1LB",
       "boiledSize": null,
       "liveSize": "Medium",
       "rating": 5,
       "phone": "337-873-3619",
       "hours": null,
-      "updatedAt": "05/18/2026 06:52 PM CST"
+      "updatedAt": "05/22/2026 01:19 PM CST"
     },
     {
       "name": "Meche's Crawfish",
@@ -1053,16 +1053,16 @@
       "name": "Coastal Fire And Ice",
       "address": "6412 Ambassador Caffery Pkwy.",
       "city": "Youngsville",
-      "boiledPricePerLb": 4.5,
-      "boiledPriceText": "$4.50/1LB",
-      "livePricePerLb": 2.99,
-      "livePriceText": "$2.99/1LB",
+      "boiledPricePerLb": 3.99,
+      "boiledPriceText": "$3.99/1LB",
+      "livePricePerLb": 2.75,
+      "livePriceText": "$2.75/1LB",
       "boiledSize": "Medium",
       "liveSize": "Medium",
       "rating": 4,
       "phone": "337-573-8669",
       "hours": null,
-      "updatedAt": "05/17/2026 02:34 PM CST"
+      "updatedAt": "05/22/2026 11:45 AM CST"
     },
     {
       "name": "Morvants Bar & Grill",

@@ -18,7 +18,7 @@
       "Crawfish Acadiana",
       "Crawfish Time"
     ],
-    "lastUpdated": "2026-05-22T11:55:41.259Z"
+    "lastUpdated": "2026-05-23T11:27:18.921Z"
   },
   "seasonOutlook": [
     "2026 season is \"looking good\" per LSU AgCenter (Todd Fontenot, crawfish extension agent)",
@@ -394,6 +394,21 @@
       "rating": 5
     },
     {
+      "name": "Coastal Fire And Ice",
+      "address": "6412 Ambassador Caffery Pkwy.",
+      "city": "Youngsville",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $3.99/lb • Live $2.75/lb • Boiled size: Medium • Live size: Medium • Rating: 4/5",
+      "pricePerLbEstimate": 3.99,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-573-8669",
+      "rating": 4
+    },
+    {
       "name": "Pogie’s Boil House",
       "address": "226 St Nazaire Rd.",
       "city": "Broussard",
@@ -452,21 +467,6 @@
       "website": null,
       "phone": "337-783-6608",
       "rating": 0
-    },
-    {
-      "name": "Coastal Fire And Ice",
-      "address": "6412 Ambassador Caffery Pkwy.",
-      "city": "Youngsville",
-      "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $4.50/lb • Live $2.99/lb • Boiled size: Medium • Live size: Medium • Rating: 4/5",
-      "pricePerLbEstimate": 4.5,
-      "description": "Listed via The Crawfish App.",
-      "tags": [
-        "Price Tracker"
-      ],
-      "website": null,
-      "phone": "337-573-8669",
-      "rating": 4
     },
     {
       "name": "S & S Crawfish",
@@ -662,21 +662,6 @@
       "website": null,
       "phone": "337-407-2529",
       "rating": 5
-    },
-    {
-      "name": "Don's Seafood",
-      "address": "4309 Johnston St, Lafayette, LA 70503",
-      "city": "Lafayette",
-      "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $5.00/lb • Boiled size: Large • Rating: 0/5",
-      "pricePerLbEstimate": 5,
-      "description": "Listed via The Crawfish App.",
-      "tags": [
-        "Price Tracker"
-      ],
-      "website": null,
-      "phone": "337-981-1159",
-      "rating": 0
     },
     {
       "name": "Fremin's Magic Dust Crawfish Express",
@@ -1054,6 +1039,21 @@
       "rating": 5
     },
     {
+      "name": "Don's Seafood",
+      "address": "4309 Johnston St, Lafayette, LA 70503",
+      "city": "Lafayette",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $7.00/lb • Boiled size: Large • Rating: 0/5",
+      "pricePerLbEstimate": 7,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-981-1159",
+      "rating": 0
+    },
+    {
       "name": "Young's Sports Grill",
       "address": "305 E Main Street",
       "city": "Broussard",
@@ -1178,7 +1178,7 @@
       "address": "1005 Golden Grain Rd.",
       "city": "Rayne",
       "hours": "Call for seasonal hours",
-      "priceSummary": "Live $3.25/lb • Live size: Medium • Rating: 5/5",
+      "priceSummary": "Live $3.00/lb • Live size: Medium • Rating: 5/5",
       "pricePerLbEstimate": null,
       "description": "Listed via The Crawfish App.",
       "tags": [
