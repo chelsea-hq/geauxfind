@@ -1,7 +1,7 @@
 {
   "source": "The Crawfish App",
   "sourceLink": "https://www.thecrawfishapp.com/VendorSearchUi",
-  "lastUpdated": "2026-05-23T11:27:18.921Z",
+  "lastUpdated": "2026-05-24T11:29:36.774Z",
   "cities": [
     {
       "city": "Lafayette",
@@ -335,14 +335,14 @@
       "city": "Carencro",
       "boiledPricePerLb": null,
       "boiledPriceText": "Unavailable/1LB",
-      "livePricePerLb": 3.25,
-      "livePriceText": "$3.25/1LB",
+      "livePricePerLb": 2.5,
+      "livePriceText": "$2.50/1LB",
       "boiledSize": null,
       "liveSize": "Large",
       "rating": 5,
       "phone": "337-349-5579",
       "hours": null,
-      "updatedAt": "05/21/2026 05:50 PM CST"
+      "updatedAt": "05/23/2026 04:03 PM CST"
     },
     {
       "name": "Crawfish Point",
