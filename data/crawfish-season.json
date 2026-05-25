@@ -6,7 +6,7 @@
     "quickStats": "18 Spots • $5-10/lb • March-May Peak"
   },
   "priceTracker": {
-    "currentRange": "$3.48 - $7.99/lb boiled",
+    "currentRange": "$3.48 - $7.33/lb boiled",
     "trend": "Prices are dropping! Down from $10+ in January",
     "bestDealTip": "Best deals: Buy direct from farm drive-thrus",
     "proTip": "Most places don't start boiling until 4-5pm — call ahead for lunch",
@@ -18,7 +18,7 @@
       "Crawfish Acadiana",
       "Crawfish Time"
     ],
-    "lastUpdated": "2026-05-24T11:29:36.774Z"
+    "lastUpdated": "2026-05-25T12:09:39.869Z"
   },
   "seasonOutlook": [
     "2026 season is \"looking good\" per LSU AgCenter (Todd Fontenot, crawfish extension agent)",
@@ -1058,8 +1058,8 @@
       "address": "305 E Main Street",
       "city": "Broussard",
       "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $7.99/lb • Boiled size: Large • Live size: Large • Rating: 5/5",
-      "pricePerLbEstimate": 7.99,
+      "priceSummary": "Boiled $7.33/lb • Boiled size: Medium • Live size: Large • Rating: 5/5",
+      "pricePerLbEstimate": 7.33,
       "description": "Listed via The Crawfish App.",
       "tags": [
         "Price Tracker"
