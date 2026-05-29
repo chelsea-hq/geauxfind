@@ -1,7 +1,7 @@
 {
   "source": "The Crawfish App",
   "sourceLink": "https://www.thecrawfishapp.com/VendorSearchUi",
-  "lastUpdated": "2026-05-28T12:09:32.898Z",
+  "lastUpdated": "2026-05-29T12:04:32.969Z",
   "cities": [
     {
       "city": "Lafayette",
@@ -102,7 +102,7 @@
       "rating": 4,
       "phone": "337-893-9029",
       "hours": null,
-      "updatedAt": "05/15/2026 12:08 AM CST"
+      "updatedAt": "05/28/2026 03:33 PM CST"
     },
     {
       "name": "Jo Mama’s Crawfish",
@@ -177,7 +177,7 @@
       "rating": 5,
       "phone": "337-740-0806",
       "hours": null,
-      "updatedAt": "05/21/2026 05:47 PM CST"
+      "updatedAt": "05/28/2026 06:03 PM CST"
     },
     {
       "name": "Super 1 Foods",
@@ -222,7 +222,7 @@
       "rating": 5,
       "phone": "337-332-3071",
       "hours": null,
-      "updatedAt": "05/15/2026 04:05 PM CST"
+      "updatedAt": "05/28/2026 03:33 PM CST"
     },
     {
       "name": "Randol's",
@@ -297,7 +297,7 @@
       "rating": 0,
       "phone": "337-837-3268",
       "hours": null,
-      "updatedAt": "05/21/2026 05:06 PM CST"
+      "updatedAt": "05/28/2026 05:11 PM CST"
     },
     {
       "name": "Pogie’s Boil House",
@@ -312,7 +312,7 @@
       "rating": 5,
       "phone": "337-236-0662",
       "hours": null,
-      "updatedAt": "05/19/2026 02:01 PM CST"
+      "updatedAt": "05/28/2026 10:35 PM CST"
     },
     {
       "name": "Young's Sports Grill",
@@ -357,7 +357,7 @@
       "rating": 5,
       "phone": "337-227-8009",
       "hours": null,
-      "updatedAt": "05/15/2026 05:58 AM CST"
+      "updatedAt": "05/28/2026 03:35 PM CST"
     },
     {
       "name": "The Boil Spot",
@@ -387,7 +387,7 @@
       "rating": 5,
       "phone": "337-581-4729",
       "hours": null,
-      "updatedAt": "05/21/2026 05:27 PM CST"
+      "updatedAt": "05/28/2026 05:30 PM CST"
     },
     {
       "name": "Gilbert's Crawfish Tub",
@@ -402,7 +402,7 @@
       "rating": 0,
       "phone": "337-783-6608",
       "hours": null,
-      "updatedAt": "05/15/2026 12:06 AM CST"
+      "updatedAt": "05/28/2026 03:32 PM CST"
     },
     {
       "name": "Korky's Food Mart",
@@ -447,7 +447,7 @@
       "rating": 5,
       "phone": "337-458-1257",
       "hours": null,
-      "updatedAt": "05/21/2026 05:27 PM CST"
+      "updatedAt": "05/28/2026 05:30 PM CST"
     },
     {
       "name": "The Crawfish Nest & Market",
@@ -477,7 +477,7 @@
       "rating": 5,
       "phone": "337-228-7512",
       "hours": null,
-      "updatedAt": "05/15/2026 12:02 AM CST"
+      "updatedAt": "05/28/2026 03:31 PM CST"
     },
     {
       "name": "Cooney’s Crawfish",
@@ -552,14 +552,14 @@
       "rating": 4,
       "phone": "337-236-6129",
       "hours": null,
-      "updatedAt": "05/21/2026 05:37 PM CST"
+      "updatedAt": "05/28/2026 05:42 PM CST"
     },
     {
       "name": "Don's Seafood",
       "address": "4309 Johnston St, Lafayette, LA 70503",
       "city": "Lafayette",
-      "boiledPricePerLb": 7,
-      "boiledPriceText": "$7.00/1LB",
+      "boiledPricePerLb": 5,
+      "boiledPriceText": "$5.00/1LB",
       "livePricePerLb": null,
       "livePriceText": "Not Sold/1LB",
       "boiledSize": "Large",
@@ -567,7 +567,7 @@
       "rating": 0,
       "phone": "337-981-1159",
       "hours": null,
-      "updatedAt": "05/22/2026 08:33 AM CST"
+      "updatedAt": "05/28/2026 09:19 AM CST"
     },
     {
       "name": "JJ’s Boiling Shack",
@@ -672,7 +672,7 @@
       "rating": 0,
       "phone": "337-735-7799",
       "hours": null,
-      "updatedAt": "05/15/2026 08:03 AM CST"
+      "updatedAt": "05/28/2026 05:10 PM CST"
     },
     {
       "name": "Super 1 Foods",
@@ -687,7 +687,7 @@
       "rating": 0,
       "phone": "337-572-9340",
       "hours": null,
-      "updatedAt": "05/28/2026 04:51 AM CST"
+      "updatedAt": "05/28/2026 06:09 PM CST"
     },
     {
       "name": "Super 1 Foods",
@@ -732,7 +732,7 @@
       "rating": 3,
       "phone": "337-330-4200",
       "hours": null,
-      "updatedAt": "05/21/2026 05:16 PM CST"
+      "updatedAt": "05/28/2026 05:18 PM CST"
     },
     {
       "name": "The Crawfish Pot",
@@ -777,7 +777,7 @@
       "rating": 5,
       "phone": "337-365-5412",
       "hours": null,
-      "updatedAt": "05/15/2026 12:15 AM CST"
+      "updatedAt": "05/28/2026 10:32 PM CST"
     },
     {
       "name": "R&M Boiling Point",
@@ -792,7 +792,7 @@
       "rating": 0,
       "phone": "337-365-7596",
       "hours": null,
-      "updatedAt": "05/21/2026 05:03 PM CST"
+      "updatedAt": "05/28/2026 05:11 PM CST"
     },
     {
       "name": "Rouses Market #74",
@@ -830,14 +830,14 @@
       "city": "New Iberia",
       "boiledPricePerLb": 3.98,
       "boiledPriceText": "$3.98/1LB",
-      "livePricePerLb": 1.89,
-      "livePriceText": "$1.89/1LB",
+      "livePricePerLb": 2.99,
+      "livePriceText": "$2.99/1LB",
       "boiledSize": "Medium",
       "liveSize": "Medium",
       "rating": 5,
       "phone": "337-364-1370",
       "hours": null,
-      "updatedAt": "05/20/2026 08:21 PM CST"
+      "updatedAt": "05/28/2026 10:35 PM CST"
     },
     {
       "name": "Bonanza Boilers",
@@ -897,7 +897,7 @@
       "rating": 0,
       "phone": "337-948-0049",
       "hours": null,
-      "updatedAt": "05/21/2026 05:07 PM CST"
+      "updatedAt": "05/28/2026 05:12 PM CST"
     },
     {
       "name": "Crawfish Man",
@@ -935,14 +935,14 @@
       "city": "Opelousas",
       "boiledPricePerLb": null,
       "boiledPriceText": "Unavailable/1LB",
-      "livePricePerLb": 1.89,
-      "livePriceText": "$1.89/1LB",
+      "livePricePerLb": 2.99,
+      "livePriceText": "$2.99/1LB",
       "boiledSize": null,
       "liveSize": "Medium",
       "rating": 0,
       "phone": "337-948-7802",
       "hours": null,
-      "updatedAt": "05/18/2026 09:00 AM CST"
+      "updatedAt": "05/28/2026 10:35 PM CST"
     },
     {
       "name": "Boulet's Boil-N-Go Rayne",
@@ -957,7 +957,7 @@
       "rating": 5,
       "phone": "337-427-5014",
       "hours": null,
-      "updatedAt": "05/15/2026 07:01 PM CST"
+      "updatedAt": "05/28/2026 04:12 PM CST"
     },
     {
       "name": "Jett’s Crawfish Drive-Thru",
@@ -972,7 +972,7 @@
       "rating": 5,
       "phone": "337-458-8066",
       "hours": null,
-      "updatedAt": "05/21/2026 05:43 PM CST"
+      "updatedAt": "05/28/2026 05:57 PM CST"
     },
     {
       "name": "Lil EZ Farms",

@@ -18,7 +18,7 @@
       "Crawfish Acadiana",
       "Crawfish Time"
     ],
-    "lastUpdated": "2026-05-28T12:09:32.898Z"
+    "lastUpdated": "2026-05-29T12:04:32.969Z"
   },
   "seasonOutlook": [
     "2026 season is \"looking good\" per LSU AgCenter (Todd Fontenot, crawfish extension agent)",
@@ -398,7 +398,7 @@
       "address": "939 S Lewis St.",
       "city": "New Iberia",
       "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $3.98/lb • Live $1.89/lb • Boiled size: Medium • Live size: Medium • Rating: 5/5",
+      "priceSummary": "Boiled $3.98/lb • Live $2.99/lb • Boiled size: Medium • Live size: Medium • Rating: 5/5",
       "pricePerLbEstimate": 3.98,
       "description": "Listed via The Crawfish App.",
       "tags": [
@@ -692,6 +692,21 @@
       "website": null,
       "phone": "337-407-2529",
       "rating": 5
+    },
+    {
+      "name": "Don's Seafood",
+      "address": "4309 Johnston St, Lafayette, LA 70503",
+      "city": "Lafayette",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $5.00/lb • Boiled size: Large • Rating: 0/5",
+      "pricePerLbEstimate": 5,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-981-1159",
+      "rating": 0
     },
     {
       "name": "Fremin's Magic Dust Crawfish Express",
@@ -1024,21 +1039,6 @@
       "rating": 5
     },
     {
-      "name": "Don's Seafood",
-      "address": "4309 Johnston St, Lafayette, LA 70503",
-      "city": "Lafayette",
-      "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $7.00/lb • Boiled size: Large • Rating: 0/5",
-      "pricePerLbEstimate": 7,
-      "description": "Listed via The Crawfish App.",
-      "tags": [
-        "Price Tracker"
-      ],
-      "website": null,
-      "phone": "337-981-1159",
-      "rating": 0
-    },
-    {
       "name": "Young's Sports Grill",
       "address": "305 E Main Street",
       "city": "Broussard",
@@ -1223,7 +1223,7 @@
       "address": "2418 South Union",
       "city": "Opelousas",
       "hours": "Call for seasonal hours",
-      "priceSummary": "Live $1.89/lb • Live size: Medium • Rating: 0/5",
+      "priceSummary": "Live $2.99/lb • Live size: Medium • Rating: 0/5",
       "pricePerLbEstimate": null,
       "description": "Listed via The Crawfish App.",
       "tags": [
