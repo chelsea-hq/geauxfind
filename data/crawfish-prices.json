@@ -1,7 +1,7 @@
 {
   "source": "The Crawfish App",
   "sourceLink": "https://www.thecrawfishapp.com/VendorSearchUi",
-  "lastUpdated": "2026-05-31T11:33:11.701Z",
+  "lastUpdated": "2026-06-01T12:52:52.075Z",
   "cities": [
     {
       "city": "Lafayette",
@@ -753,16 +753,16 @@
       "name": "Fremin's Magic Dust Crawfish Express",
       "address": "603 W Admiral Doyle Dr.",
       "city": "New Iberia",
-      "boiledPricePerLb": 5,
-      "boiledPriceText": "$5.00/1LB",
-      "livePricePerLb": 3.1,
-      "livePriceText": "$3.10/1LB",
+      "boiledPricePerLb": null,
+      "boiledPriceText": "Unavailable/1LB",
+      "livePricePerLb": 3,
+      "livePriceText": "$3.00/1LB",
       "boiledSize": "Large",
       "liveSize": "Large",
       "rating": 5,
       "phone": "337-365-6657",
       "hours": null,
-      "updatedAt": "05/27/2026 07:19 PM CST"
+      "updatedAt": "05/31/2026 09:10 PM CST"
     },
     {
       "name": "Jane's Seafood",
