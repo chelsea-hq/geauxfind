@@ -6,7 +6,7 @@
     "quickStats": "18 Spots • $5-10/lb • March-May Peak"
   },
   "priceTracker": {
-    "currentRange": "$3.48 - $7.33/lb boiled",
+    "currentRange": "$3.25 - $7.33/lb boiled",
     "trend": "Prices are dropping! Down from $10+ in January",
     "bestDealTip": "Best deals: Buy direct from farm drive-thrus",
     "proTip": "Most places don't start boiling until 4-5pm — call ahead for lunch",
@@ -18,7 +18,7 @@
       "Crawfish Acadiana",
       "Crawfish Time"
     ],
-    "lastUpdated": "2026-06-02T12:19:45.122Z"
+    "lastUpdated": "2026-06-03T12:33:26.520Z"
   },
   "seasonOutlook": [
     "2026 season is \"looking good\" per LSU AgCenter (Todd Fontenot, crawfish extension agent)",
@@ -319,6 +319,21 @@
   ],
   "extraSpots": [
     {
+      "name": "Pogie’s Boil House",
+      "address": "226 St Nazaire Rd.",
+      "city": "Broussard",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $3.25/lb • Live $2.50/lb • Boiled size: Medium • Live size: Medium • Rating: 5/5",
+      "pricePerLbEstimate": 3.25,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-236-0662",
+      "rating": 5
+    },
+    {
       "name": "Super 1 Foods",
       "address": "2210 Veterans Memorial Dr.",
       "city": "Abbeville",
@@ -422,21 +437,6 @@
       "website": null,
       "phone": "337-573-8669",
       "rating": 4
-    },
-    {
-      "name": "Pogie’s Boil House",
-      "address": "226 St Nazaire Rd.",
-      "city": "Broussard",
-      "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $4.00/lb • Live $2.35/lb • Boiled size: Medium • Live size: Medium • Rating: 5/5",
-      "pricePerLbEstimate": 4,
-      "description": "Listed via The Crawfish App.",
-      "tags": [
-        "Price Tracker"
-      ],
-      "website": null,
-      "phone": "337-236-0662",
-      "rating": 5
     },
     {
       "name": "Cody’s Crawfish Shop",

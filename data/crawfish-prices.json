@@ -1,7 +1,7 @@
 {
   "source": "The Crawfish App",
   "sourceLink": "https://www.thecrawfishapp.com/VendorSearchUi",
-  "lastUpdated": "2026-06-02T12:19:45.122Z",
+  "lastUpdated": "2026-06-03T12:33:26.520Z",
   "cities": [
     {
       "city": "Lafayette",
@@ -303,16 +303,16 @@
       "name": "Pogie’s Boil House",
       "address": "226 St Nazaire Rd.",
       "city": "Broussard",
-      "boiledPricePerLb": 4,
-      "boiledPriceText": "$4.00/1LB",
-      "livePricePerLb": 2.35,
-      "livePriceText": "$2.35/1LB",
+      "boiledPricePerLb": 3.25,
+      "boiledPriceText": "$3.25/1LB",
+      "livePricePerLb": 2.5,
+      "livePriceText": "$2.50/1LB",
       "boiledSize": "Medium",
       "liveSize": "Medium",
       "rating": 5,
       "phone": "337-236-0662",
       "hours": null,
-      "updatedAt": "05/28/2026 10:35 PM CST"
+      "updatedAt": "06/03/2026 01:51 AM CST"
     },
     {
       "name": "Young's Sports Grill",
