@@ -1,7 +1,7 @@
 {
   "source": "The Crawfish App",
   "sourceLink": "https://www.thecrawfishapp.com/VendorSearchUi",
-  "lastUpdated": "2026-06-04T12:01:10.780Z",
+  "lastUpdated": "2026-06-05T12:01:57.054Z",
   "cities": [
     {
       "city": "Lafayette",
@@ -87,7 +87,7 @@
       "rating": 5,
       "phone": "337-893-5436",
       "hours": null,
-      "updatedAt": "05/27/2026 07:40 PM CST"
+      "updatedAt": "06/04/2026 07:44 PM CST"
     },
     {
       "name": "Fatboyz Crawfish Company",
@@ -192,7 +192,7 @@
       "rating": 0,
       "phone": "337-898-1255",
       "hours": null,
-      "updatedAt": "05/21/2026 10:53 PM CST"
+      "updatedAt": "06/04/2026 11:32 PM CST"
     },
     {
       "name": "Cajun Claws",
@@ -207,7 +207,7 @@
       "rating": 5,
       "phone": "337-332-2439",
       "hours": null,
-      "updatedAt": "05/26/2026 07:29 PM CST"
+      "updatedAt": "06/04/2026 07:22 PM CST"
     },
     {
       "name": "Crazy Bout Crawfish",
@@ -237,7 +237,7 @@
       "rating": 5,
       "phone": "337-332-4648",
       "hours": null,
-      "updatedAt": "05/27/2026 08:58 PM CST"
+      "updatedAt": "06/04/2026 08:59 AM CST"
     },
     {
       "name": "Boil & Geaux LLC",
@@ -282,7 +282,7 @@
       "rating": 0,
       "phone": "337-804-2309",
       "hours": null,
-      "updatedAt": "05/21/2026 09:39 PM CST"
+      "updatedAt": "06/04/2026 09:43 PM CST"
     },
     {
       "name": "L.T.'s Seafood",
@@ -327,7 +327,7 @@
       "rating": 5,
       "phone": "337-330-2900",
       "hours": null,
-      "updatedAt": "05/24/2026 08:31 AM CST"
+      "updatedAt": "06/04/2026 07:48 PM CST"
     },
     {
       "name": "Carencro Seafood Corner",
@@ -342,7 +342,7 @@
       "rating": 5,
       "phone": "337-349-5579",
       "hours": null,
-      "updatedAt": "05/27/2026 03:14 PM CST"
+      "updatedAt": "06/04/2026 07:56 PM CST"
     },
     {
       "name": "Crawfish Point",
@@ -462,7 +462,7 @@
       "rating": 0,
       "phone": "337-783-9900",
       "hours": null,
-      "updatedAt": "05/21/2026 09:34 PM CST"
+      "updatedAt": "06/04/2026 09:37 PM CST"
     },
     {
       "name": "Pat's Fishermans Wharf",
@@ -507,7 +507,7 @@
       "rating": 5,
       "phone": "337-450-9400",
       "hours": null,
-      "updatedAt": "05/27/2026 07:46 PM CST"
+      "updatedAt": "06/04/2026 07:52 PM CST"
     },
     {
       "name": "Crawfish Spot",
@@ -522,7 +522,7 @@
       "rating": 5,
       "phone": "337-237-8533",
       "hours": null,
-      "updatedAt": "05/21/2026 10:25 PM CST"
+      "updatedAt": "06/04/2026 10:46 PM CST"
     },
     {
       "name": "Crawfish Time",
@@ -537,7 +537,7 @@
       "rating": 3,
       "phone": "337-216-9955",
       "hours": null,
-      "updatedAt": "05/21/2026 09:10 PM CST"
+      "updatedAt": "06/04/2026 07:58 PM CST"
     },
     {
       "name": "Crawfish Time",
@@ -597,7 +597,7 @@
       "rating": 0,
       "phone": "337-984-1415",
       "hours": null,
-      "updatedAt": "05/21/2026 09:14 PM CST"
+      "updatedAt": "06/04/2026 07:58 PM CST"
     },
     {
       "name": "Louisiana Crawfish Time",
@@ -717,7 +717,7 @@
       "rating": 0,
       "phone": "337-233-9302",
       "hours": null,
-      "updatedAt": "05/27/2026 07:19 PM CST"
+      "updatedAt": "06/04/2026 07:23 PM CST"
     },
     {
       "name": "The Boozy & Boiling Barn",
@@ -822,7 +822,7 @@
       "rating": 0,
       "phone": "337-365-2454",
       "hours": null,
-      "updatedAt": "05/21/2026 10:25 PM CST"
+      "updatedAt": "06/04/2026 10:47 PM CST"
     },
     {
       "name": "Super 1 Foods",
@@ -882,7 +882,7 @@
       "rating": 2,
       "phone": "337-942-1175",
       "hours": null,
-      "updatedAt": "05/27/2026 07:33 PM CST"
+      "updatedAt": "06/04/2026 07:34 PM CST"
     },
     {
       "name": "Crawfish House and Grill",
@@ -927,7 +927,7 @@
       "rating": 5,
       "phone": "337-628-0123",
       "hours": null,
-      "updatedAt": "05/21/2026 09:35 PM CST"
+      "updatedAt": "06/04/2026 09:38 PM CST"
     },
     {
       "name": "Super 1 Foods",
@@ -980,14 +980,14 @@
       "city": "Rayne",
       "boiledPricePerLb": null,
       "boiledPriceText": "Unavailable/1LB",
-      "livePricePerLb": 3,
-      "livePriceText": "$3.00/1LB",
+      "livePricePerLb": null,
+      "livePriceText": "Unavailable/1LB",
       "boiledSize": null,
       "liveSize": "Medium",
       "rating": 5,
       "phone": "337-873-3619",
       "hours": null,
-      "updatedAt": "05/22/2026 01:19 PM CST"
+      "updatedAt": "06/04/2026 10:50 PM CST"
     },
     {
       "name": "Meche's Crawfish",
@@ -1017,7 +1017,7 @@
       "rating": 3,
       "phone": "337-456-3003",
       "hours": null,
-      "updatedAt": "05/27/2026 07:44 PM CST"
+      "updatedAt": "06/04/2026 07:48 PM CST"
     },
     {
       "name": "Granddaddy's Crawfish",
@@ -1047,22 +1047,22 @@
       "rating": 0,
       "phone": "337-210-2000",
       "hours": null,
-      "updatedAt": "05/21/2026 10:53 PM CST"
+      "updatedAt": "06/04/2026 11:32 PM CST"
     },
     {
       "name": "Coastal Fire And Ice",
       "address": "6412 Ambassador Caffery Pkwy.",
       "city": "Youngsville",
-      "boiledPricePerLb": 3.99,
-      "boiledPriceText": "$3.99/1LB",
-      "livePricePerLb": 2.75,
-      "livePriceText": "$2.75/1LB",
+      "boiledPricePerLb": null,
+      "boiledPriceText": "Unavailable/1LB",
+      "livePricePerLb": null,
+      "livePriceText": "Unavailable/1LB",
       "boiledSize": "Medium",
       "liveSize": "Medium",
       "rating": 4,
       "phone": "337-573-8669",
       "hours": null,
-      "updatedAt": "05/22/2026 11:45 AM CST"
+      "updatedAt": "06/04/2026 11:10 PM CST"
     },
     {
       "name": "Morvants Bar & Grill",
@@ -1077,7 +1077,7 @@
       "rating": 4,
       "phone": "337-856-7469",
       "hours": null,
-      "updatedAt": "05/21/2026 10:47 PM CST"
+      "updatedAt": "06/04/2026 11:25 PM CST"
     },
     {
       "name": "Rouses Market #23",

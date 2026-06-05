@@ -18,7 +18,7 @@
       "Crawfish Acadiana",
       "Crawfish Time"
     ],
-    "lastUpdated": "2026-06-04T12:01:10.780Z"
+    "lastUpdated": "2026-06-05T12:01:57.054Z"
   },
   "seasonOutlook": [
     "2026 season is \"looking good\" per LSU AgCenter (Todd Fontenot, crawfish extension agent)",
@@ -422,21 +422,6 @@
       "website": null,
       "phone": "337-364-1370",
       "rating": 5
-    },
-    {
-      "name": "Coastal Fire And Ice",
-      "address": "6412 Ambassador Caffery Pkwy.",
-      "city": "Youngsville",
-      "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $3.99/lb • Live $2.75/lb • Boiled size: Medium • Live size: Medium • Rating: 4/5",
-      "pricePerLbEstimate": 3.99,
-      "description": "Listed via The Crawfish App.",
-      "tags": [
-        "Price Tracker"
-      ],
-      "website": null,
-      "phone": "337-573-8669",
-      "rating": 4
     },
     {
       "name": "Crawfish Corner",
@@ -1039,6 +1024,21 @@
       "rating": 5
     },
     {
+      "name": "Coastal Fire And Ice",
+      "address": "6412 Ambassador Caffery Pkwy.",
+      "city": "Youngsville",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled size: Medium • Live size: Medium • Rating: 4/5",
+      "pricePerLbEstimate": null,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-573-8669",
+      "rating": 4
+    },
+    {
       "name": "Cooney’s Crawfish",
       "address": "4535 Moss Street",
       "city": "Lafayette",
@@ -1148,7 +1148,7 @@
       "address": "1005 Golden Grain Rd.",
       "city": "Rayne",
       "hours": "Call for seasonal hours",
-      "priceSummary": "Live $3.00/lb • Live size: Medium • Rating: 5/5",
+      "priceSummary": "Live size: Medium • Rating: 5/5",
       "pricePerLbEstimate": null,
       "description": "Listed via The Crawfish App.",
       "tags": [

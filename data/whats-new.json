@@ -1,12 +1,41 @@
 [
   {
+    "id": "which-fast-food-chains-are-missing-from-acadiana",
+    "title": "Which Fast Food Chains Are Missing From Acadiana?",
+    "source": "KPEL 96.5",
+    "sourceUrl": "https://kpel965.com/",
+    "url": "https://kpel965.com/fast-food-chains-acadiana-doesnt-have/",
+    "excerpt": "Local update from Which Fast Food Chains Are Missing From Acadiana?.",
+    "date": "2026-06-05T12:02:13.796Z",
+    "imageUrl": "https://townsquare.media/site/36/files/2026/06/attachment-gettyimages-2226374657.jpg?w=980&q=75",
+    "category": "Food News",
+    "tags": [
+      "food news",
+      "acadiana"
+    ]
+  },
+  {
+    "id": "sushi-bar-coming-to-eunice-walmart-store",
+    "title": "Sushi Bar Coming to Eunice Walmart Store",
+    "source": "KPEL 96.5",
+    "sourceUrl": "https://kpel965.com/",
+    "url": "https://kpel965.com/ixp/29/p/sushi-walmart/",
+    "excerpt": "Local update from Sushi Bar Coming to Eunice Walmart Store.",
+    "date": "2026-06-05T12:02:13.796Z",
+    "imageUrl": "https://townsquare.media/site/29/files/2025/12/attachment-gettyimages-2247687115.jpg?w=980&q=75",
+    "category": "New Restaurant",
+    "tags": [
+      "new restaurant"
+    ]
+  },
+  {
     "id": "daily-deluge-gets-even-wetter-for-louisianas-weekend",
     "title": "Daily Deluge Gets Even 'Wetter' for Louisiana's Weekend",
     "source": "KPEL 96.5",
     "sourceUrl": "https://kpel965.com/",
     "url": "https://kpel965.com/ixp/33/p/tropical-rainfall-louisiana/",
     "excerpt": "Local update from Daily Deluge Gets Even 'Wetter' for Louisiana's Weekend.",
-    "date": "2026-06-04T12:01:23.238Z",
+    "date": "2026-06-05T12:02:13.796Z",
     "imageUrl": "https://townsquare.media/site/33/files/2026/06/attachment-gettyimages-82628282.jpg?w=980&q=75",
     "category": "Event",
     "tags": [
@@ -21,7 +50,7 @@
     "sourceUrl": "https://kpel965.com/",
     "url": "https://kpel965.com/lafayette-fire-tampicos/",
     "excerpt": "Local update from Lafayette Fire Department Responds to Fire at Tampico’s Restaurant.",
-    "date": "2026-06-04T12:01:23.238Z",
+    "date": "2026-06-05T12:02:13.796Z",
     "imageUrl": "https://townsquare.media/site/36/files/2025/05/attachment-Lafayette-Fire-Truck-Photo-courtesy-of-Lafayette-Fire-Department.jpg?w=980&q=75",
     "category": "New Restaurant",
     "tags": [
@@ -31,35 +60,32 @@
     "city": "Lafayette"
   },
   {
-    "id": "three-acadiana-businesses-are-closing-including-a-longstanding-mexican-restauran",
-    "title": "Three Acadiana Businesses Are Closing Including a Longstanding Mexican Restaurant in Broussard",
+    "id": "which-fast-food-chains-are-missing-from-acadiana",
+    "title": "Which Fast Food Chains Are Missing From Acadiana?",
     "source": "973 The Dawg",
     "sourceUrl": "https://973thedawg.com/categories/lafayette-news/",
-    "url": "https://973thedawg.com/acadiana-business-closures/",
-    "excerpt": "Local update from Three Acadiana Businesses Are Closing Including a Longstanding Mexican Restaurant in Broussard.",
-    "date": "2026-06-04T12:01:23.110Z",
-    "imageUrl": "https://townsquare.media/site/33/files/2026/05/attachment-23370_17802cc478f5066.jpeg?w=980&q=75",
-    "category": "New Restaurant",
+    "url": "https://973thedawg.com/ixp/36/p/fast-food-chains-acadiana-doesnt-have/",
+    "excerpt": "Local update from Which Fast Food Chains Are Missing From Acadiana?.",
+    "date": "2026-06-05T12:02:13.641Z",
+    "imageUrl": "https://townsquare.media/site/36/files/2026/06/attachment-gettyimages-2226374657.jpg?w=980&q=75",
+    "category": "Food News",
     "tags": [
-      "new restaurant",
-      "mexican",
+      "food news",
       "acadiana"
-    ],
-    "city": "Broussard"
+    ]
   },
   {
-    "id": "mark-chesnutt-headlines-the-2026-delcambre-shrimp-festival",
-    "title": "Mark Chesnutt Headlines the 2026 Delcambre Shrimp Festival",
+    "id": "parents-this-louisiana-event-could-change-how-your-teen-drives",
+    "title": "Parents: This Louisiana Event Could Change How Your Teen Drives",
     "source": "973 The Dawg",
     "sourceUrl": "https://973thedawg.com/categories/lafayette-news/",
-    "url": "https://973thedawg.com/delcambre-shrimp-festival-2026/",
-    "excerpt": "Local update from Mark Chesnutt Headlines the 2026 Delcambre Shrimp Festival.",
-    "date": "2026-06-04T12:01:23.110Z",
-    "imageUrl": "https://townsquare.media/site/33/files/2026/05/attachment-gettyimages-484689251-1.jpg?w=980&q=75",
+    "url": "https://973thedawg.com/ixp/29/p/free-teen-driver-safety-event-louisiana/",
+    "excerpt": "Local update from Parents: This Louisiana Event Could Change How Your Teen Drives.",
+    "date": "2026-06-05T12:02:13.641Z",
+    "imageUrl": "https://townsquare.media/site/29/files/2026/06/attachment-louisiana-state-police-vehicle-2-tsm-photo.jpg?w=980&q=75",
     "category": "Event",
     "tags": [
-      "event",
-      "festival"
+      "event"
     ]
   },
   {
@@ -69,27 +95,11 @@
     "sourceUrl": "https://973thedawg.com/categories/lafayette-news/",
     "url": "https://973thedawg.com/ixp/36/p/lafayette-fire-tampicos/",
     "excerpt": "DJ Digital",
-    "date": "2026-06-04T12:01:23.109Z",
+    "date": "2026-06-05T12:02:13.641Z",
     "imageUrl": "https://townsquare.media/site/36/files/2025/05/attachment-Lafayette-Fire-Truck-Photo-courtesy-of-Lafayette-Fire-Department.jpg?w=980&q=75",
     "category": "New Restaurant",
     "tags": [
       "new restaurant",
-      "lafayette"
-    ],
-    "city": "Lafayette"
-  },
-  {
-    "id": "crunch-fitness-coming-soon-to-former-dirt-cheap-space-in-lafayette-la",
-    "title": "Crunch Fitness Coming Soon to Former Dirt Cheap Space in Lafayette, LA",
-    "source": "Developing Lafayette",
-    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
-    "url": "https://developinglafayette.com/wp/crunch-fitness-coming-soon-to-former-dirt-cheap-space-in-lafayette-la/",
-    "excerpt": "Local update from Crunch Fitness Coming Soon to Former Dirt Cheap Space in Lafayette, LA.",
-    "date": "2026-06-04T12:01:21.608Z",
-    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/05/56ac8b8e-700d-42c6-a79a-c0cd0cf2a66a-360x220.jpg",
-    "category": "Coming Soon",
-    "tags": [
-      "coming soon",
       "lafayette"
     ],
     "city": "Lafayette"
@@ -101,7 +111,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/back-nine-a-new-indoor-golf-venue-coming-soon-to-lafayette-la/",
     "excerpt": "Local Business Inside Luxe Flooring & Stone Now Open In Breaux Bridge, LA Luxe Flooring & Stone, a new locally owned and family-operated flooring, tile, and remodeling showroom, is now open at...",
-    "date": "2026-06-04T12:01:21.607Z",
+    "date": "2026-06-05T12:02:10.029Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/06/img_4754-2000x1200.jpg",
     "category": "Coming Soon",
     "tags": [
@@ -119,7 +129,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/rachaels-cafe-to-open-second-location-in-former-classic-cup-building-in-maurice-la/",
     "excerpt": "Entertainment Back Nine, A New Indoor Golf Venue Coming Soon To Lafayette, LA Back Nine, a national indoor golf simulator concept, is coming soon to 3809 Ambassador Caffery Parkway, Suite 133-C in...",
-    "date": "2026-06-04T12:01:21.607Z",
+    "date": "2026-06-05T12:02:10.029Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/06/892b60a4-aab9-448a-8d8c-b8d111b52ace-41433-000010dba80d6ea6_file-2000x1200.jpg",
     "category": "Coming Soon",
     "tags": [
@@ -131,17 +141,33 @@
     "city": "Lafayette"
   },
   {
-    "id": "local-business-sticks-billiards-spirits-relocating-to-new-johnston-street-locati",
-    "title": "Local Business Sticks Billiards & Spirits Relocating To New Johnston Street Location As Former Space Is Set For Demolition Sticks Billiards & Spirits, a longtime Lafayette billiards hall and bar, is relocating from its former space at 3220...",
+    "id": "crunch-fitness-coming-soon-to-former-dirt-cheap-space-in-lafayette-la",
+    "title": "Crunch Fitness Coming Soon to Former Dirt Cheap Space in Lafayette, LA",
     "source": "Developing Lafayette",
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
-    "url": "https://developinglafayette.com/wp/sticks-billiards-spirits-relocating-to-new-johnston-street-location-as-former-space-is-set-for-demolition/",
-    "excerpt": "Rachael’s Café, a well-known locally-owned restaurant at 104 Republic Avenue in Lafayette, LA, is expanding with a second location...",
-    "date": "2026-06-04T12:01:21.607Z",
-    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/06/d758a3cb-2eb3-43ad-be27-e5b007806d1e-2000x1200.jpg",
-    "category": "New Restaurant",
+    "url": "https://developinglafayette.com/wp/crunch-fitness-coming-soon-to-former-dirt-cheap-space-in-lafayette-la/",
+    "excerpt": "Local update from Crunch Fitness Coming Soon to Former Dirt Cheap Space in Lafayette, LA.",
+    "date": "2026-06-05T12:02:10.029Z",
+    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/05/56ac8b8e-700d-42c6-a79a-c0cd0cf2a66a-360x220.jpg",
+    "category": "Coming Soon",
     "tags": [
-      "new restaurant",
+      "coming soon",
+      "lafayette"
+    ],
+    "city": "Lafayette"
+  },
+  {
+    "id": "desi-mart-international-grocery-coming-soon-to-former-bismillah-groceries-locati",
+    "title": "Desi Mart International Grocery Coming Soon to Former Bismillah Groceries Location in Lafayette, LA",
+    "source": "Developing Lafayette",
+    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
+    "url": "https://developinglafayette.com/wp/desi-mart-international-grocery-coming-soon-to-former-bismillah-groceries-location-in-lafayette-la/",
+    "excerpt": "A new international grocery store, called Desi Mart, specializing in Indo-Pak and Middle Eastern products is coming soon to 2441",
+    "date": "2026-06-05T12:02:08.809Z",
+    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/06/225fcd84-ce08-4d5e-a534-ae88cbb192e2-2000x1200.jpg",
+    "category": "Coming Soon",
+    "tags": [
+      "coming soon",
       "new",
       "lafayette"
     ],
@@ -154,7 +180,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/campbell-academy-south-opening-new-early-childhood-education-campus-in-broussard-la/",
     "excerpt": "Local update from Campbell Academy South Opening New Early Childhood Education Campus In Broussard, LA.",
-    "date": "2026-06-04T12:01:21.594Z",
+    "date": "2026-06-05T12:02:08.809Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/05/db3a0a8f-662b-47dd-8fdc-e6bd387b98be-2000x1200.jpg",
     "category": "Business Opening",
     "tags": [
@@ -171,7 +197,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/new-los-orthopedic-urgent-care-therapy-clinic-coming-soon-to-youngsville-la/",
     "excerpt": "Local update from New LOS Orthopedic Urgent Care & Therapy Clinic Coming Soon to Youngsville, LA.",
-    "date": "2026-06-04T12:01:21.594Z",
+    "date": "2026-06-05T12:02:08.809Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/05/208bdff5-0add-424d-ab7c-7dae8e32b32f-2000x1200.jpg",
     "category": "Coming Soon",
     "tags": [
@@ -187,7 +213,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/candle-gift-shop-a-new-locally-owned-gift-store-is-now-open-at-ambassador-congress/",
     "excerpt": "Local update from Candle Gift Shop, A New Locally-owned Gift Store is Now Open at Ambassador & Congress.",
-    "date": "2026-06-04T12:01:21.594Z",
+    "date": "2026-06-05T12:02:08.809Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/05/7021d07d-42a1-4ed6-9891-1fe103e98d31-2000x1200.jpg",
     "category": "Business Opening",
     "tags": [
@@ -202,7 +228,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/beaubassin-farm-gardens-a-new-bb-and-event-venue-in-sunset-la/",
     "excerpt": "Local update from BeauBassin Farm & Gardens, A New B&B and Event Venue in Sunset, LA.",
-    "date": "2026-06-04T12:01:21.594Z",
+    "date": "2026-06-05T12:02:08.809Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/05/0aadf01b-889e-4c8b-ad28-c78114e87ed7.jpg",
     "category": "Event",
     "tags": [
@@ -217,7 +243,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/phin-de-louisiane-a-new-vietnamese-inspired-coffee-shop-coming-soon-to-youngsville-la/",
     "excerpt": "Local update from Phin de Louisiane, A New Vietnamese-Inspired Coffee Shop Coming Soon to Youngsville, LA.",
-    "date": "2026-06-04T12:01:21.594Z",
+    "date": "2026-06-05T12:02:08.809Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/05/c0deceb4-8e27-4c51-b523-3bd8187bbb2d-2000x1200.jpg",
     "category": "Coming Soon",
     "tags": [
@@ -228,78 +254,13 @@
     "city": "Youngsville"
   },
   {
-    "id": "all-day-a-new-all-day-restaurant-is-coming-soon-to-the-former-solou-space-in-laf",
-    "title": "All Day, A New “all-day” Restaurant is Coming Soon to the Former SoLou space in Lafayette, LA",
-    "source": "Developing Lafayette",
-    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
-    "url": "https://developinglafayette.com/wp/all-day-a-new-all-day-restaurant-is-coming-soon-to-the-former-solou-space-in-lafayette-la/",
-    "excerpt": "Local update from All Day, A New “all-day” Restaurant is Coming Soon to the Former SoLou space in Lafayette, LA.",
-    "date": "2026-06-04T12:01:20.521Z",
-    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/04/14bcd144-6ceb-49e3-b327-39a4a505bcc0-2000x1200.jpg",
-    "category": "Coming Soon",
-    "tags": [
-      "coming soon",
-      "new",
-      "lafayette"
-    ],
-    "city": "Lafayette"
-  },
-  {
-    "id": "tropical-smoothie-cafe-now-open-in-the-former-zorbas-space-in-youngsville-la",
-    "title": "Tropical Smoothie Cafe Now Open in the Former Zorba’s Space in Youngsville, LA",
-    "source": "Developing Lafayette",
-    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
-    "url": "https://developinglafayette.com/wp/tropical-smoothie-cafe-now-open-in-the-former-zorbas-space-in-youngsville-la/",
-    "excerpt": "Local update from Tropical Smoothie Cafe Now Open in the Former Zorba’s Space in Youngsville, LA.",
-    "date": "2026-06-04T12:01:20.521Z",
-    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/04/f94ed43d-6822-47c5-90c2-55632c08c104-2000x1200.jpg",
-    "category": "New Restaurant",
-    "tags": [
-      "new restaurant"
-    ],
-    "city": "Youngsville"
-  },
-  {
-    "id": "dunkin-coming-soon-to-broussard-la-inside-walmart-as-store-begins-renovations",
-    "title": "Dunkin’ Coming Soon to Broussard, LA Inside Walmart as Store Begins Renovations",
-    "source": "Developing Lafayette",
-    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
-    "url": "https://developinglafayette.com/wp/dunkin-coming-soon-to-broussard-la-inside-walmart-as-store-begins-renovations/",
-    "excerpt": "Local update from Dunkin’ Coming Soon to Broussard, LA Inside Walmart as Store Begins Renovations.",
-    "date": "2026-06-04T12:01:20.521Z",
-    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/04/3f87dcd8-388c-4d61-b672-05a454dde9f1.png",
-    "category": "Coming Soon",
-    "tags": [
-      "coming soon"
-    ],
-    "city": "Broussard"
-  },
-  {
-    "id": "agave-mexican-grill-cantina-reopens-downtown-lafayette-following-renovations",
-    "title": "Agave Mexican Grill & Cantina Reopens Downtown Lafayette Following Renovations",
-    "source": "Developing Lafayette",
-    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
-    "url": "https://developinglafayette.com/wp/agave-mexican-grill-cantina-reopens-downtown-lafayette-following-renovations/",
-    "excerpt": "Local update from Agave Mexican Grill & Cantina Reopens Downtown Lafayette Following Renovations.",
-    "date": "2026-06-04T12:01:20.521Z",
-    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/04/0bc5a2b5-3d91-4085-b597-163903a405bd-2000x1200.jpg",
-    "category": "Food News",
-    "tags": [
-      "food news",
-      "downtown",
-      "mexican",
-      "lafayette"
-    ],
-    "city": "Lafayette"
-  },
-  {
     "id": "kings-seafood-coming-soon-to-broussard-site-formerly-planned-for-coterie",
     "title": "King’s Seafood Coming Soon to Broussard Site Formerly Planned for Coterie",
     "source": "Developing Lafayette",
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/kings-seafood-coming-soon-to-broussard-site-formerly-planned-for-coterie/",
     "excerpt": "Local update from King’s Seafood Coming Soon to Broussard Site Formerly Planned for Coterie.",
-    "date": "2026-06-04T12:01:20.521Z",
+    "date": "2026-06-05T12:02:07.908Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/03/90d9c1a4-8068-47c0-be3e-4cb91bdb9d97-2000x1200.jpg",
     "category": "Coming Soon",
     "tags": [
@@ -315,7 +276,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/empire-wingz-opening-saturday-march-28th/",
     "excerpt": "Local update from Empire Wingz in Lafayette, LA Opening Saturday, March 28th.",
-    "date": "2026-06-04T12:01:20.521Z",
+    "date": "2026-06-05T12:02:07.908Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/03/91883576-b8ab-4f83-8295-b613b5655a4c-2000x1200.jpg",
     "category": "Business Opening",
     "tags": [
@@ -332,7 +293,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/large-retail-restaurant-development-under-construction-in-scott-la-at-destination-pointe/",
     "excerpt": "Local update from Large Retail/Restaurant Development Under Construction in Scott, LA at Destination Pointe.",
-    "date": "2026-06-04T12:01:20.521Z",
+    "date": "2026-06-05T12:02:07.908Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/03/35471aaf-e264-479c-be34-c7684db3ffe3-2000x1200.jpg",
     "category": "New Restaurant",
     "tags": [
@@ -341,13 +302,78 @@
     "city": "Scott"
   },
   {
+    "id": "all-day-a-new-all-day-restaurant-is-coming-soon-to-the-former-solou-space-in-laf",
+    "title": "All Day, A New “all-day” Restaurant is Coming Soon to the Former SoLou space in Lafayette, LA",
+    "source": "Developing Lafayette",
+    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
+    "url": "https://developinglafayette.com/wp/all-day-a-new-all-day-restaurant-is-coming-soon-to-the-former-solou-space-in-lafayette-la/",
+    "excerpt": "Local update from All Day, A New “all-day” Restaurant is Coming Soon to the Former SoLou space in Lafayette, LA.",
+    "date": "2026-06-05T12:02:07.907Z",
+    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/04/14bcd144-6ceb-49e3-b327-39a4a505bcc0-2000x1200.jpg",
+    "category": "Coming Soon",
+    "tags": [
+      "coming soon",
+      "new",
+      "lafayette"
+    ],
+    "city": "Lafayette"
+  },
+  {
+    "id": "tropical-smoothie-cafe-now-open-in-the-former-zorbas-space-in-youngsville-la",
+    "title": "Tropical Smoothie Cafe Now Open in the Former Zorba’s Space in Youngsville, LA",
+    "source": "Developing Lafayette",
+    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
+    "url": "https://developinglafayette.com/wp/tropical-smoothie-cafe-now-open-in-the-former-zorbas-space-in-youngsville-la/",
+    "excerpt": "Local update from Tropical Smoothie Cafe Now Open in the Former Zorba’s Space in Youngsville, LA.",
+    "date": "2026-06-05T12:02:07.907Z",
+    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/04/f94ed43d-6822-47c5-90c2-55632c08c104-2000x1200.jpg",
+    "category": "New Restaurant",
+    "tags": [
+      "new restaurant"
+    ],
+    "city": "Youngsville"
+  },
+  {
+    "id": "dunkin-coming-soon-to-broussard-la-inside-walmart-as-store-begins-renovations",
+    "title": "Dunkin’ Coming Soon to Broussard, LA Inside Walmart as Store Begins Renovations",
+    "source": "Developing Lafayette",
+    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
+    "url": "https://developinglafayette.com/wp/dunkin-coming-soon-to-broussard-la-inside-walmart-as-store-begins-renovations/",
+    "excerpt": "Local update from Dunkin’ Coming Soon to Broussard, LA Inside Walmart as Store Begins Renovations.",
+    "date": "2026-06-05T12:02:07.907Z",
+    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/04/3f87dcd8-388c-4d61-b672-05a454dde9f1.png",
+    "category": "Coming Soon",
+    "tags": [
+      "coming soon"
+    ],
+    "city": "Broussard"
+  },
+  {
+    "id": "agave-mexican-grill-cantina-reopens-downtown-lafayette-following-renovations",
+    "title": "Agave Mexican Grill & Cantina Reopens Downtown Lafayette Following Renovations",
+    "source": "Developing Lafayette",
+    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
+    "url": "https://developinglafayette.com/wp/agave-mexican-grill-cantina-reopens-downtown-lafayette-following-renovations/",
+    "excerpt": "Local update from Agave Mexican Grill & Cantina Reopens Downtown Lafayette Following Renovations.",
+    "date": "2026-06-05T12:02:07.907Z",
+    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/04/0bc5a2b5-3d91-4085-b597-163903a405bd-2000x1200.jpg",
+    "category": "Food News",
+    "tags": [
+      "food news",
+      "downtown",
+      "mexican",
+      "lafayette"
+    ],
+    "city": "Lafayette"
+  },
+  {
     "id": "blazin-hot-chicken-coming-soon-to-the-former-wendys-space-in-broussard-la",
     "title": "Blazin’ Hot Chicken Coming Soon to the Former Wendy’s space in Broussard, LA",
     "source": "Developing Lafayette",
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/blazin-hot-chicken-coming-soon-to-the-former-wendys-space-in-broussard-la/",
     "excerpt": "Local update from Blazin’ Hot Chicken Coming Soon to the Former Wendy’s space in Broussard, LA.",
-    "date": "2026-06-04T12:01:20.520Z",
+    "date": "2026-06-05T12:02:07.905Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/05/19258251-aa98-4761-bde2-869d722b09f5-2000x1200.jpg",
     "category": "Coming Soon",
     "tags": [
