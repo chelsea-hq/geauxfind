@@ -1,7 +1,7 @@
 {
   "source": "The Crawfish App",
   "sourceLink": "https://www.thecrawfishapp.com/VendorSearchUi",
-  "lastUpdated": "2026-06-05T12:01:57.054Z",
+  "lastUpdated": "2026-06-06T11:31:53.412Z",
   "cities": [
     {
       "city": "Lafayette",
@@ -95,14 +95,14 @@
       "city": "Abbeville",
       "boiledPricePerLb": null,
       "boiledPriceText": "Unavailable/1LB",
-      "livePricePerLb": 3,
-      "livePriceText": "$3.00/1LB",
+      "livePricePerLb": null,
+      "livePriceText": "Unavailable/1LB",
       "boiledSize": "Small",
       "liveSize": "Large",
       "rating": 4,
       "phone": "337-893-9029",
       "hours": null,
-      "updatedAt": "05/28/2026 03:33 PM CST"
+      "updatedAt": "06/05/2026 10:14 PM CST"
     },
     {
       "name": "Jo Mama’s Crawfish",
