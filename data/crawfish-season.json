@@ -6,7 +6,7 @@
     "quickStats": "18 Spots • $5-10/lb • March-May Peak"
   },
   "priceTracker": {
-    "currentRange": "$2.99 - $7.33/lb boiled",
+    "currentRange": "$2.99 - $7.32/lb boiled",
     "trend": "Prices are dropping! Down from $10+ in January",
     "bestDealTip": "Best deals: Buy direct from farm drive-thrus",
     "proTip": "Most places don't start boiling until 4-5pm — call ahead for lunch",
@@ -18,7 +18,7 @@
       "Crawfish Acadiana",
       "Crawfish Time"
     ],
-    "lastUpdated": "2026-06-06T11:31:53.412Z"
+    "lastUpdated": "2026-06-07T11:34:22.675Z"
   },
   "seasonOutlook": [
     "2026 season is \"looking good\" per LSU AgCenter (Todd Fontenot, crawfish extension agent)",
@@ -934,6 +934,21 @@
       "rating": 5
     },
     {
+      "name": "Young's Sports Grill",
+      "address": "305 E Main Street",
+      "city": "Broussard",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $6.99/lb • Boiled size: Medium • Live size: Large • Rating: 5/5",
+      "pricePerLbEstimate": 6.99,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-330-2900",
+      "rating": 5
+    },
+    {
       "name": "Don's Seafood",
       "address": "4309 Johnston St, Lafayette, LA 70503",
       "city": "Lafayette",
@@ -947,21 +962,6 @@
       "website": null,
       "phone": "337-981-1159",
       "rating": 0
-    },
-    {
-      "name": "Young's Sports Grill",
-      "address": "305 E Main Street",
-      "city": "Broussard",
-      "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $7.33/lb • Boiled size: Medium • Live size: Large • Rating: 5/5",
-      "pricePerLbEstimate": 7.33,
-      "description": "Listed via The Crawfish App.",
-      "tags": [
-        "Price Tracker"
-      ],
-      "website": null,
-      "phone": "337-330-2900",
-      "rating": 5
     },
     {
       "name": "Boil & Geaux LLC",

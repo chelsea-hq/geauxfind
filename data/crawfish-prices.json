@@ -1,7 +1,7 @@
 {
   "source": "The Crawfish App",
   "sourceLink": "https://www.thecrawfishapp.com/VendorSearchUi",
-  "lastUpdated": "2026-06-06T11:31:53.412Z",
+  "lastUpdated": "2026-06-07T11:34:22.675Z",
   "cities": [
     {
       "city": "Lafayette",
@@ -318,8 +318,8 @@
       "name": "Young's Sports Grill",
       "address": "305 E Main Street",
       "city": "Broussard",
-      "boiledPricePerLb": 7.33,
-      "boiledPriceText": "$7.33/1LB",
+      "boiledPricePerLb": 6.99,
+      "boiledPriceText": "$6.99/1LB",
       "livePricePerLb": null,
       "livePriceText": "Unavailable/1LB",
       "boiledSize": "Medium",
@@ -327,7 +327,7 @@
       "rating": 5,
       "phone": "337-330-2900",
       "hours": null,
-      "updatedAt": "06/04/2026 07:48 PM CST"
+      "updatedAt": "06/06/2026 10:41 AM CST"
     },
     {
       "name": "Carencro Seafood Corner",
@@ -687,7 +687,7 @@
       "rating": 0,
       "phone": "337-572-9340",
       "hours": null,
-      "updatedAt": "05/28/2026 06:09 PM CST"
+      "updatedAt": "06/06/2026 10:17 PM CST"
     },
     {
       "name": "Super 1 Foods",
