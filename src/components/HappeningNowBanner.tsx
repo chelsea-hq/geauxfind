@@ -1,9 +1,9 @@
 import Link from "next/link";
-import { events } from "@/data/mock-data";
 
 // Picks a single highest-priority event happening RIGHT NOW (today is between
 // startDate and endDate). Used at the top of the home page so the biggest
-// thing happening in town gets a hero treatment.
+// thing happening in town gets a hero treatment. Events are passed in from the
+// page so this component never imports the full dataset into the client bundle.
 
 const FESTIVAL_KEYWORDS = /festival international|mardi gras|festival acadiens|festivals acadiens|cinema on the bayou|frog festival|sugar cane festival|crawfish festival/i;
 
@@ -17,7 +17,7 @@ type HappeningEvent = {
   category?: string;
 };
 
-function pickHero(now = new Date()): HappeningEvent | null {
+function pickHero(events: HappeningEvent[], now = new Date()): HappeningEvent | null {
   const todayMs = now.getTime();
 
   const live = events.filter((e) => {
@@ -38,8 +38,8 @@ function daysLeft(endDate: string, now = new Date()): number {
   return Math.max(0, Math.ceil((end - now.getTime()) / (24 * 60 * 60 * 1000)));
 }
 
-export function HappeningNowBanner() {
-  const event = pickHero();
+export function HappeningNowBanner({ events }: { events: HappeningEvent[] }) {
+  const event = pickHero(events);
   if (!event) return null;
 
   const remaining = daysLeft(event.endDate || event.date);

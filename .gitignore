@@ -46,3 +46,9 @@ next-env.d.ts
 data/cache/
 .gstack/
 *.dry-run.json
+
+# runtime PII sinks: user-submitted contact info (never commit; repo is public)
+data/claims.json
+data/business-claims.json
+data/alert-subscriptions.json
+data/newsletter-subscribers.json

@@ -3,7 +3,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
-import { places } from "@/data/mock-data";
 import type { CommunitySubmission } from "@/types";
 import type { RecSubmission } from "@/app/api/recs/route";
 
@@ -20,8 +19,13 @@ function badgeFor(userCount: number, topVotes: number) {
 
 type Tab = "recs" | "tips";
 
+// Slim place reference (name + slug) for the "Drop a Geaux" place autocomplete.
+// Fetched from the slim search index so the full seed dataset never ships here.
+type PlaceRef = { slug: string; name: string };
+
 export default function CommunityPage() {
   const [tab, setTab] = useState<Tab>("recs");
+  const [placeRefs, setPlaceRefs] = useState<PlaceRef[]>([]);
 
   // --- Recs state ---
   const [recs, setRecs] = useState<RecSubmission[]>([]);
@@ -40,6 +44,13 @@ export default function CommunityPage() {
   useEffect(() => {
     fetch("/api/community").then((r) => r.json()).then(setItems).catch(() => setItems([]));
     fetch("/api/recs").then((r) => r.json()).then(setRecs).catch(() => setRecs([]));
+    fetch("/api/search-index")
+      .then((r) => r.json())
+      .then((data) => {
+        const items = Array.isArray(data?.items) ? data.items : [];
+        setPlaceRefs(items.map((item: { slug: string; name: string }) => ({ slug: item.slug, name: item.name })));
+      })
+      .catch(() => setPlaceRefs([]));
   }, []);
 
   const leaderboard = useMemo(() => {
@@ -221,10 +232,10 @@ export default function CommunityPage() {
                 {types.map((type) => <option key={type}>{type}</option>)}
               </select>
               <input list="place-list" className="rounded-lg border p-2" placeholder="Place name" onChange={(e) => {
-                const place = places.find((p) => p.name.toLowerCase() === e.target.value.toLowerCase());
+                const place = placeRefs.find((p) => p.name.toLowerCase() === e.target.value.toLowerCase());
                 setForm((f) => ({ ...f, placeName: e.target.value, placeSlug: place?.slug || "" }));
               }} />
-              <datalist id="place-list">{places.slice(0, 150).map((p) => <option key={p.slug} value={p.name} />)}</datalist>
+              <datalist id="place-list">{placeRefs.slice(0, 150).map((p) => <option key={p.slug} value={p.name} />)}</datalist>
               <input className="rounded-lg border p-2" placeholder="Your name (or Anonymous Geaux)" onChange={(e) => setForm((f) => ({ ...f, authorName: e.target.value || "Anonymous Geaux" }))} />
               <input type="file" accept="image/*" className="rounded-lg border p-2" onChange={(e) => setPhotoFile(e.target.files?.[0] || null)} />
             </div>

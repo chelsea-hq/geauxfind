@@ -1,14 +1,21 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
-import seedPlaces from "../../../scripts/seed-data.json";
+import { useEffect, useMemo, useState } from "react";
 import type { Place } from "@/types";
-
-const places = seedPlaces as Place[];
 
 export default function ClaimDirectoryPage() {
   const [query, setQuery] = useState("");
+  const [places, setPlaces] = useState<Place[]>([]);
+
+  // Fetch places from the API so the full seed dataset never ships in this
+  // client bundle (it used to import scripts/seed-data.json directly).
+  useEffect(() => {
+    fetch("/api/places?limit=800", { cache: "no-store" })
+      .then((r) => r.json())
+      .then((data) => setPlaces(Array.isArray(data?.places) ? data.places : []))
+      .catch(() => setPlaces([]));
+  }, []);
 
   const results = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -19,14 +26,14 @@ export default function ClaimDirectoryPage() {
         return haystack.includes(q);
       })
       .slice(0, 60);
-  }, [query]);
+  }, [query, places]);
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-10">
       <section className="rounded-[12px] border border-[var(--spanish-moss)]/30 bg-white p-6 md:p-8">
         <p className="text-xs tracking-[0.18em] text-[var(--moss)]">FOR ACADIANA BUSINESS OWNERS</p>
         <h1 className="mt-2 font-serif text-3xl text-[var(--cajun-red)] md:text-5xl">Own a business in Acadiana? Claim your free listing.</h1>
-        <p className="mt-3 max-w-3xl text-sm text-[var(--warm-gray)] md:text-base">Search all {places.length} listings, verify your ownership, and update your business profile in minutes.</p>
+        <p className="mt-3 max-w-3xl text-sm text-[var(--warm-gray)] md:text-base">Search all {Math.max(places.length, 4000)} listings, verify your ownership, and update your business profile in minutes.</p>
 
         <input
           value={query}
