@@ -1,7 +1,7 @@
 {
   "source": "The Crawfish App",
   "sourceLink": "https://www.thecrawfishapp.com/VendorSearchUi",
-  "lastUpdated": "2026-06-11T12:22:15.728Z",
+  "lastUpdated": "2026-06-12T12:05:54.055Z",
   "cities": [
     {
       "city": "Lafayette",
@@ -132,14 +132,14 @@
       "rating": 5,
       "phone": "337-893-6761",
       "hours": null,
-      "updatedAt": "06/03/2026 11:38 PM CST"
+      "updatedAt": "06/11/2026 08:06 PM CST"
     },
     {
       "name": "Richard's Seafood Patio",
       "address": "1516 S Henry St.",
       "city": "Abbeville",
-      "boiledPricePerLb": 5.32,
-      "boiledPriceText": "$5.32/1LB",
+      "boiledPricePerLb": null,
+      "boiledPriceText": "Unavailable/1LB",
       "livePricePerLb": null,
       "livePriceText": "Not sold/1LB",
       "boiledSize": "Large",
@@ -147,7 +147,7 @@
       "rating": 5,
       "phone": "337-893-1693",
       "hours": null,
-      "updatedAt": "06/03/2026 11:37 PM CST"
+      "updatedAt": "06/11/2026 08:06 PM CST"
     },
     {
       "name": "Sack Daddy's Crawfish",
@@ -228,8 +228,8 @@
       "name": "Randol's",
       "address": "325 West Mills Ave.",
       "city": "Breaux Bridge",
-      "boiledPricePerLb": 6,
-      "boiledPriceText": "$6.00/1LB",
+      "boiledPricePerLb": 5.75,
+      "boiledPriceText": "$5.75/1LB",
       "livePricePerLb": null,
       "livePriceText": "Unavailable/1LB",
       "boiledSize": "Medium",
@@ -237,7 +237,7 @@
       "rating": 5,
       "phone": "337-332-4648",
       "hours": null,
-      "updatedAt": "06/04/2026 08:59 AM CST"
+      "updatedAt": "06/11/2026 09:31 AM CST"
     },
     {
       "name": "Boil & Geaux LLC",
@@ -312,7 +312,7 @@
       "rating": 5,
       "phone": "337-236-0662",
       "hours": null,
-      "updatedAt": "06/03/2026 03:05 PM CST"
+      "updatedAt": "06/11/2026 08:31 PM CST"
     },
     {
       "name": "Young's Sports Grill",
@@ -417,7 +417,7 @@
       "rating": 5,
       "phone": "337-788-1600",
       "hours": null,
-      "updatedAt": "06/03/2026 11:36 PM CST"
+      "updatedAt": "06/11/2026 08:06 PM CST"
     },
     {
       "name": "Mikey’s Seafood & Specialty Meats Crowley",
@@ -612,7 +612,7 @@
       "rating": 3,
       "phone": "337-988-2645",
       "hours": null,
-      "updatedAt": "06/03/2026 11:21 PM CST"
+      "updatedAt": "06/11/2026 05:10 PM CST"
     },
     {
       "name": "Rouses Market #45",
@@ -687,7 +687,7 @@
       "rating": 0,
       "phone": "337-572-9340",
       "hours": null,
-      "updatedAt": "06/06/2026 10:17 PM CST"
+      "updatedAt": "06/12/2026 06:51 AM CST"
     },
     {
       "name": "Super 1 Foods",
@@ -747,7 +747,7 @@
       "rating": 5,
       "phone": "337-981-1114",
       "hours": null,
-      "updatedAt": "06/03/2026 11:22 PM CST"
+      "updatedAt": "06/11/2026 05:10 PM CST"
     },
     {
       "name": "Fremin's Magic Dust Crawfish Express",
@@ -755,14 +755,14 @@
       "city": "New Iberia",
       "boiledPricePerLb": null,
       "boiledPriceText": "Unavailable/1LB",
-      "livePricePerLb": 3,
-      "livePriceText": "$3.00/1LB",
+      "livePricePerLb": null,
+      "livePriceText": "Unavailable/1LB",
       "boiledSize": "Large",
       "liveSize": "Large",
       "rating": 5,
       "phone": "337-365-6657",
       "hours": null,
-      "updatedAt": "05/31/2026 09:10 PM CST"
+      "updatedAt": "06/11/2026 08:24 PM CST"
     },
     {
       "name": "Jane's Seafood",
@@ -777,7 +777,7 @@
       "rating": 5,
       "phone": "337-365-5412",
       "hours": null,
-      "updatedAt": "05/28/2026 10:32 PM CST"
+      "updatedAt": "06/11/2026 04:22 PM CST"
     },
     {
       "name": "R&M Boiling Point",
@@ -837,7 +837,7 @@
       "rating": 5,
       "phone": "337-364-1370",
       "hours": null,
-      "updatedAt": "05/28/2026 10:35 PM CST"
+      "updatedAt": "06/11/2026 04:29 PM CST"
     },
     {
       "name": "Bonanza Boilers",
@@ -858,16 +858,16 @@
       "name": "Crawfish Corner",
       "address": "529 South Union St.",
       "city": "Opelousas",
-      "boiledPricePerLb": 4,
-      "boiledPriceText": "$4.00/1LB",
-      "livePricePerLb": 2.75,
-      "livePriceText": "$2.75/1LB",
+      "boiledPricePerLb": 3,
+      "boiledPriceText": "$3.00/1LB",
+      "livePricePerLb": 2.5,
+      "livePriceText": "$2.50/1LB",
       "boiledSize": "Medium",
       "liveSize": null,
       "rating": 5,
       "phone": "337-407-2529",
       "hours": null,
-      "updatedAt": "06/03/2026 11:23 PM CST"
+      "updatedAt": "06/11/2026 05:11 PM CST"
     },
     {
       "name": "Crawfish House",
@@ -903,8 +903,8 @@
       "name": "Crawfish Man",
       "address": "158 W Martin Luther King Jr. Dr.",
       "city": "Opelousas",
-      "boiledPricePerLb": 6,
-      "boiledPriceText": "$6.00/1LB",
+      "boiledPricePerLb": null,
+      "boiledPriceText": "Unavailable/1LB",
       "livePricePerLb": null,
       "livePriceText": "Unavailable/1LB",
       "boiledSize": null,
@@ -912,7 +912,7 @@
       "rating": 5,
       "phone": "337-678-0946",
       "hours": null,
-      "updatedAt": "06/03/2026 11:35 PM CST"
+      "updatedAt": "06/11/2026 08:06 PM CST"
     },
     {
       "name": "Duos Cajun Corner",
@@ -942,7 +942,7 @@
       "rating": 0,
       "phone": "337-948-7802",
       "hours": null,
-      "updatedAt": "05/28/2026 10:35 PM CST"
+      "updatedAt": "06/11/2026 04:29 PM CST"
     },
     {
       "name": "Boulet's Boil-N-Go Rayne",
@@ -1002,7 +1002,7 @@
       "rating": 0,
       "phone": "337-514-3231",
       "hours": null,
-      "updatedAt": "06/03/2026 11:33 PM CST"
+      "updatedAt": "06/11/2026 05:15 PM CST"
     },
     {
       "name": "Cody’s Crawfish Shop",

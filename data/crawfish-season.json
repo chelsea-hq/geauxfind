@@ -18,7 +18,7 @@
       "Crawfish Acadiana",
       "Crawfish Time"
     ],
-    "lastUpdated": "2026-06-11T12:22:15.728Z"
+    "lastUpdated": "2026-06-12T12:05:54.055Z"
   },
   "seasonOutlook": [
     "2026 season is \"looking good\" per LSU AgCenter (Todd Fontenot, crawfish extension agent)",
@@ -334,6 +334,21 @@
       "rating": 0
     },
     {
+      "name": "Crawfish Corner",
+      "address": "529 South Union St.",
+      "city": "Opelousas",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $3.00/lb • Live $2.50/lb • Boiled size: Medium • Rating: 5/5",
+      "pricePerLbEstimate": 3,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-407-2529",
+      "rating": 5
+    },
+    {
       "name": "Pogie’s Boil House",
       "address": "226 St Nazaire Rd.",
       "city": "Broussard",
@@ -421,21 +436,6 @@
       ],
       "website": null,
       "phone": "337-364-1370",
-      "rating": 5
-    },
-    {
-      "name": "Crawfish Corner",
-      "address": "529 South Union St.",
-      "city": "Opelousas",
-      "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $4.00/lb • Live $2.75/lb • Boiled size: Medium • Rating: 5/5",
-      "pricePerLbEstimate": 4,
-      "description": "Listed via The Crawfish App.",
-      "tags": [
-        "Price Tracker"
-      ],
-      "website": null,
-      "phone": "337-407-2529",
       "rating": 5
     },
     {
@@ -664,21 +664,6 @@
       "rating": 4
     },
     {
-      "name": "Richard's Seafood Patio",
-      "address": "1516 S Henry St.",
-      "city": "Abbeville",
-      "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $5.32/lb • Boiled size: Large • Rating: 5/5",
-      "pricePerLbEstimate": 5.32,
-      "description": "Listed via The Crawfish App.",
-      "tags": [
-        "Price Tracker"
-      ],
-      "website": null,
-      "phone": "337-893-1693",
-      "rating": 5
-    },
-    {
       "name": "Crawfish House",
       "address": "2004 West Landry St.",
       "city": "Opelousas",
@@ -706,6 +691,21 @@
       ],
       "website": null,
       "phone": "337-652-8520",
+      "rating": 5
+    },
+    {
+      "name": "Randol's",
+      "address": "325 West Mills Ave.",
+      "city": "Breaux Bridge",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $5.75/lb • Boiled size: Medium • Live size: Medium • Rating: 5/5",
+      "pricePerLbEstimate": 5.75,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-332-4648",
       "rating": 5
     },
     {
@@ -754,21 +754,6 @@
       "rating": 0
     },
     {
-      "name": "Crawfish Man",
-      "address": "158 W Martin Luther King Jr. Dr.",
-      "city": "Opelousas",
-      "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $6.00/lb • Rating: 5/5",
-      "pricePerLbEstimate": 6,
-      "description": "Listed via The Crawfish App.",
-      "tags": [
-        "Price Tracker"
-      ],
-      "website": null,
-      "phone": "337-678-0946",
-      "rating": 5
-    },
-    {
       "name": "Crawfish Spot",
       "address": "1899 W Pinhook Rd.",
       "city": "Lafayette",
@@ -796,21 +781,6 @@
       ],
       "website": null,
       "phone": "337-332-3071",
-      "rating": 5
-    },
-    {
-      "name": "Randol's",
-      "address": "325 West Mills Ave.",
-      "city": "Breaux Bridge",
-      "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $6.00/lb • Boiled size: Medium • Live size: Medium • Rating: 5/5",
-      "pricePerLbEstimate": 6,
-      "description": "Listed via The Crawfish App.",
-      "tags": [
-        "Price Tracker"
-      ],
-      "website": null,
-      "phone": "337-332-4648",
       "rating": 5
     },
     {
@@ -1039,6 +1009,21 @@
       "rating": 0
     },
     {
+      "name": "Crawfish Man",
+      "address": "158 W Martin Luther King Jr. Dr.",
+      "city": "Opelousas",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Rating: 5/5",
+      "pricePerLbEstimate": null,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-678-0946",
+      "rating": 5
+    },
+    {
       "name": "D&T Crawfish",
       "address": "3140 Veterans Memorial Dr.",
       "city": "Abbeville",
@@ -1088,7 +1073,7 @@
       "address": "603 W Admiral Doyle Dr.",
       "city": "New Iberia",
       "hours": "Call for seasonal hours",
-      "priceSummary": "Live $3.00/lb • Boiled size: Large • Live size: Large • Rating: 5/5",
+      "priceSummary": "Boiled size: Large • Live size: Large • Rating: 5/5",
       "pricePerLbEstimate": null,
       "description": "Listed via The Crawfish App.",
       "tags": [
@@ -1171,6 +1156,21 @@
       ],
       "website": null,
       "phone": "337-893-6761",
+      "rating": 5
+    },
+    {
+      "name": "Richard's Seafood Patio",
+      "address": "1516 S Henry St.",
+      "city": "Abbeville",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled size: Large • Rating: 5/5",
+      "pricePerLbEstimate": null,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-893-1693",
       "rating": 5
     },
     {
