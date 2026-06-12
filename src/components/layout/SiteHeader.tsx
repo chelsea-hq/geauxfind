@@ -20,6 +20,7 @@ const thingsToDoLinks = GUIDE_CATEGORIES["things-to-do"].items.map((item) => [it
 const exploreLinks = [
   ["/tonight", "Tonight in Acadiana"],
   ["/this-weekend", "This Weekend"],
+  ["/trending", "Trending Now"],
   ["/city", "City Guides"],
   ["/best", "Best Of Acadiana"],
   ["/best-of", "Community Picks"],

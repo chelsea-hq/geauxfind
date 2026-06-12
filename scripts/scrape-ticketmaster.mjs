@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { writeJson, readSecrets } from "./lib/source-utils.mjs";
+import { writeJson, readSecrets, fetchWithRetry } from "./lib/source-utils.mjs";
 
 /**
  * Ticketmaster Discovery API scraper
@@ -18,7 +18,7 @@ async function search(city, key) {
   u.searchParams.set("size", "100");
   u.searchParams.set("sort", "date,asc");
   u.searchParams.set("classificationName", "music,sports,arts & theatre,miscellaneous");
-  const res = await fetch(u);
+  const res = await fetchWithRetry(u);
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   return res.json();
 }

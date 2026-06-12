@@ -24,7 +24,7 @@ function getPlaceImage(coverPhoto: string | null, photos: string[] | null): stri
   // Fall back to first photo from Google Places gallery
   if (photos && photos.length > 0) return photos[0];
   // Last resort placeholder
-  return "/images/placeholders/place.svg";
+  return "/placeholders/default.svg";
 }
 
 function normalizeHours(hours: unknown): string[] {

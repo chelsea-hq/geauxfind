@@ -1,5 +1,7 @@
 {
-  "matched": 4299,
-  "addedNew": 2,
+  "matched": 4119,
+  "addedNew": 30,
+  "dedupedOnWrite": 0,
+  "junkDropped": 0,
   "conflicts": []
 }

@@ -1,9 +1,12 @@
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { load } from "cheerio";
+import { fetchWithRetry, writeJsonGuarded } from "./fetch-retry.mjs";
 
 export const USER_AGENT = "GeauxFindBot/1.0 (+https://geauxfind.local)";
+
+export { fetchWithRetry, writeJsonGuarded };
 
 export function cleanText(v = "") {
   return String(v)
@@ -71,7 +74,7 @@ export async function readSecrets() {
 }
 
 export async function fetchHtml(url) {
-  const res = await fetch(url, {
+  const res = await fetchWithRetry(url, {
     headers: {
       "User-Agent": USER_AGENT,
       Accept: "text/html,application/xhtml+xml"
@@ -125,6 +128,6 @@ export async function writeJson(relPath, payload) {
   const __dirname = path.dirname(__filename);
   const outPath = path.resolve(__dirname, "../..", relPath);
   await mkdir(path.dirname(outPath), { recursive: true });
-  await writeFile(outPath, `${JSON.stringify(payload, null, 2)}\n`);
+  await writeJsonGuarded(outPath, payload);
   return outPath;
 }

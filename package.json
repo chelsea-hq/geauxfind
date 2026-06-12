@@ -55,7 +55,9 @@
     "freshness:check": "node scripts/freshness-check.mjs",
     "apply:verification": "node scripts/apply-verification.mjs",
     "extract:praise": "node scripts/extract-praise-tags.mjs",
-    "verify:websites": "node scripts/verify-guide-websites.mjs"
+    "verify:websites": "node scripts/verify-guide-websites.mjs",
+    "fix:seed": "node scripts/fix-seed-data.mjs",
+    "verify:places": "node scripts/verify-places.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.9.0",

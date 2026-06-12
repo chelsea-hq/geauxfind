@@ -2,6 +2,7 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { fetchWithRetry, writeJsonGuarded } from "./lib/fetch-retry.mjs";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -106,7 +107,7 @@ async function fetchCityVendors(city) {
 
   while (start === 0 || start < recordsFiltered) {
     const body = makeDtPayload(city, start, pageLength);
-    const response = await fetch(API_URL, {
+    const response = await fetchWithRetry(API_URL, {
       method: "POST",
       headers: {
         "content-type": "application/x-www-form-urlencoded; charset=UTF-8"
@@ -298,7 +299,7 @@ async function main() {
 
   const dataDir = path.join(projectRoot, "data");
   await mkdir(dataDir, { recursive: true });
-  await writeFile(path.join(dataDir, "crawfish-prices.json"), `${JSON.stringify(pricePayload, null, 2)}\n`, "utf8");
+  await writeJsonGuarded(path.join(dataDir, "crawfish-prices.json"), pricePayload);
 
   const seasonPath = path.join(dataDir, "crawfish-season.json");
   const seasonData = JSON.parse(await readFile(seasonPath, "utf8"));

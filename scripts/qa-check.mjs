@@ -226,6 +226,11 @@ async function checkConsoleErrorsWithPlaywright() {
   } catch {
     console.log("\n⚠️  Playwright not installed; browser-based error checks skipped");
     console.log("   Install: npm i -D playwright && npx playwright install chromium --only-shell");
+    // In CI this means the runtime-exception checks silently vanished -
+    // record it as a failure so the QA report reflects the reduced coverage.
+    if (process.env.CI) {
+      check(false, "qa-runner", "BROWSER_CHECKS", "Playwright unavailable in CI; browser smoke tests did not run");
+    }
     return;
   }
 

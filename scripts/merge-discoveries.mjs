@@ -12,6 +12,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { nameCityKey, normalizePlace } from './lib/places.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -122,15 +123,27 @@ async function main() {
     console.log(`Limited to ${limit} businesses for this run`);
   }
   
-  // Existing slugs to avoid collisions
+  // Existing identities: a discovery matching any of these is already in the
+  // dataset and must be skipped, not re-added under a suffixed slug.
   const existingSlugs = new Set(seedData.map(p => p.slug));
-  
+  const existingPlaceIds = new Set(seedData.map(p => p.google_place_id).filter(Boolean));
+  const existingNameCity = new Set(seedData.map(p => nameCityKey(p)));
+
   const newEntries = [];
+  let skippedExisting = 0;
   let detailCalls = 0;
-  
+
   for (let i = 0; i < discoveries.length; i++) {
     const d = discoveries[i];
-    
+
+    if (
+      (d.place_id && existingPlaceIds.has(d.place_id)) ||
+      existingNameCity.has(nameCityKey({ name: d.name, city: d.city }))
+    ) {
+      skippedExisting++;
+      continue;
+    }
+
     let slug = makeSlug(d.name);
     let suffix = 2;
     while (existingSlugs.has(slug)) {
@@ -138,6 +151,8 @@ async function main() {
       suffix++;
     }
     existingSlugs.add(slug);
+    if (d.place_id) existingPlaceIds.add(d.place_id);
+    existingNameCity.add(nameCityKey({ name: d.name, city: d.city }));
     
     const entry = {
       name: d.name,
@@ -148,7 +163,7 @@ async function main() {
       neighborhood: detectNeighborhood(d.city, d.address),
       description: '',
       rating: d.rating,
-      reviews: d.review_count || 0,
+      reviews: [],
       google_rating: d.rating,
       google_review_count: d.review_count || 0,
       google_place_id: d.place_id,
@@ -160,7 +175,7 @@ async function main() {
       phone: null,
       website: null,
       hours: null,
-      image: '/images/placeholder-cajun.jpg',
+      image: '/placeholders/default.svg',
       photo_references: d.photo_ref ? [d.photo_ref] : [],
       featured: false,
       status: 'active',
@@ -178,7 +193,7 @@ async function main() {
           entry.google_maps_url = details.url || entry.google_maps_url;
           
           if (details.opening_hours?.weekday_text) {
-            entry.hours = details.opening_hours.weekday_text.join('\n');
+            entry.hours = details.opening_hours.weekday_text.map(String);
           }
           
           // Get first photo reference
@@ -199,12 +214,13 @@ async function main() {
       }
     }
     
-    newEntries.push(entry);
+    newEntries.push(normalizePlace(entry));
   }
-  
+
   // Merge
   const merged = [...seedData, ...newEntries];
   await fs.writeFile(SEED_PATH, JSON.stringify(merged, null, 2) + '\n');
+  if (skippedExisting) console.log(`Skipped ${skippedExisting} discoveries already in seed-data`);
   
   console.log(`\n═══════════════════════════════════════`);
   console.log(`MERGE COMPLETE`);

@@ -7,10 +7,14 @@ interface JsonLdProps<T extends JsonLdObject> {
 }
 
 export function JsonLd<T extends JsonLdObject>({ data }: JsonLdProps<T>) {
+  // JSON.stringify does not escape "<", so a data value containing
+  // "</script>" would close the tag early and execute as HTML.
+  // < is valid JSON, so parsers and crawlers are unaffected.
+  const json = JSON.stringify(data).replace(/</g, "\\u003c");
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+      dangerouslySetInnerHTML={{ __html: json }}
     />
   );
 }

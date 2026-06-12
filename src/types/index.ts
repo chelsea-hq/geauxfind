@@ -26,6 +26,9 @@ export interface Place {
   tags: string[];
   reviews: Review[];
   google_place_id?: string;
+  google_rating?: number;
+  /** Review count from Google; on-site review objects live in `reviews`. */
+  google_review_count?: number;
   google_maps_url?: string;
   photo_references?: string[];
   price_level?: string;

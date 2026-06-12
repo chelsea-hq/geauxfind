@@ -9,9 +9,10 @@
 // Usage: node scripts/merge-events.mjs
 // Run daily via cron after scrapers finish.
 
-import { readFile, writeFile } from "node:fs/promises";
+import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { writeJsonGuarded } from "./lib/fetch-retry.mjs";
 
 const __filename = fileURLToPath(import.meta.url);
 const root = path.resolve(path.dirname(__filename), "..");
@@ -183,11 +184,9 @@ async function main() {
   const merged = dedupe([...existing, ...annual, ...fromScrapers]);
   const upcoming = filterUpcoming(merged).sort((a, b) => a.date.localeCompare(b.date));
 
-  await writeFile(
-    path.join(root, "data/events.json"),
-    JSON.stringify(upcoming, null, 2) + "\n",
-    "utf8",
-  );
+  // allowShrink: existing events.json is part of the merge input, so the only
+  // way the file shrinks is expired events aging out - which is correct.
+  await writeJsonGuarded(path.join(root, "data/events.json"), upcoming, { allowShrink: true });
   console.log(`Merged events: ${upcoming.length} upcoming`);
   console.log(`  existing: ${existing.length}`);
   console.log(`  annual festivals: ${annual.length}`);
