@@ -104,6 +104,64 @@ export async function getPlaces(options?: { limit?: number; category?: string; f
   }
 }
 
+/**
+ * Slim, client-safe shape for instant search filtering. Excludes the heavy
+ * fields (reviews, gallery, hours) so the index stays tiny over the wire and
+ * never needs the full place dataset in a client bundle.
+ */
+export interface SearchIndexItem {
+  slug: string;
+  name: string;
+  city: string;
+  category: Place["category"];
+  cuisine?: string;
+  tags: string[];
+  image: string;
+  rating: number;
+  excerpt: string;
+}
+
+const EXCERPT_MAX = 120;
+
+function toExcerpt(description: string): string {
+  const text = description.replace(/\s+/g, " ").trim();
+  if (text.length <= EXCERPT_MAX) return text;
+  return `${text.slice(0, EXCERPT_MAX - 1).trimEnd()}…`;
+}
+
+function toSearchIndexItem(place: Place): SearchIndexItem {
+  return {
+    slug: place.slug,
+    name: place.name,
+    city: place.city,
+    category: place.category,
+    cuisine: place.cuisine,
+    tags: place.tags || [],
+    image: place.image,
+    rating: place.rating,
+    excerpt: toExcerpt(place.description || ""),
+  };
+}
+
+/**
+ * Builds the slim search index for every operational place. Runs server-side
+ * only (reused by the /api/search-index route handler).
+ */
+export async function getSearchIndex(): Promise<SearchIndexItem[]> {
+  try {
+    const supabase = await createServerSupabaseClient();
+    const { data, error } = await supabase
+      .from("places")
+      .select("slug,name,city,type,cuisine,tags,cover_photo,photos,google_rating,community_rating,description,short_description")
+      .order("google_rating", { ascending: false, nullsFirst: false });
+    if (error) throw error;
+    return (data || []).map((row) => toSearchIndexItem(mapPlaceRow(row as PlaceRow)));
+  } catch (error) {
+    console.error("getSearchIndex error:", error);
+    return fallbackPlaces.map(toSearchIndexItem);
+  }
+}
+
 export async function getPlaceBySlug(slug: string): Promise<Place | null> {
   try {
     const supabase = await createServerSupabaseClient();

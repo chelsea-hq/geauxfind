@@ -1,22 +1,44 @@
 "use client";
 
 import Image from "next/image";
-import { useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { EventCard } from "@/components/cards/EventCard";
 import { PlaceCard } from "@/components/cards/PlaceCard";
 import { RecipeCard } from "@/components/cards/RecipeCard";
 import { FilterBar } from "@/components/FilterBar";
 import { Pagination } from "@/components/Pagination";
-import { events, places, recipes } from "@/data/mock-data";
-import { CategoryType } from "@/types";
+import { recipes } from "@/data/static-content";
+import { CategoryType, Event, Place } from "@/types";
 
 const PAGE_SIZE = 24;
+
+// Place categories fetched from /api/places; events fetched from /api/events.
+// Recipes ship as static content. This keeps the full seed dataset out of the
+// client bundle (it used to import @/data/mock-data here).
+const PLACE_TYPES: CategoryType[] = ["food", "music", "finds"];
 
 export function CategoryPage({ type, title }: { type: CategoryType; title: string }) {
   const pathname = usePathname();
   const params = useSearchParams();
   const router = useRouter();
+
+  const [places, setPlaces] = useState<Place[]>([]);
+  const [events, setEvents] = useState<Event[]>([]);
+
+  useEffect(() => {
+    if (PLACE_TYPES.includes(type)) {
+      fetch(`/api/places?category=${type}&limit=800`, { cache: "no-store" })
+        .then((r) => r.json())
+        .then((data) => setPlaces(Array.isArray(data?.places) ? data.places : []))
+        .catch(() => setPlaces([]));
+    } else if (type === "events") {
+      fetch("/api/events?limit=500", { cache: "no-store" })
+        .then((r) => r.json())
+        .then((data) => setEvents(Array.isArray(data?.events) ? data.events : []))
+        .catch(() => setEvents([]));
+    }
+  }, [type]);
 
   const page = Number(params.get("page") ?? "1");
   const city = params.get("city") ?? "all";
@@ -32,10 +54,10 @@ export function CategoryPage({ type, title }: { type: CategoryType; title: strin
     router.push(`${pathname}?${next.toString()}`);
   };
 
-  const cityList = useMemo(() => Array.from(new Set(places.map((p) => p.city))).sort(), []);
-  const tagList = useMemo(() => Array.from(new Set(places.flatMap((p) => p.smartTags ?? []))).sort().slice(0, 20), []);
+  const cityList = useMemo(() => Array.from(new Set(places.map((p) => p.city))).sort(), [places]);
+  const tagList = useMemo(() => Array.from(new Set(places.flatMap((p) => p.smartTags ?? []))).sort().slice(0, 20), [places]);
 
-  const placeBase = useMemo(() => places.filter((p) => p.category === type), [type]);
+  const placeBase = useMemo(() => places.filter((p) => p.category === type), [places, type]);
 
   const placeFiltered = useMemo(() => {
     let list = [...placeBase];
@@ -55,7 +77,7 @@ export function CategoryPage({ type, title }: { type: CategoryType; title: strin
     if (sort === "az") list.sort((a, b) => a.title.localeCompare(b.title));
     else list.sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
     return list;
-  }, [city, sort]);
+  }, [events, city, sort]);
 
   const recipeFiltered = useMemo(() => {
     const list = [...recipes];

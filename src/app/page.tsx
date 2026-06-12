@@ -8,13 +8,15 @@ import { SearchBar } from "@/components/SearchBar";
 import { EventCard } from "@/components/cards/EventCard";
 import { PlaceCard } from "@/components/cards/PlaceCard";
 import { NewsletterSignup } from "@/components/sections/NewsletterSignup";
-import { events, places, recipes } from "@/data/mock-data";
-import seedPlaces from "../../scripts/seed-data.json";
+import { recipes } from "@/data/static-content";
 import { JsonLd } from "@/components/JsonLd";
 import { FaqSection } from "@/components/FaqSection";
 import { HappeningNowBanner } from "@/components/HappeningNowBanner";
 import { useNow } from "@/hooks/use-now";
-import type { Place, WhatsNewItem } from "@/types";
+import type { Event, Place, WhatsNewItem } from "@/types";
+
+// Lightweight place fields for the claim-your-business autocomplete.
+type ClaimablePlace = { slug: string; name: string; city: string; category: string };
 
 const SEASONAL_ITEMS: Array<{ months: number[]; emoji: string; title: string; desc: string; link: string }> = [
   { months: [1, 2], emoji: "👑", title: "King Cake Season", desc: "Find the best king cakes across Acadiana", link: "/search?q=king+cake" },
@@ -36,22 +38,14 @@ export default function Home() {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [aiPicks, setAiPicks] = useState<Array<any>>([]);
   const [aiVibe, setAiVibe] = useState("");
-
-  const claimablePlaces = useMemo(() => (seedPlaces as Place[]), []);
+  const [featuredPlaces, setFeaturedPlaces] = useState<Place[]>([]);
+  const [events, setEvents] = useState<Event[]>([]);
+  const [claimablePlaces, setClaimablePlaces] = useState<ClaimablePlace[]>([]);
 
   // Hydration-safe "now". Null on first render (matches SSR), real Date
   // after mount. All time-dependent rendering below depends on it; the
   // empty-array fallbacks render the same string on server and client.
   const now = useNow();
-
-  const featuredPlaces = useMemo(() => {
-    const seen = new Set<string>();
-    return places.filter((p) => {
-      if (!p.featured || seen.has(p.name)) return false;
-      seen.add(p.name);
-      return true;
-    }).slice(0, 5);
-  }, []);
   const weekendEvents = useMemo(() => {
     if (!now) return [];
     const day = now.getDay();
@@ -71,13 +65,13 @@ export default function Home() {
       })
       .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
       .slice(0, 6);
-  }, [now]);
+  }, [now, events]);
 
   const todaysEvents = useMemo(() => {
     if (!now) return [];
     const today = now.toDateString();
     return events.filter((event) => new Date(`${event.date}T12:00:00`).toDateString() === today);
-  }, [now]);
+  }, [now, events]);
 
   const claimMatches = useMemo(() => {
     const query = businessQuery.trim().toLowerCase();
@@ -95,6 +89,42 @@ export default function Home() {
   const featuredRecipe = recipes[0];
 
   useEffect(() => {
+    // Featured places for the hero grid (deduped by name).
+    fetch("/api/places?featured=true&limit=20")
+      .then((res) => res.json())
+      .then((data) => {
+        const list: Place[] = Array.isArray(data?.places) ? data.places : [];
+        const seen = new Set<string>();
+        const deduped = list.filter((p) => {
+          if (seen.has(p.name)) return false;
+          seen.add(p.name);
+          return true;
+        });
+        setFeaturedPlaces(deduped.slice(0, 5));
+      })
+      .catch(() => setFeaturedPlaces([]));
+
+    fetch("/api/events?limit=300")
+      .then((res) => res.json())
+      .then((data) => setEvents(Array.isArray(data?.events) ? data.events : []))
+      .catch(() => setEvents([]));
+
+    // Slim index (slug + name) powers the claim-your-business autocomplete.
+    fetch("/api/search-index")
+      .then((res) => res.json())
+      .then((data) => {
+        const items = Array.isArray(data?.items) ? data.items : [];
+        setClaimablePlaces(
+          items.map((item: { slug: string; name: string; city: string; category: string }) => ({
+            slug: item.slug,
+            name: item.name,
+            city: item.city,
+            category: item.category,
+          })),
+        );
+      })
+      .catch(() => setClaimablePlaces([]));
+
     fetch("/api/whats-new", { cache: "no-store" })
       .then((res) => res.json())
       .then((data) => setWhatsNewItems(Array.isArray(data) ? data : []))
@@ -107,7 +137,7 @@ export default function Home() {
         setAiVibe(typeof data?.vibe === "string" ? data.vibe : "");
       })
       .catch(() => {
-        setAiPicks(places.filter((p) => p.featured).slice(0, 6));
+        setAiPicks([]);
         setAiVibe("");
       });
 
@@ -199,7 +229,7 @@ export default function Home() {
         </div>
       </section>
 
-      <HappeningNowBanner />
+      <HappeningNowBanner events={events} />
 
       <section className="w-full bg-[var(--cast-iron)] px-4 py-3 text-white reveal">
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-2 text-sm md:text-base">
@@ -249,7 +279,7 @@ export default function Home() {
         <div className="rounded-[12px] border border-[var(--spanish-moss)]/35 bg-white p-6 md:p-8">
           <p className="text-xs tracking-[0.18em] text-[var(--moss)]">FOR BUSINESS OWNERS</p>
           <h2 className="mt-2 text-3xl text-[var(--cajun-red)] md:text-4xl">Own a business in Acadiana?</h2>
-          <p className="mt-2 max-w-3xl text-[var(--cast-iron)]/85">Over {claimablePlaces.length}+ local businesses are already on GeauxFind. Claim yours — it&apos;s free, always.</p>
+          <p className="mt-2 max-w-3xl text-[var(--cast-iron)]/85">Over {Math.max(claimablePlaces.length, 4000)}+ local businesses are already on GeauxFind. Claim yours — it&apos;s free, always.</p>
 
           <div className="mt-4">
             <input

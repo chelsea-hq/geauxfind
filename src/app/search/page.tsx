@@ -8,7 +8,7 @@ import { EventCard } from "@/components/cards/EventCard";
 import { PlaceCard } from "@/components/cards/PlaceCard";
 import { RecipeCard } from "@/components/cards/RecipeCard";
 import { SearchBar } from "@/components/SearchBar";
-import { recipes } from "@/data/mock-data";
+import { recipes } from "@/data/static-content";
 import { Event, Place } from "@/types";
 
 const MAX_PER_SECTION = 20;

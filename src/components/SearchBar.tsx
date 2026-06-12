@@ -1,19 +1,36 @@
 "use client";
 
 import { Search } from "lucide-react";
-import { useMemo, useState } from "react";
-import { places } from "@/data/mock-data";
+import { useEffect, useMemo, useState } from "react";
 
-const PLACE_NAMES = places.map((place) => place.name);
+// Place names for autocomplete are fetched on demand from the slim search
+// index so the full place dataset never ships in this client bundle. Cached at
+// module scope so it loads at most once per session.
+let cachedPlaceNames: string[] | null = null;
 
 export function SearchBar() {
   const [query, setQuery] = useState("");
+  const [placeNames, setPlaceNames] = useState<string[]>(cachedPlaceNames ?? []);
+
+  useEffect(() => {
+    if (cachedPlaceNames) return;
+    fetch("/api/search-index")
+      .then((r) => r.json())
+      .then((data) => {
+        const names = Array.isArray(data?.items)
+          ? data.items.map((item: { name: string }) => item.name)
+          : [];
+        cachedPlaceNames = names;
+        setPlaceNames(names);
+      })
+      .catch(() => null);
+  }, []);
 
   const suggestions = useMemo(() => {
     const q = query.trim().toLowerCase();
     if (!q) return [];
-    return PLACE_NAMES.filter((name) => name.toLowerCase().includes(q)).slice(0, 6);
-  }, [query]);
+    return placeNames.filter((name) => name.toLowerCase().includes(q)).slice(0, 6);
+  }, [query, placeNames]);
 
   const trackSearch = (value: string) => {
     const query = value.trim();
