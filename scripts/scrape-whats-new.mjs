@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 
-import { writeFile, mkdir } from "node:fs/promises";
+import { mkdir } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { fetchWithRetry, writeJsonGuarded } from "./lib/fetch-retry.mjs";
 
 const USER_AGENT = "GeauxFind/1.0 (local news aggregator)";
 
@@ -247,7 +248,7 @@ function buildItem(raw, source) {
 }
 
 async function fetchSource(url) {
-  const res = await fetch(url, { headers: { "User-Agent": USER_AGENT, Accept: "text/html,application/xhtml+xml" } });
+  const res = await fetchWithRetry(url, { headers: { "User-Agent": USER_AGENT, Accept: "text/html,application/xhtml+xml" } });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   return res.text();
 }
@@ -280,7 +281,7 @@ async function scrape() {
   const __dirname = path.dirname(__filename);
   const outPath = path.resolve(__dirname, "../data/whats-new.json");
   await mkdir(path.dirname(outPath), { recursive: true });
-  await writeFile(outPath, JSON.stringify(items, null, 2));
+  await writeJsonGuarded(outPath, items);
 
   console.log(`\nDone. Wrote ${items.length} items to data/whats-new.json`);
 }

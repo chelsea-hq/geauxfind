@@ -80,7 +80,7 @@ export function PlaceCard({
         </div>
         <div className="flex flex-wrap items-center justify-between gap-2">
           <div className="min-w-0"><RatingStars rating={place.rating} /></div>
-          <span className="shrink-0 text-xs text-[var(--warm-gray)]">{place.reviews?.length ?? 0} reviews</span>
+          <span className="shrink-0 text-xs text-[var(--warm-gray)]">{(place.reviews?.length || place.google_review_count) ?? 0} reviews</span>
         </div>
         <p className="flex items-center text-sm text-[var(--warm-gray)]"><MapPin className="mr-1 h-4 w-4" />{place.city}</p>
         {!compact ? <p className="line-clamp-2 text-sm text-[var(--cast-iron)]/85">{blurb ?? place.description}</p> : null}

@@ -196,12 +196,43 @@ async function scrapeFacebookPublic() {
   return out;
 }
 
+const TITLE_SIMILARITY_THRESHOLD = 0.82;
+
+function eventRichness(ev) {
+  let score = 0;
+  if (ev.date) score += 4;
+  if (ev.venue) score += 2;
+  if (ev.address) score += 1;
+  if (ev.url) score += 1;
+  score += Math.min(String(ev.description || "").length, 200) / 100;
+  return score;
+}
+
+function isSameEvent(a, b) {
+  if (titleSimilarity(a.title, b.title) < TITLE_SIMILARITY_THRESHOLD) return false;
+  // Same title at two different venues on the same day is two events.
+  const venueA = normalizeTitle(a.venue);
+  const venueB = normalizeTitle(b.venue);
+  if (venueA && venueB && venueA !== venueB) return false;
+  // Dated events must be on the same day. An undated record with a matching
+  // title is treated as a duplicate of the dated one (link-text noise), and
+  // the dated record wins via richness below.
+  if (a.date && b.date) return a.date.slice(0, 10) === b.date.slice(0, 10);
+  return true;
+}
+
 function dedupe(events) {
   const deduped = [];
   for (const ev of events) {
     if (!ev.title) continue;
-    const dupe = deduped.find((x) => titleSimilarity(x.title, ev.title) >= 0.82 && (!x.date || !ev.date || x.date.slice(0, 10) === ev.date.slice(0, 10)));
-    if (!dupe) deduped.push(ev);
+    const idx = deduped.findIndex((x) => isSameEvent(x, ev));
+    if (idx === -1) {
+      deduped.push(ev);
+    } else if (eventRichness(ev) > eventRichness(deduped[idx])) {
+      // Keep the more complete record (date, venue, description) regardless
+      // of which source happened to be scraped first.
+      deduped[idx] = ev;
+    }
   }
   return deduped;
 }

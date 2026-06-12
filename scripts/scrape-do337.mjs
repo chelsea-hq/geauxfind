@@ -6,6 +6,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { fetchWithRetry } from './lib/fetch-retry.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -20,7 +21,7 @@ function normalizeText(str) {
 }
 
 async function fetchPage(url) {
-  const res = await fetch(url, {
+  const res = await fetchWithRetry(url, {
     headers: {
       'User-Agent': 'GeauxFind/1.0 (local discovery platform)',
       'Accept': 'text/html,application/xhtml+xml,application/xml',

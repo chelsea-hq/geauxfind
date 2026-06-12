@@ -369,7 +369,10 @@ async function main() {
     ai = await readAiKey();
     if (!ai) {
       console.error("Missing OPENROUTER_API_KEY or VENICE_API_KEY. Skipping.");
-      process.exit(0);
+      // In CI a missing key is a misconfigured secret, not a normal state -
+      // exit non-zero so the step shows red (the workflow has
+      // continue-on-error, so the rest of the pipeline still runs).
+      process.exit(process.env.CI ? 1 : 0);
     }
     console.log(`AI provider: ${ai.kind}`);
   } else {

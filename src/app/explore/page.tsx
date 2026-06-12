@@ -74,7 +74,7 @@ function ExploreContent() {
   const filtered = useMemo(() => {
     let list = [...baseFiltered];
     if (category !== "all") list = list.filter((p) => p.category === category);
-    if (sort === "reviews") list.sort((a, b) => (b.reviews?.length ?? 0) - (a.reviews?.length ?? 0));
+    if (sort === "reviews") list.sort((a, b) => (b.reviews?.length || b.google_review_count || 0) - (a.reviews?.length || a.google_review_count || 0));
     else if (sort === "az") list.sort((a, b) => a.name.localeCompare(b.name));
     else list.sort((a, b) => b.rating - a.rating);
     return list;

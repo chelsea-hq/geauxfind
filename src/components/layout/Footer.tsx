@@ -16,7 +16,8 @@ export function Footer() {
             <div className="mt-3 space-y-2 text-sm">
               <Link href="/explore" className="gf-link">Explore</Link><br />
               <Link href="/food" className="gf-link">Food</Link><br />
-              <Link href="/events" className="gf-link">Events</Link>
+              <Link href="/events" className="gf-link">Events</Link><br />
+              <Link href="/trending" className="gf-link">Trending</Link>
             </div>
           </div>
 

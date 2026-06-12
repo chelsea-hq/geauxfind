@@ -2,8 +2,9 @@
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { composeDescription, dedupePlaces, normalizePlace, normToken } from "./lib/places.mjs";
 
-function norm(v = "") { return String(v).toLowerCase().replace(/[^a-z0-9]/g, ""); }
+function norm(v = "") { return normToken(v); }
 function keyFor(p) { return `${norm(p.name)}|${norm(p.city || "lafayette")}`; }
 
 async function readJson(p) {
@@ -68,39 +69,50 @@ async function main() {
     return out;
   });
 
+  const seedKeys = new Set(mergedPlaces.map((p) => keyFor(p)));
   const newFromExternal = [];
   for (const src of [...yelp, ...fsq, ...google]) {
     const key = keyFor(src);
-    if (!mergedPlaces.some((p) => keyFor(p) === key)) {
-      newFromExternal.push({
-        slug: (src.slug || `${norm(src.name)}-${norm(src.city || "lafayette")}`).slice(0, 90),
-        name: src.name,
-        city: src.city || "Lafayette",
-        category: "finds",
-        cuisine: (src.categories || [])[0] || "Local Spot",
-        rating: src.rating || 0,
-        price: src.price || "$$",
-        address: src.address || "",
-        phone: src.phone || "",
-        website: src.website || "",
-        hours: src.hours || [],
-        description: `${src.name} in ${src.city || "Lafayette"}.`,
-        image: src.image || src.photo || "/globe.svg",
-        gallery: (src.photos || []).slice(0, 6),
-        tags: (src.categories || []).slice(0, 8),
-        reviews: []
-      });
-    }
+    if (seedKeys.has(key)) continue;
+    seedKeys.add(key);
+    const entry = {
+      slug: (src.slug || `${norm(src.name)}-${norm(src.city || "lafayette")}`).slice(0, 90),
+      name: src.name,
+      city: src.city || "Lafayette",
+      category: "finds",
+      cuisine: (src.categories || [])[0] || "Local Spot",
+      rating: src.rating || 0,
+      price: src.price || "$$",
+      address: src.address || "",
+      phone: src.phone || "",
+      website: src.website || "",
+      hours: src.hours || [],
+      description: "",
+      image: src.image || src.photo || "/globe.svg",
+      gallery: (src.photos || []).slice(0, 6),
+      tags: (src.categories || []).slice(0, 8),
+      reviews: []
+    };
+    entry.description = composeDescription(entry);
+    newFromExternal.push(entry);
   }
 
-  const finalPlaces = [...mergedPlaces, ...newFromExternal];
+  // Final safety net: normalize every record and collapse any duplicates so a
+  // bad upstream source can never reintroduce schema drift or dupes.
+  const deduped = dedupePlaces([...mergedPlaces, ...newFromExternal]);
+  const finalPlaces = deduped.places.map(normalizePlace);
   const mergeReport = {
     matched: mergedPlaces.length,
     addedNew: newFromExternal.length,
+    dedupedOnWrite: deduped.removed,
+    junkDropped: deduped.junk,
     conflicts: conflicts.slice(0, 500)
   };
 
-  await writeFile(seedPath, `${JSON.stringify(finalPlaces, null, 2)}\n`);
+  // Tight shrink guard: seed-data is the most load-bearing file in the weekly
+  // cron and gets auto-committed; a >30% record loss means something upstream
+  // broke, so keep the existing data and let the log surface it.
+  await writeJsonGuarded(seedPath, finalPlaces, { maxShrinkRatio: 0.3 });
   await writeFile(path.resolve(__dirname, "../data/merge-report.json"), `${JSON.stringify(mergeReport, null, 2)}\n`);
   console.log(`Merged. Existing: ${mergedPlaces.length}, added: ${newFromExternal.length}, conflicts: ${conflicts.length}`);
 }

@@ -43,7 +43,7 @@ export function CategoryPage({ type, title }: { type: CategoryType; title: strin
     list = list.filter((p) => (selectedPrices.length ? selectedPrices.includes(p.price) : true));
     list = list.filter((p) => (rating ? p.rating >= rating : true));
     list = list.filter((p) => (tag === "all" ? true : (p.smartTags ?? []).includes(tag)));
-    if (sort === "reviews") list.sort((a, b) => (b.reviews?.length ?? 0) - (a.reviews?.length ?? 0));
+    if (sort === "reviews") list.sort((a, b) => (b.reviews?.length || b.google_review_count || 0) - (a.reviews?.length || a.google_review_count || 0));
     else if (sort === "az") list.sort((a, b) => a.name.localeCompare(b.name));
     else list.sort((a, b) => b.rating - a.rating);
     return list;
