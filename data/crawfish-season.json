@@ -18,7 +18,7 @@
       "Crawfish Acadiana",
       "Crawfish Time"
     ],
-    "lastUpdated": "2026-06-14T11:42:15.144Z"
+    "lastUpdated": "2026-06-15T13:04:45.243Z"
   },
   "seasonOutlook": [
     "2026 season is \"looking good\" per LSU AgCenter (Todd Fontenot, crawfish extension agent)",
@@ -424,21 +424,6 @@
       "rating": 5
     },
     {
-      "name": "Cody’s Crawfish Shop",
-      "address": "505 Apollo Rd.",
-      "city": "Scott",
-      "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $4.20/lb • Live $2.99/lb • Boiled size: Large • Live size: Large • Rating: 3/5",
-      "pricePerLbEstimate": 4.2,
-      "description": "Listed via The Crawfish App.",
-      "tags": [
-        "Price Tracker"
-      ],
-      "website": null,
-      "phone": "337-456-3003",
-      "rating": 3
-    },
-    {
       "name": "Crawfish Point",
       "address": "616 W. Canal St.",
       "city": "Church Point",
@@ -707,6 +692,21 @@
       "website": null,
       "phone": "337-365-2454",
       "rating": 0
+    },
+    {
+      "name": "Cody’s Crawfish Shop",
+      "address": "505 Apollo Rd.",
+      "city": "Scott",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled $5.99/lb • Live $2.99/lb • Boiled size: Large • Live size: Large • Rating: 3/5",
+      "pricePerLbEstimate": 5.99,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-456-3003",
+      "rating": 3
     },
     {
       "name": "Jane's Seafood",
