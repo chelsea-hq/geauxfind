@@ -1,7 +1,7 @@
 {
   "source": "The Crawfish App",
   "sourceLink": "https://www.thecrawfishapp.com/VendorSearchUi",
-  "lastUpdated": "2026-06-16T12:35:43.530Z",
+  "lastUpdated": "2026-06-17T12:25:36.716Z",
   "cities": [
     {
       "city": "Lafayette",
@@ -228,8 +228,8 @@
       "name": "Randol's",
       "address": "325 West Mills Ave.",
       "city": "Breaux Bridge",
-      "boiledPricePerLb": 5.75,
-      "boiledPriceText": "$5.75/1LB",
+      "boiledPricePerLb": null,
+      "boiledPriceText": "Unavailable/1LB",
       "livePricePerLb": null,
       "livePriceText": "Unavailable/1LB",
       "boiledSize": "Medium",
@@ -237,7 +237,7 @@
       "rating": 5,
       "phone": "337-332-4648",
       "hours": null,
-      "updatedAt": "06/11/2026 09:31 AM CST"
+      "updatedAt": "06/16/2026 05:32 PM CST"
     },
     {
       "name": "Boil & Geaux LLC",

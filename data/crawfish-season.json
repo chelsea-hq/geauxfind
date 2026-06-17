@@ -18,7 +18,7 @@
       "Crawfish Acadiana",
       "Crawfish Time"
     ],
-    "lastUpdated": "2026-06-16T12:35:43.530Z"
+    "lastUpdated": "2026-06-17T12:25:36.716Z"
   },
   "seasonOutlook": [
     "2026 season is \"looking good\" per LSU AgCenter (Todd Fontenot, crawfish extension agent)",
@@ -664,21 +664,6 @@
       "rating": 5
     },
     {
-      "name": "Randol's",
-      "address": "325 West Mills Ave.",
-      "city": "Breaux Bridge",
-      "hours": "Call for seasonal hours",
-      "priceSummary": "Boiled $5.75/lb • Boiled size: Medium • Live size: Medium • Rating: 5/5",
-      "pricePerLbEstimate": 5.75,
-      "description": "Listed via The Crawfish App.",
-      "tags": [
-        "Price Tracker"
-      ],
-      "website": null,
-      "phone": "337-332-4648",
-      "rating": 5
-    },
-    {
       "name": "Seafood Connection",
       "address": "999 Parkview Dr.",
       "city": "New Iberia",
@@ -1142,6 +1127,21 @@
       "website": null,
       "phone": "337-365-7596",
       "rating": 0
+    },
+    {
+      "name": "Randol's",
+      "address": "325 West Mills Ave.",
+      "city": "Breaux Bridge",
+      "hours": "Call for seasonal hours",
+      "priceSummary": "Boiled size: Medium • Live size: Medium • Rating: 5/5",
+      "pricePerLbEstimate": null,
+      "description": "Listed via The Crawfish App.",
+      "tags": [
+        "Price Tracker"
+      ],
+      "website": null,
+      "phone": "337-332-4648",
+      "rating": 5
     },
     {
       "name": "Richard's Seafood Patio",
