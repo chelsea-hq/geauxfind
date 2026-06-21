@@ -1,7 +1,7 @@
 {
   "source": "The Crawfish App",
   "sourceLink": "https://www.thecrawfishapp.com/VendorSearchUi",
-  "lastUpdated": "2026-06-20T11:38:52.160Z",
+  "lastUpdated": "2026-06-21T11:54:16.869Z",
   "cities": [
     {
       "city": "Lafayette",
@@ -380,14 +380,14 @@
       "city": "Crowley",
       "boiledPricePerLb": null,
       "boiledPriceText": "Unavailable/1LB",
-      "livePricePerLb": 2.5,
-      "livePriceText": "$2.50/1LB",
+      "livePricePerLb": null,
+      "livePriceText": "Unavailable/1LB",
       "boiledSize": "Medium",
       "liveSize": "Medium",
       "rating": 5,
       "phone": "337-581-4729",
       "hours": null,
-      "updatedAt": "06/12/2026 11:57 AM CST"
+      "updatedAt": "06/20/2026 11:52 AM CST"
     },
     {
       "name": "Gilbert's Crawfish Tub",
