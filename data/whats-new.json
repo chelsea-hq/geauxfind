@@ -1,20 +1,53 @@
 [
   {
-    "id": "popular-lafayette-sushi-and-hibachi-restaurant-announces-new-location",
-    "title": "Popular Lafayette Sushi and Hibachi Restaurant Announces New Location",
+    "id": "ccs-coffee-house-opens-new-location-in-scott",
+    "title": "CC’s Coffee House Opens New Location in Scott",
     "source": "KPEL 96.5",
     "sourceUrl": "https://kpel965.com/",
-    "url": "https://kpel965.com/ixp/29/p/new-location-tsubaki-sushi/",
-    "excerpt": "Local update from Popular Lafayette Sushi and Hibachi Restaurant Announces New Location.",
-    "date": "2026-06-22T13:00:40.983Z",
-    "imageUrl": "https://townsquare.media/site/29/files/2026/06/attachment-screen-shot-2026-06-18-at-8-45-41-am.jpg?w=980&q=75",
+    "url": "https://kpel965.com/ixp/29/p/ccs-coffee-house-scott/",
+    "excerpt": "Local update from CC’s Coffee House Opens New Location in Scott.",
+    "date": "2026-06-23T12:13:57.611Z",
+    "imageUrl": "https://townsquare.media/site/29/files/2026/06/attachment-screen-shot-2026-06-22-at-11-39-49-am.jpg?w=980&q=75",
+    "category": "Food News",
+    "tags": [
+      "food news",
+      "coffee",
+      "new"
+    ],
+    "city": "Scott"
+  },
+  {
+    "id": "this-new-orleans-restaurant-has-best-brunch-item-in-america",
+    "title": "This New Orleans Restaurant Has Best Brunch Item in America",
+    "source": "KPEL 96.5",
+    "sourceUrl": "https://kpel965.com/",
+    "url": "https://kpel965.com/ixp/33/p/new-orleans-brunch-spots/",
+    "excerpt": "Local update from This New Orleans Restaurant Has Best Brunch Item in America.",
+    "date": "2026-06-23T12:13:57.611Z",
+    "imageUrl": "https://images.unsplash.com/photo-1571949932031-0ff179cbf0c9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4MTAzODB8MHwxfGFsbHx8fHx8fHx8fDE3ODIxMzQxNDZ8&ixlib=rb-4.1.0&q=75&w=980",
     "category": "New Restaurant",
     "tags": [
       "new restaurant",
-      "new",
-      "lafayette"
+      "brunch",
+      "new"
+    ]
+  },
+  {
+    "id": "cc8217s-coffee-house-opens-new-location-in-scott",
+    "title": "CC&#8217;s Coffee House Opens New Location in Scott",
+    "source": "973 The Dawg",
+    "sourceUrl": "https://973thedawg.com/categories/lafayette-news/",
+    "url": "https://973thedawg.com/ixp/29/p/ccs-coffee-house-scott/",
+    "excerpt": "Local update from CC&#8217;s Coffee House Opens New Location in Scott.",
+    "date": "2026-06-23T12:13:56.854Z",
+    "imageUrl": "https://townsquare.media/site/29/files/2026/06/attachment-screen-shot-2026-06-22-at-11-39-49-am.jpg?w=980&q=75",
+    "category": "Food News",
+    "tags": [
+      "food news",
+      "coffee",
+      "new"
     ],
-    "city": "Lafayette"
+    "city": "Scott"
   },
   {
     "id": "popular-lafayette-sushi-and-hibachi-restaurant-announces-new-location",
@@ -23,7 +56,7 @@
     "sourceUrl": "https://973thedawg.com/categories/lafayette-news/",
     "url": "https://973thedawg.com/ixp/29/p/new-location-tsubaki-sushi/",
     "excerpt": "Local update from Popular Lafayette Sushi and Hibachi Restaurant Announces New Location.",
-    "date": "2026-06-22T13:00:40.830Z",
+    "date": "2026-06-23T12:13:56.854Z",
     "imageUrl": "https://townsquare.media/site/29/files/2026/06/attachment-screen-shot-2026-06-18-at-8-45-41-am.jpg?w=980&q=75",
     "category": "New Restaurant",
     "tags": [
@@ -40,7 +73,7 @@
     "sourceUrl": "https://973thedawg.com/categories/lafayette-news/",
     "url": "https://973thedawg.com/lafayette-new-business-openings-june-2026/",
     "excerpt": "Jude Walker",
-    "date": "2026-06-22T13:00:40.830Z",
+    "date": "2026-06-23T12:13:56.854Z",
     "imageUrl": "https://townsquare.media/site/33/files/2026/06/attachment-51355_7918d9f1a1fa1db.jpg?w=980&q=75",
     "category": "New Restaurant",
     "tags": [
@@ -57,7 +90,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/trader-joes-of-lafayette-construction-progress-june-2026/",
     "excerpt": "Local Business All Day Now Open in at Former SoLou Space in Parc Lafayette All Day, a new all-day dining concept located at 1905 Kaliste Saloom Road in Lafayette, LA, is now open...",
-    "date": "2026-06-22T13:00:38.932Z",
+    "date": "2026-06-23T12:13:54.178Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/06/img_5369-2000x1200.jpg",
     "category": "Business Opening",
     "tags": [
@@ -74,7 +107,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/evan-st-germain-a-local-content-creator-at-es-cream-reviews/",
     "excerpt": "Local update from Evan St. Germain, a local content creator at E&#8217;s Cream Reviews.",
-    "date": "2026-06-22T13:00:38.932Z",
+    "date": "2026-06-23T12:13:54.178Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/06/hqdefault-1-360x220.jpg",
     "category": "Food Review",
     "tags": [
@@ -88,43 +121,12 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/back-nine-a-new-indoor-golf-venue-coming-soon-to-lafayette-la/",
     "excerpt": "Local update from Back Nine, A New Indoor Golf Venue Coming Soon To Lafayette, LA.",
-    "date": "2026-06-22T13:00:38.932Z",
+    "date": "2026-06-23T12:13:54.178Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/06/892b60a4-aab9-448a-8d8c-b8d111b52ace-41433-000010dba80d6ea6_file-360x220.jpg",
     "category": "Coming Soon",
     "tags": [
       "coming soon",
       "new",
-      "lafayette"
-    ],
-    "city": "Lafayette"
-  },
-  {
-    "id": "fte-brewing-a-colorado-inspired-microbrewery-coming-soon-to-youngsville-la",
-    "title": "Fête Brewing, A Colorado-Inspired Microbrewery Coming Soon to Youngsville, LA",
-    "source": "Developing Lafayette",
-    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
-    "url": "https://developinglafayette.com/wp/fete-brewing-a-colorado-inspired-microbrewery-coming-soon-to-youngsville-la/",
-    "excerpt": "Local update from Fête Brewing, A Colorado-Inspired Microbrewery Coming Soon to Youngsville, LA.",
-    "date": "2026-06-22T13:00:38.920Z",
-    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/06/ef3107de-3047-41d7-b2a2-04a0f8d3bf8c.png",
-    "category": "Coming Soon",
-    "tags": [
-      "coming soon"
-    ],
-    "city": "Youngsville"
-  },
-  {
-    "id": "desi-mart-international-grocery-coming-soon-to-former-bismillah-groceries-locati",
-    "title": "Desi Mart International Grocery Coming Soon to Former Bismillah Groceries Location in Lafayette, LA",
-    "source": "Developing Lafayette",
-    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
-    "url": "https://developinglafayette.com/wp/desi-mart-international-grocery-coming-soon-to-former-bismillah-groceries-location-in-lafayette-la/",
-    "excerpt": "Local update from Desi Mart International Grocery Coming Soon to Former Bismillah Groceries Location in Lafayette, LA.",
-    "date": "2026-06-22T13:00:38.920Z",
-    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/06/225fcd84-ce08-4d5e-a534-ae88cbb192e2-2000x1200.jpg",
-    "category": "Coming Soon",
-    "tags": [
-      "coming soon",
       "lafayette"
     ],
     "city": "Lafayette"
@@ -136,7 +138,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/campbell-academy-south-opening-new-early-childhood-education-campus-in-broussard-la/",
     "excerpt": "Local update from Campbell Academy South Opening New Early Childhood Education Campus In Broussard, LA.",
-    "date": "2026-06-22T13:00:38.920Z",
+    "date": "2026-06-23T12:13:53.489Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/05/db3a0a8f-662b-47dd-8fdc-e6bd387b98be-2000x1200.jpg",
     "category": "Business Opening",
     "tags": [
@@ -153,7 +155,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/new-los-orthopedic-urgent-care-therapy-clinic-coming-soon-to-youngsville-la/",
     "excerpt": "Local update from New LOS Orthopedic Urgent Care & Therapy Clinic Coming Soon to Youngsville, LA.",
-    "date": "2026-06-22T13:00:38.920Z",
+    "date": "2026-06-23T12:13:53.489Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/05/208bdff5-0add-424d-ab7c-7dae8e32b32f-2000x1200.jpg",
     "category": "Coming Soon",
     "tags": [
@@ -163,13 +165,61 @@
     "city": "Youngsville"
   },
   {
+    "id": "fte-brewing-a-colorado-inspired-microbrewery-coming-soon-to-youngsville-la",
+    "title": "Fête Brewing, A Colorado-Inspired Microbrewery Coming Soon to Youngsville, LA",
+    "source": "Developing Lafayette",
+    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
+    "url": "https://developinglafayette.com/wp/fete-brewing-a-colorado-inspired-microbrewery-coming-soon-to-youngsville-la/",
+    "excerpt": "Local update from Fête Brewing, A Colorado-Inspired Microbrewery Coming Soon to Youngsville, LA.",
+    "date": "2026-06-23T12:13:53.488Z",
+    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/06/ef3107de-3047-41d7-b2a2-04a0f8d3bf8c.png",
+    "category": "Coming Soon",
+    "tags": [
+      "coming soon"
+    ],
+    "city": "Youngsville"
+  },
+  {
+    "id": "desi-mart-international-grocery-coming-soon-to-former-bismillah-groceries-locati",
+    "title": "Desi Mart International Grocery Coming Soon to Former Bismillah Groceries Location in Lafayette, LA",
+    "source": "Developing Lafayette",
+    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
+    "url": "https://developinglafayette.com/wp/desi-mart-international-grocery-coming-soon-to-former-bismillah-groceries-location-in-lafayette-la/",
+    "excerpt": "Local update from Desi Mart International Grocery Coming Soon to Former Bismillah Groceries Location in Lafayette, LA.",
+    "date": "2026-06-23T12:13:53.488Z",
+    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/06/225fcd84-ce08-4d5e-a534-ae88cbb192e2-2000x1200.jpg",
+    "category": "Coming Soon",
+    "tags": [
+      "coming soon",
+      "lafayette"
+    ],
+    "city": "Lafayette"
+  },
+  {
+    "id": "all-day-a-new-all-day-restaurant-is-coming-soon-to-the-former-solou-space-in-laf",
+    "title": "All Day, A New “all-day” Restaurant is Coming Soon to the Former SoLou space in Lafayette, LA",
+    "source": "Developing Lafayette",
+    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
+    "url": "https://developinglafayette.com/wp/all-day-a-new-all-day-restaurant-is-coming-soon-to-the-former-solou-space-in-lafayette-la/",
+    "excerpt": "Local update from All Day, A New “all-day” Restaurant is Coming Soon to the Former SoLou space in Lafayette, LA.",
+    "date": "2026-06-23T12:13:52.635Z",
+    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/04/14bcd144-6ceb-49e3-b327-39a4a505bcc0-2000x1200.jpg",
+    "category": "Coming Soon",
+    "tags": [
+      "coming soon",
+      "new",
+      "lafayette"
+    ],
+    "city": "Lafayette"
+  },
+  {
     "id": "tropical-smoothie-cafe-now-open-in-the-former-zorbas-space-in-youngsville-la",
     "title": "Tropical Smoothie Cafe Now Open in the Former Zorba’s Space in Youngsville, LA",
     "source": "Developing Lafayette",
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/tropical-smoothie-cafe-now-open-in-the-former-zorbas-space-in-youngsville-la/",
     "excerpt": "Local update from Tropical Smoothie Cafe Now Open in the Former Zorba’s Space in Youngsville, LA.",
-    "date": "2026-06-22T13:00:37.964Z",
+    "date": "2026-06-23T12:13:52.635Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/04/f94ed43d-6822-47c5-90c2-55632c08c104-2000x1200.jpg",
     "category": "New Restaurant",
     "tags": [
@@ -184,7 +234,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/dunkin-coming-soon-to-broussard-la-inside-walmart-as-store-begins-renovations/",
     "excerpt": "Local update from Dunkin’ Coming Soon to Broussard, LA Inside Walmart as Store Begins Renovations.",
-    "date": "2026-06-22T13:00:37.964Z",
+    "date": "2026-06-23T12:13:52.635Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/04/3f87dcd8-388c-4d61-b672-05a454dde9f1.png",
     "category": "Coming Soon",
     "tags": [
@@ -199,7 +249,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/agave-mexican-grill-cantina-reopens-downtown-lafayette-following-renovations/",
     "excerpt": "Local update from Agave Mexican Grill & Cantina Reopens Downtown Lafayette Following Renovations.",
-    "date": "2026-06-22T13:00:37.964Z",
+    "date": "2026-06-23T12:13:52.635Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/04/0bc5a2b5-3d91-4085-b597-163903a405bd-2000x1200.jpg",
     "category": "Food News",
     "tags": [
@@ -217,7 +267,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/kings-seafood-coming-soon-to-broussard-site-formerly-planned-for-coterie/",
     "excerpt": "Local update from King’s Seafood Coming Soon to Broussard Site Formerly Planned for Coterie.",
-    "date": "2026-06-22T13:00:37.964Z",
+    "date": "2026-06-23T12:13:52.635Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/03/90d9c1a4-8068-47c0-be3e-4cb91bdb9d97-2000x1200.jpg",
     "category": "Coming Soon",
     "tags": [
@@ -233,30 +283,13 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/blazin-hot-chicken-coming-soon-to-the-former-wendys-space-in-broussard-la/",
     "excerpt": "Local update from Blazin’ Hot Chicken Coming Soon to the Former Wendy’s space in Broussard, LA.",
-    "date": "2026-06-22T13:00:37.963Z",
+    "date": "2026-06-23T12:13:52.634Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/05/19258251-aa98-4761-bde2-869d722b09f5-2000x1200.jpg",
     "category": "Coming Soon",
     "tags": [
       "coming soon"
     ],
     "city": "Broussard"
-  },
-  {
-    "id": "all-day-a-new-all-day-restaurant-is-coming-soon-to-the-former-solou-space-in-laf",
-    "title": "All Day, A New “all-day” Restaurant is Coming Soon to the Former SoLou space in Lafayette, LA",
-    "source": "Developing Lafayette",
-    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
-    "url": "https://developinglafayette.com/wp/all-day-a-new-all-day-restaurant-is-coming-soon-to-the-former-solou-space-in-lafayette-la/",
-    "excerpt": "Local update from All Day, A New “all-day” Restaurant is Coming Soon to the Former SoLou space in Lafayette, LA.",
-    "date": "2026-06-22T13:00:37.963Z",
-    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/04/14bcd144-6ceb-49e3-b327-39a4a505bcc0-2000x1200.jpg",
-    "category": "Coming Soon",
-    "tags": [
-      "coming soon",
-      "new",
-      "lafayette"
-    ],
-    "city": "Lafayette"
   },
   {
     "id": "new-spots-for-all-day-food-late-night-drinks-open-today-in-lafayette-heres-what-",
