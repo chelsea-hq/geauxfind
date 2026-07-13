@@ -1,27 +1,12 @@
 [
   {
-    "id": "small-store-sells-big-lottery-winner-in-acadiana",
-    "title": "Small Store Sells Big Lottery Winner in Acadiana",
-    "source": "KPEL 96.5",
-    "sourceUrl": "https://kpel965.com/",
-    "url": "https://kpel965.com/ixp/33/p/mega-millions-ticket-wins-acadiana/",
-    "excerpt": "Local update from Small Store Sells Big Lottery Winner in Acadiana.",
-    "date": "2026-07-12T11:26:40.488Z",
-    "imageUrl": "https://townsquare.media/site/33/files/2025/12/attachment-29096_4578da112d968c6.jpg?w=980&q=75",
-    "category": "Business Opening",
-    "tags": [
-      "business opening",
-      "acadiana"
-    ]
-  },
-  {
     "id": "lafayette-favorite-noahs-cafe-is-coming-back-with-a-new-name-and-owners",
     "title": "Lafayette Favorite Noah’s Cafe Is Coming Back With a New Name and Owners",
     "source": "KPEL 96.5",
     "sourceUrl": "https://kpel965.com/",
     "url": "https://kpel965.com/ixp/37/p/noahs-cafe-reopens-as-yens-cafe-lafayette/",
     "excerpt": "Local update from Lafayette Favorite Noah’s Cafe Is Coming Back With a New Name and Owners.",
-    "date": "2026-07-12T11:26:40.488Z",
+    "date": "2026-07-13T12:13:26.789Z",
     "imageUrl": "https://townsquare.media/site/37/files/2026/07/attachment-img_0740.jpg?w=980&q=75",
     "category": "New Restaurant",
     "tags": [
@@ -38,7 +23,7 @@
     "sourceUrl": "https://kpel965.com/",
     "url": "https://kpel965.com/ixp/33/p/downtown-alive-fall-2026-lafayette/",
     "excerpt": "Local update from Downtown Alive! Announces Fall 2026 Lineup in Lafayette.",
-    "date": "2026-07-12T11:26:40.488Z",
+    "date": "2026-07-13T12:13:26.789Z",
     "imageUrl": "https://townsquare.media/site/33/files/2026/04/attachment-00c5fa72-0c1f-4463-8ec4-3b3cd66777fd.jpeg?w=980&q=75",
     "category": "Food News",
     "tags": [
@@ -49,36 +34,19 @@
     "city": "Lafayette"
   },
   {
-    "id": "2026-louisiana-sugar-cane-festival-lineup-is-set",
-    "title": "2026 Louisiana Sugar Cane Festival Lineup Is Set",
-    "source": "973 The Dawg",
-    "sourceUrl": "https://973thedawg.com/categories/lafayette-news/",
-    "url": "https://973thedawg.com/new-iberia-sugar-cane-festival-2026/",
-    "excerpt": "Local update from 2026 Louisiana Sugar Cane Festival Lineup Is Set.",
-    "date": "2026-07-12T11:26:40.388Z",
-    "imageUrl": "https://townsquare.media/site/33/files/2024/08/attachment-280219827_5180907035324682_3086930330637599003_n.jpg?w=980&q=75",
-    "category": "Event",
+    "id": "small-store-sells-big-lottery-winner-in-acadiana",
+    "title": "Small Store Sells Big Lottery Winner in Acadiana",
+    "source": "KPEL 96.5",
+    "sourceUrl": "https://kpel965.com/",
+    "url": "https://kpel965.com/ixp/33/p/mega-millions-ticket-wins-acadiana/",
+    "excerpt": "Local update from Small Store Sells Big Lottery Winner in Acadiana.",
+    "date": "2026-07-13T12:13:26.788Z",
+    "imageUrl": "https://townsquare.media/site/33/files/2025/12/attachment-29096_4578da112d968c6.jpg?w=980&q=75",
+    "category": "Business Opening",
     "tags": [
-      "event",
-      "festival"
+      "business opening",
+      "acadiana"
     ]
-  },
-  {
-    "id": "lafayette-favorite-noah8217s-cafe-is-coming-back-with-a-new-name-and-owners",
-    "title": "Lafayette Favorite Noah&#8217;s Cafe Is Coming Back With a New Name and Owners",
-    "source": "973 The Dawg",
-    "sourceUrl": "https://973thedawg.com/categories/lafayette-news/",
-    "url": "https://973thedawg.com/ixp/37/p/noahs-cafe-reopens-as-yens-cafe-lafayette/",
-    "excerpt": "DJ Digital",
-    "date": "2026-07-12T11:26:40.387Z",
-    "imageUrl": "https://townsquare.media/site/37/files/2026/07/attachment-img_0740.jpg?w=980&q=75",
-    "category": "New Restaurant",
-    "tags": [
-      "new restaurant",
-      "new",
-      "lafayette"
-    ],
-    "city": "Lafayette"
   },
   {
     "id": "downtown-alive-announces-fall-2026-lineup-in-lafayette",
@@ -87,12 +55,29 @@
     "sourceUrl": "https://973thedawg.com/categories/lafayette-news/",
     "url": "https://973thedawg.com/downtown-alive-fall-2026-lafayette/",
     "excerpt": "Local update from Downtown Alive! Announces Fall 2026 Lineup in Lafayette.",
-    "date": "2026-07-12T11:26:40.387Z",
+    "date": "2026-07-13T12:13:26.274Z",
     "imageUrl": "https://townsquare.media/site/33/files/2026/04/attachment-00c5fa72-0c1f-4463-8ec4-3b3cd66777fd.jpeg?w=980&q=75",
     "category": "Food News",
     "tags": [
       "food news",
       "downtown",
+      "lafayette"
+    ],
+    "city": "Lafayette"
+  },
+  {
+    "id": "lafayette-favorite-noah8217s-cafe-is-coming-back-with-a-new-name-and-owners",
+    "title": "Lafayette Favorite Noah&#8217;s Cafe Is Coming Back With a New Name and Owners",
+    "source": "973 The Dawg",
+    "sourceUrl": "https://973thedawg.com/categories/lafayette-news/",
+    "url": "https://973thedawg.com/ixp/37/p/noahs-cafe-reopens-as-yens-cafe-lafayette/",
+    "excerpt": "DJ Digital",
+    "date": "2026-07-13T12:13:26.273Z",
+    "imageUrl": "https://townsquare.media/site/37/files/2026/07/attachment-img_0740.jpg?w=980&q=75",
+    "category": "New Restaurant",
+    "tags": [
+      "new restaurant",
+      "new",
       "lafayette"
     ],
     "city": "Lafayette"
@@ -104,12 +89,28 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/evan-st-germain-a-local-content-creator-at-es-cream-reviews/",
     "excerpt": "Local update from Evan St. Germain, a local content creator at E&#8217;s Cream Reviews.",
-    "date": "2026-07-12T11:26:38.918Z",
+    "date": "2026-07-13T12:13:24.163Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/06/hqdefault-1-360x220.jpg",
     "category": "Food Review",
     "tags": [
       "food review"
     ]
+  },
+  {
+    "id": "desi-mart-international-grocery-coming-soon-to-former-bismillah-groceries-locati",
+    "title": "Desi Mart International Grocery Coming Soon to Former Bismillah Groceries Location in Lafayette, LA",
+    "source": "Developing Lafayette",
+    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
+    "url": "https://developinglafayette.com/wp/desi-mart-international-grocery-coming-soon-to-former-bismillah-groceries-location-in-lafayette-la/",
+    "excerpt": "Local update from Desi Mart International Grocery Coming Soon to Former Bismillah Groceries Location in Lafayette, LA.",
+    "date": "2026-07-13T12:13:23.444Z",
+    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/06/225fcd84-ce08-4d5e-a534-ae88cbb192e2-2000x1200.jpg",
+    "category": "Coming Soon",
+    "tags": [
+      "coming soon",
+      "lafayette"
+    ],
+    "city": "Lafayette"
   },
   {
     "id": "adage-pilates-centre-opens-in-downtown-lafayette-bringing-reformer-pilates-to-je",
@@ -118,7 +119,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/adage-pilates-centre-opens-in-downtown-lafayette-bringing-reformer-pilates-to-jefferson-street/",
     "excerpt": "Adage Pilates Centre, a new reformer Pilates studio is now open at 209 Jefferson Street, Suite A, in Downtown Lafayette,",
-    "date": "2026-07-12T11:26:38.877Z",
+    "date": "2026-07-13T12:13:23.443Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/07/7b1efe7c-0d20-4b4e-b7f4-64521a395ef7-6556-0000345a115ccc7d_file-2000x1200.jpg",
     "category": "Food News",
     "tags": [
@@ -136,7 +137,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/fete-brewing-a-colorado-inspired-microbrewery-coming-soon-to-youngsville-la/",
     "excerpt": "Local update from Fête Brewing, A Colorado-Inspired Microbrewery Coming Soon to Youngsville, LA.",
-    "date": "2026-07-12T11:26:38.877Z",
+    "date": "2026-07-13T12:13:23.443Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/06/ef3107de-3047-41d7-b2a2-04a0f8d3bf8c.png",
     "category": "Coming Soon",
     "tags": [
@@ -145,29 +146,13 @@
     "city": "Youngsville"
   },
   {
-    "id": "desi-mart-international-grocery-coming-soon-to-former-bismillah-groceries-locati",
-    "title": "Desi Mart International Grocery Coming Soon to Former Bismillah Groceries Location in Lafayette, LA",
-    "source": "Developing Lafayette",
-    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
-    "url": "https://developinglafayette.com/wp/desi-mart-international-grocery-coming-soon-to-former-bismillah-groceries-location-in-lafayette-la/",
-    "excerpt": "Local update from Desi Mart International Grocery Coming Soon to Former Bismillah Groceries Location in Lafayette, LA.",
-    "date": "2026-07-12T11:26:38.877Z",
-    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/06/225fcd84-ce08-4d5e-a534-ae88cbb192e2-2000x1200.jpg",
-    "category": "Coming Soon",
-    "tags": [
-      "coming soon",
-      "lafayette"
-    ],
-    "city": "Lafayette"
-  },
-  {
     "id": "all-day-a-new-all-day-restaurant-is-coming-soon-to-the-former-solou-space-in-laf",
     "title": "All Day, A New “all-day” Restaurant is Coming Soon to the Former SoLou space in Lafayette, LA",
     "source": "Developing Lafayette",
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/all-day-a-new-all-day-restaurant-is-coming-soon-to-the-former-solou-space-in-lafayette-la/",
     "excerpt": "Local update from All Day, A New “all-day” Restaurant is Coming Soon to the Former SoLou space in Lafayette, LA.",
-    "date": "2026-07-12T11:26:38.763Z",
+    "date": "2026-07-13T12:13:22.795Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/04/14bcd144-6ceb-49e3-b327-39a4a505bcc0-2000x1200.jpg",
     "category": "Coming Soon",
     "tags": [
@@ -184,7 +169,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/tropical-smoothie-cafe-now-open-in-the-former-zorbas-space-in-youngsville-la/",
     "excerpt": "Local update from Tropical Smoothie Cafe Now Open in the Former Zorba’s Space in Youngsville, LA.",
-    "date": "2026-07-12T11:26:38.763Z",
+    "date": "2026-07-13T12:13:22.795Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/04/f94ed43d-6822-47c5-90c2-55632c08c104-2000x1200.jpg",
     "category": "New Restaurant",
     "tags": [
@@ -199,7 +184,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/blazin-hot-chicken-coming-soon-to-the-former-wendys-space-in-broussard-la/",
     "excerpt": "Local update from Blazin’ Hot Chicken Coming Soon to the Former Wendy’s space in Broussard, LA.",
-    "date": "2026-07-12T11:26:38.762Z",
+    "date": "2026-07-13T12:13:22.794Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/05/19258251-aa98-4761-bde2-869d722b09f5-2000x1200.jpg",
     "category": "Coming Soon",
     "tags": [
