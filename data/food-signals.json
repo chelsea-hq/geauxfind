@@ -1,7 +1,137 @@
 {
-  "generatedAt": "2026-07-13T13:42:07.464Z",
-  "count": 13,
+  "generatedAt": "2026-07-20T13:34:54.678Z",
+  "count": 39,
   "records": [
+    {
+      "title": "Skip navigation",
+      "url": "https://www.lafayettetravel.com/restaurants/",
+      "source": "www.lafayettetravel.com"
+    },
+    {
+      "title": "Restaurants",
+      "url": "https://www.lafayettetravel.com/food-drink/",
+      "source": "www.lafayettetravel.com"
+    },
+    {
+      "title": "Food",
+      "url": "https://www.lafayettetravel.com/food-drink/food-tours/foodies-guide/",
+      "source": "www.lafayettetravel.com"
+    },
+    {
+      "title": "linkTracking}} > {{data.title}}",
+      "url": "https://www.lafayettetravel.com/restaurants/%7B%7Bhref%7D%7D",
+      "source": "www.lafayettetravel.com"
+    },
+    {
+      "title": "Birding",
+      "url": "https://www.lafayettetravel.com/things-to-do/outdoors/recreation/birding/",
+      "source": "www.lafayettetravel.com"
+    },
+    {
+      "title": "Sports & Recreation",
+      "url": "https://www.lafayettetravel.com/things-to-do/sports-recreation/",
+      "source": "www.lafayettetravel.com"
+    },
+    {
+      "title": "Local Restaurants",
+      "url": "https://www.lafayettetravel.com/food-drink/local-restaurants/",
+      "source": "www.lafayettetravel.com"
+    },
+    {
+      "title": "Louisiana Restaurants",
+      "url": "https://www.lafayettetravel.com/food-drink/louisiana-restaurants/",
+      "source": "www.lafayettetravel.com"
+    },
+    {
+      "title": "National Restaurants",
+      "url": "https://www.lafayettetravel.com/food-drink/national-restaurants/",
+      "source": "www.lafayettetravel.com"
+    },
+    {
+      "title": "Food Tours",
+      "url": "https://www.lafayettetravel.com/food-drink/food-tours/",
+      "source": "www.lafayettetravel.com"
+    },
+    {
+      "title": "Boudin",
+      "url": "https://www.lafayettetravel.com/food-drink/food-tours/boudin/",
+      "source": "www.lafayettetravel.com"
+    },
+    {
+      "title": "Crawfish",
+      "url": "https://www.lafayettetravel.com/food-drink/food-tours/crawfish/",
+      "source": "www.lafayettetravel.com"
+    },
+    {
+      "title": "Gumbo",
+      "url": "https://www.lafayettetravel.com/food-drink/food-tours/gumbo/",
+      "source": "www.lafayettetravel.com"
+    },
+    {
+      "title": "Plate Lunch",
+      "url": "https://www.lafayettetravel.com/food-drink/food-tours/plate-lunch/",
+      "source": "www.lafayettetravel.com"
+    },
+    {
+      "title": "Poboys",
+      "url": "https://www.lafayettetravel.com/food-drink/food-tours/poboys/",
+      "source": "www.lafayettetravel.com"
+    },
+    {
+      "title": "New Restaurants",
+      "url": "https://www.lafayettetravel.com/blog/stories/post/new-restaurants-in-lafayette/",
+      "source": "www.lafayettetravel.com"
+    },
+    {
+      "title": "Recipes",
+      "url": "https://www.lafayettetravel.com/food-drink/recipes/",
+      "source": "www.lafayettetravel.com"
+    },
+    {
+      "title": "Bayous, Beats & Backroads",
+      "url": "https://www.lafayettetravel.com/plan/trip-ideas-itineraries/bayous-beats-backroads/",
+      "source": "www.lafayettetravel.com"
+    },
+    {
+      "title": "Weather",
+      "url": "https://www.lafayettetravel.com/plan/weather/",
+      "source": "www.lafayettetravel.com"
+    },
+    {
+      "title": "Meat Markets in Lafayette",
+      "url": "https://www.lafayettetravel.com/blog/stories/post/meat-markets-in-lafayette/",
+      "source": "www.lafayettetravel.com"
+    },
+    {
+      "title": "Best Happy Hours and Affordable Eats in Lafayette",
+      "url": "https://www.lafayettetravel.com/blog/stories/post/best-happy-hours-and-affordable-eats-in-lafayette/",
+      "source": "www.lafayettetravel.com"
+    },
+    {
+      "title": "It's Crawfish Season, Y'all!",
+      "url": "https://www.lafayettetravel.com/blog/stories/post/its-crawfish-season-yall/",
+      "source": "www.lafayettetravel.com"
+    },
+    {
+      "title": "{{~fill(helpers.partial('custom_responsive_image'), { asset: data.asset, config: helpers.var.config })}}",
+      "url": "https://www.lafayettetravel.com/restaurants/%7B%7BassetLink()%7D%7D",
+      "source": "www.lafayettetravel.com"
+    },
+    {
+      "title": "{{title}}",
+      "url": "https://www.lafayettetravel.com/restaurants/%7B%7Blink.url%7D%7D",
+      "source": "www.lafayettetravel.com"
+    },
+    {
+      "title": "{{venue.title}}",
+      "url": "https://www.lafayettetravel.com/restaurants/%7B%7Bvenue.url%7D%7D",
+      "source": "www.lafayettetravel.com"
+    },
+    {
+      "title": "{{title}}",
+      "url": "https://www.lafayettetravel.com/restaurants/%7B%7Burl%7D%7D",
+      "source": "www.lafayettetravel.com"
+    },
     {
       "title": "Skip to Content",
       "url": "https://thecrawfishapp.com/",
