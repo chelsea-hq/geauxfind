@@ -1,57 +1,57 @@
 {
-  "generatedAt": "2026-07-19T11:36:30.663Z",
+  "generatedAt": "2026-07-20T12:08:17.930Z",
   "totalUSDaily": 10,
   "localishCount": 0,
   "records": [
     {
-      "title": "maps",
+      "title": "weather",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "pubDate": "Sun, 19 Jul 2026 04:20:00 -0700"
+      "pubDate": "Mon, 20 Jul 2026 04:50:00 -0700"
     },
     {
-      "title": "ohio lottery",
+      "title": "facebook",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "pubDate": "Sun, 19 Jul 2026 04:20:00 -0700"
+      "pubDate": "Mon, 20 Jul 2026 04:50:00 -0700"
     },
     {
-      "title": "rickie fowler",
+      "title": "nikoloz basilashvili",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "pubDate": "Sun, 19 Jul 2026 04:20:00 -0700"
+      "pubDate": "Mon, 20 Jul 2026 04:40:00 -0700"
     },
     {
-      "title": "noaa hurricane",
+      "title": "wral",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "pubDate": "Sun, 19 Jul 2026 04:20:00 -0700"
+      "pubDate": "Mon, 20 Jul 2026 04:40:00 -0700"
     },
     {
-      "title": "peter krause",
+      "title": "ukraine moscow drone strike",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "pubDate": "Sun, 19 Jul 2026 04:20:00 -0700"
+      "pubDate": "Mon, 20 Jul 2026 04:40:00 -0700"
     },
     {
-      "title": "pa lottery",
+      "title": "troy jackson maine",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "pubDate": "Sun, 19 Jul 2026 04:20:00 -0700"
+      "pubDate": "Mon, 20 Jul 2026 04:40:00 -0700"
     },
     {
-      "title": "mass lottery",
+      "title": "trey murphy trade rumors",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "pubDate": "Sun, 19 Jul 2026 04:20:00 -0700"
+      "pubDate": "Mon, 20 Jul 2026 04:40:00 -0700"
     },
     {
-      "title": "strands hint",
+      "title": "heat advisory",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "pubDate": "Sun, 19 Jul 2026 04:10:00 -0700"
+      "pubDate": "Mon, 20 Jul 2026 04:40:00 -0700"
     },
     {
-      "title": "kai trump",
+      "title": "iren stock",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "pubDate": "Sun, 19 Jul 2026 04:10:00 -0700"
+      "pubDate": "Mon, 20 Jul 2026 04:30:00 -0700"
     },
     {
-      "title": "karl-anthony towns",
+      "title": "boeing",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "pubDate": "Sun, 19 Jul 2026 04:10:00 -0700"
+      "pubDate": "Mon, 20 Jul 2026 04:20:00 -0700"
     }
   ],
   "localish": []
