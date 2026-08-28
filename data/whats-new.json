@@ -1,45 +1,44 @@
 [
   {
-    "id": "kks-cafe-opens-new-carencro-location",
-    "title": "KK's Cafe Opens New Carencro Location",
+    "id": "bon-appetit-names-louisiana-restaurant-to-best-of-list",
+    "title": "Bon Appetit Names Louisiana Restaurant to 'Best of' List",
     "source": "KPEL 96.5",
     "sourceUrl": "https://kpel965.com/",
-    "url": "https://kpel965.com/ixp/34/p/kks-cafe-carencro-louisiana-now-open/",
-    "excerpt": "Local update from KK's Cafe Opens New Carencro Location.",
-    "date": "2026-08-27T20:54:47.370Z",
-    "imageUrl": "https://townsquare.media/site/34/files/2026/08/attachment-615419908_1449657393827878_5651576848823687261_n.jpg?w=980&q=75",
-    "category": "New Restaurant",
+    "url": "https://kpel965.com/ixp/33/p/louisiana-restaurant-earns-national-recognition-2026/",
+    "excerpt": "A Louisiana restaurant just made Bon App&#xE9;tit&apos;s best new list for 2026, and it&apos;s doing something pretty special out in the countryside.",
+    "date": "2026-08-28T21:20:15.686Z",
+    "imageUrl": "https://images.unsplash.com/photo-1687648431656-da99da578d50?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4MTAzODB8MHwxfGFsbHx8fHx8fHx8fDE3ODc3MjYzNTN8&ixlib=rb-4.1.0&q=75&bid=33&w=980",
+    "category": "Food Review",
     "tags": [
-      "new restaurant",
+      "food review",
       "new"
-    ],
-    "city": "Carencro"
+    ]
   },
   {
-    "id": "beloved-lafayette-gift-shop-announces-it-is-closing-but-new-tenants-to-occupy-bu",
-    "title": "Beloved Lafayette Gift Shop Announces It Is Closing, But New Tenants to Occupy Building",
+    "id": "lafayette-jamboree-scores-live-updates-all-weekend",
+    "title": "Lafayette Jamboree Scores: Live Updates All Weekend",
     "source": "KPEL 96.5",
     "sourceUrl": "https://kpel965.com/",
-    "url": "https://kpel965.com/ixp/33/p/silver-suitcase-lafayette-closing/",
-    "excerpt": "Michael Dot Scott",
-    "date": "2026-08-27T20:54:47.370Z",
-    "imageUrl": "https://townsquare.media/site/33/files/2026/08/attachment-capture-23.JPG?w=980&q=75",
-    "category": "Business Opening",
+    "url": "https://kpel965.com/ixp/37/p/high-school-football-scores-jamboree-acadiana/",
+    "excerpt": "Local update from Lafayette Jamboree Scores: Live Updates All Weekend.",
+    "date": "2026-08-28T21:20:15.686Z",
+    "imageUrl": "https://townsquare.media/site/33/files/2020/06/RS21119_GettyImages-830626904.jpeg?w=980&q=75",
+    "category": "Event",
     "tags": [
-      "business opening",
-      "new",
+      "event",
+      "weekend",
       "lafayette"
     ],
     "city": "Lafayette"
   },
   {
-    "id": "2026-cest-bon-seasoning-festival-entertainment-lineup-revealed",
-    "title": "2026 C’est Bon Seasoning Festival Entertainment Lineup Revealed",
-    "source": "KPEL 96.5",
-    "sourceUrl": "https://kpel965.com/",
-    "url": "https://kpel965.com/ixp/33/p/cest-bon-seasoning-fest-2026-lineup/",
-    "excerpt": "Joe Cunningham",
-    "date": "2026-08-27T20:54:47.370Z",
+    "id": "2026-c8217est-bon-seasoning-festival-entertainment-lineup-revealed",
+    "title": "2026 C&#8217;est Bon Seasoning Festival Entertainment Lineup Revealed",
+    "source": "973 The Dawg",
+    "sourceUrl": "https://973thedawg.com/categories/lafayette-news/",
+    "url": "https://973thedawg.com/cest-bon-seasoning-fest-2026-lineup/",
+    "excerpt": "Local update from 2026 C&#8217;est Bon Seasoning Festival Entertainment Lineup Revealed.",
+    "date": "2026-08-28T21:20:15.252Z",
     "imageUrl": "https://townsquare.media/site/33/files/2026/08/attachment-cest-bon-seasoing-festival.jpg?w=980&q=75",
     "category": "Event",
     "tags": [
@@ -54,7 +53,7 @@
     "sourceUrl": "https://973thedawg.com/categories/lafayette-news/",
     "url": "https://973thedawg.com/ixp/34/p/kks-cafe-carencro-louisiana-now-open/",
     "excerpt": "Local update from KK&apos;s Cafe Opens New Carencro Location.",
-    "date": "2026-08-27T20:54:47.054Z",
+    "date": "2026-08-28T21:20:15.251Z",
     "imageUrl": "https://townsquare.media/site/34/files/2026/08/attachment-615419908_1449657393827878_5651576848823687261_n.jpg?w=980&q=75",
     "category": "New Restaurant",
     "tags": [
@@ -70,7 +69,7 @@
     "sourceUrl": "https://973thedawg.com/categories/lafayette-news/",
     "url": "https://973thedawg.com/silver-suitcase-lafayette-closing/",
     "excerpt": "Bernadette Lee",
-    "date": "2026-08-27T20:54:47.054Z",
+    "date": "2026-08-28T21:20:15.251Z",
     "imageUrl": "https://townsquare.media/site/33/files/2026/08/attachment-capture-23.JPG?w=980&q=75",
     "category": "Business Opening",
     "tags": [
@@ -81,44 +80,14 @@
     "city": "Lafayette"
   },
   {
-    "id": "2026-c8217est-bon-seasoning-festival-entertainment-lineup-revealed",
-    "title": "2026 C&#8217;est Bon Seasoning Festival Entertainment Lineup Revealed",
-    "source": "973 The Dawg",
-    "sourceUrl": "https://973thedawg.com/categories/lafayette-news/",
-    "url": "https://973thedawg.com/cest-bon-seasoning-fest-2026-lineup/",
-    "excerpt": "Local update from 2026 C&#8217;est Bon Seasoning Festival Entertainment Lineup Revealed.",
-    "date": "2026-08-27T20:54:47.054Z",
-    "imageUrl": "https://townsquare.media/site/33/files/2026/08/attachment-cest-bon-seasoing-festival.jpg?w=980&q=75",
-    "category": "Event",
-    "tags": [
-      "event",
-      "festival"
-    ]
-  },
-  {
-    "id": "south-louisiana8217s-2026-fall-festival-season-is-packed",
-    "title": "South Louisiana&#8217;s 2026 Fall Festival Season Is Packed",
-    "source": "973 The Dawg",
-    "sourceUrl": "https://973thedawg.com/categories/lafayette-news/",
-    "url": "https://973thedawg.com/ixp/37/p/south-louisiana-fall-festivals-2026/",
-    "excerpt": "Local update from South Louisiana&#8217;s 2026 Fall Festival Season Is Packed.",
-    "date": "2026-08-27T20:54:47.054Z",
-    "imageUrl": "https://townsquare.media/site/37/files/2026/08/attachment-sugarcanefestival.jpeg?w=980&q=75",
-    "category": "Event",
-    "tags": [
-      "event",
-      "festival"
-    ]
-  },
-  {
     "id": "local-business-bubbas-33-a-texas-roadhouse-company-planned-for-now-former-tokyo-",
     "title": "Local Business Bubba’s 33, A Texas Roadhouse Company, Planned For Now-Former Tokyo Japan Steakhouse Property In Lafayette, LA Bubba’s 33 is coming soon to 3511 Ambassador Caffery Parkway in Lafayette, Louisiana, where the now-former Tokyo Japan Steakhouse...",
     "source": "Developing Lafayette",
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/bubbas-33-a-texas-roadhouse-company-planned-for-now-former-tokyo-japan-steakhouse-property-in-lafayette-la/",
-    "excerpt": "Local update from Local Business Bubba’s 33, A Texas Roadhouse Company, Planned For Now-Former Tokyo Japan Steakhouse Property In Lafayette, LA Bubba’s 33 is coming soon to 3511 Ambassador Caffery Parkway in Lafayette, Louisiana, where the now-former Tokyo Jap",
-    "date": "2026-08-27T20:54:43.227Z",
-    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/08/79295337-33bf-4c92-b550-5179a52eea6a-8961-000003060d3be012_file-2000x1200.jpg",
+    "excerpt": "The Tea Podcasts Terin Gary, local content creator as Traveling with Terin We are chatting with Terin Gary, local content creator and the personality behind Traveling with Terin, about her journey...",
+    "date": "2026-08-28T21:20:11.910Z",
+    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/08/hqdefault-2.jpg",
     "category": "Coming Soon",
     "tags": [
       "coming soon",
@@ -133,7 +102,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/trader-joes-of-lafayette-signage-is-up-expected-opening-for-september/",
     "excerpt": "Bubba’s 33 is coming soon to 3511 Ambassador Caffery Parkway in Lafayette, Louisiana, where the now-former Tokyo Japan Steakhouse...",
-    "date": "2026-08-27T20:54:43.227Z",
+    "date": "2026-08-28T21:20:11.910Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/08/79295337-33bf-4c92-b550-5179a52eea6a-8961-000003060d3be012_file-2000x1200.jpg",
     "category": "Coming Soon",
     "tags": [
@@ -150,7 +119,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/parish-ink-coming-soon-to-youngsville-la-moving-from-river-ranch/",
     "excerpt": "Local update from Parish Ink Coming Soon to Youngsville, LA, Moving From River Ranch.",
-    "date": "2026-08-27T20:54:42.603Z",
+    "date": "2026-08-28T21:20:11.868Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/07/5e27bc91-4809-433f-b9fe-5e8ed02267a0-2000x1200.jpg",
     "category": "Coming Soon",
     "tags": [
@@ -165,12 +134,59 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/7-brew-planned-for-former-bourques-specialty-market-property-on-johnston-street-in-lafayette-la/",
     "excerpt": "A third Lafayette location for 7 Brew Coffee is planned for the former Bourque’s Specialty Market property at 3211 Johnston",
-    "date": "2026-08-27T20:54:42.603Z",
+    "date": "2026-08-28T21:20:11.868Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/07/063c82bb-19fe-44e1-9aff-30f17b3678e3-38270-00001010b0a3acd7_file-2000x1200.jpg",
     "category": "Food News",
     "tags": [
       "food news",
       "coffee",
+      "lafayette"
+    ],
+    "city": "Lafayette"
+  },
+  {
+    "id": "primos-bowl-burrito-factory-coming-soon-to-youngsville-louisiana",
+    "title": "Primo’s Bowl & Burrito Factory Coming Soon To Youngsville, Louisiana",
+    "source": "Developing Lafayette",
+    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
+    "url": "https://developinglafayette.com/wp/primos-bowl-burrito-factory-coming-soon-to-youngsville-louisiana/",
+    "excerpt": "Local update from Primo’s Bowl & Burrito Factory Coming Soon To Youngsville, Louisiana.",
+    "date": "2026-08-28T21:20:11.703Z",
+    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/07/image.jpg",
+    "category": "Coming Soon",
+    "tags": [
+      "coming soon"
+    ],
+    "city": "Youngsville"
+  },
+  {
+    "id": "tito8217s-la-casa-an-abbeville-based-italian-restaurant-is-coming-soon-to-youngs",
+    "title": "Tito&#8217;s La Casa, an Abbeville-based Italian Restaurant is Coming Soon to Youngsville, LA, Taking Over Former Le Soleil Orleans Space",
+    "source": "Developing Lafayette",
+    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
+    "url": "https://developinglafayette.com/wp/titos-la-casa-an-abbeville-based-italian-restaurant-is-coming-soon-to-youngsville-la-taking-over-former-le-soleil-orleans-space/",
+    "excerpt": "Local update from Tito&#8217;s La Casa, an Abbeville-based Italian Restaurant is Coming Soon to Youngsville, LA, Taking Over Former Le Soleil Orleans Space.",
+    "date": "2026-08-28T21:20:11.703Z",
+    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/07/img_6735-2000x1200.jpg",
+    "category": "Coming Soon",
+    "tags": [
+      "coming soon"
+    ],
+    "city": "Youngsville"
+  },
+  {
+    "id": "insomnia-cookies-still-planned-for-downtown-lafayette-louisiana",
+    "title": "Insomnia Cookies Still Planned for Downtown Lafayette, Louisiana",
+    "source": "Developing Lafayette",
+    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
+    "url": "https://developinglafayette.com/wp/insomnia-cookies-still-planned-for-downtown-lafayette-louisiana/",
+    "excerpt": "Local update from Insomnia Cookies Still Planned for Downtown Lafayette, Louisiana.",
+    "date": "2026-08-28T21:20:11.703Z",
+    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/07/77acac61-8e09-43a9-8897-50bd78cf74ec-2000x1200.jpg",
+    "category": "Food News",
+    "tags": [
+      "food news",
+      "downtown",
       "lafayette"
     ],
     "city": "Lafayette"
@@ -182,7 +198,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/inside-the-new-walk-ons-in-carencro-opening-set-for-july-20th/",
     "excerpt": "Local update from Inside the New Walk-On’s in Carencro, Opening Set For July 20th.",
-    "date": "2026-08-27T20:54:41.952Z",
+    "date": "2026-08-28T21:20:11.703Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/07/8f32fe9f-3e60-48e3-a705-61268047604f-11229-000004daf9ed5828_file-1-2000x1200.jpg",
     "category": "Business Opening",
     "tags": [
@@ -199,7 +215,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/chatime-premium-boba-tea-cafe-coming-soon-to-lafayette-la/",
     "excerpt": "Local update from Chatime, Premium Boba Tea Café Coming Soon To Lafayette, LA.",
-    "date": "2026-08-27T20:54:41.951Z",
+    "date": "2026-08-28T21:20:11.702Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/08/img_2329-2000x1200.jpg",
     "category": "Coming Soon",
     "tags": [
@@ -215,55 +231,8 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/hotel-lafayette-construction-progress-in-downtown-lafayette-la/",
     "excerpt": "Local update from Hotel Lafayette Construction Progress In Downtown Lafayette, LA.",
-    "date": "2026-08-27T20:54:41.951Z",
+    "date": "2026-08-28T21:20:11.702Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/07/1048d793-2d9e-46d4-86c9-80d2676ecb5e-7206-000002993948c473_file-2000x1200.jpg",
-    "category": "Food News",
-    "tags": [
-      "food news",
-      "downtown",
-      "lafayette"
-    ],
-    "city": "Lafayette"
-  },
-  {
-    "id": "primos-bowl-burrito-factory-coming-soon-to-youngsville-louisiana",
-    "title": "Primo’s Bowl & Burrito Factory Coming Soon To Youngsville, Louisiana",
-    "source": "Developing Lafayette",
-    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
-    "url": "https://developinglafayette.com/wp/primos-bowl-burrito-factory-coming-soon-to-youngsville-louisiana/",
-    "excerpt": "Local update from Primo’s Bowl & Burrito Factory Coming Soon To Youngsville, Louisiana.",
-    "date": "2026-08-27T20:54:41.951Z",
-    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/07/image.jpg",
-    "category": "Coming Soon",
-    "tags": [
-      "coming soon"
-    ],
-    "city": "Youngsville"
-  },
-  {
-    "id": "tito8217s-la-casa-an-abbeville-based-italian-restaurant-is-coming-soon-to-youngs",
-    "title": "Tito&#8217;s La Casa, an Abbeville-based Italian Restaurant is Coming Soon to Youngsville, LA, Taking Over Former Le Soleil Orleans Space",
-    "source": "Developing Lafayette",
-    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
-    "url": "https://developinglafayette.com/wp/titos-la-casa-an-abbeville-based-italian-restaurant-is-coming-soon-to-youngsville-la-taking-over-former-le-soleil-orleans-space/",
-    "excerpt": "Local update from Tito&#8217;s La Casa, an Abbeville-based Italian Restaurant is Coming Soon to Youngsville, LA, Taking Over Former Le Soleil Orleans Space.",
-    "date": "2026-08-27T20:54:41.951Z",
-    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/07/img_6735-2000x1200.jpg",
-    "category": "Coming Soon",
-    "tags": [
-      "coming soon"
-    ],
-    "city": "Youngsville"
-  },
-  {
-    "id": "insomnia-cookies-still-planned-for-downtown-lafayette-louisiana",
-    "title": "Insomnia Cookies Still Planned for Downtown Lafayette, Louisiana",
-    "source": "Developing Lafayette",
-    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
-    "url": "https://developinglafayette.com/wp/insomnia-cookies-still-planned-for-downtown-lafayette-louisiana/",
-    "excerpt": "Local update from Insomnia Cookies Still Planned for Downtown Lafayette, Louisiana.",
-    "date": "2026-08-27T20:54:41.951Z",
-    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/07/77acac61-8e09-43a9-8897-50bd78cf74ec-2000x1200.jpg",
     "category": "Food News",
     "tags": [
       "food news",
@@ -279,7 +248,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/bagels-a-new-locally-founded-bagel-shop-coming-soon-to-lafayette/",
     "excerpt": "Local update from Bagels!, A New Locally Founded Bagel Shop Coming Soon To Lafayette, LA.",
-    "date": "2026-08-27T20:54:41.950Z",
+    "date": "2026-08-28T21:20:11.701Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/08/att.5niss18hcjf00lycewphp0xxu0pdmujxxlwxg53gmnc-1.jpg",
     "category": "Coming Soon",
     "tags": [
