@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-24T13:47:05.830Z",
-  "count": 39,
+  "generatedAt": "2026-08-31T19:22:20.288Z",
+  "count": 38,
   "records": [
     {
       "title": "Skip navigation",
@@ -108,11 +108,6 @@
       "source": "www.lafayettetravel.com"
     },
     {
-      "title": "It's Crawfish Season, Y'all!",
-      "url": "https://www.lafayettetravel.com/blog/stories/post/its-crawfish-season-yall/",
-      "source": "www.lafayettetravel.com"
-    },
-    {
       "title": "{{~fill(helpers.partial('custom_responsive_image'), { asset: data.asset, config: helpers.var.config })}}",
       "url": "https://www.lafayettetravel.com/restaurants/%7B%7BassetLink()%7D%7D",
       "source": "www.lafayettetravel.com"
@@ -179,7 +174,7 @@
     },
     {
       "title": "here",
-      "url": "mailto:contact@thecrawfishapp.com",
+      "url": "https://thecrawfishapp.com/cdn-cgi/l/email-protection",
       "source": "thecrawfishapp.com"
     },
     {
