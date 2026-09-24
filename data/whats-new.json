@@ -1,12 +1,27 @@
 [
   {
+    "id": "born-in-a-bookstore-louisianas-favorite-coffee-shop-revealed",
+    "title": "Born in a Bookstore - Louisiana's Favorite Coffee Shop Revealed",
+    "source": "KPEL 96.5",
+    "sourceUrl": "https://kpel965.com/",
+    "url": "https://kpel965.com/ixp/33/p/louisiana-coffee-culture-explained/",
+    "excerpt": "Born in a Bookstore - Louisiana's Favorite Coffee Shop Revealed From diner coffee to ten dollar specialty drinks, Louisiana&apos;s coffee culture has transformed while staying deeply rooted in tradition.",
+    "date": "2026-09-24T11:09:05.479Z",
+    "imageUrl": "https://images.unsplash.com/photo-1497515114629-f71d768fd07c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4MTAzODB8MHwxfGFsbHx8fHx8fHx8fDE3OTAyMzc2MDl8&ixlib=rb-4.1.0&q=75&bid=33&w=980",
+    "category": "Business Opening",
+    "tags": [
+      "business opening",
+      "coffee"
+    ]
+  },
+  {
     "id": "toys-r-us-announces-return-for-holidays-is-lafayette-getting-toy-store",
     "title": "Toys ‘R’ Us Announces Return for Holidays, Is Lafayette Getting Toy Store?",
     "source": "KPEL 96.5",
     "sourceUrl": "https://kpel965.com/",
     "url": "https://kpel965.com/ixp/29/p/toys-r-us-returns/",
     "excerpt": "Bernadette Lee",
-    "date": "2026-09-23T11:09:11.422Z",
+    "date": "2026-09-24T11:09:05.479Z",
     "imageUrl": "https://townsquare.media/site/29/files/2026/09/attachment-gettyimages-2274112042.jpg?w=980&q=75",
     "category": "Business Opening",
     "tags": [
@@ -16,28 +31,13 @@
     "city": "Lafayette"
   },
   {
-    "id": "week-4-preview-acadiana-hosts-stm-plus-big-friday-night-slate",
-    "title": "Week 4 Preview: Acadiana Hosts STM, Plus Big Friday Night Slate",
-    "source": "KPEL 96.5",
-    "sourceUrl": "https://kpel965.com/",
-    "url": "https://kpel965.com/ixp/37/p/week-4-preview-acadiana-stm-football/",
-    "excerpt": "Local update from Week 4 Preview: Acadiana Hosts STM, Plus Big Friday Night Slate.",
-    "date": "2026-09-23T11:09:11.422Z",
-    "imageUrl": "https://townsquare.media/site/37/files/2026/09/attachment-vermilion-catholic-football-field.jpg?w=980&q=75",
-    "category": "Food Review",
-    "tags": [
-      "food review",
-      "acadiana"
-    ]
-  },
-  {
     "id": "two-new-restaurants-opening-tuesday",
     "title": "Two New Restaurants Opening Tuesday",
     "source": "973 The Dawg",
     "sourceUrl": "https://973thedawg.com/categories/lafayette-news/",
     "url": "https://973thedawg.com/two-acadiana-restaurants-debut-locations/",
     "excerpt": "Joe Cunningham",
-    "date": "2026-09-23T11:09:11.251Z",
+    "date": "2026-09-24T11:09:05.029Z",
     "imageUrl": "https://images.unsplash.com/photo-1701921729931-28722c1b747e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4MTAzODB8MHwxfGFsbHx8fHx8fHx8fDE3OTAwMDQxODZ8&ixlib=rb-4.1.0&q=75&bid=33&w=980",
     "category": "Business Opening",
     "tags": [
@@ -53,11 +53,29 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/new-planet-fitness-coming-soon-to-now-former-office-depot-on-pinhook-kaliste-saloom-in-lafayette-la/",
     "excerpt": "Local update from New Planet Fitness Coming Soon to Now-former Office Depot on Pinhook & Kaliste Saloom in Lafayette, LA.",
-    "date": "2026-09-23T11:09:09.783Z",
+    "date": "2026-09-24T11:09:02.918Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/09/c936ece7-b4eb-4735-b5b4-04cbb6c99e16-24417-00000982bbb0c9cd_file-360x220.jpg",
     "category": "Coming Soon",
     "tags": [
       "coming soon",
+      "new",
+      "lafayette"
+    ],
+    "city": "Lafayette"
+  },
+  {
+    "id": "inside-cocodrie-collectives-new-artist-owned-creative-shop-on-settlers-trace-blv",
+    "title": "Inside Cocodrie Collective’s New Artist-Owned Creative Shop On Settlers Trace Blvd. In Lafayette, LA",
+    "source": "Developing Lafayette",
+    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
+    "url": "https://developinglafayette.com/wp/inside-cocodrie-collectives-new-artist-owned-creative-shop-on-settlers-trace-blvd-in-lafayette-la/",
+    "excerpt": "Cocodrie Collective, an artist-owned creative shop with an existing location in Downtown Lafayette, has officially expanded with a second location",
+    "date": "2026-09-24T11:09:01.351Z",
+    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/09/c059a280-4c6f-40aa-9ba4-bd4aafbb2062-4574-00000115eeba0c7d_file-2000x1200.jpg",
+    "category": "Business Opening",
+    "tags": [
+      "business opening",
+      "downtown",
       "new",
       "lafayette"
     ],
@@ -70,91 +88,8 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/woodhouse-spa-a-new-luxury-spa-coming-soon-to-lafayette-la/",
     "excerpt": "Local update from Woodhouse Spa, A New Luxury Spa Coming Soon To Lafayette, LA.",
-    "date": "2026-09-23T11:09:09.770Z",
+    "date": "2026-09-24T11:09:01.351Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/09/113ce664-e065-4061-9a0e-6008e553e669-37933-00000f5251d1a931_file-2000x1200.jpg",
-    "category": "Coming Soon",
-    "tags": [
-      "coming soon",
-      "new",
-      "lafayette"
-    ],
-    "city": "Lafayette"
-  },
-  {
-    "id": "primos-bowl-burrito-factory-coming-soon-to-youngsville-louisiana",
-    "title": "Primo’s Bowl & Burrito Factory Coming Soon To Youngsville, Louisiana",
-    "source": "Developing Lafayette",
-    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
-    "url": "https://developinglafayette.com/wp/primos-bowl-burrito-factory-coming-soon-to-youngsville-louisiana/",
-    "excerpt": "Local update from Primo’s Bowl & Burrito Factory Coming Soon To Youngsville, Louisiana.",
-    "date": "2026-09-23T11:09:09.742Z",
-    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/07/image.jpg",
-    "category": "Coming Soon",
-    "tags": [
-      "coming soon"
-    ],
-    "city": "Youngsville"
-  },
-  {
-    "id": "1-inside-trader-joes-of-lafayette-opening-tomorrow",
-    "title": "1 Inside Trader Joe’s of Lafayette, Opening Tomorrow",
-    "source": "Developing Lafayette",
-    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
-    "url": "https://developinglafayette.com/wp/inside-trader-joes-of-lafayette-opening-tomorrow/",
-    "excerpt": "Advertisement googletag.cmd.push(function() { googletag.display('div-gpt-ad-1513285359352-0'); });",
-    "date": "2026-09-23T11:09:09.742Z",
-    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/09/5340a58b-77dd-4f28-9f51-128ed4365b76-2000x1125.jpg",
-    "category": "Business Opening",
-    "tags": [
-      "business opening",
-      "opening",
-      "lafayette"
-    ],
-    "city": "Lafayette"
-  },
-  {
-    "id": "5-inside-cocodrie-collectives-new-artist-owned-creative-shop-on-settlers-trace-b",
-    "title": "5 Inside Cocodrie Collective’s New Artist-Owned Creative Shop On Settlers Trace Blvd. In Lafayette, LA",
-    "source": "Developing Lafayette",
-    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
-    "url": "https://developinglafayette.com/wp/inside-cocodrie-collectives-new-artist-owned-creative-shop-on-settlers-trace-blvd-in-lafayette-la/",
-    "excerpt": "Local update from 5 Inside Cocodrie Collective’s New Artist-Owned Creative Shop On Settlers Trace Blvd. In Lafayette, LA.",
-    "date": "2026-09-23T11:09:09.742Z",
-    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/09/d6c891ac-62d6-4239-83f3-f91a14d45187-30868-000009acb7a68bc2_file-2000x1125.jpg",
-    "category": "Business Opening",
-    "tags": [
-      "business opening",
-      "new",
-      "lafayette"
-    ],
-    "city": "Lafayette"
-  },
-  {
-    "id": "sen-viet-kitchen-bar-coming-soon-to-now-former-blu-basil-space-on-johnston-stree",
-    "title": "Sen Viet Kitchen & Bar Coming Soon To Now-Former Blu Basil Space On Johnston Street In Lafayette, LA",
-    "source": "Developing Lafayette",
-    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
-    "url": "https://developinglafayette.com/wp/sen-viet-kitchen-bar-coming-soon-to-now-former-blu-basil-space-on-johnston-street-in-lafayette-la/",
-    "excerpt": "A new locally owned Vietnamese restaurant, called Sen Viet Kitchen & Bar, is coming soon to the now-former Blu Basil",
-    "date": "2026-09-23T11:09:09.741Z",
-    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/09/d6c891ac-62d6-4239-83f3-f91a14d45187-30868-000009acb7a68bc2_file-2000x1200.jpg",
-    "category": "Coming Soon",
-    "tags": [
-      "coming soon",
-      "new",
-      "lafayette"
-    ],
-    "city": "Lafayette"
-  },
-  {
-    "id": "jefferson-market-deli-a-new-neighborhood-grocery-store-coming-soon-to-lafayette-",
-    "title": "Jefferson Market & Deli, A New Neighborhood Grocery Store Coming Soon To Lafayette Northside",
-    "source": "Developing Lafayette",
-    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
-    "url": "https://developinglafayette.com/wp/jefferson-market-deli-a-new-neighborhood-grocery-store-coming-soon-to-lafayette-northside/",
-    "excerpt": "A new neighborhood grocery store called Jefferson Market & Deli is coming soon to 620 Jefferson Boulevard in North Lafayette,",
-    "date": "2026-09-23T11:09:09.741Z",
-    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/09/c3cebaf3-bbb5-4e1e-980a-9edb352400f1-36924-00000f028d6150b9_file-2000x1200.jpg",
     "category": "Coming Soon",
     "tags": [
       "coming soon",
@@ -170,7 +105,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/blazin-hot-chicken-coming-soon-to-former-dickeys-bbq-space-in-carencro-la/",
     "excerpt": "Local update from Blazin’ Hot Chicken Coming Soon To Former Dickey’s BBQ Space In Carencro, LA.",
-    "date": "2026-09-23T11:09:09.741Z",
+    "date": "2026-09-24T11:09:00.399Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/09/8095bf3c-b11d-4382-952e-db4e0c1e62d6-2000x1200.jpg",
     "category": "Coming Soon",
     "tags": [
@@ -186,7 +121,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/bagels-a-new-locally-founded-bagel-shop-coming-soon-to-lafayette/",
     "excerpt": "Local update from Bagels!, A New Locally Founded Bagel Shop Coming Soon To Lafayette, LA.",
-    "date": "2026-09-23T11:09:09.741Z",
+    "date": "2026-09-24T11:09:00.399Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/08/att.5niss18hcjf00lycewphp0xxu0pdmujxxlwxg53gmnc-1.jpg",
     "category": "Coming Soon",
     "tags": [
@@ -203,7 +138,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/chatime-premium-boba-tea-cafe-coming-soon-to-lafayette-la/",
     "excerpt": "Local update from Chatime, Premium Boba Tea Café Coming Soon To Lafayette, LA.",
-    "date": "2026-09-23T11:09:09.741Z",
+    "date": "2026-09-24T11:09:00.399Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/08/img_2329-2000x1200.jpg",
     "category": "Coming Soon",
     "tags": [
@@ -219,12 +154,95 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/hotel-lafayette-construction-progress-in-downtown-lafayette-la/",
     "excerpt": "Local update from Hotel Lafayette Construction Progress In Downtown Lafayette, LA.",
-    "date": "2026-09-23T11:09:09.741Z",
+    "date": "2026-09-24T11:09:00.399Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/07/1048d793-2d9e-46d4-86c9-80d2676ecb5e-7206-000002993948c473_file-2000x1200.jpg",
     "category": "Food News",
     "tags": [
       "food news",
       "downtown",
+      "lafayette"
+    ],
+    "city": "Lafayette"
+  },
+  {
+    "id": "primos-bowl-burrito-factory-coming-soon-to-youngsville-louisiana",
+    "title": "Primo’s Bowl & Burrito Factory Coming Soon To Youngsville, Louisiana",
+    "source": "Developing Lafayette",
+    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
+    "url": "https://developinglafayette.com/wp/primos-bowl-burrito-factory-coming-soon-to-youngsville-louisiana/",
+    "excerpt": "Local update from Primo’s Bowl & Burrito Factory Coming Soon To Youngsville, Louisiana.",
+    "date": "2026-09-24T11:09:00.399Z",
+    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/07/image.jpg",
+    "category": "Coming Soon",
+    "tags": [
+      "coming soon"
+    ],
+    "city": "Youngsville"
+  },
+  {
+    "id": "1-inside-trader-joes-of-lafayette-opening-tomorrow",
+    "title": "1 Inside Trader Joe’s of Lafayette, Opening Tomorrow",
+    "source": "Developing Lafayette",
+    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
+    "url": "https://developinglafayette.com/wp/inside-trader-joes-of-lafayette-opening-tomorrow/",
+    "excerpt": "Advertisement googletag.cmd.push(function() { googletag.display('div-gpt-ad-1513285359352-0'); });",
+    "date": "2026-09-24T11:09:00.399Z",
+    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/09/5340a58b-77dd-4f28-9f51-128ed4365b76-2000x1125.jpg",
+    "category": "Business Opening",
+    "tags": [
+      "business opening",
+      "opening",
+      "lafayette"
+    ],
+    "city": "Lafayette"
+  },
+  {
+    "id": "5-geaux-auto-glass-opens-in-new-location-in-lafayette-la",
+    "title": "5 Geaux Auto Glass Opens In New Location In Lafayette, LA",
+    "source": "Developing Lafayette",
+    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
+    "url": "https://developinglafayette.com/wp/geaux-auto-glass-opens-in-new-location-in-lafayette-la/",
+    "excerpt": "Local update from 5 Geaux Auto Glass Opens In New Location In Lafayette, LA.",
+    "date": "2026-09-24T11:09:00.399Z",
+    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/09/ebf9bf77-e9e7-4cc0-9e8b-bd15b97a7a0a-33932-00000a49eddc3379_file-2000x1125.jpg",
+    "category": "Food News",
+    "tags": [
+      "food news",
+      "new",
+      "lafayette"
+    ],
+    "city": "Lafayette"
+  },
+  {
+    "id": "sen-viet-kitchen-bar-coming-soon-to-now-former-blu-basil-space-on-johnston-stree",
+    "title": "Sen Viet Kitchen & Bar Coming Soon To Now-Former Blu Basil Space On Johnston Street In Lafayette, LA",
+    "source": "Developing Lafayette",
+    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
+    "url": "https://developinglafayette.com/wp/sen-viet-kitchen-bar-coming-soon-to-now-former-blu-basil-space-on-johnston-street-in-lafayette-la/",
+    "excerpt": "A new locally owned Vietnamese restaurant, called Sen Viet Kitchen & Bar, is coming soon to the now-former Blu Basil",
+    "date": "2026-09-24T11:09:00.398Z",
+    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/09/d6c891ac-62d6-4239-83f3-f91a14d45187-30868-000009acb7a68bc2_file-2000x1200.jpg",
+    "category": "Coming Soon",
+    "tags": [
+      "coming soon",
+      "new",
+      "lafayette"
+    ],
+    "city": "Lafayette"
+  },
+  {
+    "id": "jefferson-market-deli-a-new-neighborhood-grocery-store-coming-soon-to-lafayette-",
+    "title": "Jefferson Market & Deli, A New Neighborhood Grocery Store Coming Soon To Lafayette Northside",
+    "source": "Developing Lafayette",
+    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
+    "url": "https://developinglafayette.com/wp/jefferson-market-deli-a-new-neighborhood-grocery-store-coming-soon-to-lafayette-northside/",
+    "excerpt": "A new neighborhood grocery store called Jefferson Market & Deli is coming soon to 620 Jefferson Boulevard in North Lafayette,",
+    "date": "2026-09-24T11:09:00.398Z",
+    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/09/c3cebaf3-bbb5-4e1e-980a-9edb352400f1-36924-00000f028d6150b9_file-2000x1200.jpg",
+    "category": "Coming Soon",
+    "tags": [
+      "coming soon",
+      "new",
       "lafayette"
     ],
     "city": "Lafayette"
@@ -236,7 +254,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/don-juanz-baja-beach-tacos-coming-soon-to-former-super-chix-space-in-lafayette-la/",
     "excerpt": "Don Juanz Baja Beach Tacos, a Louisiana-based restaurant known for its coastal Baja-style tacos and fresh-made Mexican dishes, is coming",
-    "date": "2026-09-23T11:09:09.740Z",
+    "date": "2026-09-24T11:09:00.397Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/09/8ab7019a-ae29-47c8-9d04-df0c12f650be-37507-00000b595cefa61d_file-2000x1200.jpg",
     "category": "Coming Soon",
     "tags": [
