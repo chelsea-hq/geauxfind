@@ -1,12 +1,45 @@
 [
   {
+    "id": "tropical-system-could-impact-acadiana-weekend-the-latest",
+    "title": "Tropical System Could Impact Acadiana Weekend - The Latest",
+    "source": "KPEL 96.5",
+    "sourceUrl": "https://kpel965.com/",
+    "url": "https://kpel965.com/ixp/33/p/tropical-system-gulf-coast-update/",
+    "excerpt": "Local update from Tropical System Could Impact Acadiana Weekend - The Latest.",
+    "date": "2026-10-06T11:09:12.957Z",
+    "imageUrl": "https://townsquare.media/site/33/files/2026/10/attachment-06-oct-sat-cdn-star-nesdis-noaa-gov.JPG?w=980&q=75",
+    "category": "Event",
+    "tags": [
+      "event",
+      "weekend",
+      "acadiana"
+    ]
+  },
+  {
+    "id": "woman-in-lafayette-thinks-ghost-may-be-opening-shed-door-at-night",
+    "title": "Woman in Lafayette Thinks Ghost May Be Opening Shed Door at Night",
+    "source": "KPEL 96.5",
+    "sourceUrl": "https://kpel965.com/",
+    "url": "https://kpel965.com/ixp/29/p/lafayette-ghost-opens-door/",
+    "excerpt": "Local update from Woman in Lafayette Thinks Ghost May Be Opening Shed Door at Night.",
+    "date": "2026-10-06T11:09:12.957Z",
+    "imageUrl": "https://townsquare.media/site/29/files/2026/10/attachment-screen-shot-2026-10-05-at-9-47-40-am.jpg?w=980&q=75",
+    "category": "Business Opening",
+    "tags": [
+      "business opening",
+      "opening",
+      "lafayette"
+    ],
+    "city": "Lafayette"
+  },
+  {
     "id": "system-in-gulf-could-mean-tropical-trouble-by-the-weekend",
     "title": "System In Gulf Could Mean Tropical Trouble By The Weekend",
     "source": "KPEL 96.5",
     "sourceUrl": "https://kpel965.com/",
     "url": "https://kpel965.com/ixp/33/p/tropical-depression-risk-gulf-forecast/",
     "excerpt": "System In Gulf Could Mean Tropical Trouble By The Weekend Gulf forecasters are tracking a low pressure system that could spin up into a tropical cyclone by week&apos;s end.",
-    "date": "2026-10-05T11:09:41.397Z",
+    "date": "2026-10-06T11:09:12.957Z",
     "imageUrl": "https://images.unsplash.com/photo-1623704842237-3cfcee704b28?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4MTAzODB8MHwxfGFsbHx8fHx8fHx8fDE3OTExODA1NzV8&ixlib=rb-4.1.0&q=75&bid=33&w=980",
     "category": "Event",
     "tags": [
@@ -15,72 +48,21 @@
     ]
   },
   {
-    "id": "acadianas-flooding-rain-risk-what-to-expect-for-the-weekend",
-    "title": "Acadiana's Flooding Rain Risk - What to Expect For the Weekend",
-    "source": "KPEL 96.5",
-    "sourceUrl": "https://kpel965.com/",
-    "url": "https://kpel965.com/ixp/33/p/south-louisiana-rain-forecast-weekend/",
-    "excerpt": "Local update from Acadiana's Flooding Rain Risk - What to Expect For the Weekend.",
-    "date": "2026-10-05T11:09:41.397Z",
-    "imageUrl": "https://townsquare.media/site/33/files/2026/07/attachment-gettyimages-2266922721.jpg?w=980&q=75",
-    "category": "Event",
-    "tags": [
-      "event",
-      "weekend",
-      "acadiana"
-    ]
-  },
-  {
-    "id": "jim-deggy8217s-brick-oven-pizza-and-brewery-closes-doors-in-lafayette",
-    "title": "Jim Deggy&#8217;s Brick Oven Pizza and Brewery Closes Doors in Lafayette",
+    "id": "woman-in-lafayette-thinks-ghost-may-be-opening-shed-door-at-night",
+    "title": "Woman in Lafayette Thinks Ghost May Be Opening Shed Door at Night",
     "source": "973 The Dawg",
     "sourceUrl": "https://973thedawg.com/categories/lafayette-news/",
-    "url": "https://973thedawg.com/ixp/29/p/jim-deggys-brick-oven-closes-downtown/",
-    "excerpt": "Jim Deggy&#8217;s Brick Oven Pizza and Brewery Closes Doors in Lafayette The downtown pizza spot that just opened this year has already shut down, and the owners aren&apos;t saying why yet.",
-    "date": "2026-10-05T11:09:41.199Z",
-    "imageUrl": "https://townsquare.media/site/29/files/2026/09/attachment-screenshot-2026-09-29-at-11-46-41-am.png?w=980&q=75",
-    "category": "Food News",
+    "url": "https://973thedawg.com/ixp/29/p/lafayette-ghost-opens-door/",
+    "excerpt": "Local update from Woman in Lafayette Thinks Ghost May Be Opening Shed Door at Night.",
+    "date": "2026-10-06T11:09:12.714Z",
+    "imageUrl": "https://townsquare.media/site/29/files/2026/10/attachment-screen-shot-2026-10-05-at-9-47-40-am.jpg?w=980&q=75",
+    "category": "Business Opening",
     "tags": [
-      "food news",
-      "downtown",
-      "pizza",
+      "business opening",
+      "opening",
       "lafayette"
     ],
     "city": "Lafayette"
-  },
-  {
-    "id": "sammy-kershaw-headlines-the-2026-louisiana-cattle-festival-in-abbeville-this-wee",
-    "title": "Sammy Kershaw Headlines the 2026 Louisiana Cattle Festival in Abbeville This Weekend",
-    "source": "973 The Dawg",
-    "sourceUrl": "https://973thedawg.com/categories/lafayette-news/",
-    "url": "https://973thedawg.com/louisiana-cattle-festival-abbeville-2026/",
-    "excerpt": "Chris Reed",
-    "date": "2026-10-05T11:09:41.199Z",
-    "imageUrl": "https://townsquare.media/site/33/files/2026/01/attachment-sammy-kershaw-gettyimages-1486195089.jpg?w=980&q=75",
-    "category": "Event",
-    "tags": [
-      "event",
-      "festival",
-      "weekend"
-    ],
-    "city": "Abbeville"
-  },
-  {
-    "id": "heavy-rain-could-disrupt-your-acadiana-weekend-here-are-the-events-affected-so-f",
-    "title": "Heavy Rain Could Disrupt Your Acadiana Weekend — Here Are the Events Affected So Far",
-    "source": "973 The Dawg",
-    "sourceUrl": "https://973thedawg.com/categories/lafayette-news/",
-    "url": "https://973thedawg.com/lafayette-weekend-events-weather-changes/",
-    "excerpt": "Rain is coming to Acadiana Thursday through Sunday. Acadiana High&apos;s homecoming game moves to Thursday, October 1. UL Cajuns baseball scrimmage also moves to Thursday.",
-    "date": "2026-10-05T11:09:41.198Z",
-    "imageUrl": "https://images.unsplash.com/photo-1428592953211-077101b2021b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4MTAzODB8MHwxfGFsbHx8fHx8fHx8fDE3OTA3ODExMTh8&ixlib=rb-4.1.0&q=75&bid=33&w=980",
-    "category": "Event",
-    "tags": [
-      "event",
-      "cajun",
-      "weekend",
-      "acadiana"
-    ]
   },
   {
     "id": "inside-trader-joes-of-lafayette-opening-tomorrow",
@@ -89,12 +71,29 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/inside-trader-joes-of-lafayette-opening-tomorrow/",
     "excerpt": "Local update from Inside Trader Joe’s of Lafayette, Opening Tomorrow.",
-    "date": "2026-10-05T11:09:33.908Z",
+    "date": "2026-10-06T11:09:09.353Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/09/5340a58b-77dd-4f28-9f51-128ed4365b76-360x220.jpg",
     "category": "Business Opening",
     "tags": [
       "business opening",
       "opening",
+      "lafayette"
+    ],
+    "city": "Lafayette"
+  },
+  {
+    "id": "geaux-auto-glass-opens-in-new-location-in-lafayette-la",
+    "title": "Geaux Auto Glass Opens In New Location In Lafayette, LA",
+    "source": "Developing Lafayette",
+    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
+    "url": "https://developinglafayette.com/wp/geaux-auto-glass-opens-in-new-location-in-lafayette-la/",
+    "excerpt": "Local update from Geaux Auto Glass Opens In New Location In Lafayette, LA.",
+    "date": "2026-10-06T11:09:09.323Z",
+    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/09/96b63117-cff3-409d-a0bd-bf5eab051fcd-1790-0000006ba4e65487_file-2000x1200.jpg",
+    "category": "Food News",
+    "tags": [
+      "food news",
+      "new",
       "lafayette"
     ],
     "city": "Lafayette"
@@ -106,7 +105,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/inside-cocodrie-collectives-new-artist-owned-creative-shop-on-settlers-trace-blvd-in-lafayette-la/",
     "excerpt": "Cocodrie Collective, an artist-owned creative shop with an existing location in Downtown Lafayette, has officially expanded with a second location",
-    "date": "2026-10-05T11:09:33.217Z",
+    "date": "2026-10-06T11:09:09.323Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/09/c059a280-4c6f-40aa-9ba4-bd4aafbb2062-4574-00000115eeba0c7d_file-2000x1200.jpg",
     "category": "Business Opening",
     "tags": [
@@ -124,7 +123,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/woodhouse-spa-a-new-luxury-spa-coming-soon-to-lafayette-la/",
     "excerpt": "Local update from Woodhouse Spa, A New Luxury Spa Coming Soon To Lafayette, LA.",
-    "date": "2026-10-05T11:09:33.217Z",
+    "date": "2026-10-06T11:09:09.323Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/09/113ce664-e065-4061-9a0e-6008e553e669-37933-00000f5251d1a931_file-2000x1200.jpg",
     "category": "Coming Soon",
     "tags": [
@@ -135,18 +134,18 @@
     "city": "Lafayette"
   },
   {
-    "id": "geaux-auto-glass-opens-in-new-location-in-lafayette-la",
-    "title": "Geaux Auto Glass Opens In New Location In Lafayette, LA",
+    "id": "don-juanz-baja-beach-tacos-coming-soon-to-former-super-chix-space-in-lafayette-l",
+    "title": "Don Juanz Baja Beach Tacos Coming Soon To Former Super Chix Space In Lafayette, LA",
     "source": "Developing Lafayette",
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
-    "url": "https://developinglafayette.com/wp/geaux-auto-glass-opens-in-new-location-in-lafayette-la/",
-    "excerpt": "Local update from Geaux Auto Glass Opens In New Location In Lafayette, LA.",
-    "date": "2026-10-05T11:09:33.216Z",
-    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/09/96b63117-cff3-409d-a0bd-bf5eab051fcd-1790-0000006ba4e65487_file-2000x1200.jpg",
-    "category": "Food News",
+    "url": "https://developinglafayette.com/wp/don-juanz-baja-beach-tacos-coming-soon-to-former-super-chix-space-in-lafayette-la/",
+    "excerpt": "Don Juanz Baja Beach Tacos, a Louisiana-based restaurant known for its coastal Baja-style tacos and fresh-made Mexican dishes, is coming",
+    "date": "2026-10-06T11:09:09.268Z",
+    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/09/8ab7019a-ae29-47c8-9d04-df0c12f650be-37507-00000b595cefa61d_file-2000x1200.jpg",
+    "category": "Coming Soon",
     "tags": [
-      "food news",
-      "new",
+      "coming soon",
+      "mexican",
       "lafayette"
     ],
     "city": "Lafayette"
@@ -158,7 +157,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/sen-viet-kitchen-bar-coming-soon-to-now-former-blu-basil-space-on-johnston-street-in-lafayette-la/",
     "excerpt": "A new locally owned Vietnamese restaurant, called Sen Viet Kitchen & Bar, is coming soon to the now-former Blu Basil",
-    "date": "2026-10-05T11:09:32.249Z",
+    "date": "2026-10-06T11:09:09.268Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/09/d6c891ac-62d6-4239-83f3-f91a14d45187-30868-000009acb7a68bc2_file-2000x1200.jpg",
     "category": "Coming Soon",
     "tags": [
@@ -175,7 +174,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/jefferson-market-deli-a-new-neighborhood-grocery-store-coming-soon-to-lafayette-northside/",
     "excerpt": "A new neighborhood grocery store called Jefferson Market & Deli is coming soon to 620 Jefferson Boulevard in North Lafayette,",
-    "date": "2026-10-05T11:09:32.249Z",
+    "date": "2026-10-06T11:09:09.268Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/09/c3cebaf3-bbb5-4e1e-980a-9edb352400f1-36924-00000f028d6150b9_file-2000x1200.jpg",
     "category": "Coming Soon",
     "tags": [
@@ -192,7 +191,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/blazin-hot-chicken-coming-soon-to-former-dickeys-bbq-space-in-carencro-la/",
     "excerpt": "Local update from Blazin’ Hot Chicken Coming Soon To Former Dickey’s BBQ Space In Carencro, LA.",
-    "date": "2026-10-05T11:09:32.249Z",
+    "date": "2026-10-06T11:09:09.268Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/09/8095bf3c-b11d-4382-952e-db4e0c1e62d6-2000x1200.jpg",
     "category": "Coming Soon",
     "tags": [
@@ -208,7 +207,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/bagels-a-new-locally-founded-bagel-shop-coming-soon-to-lafayette/",
     "excerpt": "Local update from Bagels!, A New Locally Founded Bagel Shop Coming Soon To Lafayette, LA.",
-    "date": "2026-10-05T11:09:32.249Z",
+    "date": "2026-10-06T11:09:09.268Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/08/att.5niss18hcjf00lycewphp0xxu0pdmujxxlwxg53gmnc-1.jpg",
     "category": "Coming Soon",
     "tags": [
@@ -225,7 +224,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/chatime-premium-boba-tea-cafe-coming-soon-to-lafayette-la/",
     "excerpt": "Local update from Chatime, Premium Boba Tea Café Coming Soon To Lafayette, LA.",
-    "date": "2026-10-05T11:09:32.249Z",
+    "date": "2026-10-06T11:09:09.268Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/08/img_2329-2000x1200.jpg",
     "category": "Coming Soon",
     "tags": [
@@ -241,7 +240,7 @@
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/kings-seafood-coming-soon-to-broussard-site-formerly-planned-for-coterie/",
     "excerpt": "Local update from 3 King’s Seafood Coming Soon to Broussard Site Formerly Planned for Coterie.",
-    "date": "2026-10-05T11:09:32.249Z",
+    "date": "2026-10-06T11:09:09.268Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/09/246946c0-0507-4bca-a784-1e1085141e7b-22566-000007d4912d962b_file.jpg",
     "category": "Coming Soon",
     "tags": [
@@ -251,31 +250,13 @@
     "city": "Broussard"
   },
   {
-    "id": "thibodeauxs-a-new-cajun-restaurant-coming-soon-to-former-original-patti-space-in",
-    "title": "Thibodeaux’s, A New Cajun Restaurant Coming Soon To Former Original Patti Space in North Lafayette, LA",
-    "source": "Developing Lafayette",
-    "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
-    "url": "https://developinglafayette.com/wp/thibodeauxs-a-new-cajun-restaurant-coming-soon-to-former-original-patti-space-in-north-lafayette-la/",
-    "excerpt": "A new locally owned Cajun restaurant, called Thibodeaux’s, is coming soon to 505 Pont des Mouton Road in Lafayette, Louisiana,",
-    "date": "2026-10-05T11:09:32.248Z",
-    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/10/45e8c38c-c751-4add-9d41-d217d71d76c6-37476-00000c1cc81dfd0d_file-2000x1200.jpg",
-    "category": "Coming Soon",
-    "tags": [
-      "coming soon",
-      "cajun",
-      "new",
-      "lafayette"
-    ],
-    "city": "Lafayette"
-  },
-  {
     "id": "marcos-pizza-coming-soon-to-the-forum-on-johnston-street-in-lafayette-la",
     "title": "Marco’s Pizza Coming Soon To The Forum On Johnston Street In Lafayette, LA",
     "source": "Developing Lafayette",
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
     "url": "https://developinglafayette.com/wp/marcos-pizza-coming-soon-to-the-forum-on-johnston-street-in-lafayette-la/",
     "excerpt": "Local update from Marco’s Pizza Coming Soon To The Forum On Johnston Street In Lafayette, LA.",
-    "date": "2026-10-05T11:09:32.248Z",
+    "date": "2026-10-06T11:09:09.267Z",
     "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/09/bc9b1a81-46b3-4c3c-8705-ede26ce5fd67-1969-0000012d171d8004_file-2000x1200.jpg",
     "category": "Coming Soon",
     "tags": [
@@ -286,18 +267,19 @@
     "city": "Lafayette"
   },
   {
-    "id": "don-juanz-baja-beach-tacos-coming-soon-to-former-super-chix-space-in-lafayette-l",
-    "title": "Don Juanz Baja Beach Tacos Coming Soon To Former Super Chix Space In Lafayette, LA",
+    "id": "thibodeauxs-a-new-cajun-restaurant-coming-soon-to-former-original-patti-space-in",
+    "title": "Thibodeaux’s, A New Cajun Restaurant Coming Soon To Former Original Patti Space in North Lafayette, LA",
     "source": "Developing Lafayette",
     "sourceUrl": "https://developinglafayette.com/wp/category/restaurant/",
-    "url": "https://developinglafayette.com/wp/don-juanz-baja-beach-tacos-coming-soon-to-former-super-chix-space-in-lafayette-la/",
-    "excerpt": "Don Juanz Baja Beach Tacos, a Louisiana-based restaurant known for its coastal Baja-style tacos and fresh-made Mexican dishes, is coming",
-    "date": "2026-10-05T11:09:32.248Z",
-    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/09/8ab7019a-ae29-47c8-9d04-df0c12f650be-37507-00000b595cefa61d_file-2000x1200.jpg",
+    "url": "https://developinglafayette.com/wp/thibodeauxs-a-new-cajun-restaurant-coming-soon-to-former-original-patti-space-in-north-lafayette-la/",
+    "excerpt": "A new locally owned Cajun restaurant, called Thibodeaux’s, is coming soon to 505 Pont des Mouton Road in Lafayette, Louisiana,",
+    "date": "2026-10-06T11:09:09.266Z",
+    "imageUrl": "https://developinglafayette.com/wp-content/uploads/2026/10/45e8c38c-c751-4add-9d41-d217d71d76c6-37476-00000c1cc81dfd0d_file-2000x1200.jpg",
     "category": "Coming Soon",
     "tags": [
       "coming soon",
-      "mexican",
+      "cajun",
+      "new",
       "lafayette"
     ],
     "city": "Lafayette"
