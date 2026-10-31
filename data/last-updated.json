@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-10-30T11:06:23.872Z",
+  "generatedAt": "2026-10-31T11:05:57.102Z",
   "files": {
-    "events.json": "2026-10-30T11:06:23.833Z",
-    "whats-new.json": "2026-10-30T11:06:22.886Z",
-    "crawfish-prices.json": "2026-10-30T11:04:44.407Z",
-    "crawfish-season.json": "2026-10-30T11:04:44.409Z",
-    "live-music.json": "2026-10-30T11:04:24.479Z",
+    "events.json": "2026-10-31T11:05:57.048Z",
+    "whats-new.json": "2026-10-31T11:05:55.868Z",
+    "crawfish-prices.json": "2026-10-31T11:04:22.369Z",
+    "crawfish-season.json": "2026-10-31T11:04:22.371Z",
+    "live-music.json": "2026-10-31T11:03:24.822Z",
     "kids-eat-free.json": null,
     "weekend-brunch.json": null,
-    "whos-got-it.json": "2026-10-30T11:04:24.509Z",
-    "community-recs.json": "2026-10-30T11:04:24.477Z",
-    "cajun-connection.json": "2026-10-30T11:04:24.477Z"
+    "whos-got-it.json": "2026-10-31T11:03:24.858Z",
+    "community-recs.json": "2026-10-31T11:03:24.819Z",
+    "cajun-connection.json": "2026-10-31T11:03:24.819Z"
   }
 }
