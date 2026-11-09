@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T13:07:31.853Z",
+  "generatedAt": "2026-11-09T13:06:48.040Z",
   "ok": false,
   "reason": "Missing TRIPADVISOR_API_KEY; wrote fallback scraped links",
   "count": 0,
