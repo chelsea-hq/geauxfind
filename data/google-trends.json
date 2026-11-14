@@ -1,58 +1,64 @@
 {
-  "generatedAt": "2026-11-13T11:07:05.856Z",
+  "generatedAt": "2026-11-14T11:05:45.788Z",
   "totalUSDaily": 10,
-  "localishCount": 0,
+  "localishCount": 1,
   "records": [
     {
-      "title": "pakistan vs sri lanka",
+      "title": "klarna",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "pubDate": "Fri, 13 Nov 2026 02:50:00 -0800"
+      "pubDate": "Sat, 14 Nov 2026 02:50:00 -0800"
     },
     {
-      "title": "storm",
+      "title": "st. louis cardinals",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "pubDate": "Fri, 13 Nov 2026 02:40:00 -0800"
+      "pubDate": "Sat, 14 Nov 2026 02:50:00 -0800"
     },
     {
-      "title": "chip roy",
+      "title": "japão x brasil",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "pubDate": "Fri, 13 Nov 2026 02:30:00 -0800"
-    },
-    {
-      "title": "avatar seven havens season 2",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "pubDate": "Fri, 13 Nov 2026 02:30:00 -0800"
-    },
-    {
-      "title": "laurence fishburne",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "pubDate": "Fri, 13 Nov 2026 02:20:00 -0800"
-    },
-    {
-      "title": "王忠林",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "pubDate": "Fri, 13 Nov 2026 02:10:00 -0800"
+      "pubDate": "Sat, 14 Nov 2026 02:40:00 -0800"
     },
     {
       "title": "rory mcilroy",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "pubDate": "Fri, 13 Nov 2026 02:10:00 -0800"
+      "pubDate": "Sat, 14 Nov 2026 02:40:00 -0800"
     },
     {
-      "title": "miami vice stan switek actor",
+      "title": "louisiana high school football scores",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "pubDate": "Fri, 13 Nov 2026 02:00:00 -0800"
+      "pubDate": "Sat, 14 Nov 2026 02:40:00 -0800"
     },
     {
-      "title": "starship flight 15",
+      "title": "japon – brésil",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "pubDate": "Fri, 13 Nov 2026 01:50:00 -0800"
+      "pubDate": "Sat, 14 Nov 2026 02:30:00 -0800"
     },
     {
-      "title": "fundación venezolana de investigaciones sismológicas (funvisis)",
+      "title": "jared gordon",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "pubDate": "Fri, 13 Nov 2026 01:50:00 -0800"
+      "pubDate": "Sat, 14 Nov 2026 02:20:00 -0800"
+    },
+    {
+      "title": "ben roethlisberger",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "pubDate": "Sat, 14 Nov 2026 02:00:00 -0800"
+    },
+    {
+      "title": "tormenta",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "pubDate": "Sat, 14 Nov 2026 01:50:00 -0800"
+    },
+    {
+      "title": "japón - brasil",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "pubDate": "Sat, 14 Nov 2026 01:30:00 -0800"
     }
   ],
-  "localish": []
+  "localish": [
+    {
+      "title": "louisiana high school football scores",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "pubDate": "Sat, 14 Nov 2026 02:40:00 -0800"
+    }
+  ]
 }
