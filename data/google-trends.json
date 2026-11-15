@@ -1,64 +1,58 @@
 {
-  "generatedAt": "2026-11-14T11:05:45.788Z",
+  "generatedAt": "2026-11-15T11:05:34.749Z",
   "totalUSDaily": 10,
-  "localishCount": 1,
+  "localishCount": 0,
   "records": [
-    {
-      "title": "klarna",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "pubDate": "Sat, 14 Nov 2026 02:50:00 -0800"
-    },
-    {
-      "title": "st. louis cardinals",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "pubDate": "Sat, 14 Nov 2026 02:50:00 -0800"
-    },
-    {
-      "title": "japão x brasil",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "pubDate": "Sat, 14 Nov 2026 02:40:00 -0800"
-    },
     {
       "title": "rory mcilroy",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "pubDate": "Sat, 14 Nov 2026 02:40:00 -0800"
+      "pubDate": "Sun, 15 Nov 2026 02:50:00 -0800"
     },
     {
-      "title": "louisiana high school football scores",
+      "title": "espncricinfo",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "pubDate": "Sat, 14 Nov 2026 02:40:00 -0800"
+      "pubDate": "Sun, 15 Nov 2026 02:40:00 -0800"
     },
     {
-      "title": "japon – brésil",
+      "title": "unruly aircraft passenger",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "pubDate": "Sat, 14 Nov 2026 02:30:00 -0800"
+      "pubDate": "Sun, 15 Nov 2026 02:30:00 -0800"
     },
     {
-      "title": "jared gordon",
+      "title": "the tomb of the unknown soldier",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "pubDate": "Sat, 14 Nov 2026 02:20:00 -0800"
+      "pubDate": "Sun, 15 Nov 2026 02:30:00 -0800"
     },
     {
-      "title": "ben roethlisberger",
+      "title": "ana de armas",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "pubDate": "Sat, 14 Nov 2026 02:00:00 -0800"
+      "pubDate": "Sun, 15 Nov 2026 02:30:00 -0800"
     },
     {
-      "title": "tormenta",
+      "title": "robot",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "pubDate": "Sat, 14 Nov 2026 01:50:00 -0800"
+      "pubDate": "Sun, 15 Nov 2026 02:00:00 -0800"
     },
     {
-      "title": "japón - brasil",
+      "title": "india vs new zealand",
       "link": "https://trends.google.com/trending/rss?geo=US",
-      "pubDate": "Sat, 14 Nov 2026 01:30:00 -0800"
+      "pubDate": "Sun, 15 Nov 2026 01:50:00 -0800"
+    },
+    {
+      "title": "rick rubin",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "pubDate": "Sun, 15 Nov 2026 01:10:00 -0800"
+    },
+    {
+      "title": "powerball winning numbers nov 14 2026",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "pubDate": "Sun, 15 Nov 2026 01:10:00 -0800"
+    },
+    {
+      "title": "donald trump iran war",
+      "link": "https://trends.google.com/trending/rss?geo=US",
+      "pubDate": "Sun, 15 Nov 2026 01:10:00 -0800"
     }
   ],
-  "localish": [
-    {
-      "title": "louisiana high school football scores",
-      "link": "https://trends.google.com/trending/rss?geo=US",
-      "pubDate": "Sat, 14 Nov 2026 02:40:00 -0800"
-    }
-  ]
+  "localish": []
 }
