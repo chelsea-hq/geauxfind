@@ -1,7 +1,7 @@
 {
   "source": "The Crawfish App",
   "sourceLink": "https://www.thecrawfishapp.com/VendorSearchUi",
-  "lastUpdated": "2026-11-15T11:03:56.338Z",
+  "lastUpdated": "2026-11-16T11:06:32.005Z",
   "cities": [
     {
       "city": "Lafayette",
@@ -94,15 +94,15 @@
       "address": "1536 South Hospital Rd.",
       "city": "Abbeville",
       "boiledPricePerLb": null,
-      "boiledPriceText": "Out for Season/1LB",
-      "livePricePerLb": null,
-      "livePriceText": "Out for Season/1LB",
+      "boiledPriceText": "Unavailable/1LB",
+      "livePricePerLb": 9,
+      "livePriceText": "$9.00/1LB",
       "boiledSize": "Small",
       "liveSize": "Large",
       "rating": 4,
       "phone": "337-893-9029",
       "hours": null,
-      "updatedAt": "06/22/2026 11:44 PM CST"
+      "updatedAt": "11/15/2026 09:48 PM CST"
     },
     {
       "name": "Jo Mama’s Crawfish",
